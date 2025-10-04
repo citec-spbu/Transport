@@ -22,10 +22,12 @@ class Printer:
         self.metric_calculation_context = metric_calculation_context
 
     def print_graphics(self, print_graph_analis_context: PrintGraphAnalisContext):
+        figures = []
         for hist_metric in print_graph_analis_context.histogram_map_metrics_list:
-            self.plot_histogram(hist_metric)
+            figures.append(self.plot_histogram(hist_metric))
         for heat_map_metric in print_graph_analis_context.heat_map_metrics_list:
-            self.plot_heatmap_on_map(heat_map_metric, print_graph_analis_context.mesh_size)
+            figures.append(self.plot_heatmap_on_map(heat_map_metric, print_graph_analis_context.mesh_size))
+        return figures
 
 
     def plot_histogram(
@@ -51,7 +53,7 @@ class Printer:
             marginal="rug"
         )
 
-        fig.show()
+        return fig
 
     def plot_heatmap_on_map(
             self,
@@ -71,7 +73,7 @@ class Printer:
                 latitudes.append(float(lat))
                 longitudes.append(float(lon))
                 metric_values.append(self.data[metric_name + "_value"][item])
-            except ValueError:
+            except Exception:
                 print(f"Skipping invalid identity")
 
         df = pd.DataFrame({
@@ -120,4 +122,4 @@ class Printer:
             name='Средние значения ' + metric_name,
         ))
 
-        fig.show()
+        return fig

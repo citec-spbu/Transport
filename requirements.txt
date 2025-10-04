@@ -1,9 +1,4 @@
-osmnx==1.9.4
-requests==2.32.3
-beautifulsoup4==4.12.3
-neo4j==5.23.1
-pandas==2.2.2
-plotly==6.0.1
-deep-translator==1.1.4
-quads~=1.1.0
-numpy~=1.24.2
+urban-transit-network-analysis
+dotenv~=0.9.9
+dash
+plotly

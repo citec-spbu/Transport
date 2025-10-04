@@ -35,6 +35,5 @@ class AnalisisManager:
                 printer = Printer(
                     data,
                     graph_analis_context.metric_calculation_context,
-                    ru_city_name
                 )
-                printer.print_graphics(graph_analis_context.print_graph_analis_context)
+                return printer.print_graphics(graph_analis_context.print_graph_analis_context)
