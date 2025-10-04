@@ -5,7 +5,7 @@ from context.AnalisisContext import AnalisContext
 app = Dash(__name__)
 
 
-analis_context = AnalisContext(ru_city_name="Moscow")
+analis_context = AnalisContext(ru_city_name="Санкт-Петербург")
 manager = AnalisisManager()
 figures = manager.process(analis_context)
 
@@ -23,4 +23,4 @@ app.layout = html.Div(children=[
 
 # Запуск веб-сервера
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8050, debug=True)
+    app.run(host='0.0.0.0', port=8050, debug=False)
