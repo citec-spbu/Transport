@@ -22,7 +22,7 @@ services:
       - GRAPH_DATABASE_URL=neo4j://neo4j:7687
       - GRAPH_DATABASE_USER=neo4j
       - GRAPH_DATABASE_PASSWORD=hello123
-    command: python main.py
+    command: python -u main.py
     ports:
       - "8050:8050"
 

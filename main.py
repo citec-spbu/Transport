@@ -1,14 +1,26 @@
 from dash import Dash, dcc, html
 from AnalisisManager import AnalisisManager
+from context.PrintGraphAnalisContext import PrintGraphAnalisContext
 from context.AnalisisContext import AnalisContext
+from context.GraphAnalisContext import GraphAnalisContext
+from enums.GraphTypes import GraphTypes
+from enums.HeatMapMetrics import HeatMapMetrics
 
 app = Dash(__name__)
 
-
-analis_context = AnalisContext(ru_city_name="Санкт-Петербург")
+graph_analysis_context = GraphAnalisContext(
+    city_name="Санкт-Петербург",
+    graph_type=GraphTypes.BUS_GRAPH,
+    print_graph_analis_context=PrintGraphAnalisContext(
+        heat_map_metrics_list=[HeatMapMetrics.PAGE_RANK]
+    )
+)
+analis_context = AnalisContext(
+    ru_city_name="Санкт-Петербург",
+    graph_analis_context=[graph_analysis_context]
+)
 manager = AnalisisManager()
 figures = manager.process(analis_context)
-
 
 graph_components = []
 if figures:
