@@ -6,26 +6,42 @@ import re
 import time
 from abc import abstractmethod
 
+from requests.adapters import HTTPAdapter, Retry
 import requests
+import requests_cache
+import random
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+
 """
     Класс занимающийся парсингом данных с сайта https://kudikina.ru
 """
 
-cache_file = '../cache/city_urls.json'
-cache_expire_days = 30
-site_url = "https://kudikina.ru"
-map_url = "/map"
-timetable_forward_url = "/A"
-timetable_backward_url = "/B"
+# === Global Settings ===
+SITE_URL = "https://kudikina.ru/"
+MAP_URL = "/map"
+TIMETABLE_FORWARD_URL = "/A"
+TIMETABLE_BACKWARD_URL = "/B"
+CACHE_EXPIRE_DAYS = 30
+REQUEST_PAUSE_SEC = 2
 # TODO: need to update according to city coordinates
-city_avg_x_coordinate = 60.0
-city_avg_y_coordinate = 30.0
-request_pause_sec = 2
+CITY_AVG_X_COORDINATE = 60.0
+CITY_AVG_Y_COORDINATE = 30.0
+
+# --- Cache Configuration ---
+BASE_CACHE_DIR = "./cache"
+CITY_CACHE_DIR = os.path.join(BASE_CACHE_DIR, "cities")
+session = requests_cache.CachedSession(
+    cache_name=os.path.join(BASE_CACHE_DIR, "http_cache"),
+    expire_after=datetime.timedelta(days=30),
+)
+retries = Retry(total=5, backoff_factor=2, status_forcelist=[500, 502, 503, 504])
+adapter = HTTPAdapter(max_retries=retries)
+session.mount("http://", adapter)
+session.mount("https://", adapter)
 
 
 class AbstractTransportGraphParser:
-
     def __init__(self, city_name):
         self.city_name = city_name
         self.city_url = self.__get_city_url()
@@ -33,279 +49,361 @@ class AbstractTransportGraphParser:
         self.relationships = []
         self.transport_url = self.get_transport_url()
         self.transport_class = self.get_transport_class()
+        self.city_dir = os.path.join(
+            BASE_CACHE_DIR,
+            "routes_data",
+            self.city_name.lower(),
+            self.transport_url.strip("/"),
+        )
+        os.makedirs(self.city_dir, exist_ok=True)
 
-    def parse(self):
-        if self.city_url is None:
+    # === Main Method ===
+    def parse(self, use_cache=True):
+        if not self.city_url:
+            print(f"[ERROR] City URL for '{self.city_name}' not found. Aborting.")
             return None, None
 
-        for route_info in self.get_all_routes_info():
-            route_name = route_info[0]
-            route_url = route_info[2]
+        transport_type = self.transport_url.strip("/")
+        print(
+            f"[INFO] Starting parsing for city: {self.city_name} (Transport: {transport_type})"
+        )
 
-            self.__add_stops_and_routes(route_name, route_url)
+        routes_index_path = os.path.join(self.city_dir, "routes_index.json")
+        if use_cache and self.__is_cache_fresh(routes_index_path):
+            with open(routes_index_path, "r", encoding="utf-8") as f:
+                all_routes = json.load(f)
+            print("[INFO] Route index loaded from cache.")
+        else:
+            all_routes = self.get_all_routes_info()
+            self.__save_json(routes_index_path, all_routes)
+            print("[INFO] Fetched and saved new route index.")
 
-            print(route_url)
-            time.sleep(request_pause_sec)
+        for route_number, route_name, route_url in all_routes:
+            route_path = self.__get_route_path(route_number)
+            if use_cache and self.__is_cache_fresh(route_path):
+                with open(route_path, "r", encoding="utf-8") as f:
+                    route_data = json.load(f)
+                self.__merge_route_data(route_data)
+                print(f"[CACHE] Loaded route '{route_number}' from cache.")
+                continue
 
+            route_data = self.__parse_single_route(route_number, route_url)
+            if not route_data:
+                continue  # Логирование происходит внутри __parse_single_route
+
+            self.__save_json(route_path, route_data)
+            self.__merge_route_data(route_data)
+            print(f"[FETCH] Parsed and cached route: '{route_number}'")
+            time.sleep(REQUEST_PAUSE_SEC + random.uniform(0.3, 1.2))
+
+        print(f"[SUCCESS] Parsing complete for {self.city_name} ({transport_type}).")
+        print(
+            f"[STATS] Total routes: {len(all_routes)}, Nodes: {len(self.nodes)}, Relationships: {len(self.relationships)}"
+        )
         return self.nodes, self.relationships
 
-    def __get_city_url(self):
-        cities_url = self.load_cache(cache_file)
-        if not cities_url:
-            print("Cities url cache is expired or empty, lets fill it.")
-            cities_url = self.parse_all_city_urls()
-            self.save_cache(cache_file, cities_url)
-            print("Cities url are saved in cache.")
-        city_url = cities_url.get(self.city_name)
-        if city_url is None:
-            print('No such city in parsed data')
-        return city_url
+    # === Single Route Processing ===
+    def __parse_single_route(self, route_number, route_url):
+        timetable, success = self.get_timetable(route_url)
 
-    def __add_stops_and_routes(self, route_name, route_url):
-        (timetable, successes_parse) = self.get_timetable(route_url)
-        if successes_parse is False:
-            return
+        if not success or not timetable:
+            print(f"[WARN] Skipping route '{route_number}': Failed to parse timetable.")
+            return None
 
-        stop_coordinates = self.get_stop_coordinates(route_url)
-        last_coordinate = Coordinate(city_avg_x_coordinate, city_avg_y_coordinate)
-        previous_transport_stop_name = None
-        previous_time_point = None
+        stop_coords = self.get_stop_coordinates(route_url)
+        if not stop_coords:
+            print(
+                f"[WARN] No coordinates found for route '{route_number}'. Proceeding with approximations."
+            )
+
+        route_nodes, route_relationships = {}, []
+        last_coordinate = Coordinate(CITY_AVG_X_COORDINATE, CITY_AVG_Y_COORDINATE)
+        previous_stop = None
+        previous_time = None
 
         for row in timetable:
-            transport_stop_name = row["stopName"]
+            stop_name = row["stopName"]
             time_point = row["timePoint"]
-            coordinate = self.__get_filled_coordinate(stop_coordinates, transport_stop_name, last_coordinate)
 
-            transport_stop = self.__update_or_add_stop(transport_stop_name, coordinate, route_name)
+            coordinate = self.__get_filled_coordinate(
+                stop_coords, stop_name, last_coordinate
+            )
+            node_name, _ = self.__check_and_find_unique_stop(
+                stop_name, coordinate, route_nodes
+            )
 
-            if previous_transport_stop_name is not None:
-                duration = self.calculate_duration(previous_time_point, time_point)
-                if duration is False:
-                    continue
-                self.__add_route(
-                    previous_transport_stop_name,
-                    transport_stop,
-                    duration,
-                    route_name
-                )
+            node = {
+                "name": node_name,
+                "routeList": [route_number],
+                "xCoordinate": coordinate.x,
+                "yCoordinate": coordinate.y,
+                "isCoordinateApproximate": coordinate.is_approximate,
+            }
+            route_nodes[node_name] = node
+
+            if previous_stop:
+                duration = self.calculate_duration(previous_time, time_point)
+                if duration is not False:  # !!! Не пропускаем 0
+                    relationship_name = f"{previous_stop['name']} -> {node_name}; route_name: {route_number}"
+                    route_relationships.append(
+                        {
+                            "startStop": previous_stop["name"],
+                            "endStop": node_name,
+                            "name": relationship_name,
+                            "route": route_number,
+                            "duration": duration,
+                        }
+                    )
 
             last_coordinate = coordinate
-            previous_transport_stop_name = transport_stop
-            previous_time_point = time_point
+            previous_stop = node
+            previous_time = time_point
 
+        return {
+            "routeNumber": route_number,
+            "routeUrl": route_url,
+            "nodes": route_nodes,
+            "relationships": route_relationships,
+            "timetable": timetable,
+            "coordinates": {k: v.__dict__ for k, v in stop_coords.items()},
+            "timestamp": datetime.datetime.now().isoformat(),
+        }
+
+    # === Coordinate Helpers ===
     def __get_filled_coordinate(self, stop_coordinates, stop_name, last_coordinate):
         coordinate = stop_coordinates.get(stop_name)
         if coordinate is None or not coordinate.is_defined():
-            coordinate = Coordinate(last_coordinate.x, last_coordinate.y, True)
+            return Coordinate(last_coordinate.x, last_coordinate.y, True)
         return coordinate
 
-    def __update_or_add_stop(self, transport_stop_name, coordinate, route_name):
+    # === Caching Logic ===
+    def __get_route_path(self, route_number):
+        safe_name = re.sub(r"[^a-zA-Zа-яА-Я0-9_-]", "_", route_number)
+        return os.path.join(self.city_dir, f"{safe_name}.json")
 
-        transport_stop_name, is_new_stop = self.__check_and_find_unique_stop(transport_stop_name, coordinate)
+    def __is_cache_fresh(self, path):
+        if not os.path.exists(path):
+            return False
+        mtime = os.path.getmtime(path)
+        age_in_days = (
+            datetime.datetime.now() - datetime.datetime.fromtimestamp(mtime)
+        ).days
+        return age_in_days <= CACHE_EXPIRE_DAYS
 
-        if not is_new_stop:
-            transport_stop = self.nodes.get(transport_stop_name)
-            transport_stop["roteList"].append(route_name)
-        else:
-            transport_stop = {
-                "name": transport_stop_name,
-                "roteList": [route_name],
-                "xCoordinate": coordinate.x,
-                "yCoordinate": coordinate.y,
-                "isCoordinateApproximate": coordinate.is_approximate
-            }
-            self.nodes[transport_stop_name] = transport_stop
-        return transport_stop
+    def __save_json(self, path, data):
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
 
-    def __check_and_find_unique_stop(self, transport_stop_name, coordinate):
-        is_new_stop = True
-        while self.nodes.get(transport_stop_name) is not None:
-            transport_stop = self.nodes[transport_stop_name]
-            old_coordinate = Coordinate(transport_stop["xCoordinate"], transport_stop["yCoordinate"])
-            if self.are_stops_same(old_coordinate, coordinate):
-                is_new_stop = False
-                break
+    def __merge_route_data(self, route_data):
+        for name, node in route_data.get("nodes", {}).items():
+            if name not in self.nodes:
+                self.nodes[name] = node
             else:
-                transport_stop_name = self.increment_suffix(transport_stop_name)
+                for r in node.get("routeList", []):
+                    if r not in self.nodes[name].get("routeList", []):
+                        self.nodes[name]["routeList"].append(r)
+        self.relationships.extend(route_data.get("relationships", []))
 
-        return transport_stop_name, is_new_stop
-
-    def __add_route(self, start_stop, end_stop, duration, route_name):
-        if start_stop is not None and end_stop is not None:
-            self.relationships.append({"startStop": start_stop["name"],
-                                       "endStop": end_stop["name"],
-                                       "name": start_stop["name"] + " -> " + end_stop[
-                                           "name"] + "; route_name: " + route_name,
-                                       "route": route_name,
-                                       "duration": duration
-                                       })
-
-    def get_all_routes_info(self):
-        if self.city_url is None:
-            return []
-
-        full_url = site_url + self.city_url + self.transport_url
-
-        response = requests.get(full_url)
-        html = response.text
-        soup = BeautifulSoup(html, "html.parser")
-
-        transport_list = []
-
-        bus_items = soup.find_all("a", class_=self.transport_class)
-        for item in bus_items:
-            transport_number = item.text.strip()
-            transport_route = item.find("span").text.strip()
-            href_link = item["href"]
-            transport_list.append([transport_number, transport_route, href_link])
-        return transport_list
-
-    def get_timetable(self, route_url):
-        (timetable1, successes_parse1) = self.get_one_direction_timetable(route_url, timetable_forward_url)
-        (timetable2, successes_parse2) = self.get_one_direction_timetable(route_url, timetable_backward_url)
-        if successes_parse1 and successes_parse2:
-            return timetable1 + timetable2, True
-        else:
-            return None, False
-
-    def get_one_direction_timetable(self, route_url, timetable_url):
-        full_url = site_url + route_url + timetable_url
-
-        response = requests.get(full_url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        stop_times = []
-        for stop_div in soup.find_all('div', class_='bus-stop'):
-            name = stop_div.find('a').text.strip()
-            time_point = stop_div.find_next_sibling('div', class_='col-xs-12').find('span')
-            if time_point is not None:
-                parsed_time_point = time_point.text.strip()
-                if parsed_time_point[len(parsed_time_point) - 1] == 'K':
-                    parsed_time_point = parsed_time_point[:-1]
-            else:
-                return None, False
-            clean_name = re.sub(r"\d+\) ", "", name)
-            stop_times.append({"stopName": clean_name, "timePoint": parsed_time_point})
-        return stop_times, True
-
-    def get_stop_coordinates(self, route_url):
-        full_url = site_url + route_url + map_url
-        response = requests.get(full_url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        script_tags = soup.find_all('script', type="text/javascript")
-        script_tag = None
-
-        for tag in script_tags:
-            if 'drawMap' in tag.text:
-                script_tag = tag
-                break
-
-        if script_tag:
-            script_text = script_tag.text
-            coordinates = self.extract_coordinates(script_text)
-
-            return coordinates
-        else:
-            return {}
-
-    def extract_coordinates(self, script_text):
-        matches = re.findall(r'{"name":\s*"(.*?)",\s*"lat":\s*(-?\d+\.?\d*),?\s*"long":\s*(-?\d+\.?\d*)?}', script_text)
-
-        coordinates = {}
-        for match in matches:
-            name = match[0].replace("\\", "")
-            # `match` contains latitude and longitude which equals to y and x coordinates
-            x = float(match[2])
-            y = float(match[1])
-            coordinates[name] = Coordinate(x, y)
-
-        return coordinates
-
-    def load_cache(self, cache_file):
-        if os.path.exists(cache_file):
-            modification_time = os.path.getmtime(cache_file)
-            current_time = datetime.datetime.now()
-            if (current_time - datetime.datetime.fromtimestamp(modification_time)).days <= cache_expire_days:
-                with open(cache_file, 'r') as file:
-                    return json.load(file)
-        return {}
-
-    def save_cache(self, cache_file, cache_data):
-        cache_dir = os.path.dirname(cache_file)
-        if cache_dir and not os.path.exists(cache_dir):
-            os.makedirs(cache_dir)
-
-        with open(cache_file, 'w') as file:
-                json.dump(cache_data, file)
+    # === City URL Management ===
+    def __get_city_url(self):
+        cache_path = os.path.join(CITY_CACHE_DIR, "city_urls.json")
+        cities = self.load_cache(cache_path)
+        if not cities:
+            print(
+                "[INFO] City URL cache is empty or expired. Refetching from the source."
+            )
+            cities = self.parse_all_city_urls()
+            self.save_cache(cache_path, cities)
+        return cities.get(self.city_name)
 
     def parse_all_city_urls(self):
-        url = "https://kudikina.ru/"
-        response = requests.get(url)
-        time.sleep(2)
-        html_content = response.text
-        soup = BeautifulSoup(html_content, 'html.parser')
+        print(f"[INFO] Parsing all city URLs from {SITE_URL}...")
+        try:
+            response = session.get(SITE_URL, timeout=15)
+            response.raise_for_status()
+        except requests.RequestException as e:
+            print(f"[ERROR] Failed to fetch main page: {e}")
+            return {}
+
+        soup = BeautifulSoup(response.text, "html.parser")
         cities = {}
 
-        for li in soup.find_all('ul', class_='list-unstyled cities block-regions'):
-            for region in li.find_all('a'):
-                region_name = region.find('span', class_='city-name').text.strip()
-                region_href = region['href']
-                region_response = requests.get(url[:-1] + region_href)
-                region_html_content = region_response.text
-                region_soup = BeautifulSoup(region_html_content, 'html.parser')
-                city_list = region_soup.find_all('ul', class_='list-unstyled cities')
-                time.sleep(2)
-                if len(city_list) == 0:
+        for ul in soup.find_all("ul", class_="list-unstyled cities block-regions"):
+            for region_link in ul.find_all("a"):
+                region_name = region_link.find("span", class_="city-name").text.strip()
+                region_href = region_link["href"]
+
+                # Используем urljoin для безопасного формирования URL
+                region_full_url = urljoin(SITE_URL, region_href)
+
+                try:
+                    region_response = session.get(region_full_url, timeout=10)
+                    region_response.raise_for_status()
+                except requests.RequestException as e:
+                    print(f"[WARN] Could not fetch region page for {region_name}: {e}")
+                    continue
+
+                region_soup = BeautifulSoup(region_response.text, "html.parser")
+                city_blocks = region_soup.find_all("ul", class_="list-unstyled cities")
+                time.sleep(1.5)
+
+                if not city_blocks:
                     cities[region_name] = region_href
-                    print(region_href + ' Was parsed')
+                    print(f"[INFO] Parsed region: {region_name} -> {region_href}")
                 else:
-                    region_cities = city_list[0].find_all('a')
-                    for city in region_cities:
-                        city_name = city.find('span', class_='city-name').text.strip()
-                        city_href = city['href']
+                    for city_link in city_blocks[0].find_all("a"):
+                        city_name = city_link.find(
+                            "span", class_="city-name"
+                        ).text.strip()
+                        city_href = city_link["href"]
                         cities[city_name] = city_href
-                        print(city_href + ' Was parsed')
+                        print(f"[INFO] Parsed city: {city_name} -> {city_href}")
+
+        print(f"[SUCCESS] Found {len(cities)} cities in total.")
         return cities
 
-    def calculate_duration(self, start_stop, end_stop):
+    def __check_and_find_unique_stop(self, name, coord, node_map):
+        is_new = True
+        original_name = name
+        suffix = 1
+        while name in node_map:
+            old = node_map[name]
+            old_coord = Coordinate(old["xCoordinate"], old["yCoordinate"])
+            if self.are_stops_same(old_coord, coord):
+                is_new = False
+                break
+            # Логика инкремента вынесена из increment_suffix для большей надежности
+            name = f"{original_name} {suffix}"
+            suffix += 1
+        return name, is_new
+
+    # === Site Parsing Logic ===
+    def get_all_routes_info(self):
+        full_url = urljoin(SITE_URL, self.city_url + self.transport_url)
         try:
-            start_hour, start_minute = map(int, start_stop.split(':'))
-            end_hour, end_minute = map(int, end_stop.split(':'))
-            return abs((end_hour * 60 + end_minute) - (start_hour * 60 + start_minute))
-        except ValueError:
-            return False
-        except AttributeError:
-            return False
-    def are_stops_same(self, coord1, coord2, tolerance=0.005):
-        distance = math.dist(coord1.get_xy(), coord2.get_xy())
-        return abs(distance) < tolerance
+            response = session.get(full_url, timeout=10)
+            response.raise_for_status()
+        except requests.RequestException as e:
+            print(f"[ERROR] Failed to get routes list from {full_url}: {e}")
+            return []
 
-    def increment_suffix(self, name):
-        if name and name[-1].isdigit():
-            index = len(name) - 1
-            while index >= 0 and name[index].isdigit():
-                index -= 1
-            number = int(name[index + 1:]) + 1
-            return f"{name[:index + 1]}{number}"
-        else:
-            return f"{name} 1"
+        soup = BeautifulSoup(response.text, "html.parser")
+        items = soup.find_all("a", class_=self.transport_class)
+        return [[i.text.strip(), i.find("span").text.strip(), i["href"]] for i in items]
+
+    def get_timetable(self, route_url):
+        def parse_dir(suffix):
+            full_url = urljoin(SITE_URL, route_url + suffix)
+            try:
+                resp = session.get(full_url, timeout=10)
+                resp.raise_for_status()
+            except requests.RequestException:
+                return None
+
+            soup = BeautifulSoup(resp.text, "html.parser")
+            stops = []
+            for s in soup.find_all("div", class_="bus-stop"):
+                name_tag = s.find("a")
+                time_tag = s.find_next_sibling("div", class_="col-xs-12").find("span")
+                if not name_tag or not time_tag:
+                    continue
+                name = re.sub(r"\d+\) ", "", name_tag.text.strip())
+                stops.append(
+                    {"stopName": name, "timePoint": time_tag.text.strip().rstrip("K")}
+                )
+            return stops
+
+        t1 = parse_dir(TIMETABLE_FORWARD_URL)
+        t2 = parse_dir(TIMETABLE_BACKWARD_URL)
+
+        if t1 is None and t2 is None:
+            return None, False
+
+        combined = (t1 or []) + (t2 or [])
+        return (combined, True) if combined else (None, False)
+
+    def get_stop_coordinates(self, route_url):
+        full_url = urljoin(SITE_URL, route_url + MAP_URL)
+        try:
+            response = session.get(full_url, timeout=10)
+            response.raise_for_status()
+        except requests.RequestException:
+            return {}
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        script_tag = next(
+            (
+                s
+                for s in soup.find_all("script", type="text/javascript")
+                if "drawMap" in s.text
+            ),
+            None,
+        )
+
+        if not script_tag:
+            return {}
+
+        matches = re.findall(
+            r'{"name":\s*"(.*?)",\s*"lat":\s*(-?\d+\.?\d*),\s*"long":\s*(-?\d+\.?\d*)}',
+            script_tag.text,
+        )
+        return {
+            m[0].replace("\\", ""): Coordinate(float(m[2]), float(m[1]))
+            for m in matches
+        }
+
+    # === Utility Methods ===
+    def load_cache(self, path):
+        if self.__is_cache_fresh(path):
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        return {}
+
+    def save_cache(self, path, data):
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # === Math Helpers ===
+    def calculate_duration(self, start, end):
+        try:
+            h1, m1 = map(int, start.split(":"))
+            h2, m2 = map(int, end.split(":"))
+            return abs((h2 * 60 + m2) - (h1 * 60 + m1))
+        except (ValueError, AttributeError):
+            return False
+
+    def are_stops_same(self, c1, c2, tol=0.005):
+        if not c1.is_defined() or not c2.is_defined():
+            return False
+        return math.dist(c1.get_xy(), c2.get_xy()) < tol
+
+    # def increment_suffix(self, name):
+    #     # Эта функция больше не используется, логика перенесена в __check_and_find_unique_stop
+    #     # Оставлена на случай, если понадобится в другом месте
+    #     if name and name[-1].isdigit():
+    #         match = re.search(r"(\d+)$", name)
+    #         if match:
+    #             num_str = match.group(1)
+    #             prefix = name[: -len(num_str)]
+    #             number = int(num_str) + 1
+    #             return f"{prefix}{number}"
+    #     return f"{name} 1"
 
     @abstractmethod
-    def get_transport_class(self):
-        pass
-
+    def get_transport_class(self): ...
     @abstractmethod
-    def get_transport_url(self):
-        pass
+    def get_transport_url(self): ...
 
 
+# === Concrete Implementations ===
 class BusGraphParser(AbstractTransportGraphParser):
-    def get_transport_class(self):
-        return "bus-item bus-icon"
-
     def get_transport_url(self):
         return "bus/"
+
+    def get_transport_class(self):
+        return "bus-item bus-icon"
 
 
 class TrolleyGraphParser(AbstractTransportGraphParser):
@@ -314,15 +412,6 @@ class TrolleyGraphParser(AbstractTransportGraphParser):
 
     def get_transport_class(self):
         return "bus-item trolley-icon"
-
-
-class BusGraphParser(AbstractTransportGraphParser):
-
-    def get_transport_url(self):
-        return "bus/"
-
-    def get_transport_class(self):
-        return "bus-item bus-icon"
 
 
 class MiniBusGraphParser(AbstractTransportGraphParser):
@@ -348,13 +437,10 @@ class Coordinate:
         self.is_approximate = is_approximate
 
     def __str__(self):
-        return f"({self.x}, {self.y})"
+        return f"Coordinate(x={self.x}, y={self.y}, approx={self.is_approximate})"
 
     def is_defined(self):
-        if self.x is None or self.y is None:
-            return False
-        else:
-            return True
+        return self.x is not None and self.y is not None
 
     def get_xy(self):
         return [self.x, self.y]
