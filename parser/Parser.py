@@ -18,9 +18,8 @@ site_url = "https://kudikina.ru"
 map_url = "/map"
 timetable_forward_url = "/A"
 timetable_backward_url = "/B"
-# TODO: need to update according to city coordinates
-city_avg_x_coordinate = 60.0
-city_avg_y_coordinate = 30.0
+city_avg_x_coordinate = 30.3351 
+city_avg_y_coordinate = 59.9343
 request_pause_sec = 2
 
 
