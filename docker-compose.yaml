@@ -25,6 +25,8 @@ services:
     command: python -u main.py
     ports:
       - "8050:8050"
+    volumes:
+      - ./cache:/app/cache
 
 volumes:
   neo4j_data:

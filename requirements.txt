@@ -2,3 +2,4 @@ urban-transit-network-analysis
 dotenv~=0.9.9
 dash
 plotly
+requests_cache

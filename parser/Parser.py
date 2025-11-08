@@ -2,16 +2,16 @@ import datetime
 import json
 import math
 import os
+import random
 import re
 import time
 from abc import abstractmethod
+from urllib.parse import urljoin
 
-from requests.adapters import HTTPAdapter, Retry
 import requests
 import requests_cache
-import random
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from requests.adapters import HTTPAdapter, Retry
 
 """
     Класс занимающийся парсингом данных с сайта https://kudikina.ru
@@ -305,7 +305,8 @@ class AbstractTransportGraphParser:
             stops = []
             for s in soup.find_all("div", class_="bus-stop"):
                 name_tag = s.find("a")
-                time_tag = s.find_next_sibling("div", class_="col-xs-12").find("span")
+                next_div = s.find_next_sibling("div", class_="col-xs-12")
+                time_tag = next_div.find("span") if next_div else None
                 if not name_tag or not time_tag:
                     continue
                 name = re.sub(r"\d+\) ", "", name_tag.text.strip())
