@@ -14,15 +14,15 @@ class MetricDataPreparer:
     def __init__(self, graph_analisis_context: GraphAnalisContext):
         self.leiden_calculator = None
         self.louvain_calculator = None
-        self.betweenessens_calculator = None
+        self.betweenness_calculator = None
         self.page_rank_calculator = None
         metric_calculation_context = graph_analisis_context.metric_calculation_context
-        if metric_calculation_context.need_leiden_community_id or metric_calculation_context.need_leiden_modulariry:
+        if metric_calculation_context.need_leiden_community_id or metric_calculation_context.need_leiden_modularity:
             self.leiden_calculator = Leiden()
-        if metric_calculation_context.need_louvain_community_id or metric_calculation_context.need_louvain_modulariry:
+        if metric_calculation_context.need_louvain_community_id or metric_calculation_context.need_louvain_modularity:
             self.louvain_calculator = Louvain()
-        if metric_calculation_context.need_betweenessens:
-            self.betweenessens_calculator = Betweenness()
+        if metric_calculation_context.need_betweenness:
+            self.betweenness_calculator = Betweenness()
         if metric_calculation_context.need_page_rank:
             self.page_rank_calculator = PageRank()
         self.graph_analisis_context = graph_analisis_context
@@ -33,8 +33,8 @@ class MetricDataPreparer:
             result["leiden_modularity_value"] = self.prepare_leiden()
         if self.louvain_calculator is not None:
             result["louvain_modularity_value"] = self.prepare_louvain()
-        if self.betweenessens_calculator is not None:
-            self.prepare_betweenessens()
+        if self.betweenness_calculator is not None:
+            self.prepare_betweenness()
         if self.page_rank_calculator is not None:
             self.prepare_page_rank()
         return result
@@ -54,15 +54,15 @@ class MetricDataPreparer:
             self.graph_analisis_context.neo4j_DB_graph_parameters.weight
         )
         print(result)
-        print(f"LovainAlgorithm Community detection for graph {self.graph_analisis_context.graph_name} completed.")
+        print(f"LouvainAlgorithm Community detection for graph {self.graph_analisis_context.graph_name} completed.")
         return result
 
-    def prepare_betweenessens(self):
-        self.betweenessens_calculator.metric_calculate(
+    def prepare_betweenness(self):
+        self.betweenness_calculator.metric_calculate(
             self.graph_analisis_context.graph_name,
             self.graph_analisis_context.neo4j_DB_graph_parameters.weight
         )
-        print(f"betweenessens metric calculated for graph {self.graph_analisis_context.graph_name}.")
+        print(f"betweenness metric calculated for graph {self.graph_analisis_context.graph_name}.")
 
     def prepare_page_rank(self):
         self.page_rank_calculator.metric_calculate(

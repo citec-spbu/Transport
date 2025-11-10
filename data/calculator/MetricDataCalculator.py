@@ -14,13 +14,13 @@ class MetricDataCalculator:
     ):
         metric_calculation_context = graph_analisis_context.metric_calculation_context
         self.degree_distibution_calculator = None
-        self.betweenessens_distribution_calculator = None
+        self.betweenness_distribution_calculator = None
         self.page_rank_distribution_calculator = None
         db_parameters = graph_analisis_context.neo4j_DB_graph_parameters
         if metric_calculation_context.need_degree:
             self.degree_distibution_calculator = DegreeDistribution(db_parameters)
-        if metric_calculation_context.need_betweenessens:
-            self.betweenessens_distribution_calculator = BetweennessDistribution(db_parameters)
+        if metric_calculation_context.need_betweenness:
+            self.betweenness_distribution_calculator = BetweennessDistribution(db_parameters)
         if metric_calculation_context.need_page_rank:
             self.page_rank_distribution_calculator = PageRankDistribution(db_parameters)
         if metric_calculation_context.need_leiden_community_id:
@@ -36,12 +36,12 @@ class MetricDataCalculator:
             degree_distirbution_data = self.degree_distibution_calculator.calculate_distribution()
             degree_distribution = {"degree_value": [item[1] for item in degree_distirbution_data] }
 
-        betweenessens_distibution = {}
-        if self.betweenessens_distribution_calculator is not None:
-            betweenessens_distirbution_data = self.betweenessens_distribution_calculator.calculate_distribution()
-            betweenessens_distibution = {
-                "beetweenessens_identity": [convert_to_point(item[0]) for item in betweenessens_distirbution_data],
-                "beetweenessens_value": [item[1] for item in betweenessens_distirbution_data],
+        betweenness_distribution = {}
+        if self.betweenness_distribution_calculator is not None:
+            betweenness_distribution_data = self.betweenness_distribution_calculator.calculate_distribution()
+            betweenness_distribution = {
+                "betweenness_identity": [convert_to_point(item[0]) for item in betweenness_distribution_data],
+                "betweenness_value": [item[1] for item in betweenness_distribution_data],
             }
 
         page_rank_distibution = {}
@@ -69,7 +69,7 @@ class MetricDataCalculator:
             }
         return {
                     **degree_distribution,
-                    **betweenessens_distibution,
+                    **betweenness_distribution,
                     **page_rank_distibution,
                     **prepare_result,
                     **louvain_distirbution,
