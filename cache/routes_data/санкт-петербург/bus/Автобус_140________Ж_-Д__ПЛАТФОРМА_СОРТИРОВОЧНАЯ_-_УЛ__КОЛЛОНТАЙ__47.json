@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 140        Ж.-Д. ПЛАТФОРМА СОРТИРОВОЧНАЯ - УЛ. КОЛЛОНТАЙ, 47"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. ПЛАТФОРМА СОРТИРОВОЧНАЯ ИМЕНИ В.Н. МОРОЗОВА": {
@@ -408,7 +408,7 @@
       "endStop": "УЛ. КОЛЛОНТАЙ, 47",
       "name": "УЛ. КОЛЛОНТАЙ, 47 (ПОСАДКИ НЕТ) -> УЛ. КОЛЛОНТАЙ, 47; route_name: Автобус 140        Ж.-Д. ПЛАТФОРМА СОРТИРОВОЧНАЯ - УЛ. КОЛЛОНТАЙ, 47",
       "route": "Автобус 140        Ж.-Д. ПЛАТФОРМА СОРТИРОВОЧНАЯ - УЛ. КОЛЛОНТАЙ, 47",
-      "duration": 14
+      "duration": 1396
     },
     {
       "startStop": "УЛ. КОЛЛОНТАЙ, 47",
@@ -649,91 +649,91 @@
     },
     {
       "stopName": "УЛ. КОЛЛОНТАЙ, 47",
-      "timePoint": "6:02"
+      "timePoint": "5:32"
     },
     {
       "stopName": "УЛ. КОЛЛОНТАЙ, УГ. ПР. СОЛИДАРНОСТИ",
-      "timePoint": "6:06"
+      "timePoint": "5:36"
     },
     {
       "stopName": "УНИВЕРСАМ",
-      "timePoint": "6:07"
+      "timePoint": "5:37"
     },
     {
       "stopName": "ТОВАРИЩЕСКИЙ ПР.",
-      "timePoint": "6:08"
+      "timePoint": "5:38"
     },
     {
       "stopName": "СТ. МЕТРО \"ПР. БОЛЬШЕВИКОВ\"",
-      "timePoint": "6:10"
+      "timePoint": "5:40"
     },
     {
       "stopName": "УНИВЕРСАМ \"НЕВСКИЙ\"",
-      "timePoint": "6:11"
+      "timePoint": "5:41"
     },
     {
       "stopName": "УЛ. ПОДВОЙСКОГО",
-      "timePoint": "6:12"
+      "timePoint": "5:42"
     },
     {
       "stopName": "УЛ. АНТОНОВА-ОВСЕЕНКО",
-      "timePoint": "6:13"
+      "timePoint": "5:43"
     },
     {
       "stopName": "СТ. МЕТРО \"УЛ. ДЫБЕНКО\"",
-      "timePoint": "6:15"
+      "timePoint": "5:45"
     },
     {
       "stopName": "УЛ. ШОТМАНА. УНИВЕРСИТЕТ ТЕЛЕКОММУНИКАЦИЙ",
-      "timePoint": "6:16"
+      "timePoint": "5:46"
     },
     {
       "stopName": "УЛ. КРЫЛЕНКО",
-      "timePoint": "6:17"
+      "timePoint": "5:47"
     },
     {
       "stopName": "ПР. БОЛЬШЕВИКОВ,33",
-      "timePoint": "6:18"
+      "timePoint": "5:48"
     },
     {
       "stopName": "УЛ. ТЕЛЬМАНА",
-      "timePoint": "6:19"
+      "timePoint": "5:49"
     },
     {
       "stopName": "НАРОДНАЯ УЛИЦА",
-      "timePoint": "6:22"
+      "timePoint": "5:52"
     },
     {
       "stopName": "ПРАВОБЕРЕЖНЫЕ БАНИ",
-      "timePoint": "6:23"
+      "timePoint": "5:53"
     },
     {
       "stopName": "ДАЛЬНЕВОСТОЧНЫЙ ПР.",
-      "timePoint": "6:25"
+      "timePoint": "5:55"
     },
     {
       "stopName": "НАРОДНАЯ УЛ., 8",
-      "timePoint": "6:26"
+      "timePoint": "5:56"
     },
     {
       "stopName": "ИВАНОВСКАЯ УЛ., СТ. МЕТРО \"ЛОМОНОСОВСКАЯ\"",
-      "timePoint": "6:30"
+      "timePoint": "6:00"
     },
     {
       "stopName": "ИВАНОВСКАЯ УЛ., УГ. УЛ. СЕДОВА",
-      "timePoint": "6:31"
+      "timePoint": "6:01"
     },
     {
       "stopName": "ГАМБУРГСКАЯ ПЛ.",
-      "timePoint": "6:37"
+      "timePoint": "6:07"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА СОРТИРОВОЧНАЯ ИМЕНИ В.Н. МОРОЗОВА",
-      "timePoint": "6:38"
+      "timePoint": "6:08"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА СОРТИРОВОЧНАЯ,",
-      "timePoint": "6:39"
+      "timePoint": "6:09"
     }
   ],
   "coordinates": {
@@ -873,5 +873,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:14:12.216195"
+  "timestamp": "2025-11-10T21:44:41.003644"
 }

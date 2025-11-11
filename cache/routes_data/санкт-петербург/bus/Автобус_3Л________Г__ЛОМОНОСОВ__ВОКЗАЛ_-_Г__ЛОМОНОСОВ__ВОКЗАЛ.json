@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 3Л        Г. ЛОМОНОСОВ, ВОКЗАЛ - Г. ЛОМОНОСОВ, ВОКЗАЛ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "ЛОМОНОСОВ, ВОКЗАЛ": {
@@ -460,5 +460,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:07:50.437493"
+  "timestamp": "2025-11-10T21:36:00.303611"
 }

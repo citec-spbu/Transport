@@ -486,131 +486,131 @@
   "timetable": [
     {
       "stopName": "ПР. МУРОМЦЕВА",
-      "timePoint": "05:54"
+      "timePoint": "05:49"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА ГОРСКАЯ",
-      "timePoint": "05:55"
+      "timePoint": "05:50"
     },
     {
       "stopName": "РУЧЕЙНАЯ УЛ.",
-      "timePoint": "05:57"
+      "timePoint": "05:52"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА АЛЕКСАНДРОВСКАЯ",
-      "timePoint": "05:59"
+      "timePoint": "05:54"
     },
     {
       "stopName": "СПОРТИВНАЯ ШКОЛА ИМ. В. КОРЕНЬКОВА",
-      "timePoint": "06:01"
+      "timePoint": "05:56"
     },
     {
       "stopName": "ТАРХОВСКИЙ ВОЕННЫЙ САНАТОРИЙ",
-      "timePoint": "06:02"
+      "timePoint": "05:57"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА ТАРХОВКА",
-      "timePoint": "06:03"
+      "timePoint": "05:58"
     },
     {
       "stopName": "СОВЕТСКИЙ ПР., 50",
-      "timePoint": "06:06"
+      "timePoint": "06:01"
     },
     {
       "stopName": "СОВЕТСКИЙ ПР., 19",
-      "timePoint": "06:07"
+      "timePoint": "06:02"
     },
     {
       "stopName": "ПЛЯЖ \"БЕЛАЯ ГОРА\"",
-      "timePoint": "06:09"
+      "timePoint": "06:04"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА РАЗЛИВ",
-      "timePoint": "06:11"
+      "timePoint": "06:06"
     },
     {
       "stopName": "ШКОЛА № 434",
-      "timePoint": "06:12"
+      "timePoint": "06:07"
     },
     {
       "stopName": "МАГАЗИННАЯ УЛ.",
-      "timePoint": "06:14"
+      "timePoint": "06:09"
     },
     {
       "stopName": "УЛ. МОСИНА, 24",
-      "timePoint": "06:15"
+      "timePoint": "06:10"
     },
     {
       "stopName": "БАНЯ",
+      "timePoint": "06:12"
+    },
+    {
+      "stopName": "АДМИНИСТРАЦИЯ",
+      "timePoint": "06:14"
+    },
+    {
+      "stopName": "ШКОЛА № 541",
+      "timePoint": "06:16"
+    },
+    {
+      "stopName": "Г. СЕСТРОРЕЦК, УЛ. БОРИСОВА",
       "timePoint": "06:17"
     },
     {
-      "stopName": "АДМИНИСТРАЦИЯ",
-      "timePoint": "06:19"
-    },
-    {
-      "stopName": "ШКОЛА № 541",
-      "timePoint": "06:21"
-    },
-    {
-      "stopName": "Г. СЕСТРОРЕЦК, УЛ. БОРИСОВА",
-      "timePoint": "06:22"
-    },
-    {
       "stopName": "КЛАДБИЩЕ",
-      "timePoint": "06:23"
+      "timePoint": "06:18"
     },
     {
       "stopName": "УЛ. ПОГРАНИЧНИКОВ",
-      "timePoint": "06:24"
+      "timePoint": "06:19"
     },
     {
       "stopName": "РЕАБИЛИТАЦИОННЫЙ ЦЕНТР",
-      "timePoint": "06:25"
+      "timePoint": "06:20"
     },
     {
       "stopName": "ГОРОДСКАЯ БОЛЬНИЦА № 40",
-      "timePoint": "06:27"
+      "timePoint": "06:22"
     },
     {
       "stopName": "Г. СЕСТРОРЕЦК, УЛ. БОРИСОВА",
-      "timePoint": "06:28"
+      "timePoint": "06:23"
     },
     {
       "stopName": "ШКОЛА № 541",
-      "timePoint": "06:29"
+      "timePoint": "06:24"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ",
-      "timePoint": "06:31"
+      "timePoint": "06:26"
     },
     {
       "stopName": "Ж.-Д. СТАНЦИЯ СЕСТРОРЕЦК",
-      "timePoint": "06:33"
+      "timePoint": "06:28"
     },
     {
       "stopName": "ВОКЗАЛ",
-      "timePoint": "06:34"
+      "timePoint": "06:29"
     },
     {
       "stopName": "МАЛАЯ КАНОНЕРСКАЯ УЛ.",
-      "timePoint": "06:35"
+      "timePoint": "06:30"
     },
     {
       "stopName": "МОРСКАЯ УЛ.",
-      "timePoint": "06:36"
+      "timePoint": "06:31"
     },
     {
       "stopName": "УЛ. ГРИГОРЬЕВА",
-      "timePoint": "06:38"
+      "timePoint": "06:33"
     },
     {
       "stopName": "КУРОРТНАЯ УЛ.",
-      "timePoint": "06:39"
+      "timePoint": "06:34"
     },
     {
       "stopName": "Г. СЕСТРОРЕЦК, КУРОРТНАЯ УЛ., ПОСАДКИ И ВЫСАДКИ НЕТ",
-      "timePoint": "06:40"
+      "timePoint": "06:35"
     }
   ],
   "coordinates": {
@@ -760,5 +760,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:52:17.451520"
+  "timestamp": "2025-11-10T21:54:17.177422"
 }

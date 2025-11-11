@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 94        Ж.-Д. СТАНЦИЯ РУЧЬИ - СТАНЦИЯ МЕТРО \"ЧЁРНАЯ РЕЧКА\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТАНЦИЯ РУЧЬИ,": {
@@ -16,8 +16,8 @@
       "routeList": [
         "Автобус 94        Ж.-Д. СТАНЦИЯ РУЧЬИ - СТАНЦИЯ МЕТРО \"ЧЁРНАЯ РЕЧКА\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "ПР. НАУКИ,73": {
@@ -536,13 +536,6 @@
       "duration": 2
     },
     {
-      "startStop": "НАБ. ЧЁРНОЙ РЕЧКИ",
-      "endStop": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "name": "НАБ. ЧЁРНОЙ РЕЧКИ -> СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"; route_name: Автобус 94        Ж.-Д. СТАНЦИЯ РУЧЬИ - СТАНЦИЯ МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "route": "Автобус 94        Ж.-Д. СТАНЦИЯ РУЧЬИ - СТАНЦИЯ МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "duration": 0
-    },
-    {
       "startStop": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
       "endStop": "НОВОСИБИРСКАЯ УЛ.",
       "name": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\" -> НОВОСИБИРСКАЯ УЛ.; route_name: Автобус 94        Ж.-Д. СТАНЦИЯ РУЧЬИ - СТАНЦИЯ МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
@@ -735,227 +728,227 @@
   "timetable": [
     {
       "stopName": "А.С. \"РУЧЬИ\"",
-      "timePoint": "05:55"
+      "timePoint": "05:15"
     },
     {
       "stopName": "Ж.-Д. СТАНЦИЯ РУЧЬИ,",
-      "timePoint": "06:01"
+      "timePoint": "05:21"
     },
     {
       "stopName": "ПР. НАУКИ,73",
-      "timePoint": "06:03"
+      "timePoint": "05:23"
     },
     {
       "stopName": "ПР. НАУКИ, УГ. УЛ. КАРПИНСКОГО",
-      "timePoint": "06:05"
+      "timePoint": "05:25"
     },
     {
       "stopName": "УЛ. КАРПИНСКОГО,28",
-      "timePoint": "06:06"
+      "timePoint": "05:26"
     },
     {
       "stopName": "УЛ. КАРПИНСКОГО, 38",
-      "timePoint": "06:07"
+      "timePoint": "05:27"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР.,91",
-      "timePoint": "06:10"
+      "timePoint": "05:30"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР., УГОЛ УЛ. СОФЬИ КОВАЛЕВСКОЙ",
-      "timePoint": "06:13"
+      "timePoint": "05:33"
     },
     {
       "stopName": "ГРАЖДАНСКИЙ ПР.",
-      "timePoint": "06:15"
+      "timePoint": "05:35"
     },
     {
       "stopName": "ГРАЖДАНСКИЙ ПР. УГ. СЕВЕРНОГО ПР.",
-      "timePoint": "06:16"
+      "timePoint": "05:36"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР. УГ. УЛ. ВАВИЛОВЫХ",
-      "timePoint": "06:18"
+      "timePoint": "05:38"
     },
     {
       "stopName": "УЛ. ВАВИЛОВЫХ,11",
-      "timePoint": "06:20"
+      "timePoint": "05:40"
     },
     {
       "stopName": "УЛ. ВАВИЛОВЫХ УГ. ПР. НАУКИ",
-      "timePoint": "06:22"
+      "timePoint": "05:42"
     },
     {
       "stopName": "УЛ. ОБРУЧЕВЫХ",
-      "timePoint": "06:24"
+      "timePoint": "05:44"
     },
     {
       "stopName": "ТИХОРЕЦКИЙ ПР. Д.7",
-      "timePoint": "06:28"
+      "timePoint": "05:48"
     },
     {
       "stopName": "СТ. МЕТРО \"ПОЛИТЕХНИЧЕСКАЯ\"",
-      "timePoint": "06:30"
+      "timePoint": "05:50"
     },
     {
       "stopName": "УЛ. КУРЧАТОВА, ПО ТРЕБОВАНИЮ",
-      "timePoint": "06:31"
+      "timePoint": "05:51"
     },
     {
       "stopName": "УЛ. ЖАКА ДЮКЛО",
-      "timePoint": "06:32"
+      "timePoint": "05:52"
     },
     {
       "stopName": "ПР. ТОРЕЗА",
-      "timePoint": "06:33"
+      "timePoint": "05:53"
     },
     {
       "stopName": "МАЛАЯ ОБЪЕЗДНАЯ УЛ.",
-      "timePoint": "06:35"
+      "timePoint": "05:55"
     },
     {
       "stopName": "2-Й МУРИНСКИЙ ПР.",
-      "timePoint": "06:36"
+      "timePoint": "05:56"
     },
     {
       "stopName": "НОВОРОССИЙСКАЯ УЛ. УГ. ИНСТИТУТСКОГО ПР.",
-      "timePoint": "06:38"
+      "timePoint": "05:58"
     },
     {
       "stopName": "НОВОРОССИЙСКАЯ УЛ.,18",
-      "timePoint": "06:39"
+      "timePoint": "05:59"
     },
     {
       "stopName": "ПР. ЭНГЕЛЬСА",
-      "timePoint": "06:40"
+      "timePoint": "06:00"
     },
     {
       "stopName": "СТУДЕНЧЕСКАЯ УЛ.",
-      "timePoint": "06:42"
+      "timePoint": "06:02"
     },
     {
       "stopName": "ОМСКАЯ УЛ.",
-      "timePoint": "06:43"
+      "timePoint": "06:03"
     },
     {
       "stopName": "НОВОСИБИРСКАЯ УЛ.",
-      "timePoint": "06:46"
+      "timePoint": "06:06"
     },
     {
       "stopName": "НАБ. ЧЁРНОЙ РЕЧКИ",
-      "timePoint": "06:48"
+      "timePoint": "06:08"
     },
     {
       "stopName": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "timePoint": "06:48"
+      "timePoint": "06:08"
     },
     {
       "stopName": "НОВОСИБИРСКАЯ УЛ.",
-      "timePoint": "06:51"
+      "timePoint": "06:11"
     },
     {
       "stopName": "ОМСКАЯ УЛ.",
-      "timePoint": "06:53"
+      "timePoint": "06:13"
     },
     {
       "stopName": "СТУДЕНЧЕСКАЯ УЛ.",
-      "timePoint": "06:54"
+      "timePoint": "06:14"
     },
     {
       "stopName": "ПР. ЭНГЕЛЬСА",
-      "timePoint": "06:56"
+      "timePoint": "06:16"
     },
     {
       "stopName": "НОВОРОССИЙСКАЯ УЛ.,18",
-      "timePoint": "06:57"
+      "timePoint": "06:17"
     },
     {
       "stopName": "НОВОРОССИЙСКАЯ УЛ. УГ. ИНСТИТУТСКОГО ПР.",
-      "timePoint": "06:59"
+      "timePoint": "06:19"
     },
     {
       "stopName": "2-Й МУРИНСКИЙ ПР.",
-      "timePoint": "07:01"
+      "timePoint": "06:21"
     },
     {
       "stopName": "МАЛАЯ ОБЪЕЗДНАЯ УЛ.",
-      "timePoint": "07:02"
+      "timePoint": "06:22"
     },
     {
       "stopName": "УЛ. КУРЧАТОВА УГ. ПР. М. ТОРЕЗА",
-      "timePoint": "07:03"
+      "timePoint": "06:23"
     },
     {
       "stopName": "УЛ. КУРЧАТОВА",
-      "timePoint": "07:05"
+      "timePoint": "06:25"
     },
     {
       "stopName": "СТ. МЕТРО \"ПОЛИТЕХНИЧЕСКАЯ\"",
-      "timePoint": "07:07"
+      "timePoint": "06:27"
     },
     {
       "stopName": "ТИХОРЕЦКИЙ ПР., 7",
-      "timePoint": "07:08"
+      "timePoint": "06:28"
     },
     {
       "stopName": "ТИХОРЕЦКИЙ ПР., УГ. ПР. НАУКИ",
-      "timePoint": "07:10"
+      "timePoint": "06:30"
     },
     {
       "stopName": "УЛ. ОБРУЧЕВЫХ",
-      "timePoint": "07:13"
+      "timePoint": "06:33"
     },
     {
       "stopName": "УЛ. ВАВИЛОВЫХ УГ. ПР. НАУКИ",
-      "timePoint": "07:14"
+      "timePoint": "06:34"
     },
     {
       "stopName": "УЛ. ВАВИЛОВЫХ,11",
-      "timePoint": "07:16"
+      "timePoint": "06:36"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР., УГОЛ УЛ. ВАВИЛОВЫХ",
-      "timePoint": "07:18"
+      "timePoint": "06:38"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР., 65",
-      "timePoint": "07:19"
+      "timePoint": "06:39"
     },
     {
       "stopName": "ГРАЖДАНСКИЙ ПР.",
-      "timePoint": "07:21"
+      "timePoint": "06:41"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР., УГОЛ УЛ. СОФЬИ КОВАЛЕВСКОЙ",
-      "timePoint": "07:23"
+      "timePoint": "06:43"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР.,91",
-      "timePoint": "07:25"
+      "timePoint": "06:45"
     },
     {
       "stopName": "УЛ. КАРПИНСКОГО, 38",
-      "timePoint": "07:27"
+      "timePoint": "06:47"
     },
     {
       "stopName": "УЛ. КАРПИНСКОГО,28",
-      "timePoint": "07:28"
+      "timePoint": "06:48"
     },
     {
       "stopName": "УЛ. КАРПИНСКОГО",
-      "timePoint": "07:30"
+      "timePoint": "06:50"
     },
     {
       "stopName": "ПР. НАУКИ,73",
-      "timePoint": "07:32"
+      "timePoint": "06:52"
     },
     {
       "stopName": "Ж.-Д. СТАНЦИЯ РУЧЬИ,",
-      "timePoint": "07:34"
+      "timePoint": "06:54"
     },
     {
       "stopName": "А.С. \"РУЧЬИ\"",
-      "timePoint": "07:35"
+      "timePoint": "06:55"
     }
   ],
   "coordinates": {
@@ -1150,5 +1143,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:11:56.109437"
+  "timestamp": "2025-11-10T21:41:39.417628"
 }

@@ -628,13 +628,6 @@
     },
     {
       "startStop": "ПЛОЩАДЬ РЕПИНА",
-      "endStop": "ПЛОЩАДЬ РЕПИНА",
-      "name": "ПЛОЩАДЬ РЕПИНА -> ПЛОЩАДЬ РЕПИНА; route_name: Автобус 181        УЛ. СТАСОВОЙ - ПЛ. РЕПИНА",
-      "route": "Автобус 181        УЛ. СТАСОВОЙ - ПЛ. РЕПИНА",
-      "duration": 59
-    },
-    {
-      "startStop": "ПЛОЩАДЬ РЕПИНА",
       "endStop": "АЛАРЧИН МОСТ",
       "name": "ПЛОЩАДЬ РЕПИНА -> АЛАРЧИН МОСТ; route_name: Автобус 181        УЛ. СТАСОВОЙ - ПЛ. РЕПИНА",
       "route": "Автобус 181        УЛ. СТАСОВОЙ - ПЛ. РЕПИНА",
@@ -868,267 +861,267 @@
   "timetable": [
     {
       "stopName": "УЛ. СТАСОВОЙ, АВТОБУСНЫЙ ПАРК №6 - ПОСАДКИ И ВЫСАДКИ НЕТ",
-      "timePoint": "5:55"
+      "timePoint": "5:15"
     },
     {
       "stopName": "УЛ. СТАСОВОЙ",
-      "timePoint": "6:01"
+      "timePoint": "5:21"
     },
     {
       "stopName": "ПР. ЭНЕРГЕТИКОВ,72",
-      "timePoint": "6:03"
+      "timePoint": "5:23"
     },
     {
       "stopName": "УЛ. БУРЕНИНА",
-      "timePoint": "6:06"
+      "timePoint": "5:26"
     },
     {
       "stopName": "ПР. МАРШАЛА БЛЮХЕРА",
-      "timePoint": "6:09"
+      "timePoint": "5:29"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ",
-      "timePoint": "6:12"
+      "timePoint": "5:32"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., УГ. ПИСКАРЁВСКОГО ПР.",
-      "timePoint": "6:14"
+      "timePoint": "5:34"
     },
     {
       "stopName": "БОЛЬШЕОХТИНСКИЙ ПР., 22",
-      "timePoint": "6:17"
+      "timePoint": "5:37"
     },
     {
       "stopName": "БОЛЬШАЯ ПОРОХОВСКАЯ УЛ.",
-      "timePoint": "6:19"
+      "timePoint": "5:39"
     },
     {
       "stopName": "ТАРАСОВА УЛ.",
-      "timePoint": "6:21"
+      "timePoint": "5:41"
     },
     {
       "stopName": "УЛ. МОЛДАГУЛОВОЙ",
-      "timePoint": "6:22"
+      "timePoint": "5:42"
     },
     {
       "stopName": "БОЛЬШЕОХТИНСКИЙ МОСТ",
-      "timePoint": "6:25"
+      "timePoint": "5:45"
     },
     {
       "stopName": "УЛ. КРАСНОГО ТЕКСТИЛЬЩИКА",
-      "timePoint": "6:28"
+      "timePoint": "5:48"
     },
     {
       "stopName": "СУВОРОВСКИЙ ПР., УГ. ТУЛЬСКОЙ УЛ.",
-      "timePoint": "6:29"
+      "timePoint": "5:49"
     },
     {
       "stopName": "ЗАЯЧИЙ ПЕР.",
-      "timePoint": "6:31"
+      "timePoint": "5:51"
     },
     {
       "stopName": "СКВЕР ГАЛИНЫ СТАРОВОЙТОВОЙ",
-      "timePoint": "6:33"
+      "timePoint": "5:53"
     },
     {
       "stopName": "5-Я СОВЕТСКАЯ УЛ.",
-      "timePoint": "6:34"
+      "timePoint": "5:54"
     },
     {
       "stopName": "3-Я СОВЕТСКАЯ УЛ.",
-      "timePoint": "6:35"
+      "timePoint": "5:55"
     },
     {
       "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ ВОССТАНИЯ\"",
-      "timePoint": "6:38"
+      "timePoint": "5:58"
     },
     {
       "stopName": "ЛИТЕЙНЫЙ ПР.",
-      "timePoint": "6:41"
+      "timePoint": "6:01"
     },
     {
       "stopName": "НЕВСКИЙ ПР.",
-      "timePoint": "6:44"
+      "timePoint": "6:04"
     },
     {
       "stopName": "УЛ. ЛОМОНОСОВА",
-      "timePoint": "6:45"
-    },
-    {
-      "stopName": "АПРАКСИН ПЕР., \"ТЕАТР НА САДОВОЙ\"",
-      "timePoint": "6:46"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"СЕННАЯ ПЛОЩАДЬ\"",
-      "timePoint": "6:47"
-    },
-    {
-      "stopName": "СЕННАЯ ПЛОЩАДЬ",
-      "timePoint": "6:49"
-    },
-    {
-      "stopName": "ПЕР. БОЙЦОВА",
-      "timePoint": "6:50"
-    },
-    {
-      "stopName": "ВОЗНЕСЕНСКИЙ ПР.",
-      "timePoint": "6:51"
-    },
-    {
-      "stopName": "НОВО-НИКОЛЬСКИЙ МОСТ",
-      "timePoint": "6:53"
-    },
-    {
-      "stopName": "САДОВАЯ УЛ., УГОЛ ЛЕРМОНТОВСКОГО ПР.",
-      "timePoint": "6:55"
-    },
-    {
-      "stopName": "ПЛОЩАДЬ ТУРГЕНЕВА",
-      "timePoint": "6:56"
-    },
-    {
-      "stopName": "НАБ. РЕКИ ФОНТАНКИ",
-      "timePoint": "6:58"
-    },
-    {
-      "stopName": "ПЛОЩАДЬ РЕПИНА",
-      "timePoint": "6:59"
-    },
-    {
-      "stopName": "ПЛОЩАДЬ РЕПИНА",
-      "timePoint": "6:00"
-    },
-    {
-      "stopName": "АЛАРЧИН МОСТ",
-      "timePoint": "6:02"
-    },
-    {
-      "stopName": "ЛЕРМОНТОВСКИЙ ПР.",
-      "timePoint": "6:03"
-    },
-    {
-      "stopName": "САДОВАЯ УЛ., УГОЛ ЛЕРМОНТОВСКОГО ПР.",
       "timePoint": "6:05"
     },
     {
-      "stopName": "НОВО-НИКОЛЬСКИЙ МОСТ",
-      "timePoint": "6:07"
-    },
-    {
-      "stopName": "ВОЗНЕСЕНСКИЙ ПР.",
-      "timePoint": "6:09"
-    },
-    {
-      "stopName": "СЕННАЯ ПЛОЩАДЬ",
-      "timePoint": "6:11"
+      "stopName": "АПРАКСИН ПЕР., \"ТЕАТР НА САДОВОЙ\"",
+      "timePoint": "6:06"
     },
     {
       "stopName": "СТ. МЕТРО \"СЕННАЯ ПЛОЩАДЬ\"",
+      "timePoint": "6:07"
+    },
+    {
+      "stopName": "СЕННАЯ ПЛОЩАДЬ",
+      "timePoint": "6:09"
+    },
+    {
+      "stopName": "ПЕР. БОЙЦОВА",
+      "timePoint": "6:10"
+    },
+    {
+      "stopName": "ВОЗНЕСЕНСКИЙ ПР.",
+      "timePoint": "6:11"
+    },
+    {
+      "stopName": "НОВО-НИКОЛЬСКИЙ МОСТ",
       "timePoint": "6:13"
     },
     {
-      "stopName": "АПРАКСИН ПЕР., \"ТЕАТР НА САДОВОЙ\"",
-      "timePoint": "6:14"
-    },
-    {
-      "stopName": "УЛ. ЛОМОНОСОВА",
+      "stopName": "САДОВАЯ УЛ., УГОЛ ЛЕРМОНТОВСКОГО ПР.",
       "timePoint": "6:15"
     },
     {
-      "stopName": "ДВОРЕЦ ТВОРЧЕСТВА ЮНЫХ",
+      "stopName": "ПЛОЩАДЬ ТУРГЕНЕВА",
       "timePoint": "6:16"
     },
     {
-      "stopName": "ЛИТЕЙНЫЙ ПР.",
+      "stopName": "НАБ. РЕКИ ФОНТАНКИ",
+      "timePoint": "6:18"
+    },
+    {
+      "stopName": "ПЛОЩАДЬ РЕПИНА",
       "timePoint": "6:19"
     },
     {
+      "stopName": "ПЛОЩАДЬ РЕПИНА",
+      "timePoint": "5:30"
+    },
+    {
+      "stopName": "АЛАРЧИН МОСТ",
+      "timePoint": "5:32"
+    },
+    {
+      "stopName": "ЛЕРМОНТОВСКИЙ ПР.",
+      "timePoint": "5:33"
+    },
+    {
+      "stopName": "САДОВАЯ УЛ., УГОЛ ЛЕРМОНТОВСКОГО ПР.",
+      "timePoint": "5:35"
+    },
+    {
+      "stopName": "НОВО-НИКОЛЬСКИЙ МОСТ",
+      "timePoint": "5:37"
+    },
+    {
+      "stopName": "ВОЗНЕСЕНСКИЙ ПР.",
+      "timePoint": "5:39"
+    },
+    {
+      "stopName": "СЕННАЯ ПЛОЩАДЬ",
+      "timePoint": "5:41"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"СЕННАЯ ПЛОЩАДЬ\"",
+      "timePoint": "5:43"
+    },
+    {
+      "stopName": "АПРАКСИН ПЕР., \"ТЕАТР НА САДОВОЙ\"",
+      "timePoint": "5:44"
+    },
+    {
+      "stopName": "УЛ. ЛОМОНОСОВА",
+      "timePoint": "5:45"
+    },
+    {
+      "stopName": "ДВОРЕЦ ТВОРЧЕСТВА ЮНЫХ",
+      "timePoint": "5:46"
+    },
+    {
+      "stopName": "ЛИТЕЙНЫЙ ПР.",
+      "timePoint": "5:49"
+    },
+    {
       "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ ВОССТАНИЯ\"",
-      "timePoint": "6:21"
+      "timePoint": "5:51"
     },
     {
       "stopName": "3-Я СОВЕТСКАЯ УЛ.",
-      "timePoint": "6:24"
+      "timePoint": "5:54"
     },
     {
       "stopName": "5-Я СОВЕТСКАЯ УЛ.",
-      "timePoint": "6:25"
+      "timePoint": "5:55"
     },
     {
       "stopName": "СКВЕР ГАЛИНЫ СТАРОВОЙТОВОЙ",
-      "timePoint": "6:26"
+      "timePoint": "5:56"
     },
     {
       "stopName": "ЗАЯЧИЙ ПЕР.",
-      "timePoint": "6:28"
+      "timePoint": "5:58"
     },
     {
       "stopName": "КАВАЛЕРГАРДСКАЯ УЛ.",
-      "timePoint": "6:29"
+      "timePoint": "5:59"
     },
     {
       "stopName": "СУВОРОВСКИЙ ПР., УГ. ТУЛЬСКОЙ УЛ.",
-      "timePoint": "6:31"
+      "timePoint": "6:01"
     },
     {
       "stopName": "УЛ. КРАСНОГО ТЕКСТИЛЬЩИКА",
-      "timePoint": "6:32"
+      "timePoint": "6:02"
     },
     {
       "stopName": "КРАСНОГВАРДЕЙСКАЯ ПЛ.",
-      "timePoint": "6:35"
+      "timePoint": "6:05"
     },
     {
       "stopName": "КОНТОРСКАЯ УЛ.",
-      "timePoint": "6:37"
+      "timePoint": "6:07"
     },
     {
       "stopName": "ТАРАСОВА УЛ.",
-      "timePoint": "6:39"
+      "timePoint": "6:09"
     },
     {
       "stopName": "БОЛЬШАЯ ПОРОХОВСКАЯ УЛ.",
-      "timePoint": "6:40"
+      "timePoint": "6:10"
     },
     {
       "stopName": "КРАСНОДОНСКАЯ УЛ.",
-      "timePoint": "6:42"
+      "timePoint": "6:12"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ КРАСНОГВАРДЕЙСКОГО РАЙОНА",
-      "timePoint": "6:44"
+      "timePoint": "6:14"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР., УГ. Ш. РЕВОЛЮЦИИ",
-      "timePoint": "6:46"
+      "timePoint": "6:16"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР., УГОЛ ПОЛЮСТРОВСКОГО ПР.",
-      "timePoint": "6:48"
+      "timePoint": "6:18"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР., УГОЛ ПР. МЕТАЛЛИСТОВ",
-      "timePoint": "6:50"
+      "timePoint": "6:20"
     },
     {
       "stopName": "УЛ. МАРШАЛА ТУХАЧЕВСКОГО",
-      "timePoint": "6:52"
+      "timePoint": "6:22"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР.",
-      "timePoint": "6:53"
+      "timePoint": "6:23"
     },
     {
       "stopName": "УЛ. БУРЕНИНА",
-      "timePoint": "6:55"
+      "timePoint": "6:25"
     },
     {
       "stopName": "ПР. ЭНЕРГЕТИКОВ,72",
-      "timePoint": "6:58"
+      "timePoint": "6:28"
     },
     {
       "stopName": "УЛ. СТАСОВОЙ, АВТОБУСНЫЙ ПАРК №6 - ПОСАДКИ И ВЫСАДКИ НЕТ",
-      "timePoint": "7:01"
+      "timePoint": "6:31"
     }
   ],
   "coordinates": {
@@ -1363,5 +1356,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:16:14.062617"
+  "timestamp": "2025-11-10T21:47:20.642014"
 }

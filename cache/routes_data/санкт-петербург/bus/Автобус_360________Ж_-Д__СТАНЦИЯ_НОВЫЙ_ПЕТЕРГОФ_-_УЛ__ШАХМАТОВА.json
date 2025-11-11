@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 360        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - УЛ. ШАХМАТОВА"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ": {
@@ -334,13 +334,6 @@
     },
     {
       "startStop": "УЛ. ШАХМАТОВА",
-      "endStop": "УЛ. ШАХМАТОВА",
-      "name": "УЛ. ШАХМАТОВА -> УЛ. ШАХМАТОВА; route_name: Автобус 360        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - УЛ. ШАХМАТОВА",
-      "route": "Автобус 360        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - УЛ. ШАХМАТОВА",
-      "duration": 0
-    },
-    {
-      "startStop": "УЛ. ШАХМАТОВА",
       "endStop": "УНИВЕРСАМ",
       "name": "УЛ. ШАХМАТОВА -> УНИВЕРСАМ; route_name: Автобус 360        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - УЛ. ШАХМАТОВА",
       "route": "Автобус 360        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - УЛ. ШАХМАТОВА",
@@ -572,99 +565,99 @@
     },
     {
       "stopName": "УЛ. ШАХМАТОВА",
-      "timePoint": "05:49"
+      "timePoint": "05:22"
     },
     {
       "stopName": "УНИВЕРСАМ",
-      "timePoint": "05:50"
+      "timePoint": "05:23"
     },
     {
       "stopName": "УНИВЕРСИТЕТСКИЙ ПР.",
-      "timePoint": "05:51"
+      "timePoint": "05:24"
     },
     {
       "stopName": "ЧЕБЫШЁВСКАЯ УЛ., ПОЧТА",
-      "timePoint": "05:52"
+      "timePoint": "05:25"
     },
     {
       "stopName": "ЧЕБЫШЁВСКАЯ УЛ., 6",
-      "timePoint": "05:53"
+      "timePoint": "05:26"
     },
     {
       "stopName": "ЧЕБЫШЁВСКАЯ УЛ.",
-      "timePoint": "05:54"
+      "timePoint": "05:27"
     },
     {
       "stopName": "УЛ. ШАХМАТОВА",
-      "timePoint": "05:55"
+      "timePoint": "05:28"
     },
     {
       "stopName": "ГОРОДСКОЕ КЛАДБИЩЕ",
-      "timePoint": "05:57"
+      "timePoint": "05:30"
     },
     {
       "stopName": "САШИНО",
-      "timePoint": "05:59"
+      "timePoint": "05:32"
     },
     {
       "stopName": "ДОРОГА НА БЕЛЬВЕДЕР",
-      "timePoint": "06:01"
+      "timePoint": "05:34"
     },
     {
       "stopName": "ЦЕРКОВЬ",
-      "timePoint": "06:02"
+      "timePoint": "05:35"
     },
     {
       "stopName": "НИЗИНО, ЦЕНТРАЛЬНАЯ УЛ., Д.5",
-      "timePoint": "06:03"
+      "timePoint": "05:36"
     },
     {
       "stopName": "НИЗИНО, ПОДГОРНАЯ УЛ.",
-      "timePoint": "06:04"
+      "timePoint": "05:37"
     },
     {
       "stopName": "НИЗИНО, Д.5",
-      "timePoint": "06:05"
+      "timePoint": "05:38"
     },
     {
       "stopName": "ЖИЛГОРОДОК",
-      "timePoint": "06:08"
+      "timePoint": "05:41"
     },
     {
       "stopName": "УЛ. ШТАКЕНШНЕЙДЕРА",
-      "timePoint": "06:12"
+      "timePoint": "05:45"
     },
     {
       "stopName": "РОДНИКОВЫЙ ПЕР.",
-      "timePoint": "06:14"
+      "timePoint": "05:47"
     },
     {
       "stopName": "МЕЛЬНИЧНАЯ УЛ.",
-      "timePoint": "06:17"
+      "timePoint": "05:50"
     },
     {
       "stopName": "ГАРАЖИ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "06:19"
+      "timePoint": "05:52"
     },
     {
       "stopName": "УЛ. БРАТЬЕВ ГОРКУШЕНКО, УГОЛ САШИНСКОЙ ДОРОГИ",
-      "timePoint": "06:20"
+      "timePoint": "05:53"
     },
     {
       "stopName": "САШИНСКАЯ УЛ., УГОЛ УЛ. ЛУИЗИНСКОЙ",
-      "timePoint": "06:22"
+      "timePoint": "05:55"
     },
     {
       "stopName": "ЖЕЛЕЗНОДОРОЖНЫЙ ПЕРЕЕЗД",
-      "timePoint": "06:23"
+      "timePoint": "05:56"
     },
     {
       "stopName": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
-      "timePoint": "06:24"
+      "timePoint": "05:57"
     },
     {
       "stopName": "А.С. \"НОВЫЙ ПЕТЕРГОФ\",",
-      "timePoint": "06:25"
+      "timePoint": "05:58"
     }
   ],
   "coordinates": {
@@ -784,5 +777,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:54:25.246958"
+  "timestamp": "2025-11-10T21:56:53.516999"
 }

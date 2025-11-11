@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 127        КОЛОМЯГИ, АВТОБУСНЫЙ ПАРК № 2 - АРЦЕУЛОВСКАЯ АЛЛЕЯ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "АВТОБУСНЫЙ ПАРК № 2": {
@@ -476,13 +476,6 @@
     },
     {
       "startStop": "АРЦЕУЛОВСКАЯ АЛЛЕЯ",
-      "endStop": "АРЦЕУЛОВСКАЯ АЛЛЕЯ",
-      "name": "АРЦЕУЛОВСКАЯ АЛЛЕЯ -> АРЦЕУЛОВСКАЯ АЛЛЕЯ; route_name: Автобус 127        КОЛОМЯГИ, АВТОБУСНЫЙ ПАРК № 2 - АРЦЕУЛОВСКАЯ АЛЛЕЯ",
-      "route": "Автобус 127        КОЛОМЯГИ, АВТОБУСНЫЙ ПАРК № 2 - АРЦЕУЛОВСКАЯ АЛЛЕЯ",
-      "duration": 79
-    },
-    {
-      "startStop": "АРЦЕУЛОВСКАЯ АЛЛЕЯ",
       "endStop": "ПЛЕСЕЦКАЯ УЛ.",
       "name": "АРЦЕУЛОВСКАЯ АЛЛЕЯ -> ПЛЕСЕЦКАЯ УЛ.; route_name: Автобус 127        КОЛОМЯГИ, АВТОБУСНЫЙ ПАРК № 2 - АРЦЕУЛОВСКАЯ АЛЛЕЯ",
       "route": "Автобус 127        КОЛОМЯГИ, АВТОБУСНЫЙ ПАРК № 2 - АРЦЕУЛОВСКАЯ АЛЛЕЯ",
@@ -653,111 +646,111 @@
   "timetable": [
     {
       "stopName": "А.П. №2,",
-      "timePoint": "5:55"
+      "timePoint": "5:15"
     },
     {
       "stopName": "АВТОБУСНЫЙ ПАРК № 2",
-      "timePoint": "6:01"
+      "timePoint": "5:21"
     },
     {
       "stopName": "АВТОБУСНЫЙ ПЕР.",
-      "timePoint": "6:02"
+      "timePoint": "5:22"
     },
     {
       "stopName": "УЛ. МАРШАЛА НОВИКОВА",
-      "timePoint": "6:04"
+      "timePoint": "5:24"
     },
     {
       "stopName": "ВЕРБНАЯ УЛ. УГОЛ УЛ. МАРШАЛА НОВИКОВА",
-      "timePoint": "6:05"
+      "timePoint": "5:25"
     },
     {
       "stopName": "ВЕРБНАЯ УЛ.",
-      "timePoint": "6:07"
+      "timePoint": "5:27"
     },
     {
       "stopName": "БАЙКОНУРСКАЯ УЛ.",
-      "timePoint": "6:10"
+      "timePoint": "5:30"
     },
     {
       "stopName": "СЕРЕБРИСТЫЙ БУЛЬВАР",
-      "timePoint": "6:11"
+      "timePoint": "5:31"
     },
     {
       "stopName": "КОЛОМЯЖСКИЙ ПР., УГ. ПАРАШЮТНОЙ УЛ.",
-      "timePoint": "6:13"
+      "timePoint": "5:33"
     },
     {
       "stopName": "АЛЛЕЯ КОТЕЛЬНИКОВА",
-      "timePoint": "6:14"
+      "timePoint": "5:34"
     },
     {
       "stopName": "ПР. КОРОЛЕВА",
-      "timePoint": "6:15"
+      "timePoint": "5:35"
     },
     {
       "stopName": "СТ. МЕТРО \"ПИОНЕРСКАЯ\"",
-      "timePoint": "6:18"
+      "timePoint": "5:38"
     },
     {
       "stopName": "ПР. ИСПЫТАТЕЛЕЙ, УНИВЕРСАМ",
-      "timePoint": "6:19"
+      "timePoint": "5:39"
     },
     {
       "stopName": "СЕРЕБРИСТЫЙ БУЛЬВАР",
-      "timePoint": "6:21"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ПР. СИЗОВА",
-      "timePoint": "6:23"
+      "timePoint": "5:43"
     },
     {
       "stopName": "УЛ. МАРШАЛА НОВИКОВА",
-      "timePoint": "6:24"
+      "timePoint": "5:44"
     },
     {
       "stopName": "СТ. МЕТРО \"КОМЕНДАНТСКИЙ ПРОСПЕКТ\"",
-      "timePoint": "6:26"
+      "timePoint": "5:46"
     },
     {
       "stopName": "КОМЕНДАНТСКИЙ ПР.,16",
-      "timePoint": "6:27"
+      "timePoint": "5:47"
     },
     {
       "stopName": "КОМЕНДАНТСКИЙ ПР.,22",
-      "timePoint": "6:28"
+      "timePoint": "5:48"
     },
     {
       "stopName": "ДОЛГООЗЁРНАЯ УЛ.",
-      "timePoint": "6:29"
+      "timePoint": "5:49"
     },
     {
       "stopName": "КОМЕНДАНТСКИЙ ПР., Д.34",
-      "timePoint": "6:31"
+      "timePoint": "5:51"
     },
     {
       "stopName": "УЛ. ШАВРОВА",
-      "timePoint": "6:33"
+      "timePoint": "5:53"
     },
     {
       "stopName": "ШУВАЛОВСКИЙ ПР. ПО КОМЕНДАНТСКОМУ ПР.",
-      "timePoint": "6:35"
+      "timePoint": "5:55"
     },
     {
       "stopName": "КОМЕНДАНТСКИЙ ПР., 54",
-      "timePoint": "6:36"
+      "timePoint": "5:56"
     },
     {
       "stopName": "КОМЕНДАНТСКИЙ ПР., УГОЛ ГЛУХАРСКОЙ УЛ.",
-      "timePoint": "6:37"
+      "timePoint": "5:57"
     },
     {
       "stopName": "ПЛЕСЕЦКАЯ УЛ.",
-      "timePoint": "6:38"
+      "timePoint": "5:58"
     },
     {
       "stopName": "АРЦЕУЛОВСКАЯ АЛЛЕЯ",
-      "timePoint": "6:39"
+      "timePoint": "5:59"
     },
     {
       "stopName": "АРЦЕУЛОВСКАЯ АЛЛЕЯ",
@@ -1022,5 +1015,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:13:28.695482"
+  "timestamp": "2025-11-10T21:43:45.667359"
 }

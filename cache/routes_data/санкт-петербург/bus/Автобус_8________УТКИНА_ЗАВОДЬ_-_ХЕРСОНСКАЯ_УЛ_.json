@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 8        УТКИНА ЗАВОДЬ - ХЕРСОНСКАЯ УЛ."
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "РУСАНОВСКАЯ УЛ.": {
@@ -16,8 +16,8 @@
       "routeList": [
         "Автобус 8        УТКИНА ЗАВОДЬ - ХЕРСОНСКАЯ УЛ."
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "ОКТЯБРЬСКАЯ НАБ.,106": {
@@ -539,13 +539,6 @@
     },
     {
       "startStop": "ХЕРСОНСКАЯ УЛ.",
-      "endStop": "ХЕРСОНСКАЯ УЛ.",
-      "name": "ХЕРСОНСКАЯ УЛ. -> ХЕРСОНСКАЯ УЛ.; route_name: Автобус 8        УТКИНА ЗАВОДЬ - ХЕРСОНСКАЯ УЛ.",
-      "route": "Автобус 8        УТКИНА ЗАВОДЬ - ХЕРСОНСКАЯ УЛ.",
-      "duration": 71
-    },
-    {
-      "startStop": "ХЕРСОНСКАЯ УЛ.",
       "endStop": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
       "name": "ХЕРСОНСКАЯ УЛ. -> СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"; route_name: Автобус 8        УТКИНА ЗАВОДЬ - ХЕРСОНСКАЯ УЛ.",
       "route": "Автобус 8        УТКИНА ЗАВОДЬ - ХЕРСОНСКАЯ УЛ.",
@@ -744,142 +737,82 @@
   "timetable": [
     {
       "stopName": "А.С. \"УТКИНА ЗАВОДЬ\"",
-      "timePoint": "6:05"
+      "timePoint": "5:20"
     },
     {
       "stopName": "РУСАНОВСКАЯ УЛ.",
-      "timePoint": "6:13"
+      "timePoint": "5:28"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ НАБ.,106",
-      "timePoint": "6:16"
+      "timePoint": "5:31"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ НАБ.,102",
-      "timePoint": "6:17"
+      "timePoint": "5:32"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ НАБ.",
-      "timePoint": "6:18"
+      "timePoint": "5:33"
     },
     {
       "stopName": "ПР. БОЛЬШЕВИКОВ,77",
-      "timePoint": "6:19"
+      "timePoint": "5:34"
     },
     {
       "stopName": "ДАЛЬНЕВОСТОЧНЫЙ ПР., УГ. ПР. БОЛЬШЕВИКОВ",
-      "timePoint": "6:21"
+      "timePoint": "5:36"
     },
     {
       "stopName": "ПОЛИКЛИНИКА",
-      "timePoint": "6:22"
+      "timePoint": "5:37"
     },
     {
       "stopName": "ДАЛЬНЕВОСТОЧНЫЙ ПР.",
-      "timePoint": "6:23"
+      "timePoint": "5:38"
     },
     {
       "stopName": "НАРОДНАЯ УЛ., 8",
-      "timePoint": "6:25"
+      "timePoint": "5:40"
     },
     {
       "stopName": "ИВАНОВСКАЯ УЛ., СТ. МЕТРО \"ЛОМОНОСОВСКАЯ\"",
-      "timePoint": "6:29"
+      "timePoint": "5:44"
     },
     {
       "stopName": "УЛ. СЕДОВА, УГ. ИВАНОВСКОЙ УЛ.",
-      "timePoint": "6:31"
+      "timePoint": "5:46"
     },
     {
       "stopName": "УЛ. СЕДОВА, УГ. УЛ. ПОЛЯРНИКОВ",
-      "timePoint": "6:32"
-    },
-    {
-      "stopName": "УЛ. СЕДОВА,70",
-      "timePoint": "6:33"
-    },
-    {
-      "stopName": "ЖЕЛЕЗНОДОРОЖНЫЙ ПР.",
-      "timePoint": "6:35"
-    },
-    {
-      "stopName": "ВАГОНОРЕМОНТНЫЙ ЗАВОД",
-      "timePoint": "6:36"
-    },
-    {
-      "stopName": "УЛ. ТКАЧЕЙ",
-      "timePoint": "6:38"
-    },
-    {
-      "stopName": "ПР. ЕЛИЗАРОВА",
-      "timePoint": "6:40"
-    },
-    {
-      "stopName": "БОЛЬШОЙ СМОЛЕНСКИЙ ПР.",
-      "timePoint": "6:41"
-    },
-    {
-      "stopName": "НЕВСКИЙ ЗАВОД",
-      "timePoint": "6:42"
-    },
-    {
-      "stopName": "ПЛОЩАДЬ БЕХТЕРЕВА",
-      "timePoint": "6:43"
-    },
-    {
-      "stopName": "ИНСТИТУТ ИМ. БЕХТЕРЕВА,",
-      "timePoint": "6:45"
-    },
-    {
-      "stopName": "АВТОБУСНЫЙ ПАРК № 3",
-      "timePoint": "6:46"
-    },
-    {
-      "stopName": "СМОЛЯНАЯ УЛ.",
-      "timePoint": "6:48"
-    },
-    {
-      "stopName": "ХРУСТАЛЬНАЯ УЛ., 10",
-      "timePoint": "6:49"
-    },
-    {
-      "stopName": "УЛ. ПРОФЕССОРА КАЧАЛОВА",
-      "timePoint": "6:51"
-    },
-    {
-      "stopName": "ХЕРСОНСКАЯ УЛ.",
-      "timePoint": "6:56"
-    },
-    {
-      "stopName": "ХЕРСОНСКАЯ УЛ.",
-      "timePoint": "5:45"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
       "timePoint": "5:47"
     },
     {
-      "stopName": "ПР. ОБУХОВСКОЙ ОБОРОНЫ",
+      "stopName": "УЛ. СЕДОВА,70",
       "timePoint": "5:48"
     },
     {
-      "stopName": "УЛ. ПРОФЕССОРА КАЧАЛОВА",
+      "stopName": "ЖЕЛЕЗНОДОРОЖНЫЙ ПР.",
+      "timePoint": "5:50"
+    },
+    {
+      "stopName": "ВАГОНОРЕМОНТНЫЙ ЗАВОД",
       "timePoint": "5:51"
     },
     {
-      "stopName": "ХРУСТАЛЬНАЯ УЛ., 10",
+      "stopName": "УЛ. ТКАЧЕЙ",
       "timePoint": "5:53"
     },
     {
-      "stopName": "СМОЛЯНАЯ УЛ.",
-      "timePoint": "5:54"
+      "stopName": "ПР. ЕЛИЗАРОВА",
+      "timePoint": "5:55"
     },
     {
-      "stopName": "АВТОБУСНЫЙ ПАРК № 3",
+      "stopName": "БОЛЬШОЙ СМОЛЕНСКИЙ ПР.",
       "timePoint": "5:56"
     },
     {
-      "stopName": "ИНСТИТУТ ИМ. БЕХТЕРЕВА,",
+      "stopName": "НЕВСКИЙ ЗАВОД",
       "timePoint": "5:57"
     },
     {
@@ -887,84 +820,144 @@
       "timePoint": "5:58"
     },
     {
-      "stopName": "НЕВСКИЙ ЗАВОД",
+      "stopName": "ИНСТИТУТ ИМ. БЕХТЕРЕВА,",
       "timePoint": "6:00"
     },
     {
-      "stopName": "БОЛЬШОЙ СМОЛЕНСКИЙ ПР.",
+      "stopName": "АВТОБУСНЫЙ ПАРК № 3",
       "timePoint": "6:01"
     },
     {
-      "stopName": "ПР. ЕЛИЗАРОВА, УГ. УЛ. СЕДОВА",
+      "stopName": "СМОЛЯНАЯ УЛ.",
       "timePoint": "6:03"
     },
     {
+      "stopName": "ХРУСТАЛЬНАЯ УЛ., 10",
+      "timePoint": "6:04"
+    },
+    {
+      "stopName": "УЛ. ПРОФЕССОРА КАЧАЛОВА",
+      "timePoint": "6:06"
+    },
+    {
+      "stopName": "ХЕРСОНСКАЯ УЛ.",
+      "timePoint": "6:11"
+    },
+    {
+      "stopName": "ХЕРСОНСКАЯ УЛ.",
+      "timePoint": "5:30"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
+      "timePoint": "5:32"
+    },
+    {
+      "stopName": "ПР. ОБУХОВСКОЙ ОБОРОНЫ",
+      "timePoint": "5:33"
+    },
+    {
+      "stopName": "УЛ. ПРОФЕССОРА КАЧАЛОВА",
+      "timePoint": "5:36"
+    },
+    {
+      "stopName": "ХРУСТАЛЬНАЯ УЛ., 10",
+      "timePoint": "5:38"
+    },
+    {
+      "stopName": "СМОЛЯНАЯ УЛ.",
+      "timePoint": "5:39"
+    },
+    {
+      "stopName": "АВТОБУСНЫЙ ПАРК № 3",
+      "timePoint": "5:41"
+    },
+    {
+      "stopName": "ИНСТИТУТ ИМ. БЕХТЕРЕВА,",
+      "timePoint": "5:42"
+    },
+    {
+      "stopName": "ПЛОЩАДЬ БЕХТЕРЕВА",
+      "timePoint": "5:43"
+    },
+    {
+      "stopName": "НЕВСКИЙ ЗАВОД",
+      "timePoint": "5:45"
+    },
+    {
+      "stopName": "БОЛЬШОЙ СМОЛЕНСКИЙ ПР.",
+      "timePoint": "5:46"
+    },
+    {
+      "stopName": "ПР. ЕЛИЗАРОВА, УГ. УЛ. СЕДОВА",
+      "timePoint": "5:48"
+    },
+    {
       "stopName": "УЛ. КРУПСКОЙ",
-      "timePoint": "6:05"
+      "timePoint": "5:50"
     },
     {
       "stopName": "ВАГОНОРЕМОНТНЫЙ ЗАВОД",
-      "timePoint": "6:07"
+      "timePoint": "5:52"
     },
     {
       "stopName": "ЖЕЛЕЗНОДОРОЖНЫЙ ПР.",
-      "timePoint": "6:08"
+      "timePoint": "5:53"
     },
     {
       "stopName": "ВАРФОЛОМЕЕВСКАЯ УЛ.",
-      "timePoint": "6:09"
+      "timePoint": "5:54"
     },
     {
       "stopName": "УЛ. СЕДОВА,70",
-      "timePoint": "6:10"
+      "timePoint": "5:55"
     },
     {
       "stopName": "УЛ. ПОЛЯРНИКОВ",
-      "timePoint": "6:12"
+      "timePoint": "5:57"
     },
     {
       "stopName": "СТ. МЕТРО \"ЛОМОНОСОВСКАЯ\"",
-      "timePoint": "6:14"
+      "timePoint": "5:59"
     },
     {
       "stopName": "ВОЛОДАРСКИЙ МОСТ",
-      "timePoint": "6:15"
+      "timePoint": "6:00"
     },
     {
       "stopName": "НАРОДНАЯ УЛ., 8",
-      "timePoint": "6:18"
+      "timePoint": "6:03"
     },
     {
       "stopName": "НАРОДНАЯ УЛ., УГ. ДАЛЬНЕВОСТОЧНОГО ПР.",
-      "timePoint": "6:20"
+      "timePoint": "6:05"
     },
     {
       "stopName": "ПОЛИКЛИНИКА",
-      "timePoint": "6:21"
+      "timePoint": "6:06"
     },
     {
       "stopName": "ДАЛЬНЕВОСТОЧНЫЙ ПР., УГ. ПР. БОЛЬШЕВИКОВ",
-      "timePoint": "6:22"
+      "timePoint": "6:07"
     },
     {
       "stopName": "ПР. БОЛЬШЕВИКОВ,77",
-      "timePoint": "6:23"
+      "timePoint": "6:08"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ НАБ.",
-      "timePoint": "6:24"
+      "timePoint": "6:09"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ НАБ.,106",
-      "timePoint": "6:26"
+      "timePoint": "6:11"
     },
     {
       "stopName": "РУСАНОВСКАЯ УЛ.",
-      "timePoint": "6:28"
+      "timePoint": "6:13"
     },
     {
       "stopName": "А.С. \"УТКИНА ЗАВОДЬ\"",
-      "timePoint": "6:30"
+      "timePoint": "6:15"
     }
   ],
   "coordinates": {
@@ -1159,5 +1152,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:08:13.978062"
+  "timestamp": "2025-11-10T21:36:33.590197"
 }

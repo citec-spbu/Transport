@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 477        АВТОБУСНАЯ СТАНЦИЯ \"КРАСНОЕ СЕЛО\" - ДЕР. ВИЛЛОЗИ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. КРАСНОЕ СЕЛО": {
@@ -195,13 +195,6 @@
     },
     {
       "startStop": "ДЕР. ВИЛЛОЗИ",
-      "endStop": "ДЕР. ВИЛЛОЗИ",
-      "name": "ДЕР. ВИЛЛОЗИ -> ДЕР. ВИЛЛОЗИ; route_name: Автобус 477        АВТОБУСНАЯ СТАНЦИЯ \"КРАСНОЕ СЕЛО\" - ДЕР. ВИЛЛОЗИ",
-      "route": "Автобус 477        АВТОБУСНАЯ СТАНЦИЯ \"КРАСНОЕ СЕЛО\" - ДЕР. ВИЛЛОЗИ",
-      "duration": 0
-    },
-    {
-      "startStop": "ДЕР. ВИЛЛОЗИ",
       "endStop": "ЛАГЕРЬ",
       "name": "ДЕР. ВИЛЛОЗИ -> ЛАГЕРЬ; route_name: Автобус 477        АВТОБУСНАЯ СТАНЦИЯ \"КРАСНОЕ СЕЛО\" - ДЕР. ВИЛЛОЗИ",
       "route": "Автобус 477        АВТОБУСНАЯ СТАНЦИЯ \"КРАСНОЕ СЕЛО\" - ДЕР. ВИЛЛОЗИ",
@@ -267,83 +260,83 @@
   "timetable": [
     {
       "stopName": "А.С. \"КРАСНОЕ СЕЛО\",",
-      "timePoint": "07:00"
+      "timePoint": "05:32"
     },
     {
       "stopName": "Ж.-Д. СТ. КРАСНОЕ СЕЛО",
-      "timePoint": "07:06"
+      "timePoint": "05:38"
     },
     {
       "stopName": "ПР. КРАСНЫХ КОМАНДИРОВ",
-      "timePoint": "07:07"
+      "timePoint": "05:39"
     },
     {
       "stopName": "УЛ. ПЕРВОГО МАЯ",
-      "timePoint": "07:09"
+      "timePoint": "05:41"
     },
     {
       "stopName": "УЛ. СВОБОДЫ",
-      "timePoint": "07:11"
+      "timePoint": "05:43"
     },
     {
       "stopName": "УЛ. ВОССТАНОВЛЕНИЯ",
-      "timePoint": "07:12"
+      "timePoint": "05:44"
     },
     {
       "stopName": "ГАТЧИНСКОЕ ШОССЕ, 9",
-      "timePoint": "07:13"
+      "timePoint": "05:45"
     },
     {
       "stopName": "КРАСНОГОРОДСКАЯ УЛ.",
-      "timePoint": "07:14"
+      "timePoint": "05:46"
     },
     {
       "stopName": "ЛАГЕРЬ",
-      "timePoint": "07:19"
+      "timePoint": "05:51"
     },
     {
       "stopName": "ДЕР. ВИЛЛОЗИ",
-      "timePoint": "07:22"
+      "timePoint": "05:54"
     },
     {
       "stopName": "ДЕР. ВИЛЛОЗИ",
-      "timePoint": "07:22"
+      "timePoint": "05:54"
     },
     {
       "stopName": "ЛАГЕРЬ",
-      "timePoint": "07:26"
+      "timePoint": "05:58"
     },
     {
       "stopName": "ГАТЧИНСКОЕ ШОССЕ",
-      "timePoint": "07:31"
+      "timePoint": "06:03"
     },
     {
       "stopName": "ГАТЧИНСКОЕ ШОССЕ, 9",
-      "timePoint": "07:32"
+      "timePoint": "06:04"
     },
     {
       "stopName": "ПР. ЛЕНИНА",
-      "timePoint": "07:34"
+      "timePoint": "06:06"
     },
     {
       "stopName": "УЛ. СВОБОДЫ",
-      "timePoint": "07:35"
+      "timePoint": "06:07"
     },
     {
       "stopName": "ПР. ЛЕНИНА, УГОЛ УЛ. ПЕРВОГО МАЯ",
-      "timePoint": "07:37"
+      "timePoint": "06:09"
     },
     {
       "stopName": "ПР. КРАСНЫХ КОМАНДИРОВ",
-      "timePoint": "07:39"
+      "timePoint": "06:11"
     },
     {
       "stopName": "Ж.-Д. СТ. КРАСНОЕ СЕЛО",
-      "timePoint": "07:40"
+      "timePoint": "06:12"
     },
     {
       "stopName": "А.С. \"КРАСНОЕ СЕЛО\",",
-      "timePoint": "07:41"
+      "timePoint": "06:13"
     }
   ],
   "coordinates": {
@@ -413,5 +406,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T14:07:06.926494"
+  "timestamp": "2025-11-10T22:00:19.604139"
 }

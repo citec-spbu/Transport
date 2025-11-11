@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 149        АВТОБУСНАЯ СТАНЦИЯ \"КРАСНОЕ СЕЛО\" - АВТОБУСНАЯ СТАНЦИЯ \"КРАСНОЕ СЕЛО\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. КРАСНОЕ СЕЛО": {
@@ -593,5 +593,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:14:43.136552"
+  "timestamp": "2025-11-10T21:45:21.322091"
 }

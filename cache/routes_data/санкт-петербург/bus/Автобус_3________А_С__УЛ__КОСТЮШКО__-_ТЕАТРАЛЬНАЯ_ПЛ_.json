@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 3        А.С \"УЛ. КОСТЮШКО\" - ТЕАТРАЛЬНАЯ ПЛ."
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "УЛ. КОСТЮШКО": {
@@ -820,13 +820,6 @@
     },
     {
       "startStop": "ПР. РИМСКОГО-КОРСАКОВА",
-      "endStop": "ПР. РИМСКОГО-КОРСАКОВА",
-      "name": "ПР. РИМСКОГО-КОРСАКОВА -> ПР. РИМСКОГО-КОРСАКОВА; route_name: Автобус 3        А.С \"УЛ. КОСТЮШКО\" - ТЕАТРАЛЬНАЯ ПЛ.",
-      "route": "Автобус 3        А.С \"УЛ. КОСТЮШКО\" - ТЕАТРАЛЬНАЯ ПЛ.",
-      "duration": 0
-    },
-    {
-      "startStop": "ПР. РИМСКОГО-КОРСАКОВА",
       "endStop": "ЛЕРМОНТОВСКИЙ ПР.",
       "name": "ПР. РИМСКОГО-КОРСАКОВА -> ЛЕРМОНТОВСКИЙ ПР.; route_name: Автобус 3        А.С \"УЛ. КОСТЮШКО\" - ТЕАТРАЛЬНАЯ ПЛ.",
       "route": "Автобус 3        А.С \"УЛ. КОСТЮШКО\" - ТЕАТРАЛЬНАЯ ПЛ.",
@@ -1123,351 +1116,351 @@
   "timetable": [
     {
       "stopName": "А.С. \"УЛ. КОСТЮШКО\",",
-      "timePoint": "6:35"
+      "timePoint": "5:25"
     },
     {
       "stopName": "УЛ. КОСТЮШКО",
-      "timePoint": "6:41"
+      "timePoint": "5:31"
     },
     {
       "stopName": "5-Й ПРЕДПОРТОВЫЙ ПРОЕЗД,4",
-      "timePoint": "6:42"
+      "timePoint": "5:32"
     },
     {
       "stopName": "АВТОБУСНЫЙ ПАРК № 7",
-      "timePoint": "6:44"
+      "timePoint": "5:34"
     },
     {
       "stopName": "ПРЕДПОРТОВАЯ УЛ.",
-      "timePoint": "6:46"
+      "timePoint": "5:36"
     },
     {
       "stopName": "СТ. ПРЕДПОРТОВАЯ",
-      "timePoint": "6:49"
+      "timePoint": "5:39"
     },
     {
       "stopName": "ПРЕДПОРТОВАЯ УЛ., 5",
-      "timePoint": "6:51"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ПУЛКОВСКОЕ ШОССЕ,13",
-      "timePoint": "6:56"
+      "timePoint": "5:46"
     },
     {
       "stopName": "ПУЛКОВСКОЕ ШОССЕ,9",
-      "timePoint": "6:57"
+      "timePoint": "5:47"
     },
     {
       "stopName": "ПУЛКОВСКОЕ ШОССЕ,5",
-      "timePoint": "6:58"
+      "timePoint": "5:48"
     },
     {
       "stopName": "УЛ. ГАЛСТЯНА",
-      "timePoint": "6:59"
+      "timePoint": "5:49"
     },
     {
       "stopName": "ВАРШАВСКАЯ УЛ.",
-      "timePoint": "7:01"
+      "timePoint": "5:51"
     },
     {
       "stopName": "ПЛ. ПОБЕДЫ",
-      "timePoint": "7:05"
+      "timePoint": "5:55"
     },
     {
       "stopName": "СТ. МЕТРО \"МОСКОВСКАЯ\"",
-      "timePoint": "7:08"
+      "timePoint": "5:58"
     },
     {
       "stopName": "АВИАЦИОННАЯ УЛ., СТ. МЕТРО \"МОСКОВСКАЯ\"",
-      "timePoint": "7:09"
+      "timePoint": "5:59"
     },
     {
       "stopName": "УЛ. ГАСТЕЛЛО",
-      "timePoint": "7:11"
+      "timePoint": "6:01"
     },
     {
       "stopName": "ПЛ. БРАТЬЕВ СТРУГАЦКИХ",
-      "timePoint": "7:13"
+      "timePoint": "6:03"
     },
     {
       "stopName": "СТАНЦИЯ МЕТРО \"ПАРК ПОБЕДЫ\"",
-      "timePoint": "7:14"
+      "timePoint": "6:04"
     },
     {
       "stopName": "КУЗНЕЦОВСКАЯ УЛ.",
-      "timePoint": "7:17"
+      "timePoint": "6:07"
     },
     {
       "stopName": "СТ. МЕТРО \"ЭЛЕКТРОСИЛА\"",
-      "timePoint": "7:19"
+      "timePoint": "6:09"
     },
     {
       "stopName": "МАРИИНСКАЯ УЛ., СТ. МЕТРО \"ЭЛЕКТРОСИЛА\"",
-      "timePoint": "7:20"
+      "timePoint": "6:10"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ МОСКОВСКОГО РАЙОНА",
-      "timePoint": "7:21"
+      "timePoint": "6:11"
     },
     {
       "stopName": "ЗАСТАВСКАЯ УЛ., \"КУКОЛЬНЫЙ ТЕАТР СКАЗКИ\"",
-      "timePoint": "7:23"
+      "timePoint": "6:13"
     },
     {
       "stopName": "ЛИГОВСКИЙ ПР., УГ. МОСКОВСКОГО ПР.",
-      "timePoint": "7:24"
+      "timePoint": "6:14"
     },
     {
       "stopName": "ЦВЕТОЧНАЯ УЛ.",
-      "timePoint": "7:26"
+      "timePoint": "6:16"
     },
     {
       "stopName": "ЛИГОВСКИЙ ПР.,283",
-      "timePoint": "7:28"
+      "timePoint": "6:18"
     },
     {
       "stopName": "ТОСИНА УЛ.",
-      "timePoint": "7:31"
+      "timePoint": "6:21"
     },
     {
       "stopName": "РАССТАННАЯ УЛ.",
-      "timePoint": "7:32"
+      "timePoint": "6:22"
     },
     {
       "stopName": "КУРСКАЯ УЛ.",
-      "timePoint": "7:34"
+      "timePoint": "6:24"
     },
     {
       "stopName": "СТ. МЕТРО \"ОБВОДНЫЙ КАНАЛ\"",
-      "timePoint": "7:35"
+      "timePoint": "6:25"
     },
     {
       "stopName": "СТ. МЕТРО \"ЛИГОВСКИЙ ПР.\"",
-      "timePoint": "7:38"
+      "timePoint": "6:28"
     },
     {
       "stopName": "КУЗНЕЧНЫЙ ПЕРЕУЛОК",
-      "timePoint": "7:40"
+      "timePoint": "6:30"
     },
     {
       "stopName": "МОСКОВСКИЙ ВОКЗАЛ",
-      "timePoint": "7:41"
+      "timePoint": "6:31"
     },
     {
       "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ ВОССТАНИЯ\"",
-      "timePoint": "7:43"
+      "timePoint": "6:33"
     },
     {
       "stopName": "ЛИТЕЙНЫЙ ПР.",
-      "timePoint": "7:45"
+      "timePoint": "6:35"
     },
     {
       "stopName": "СТ. МЕТРО \"ГОСТИНЫЙ ДВОР\"",
-      "timePoint": "7:47"
+      "timePoint": "6:37"
     },
     {
       "stopName": "СТ. МЕТРО \"НЕВСКИЙ ПР.\"",
-      "timePoint": "7:49"
+      "timePoint": "6:39"
     },
     {
       "stopName": "Б. КОНЮШЕННАЯ УЛ.",
-      "timePoint": "7:51"
+      "timePoint": "6:41"
     },
     {
       "stopName": "СТ. МЕТРО \"АДМИРАЛТЕЙСКАЯ\"",
-      "timePoint": "7:53"
+      "timePoint": "6:43"
     },
     {
       "stopName": "ИСААКИЕВСКИЙ СОБОР",
-      "timePoint": "7:54"
+      "timePoint": "6:44"
     },
     {
       "stopName": "КОННОГВАРДЕЙСКИЙ БУЛЬВАР",
-      "timePoint": "7:57"
+      "timePoint": "6:47"
     },
     {
       "stopName": "ПЛ. ТРУДА",
-      "timePoint": "7:58"
+      "timePoint": "6:48"
     },
     {
       "stopName": "ТЕАТРАЛЬНАЯ ПЛ.",
-      "timePoint": "8:01"
+      "timePoint": "6:51"
     },
     {
       "stopName": "ПР. РИМСКОГО-КОРСАКОВА",
-      "timePoint": "8:02"
+      "timePoint": "6:52"
     },
     {
       "stopName": "ПР. РИМСКОГО-КОРСАКОВА",
-      "timePoint": "8:02"
+      "timePoint": "6:52"
     },
     {
       "stopName": "ЛЕРМОНТОВСКИЙ ПР.",
-      "timePoint": "8:03"
+      "timePoint": "6:53"
     },
     {
       "stopName": "МАРИИНСКИЙ ТЕАТР",
-      "timePoint": "8:06"
+      "timePoint": "6:56"
     },
     {
       "stopName": "ТЕАТРАЛЬНАЯ ПЛ.",
-      "timePoint": "8:07"
+      "timePoint": "6:57"
     },
     {
       "stopName": "ДК СВЯЗИ",
-      "timePoint": "8:10"
+      "timePoint": "7:00"
     },
     {
       "stopName": "ИСААКИЕВСКАЯ ПЛОЩАДЬ",
-      "timePoint": "8:12"
+      "timePoint": "7:02"
     },
     {
       "stopName": "НЕВСКИЙ ПР., СТ. МЕТРО \"АДМИРАЛТЕЙСКАЯ\"",
-      "timePoint": "8:14"
+      "timePoint": "7:04"
     },
     {
       "stopName": "СТ. МЕТРО \"НЕВСКИЙ ПР.\"",
-      "timePoint": "8:16"
+      "timePoint": "7:06"
     },
     {
       "stopName": "СТ. МЕТРО \"ГОСТИНЫЙ ДВОР\"",
-      "timePoint": "8:18"
+      "timePoint": "7:08"
     },
     {
       "stopName": "ДВОРЕЦ ТВОРЧЕСТВА ЮНЫХ",
-      "timePoint": "8:20"
+      "timePoint": "7:10"
     },
     {
       "stopName": "ЛИТЕЙНЫЙ ПР.",
-      "timePoint": "8:22"
+      "timePoint": "7:12"
     },
     {
       "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ ВОССТАНИЯ\"",
-      "timePoint": "8:24"
+      "timePoint": "7:14"
     },
     {
       "stopName": "МОСКОВСКИЙ ВОКЗАЛ",
-      "timePoint": "8:26"
+      "timePoint": "7:16"
     },
     {
       "stopName": "КУЗНЕЧНЫЙ ПЕРЕУЛОК",
-      "timePoint": "8:27"
+      "timePoint": "7:17"
     },
     {
       "stopName": "СТ. МЕТРО \"ЛИГОВСКИЙ ПР.\"",
-      "timePoint": "8:29"
+      "timePoint": "7:19"
     },
     {
       "stopName": "СТ. МЕТРО \"ОБВОДНЫЙ КАНАЛ\"",
-      "timePoint": "8:32"
+      "timePoint": "7:22"
     },
     {
       "stopName": "КУРСКАЯ УЛ.",
-      "timePoint": "8:33"
+      "timePoint": "7:23"
     },
     {
       "stopName": "ЛИГОВСКИЙ ПР., УГОЛ РАССТАННОЙ УЛ.",
-      "timePoint": "8:35"
+      "timePoint": "7:25"
     },
     {
       "stopName": "ТОСИНА УЛ.",
-      "timePoint": "8:37"
+      "timePoint": "7:27"
     },
     {
       "stopName": "ЛИГОВСКИЙ ПР.,283",
-      "timePoint": "8:39"
+      "timePoint": "7:29"
     },
     {
       "stopName": "ЦВЕТОЧНАЯ УЛ.",
-      "timePoint": "8:42"
+      "timePoint": "7:32"
     },
     {
       "stopName": "ЛИГОВСКИЙ ПР.",
-      "timePoint": "8:44"
+      "timePoint": "7:34"
     },
     {
       "stopName": "СТ. МЕТРО \"МОСКОВСКИЕ ВОРОТА\"",
-      "timePoint": "8:45"
+      "timePoint": "7:35"
     },
     {
       "stopName": "ЗАСТАВСКАЯ УЛ., \"КУКОЛЬНЫЙ ТЕАТР СКАЗКИ\"",
-      "timePoint": "8:46"
+      "timePoint": "7:36"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ МОСКОВСКОГО РАЙОНА",
-      "timePoint": "8:47"
+      "timePoint": "7:37"
     },
     {
       "stopName": "СТАНЦИЯ МЕТРО \"ЭЛЕКТРОСИЛА\"",
-      "timePoint": "8:49"
+      "timePoint": "7:39"
     },
     {
       "stopName": "БЛАГОДАТНАЯ УЛ., УНИВЕРСИТЕТ МЧС",
-      "timePoint": "8:51"
+      "timePoint": "7:41"
     },
     {
       "stopName": "КУЗНЕЦОВСКАЯ УЛ.",
-      "timePoint": "8:53"
+      "timePoint": "7:43"
     },
     {
       "stopName": "СТАНЦИЯ МЕТРО \"ПАРК ПОБЕДЫ\"",
-      "timePoint": "8:55"
+      "timePoint": "7:45"
     },
     {
       "stopName": "ПЛ. БРАТЬЕВ СТРУГАЦКИХ",
-      "timePoint": "8:57"
+      "timePoint": "7:47"
     },
     {
       "stopName": "УЛ. ГАСТЕЛЛО",
-      "timePoint": "8:59"
+      "timePoint": "7:49"
     },
     {
       "stopName": "АВИАЦИОННАЯ УЛ., СТ. МЕТРО \"МОСКОВСКАЯ\"",
-      "timePoint": "9:00"
+      "timePoint": "7:50"
     },
     {
       "stopName": "СТ. МЕТРО \"МОСКОВСКАЯ\"",
-      "timePoint": "9:03"
+      "timePoint": "7:53"
     },
     {
       "stopName": "ПЛ. ПОБЕДЫ",
-      "timePoint": "9:06"
+      "timePoint": "7:56"
     },
     {
       "stopName": "УЛ. ГАЛСТЯНА",
-      "timePoint": "9:07"
+      "timePoint": "7:57"
     },
     {
       "stopName": "ПУЛКОВСКОЕ ШОССЕ,5",
-      "timePoint": "9:08"
+      "timePoint": "7:58"
     },
     {
       "stopName": "ПУЛКОВСКОЕ ШОССЕ,9",
-      "timePoint": "9:09"
+      "timePoint": "7:59"
     },
     {
       "stopName": "ПУЛКОВСКОЕ ШОССЕ,13",
-      "timePoint": "9:10"
+      "timePoint": "8:00"
     },
     {
       "stopName": "ДУНАЙСКИЙ ПР., ПО ТРЕБОВАНИЮ",
-      "timePoint": "9:12"
+      "timePoint": "8:02"
     },
     {
       "stopName": "АВТОБУСНЫЙ ПАРК № 7",
-      "timePoint": "9:13"
+      "timePoint": "8:03"
     },
     {
       "stopName": "5-Й ПРЕДПОРТОВЫЙ ПРОЕЗД,4",
-      "timePoint": "9:15"
+      "timePoint": "8:05"
     },
     {
       "stopName": "УЛ. КОСТЮШКО",
-      "timePoint": "9:17"
+      "timePoint": "8:07"
     },
     {
       "stopName": "А.С. \"УЛ. КОСТЮШКО\",",
-      "timePoint": "9:18"
+      "timePoint": "8:08"
     }
   ],
   "coordinates": {
@@ -1752,5 +1745,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:07:47.793082"
+  "timestamp": "2025-11-10T21:35:56.764708"
 }

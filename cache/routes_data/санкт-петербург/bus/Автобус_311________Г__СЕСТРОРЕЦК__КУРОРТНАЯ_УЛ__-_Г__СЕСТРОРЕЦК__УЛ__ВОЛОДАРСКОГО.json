@@ -360,95 +360,95 @@
   "timetable": [
     {
       "stopName": "Г. СЕСТРОРЕЦК, КУРОРТНАЯ УЛ., ПОСАДКИ И ВЫСАДКИ НЕТ",
-      "timePoint": "07:25"
+      "timePoint": "07:00"
     },
     {
       "stopName": "КУРОРТНАЯ УЛ.",
-      "timePoint": "07:31"
+      "timePoint": "07:06"
     },
     {
       "stopName": "УЛ. ГРИГОРЬЕВА",
-      "timePoint": "07:32"
+      "timePoint": "07:07"
     },
     {
       "stopName": "МОРСКАЯ УЛ.",
-      "timePoint": "07:33"
+      "timePoint": "07:08"
     },
     {
       "stopName": "МАЛАЯ КАНОНЕРСКАЯ УЛ.",
-      "timePoint": "07:35"
+      "timePoint": "07:10"
     },
     {
       "stopName": "ВОКЗАЛ",
-      "timePoint": "07:36"
+      "timePoint": "07:11"
     },
     {
       "stopName": "ДЕТСКИЙ САД",
-      "timePoint": "07:38"
+      "timePoint": "07:13"
     },
     {
       "stopName": "УЛ. ТОКАРЕВА, 3",
-      "timePoint": "07:39"
+      "timePoint": "07:14"
     },
     {
       "stopName": "СТОМАТОЛОГИЧЕСКАЯ ПОЛИКЛИНИКА",
-      "timePoint": "07:41"
+      "timePoint": "07:16"
     },
     {
       "stopName": "РЫБАЦКАЯ",
-      "timePoint": "07:44"
+      "timePoint": "07:19"
     },
     {
       "stopName": "38 КВАРТАЛ",
-      "timePoint": "07:48"
+      "timePoint": "07:23"
     },
     {
       "stopName": "ПРИМОРСКОЕ ШОССЕ, 269",
-      "timePoint": "07:49"
+      "timePoint": "07:24"
     },
     {
       "stopName": "ПРИМОРСКОЕ ШОССЕ, 285",
-      "timePoint": "07:51"
+      "timePoint": "07:26"
     },
     {
       "stopName": "РЫБАЦКАЯ",
-      "timePoint": "07:52"
+      "timePoint": "07:27"
     },
     {
       "stopName": "УЛ. МОСИНА, 24",
-      "timePoint": "07:55"
+      "timePoint": "07:30"
     },
     {
       "stopName": "БАНЯ",
-      "timePoint": "07:57"
+      "timePoint": "07:32"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ",
-      "timePoint": "07:59"
+      "timePoint": "07:34"
     },
     {
       "stopName": "ШКОЛА № 541",
-      "timePoint": "08:00"
+      "timePoint": "07:35"
     },
     {
       "stopName": "Г. СЕСТРОРЕЦК, УЛ. БОРИСОВА",
-      "timePoint": "08:01"
+      "timePoint": "07:36"
     },
     {
       "stopName": "КЛАДБИЩЕ",
-      "timePoint": "08:03"
+      "timePoint": "07:38"
     },
     {
       "stopName": "УЛ. ПОГРАНИЧНИКОВ",
-      "timePoint": "08:04"
+      "timePoint": "07:39"
     },
     {
       "stopName": "РЕАБИЛИТАЦИОННЫЙ ЦЕНТР",
-      "timePoint": "08:06"
+      "timePoint": "07:41"
     },
     {
       "stopName": "ГОРОДСКАЯ БОЛЬНИЦА № 40",
-      "timePoint": "08:08"
+      "timePoint": "07:43"
     }
   ],
   "coordinates": {
@@ -563,5 +563,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:52:22.848351"
+  "timestamp": "2025-11-10T21:54:23.302692"
 }

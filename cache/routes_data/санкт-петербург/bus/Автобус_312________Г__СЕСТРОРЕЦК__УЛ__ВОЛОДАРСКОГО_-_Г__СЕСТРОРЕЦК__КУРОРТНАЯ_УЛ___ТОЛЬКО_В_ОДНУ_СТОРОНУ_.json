@@ -312,83 +312,83 @@
   "timetable": [
     {
       "stopName": "ГОРОДСКАЯ БОЛЬНИЦА № 40",
-      "timePoint": "06:53"
+      "timePoint": "06:28"
     },
     {
       "stopName": "Г. СЕСТРОРЕЦК, УЛ. БОРИСОВА",
-      "timePoint": "06:54"
+      "timePoint": "06:29"
     },
     {
       "stopName": "ШКОЛА № 541",
-      "timePoint": "06:55"
+      "timePoint": "06:30"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ",
-      "timePoint": "06:57"
+      "timePoint": "06:32"
     },
     {
       "stopName": "БАНЯ",
-      "timePoint": "06:58"
+      "timePoint": "06:33"
     },
     {
       "stopName": "УЛ. МОСИНА, 24",
-      "timePoint": "07:00"
+      "timePoint": "06:35"
     },
     {
       "stopName": "СТОМАТОЛОГИЧЕСКАЯ ПОЛИКЛИНИКА",
-      "timePoint": "07:05"
+      "timePoint": "06:40"
     },
     {
       "stopName": "РЫБАЦКАЯ",
-      "timePoint": "07:08"
+      "timePoint": "06:43"
     },
     {
       "stopName": "38 КВАРТАЛ",
-      "timePoint": "07:11"
+      "timePoint": "06:46"
     },
     {
       "stopName": "ПРИМОРСКОЕ ШОССЕ, 269",
-      "timePoint": "07:12"
+      "timePoint": "06:47"
     },
     {
       "stopName": "ПРИМОРСКОЕ ШОССЕ, 285",
-      "timePoint": "07:14"
+      "timePoint": "06:49"
     },
     {
       "stopName": "РЫБАЦКАЯ",
-      "timePoint": "07:15"
+      "timePoint": "06:50"
     },
     {
       "stopName": "УЛ. ТОКАРЕВА, 3",
-      "timePoint": "07:16"
+      "timePoint": "06:51"
     },
     {
       "stopName": "ДЕТСКИЙ САД",
-      "timePoint": "07:18"
+      "timePoint": "06:53"
     },
     {
       "stopName": "ВОКЗАЛ",
-      "timePoint": "07:19"
+      "timePoint": "06:54"
     },
     {
       "stopName": "МАЛАЯ КАНОНЕРСКАЯ УЛ.",
-      "timePoint": "07:20"
+      "timePoint": "06:55"
     },
     {
       "stopName": "МОРСКАЯ УЛ.",
-      "timePoint": "07:21"
+      "timePoint": "06:56"
     },
     {
       "stopName": "УЛ. ГРИГОРЬЕВА",
-      "timePoint": "07:23"
+      "timePoint": "06:58"
     },
     {
       "stopName": "КУРОРТНАЯ УЛ.",
-      "timePoint": "07:24"
+      "timePoint": "06:59"
     },
     {
       "stopName": "Г. СЕСТРОРЕЦК, КУРОРТНАЯ УЛ., ПОСАДКИ И ВЫСАДКИ НЕТ",
-      "timePoint": "07:25"
+      "timePoint": "07:00"
     }
   ],
   "coordinates": {
@@ -488,5 +488,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:52:26.040474"
+  "timestamp": "2025-11-10T21:54:26.564516"
 }

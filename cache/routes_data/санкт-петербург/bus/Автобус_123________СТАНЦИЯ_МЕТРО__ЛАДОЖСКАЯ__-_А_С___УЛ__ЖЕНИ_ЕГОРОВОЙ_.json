@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "СТ. МЕТРО \"ЛАДОЖСКАЯ\"": {
@@ -1010,13 +1010,6 @@
     },
     {
       "startStop": "А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\",",
-      "endStop": "А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\",",
-      "name": "А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\", -> А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\",; route_name: Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\"",
-      "route": "Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\"",
-      "duration": 113
-    },
-    {
-      "startStop": "А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\",",
       "endStop": "УЛ. ЖЕНИ ЕГОРОВОЙ",
       "name": "А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\", -> УЛ. ЖЕНИ ЕГОРОВОЙ; route_name: Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\"",
       "route": "Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\"",
@@ -1395,13 +1388,6 @@
     },
     {
       "startStop": "СТ. МЕТРО \"ЛАДОЖСКАЯ\"",
-      "endStop": "СТ. МЕТРО \"ЛАДОЖСКАЯ\"",
-      "name": "СТ. МЕТРО \"ЛАДОЖСКАЯ\" -> СТ. МЕТРО \"ЛАДОЖСКАЯ\"; route_name: Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\"",
-      "route": "Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\"",
-      "duration": 1
-    },
-    {
-      "startStop": "СТ. МЕТРО \"ЛАДОЖСКАЯ\"",
       "endStop": "А.С. \"ЛАДОЖСКАЯ\" 1",
       "name": "СТ. МЕТРО \"ЛАДОЖСКАЯ\" -> А.С. \"ЛАДОЖСКАЯ\" 1; route_name: Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\"",
       "route": "Автобус 123        СТАНЦИЯ МЕТРО \"ЛАДОЖСКАЯ\" - А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\"",
@@ -1639,231 +1625,231 @@
     },
     {
       "stopName": "А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\",",
-      "timePoint": "5:04"
+      "timePoint": "5:00"
     },
     {
       "stopName": "УЛ. ЖЕНИ ЕГОРОВОЙ",
-      "timePoint": "5:05"
+      "timePoint": "5:01"
     },
     {
       "stopName": "УЛ. ПРОКОФЬЕВА, УГОЛ УЛ. КОМПОЗИТОРОВ",
-      "timePoint": "5:06"
+      "timePoint": "5:02"
     },
     {
       "stopName": "УЛ. СИМОНОВА, УГ. УЛ. ПРОКОФЬЕВА",
-      "timePoint": "5:08"
+      "timePoint": "5:04"
     },
     {
       "stopName": "УЛ. ШОСТАКОВИЧА",
-      "timePoint": "5:09"
+      "timePoint": "5:05"
     },
     {
       "stopName": "ПОЛИКЛИНИКА №117",
-      "timePoint": "5:10"
+      "timePoint": "5:06"
     },
     {
       "stopName": "ПР. ПРОСВЕЩЕНИЯ УГ. УЛ. СИМОНОВА",
-      "timePoint": "5:11"
+      "timePoint": "5:07"
     },
     {
       "stopName": "УЛ. КОМПОЗИТОРОВ, УГОЛ ПР. ПРОСВЕЩЕНИЯ",
-      "timePoint": "5:13"
+      "timePoint": "5:09"
     },
     {
       "stopName": "УЛ. ХОШИМИНА",
-      "timePoint": "5:15"
+      "timePoint": "5:11"
     },
     {
       "stopName": "УЛ. АСАФЬЕВА",
-      "timePoint": "5:16"
+      "timePoint": "5:12"
     },
     {
       "stopName": "УЛ. КОМПОЗИТОРОВ",
-      "timePoint": "5:17"
+      "timePoint": "5:13"
     },
     {
       "stopName": "ПР. ЭНГЕЛЬСА УГ. ПР. ЛУНАЧАРСКОГО",
-      "timePoint": "5:18"
+      "timePoint": "5:14"
     },
     {
       "stopName": "СТ. МЕТРО \"ОЗЕРКИ\"",
-      "timePoint": "5:21"
+      "timePoint": "5:17"
     },
     {
       "stopName": "УЛ. СИКЕЙРОСА УГ. ПР. ЭНГЕЛЬСА",
-      "timePoint": "5:22"
+      "timePoint": "5:18"
     },
     {
       "stopName": "УЛ. ЕСЕНИНА УГ. УЛ. СИКЕЙРОСА",
-      "timePoint": "5:23"
+      "timePoint": "5:19"
     },
     {
       "stopName": "ШКОЛА",
-      "timePoint": "5:24"
+      "timePoint": "5:20"
     },
     {
       "stopName": "ПР. ХУДОЖНИКОВ, УГОЛ УЛ. СИКЕЙРОСА",
-      "timePoint": "5:25"
+      "timePoint": "5:21"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР. УГ. ПР. ХУДОЖНИКОВ",
-      "timePoint": "5:27"
+      "timePoint": "5:23"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР.,5",
-      "timePoint": "5:28"
+      "timePoint": "5:24"
     },
     {
       "stopName": "УЛ. ЕСЕНИНА УГ. СЕВЕРНОГО ПР.",
-      "timePoint": "5:29"
+      "timePoint": "5:25"
     },
     {
       "stopName": "ПР. ТОРЕЗА УГ. УЛ. ЕСЕНИНА",
-      "timePoint": "5:31"
+      "timePoint": "5:27"
     },
     {
       "stopName": "РАШЕТОВА УЛ.",
-      "timePoint": "5:33"
+      "timePoint": "5:29"
     },
     {
       "stopName": "ПР. ТОРЕЗА, 96, ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:34"
+      "timePoint": "5:30"
     },
     {
       "stopName": "ПР. ТОРЕЗА, 82",
-      "timePoint": "5:35"
+      "timePoint": "5:31"
     },
     {
       "stopName": "МАНЧЕСТЕРСКАЯ УЛ.",
-      "timePoint": "5:37"
+      "timePoint": "5:33"
     },
     {
       "stopName": "СВЕТЛАНОВСКИЙ ПР.",
-      "timePoint": "5:39"
+      "timePoint": "5:35"
     },
     {
       "stopName": "ИНСТИТУТСКИЙ ПР.",
-      "timePoint": "5:41"
+      "timePoint": "5:37"
     },
     {
       "stopName": "ПР. ТОРЕЗА,21",
-      "timePoint": "5:43"
+      "timePoint": "5:39"
     },
     {
       "stopName": "ПЛ. МУЖЕСТВА",
-      "timePoint": "5:44"
+      "timePoint": "5:40"
     },
     {
       "stopName": "ПР. НЕПОКОРЁННЫХ, СТ. МЕТРО \"ПЛОЩАДЬ МУЖЕСТВА\"",
-      "timePoint": "5:45"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ПР. НЕПОКОРЁННЫХ,6",
-      "timePoint": "5:46"
+      "timePoint": "5:42"
     },
     {
       "stopName": "ПР. НЕПОКОРЁННЫХ, УГОЛ ГРАЖДАНСКОГО ПР.",
-      "timePoint": "5:48"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ПР. НЕПОКОРЁННЫХ УГ. УЛ. БУТЛЕРОВА",
-      "timePoint": "5:49"
+      "timePoint": "5:45"
     },
     {
       "stopName": "ПЕЧОРСКАЯ УЛ.",
-      "timePoint": "5:53"
+      "timePoint": "5:49"
     },
     {
       "stopName": "ПИСКАРЁВСКОЕ МЕМОРИАЛЬНОЕ КЛАДБИЩЕ",
-      "timePoint": "5:54"
+      "timePoint": "5:50"
     },
     {
       "stopName": "МЕНШИКОВСКИЙ ПР.",
-      "timePoint": "5:55"
+      "timePoint": "5:51"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР., 50",
-      "timePoint": "5:57"
+      "timePoint": "5:53"
     },
     {
       "stopName": "Ж.-Д. СТ. ПИСКАРЁВКА",
-      "timePoint": "5:59"
+      "timePoint": "5:55"
     },
     {
       "stopName": "ПР. МЕЧНИКОВА, Д. 11",
-      "timePoint": "6:01"
+      "timePoint": "5:57"
     },
     {
       "stopName": "ЗАМШИНА УЛ. УГ. ПР. МЕЧНИКОВА",
-      "timePoint": "6:02"
+      "timePoint": "5:58"
     },
     {
       "stopName": "БЕСТУЖЕВСКАЯ УЛ. УГ. ЗАМШИНОЙ УЛ.",
-      "timePoint": "6:03"
+      "timePoint": "5:59"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР.",
-      "timePoint": "6:05"
+      "timePoint": "6:01"
     },
     {
       "stopName": "ОРТОПЕДИЧЕСКИЙ ЦЕНТР",
-      "timePoint": "6:07"
+      "timePoint": "6:03"
     },
     {
       "stopName": "ЕКАТЕРИНИНСКИЙ ПР.",
-      "timePoint": "6:08"
+      "timePoint": "6:04"
     },
     {
       "stopName": "ПР. ЭНЕРГЕТИКОВ,72",
-      "timePoint": "6:09"
+      "timePoint": "6:05"
     },
     {
       "stopName": "УЛ. СТАСОВОЙ",
-      "timePoint": "6:10"
+      "timePoint": "6:06"
     },
     {
       "stopName": "ПР. ЭНЕРГЕТИКОВ,46",
-      "timePoint": "6:12"
+      "timePoint": "6:08"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ",
-      "timePoint": "6:14"
+      "timePoint": "6:10"
     },
     {
       "stopName": "ПР. ЭНЕРГЕТИКОВ, 27",
-      "timePoint": "6:16"
+      "timePoint": "6:12"
     },
     {
       "stopName": "БОЛЬШАЯ ПОРОХОВСКАЯ УЛ.",
-      "timePoint": "6:17"
+      "timePoint": "6:13"
     },
     {
       "stopName": "ПАРТИЗАНСКАЯ УЛ.",
-      "timePoint": "6:18"
+      "timePoint": "6:14"
     },
     {
       "stopName": "ЯКОРНАЯ УЛ.",
-      "timePoint": "6:20"
+      "timePoint": "6:16"
     },
     {
       "stopName": "ПР. ЭНЕРГЕТИКОВ, УГОЛ МАГНИТОГОРСКОЙ УЛ.",
-      "timePoint": "6:21"
+      "timePoint": "6:17"
     },
     {
       "stopName": "ОБЪЕДИНЕНИЕ \"РУССКИЕ САМОЦВЕТЫ\"",
-      "timePoint": "6:22"
+      "timePoint": "6:18"
     },
     {
       "stopName": "СТ. МЕТРО \"ЛАДОЖСКАЯ\"",
-      "timePoint": "6:23"
+      "timePoint": "6:19"
     },
     {
       "stopName": "СТ. МЕТРО \"ЛАДОЖСКАЯ\"",
-      "timePoint": "6:24"
+      "timePoint": "6:20"
     },
     {
       "stopName": "А.С. \"ЛАДОЖСКАЯ\"",
-      "timePoint": "6:26"
+      "timePoint": "6:22"
     }
   ],
   "coordinates": {
@@ -2208,5 +2194,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:13:18.574217"
+  "timestamp": "2025-11-10T21:43:31.912795"
 }

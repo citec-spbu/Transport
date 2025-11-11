@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 463        Г. ПЕТЕРГОФ, ВОКЗАЛ - 5-Й КМ БЕТОННОЙ АВТОМОБИЛЬНОЙ ДОРОГИ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ": {
@@ -396,7 +396,7 @@
       "endStop": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
       "name": "А.С. \"НОВЫЙ ПЕТЕРГОФ\", -> Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ; route_name: Автобус 463        Г. ПЕТЕРГОФ, ВОКЗАЛ - 5-Й КМ БЕТОННОЙ АВТОМОБИЛЬНОЙ ДОРОГИ",
       "route": "Автобус 463        Г. ПЕТЕРГОФ, ВОКЗАЛ - 5-Й КМ БЕТОННОЙ АВТОМОБИЛЬНОЙ ДОРОГИ",
-      "duration": 1
+      "duration": 6
     },
     {
       "startStop": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
@@ -652,17 +652,10 @@
     },
     {
       "startStop": "5 КМ БЕТОННОЙ ДОРОГИ",
-      "endStop": "5 КМ БЕТОННОЙ ДОРОГИ",
-      "name": "5 КМ БЕТОННОЙ ДОРОГИ -> 5 КМ БЕТОННОЙ ДОРОГИ; route_name: Автобус 463        Г. ПЕТЕРГОФ, ВОКЗАЛ - 5-Й КМ БЕТОННОЙ АВТОМОБИЛЬНОЙ ДОРОГИ",
-      "route": "Автобус 463        Г. ПЕТЕРГОФ, ВОКЗАЛ - 5-Й КМ БЕТОННОЙ АВТОМОБИЛЬНОЙ ДОРОГИ",
-      "duration": 0
-    },
-    {
-      "startStop": "5 КМ БЕТОННОЙ ДОРОГИ",
       "endStop": "ЛОПУХИНКА, СОВЕТСКАЯ УЛ.",
       "name": "5 КМ БЕТОННОЙ ДОРОГИ -> ЛОПУХИНКА, СОВЕТСКАЯ УЛ.; route_name: Автобус 463        Г. ПЕТЕРГОФ, ВОКЗАЛ - 5-Й КМ БЕТОННОЙ АВТОМОБИЛЬНОЙ ДОРОГИ",
       "route": "Автобус 463        Г. ПЕТЕРГОФ, ВОКЗАЛ - 5-Й КМ БЕТОННОЙ АВТОМОБИЛЬНОЙ ДОРОГИ",
-      "duration": 13
+      "duration": 8
     },
     {
       "startStop": "ЛОПУХИНКА, СОВЕТСКАЯ УЛ.",
@@ -927,311 +920,311 @@
   "timetable": [
     {
       "stopName": "А.С. \"НОВЫЙ ПЕТЕРГОФ\",",
-      "timePoint": "12:44"
+      "timePoint": "04:30"
     },
     {
       "stopName": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
-      "timePoint": "12:45"
+      "timePoint": "04:36"
     },
     {
       "stopName": "ЭРЛЕРОВСКИЙ БУЛЬВАР",
-      "timePoint": "12:46"
+      "timePoint": "04:37"
     },
     {
       "stopName": "ПЛОЩАДЬ АВРОВА",
-      "timePoint": "12:47"
+      "timePoint": "04:38"
     },
     {
       "stopName": "КОНСТАНТИНОВСКАЯ УЛ., НИКОЛАЕВСКАЯ БОЛЬНИЦА",
-      "timePoint": "12:48"
+      "timePoint": "04:39"
     },
     {
       "stopName": "ТОРГОВАЯ ПЛОЩАДЬ",
-      "timePoint": "12:49"
+      "timePoint": "04:40"
     },
     {
       "stopName": "ФОНТАНЫ",
-      "timePoint": "12:50"
+      "timePoint": "04:41"
     },
     {
       "stopName": "РАЗВОДНАЯ УЛ.",
-      "timePoint": "12:51"
+      "timePoint": "04:42"
     },
     {
       "stopName": "МАСТЕРОВОЙ ПЕР.",
-      "timePoint": "12:52"
+      "timePoint": "04:43"
     },
     {
       "stopName": "ФАБРИЧНАЯ УЛ.",
-      "timePoint": "12:53"
+      "timePoint": "04:44"
     },
     {
       "stopName": "ЖЕЛЕЗНОДОРОЖНЫЙ ПЕРЕЕЗД, ПО ТРЕБОВАНИЮ",
-      "timePoint": "12:55"
+      "timePoint": "04:46"
     },
     {
       "stopName": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ",
-      "timePoint": "12:56"
+      "timePoint": "04:47"
     },
     {
       "stopName": "УНИВЕРСИТЕТСКИЙ ПР.",
-      "timePoint": "12:57"
+      "timePoint": "04:48"
     },
     {
       "stopName": "ЧИЧЕРИНСКАЯ УЛ., УГОЛ БОТАНИЧЕСКОЙ УЛ.",
-      "timePoint": "12:58"
+      "timePoint": "04:49"
     },
     {
       "stopName": "ГОСТИЛИЦКОЕ ШОССЕ, УГОЛ ЧИЧЕРИНСКОЙ УЛ.",
-      "timePoint": "12:59"
+      "timePoint": "04:50"
     },
     {
       "stopName": "ТРОИЦКАЯ ГОРА, ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:00"
+      "timePoint": "04:51"
     },
     {
       "stopName": "ГОСТИЛИЦКОЕ ШОССЕ, 25, ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:01"
+      "timePoint": "04:52"
     },
     {
       "stopName": "ТИМЯШКИНО",
-      "timePoint": "13:02"
+      "timePoint": "04:53"
     },
     {
       "stopName": "ГОСТИЛИЦКОЕ ШОССЕ, 5 КМ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:04"
+      "timePoint": "04:55"
     },
     {
       "stopName": "СНТ \"ФЛОРА-2\", ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:07"
+      "timePoint": "04:58"
     },
     {
       "stopName": "8 КМ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:09"
+      "timePoint": "05:00"
     },
     {
       "stopName": "СНТ \"ФАУНА\", ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:13"
+      "timePoint": "05:04"
     },
     {
       "stopName": "10 КМ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:14"
+      "timePoint": "05:05"
     },
     {
       "stopName": "13 КМ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:18"
+      "timePoint": "05:09"
     },
     {
       "stopName": "ПЕТРОВСКОЕ, ЦЕНТРАЛЬНАЯ УЛ.",
-      "timePoint": "13:23"
+      "timePoint": "05:14"
     },
     {
       "stopName": "ПЕТРОВСКОЕ, ДАЧНАЯ УЛ., ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:25"
+      "timePoint": "05:16"
     },
     {
       "stopName": "ПОРОЖКИ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:30"
+      "timePoint": "05:21"
     },
     {
       "stopName": "ГОСТИЛИЦЫ, ВИШНЁВАЯ УЛ.",
-      "timePoint": "13:34"
+      "timePoint": "05:25"
     },
     {
       "stopName": "ГОСТИЛИЦЫ, ЦЕНТР",
-      "timePoint": "13:36"
+      "timePoint": "05:27"
     },
     {
       "stopName": "ДОРОГА НА КРАСНЫЙ БОР",
-      "timePoint": "13:39"
+      "timePoint": "05:30"
     },
     {
       "stopName": "ПЕТЕРГОФСКИЕ ПРЕДМЕСТЬЯ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "13:45"
+      "timePoint": "05:36"
     },
     {
       "stopName": "ЗАОСТРОВЬЕ",
-      "timePoint": "13:50"
+      "timePoint": "05:41"
     },
     {
       "stopName": "НОВАЯ БУРЯ, 1",
-      "timePoint": "13:55"
+      "timePoint": "05:46"
     },
     {
       "stopName": "НОВАЯ БУРЯ, 2",
-      "timePoint": "13:56"
+      "timePoint": "05:47"
     },
     {
       "stopName": "ЛОПУХИНКА, УЛ. ДЕТСТВА",
-      "timePoint": "13:59"
+      "timePoint": "05:50"
     },
     {
       "stopName": "ЛОПУХИНКА, ПЕРВОМАЙСКАЯ УЛ.",
-      "timePoint": "14:01"
+      "timePoint": "05:52"
     },
     {
       "stopName": "ЛОПУХИНКА, СОВЕТСКАЯ УЛ.",
-      "timePoint": "14:02"
+      "timePoint": "05:53"
     },
     {
       "stopName": "5 КМ БЕТОННОЙ ДОРОГИ",
-      "timePoint": "14:11"
+      "timePoint": "06:02"
     },
     {
       "stopName": "5 КМ БЕТОННОЙ ДОРОГИ",
-      "timePoint": "14:11"
+      "timePoint": "06:02"
     },
     {
       "stopName": "ЛОПУХИНКА, СОВЕТСКАЯ УЛ.",
-      "timePoint": "14:24"
+      "timePoint": "06:10"
     },
     {
       "stopName": "ЛОПУХИНКА, ПЕРВОМАЙСКАЯ УЛ.",
-      "timePoint": "14:25"
+      "timePoint": "06:11"
     },
     {
       "stopName": "ЛОПУХИНКА, УЛ. ДЕТСТВА",
-      "timePoint": "14:27"
+      "timePoint": "06:13"
     },
     {
       "stopName": "НОВАЯ БУРЯ, 2",
-      "timePoint": "14:30"
+      "timePoint": "06:16"
     },
     {
       "stopName": "НОВАЯ БУРЯ, 1",
-      "timePoint": "14:31"
+      "timePoint": "06:17"
     },
     {
       "stopName": "ЗАОСТРОВЬЕ",
-      "timePoint": "14:36"
+      "timePoint": "06:22"
     },
     {
       "stopName": "ПЕТЕРГОФСКИЕ ПРЕДМЕСТЬЯ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "14:41"
+      "timePoint": "06:27"
     },
     {
       "stopName": "ДОРОГА НА КРАСНЫЙ БОР",
-      "timePoint": "14:46"
+      "timePoint": "06:32"
     },
     {
       "stopName": "ГОСТИЛИЦЫ, ЦЕНТР",
-      "timePoint": "14:49"
+      "timePoint": "06:35"
     },
     {
       "stopName": "ГОСТИЛИЦЫ, ВИШНЁВАЯ УЛ.",
-      "timePoint": "14:52"
+      "timePoint": "06:38"
     },
     {
       "stopName": "ПОРОЖКИ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "14:56"
+      "timePoint": "06:42"
     },
     {
       "stopName": "ПЕТРОВСКОЕ, ДАЧНАЯ УЛ., ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:01"
+      "timePoint": "06:47"
     },
     {
       "stopName": "ПЕТРОВСКОЕ, ЦЕНТРАЛЬНАЯ УЛ.",
-      "timePoint": "15:03"
+      "timePoint": "06:49"
     },
     {
       "stopName": "13 КМ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:08"
+      "timePoint": "06:54"
     },
     {
       "stopName": "10 КМ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:12"
+      "timePoint": "06:58"
     },
     {
       "stopName": "СНТ \"ФАУНА\", ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:13"
+      "timePoint": "06:59"
     },
     {
       "stopName": "8 КМ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:17"
+      "timePoint": "07:03"
     },
     {
       "stopName": "СНТ \"ФЛОРА-2\", ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:19"
+      "timePoint": "07:05"
     },
     {
       "stopName": "ГОСТИЛИЦКОЕ ШОССЕ, 5 КМ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:22"
+      "timePoint": "07:08"
     },
     {
       "stopName": "ТИМЯШКИНО",
-      "timePoint": "15:24"
+      "timePoint": "07:10"
     },
     {
       "stopName": "ГОСТИЛИЦКОЕ ШОССЕ, 25, ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:25"
+      "timePoint": "07:11"
     },
     {
       "stopName": "ТРОИЦКАЯ ГОРА, ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:26"
+      "timePoint": "07:12"
     },
     {
       "stopName": "ГОСТИЛИЦКОЕ ШОССЕ, УГОЛ ЧИЧЕРИНСКОЙ УЛ.",
-      "timePoint": "15:27"
+      "timePoint": "07:13"
     },
     {
       "stopName": "БОТАНИЧЕСКАЯ УЛ.",
-      "timePoint": "15:28"
+      "timePoint": "07:14"
     },
     {
       "stopName": "УНИВЕРСИТЕТСКИЙ ПР.",
-      "timePoint": "15:29"
+      "timePoint": "07:15"
     },
     {
       "stopName": "УЛ. ПЕРВОГО МАЯ, УГОЛ ГОСТИЛИЦКОЙ УЛ.",
-      "timePoint": "15:30"
+      "timePoint": "07:16"
     },
     {
       "stopName": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ",
-      "timePoint": "15:31"
+      "timePoint": "07:17"
     },
     {
       "stopName": "ЖЕЛЕЗНОДОРОЖНЫЙ ПЕРЕЕЗД, ПО ТРЕБОВАНИЮ",
-      "timePoint": "15:32"
+      "timePoint": "07:18"
     },
     {
       "stopName": "ФАБРИЧНАЯ УЛ.",
-      "timePoint": "15:35"
+      "timePoint": "07:21"
     },
     {
       "stopName": "МАСТЕРОВОЙ ПЕР.",
-      "timePoint": "15:36"
+      "timePoint": "07:22"
     },
     {
       "stopName": "РАЗВОДНАЯ УЛ.",
-      "timePoint": "15:37"
+      "timePoint": "07:23"
     },
     {
       "stopName": "ФОНТАНЫ",
-      "timePoint": "15:38"
+      "timePoint": "07:24"
     },
     {
       "stopName": "КОНСТАНТИНОВСКАЯ УЛ., НИКОЛАЕВСКАЯ БОЛЬНИЦА",
-      "timePoint": "15:39"
+      "timePoint": "07:25"
     },
     {
       "stopName": "УЛ. АВРОВА",
-      "timePoint": "15:40"
+      "timePoint": "07:26"
     },
     {
       "stopName": "ПЛОЩАДЬ АВРОВА",
-      "timePoint": "15:41"
+      "timePoint": "07:27"
     },
     {
       "stopName": "ЭРЛЕРОВСКИЙ БУЛЬВАР",
-      "timePoint": "15:42"
+      "timePoint": "07:28"
     },
     {
       "stopName": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
-      "timePoint": "15:44"
+      "timePoint": "07:30"
     },
     {
       "stopName": "А.С. \"НОВЫЙ ПЕТЕРГОФ\",",
-      "timePoint": "15:45"
+      "timePoint": "07:31"
     }
   ],
   "coordinates": {
@@ -1441,5 +1434,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T14:06:50.806177"
+  "timestamp": "2025-11-10T22:00:05.961668"
 }

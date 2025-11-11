@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 152        НАЛИЧНАЯ УЛ. - НАЛИЧНАЯ УЛ.(КОЛЬЦЕВОЙ)"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "УРАЛЬСКАЯ УЛ., УГ. НАЛИЧНОЙ УЛ.": {
@@ -587,157 +587,157 @@
       "endStop": "А.С. \"НАЛИЧНАЯ УЛ.\" 1",
       "name": "НАЛИЧНАЯ УЛ., УГОЛ УРАЛЬСКОЙ УЛ. -> А.С. \"НАЛИЧНАЯ УЛ.\" 1; route_name: Автобус 152        НАЛИЧНАЯ УЛ. - НАЛИЧНАЯ УЛ.(КОЛЬЦЕВОЙ)",
       "route": "Автобус 152        НАЛИЧНАЯ УЛ. - НАЛИЧНАЯ УЛ.(КОЛЬЦЕВОЙ)",
-      "duration": 59
+      "duration": 1381
     }
   ],
   "timetable": [
     {
       "stopName": "А.С. \"НАЛИЧНАЯ УЛ.\"",
-      "timePoint": "6:15"
+      "timePoint": "5:50"
     },
     {
       "stopName": "УРАЛЬСКАЯ УЛ., УГ. НАЛИЧНОЙ УЛ.",
-      "timePoint": "6:21"
+      "timePoint": "5:56"
     },
     {
       "stopName": "ПР. КИМА, УГОЛ УРАЛЬСКОЙ УЛ.",
-      "timePoint": "6:22"
+      "timePoint": "5:57"
     },
     {
       "stopName": "ЖЕЛЕЗНОВОДСКАЯ УЛ., УГ. ПР.КИМА",
-      "timePoint": "6:24"
+      "timePoint": "5:59"
     },
     {
       "stopName": "САЗОНОВСКАЯ УЛ.",
-      "timePoint": "6:26"
+      "timePoint": "6:01"
     },
     {
       "stopName": "УРАЛЬСКАЯ УЛ.",
-      "timePoint": "6:28"
+      "timePoint": "6:03"
     },
     {
       "stopName": "УРАЛЬСКАЯ УЛ., 1",
-      "timePoint": "6:29"
+      "timePoint": "6:04"
     },
     {
       "stopName": "8-9-Я ЛИНИИ В.О., УГОЛ МАЛОГО ПР. В.О.",
-      "timePoint": "6:31"
+      "timePoint": "6:06"
     },
     {
       "stopName": "8-9-Я ЛИНИИ В.О. СТ. МЕТРО \"ВАСИЛЕОСТРОВСКАЯ\"",
-      "timePoint": "6:33"
+      "timePoint": "6:08"
     },
     {
       "stopName": "БОЛЬШОЙ ПР. В.О., УГОЛ 8-9-Й ЛИНИЙ В.О.",
-      "timePoint": "6:35"
+      "timePoint": "6:10"
     },
     {
       "stopName": "16-17-Я ЛИНИИ В.О.",
-      "timePoint": "6:37"
+      "timePoint": "6:12"
     },
     {
       "stopName": "БОЛЬШОЙ ПР. В.О., СТ. МЕТРО \"ГОРНЫЙ ИНСТИТУТ\"",
-      "timePoint": "6:38"
+      "timePoint": "6:13"
     },
     {
       "stopName": "МАСЛЯНЫЙ КАНАЛ",
-      "timePoint": "6:40"
+      "timePoint": "6:15"
     },
     {
       "stopName": "КОСАЯ ЛИНИЯ",
-      "timePoint": "6:42"
+      "timePoint": "6:17"
     },
     {
       "stopName": "26-27-Я ЛИНИИ В.О.",
-      "timePoint": "6:43"
+      "timePoint": "6:18"
     },
     {
       "stopName": "БАЛТИЙСКИЙ ЗАВОД",
-      "timePoint": "6:44"
+      "timePoint": "6:19"
     },
     {
       "stopName": "ДЕТСКАЯ УЛ.",
-      "timePoint": "6:45"
+      "timePoint": "6:20"
     },
     {
       "stopName": "КОЖЕВЕННАЯ ЛИНИЯ, УГ. КОСОЙ ЛИНИИ",
-      "timePoint": "6:46"
+      "timePoint": "6:21"
     },
     {
       "stopName": "СЕВКАБЕЛЬ ПОРТ",
-      "timePoint": "6:48"
+      "timePoint": "6:23"
     },
     {
       "stopName": "ПЛ. МОРСКОЙ СЛАВЫ",
-      "timePoint": "6:50"
+      "timePoint": "6:25"
     },
     {
       "stopName": "СРЕДНИЙ ПР. В.О.",
-      "timePoint": "6:52"
+      "timePoint": "6:27"
     },
     {
       "stopName": "ШКИПЕРСКИЙ ПРОТОК, УГ. НАЛИЧНОЙ УЛ.",
-      "timePoint": "6:53"
+      "timePoint": "6:28"
     },
     {
       "stopName": "НАЛИЧНАЯ УЛ., УГОЛ МАЛОГО ПР. В.О.",
-      "timePoint": "6:55"
+      "timePoint": "6:30"
     },
     {
       "stopName": "УЛ. НАХИМОВА",
-      "timePoint": "6:57"
+      "timePoint": "6:32"
     },
     {
       "stopName": "УЛ. НАХИМОВА, 11",
-      "timePoint": "6:58"
+      "timePoint": "6:33"
     },
     {
       "stopName": "ГОСТИНИЦА \"ПРИБАЛТИЙСКАЯ\"",
-      "timePoint": "6:59"
+      "timePoint": "6:34"
     },
     {
       "stopName": "БОЦМАНСКАЯ УЛ.",
-      "timePoint": "7:00"
+      "timePoint": "6:35"
     },
     {
       "stopName": "МИЧМАНСКАЯ УЛ.",
-      "timePoint": "7:02"
+      "timePoint": "6:37"
     },
     {
       "stopName": "СКВЕР \"ОСЕННИЙ МАРАФОН\"",
-      "timePoint": "7:04"
+      "timePoint": "6:39"
     },
     {
       "stopName": "НОВОСМОЛЕНСКАЯ НАБ.,6",
-      "timePoint": "7:06"
+      "timePoint": "6:41"
     },
     {
       "stopName": "СТ. МЕТРО \"ПРИМОРСКАЯ\"",
-      "timePoint": "7:08"
+      "timePoint": "6:43"
     },
     {
       "stopName": "МАГАЗИН \"СТРОИТЕЛЬ\"",
-      "timePoint": "7:09"
+      "timePoint": "6:44"
     },
     {
       "stopName": "УЛ. КОРАБЛЕСТРОИТЕЛЕЙ, УГОЛ НОВОСМОЛЕНСКОЙ НАБ.",
-      "timePoint": "7:10"
+      "timePoint": "6:45"
     },
     {
       "stopName": "КАПИТАНСКАЯ УЛ.",
-      "timePoint": "7:11"
+      "timePoint": "6:46"
     },
     {
       "stopName": "УЛ. КОРАБЛЕСТРОИТЕЛЕЙ,35",
-      "timePoint": "7:12"
+      "timePoint": "6:47"
     },
     {
       "stopName": "НАЛИЧНАЯ УЛ., УГОЛ УРАЛЬСКОЙ УЛ.",
-      "timePoint": "7:14"
+      "timePoint": "6:49"
     },
     {
       "stopName": "А.С. \"НАЛИЧНАЯ УЛ.\"",
-      "timePoint": "6:15"
+      "timePoint": "5:50"
     }
   ],
   "coordinates": {
@@ -922,5 +922,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:14:53.852058"
+  "timestamp": "2025-11-10T21:45:34.912467"
 }

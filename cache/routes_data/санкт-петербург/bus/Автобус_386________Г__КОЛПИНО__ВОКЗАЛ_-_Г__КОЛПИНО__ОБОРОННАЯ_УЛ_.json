@@ -315,7 +315,7 @@
       "endStop": "ПРИВОКЗАЛЬНАЯ ПЛ.",
       "name": "Г. КОЛПИНО, ВОКЗАЛ, ПОСАДКИ И ВЫСАДКИ НЕТ -> ПРИВОКЗАЛЬНАЯ ПЛ.; route_name: Автобус 386        Г. КОЛПИНО, ВОКЗАЛ - Г. КОЛПИНО, ОБОРОННАЯ УЛ.",
       "route": "Автобус 386        Г. КОЛПИНО, ВОКЗАЛ - Г. КОЛПИНО, ОБОРОННАЯ УЛ.",
-      "duration": 1
+      "duration": 6
     },
     {
       "startStop": "ПРИВОКЗАЛЬНАЯ ПЛ.",
@@ -484,13 +484,6 @@
       "name": "ТВЕРСКАЯ УЛ., УГОЛ УЛ. ИЖОРСКОГО БАТАЛЬОНА -> ОБОРОННАЯ УЛ.; route_name: Автобус 386        Г. КОЛПИНО, ВОКЗАЛ - Г. КОЛПИНО, ОБОРОННАЯ УЛ.",
       "route": "Автобус 386        Г. КОЛПИНО, ВОКЗАЛ - Г. КОЛПИНО, ОБОРОННАЯ УЛ.",
       "duration": 2
-    },
-    {
-      "startStop": "ОБОРОННАЯ УЛ.",
-      "endStop": "ОБОРОННАЯ УЛ.",
-      "name": "ОБОРОННАЯ УЛ. -> ОБОРОННАЯ УЛ.; route_name: Автобус 386        Г. КОЛПИНО, ВОКЗАЛ - Г. КОЛПИНО, ОБОРОННАЯ УЛ.",
-      "route": "Автобус 386        Г. КОЛПИНО, ВОКЗАЛ - Г. КОЛПИНО, ОБОРОННАЯ УЛ.",
-      "duration": 10
     },
     {
       "startStop": "ОБОРОННАЯ УЛ.",
@@ -685,219 +678,219 @@
   "timetable": [
     {
       "stopName": "Г. КОЛПИНО, ВОКЗАЛ, ПОСАДКИ И ВЫСАДКИ НЕТ",
-      "timePoint": "6:00"
+      "timePoint": "5:25"
     },
     {
       "stopName": "ПРИВОКЗАЛЬНАЯ ПЛ.",
-      "timePoint": "6:01"
+      "timePoint": "5:31"
     },
     {
       "stopName": "УЛ. КУЛЬТУРЫ",
-      "timePoint": "6:03"
+      "timePoint": "5:33"
     },
     {
       "stopName": "БУЛЬВАР СВОБОДЫ",
-      "timePoint": "6:05"
+      "timePoint": "5:35"
     },
     {
       "stopName": "ГОРОДСКОЙ САД",
-      "timePoint": "6:07"
+      "timePoint": "5:37"
     },
     {
       "stopName": "УЛ. К. МАРКСА",
-      "timePoint": "6:09"
+      "timePoint": "5:39"
     },
     {
       "stopName": "УЛ. БРАТЬЕВ РАДЧЕНКО",
-      "timePoint": "6:11"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ПР. ЛЕНИНА,53",
-      "timePoint": "6:13"
+      "timePoint": "5:43"
     },
     {
       "stopName": "УЛ. ТАНКИСТОВ, УГОЛ ПР. ЛЕНИНА",
-      "timePoint": "6:15"
+      "timePoint": "5:45"
     },
     {
       "stopName": "УЛ. ТАНКИСТОВ, 28",
-      "timePoint": "6:17"
+      "timePoint": "5:47"
     },
     {
       "stopName": "ПРОЛЕТАРСКАЯ УЛ., 60",
-      "timePoint": "6:19"
+      "timePoint": "5:49"
     },
     {
       "stopName": "ПРОЛЕТАРСКАЯ УЛИЦА, УГОЛ БУЛЬВАРА ТРУДЯЩИХСЯ",
-      "timePoint": "6:20"
+      "timePoint": "5:50"
     },
     {
       "stopName": "БУЛЬВАР ТРУДЯЩИХСЯ, 15",
-      "timePoint": "6:22"
+      "timePoint": "5:52"
     },
     {
       "stopName": "БУЛЬВАР ТРУДЯЩИХСЯ",
-      "timePoint": "6:24"
+      "timePoint": "5:54"
     },
     {
       "stopName": "УЛ. ВЕРЫ СЛУЦКОЙ, 46",
-      "timePoint": "6:25"
+      "timePoint": "5:55"
     },
     {
       "stopName": "УЛ. ВЕРЫ СЛУЦКОЙ, УГОЛ ПРОЛЕТАРСКОЙ УЛ.",
-      "timePoint": "6:26"
+      "timePoint": "5:56"
     },
     {
       "stopName": "УЛ. ВАВИЛОВА",
-      "timePoint": "6:28"
+      "timePoint": "5:58"
     },
     {
       "stopName": "АДМИРАЛТЕЙСКАЯ УЛ.",
-      "timePoint": "6:29"
+      "timePoint": "5:59"
     },
     {
       "stopName": "КРАСНАЯ УЛ.",
-      "timePoint": "6:31"
+      "timePoint": "6:01"
     },
     {
       "stopName": "ТВЕРСКАЯ УЛ.",
-      "timePoint": "6:32"
+      "timePoint": "6:02"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ УЛ.",
-      "timePoint": "6:33"
+      "timePoint": "6:03"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ УЛ., 65",
-      "timePoint": "6:34"
+      "timePoint": "6:04"
     },
     {
       "stopName": "УЛ. ИЖОРСКОГО БАТАЛЬОНА, УГ. ОКТЯБРЬСКОЙ УЛ.",
-      "timePoint": "6:35"
+      "timePoint": "6:05"
     },
     {
       "stopName": "УЛ. ИЖОРСКОГО БАТАЛЬОНА, 7",
-      "timePoint": "6:37"
+      "timePoint": "6:07"
     },
     {
       "stopName": "ТВЕРСКАЯ УЛ., УГОЛ УЛ. ИЖОРСКОГО БАТАЛЬОНА",
-      "timePoint": "6:38"
+      "timePoint": "6:08"
     },
     {
       "stopName": "ОБОРОННАЯ УЛ.",
-      "timePoint": "6:40"
+      "timePoint": "6:10"
     },
     {
       "stopName": "ОБОРОННАЯ УЛ.",
-      "timePoint": "6:30"
+      "timePoint": "5:00"
     },
     {
       "stopName": "АНИСИМОВА, 4",
-      "timePoint": "6:32"
+      "timePoint": "5:02"
     },
     {
       "stopName": "ТВЕРСКАЯ УЛ., УГОЛ УЛ. ИЖОРСКОГО БАТАЛЬОНА",
-      "timePoint": "6:34"
+      "timePoint": "5:04"
     },
     {
       "stopName": "УЛ. ИЖОРСКОГО БАТАЛЬОНА, 7",
-      "timePoint": "6:35"
+      "timePoint": "5:05"
     },
     {
       "stopName": "УЛ. ИЖОРСКОГО БАТАЛЬОНА, УГ. ОКТЯБРЬСКОЙ УЛ.",
-      "timePoint": "6:37"
+      "timePoint": "5:07"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ УЛ., 65",
-      "timePoint": "6:38"
+      "timePoint": "5:08"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ УЛ., УГОЛ УЛ. РЕМИЗОВА",
-      "timePoint": "6:39"
+      "timePoint": "5:09"
     },
     {
       "stopName": "УЛ. РЕМИЗОВА, УГОЛ ТВЕРСКОЙ УЛ.",
-      "timePoint": "6:41"
+      "timePoint": "5:11"
     },
     {
       "stopName": "КРАСНАЯ УЛ.",
-      "timePoint": "6:43"
+      "timePoint": "5:13"
     },
     {
       "stopName": "АДМИРАЛТЕЙСКАЯ УЛ.",
-      "timePoint": "6:45"
+      "timePoint": "5:15"
     },
     {
       "stopName": "УЛ. ВАВИЛОВА",
-      "timePoint": "6:46"
+      "timePoint": "5:16"
     },
     {
       "stopName": "УЛ. ВЕРЫ СЛУЦКОЙ, УГОЛ ПРОЛЕТАРСКОЙ УЛ.",
-      "timePoint": "6:47"
+      "timePoint": "5:17"
     },
     {
       "stopName": "РАУМСКАЯ УЛ.",
-      "timePoint": "6:48"
+      "timePoint": "5:18"
     },
     {
       "stopName": "УЛ. ВЕРЫ СЛУЦКОЙ, УГОЛ БУЛЬВ. ТРУДЯЩИХСЯ",
-      "timePoint": "6:49"
+      "timePoint": "5:19"
     },
     {
       "stopName": "БУЛЬВАР ТРУДЯЩИХСЯ, 15",
-      "timePoint": "6:51"
+      "timePoint": "5:21"
     },
     {
       "stopName": "ПРОЛЕТАРСКАЯ УЛИЦА, УГОЛ БУЛЬВАРА ТРУДЯЩИХСЯ",
-      "timePoint": "6:53"
+      "timePoint": "5:23"
     },
     {
       "stopName": "УЛИЦА ТАНКИСТОВ",
-      "timePoint": "6:55"
+      "timePoint": "5:25"
     },
     {
       "stopName": "УЛ. ТАНКИСТОВ, 28",
-      "timePoint": "6:56"
+      "timePoint": "5:26"
     },
     {
       "stopName": "УЛ. ТАНКИСТОВ, 12",
-      "timePoint": "6:57"
+      "timePoint": "5:27"
     },
     {
       "stopName": "ПР. ЛЕНИНА, УГОЛ УЛ. ТАНКИСТОВ",
-      "timePoint": "6:59"
+      "timePoint": "5:29"
     },
     {
       "stopName": "ПР. ЛЕНИНА,53",
-      "timePoint": "7:00"
+      "timePoint": "5:30"
     },
     {
       "stopName": "УЛ. БРАТЬЕВ РАДЧЕНКО",
-      "timePoint": "7:03"
+      "timePoint": "5:33"
     },
     {
       "stopName": "УЛ. К. МАРКСА",
-      "timePoint": "7:05"
+      "timePoint": "5:35"
     },
     {
       "stopName": "ГОРОДСКОЙ САД",
-      "timePoint": "7:07"
+      "timePoint": "5:37"
     },
     {
       "stopName": "БУЛЬВАР СВОБОДЫ",
-      "timePoint": "7:08"
+      "timePoint": "5:38"
     },
     {
       "stopName": "УЛ. КУЛЬТУРЫ",
-      "timePoint": "7:10"
+      "timePoint": "5:40"
     },
     {
       "stopName": "ПРИВОКЗАЛЬНАЯ ПЛ.",
-      "timePoint": "7:12"
+      "timePoint": "5:42"
     },
     {
       "stopName": "Г. КОЛПИНО, ВОКЗАЛ, ПОСАДКИ И ВЫСАДКИ НЕТ",
-      "timePoint": "7:13"
+      "timePoint": "5:43"
     }
   ],
   "coordinates": {
@@ -1072,5 +1065,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:55:30.706047"
+  "timestamp": "2025-11-10T21:58:11.592085"
 }

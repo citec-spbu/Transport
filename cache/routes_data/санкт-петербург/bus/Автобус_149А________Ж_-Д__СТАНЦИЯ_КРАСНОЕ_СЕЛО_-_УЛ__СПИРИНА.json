@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 149А        Ж.-Д. СТАНЦИЯ КРАСНОЕ СЕЛО - УЛ. СПИРИНА"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. КРАСНОЕ СЕЛО": {
@@ -179,13 +179,6 @@
     },
     {
       "startStop": "УЛ. СПИРИНА, 2",
-      "endStop": "УЛ. СПИРИНА, 2",
-      "name": "УЛ. СПИРИНА, 2 -> УЛ. СПИРИНА, 2; route_name: Автобус 149А        Ж.-Д. СТАНЦИЯ КРАСНОЕ СЕЛО - УЛ. СПИРИНА",
-      "route": "Автобус 149А        Ж.-Д. СТАНЦИЯ КРАСНОЕ СЕЛО - УЛ. СПИРИНА",
-      "duration": 0
-    },
-    {
-      "startStop": "УЛ. СПИРИНА, 2",
       "endStop": "ГЕОЛОГИЧЕСКАЯ УЛ., 53",
       "name": "УЛ. СПИРИНА, 2 -> ГЕОЛОГИЧЕСКАЯ УЛ., 53; route_name: Автобус 149А        Ж.-Д. СТАНЦИЯ КРАСНОЕ СЕЛО - УЛ. СПИРИНА",
       "route": "Автобус 149А        Ж.-Д. СТАНЦИЯ КРАСНОЕ СЕЛО - УЛ. СПИРИНА",
@@ -244,75 +237,75 @@
   "timetable": [
     {
       "stopName": "А.С. \"КРАСНОЕ СЕЛО\",",
-      "timePoint": "05:50"
+      "timePoint": "05:25"
     },
     {
       "stopName": "Ж.-Д. СТ. КРАСНОЕ СЕЛО",
-      "timePoint": "05:56"
+      "timePoint": "05:31"
     },
     {
       "stopName": "ПР. КРАСНЫХ КОМАНДИРОВ",
-      "timePoint": "05:58"
+      "timePoint": "05:33"
     },
     {
       "stopName": "УЛ. ПЕРВОГО МАЯ",
-      "timePoint": "06:00"
+      "timePoint": "05:35"
     },
     {
       "stopName": "УЛ. МАССАЛЬСКОГО",
-      "timePoint": "06:02"
+      "timePoint": "05:37"
     },
     {
       "stopName": "УЛ. ОСВОБОЖДЕНИЯ",
-      "timePoint": "06:03"
+      "timePoint": "05:38"
     },
     {
       "stopName": "УЛ. СПИРИНА",
-      "timePoint": "06:04"
+      "timePoint": "05:39"
     },
     {
       "stopName": "БРОНЕТАНКОВАЯ УЛ.",
-      "timePoint": "06:05"
+      "timePoint": "05:40"
     },
     {
       "stopName": "УЛ. СПИРИНА, 2",
-      "timePoint": "06:07"
+      "timePoint": "05:42"
     },
     {
       "stopName": "УЛ. СПИРИНА, 2",
-      "timePoint": "06:07"
+      "timePoint": "05:42"
     },
     {
       "stopName": "ГЕОЛОГИЧЕСКАЯ УЛ., 53",
-      "timePoint": "06:08"
+      "timePoint": "05:43"
     },
     {
       "stopName": "ТЦ \"ПЯТЕРОЧКА\"",
-      "timePoint": "06:10"
+      "timePoint": "05:45"
     },
     {
       "stopName": "БРОНЕТАНКОВАЯ УЛ.",
-      "timePoint": "06:12"
+      "timePoint": "05:47"
     },
     {
       "stopName": "УЛ. МАССАЛЬСКОГО",
-      "timePoint": "06:13"
+      "timePoint": "05:48"
     },
     {
       "stopName": "ПР. ЛЕНИНА, УГОЛ УЛ. ПЕРВОГО МАЯ",
-      "timePoint": "06:15"
+      "timePoint": "05:50"
     },
     {
       "stopName": "ПР. КРАСНЫХ КОМАНДИРОВ",
-      "timePoint": "06:17"
+      "timePoint": "05:52"
     },
     {
       "stopName": "Ж.-Д. СТ. КРАСНОЕ СЕЛО",
-      "timePoint": "06:19"
+      "timePoint": "05:54"
     },
     {
       "stopName": "А.С. \"КРАСНОЕ СЕЛО\",",
-      "timePoint": "06:20"
+      "timePoint": "05:55"
     }
   ],
   "coordinates": {
@@ -377,5 +370,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:14:46.002446"
+  "timestamp": "2025-11-10T21:45:25.393861"
 }

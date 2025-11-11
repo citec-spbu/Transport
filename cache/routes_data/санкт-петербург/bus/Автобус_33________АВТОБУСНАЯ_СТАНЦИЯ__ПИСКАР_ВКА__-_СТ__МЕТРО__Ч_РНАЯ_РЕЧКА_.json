@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 33        АВТОБУСНАЯ СТАНЦИЯ \"ПИСКАРЁВКА\" - СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. ПИСКАРЁВКА": {
@@ -439,7 +439,7 @@
       "endStop": "БЕЛООСТРОВСКАЯ УЛ., Д. 10, ПО ТРЕБОВАНИЮ",
       "name": "СТУДЕНЧЕСКАЯ УЛ. -> БЕЛООСТРОВСКАЯ УЛ., Д. 10, ПО ТРЕБОВАНИЮ; route_name: Автобус 33        АВТОБУСНАЯ СТАНЦИЯ \"ПИСКАРЁВКА\" - СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
       "route": "Автобус 33        АВТОБУСНАЯ СТАНЦИЯ \"ПИСКАРЁВКА\" - СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "duration": 2
+      "duration": 1
     },
     {
       "startStop": "БЕЛООСТРОВСКАЯ УЛ., Д. 10, ПО ТРЕБОВАНИЮ",
@@ -461,13 +461,6 @@
       "name": "НАБ. ЧЁРНОЙ РЕЧКИ -> СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"; route_name: Автобус 33        АВТОБУСНАЯ СТАНЦИЯ \"ПИСКАРЁВКА\" - СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
       "route": "Автобус 33        АВТОБУСНАЯ СТАНЦИЯ \"ПИСКАРЁВКА\" - СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
       "duration": 3
-    },
-    {
-      "startStop": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "endStop": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "name": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\" -> СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"; route_name: Автобус 33        АВТОБУСНАЯ СТАНЦИЯ \"ПИСКАРЁВКА\" - СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "route": "Автобус 33        АВТОБУСНАЯ СТАНЦИЯ \"ПИСКАРЁВКА\" - СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "duration": 30
     },
     {
       "startStop": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
@@ -648,203 +641,203 @@
   "timetable": [
     {
       "stopName": "А.С. \"ПИСКАРЁВКА\",",
-      "timePoint": "5:55"
+      "timePoint": "5:25"
     },
     {
       "stopName": "Ж.-Д. СТ. ПИСКАРЁВКА",
-      "timePoint": "6:01"
+      "timePoint": "5:31"
     },
     {
       "stopName": "ПР. МЕЧНИКОВА, Д. 11",
-      "timePoint": "6:03"
+      "timePoint": "5:33"
     },
     {
       "stopName": "ЗАМШИНА УЛ. УГ. ПР. МЕЧНИКОВА",
-      "timePoint": "6:04"
+      "timePoint": "5:34"
     },
     {
       "stopName": "БЕСТУЖЕВСКАЯ УЛ.",
-      "timePoint": "6:05"
+      "timePoint": "5:35"
     },
     {
       "stopName": "ЗАМШИНА УЛ. 62",
-      "timePoint": "6:06"
+      "timePoint": "5:36"
     },
     {
       "stopName": "ЗАМШИНА УЛ., Д. 21",
-      "timePoint": "6:08"
+      "timePoint": "5:38"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ",
-      "timePoint": "6:09"
+      "timePoint": "5:39"
     },
     {
       "stopName": "ЗАМШИНА УЛ., Д. 6",
-      "timePoint": "6:11"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., УГОЛ ЗАМШИНОЙ УЛ.",
-      "timePoint": "6:12"
+      "timePoint": "5:42"
     },
     {
       "stopName": "ПЛ. КАЛИНИНА",
-      "timePoint": "6:14"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., Д. 59, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:15"
+      "timePoint": "5:45"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., УГОЛ ЧУГУННОЙ УЛ.",
-      "timePoint": "6:17"
+      "timePoint": "5:47"
     },
     {
       "stopName": "ЛИТОВСКАЯ УЛ.",
-      "timePoint": "6:19"
+      "timePoint": "5:49"
     },
     {
       "stopName": "НОВОЛИТОВСКАЯ УЛ.",
-      "timePoint": "6:21"
+      "timePoint": "5:51"
     },
     {
       "stopName": "КАНТЕМИРОВСКАЯ УЛ. УГ. ПОЛЮСТРОВСКОГО ПР.",
-      "timePoint": "6:22"
+      "timePoint": "5:52"
     },
     {
       "stopName": "СТ. МЕТРО \"ЛЕСНАЯ\"",
-      "timePoint": "6:24"
+      "timePoint": "5:54"
     },
     {
       "stopName": "ЛЕСНОЙ ПР.",
-      "timePoint": "6:25"
+      "timePoint": "5:55"
     },
     {
       "stopName": "ПЛ. АКАДЕМИКА КЛИМОВА",
-      "timePoint": "6:26"
+      "timePoint": "5:56"
     },
     {
       "stopName": "СТУДЕНЧЕСКАЯ УЛ.",
-      "timePoint": "6:27"
+      "timePoint": "5:57"
     },
     {
       "stopName": "БЕЛООСТРОВСКАЯ УЛ., Д. 10, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:29"
+      "timePoint": "5:58"
     },
     {
       "stopName": "ВАЗАСКИЙ ПЕР.",
-      "timePoint": "6:30"
+      "timePoint": "5:59"
     },
     {
       "stopName": "НАБ. ЧЁРНОЙ РЕЧКИ",
-      "timePoint": "6:31"
+      "timePoint": "6:00"
     },
     {
       "stopName": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "timePoint": "6:34"
+      "timePoint": "6:03"
     },
     {
       "stopName": "СТ. МЕТРО \"ЧЁРНАЯ РЕЧКА\"",
-      "timePoint": "6:04"
+      "timePoint": "5:30"
     },
     {
       "stopName": "БЕЛООСТРОВСКАЯ УЛ.",
-      "timePoint": "6:05"
+      "timePoint": "5:31"
     },
     {
       "stopName": "СОЦИАЛЬНЫЙ ФОНД",
-      "timePoint": "6:06"
+      "timePoint": "5:32"
     },
     {
       "stopName": "ВАЗАСКИЙ ПЕР.",
-      "timePoint": "6:07"
+      "timePoint": "5:33"
     },
     {
       "stopName": "БЕЛООСТРОВСКАЯ УЛ., Д. 10, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:08"
+      "timePoint": "5:34"
     },
     {
       "stopName": "СТУДЕНЧЕСКАЯ УЛ.",
-      "timePoint": "6:09"
+      "timePoint": "5:35"
     },
     {
       "stopName": "ПЛ. АКАДЕМИКА КЛИМОВА",
-      "timePoint": "6:10"
+      "timePoint": "5:36"
     },
     {
       "stopName": "СТ. МЕТРО \"ЛЕСНАЯ\"",
-      "timePoint": "6:12"
+      "timePoint": "5:38"
     },
     {
       "stopName": "УЛ. ХАРЧЕНКО",
-      "timePoint": "6:13"
+      "timePoint": "5:39"
     },
     {
       "stopName": "КАНТЕМИРОВСКАЯ УЛ. УГ. ПОЛЮСТРОВСКОГО ПР.",
-      "timePoint": "6:15"
+      "timePoint": "5:41"
     },
     {
       "stopName": "НОВОЛИТОВСКАЯ УЛ.",
-      "timePoint": "6:16"
+      "timePoint": "5:42"
     },
     {
       "stopName": "ЛИТОВСКАЯ УЛ.",
-      "timePoint": "6:18"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., УГОЛ ЧУГУННОЙ УЛ.",
-      "timePoint": "6:20"
+      "timePoint": "5:46"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., Д. 59, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:22"
+      "timePoint": "5:48"
     },
     {
       "stopName": "ПЛ. КАЛИНИНА",
-      "timePoint": "6:23"
+      "timePoint": "5:49"
     },
     {
       "stopName": "ЗАМШИНА УЛ.",
-      "timePoint": "6:25"
+      "timePoint": "5:51"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ",
-      "timePoint": "6:27"
+      "timePoint": "5:53"
     },
     {
       "stopName": "ЗАМШИНА УЛ., Д. 21",
-      "timePoint": "6:28"
+      "timePoint": "5:54"
     },
     {
       "stopName": "ЗАМШИНА УЛ., Д. 25",
-      "timePoint": "6:29"
+      "timePoint": "5:55"
     },
     {
       "stopName": "ЗАМШИНА УЛ. 62",
-      "timePoint": "6:30"
+      "timePoint": "5:56"
     },
     {
       "stopName": "БЕСТУЖЕВСКАЯ УЛ. УГ. ЗАМШИНОЙ УЛ.",
-      "timePoint": "6:31"
+      "timePoint": "5:57"
     },
     {
       "stopName": "ЗАМШИНА УЛ. УГ. ПР. МЕЧНИКОВА",
-      "timePoint": "6:32"
+      "timePoint": "5:58"
     },
     {
       "stopName": "ПИОНЕРСКИЙ ПАРК",
-      "timePoint": "6:33"
+      "timePoint": "5:59"
     },
     {
       "stopName": "УНИВЕРСИТЕТ ИМЕНИ МЕЧНИКОВА",
-      "timePoint": "6:35"
+      "timePoint": "6:01"
     },
     {
       "stopName": "Ж.-Д. СТ. ПИСКАРЁВКА",
-      "timePoint": "6:37"
+      "timePoint": "6:03"
     },
     {
       "stopName": "А.С. \"ПИСКАРЁВКА\",",
-      "timePoint": "6:38"
+      "timePoint": "6:04"
     }
   ],
   "coordinates": {
@@ -1009,5 +1002,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:09:17.020186"
+  "timestamp": "2025-11-10T21:38:04.100823"
 }

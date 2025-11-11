@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 353        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - Ж.-Д. СТАНЦИЯ СТАРЫЙ ПЕТЕРГОФ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ": {
@@ -332,13 +332,6 @@
     },
     {
       "startStop": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ",
-      "endStop": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ",
-      "name": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ -> Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ; route_name: Автобус 353        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - Ж.-Д. СТАНЦИЯ СТАРЫЙ ПЕТЕРГОФ",
-      "route": "Автобус 353        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - Ж.-Д. СТАНЦИЯ СТАРЫЙ ПЕТЕРГОФ",
-      "duration": 0
-    },
-    {
-      "startStop": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ",
       "endStop": "БУЛЬВАР КРАСНЫХ КУРСАНТОВ,49",
       "name": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ -> БУЛЬВАР КРАСНЫХ КУРСАНТОВ,49; route_name: Автобус 353        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - Ж.-Д. СТАНЦИЯ СТАРЫЙ ПЕТЕРГОФ",
       "route": "Автобус 353        Ж.-Д. СТАНЦИЯ НОВЫЙ ПЕТЕРГОФ - Ж.-Д. СТАНЦИЯ СТАРЫЙ ПЕТЕРГОФ",
@@ -439,135 +432,135 @@
   "timetable": [
     {
       "stopName": "А.С. \"НОВЫЙ ПЕТЕРГОФ\",",
-      "timePoint": "06:15"
+      "timePoint": "05:40"
     },
     {
       "stopName": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
-      "timePoint": "06:21"
+      "timePoint": "05:46"
     },
     {
       "stopName": "УЛ. ДАШКЕВИЧА",
-      "timePoint": "06:23"
+      "timePoint": "05:48"
     },
     {
       "stopName": "УЛ. БР. ГОРКУШЕНКО",
-      "timePoint": "06:24"
+      "timePoint": "05:49"
     },
     {
       "stopName": "УЛ. ЖАРНОВЕЦКОГО",
-      "timePoint": "06:25"
+      "timePoint": "05:50"
     },
     {
       "stopName": "ОЗЕРКОВАЯ УЛ., 51",
-      "timePoint": "06:27"
+      "timePoint": "05:52"
     },
     {
       "stopName": "БЛАН-МЕНИЛЬСКАЯ УЛ., 7",
-      "timePoint": "06:28"
+      "timePoint": "05:53"
     },
     {
       "stopName": "МАСТЕРОВОЙ ПЕР.",
-      "timePoint": "06:31"
+      "timePoint": "05:56"
     },
     {
       "stopName": "ФАБРИЧНАЯ УЛ.",
-      "timePoint": "06:32"
+      "timePoint": "05:57"
     },
     {
       "stopName": "СОБСТВЕННЫЙ ПР.",
-      "timePoint": "06:34"
+      "timePoint": "05:59"
     },
     {
       "stopName": "ОРАНИЕНБАУМСКИЙ СПУСК",
-      "timePoint": "06:35"
+      "timePoint": "06:00"
     },
     {
       "stopName": "СОБСТВЕННЫЙ ПР., 18, ПО ТРЕБОВАНИЮ",
-      "timePoint": "06:36"
+      "timePoint": "06:01"
     },
     {
       "stopName": "БОБЫЛЬСКАЯ ДОРОГА",
-      "timePoint": "06:37"
+      "timePoint": "06:02"
     },
     {
       "stopName": "УЛ. БЕЛОВОЙ",
-      "timePoint": "06:38"
+      "timePoint": "06:03"
     },
     {
       "stopName": "БОБЫЛЬСКАЯ ДОРОГА",
-      "timePoint": "06:40"
+      "timePoint": "06:05"
     },
     {
       "stopName": "БАУШЕВСКАЯ УЛ.",
-      "timePoint": "06:41"
+      "timePoint": "06:06"
     },
     {
       "stopName": "БОБЫЛЬСКАЯ ДОРОГА",
-      "timePoint": "06:42"
+      "timePoint": "06:07"
     },
     {
       "stopName": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ",
-      "timePoint": "06:44"
+      "timePoint": "06:09"
     },
     {
       "stopName": "Ж.-Д. СТ. СТАРЫЙ ПЕТЕРГОФ",
-      "timePoint": "06:44"
+      "timePoint": "06:09"
     },
     {
       "stopName": "БУЛЬВАР КРАСНЫХ КУРСАНТОВ,49",
-      "timePoint": "06:45"
+      "timePoint": "06:10"
     },
     {
       "stopName": "БУЛЬВАР КРАСНЫХ КУРСАНТОВ,27",
-      "timePoint": "06:47"
+      "timePoint": "06:12"
     },
     {
       "stopName": "ОРАНИЕНБАУМСКИЙ СПУСК",
-      "timePoint": "06:48"
+      "timePoint": "06:13"
     },
     {
       "stopName": "СОБСТВЕННЫЙ ПР.",
-      "timePoint": "06:49"
+      "timePoint": "06:14"
     },
     {
       "stopName": "ФАБРИЧНАЯ УЛ.",
-      "timePoint": "06:52"
+      "timePoint": "06:17"
     },
     {
       "stopName": "САНКТ-ПЕТЕРБУРГСКИЙ ПР., УГОЛ МАСТЕРОВОГО ПЕР.",
-      "timePoint": "06:53"
+      "timePoint": "06:18"
     },
     {
       "stopName": "МАСТЕРОВОЙ ПЕР., УГ. БУЛЬВ. РАЗВЕДЧИКА",
-      "timePoint": "06:54"
+      "timePoint": "06:19"
     },
     {
       "stopName": "БЛАН-МЕНИЛЬСКАЯ УЛ., 11",
-      "timePoint": "06:56"
+      "timePoint": "06:21"
     },
     {
       "stopName": "ОЗЕРКОВАЯ УЛ., 51",
-      "timePoint": "06:58"
+      "timePoint": "06:23"
     },
     {
       "stopName": "УЛ. ЖАРНОВЕЦКОГО",
-      "timePoint": "07:01"
+      "timePoint": "06:26"
     },
     {
       "stopName": "УЛ. Б. ГОРКУШЕНКО",
-      "timePoint": "07:02"
+      "timePoint": "06:27"
     },
     {
       "stopName": "УЛ. ДАШКЕВИЧА",
-      "timePoint": "07:03"
+      "timePoint": "06:28"
     },
     {
       "stopName": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
-      "timePoint": "07:05"
+      "timePoint": "06:30"
     },
     {
       "stopName": "А.С. \"НОВЫЙ ПЕТЕРГОФ\",",
-      "timePoint": "07:06"
+      "timePoint": "06:31"
     }
   ],
   "coordinates": {
@@ -682,5 +675,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:54:03.633159"
+  "timestamp": "2025-11-10T21:56:27.769534"
 }

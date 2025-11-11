@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ."
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. ЛИГОВО": {
@@ -393,13 +393,6 @@
   "relationships": [
     {
       "startStop": "А.С. \"ПР. МАРШАЛА ЖУКОВА\",",
-      "endStop": "А.С. \"ПР. МАРШАЛА ЖУКОВА\",",
-      "name": "А.С. \"ПР. МАРШАЛА ЖУКОВА\", -> А.С. \"ПР. МАРШАЛА ЖУКОВА\",; route_name: Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
-      "route": "Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
-      "duration": 6
-    },
-    {
-      "startStop": "А.С. \"ПР. МАРШАЛА ЖУКОВА\",",
       "endStop": "Ж.-Д. СТ. ЛИГОВО",
       "name": "А.С. \"ПР. МАРШАЛА ЖУКОВА\", -> Ж.-Д. СТ. ЛИГОВО; route_name: Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
       "route": "Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
@@ -673,13 +666,6 @@
     },
     {
       "startStop": "ОКТЯБРЬСКАЯ УЛ.",
-      "endStop": "ОКТЯБРЬСКАЯ УЛ.",
-      "name": "ОКТЯБРЬСКАЯ УЛ. -> ОКТЯБРЬСКАЯ УЛ.; route_name: Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
-      "route": "Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
-      "duration": 88
-    },
-    {
-      "startStop": "ОКТЯБРЬСКАЯ УЛ.",
       "endStop": "КИНГИСЕППСКОЕ ШОССЕ,55",
       "name": "ОКТЯБРЬСКАЯ УЛ. -> КИНГИСЕППСКОЕ ШОССЕ,55; route_name: Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
       "route": "Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
@@ -781,7 +767,7 @@
       "endStop": "АННИНСКОЕ ШОССЕ",
       "name": "10 КМ -> АННИНСКОЕ ШОССЕ; route_name: Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
       "route": "Автобус 165        А.С. \"ПР. МАРШАЛА ЖУКОВА\" - ОКТЯБРЬСКАЯ УЛ.",
-      "duration": 2
+      "duration": 3
     },
     {
       "startStop": "АННИНСКОЕ ШОССЕ",
@@ -1112,159 +1098,159 @@
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ УЛ.",
-      "timePoint": "5:43"
+      "timePoint": "5:40"
     },
     {
       "stopName": "КИНГИСЕППСКОЕ ШОССЕ,55",
-      "timePoint": "5:45"
+      "timePoint": "5:42"
     },
     {
       "stopName": "УЛ. ЛЕРМОНТОВА",
-      "timePoint": "5:47"
+      "timePoint": "5:44"
     },
     {
       "stopName": "УЛ. ВОССТАНОВЛЕНИЯ",
-      "timePoint": "5:48"
+      "timePoint": "5:45"
     },
     {
       "stopName": "ПР. ЛЕНИНА",
-      "timePoint": "5:49"
+      "timePoint": "5:46"
     },
     {
       "stopName": "УЛ. СВОБОДЫ",
-      "timePoint": "5:51"
+      "timePoint": "5:48"
     },
     {
       "stopName": "УЛ. ПЕРВОГО МАЯ",
-      "timePoint": "5:52"
+      "timePoint": "5:49"
     },
     {
       "stopName": "УЛ. МАССАЛЬСКОГО",
-      "timePoint": "5:54"
+      "timePoint": "5:51"
     },
     {
       "stopName": "БРОНЕТАНКОВАЯ УЛ.",
-      "timePoint": "5:55"
+      "timePoint": "5:52"
     },
     {
       "stopName": "БОРОВАЯ УЛ.",
-      "timePoint": "5:56"
+      "timePoint": "5:53"
     },
     {
       "stopName": "ГРАЖДАНСКАЯ УЛ.",
-      "timePoint": "5:57"
+      "timePoint": "5:54"
     },
     {
       "stopName": "АВИАЦИОННАЯ УЛ.",
-      "timePoint": "5:58"
+      "timePoint": "5:55"
     },
     {
       "stopName": "СКАЧКИ",
-      "timePoint": "6:00"
+      "timePoint": "5:57"
     },
     {
       "stopName": "ДАЧНАЯ УЛ.",
-      "timePoint": "6:03"
+      "timePoint": "6:00"
     },
     {
       "stopName": "10 КМ",
-      "timePoint": "6:05"
+      "timePoint": "6:02"
     },
     {
       "stopName": "АННИНСКОЕ ШОССЕ",
-      "timePoint": "6:07"
+      "timePoint": "6:05"
     },
     {
       "stopName": "ПОЛЕВАЯ УЛ.",
-      "timePoint": "6:09"
+      "timePoint": "6:07"
     },
     {
       "stopName": "КРАСНОСЕЛЬСКОЕ ШОССЕ, 40",
-      "timePoint": "6:10"
+      "timePoint": "6:08"
     },
     {
       "stopName": "КОЛОБАНОВСКАЯ УЛ.",
-      "timePoint": "6:11"
+      "timePoint": "6:09"
     },
     {
       "stopName": "ТАЛЛИННСКОЕ ШОССЕ, 159, ТЦ \"ЛЕНТА\"",
-      "timePoint": "6:16"
+      "timePoint": "6:14"
     },
     {
       "stopName": "РАБОЧАЯ УЛ.",
-      "timePoint": "6:18"
+      "timePoint": "6:16"
     },
     {
       "stopName": "БЕЗЫМЯННАЯ УЛ.",
-      "timePoint": "6:20"
+      "timePoint": "6:18"
     },
     {
       "stopName": "УЛ. СТОЙКОСТИ",
-      "timePoint": "6:23"
+      "timePoint": "6:21"
     },
     {
       "stopName": "ПР. МАРШАЛА ЖУКОВА, УГОЛ ПР. ВЕТЕРАНОВ",
-      "timePoint": "6:25"
+      "timePoint": "6:23"
     },
     {
       "stopName": "АВАНГАРДНАЯ УЛ.",
-      "timePoint": "6:27"
+      "timePoint": "6:25"
     },
     {
       "stopName": "ПР. ВЕТЕРАНОВ",
-      "timePoint": "6:28"
+      "timePoint": "6:26"
     },
     {
       "stopName": "УЛ. ОТВАЖНЫХ",
-      "timePoint": "6:29"
+      "timePoint": "6:27"
     },
     {
       "stopName": "АНДРЕЕВСКИЙ ПЕР.",
-      "timePoint": "6:30"
+      "timePoint": "6:28"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ КРАСНОСЕЛЬСКОГО РАЙОНА",
-      "timePoint": "6:31"
+      "timePoint": "6:29"
     },
     {
       "stopName": "УЛ. ДОБРОВОЛЬЦЕВ",
-      "timePoint": "6:32"
+      "timePoint": "6:30"
     },
     {
       "stopName": "УЛ. ТАМБАСОВА",
-      "timePoint": "6:33"
+      "timePoint": "6:31"
     },
     {
       "stopName": "НОВОБЕЛИЦКАЯ УЛ.",
-      "timePoint": "6:34"
+      "timePoint": "6:32"
     },
     {
       "stopName": "УЛ. ТАМБАСОВА, 12",
-      "timePoint": "6:35"
+      "timePoint": "6:33"
     },
     {
       "stopName": "ПР. ВЕТЕРАНОВ",
-      "timePoint": "6:36"
+      "timePoint": "6:34"
     },
     {
       "stopName": "УЛ. ТАМБАСОВА,32",
-      "timePoint": "6:37"
+      "timePoint": "6:35"
     },
     {
       "stopName": "УЛ. ТАМБАСОВА",
-      "timePoint": "6:38"
+      "timePoint": "6:36"
     },
     {
       "stopName": "УЛ. ЗДОРОВЦЕВА",
-      "timePoint": "6:39"
+      "timePoint": "6:37"
     },
     {
       "stopName": "Ж.-Д. СТ. ЛИГОВО",
-      "timePoint": "6:41"
+      "timePoint": "6:39"
     },
     {
       "stopName": "А.С. \"ПР. МАРШАЛА ЖУКОВА\",",
-      "timePoint": "6:43"
+      "timePoint": "6:41"
     }
   ],
   "coordinates": {
@@ -1489,5 +1475,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:15:30.251705"
+  "timestamp": "2025-11-10T21:46:19.929400"
 }

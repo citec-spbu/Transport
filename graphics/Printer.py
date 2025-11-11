@@ -24,9 +24,13 @@ class Printer:
     def print_graphics(self, print_graph_analis_context: PrintGraphAnalisContext):
         figures = []
         for hist_metric in print_graph_analis_context.histogram_map_metrics_list:
-            figures.append(self.plot_histogram(hist_metric))
+            fig = self.plot_histogram(hist_metric)
+            if fig is not None:
+                figures.append(fig)
         for heat_map_metric in print_graph_analis_context.heat_map_metrics_list:
-            figures.append(self.plot_heatmap_on_map(heat_map_metric, print_graph_analis_context.mesh_size))
+            fig = self.plot_heatmap_on_map(heat_map_metric, print_graph_analis_context.mesh_size)
+            if fig is not None:
+                figures.append(fig)
         return figures
 
 
@@ -38,7 +42,12 @@ class Printer:
     ):
         metric_name = str(metric.value)
         title += metric_name
-        metric_values = self.data[metric_name + "_value"]
+        key = metric_name + "_value"
+        if key not in self.data:
+            print(f"Skipping histogram for '{metric_name}': data key '{key}' not found")
+            return None
+
+        metric_values = self.data[key]
 
         df = pd.DataFrame({"metric_value: " + metric_name: metric_values})
 
@@ -66,13 +75,19 @@ class Printer:
         metric_values = []
         metric_name = str(metric.value)
 
-        for item in range(len(self.data[metric_name + "_identity"])):
+        key_identity = metric_name + "_identity"
+        key_value = metric_name + "_value"
+        if key_identity not in self.data or key_value not in self.data:
+            print(f"Skipping heatmap for '{metric_name}': required keys '{key_identity}' or '{key_value}' not found")
+            return None
+
+        for item in range(len(self.data[key_identity])):
             try:
-                parsed_point = self.data[metric_name + "_identity"][item].split(" ")
+                parsed_point = self.data[key_identity][item].split(" ")
                 lat, lon = parsed_point[1][1::], parsed_point[2][:-1:]
                 latitudes.append(float(lat))
                 longitudes.append(float(lon))
-                metric_values.append(self.data[metric_name + "_value"][item])
+                metric_values.append(self.data[key_value][item])
             except Exception:
                 print(f"Skipping invalid identity")
 

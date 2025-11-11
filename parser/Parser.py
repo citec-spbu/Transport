@@ -24,9 +24,8 @@ TIMETABLE_FORWARD_URL = "/A"
 TIMETABLE_BACKWARD_URL = "/B"
 CACHE_EXPIRE_DAYS = 30
 REQUEST_PAUSE_SEC = 2
-# TODO: need to update according to city coordinates
-CITY_AVG_X_COORDINATE = 60.0
-CITY_AVG_Y_COORDINATE = 30.0
+CITY_AVG_X_COORDINATE = 30.3351
+CITY_AVG_Y_COORDINATE = 59.9343
 
 # --- Cache Configuration ---
 BASE_CACHE_DIR = "./cache"
@@ -141,9 +140,9 @@ class AbstractTransportGraphParser:
             }
             route_nodes[node_name] = node
 
-            if previous_stop:
+            if previous_stop and previous_stop["name"] != node_name:
                 duration = self.calculate_duration(previous_time, time_point)
-                if duration is not False:  # !!! Не пропускаем 0
+                if duration is not False and duration > 0:  # !!! Не пропускаем 0
                     relationship_name = f"{previous_stop['name']} -> {node_name}; route_name: {route_number}"
                     route_relationships.append(
                         {
@@ -203,7 +202,10 @@ class AbstractTransportGraphParser:
                 for r in node.get("routeList", []):
                     if r not in self.nodes[name].get("routeList", []):
                         self.nodes[name]["routeList"].append(r)
-        self.relationships.extend(route_data.get("relationships", []))
+
+        for rel in route_data.get("relationships", []):
+            if rel.get("duration") and rel["duration"] > 0:
+                self.relationships.append(rel)
 
     # === City URL Management ===
     def __get_city_url(self):
@@ -371,26 +373,24 @@ class AbstractTransportGraphParser:
         try:
             h1, m1 = map(int, start.split(":"))
             h2, m2 = map(int, end.split(":"))
-            return abs((h2 * 60 + m2) - (h1 * 60 + m1))
-        except (ValueError, AttributeError):
+
+            min1 = h1 * 60 + m1
+            min2 = h2 * 60 + m2
+
+            diff = min2 - min1
+            if diff < 0:
+                diff += 24 * 60  # сутки в минутах
+
+            if diff == 0:
+                return False
+            return diff
+        except Exception:
             return False
 
     def are_stops_same(self, c1, c2, tol=0.005):
         if not c1.is_defined() or not c2.is_defined():
             return False
         return math.dist(c1.get_xy(), c2.get_xy()) < tol
-
-    # def increment_suffix(self, name):
-    #     # Эта функция больше не используется, логика перенесена в __check_and_find_unique_stop
-    #     # Оставлена на случай, если понадобится в другом месте
-    #     if name and name[-1].isdigit():
-    #         match = re.search(r"(\d+)$", name)
-    #         if match:
-    #             num_str = match.group(1)
-    #             prefix = name[: -len(num_str)]
-    #             number = int(num_str) + 1
-    #             return f"{prefix}{number}"
-    #     return f"{name} 1"
 
     @abstractmethod
     def get_transport_class(self): ...

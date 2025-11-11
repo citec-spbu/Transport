@@ -479,127 +479,127 @@
   "timetable": [
     {
       "stopName": "Г. СЕСТРОРЕЦК, КУРОРТНАЯ УЛ., ПОСАДКИ И ВЫСАДКИ НЕТ",
-      "timePoint": "06:40"
+      "timePoint": "06:35"
     },
     {
       "stopName": "КУРОРТНАЯ УЛ.",
-      "timePoint": "06:46"
+      "timePoint": "06:41"
     },
     {
       "stopName": "УЛ. ГРИГОРЬЕВА",
-      "timePoint": "06:47"
+      "timePoint": "06:42"
     },
     {
       "stopName": "МОРСКАЯ УЛ.",
-      "timePoint": "06:49"
+      "timePoint": "06:44"
     },
     {
       "stopName": "МАЛАЯ КАНОНЕРСКАЯ УЛ.",
-      "timePoint": "06:50"
+      "timePoint": "06:45"
     },
     {
       "stopName": "ВОКЗАЛ",
-      "timePoint": "06:51"
+      "timePoint": "06:46"
     },
     {
       "stopName": "Ж.-Д. СТАНЦИЯ СЕСТРОРЕЦК",
-      "timePoint": "06:52"
+      "timePoint": "06:47"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ",
-      "timePoint": "06:54"
+      "timePoint": "06:49"
     },
     {
       "stopName": "ШКОЛА № 541",
-      "timePoint": "06:56"
+      "timePoint": "06:51"
     },
     {
       "stopName": "ГОРОДСКАЯ БОЛЬНИЦА № 40",
-      "timePoint": "06:57"
+      "timePoint": "06:52"
     },
     {
       "stopName": "РЕАБИЛИТАЦИОННЫЙ ЦЕНТР",
-      "timePoint": "06:59"
+      "timePoint": "06:54"
     },
     {
       "stopName": "УЛ. ПОГРАНИЧНИКОВ",
-      "timePoint": "07:00"
+      "timePoint": "06:55"
     },
     {
       "stopName": "УЛ. ВОЛОДАРСКОГО",
-      "timePoint": "07:02"
+      "timePoint": "06:57"
     },
     {
       "stopName": "Г. СЕСТРОРЕЦК, УЛ. БОРИСОВА",
-      "timePoint": "07:03"
+      "timePoint": "06:58"
     },
     {
       "stopName": "ШКОЛА № 541",
-      "timePoint": "07:04"
+      "timePoint": "06:59"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ",
-      "timePoint": "07:06"
+      "timePoint": "07:01"
     },
     {
       "stopName": "БАНЯ",
-      "timePoint": "07:07"
+      "timePoint": "07:02"
     },
     {
       "stopName": "УЛ. МОСИНА, 24",
-      "timePoint": "07:09"
+      "timePoint": "07:04"
     },
     {
       "stopName": "МАГАЗИННАЯ УЛ.",
-      "timePoint": "07:10"
+      "timePoint": "07:05"
     },
     {
       "stopName": "ШКОЛА № 434",
-      "timePoint": "07:12"
+      "timePoint": "07:07"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА РАЗЛИВ",
-      "timePoint": "07:13"
+      "timePoint": "07:08"
     },
     {
       "stopName": "3-Я ПОПЕРЕЧНАЯ УЛ.",
-      "timePoint": "07:15"
+      "timePoint": "07:10"
     },
     {
       "stopName": "ТАРХОВСКИЙ ПР.,24",
-      "timePoint": "07:17"
+      "timePoint": "07:12"
     },
     {
       "stopName": "ТАРХОВСКИЙ ПР. 47",
-      "timePoint": "07:18"
+      "timePoint": "07:13"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА ТАРХОВКА",
-      "timePoint": "07:20"
+      "timePoint": "07:15"
     },
     {
       "stopName": "ТАРХОВСКИЙ ВОЕННЫЙ САНАТОРИЙ",
-      "timePoint": "07:21"
+      "timePoint": "07:16"
     },
     {
       "stopName": "СПОРТИВНАЯ ШКОЛА ИМ. В. КОРЕНЬКОВА",
-      "timePoint": "07:23"
+      "timePoint": "07:18"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА АЛЕКСАНДРОВСКАЯ",
-      "timePoint": "07:25"
+      "timePoint": "07:20"
     },
     {
       "stopName": "РУЧЕЙНАЯ УЛ.",
-      "timePoint": "07:27"
+      "timePoint": "07:22"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА ГОРСКАЯ",
-      "timePoint": "07:29"
+      "timePoint": "07:24"
     },
     {
       "stopName": "ПР. МУРОМЦЕВА",
-      "timePoint": "07:30"
+      "timePoint": "07:25"
     }
   ],
   "coordinates": {
@@ -749,5 +749,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:52:14.434277"
+  "timestamp": "2025-11-10T21:54:13.773060"
 }

@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 169        ХАСАНСКАЯ УЛ. - СТАНЦИЯ МЕТРО \"ПРОСПЕКТ БОЛЬШЕВИКОВ\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "ПР. НАСТАВНИКОВ УГ. ХАСАНСКОЙ УЛ.": {
@@ -538,13 +538,6 @@
     },
     {
       "startStop": "СТ. МЕТРО \"ПР. БОЛЬШЕВИКОВ\"",
-      "endStop": "СТ. МЕТРО \"ПР. БОЛЬШЕВИКОВ\"",
-      "name": "СТ. МЕТРО \"ПР. БОЛЬШЕВИКОВ\" -> СТ. МЕТРО \"ПР. БОЛЬШЕВИКОВ\"; route_name: Автобус 169        ХАСАНСКАЯ УЛ. - СТАНЦИЯ МЕТРО \"ПРОСПЕКТ БОЛЬШЕВИКОВ\"",
-      "route": "Автобус 169        ХАСАНСКАЯ УЛ. - СТАНЦИЯ МЕТРО \"ПРОСПЕКТ БОЛЬШЕВИКОВ\"",
-      "duration": 9
-    },
-    {
-      "startStop": "СТ. МЕТРО \"ПР. БОЛЬШЕВИКОВ\"",
       "endStop": "КЛОЧКОВ ПЕРЕУЛОК",
       "name": "СТ. МЕТРО \"ПР. БОЛЬШЕВИКОВ\" -> КЛОЧКОВ ПЕРЕУЛОК; route_name: Автобус 169        ХАСАНСКАЯ УЛ. - СТАНЦИЯ МЕТРО \"ПРОСПЕКТ БОЛЬШЕВИКОВ\"",
       "route": "Автобус 169        ХАСАНСКАЯ УЛ. - СТАНЦИЯ МЕТРО \"ПРОСПЕКТ БОЛЬШЕВИКОВ\"",
@@ -877,143 +870,143 @@
     },
     {
       "stopName": "СТ. МЕТРО \"ПР. БОЛЬШЕВИКОВ\"",
-      "timePoint": "5:54"
+      "timePoint": "5:50"
     },
     {
       "stopName": "КЛОЧКОВ ПЕРЕУЛОК",
-      "timePoint": "5:55"
+      "timePoint": "5:51"
     },
     {
       "stopName": "УЛ. БАДАЕВА",
-      "timePoint": "5:56"
+      "timePoint": "5:52"
     },
     {
       "stopName": "ПАРК БОЕВОГО БРАТСТВА",
-      "timePoint": "5:57"
+      "timePoint": "5:53"
     },
     {
       "stopName": "УЛ. БАДАЕВА, 8",
-      "timePoint": "5:58"
+      "timePoint": "5:54"
     },
     {
       "stopName": "СОЦИАЛЬНЫЙ ФОНД",
-      "timePoint": "5:59"
+      "timePoint": "5:55"
     },
     {
       "stopName": "УЛ. ВОРОШИЛОВА,1",
-      "timePoint": "6:00"
+      "timePoint": "5:56"
     },
     {
       "stopName": "УЛ. ВОРОШИЛОВА, 7",
-      "timePoint": "6:01"
+      "timePoint": "5:57"
     },
     {
       "stopName": "ПР. ПЯТИЛЕТОК",
-      "timePoint": "6:02"
+      "timePoint": "5:58"
     },
     {
       "stopName": "УЛ. ДЖОНА РИДА",
-      "timePoint": "6:04"
+      "timePoint": "6:00"
     },
     {
       "stopName": "ПР. ПЯТИЛЕТОК, ЛЕДОВЫЙ ДВОРЕЦ",
-      "timePoint": "6:06"
+      "timePoint": "6:02"
     },
     {
       "stopName": "РОССИЙСКИЙ ПР., УГОЛ УЛ. ЛАТЫШСКИХ СТРЕЛКОВ",
-      "timePoint": "6:09"
+      "timePoint": "6:05"
     },
     {
       "stopName": "ЛИЦЕЙ №572",
-      "timePoint": "6:10"
+      "timePoint": "6:06"
     },
     {
       "stopName": "УЛ. ЛАТЫШСКИХ СТРЕЛКОВ, УГ. УЛ. КРЖИЖАНОВСКОГО",
-      "timePoint": "6:11"
+      "timePoint": "6:07"
     },
     {
       "stopName": "УЛ. КРЖИЖАНОВСКОГО, 3",
-      "timePoint": "6:12"
+      "timePoint": "6:08"
     },
     {
       "stopName": "УЛ. КРЖИЖАНОВСКОГО, 5",
-      "timePoint": "6:13"
+      "timePoint": "6:09"
     },
     {
       "stopName": "ИНДУСТРИАЛЬНЫЙ ПР., УГ. ХАСАНСКОЙ УЛ.",
-      "timePoint": "6:17"
+      "timePoint": "6:13"
     },
     {
       "stopName": "ЛЕНСКАЯ УЛ.",
-      "timePoint": "6:19"
+      "timePoint": "6:15"
     },
     {
       "stopName": "ПР. КОСЫГИНА",
-      "timePoint": "6:20"
+      "timePoint": "6:16"
     },
     {
       "stopName": "ИНДУСТРИАЛЬНЫЙ ПР., УГ. ПР. ЭНТУЗИАСТОВ",
-      "timePoint": "6:21"
+      "timePoint": "6:17"
     },
     {
       "stopName": "ИНДУСТРИАЛЬНЫЙ ПР.",
-      "timePoint": "6:22"
+      "timePoint": "6:18"
     },
     {
       "stopName": "ПР. УДАРНИКОВ,29",
-      "timePoint": "6:24"
+      "timePoint": "6:20"
     },
     {
       "stopName": "ПР. НАСТАВНИКОВ, УГ. ПР. УДАРНИКОВ",
-      "timePoint": "6:25"
+      "timePoint": "6:21"
     },
     {
       "stopName": "ПР. ЭНТУЗИАСТОВ",
-      "timePoint": "6:27"
+      "timePoint": "6:23"
     },
     {
       "stopName": "ПР. КОСЫГИНА, УГ. ПР. НАСТАВНИКОВ",
-      "timePoint": "6:28"
+      "timePoint": "6:24"
     },
     {
       "stopName": "ПР. КОСЫГИНА, 30",
-      "timePoint": "6:29"
+      "timePoint": "6:25"
     },
     {
       "stopName": "БЕЛОРУССКАЯ УЛ. УГ.ПР. КОСЫГИНА",
-      "timePoint": "6:30"
+      "timePoint": "6:26"
     },
     {
       "stopName": "БЕЛОРУССКАЯ УЛ., 26",
-      "timePoint": "6:31"
+      "timePoint": "6:27"
     },
     {
       "stopName": "БЕЛОРУССКАЯ УЛ.",
-      "timePoint": "6:32"
+      "timePoint": "6:28"
     },
     {
       "stopName": "ЛЕНСКАЯ УЛ. УГ. БЕЛОРУССКОЙ УЛ.",
-      "timePoint": "6:33"
+      "timePoint": "6:29"
     },
     {
       "stopName": "УЛ. КОММУНЫ, 10, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:34"
+      "timePoint": "6:30"
     },
     {
       "stopName": "БЕЛОРУССКАЯ УЛ. ПО ХАСАНСКОЙ УЛ.",
-      "timePoint": "6:35"
+      "timePoint": "6:31"
     },
     {
       "stopName": "ГИПЕРМАРКЕТ \"ЛЕНТА\"",
-      "timePoint": "6:36"
+      "timePoint": "6:32"
     },
     {
       "stopName": "ПР. НАСТАВНИКОВ",
-      "timePoint": "6:37"
+      "timePoint": "6:33"
     },
     {
       "stopName": "ХАСАНСКАЯ УЛ.",
-      "timePoint": "6:38"
+      "timePoint": "6:34"
     }
   ],
   "coordinates": {
@@ -1228,5 +1221,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:15:40.954662"
+  "timestamp": "2025-11-10T21:46:34.480377"
 }

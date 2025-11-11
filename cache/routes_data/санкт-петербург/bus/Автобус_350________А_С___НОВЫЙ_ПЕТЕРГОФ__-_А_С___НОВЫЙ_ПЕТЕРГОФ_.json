@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 350        А.С. \"НОВЫЙ ПЕТЕРГОФ\" - А.С. \"НОВЫЙ ПЕТЕРГОФ\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ": {
@@ -255,71 +255,71 @@
   "timetable": [
     {
       "stopName": "А.С. \"НОВЫЙ ПЕТЕРГОФ\",",
-      "timePoint": "06:30"
+      "timePoint": "05:20"
     },
     {
       "stopName": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
-      "timePoint": "06:36"
+      "timePoint": "05:26"
     },
     {
       "stopName": "ЭРЛЕРОВСКИЙ БУЛЬВАР",
-      "timePoint": "06:39"
+      "timePoint": "05:29"
     },
     {
       "stopName": "ПЛОЩАДЬ АВРОВА",
-      "timePoint": "06:41"
+      "timePoint": "05:31"
     },
     {
       "stopName": "КОНСТАНТИНОВСКАЯ УЛ., НИКОЛАЕВСКАЯ БОЛЬНИЦА",
-      "timePoint": "06:43"
+      "timePoint": "05:33"
     },
     {
       "stopName": "ТОРГОВАЯ ПЛОЩАДЬ",
-      "timePoint": "06:44"
+      "timePoint": "05:34"
     },
     {
       "stopName": "ФОНТАНЫ",
-      "timePoint": "06:45"
+      "timePoint": "05:35"
     },
     {
       "stopName": "РАЗВОДНАЯ УЛ., УГ. С.-ПЕТЕРБУРГСКОГО ПР.",
-      "timePoint": "06:46"
+      "timePoint": "05:36"
     },
     {
       "stopName": "БУЛЬВАР РАЗВЕДЧИКА, УГОЛ РАЗВОДНОЙ УЛ.",
-      "timePoint": "06:47"
+      "timePoint": "05:37"
     },
     {
       "stopName": "МАСТЕРОВОЙ ПЕР., УГОЛ БУЛЬВАРА РАЗВЕДЧИКА",
-      "timePoint": "06:48"
+      "timePoint": "05:38"
     },
     {
       "stopName": "БЛАН-МЕНИЛЬСКАЯ УЛ., 11",
-      "timePoint": "06:50"
+      "timePoint": "05:40"
     },
     {
       "stopName": "ОЗЕРКОВАЯ УЛ., 51",
-      "timePoint": "06:52"
+      "timePoint": "05:42"
     },
     {
       "stopName": "ЭРЛЕРОВСКИЙ БУЛЬВАР",
-      "timePoint": "06:54"
+      "timePoint": "05:44"
     },
     {
       "stopName": "УЛ. ЖАРНОВЕЦКОГО",
-      "timePoint": "06:56"
+      "timePoint": "05:46"
     },
     {
       "stopName": "КОНСТАНТИНОВСКАЯ УЛ.",
-      "timePoint": "06:57"
+      "timePoint": "05:47"
     },
     {
       "stopName": "ЭРЛЕРОВСКИЙ БУЛЬВАР, УГОЛ УЛ. АВРОВА",
-      "timePoint": "06:58"
+      "timePoint": "05:48"
     },
     {
       "stopName": "Ж.-Д. СТ. НОВЫЙ ПЕТЕРГОФ",
-      "timePoint": "07:01"
+      "timePoint": "05:51"
     }
   ],
   "coordinates": {
@@ -399,5 +399,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:53:51.993066"
+  "timestamp": "2025-11-10T21:56:13.072246"
 }

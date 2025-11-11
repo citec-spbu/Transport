@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 27        БЕЛОРУССКАЯ УЛ. - ТЕАТРАЛЬНАЯ ПЛ."
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "БЕЛОРУССКАЯ УЛ.": {
@@ -635,13 +635,6 @@
     },
     {
       "startStop": "ПР. РИМСКОГО-КОРСАКОВА",
-      "endStop": "ПР. РИМСКОГО-КОРСАКОВА",
-      "name": "ПР. РИМСКОГО-КОРСАКОВА -> ПР. РИМСКОГО-КОРСАКОВА; route_name: Автобус 27        БЕЛОРУССКАЯ УЛ. - ТЕАТРАЛЬНАЯ ПЛ.",
-      "route": "Автобус 27        БЕЛОРУССКАЯ УЛ. - ТЕАТРАЛЬНАЯ ПЛ.",
-      "duration": 46
-    },
-    {
-      "startStop": "ПР. РИМСКОГО-КОРСАКОВА",
       "endStop": "ЛЕРМОНТОВСКИЙ ПР.",
       "name": "ПР. РИМСКОГО-КОРСАКОВА -> ЛЕРМОНТОВСКИЙ ПР.; route_name: Автобус 27        БЕЛОРУССКАЯ УЛ. - ТЕАТРАЛЬНАЯ ПЛ.",
       "route": "Автобус 27        БЕЛОРУССКАЯ УЛ. - ТЕАТРАЛЬНАЯ ПЛ.",
@@ -875,271 +868,271 @@
   "timetable": [
     {
       "stopName": "А.С. \"БЕЛОРУССКАЯ УЛ.\"",
-      "timePoint": "5:55"
+      "timePoint": "5:25"
     },
     {
       "stopName": "БЕЛОРУССКАЯ УЛ.",
-      "timePoint": "6:01"
+      "timePoint": "5:31"
     },
     {
       "stopName": "УЛ. КОММУНЫ, УГ. ЛЕНСКОЙ УЛ.",
-      "timePoint": "6:02"
+      "timePoint": "5:32"
     },
     {
       "stopName": "ПР. КОСЫГИНА",
-      "timePoint": "6:05"
+      "timePoint": "5:35"
     },
     {
       "stopName": "УЛ. КОММУНЫ, Д. 26",
-      "timePoint": "6:06"
+      "timePoint": "5:36"
     },
     {
       "stopName": "ПОЛИКЛИНИКА № 107",
-      "timePoint": "6:07"
+      "timePoint": "5:37"
     },
     {
       "stopName": "ПР. ЭНТУЗИАСТОВ",
-      "timePoint": "6:09"
+      "timePoint": "5:39"
     },
     {
       "stopName": "ПР. УДАРНИКОВ УГ. УЛ. КОММУНЫ",
-      "timePoint": "6:11"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ПР. УДАРНИКОВ, УГ. ПР. НАСТАВНИКОВ",
-      "timePoint": "6:14"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ПР. УДАРНИКОВ,29",
-      "timePoint": "6:15"
+      "timePoint": "5:45"
     },
     {
       "stopName": "ИНДУСТРИАЛЬНЫЙ ПР.",
-      "timePoint": "6:17"
+      "timePoint": "5:47"
     },
     {
       "stopName": "УЛ. ПЕРЕДОВИКОВ, УГ. ПР. УДАРНИКОВ",
-      "timePoint": "6:19"
+      "timePoint": "5:49"
     },
     {
       "stopName": "УЛ. ПЕРЕДОВИКОВ, ПОЛИКЛИНИКА № 103",
-      "timePoint": "6:21"
+      "timePoint": "5:51"
     },
     {
       "stopName": "УЛ. ПЕРЕДОВИКОВ",
+      "timePoint": "5:52"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"ЛАДОЖСКАЯ\"",
+      "timePoint": "5:59"
+    },
+    {
+      "stopName": "ЗАНЕВСКИЙ ПР.,З2",
+      "timePoint": "6:01"
+    },
+    {
+      "stopName": "ПР. ШАУМЯНА, ТЕАТР \"БУФФ\"",
+      "timePoint": "6:03"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"НОВОЧЕРКАССКАЯ\"",
+      "timePoint": "6:04"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
+      "timePoint": "6:10"
+    },
+    {
+      "stopName": "ИСПОЛКОМСКАЯ УЛ.",
+      "timePoint": "6:12"
+    },
+    {
+      "stopName": "ПОЛТАВСКАЯ УЛ.",
+      "timePoint": "6:14"
+    },
+    {
+      "stopName": "СУВОРОВСКИЙ ПР.",
+      "timePoint": "6:15"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ ВОССТАНИЯ\"",
+      "timePoint": "6:16"
+    },
+    {
+      "stopName": "ЛИТЕЙНЫЙ ПР.",
+      "timePoint": "6:19"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"ГОСТИНЫЙ ДВОР\"",
       "timePoint": "6:22"
     },
     {
-      "stopName": "СТ. МЕТРО \"ЛАДОЖСКАЯ\"",
-      "timePoint": "6:29"
-    },
-    {
-      "stopName": "ЗАНЕВСКИЙ ПР.,З2",
-      "timePoint": "6:31"
-    },
-    {
-      "stopName": "ПР. ШАУМЯНА, ТЕАТР \"БУФФ\"",
-      "timePoint": "6:33"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"НОВОЧЕРКАССКАЯ\"",
-      "timePoint": "6:34"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
-      "timePoint": "6:40"
-    },
-    {
-      "stopName": "ИСПОЛКОМСКАЯ УЛ.",
-      "timePoint": "6:42"
-    },
-    {
-      "stopName": "ПОЛТАВСКАЯ УЛ.",
-      "timePoint": "6:44"
-    },
-    {
-      "stopName": "СУВОРОВСКИЙ ПР.",
-      "timePoint": "6:45"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ ВОССТАНИЯ\"",
-      "timePoint": "6:46"
-    },
-    {
-      "stopName": "ЛИТЕЙНЫЙ ПР.",
-      "timePoint": "6:49"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"ГОСТИНЫЙ ДВОР\"",
-      "timePoint": "6:52"
-    },
-    {
       "stopName": "СТ. МЕТРО \"НЕВСКИЙ ПР.\"",
-      "timePoint": "6:53"
+      "timePoint": "6:23"
     },
     {
       "stopName": "Б. КОНЮШЕННАЯ УЛ.",
-      "timePoint": "6:55"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"АДМИРАЛТЕЙСКАЯ\"",
-      "timePoint": "6:57"
-    },
-    {
-      "stopName": "ИСААКИЕВСКИЙ СОБОР",
-      "timePoint": "6:59"
-    },
-    {
-      "stopName": "КОННОГВАРДЕЙСКИЙ БУЛЬВАР",
-      "timePoint": "7:01"
-    },
-    {
-      "stopName": "ПЛ. ТРУДА",
-      "timePoint": "7:03"
-    },
-    {
-      "stopName": "ТЕАТРАЛЬНАЯ ПЛ.",
-      "timePoint": "7:05"
-    },
-    {
-      "stopName": "ПР. РИМСКОГО-КОРСАКОВА",
-      "timePoint": "7:06"
-    },
-    {
-      "stopName": "ПР. РИМСКОГО-КОРСАКОВА",
-      "timePoint": "6:20"
-    },
-    {
-      "stopName": "ЛЕРМОНТОВСКИЙ ПР.",
-      "timePoint": "6:21"
-    },
-    {
-      "stopName": "МАРИИНСКИЙ ТЕАТР",
-      "timePoint": "6:24"
-    },
-    {
-      "stopName": "ТЕАТРАЛЬНАЯ ПЛ.",
       "timePoint": "6:25"
     },
     {
-      "stopName": "ДК СВЯЗИ",
-      "timePoint": "6:28"
+      "stopName": "СТ. МЕТРО \"АДМИРАЛТЕЙСКАЯ\"",
+      "timePoint": "6:27"
     },
     {
-      "stopName": "ИСААКИЕВСКАЯ ПЛОЩАДЬ",
-      "timePoint": "6:30"
+      "stopName": "ИСААКИЕВСКИЙ СОБОР",
+      "timePoint": "6:29"
     },
     {
-      "stopName": "НЕВСКИЙ ПР., СТ. МЕТРО \"АДМИРАЛТЕЙСКАЯ\"",
-      "timePoint": "6:32"
+      "stopName": "КОННОГВАРДЕЙСКИЙ БУЛЬВАР",
+      "timePoint": "6:31"
     },
     {
-      "stopName": "СТ. МЕТРО \"НЕВСКИЙ ПР.\"",
-      "timePoint": "6:34"
+      "stopName": "ПЛ. ТРУДА",
+      "timePoint": "6:33"
     },
     {
-      "stopName": "СТ. МЕТРО \"ГОСТИНЫЙ ДВОР\"",
+      "stopName": "ТЕАТРАЛЬНАЯ ПЛ.",
+      "timePoint": "6:35"
+    },
+    {
+      "stopName": "ПР. РИМСКОГО-КОРСАКОВА",
       "timePoint": "6:36"
     },
     {
+      "stopName": "ПР. РИМСКОГО-КОРСАКОВА",
+      "timePoint": "6:10"
+    },
+    {
+      "stopName": "ЛЕРМОНТОВСКИЙ ПР.",
+      "timePoint": "6:11"
+    },
+    {
+      "stopName": "МАРИИНСКИЙ ТЕАТР",
+      "timePoint": "6:14"
+    },
+    {
+      "stopName": "ТЕАТРАЛЬНАЯ ПЛ.",
+      "timePoint": "6:15"
+    },
+    {
+      "stopName": "ДК СВЯЗИ",
+      "timePoint": "6:18"
+    },
+    {
+      "stopName": "ИСААКИЕВСКАЯ ПЛОЩАДЬ",
+      "timePoint": "6:20"
+    },
+    {
+      "stopName": "НЕВСКИЙ ПР., СТ. МЕТРО \"АДМИРАЛТЕЙСКАЯ\"",
+      "timePoint": "6:22"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"НЕВСКИЙ ПР.\"",
+      "timePoint": "6:24"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"ГОСТИНЫЙ ДВОР\"",
+      "timePoint": "6:26"
+    },
+    {
       "stopName": "ДВОРЕЦ ТВОРЧЕСТВА ЮНЫХ",
-      "timePoint": "6:38"
+      "timePoint": "6:28"
     },
     {
       "stopName": "ЛИТЕЙНЫЙ ПР.",
-      "timePoint": "6:40"
+      "timePoint": "6:30"
     },
     {
       "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ ВОССТАНИЯ\"",
-      "timePoint": "6:41"
+      "timePoint": "6:31"
     },
     {
       "stopName": "СУВОРОВСКИЙ ПР.",
-      "timePoint": "6:42"
+      "timePoint": "6:32"
     },
     {
       "stopName": "ПОЛТАВСКАЯ УЛ.",
-      "timePoint": "6:43"
+      "timePoint": "6:33"
     },
     {
       "stopName": "ИСПОЛКОМСКАЯ УЛ.",
-      "timePoint": "6:45"
+      "timePoint": "6:35"
     },
     {
       "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
-      "timePoint": "6:47"
+      "timePoint": "6:37"
     },
     {
       "stopName": "УЛ. СТАХАНОВЦЕВ",
-      "timePoint": "6:52"
+      "timePoint": "6:42"
     },
     {
       "stopName": "СТ. МЕТРО \"НОВОЧЕРКАССКАЯ\"",
-      "timePoint": "6:53"
+      "timePoint": "6:43"
     },
     {
       "stopName": "ПР. ШАУМЯНА, ТЕАТР \"БУФФ\"",
-      "timePoint": "6:54"
+      "timePoint": "6:44"
     },
     {
       "stopName": "ЗАНЕВСКИЙ ПР.,З2",
-      "timePoint": "6:57"
+      "timePoint": "6:47"
     },
     {
       "stopName": "СТ. МЕТРО \"ЛАДОЖСКАЯ\"",
-      "timePoint": "6:59"
+      "timePoint": "6:49"
     },
     {
       "stopName": "ПР. КОСЫГИНА, УГ. УЛ. ПЕРЕДОВИКОВ",
-      "timePoint": "7:06"
+      "timePoint": "6:56"
     },
     {
       "stopName": "УЛ. ПЕРЕДОВИКОВ, ПОЛИКЛИНИКА № 103",
-      "timePoint": "7:07"
+      "timePoint": "6:57"
     },
     {
       "stopName": "УЛ. ПЕРЕДОВИКОВ, УГ. ПР. УДАРНИКОВ",
-      "timePoint": "7:09"
+      "timePoint": "6:59"
     },
     {
       "stopName": "ИНДУСТРИАЛЬНЫЙ ПР.",
-      "timePoint": "7:11"
+      "timePoint": "7:01"
     },
     {
       "stopName": "ПР. УДАРНИКОВ,29",
-      "timePoint": "7:13"
+      "timePoint": "7:03"
     },
     {
       "stopName": "ПР. НАСТАВНИКОВ, УГ. ПР. УДАРНИКОВ",
-      "timePoint": "7:14"
+      "timePoint": "7:04"
     },
     {
       "stopName": "ПР. УДАРНИКОВ",
-      "timePoint": "7:17"
+      "timePoint": "7:07"
     },
     {
       "stopName": "ПР. ЭНТУЗИАСТОВ",
-      "timePoint": "7:19"
+      "timePoint": "7:09"
     },
     {
       "stopName": "ПОЛИКЛИНИКА № 107",
-      "timePoint": "7:21"
+      "timePoint": "7:11"
     },
     {
       "stopName": "УЛ. КОММУНЫ, Д. 26",
-      "timePoint": "7:22"
+      "timePoint": "7:12"
     },
     {
       "stopName": "ПР. КОСЫГИНА",
-      "timePoint": "7:23"
+      "timePoint": "7:13"
     },
     {
       "stopName": "ЛЕНСКАЯ УЛ. УГ. БЕЛОРУССКОЙ УЛ.",
-      "timePoint": "7:26"
+      "timePoint": "7:16"
     },
     {
       "stopName": "А.С. \"БЕЛОРУССКАЯ УЛ.\"",
-      "timePoint": "7:28"
+      "timePoint": "7:18"
     }
   ],
   "coordinates": {
@@ -1364,5 +1357,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:09:03.397979"
+  "timestamp": "2025-11-10T21:37:47.159074"
 }

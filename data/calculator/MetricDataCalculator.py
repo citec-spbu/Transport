@@ -16,6 +16,9 @@ class MetricDataCalculator:
         self.degree_distibution_calculator = None
         self.betweenness_distribution_calculator = None
         self.page_rank_distribution_calculator = None
+        # Initialize optional calculators to None so attributes always exist
+        self.leiden_community_id_calculator = None
+        self.louvain_community_id_calculator = None
         db_parameters = graph_analisis_context.neo4j_DB_graph_parameters
         if metric_calculation_context.need_degree:
             self.degree_distibution_calculator = DegreeDistribution(db_parameters)

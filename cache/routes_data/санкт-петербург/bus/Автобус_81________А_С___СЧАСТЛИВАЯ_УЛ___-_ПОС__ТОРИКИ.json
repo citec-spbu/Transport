@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 81        А.С. \"СЧАСТЛИВАЯ УЛ.\" - ПОС. ТОРИКИ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "СЧАСТЛИВАЯ УЛ.": {
@@ -16,8 +16,8 @@
       "routeList": [
         "Автобус 81        А.С. \"СЧАСТЛИВАЯ УЛ.\" - ПОС. ТОРИКИ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "УЛ. ПОДВОДНИКА КУЗЬМИНА": {
@@ -462,13 +462,6 @@
     },
     {
       "startStop": "ПОС. ТОРИКИ",
-      "endStop": "ПОС. ТОРИКИ",
-      "name": "ПОС. ТОРИКИ -> ПОС. ТОРИКИ; route_name: Автобус 81        А.С. \"СЧАСТЛИВАЯ УЛ.\" - ПОС. ТОРИКИ",
-      "route": "Автобус 81        А.С. \"СЧАСТЛИВАЯ УЛ.\" - ПОС. ТОРИКИ",
-      "duration": 0
-    },
-    {
-      "startStop": "ПОС. ТОРИКИ",
       "endStop": "АННИНСКОЕ ШОССЕ, 30",
       "name": "ПОС. ТОРИКИ -> АННИНСКОЕ ШОССЕ, 30; route_name: Автобус 81        А.С. \"СЧАСТЛИВАЯ УЛ.\" - ПОС. ТОРИКИ",
       "route": "Автобус 81        А.С. \"СЧАСТЛИВАЯ УЛ.\" - ПОС. ТОРИКИ",
@@ -653,211 +646,211 @@
   "timetable": [
     {
       "stopName": "А.С. \"СЧАСТЛИВАЯ УЛ.\",",
-      "timePoint": "05:25"
+      "timePoint": "05:20"
     },
     {
       "stopName": "СЧАСТЛИВАЯ УЛ.",
+      "timePoint": "05:26"
+    },
+    {
+      "stopName": "УЛ. ПОДВОДНИКА КУЗЬМИНА",
+      "timePoint": "05:27"
+    },
+    {
+      "stopName": "ДАЧНОЕ, Ж.-Д. СТАНЦИЯ",
+      "timePoint": "05:28"
+    },
+    {
+      "stopName": "ДАЧНЫЙ ПР., 23",
       "timePoint": "05:31"
     },
     {
-      "stopName": "УЛ. ПОДВОДНИКА КУЗЬМИНА",
+      "stopName": "СТ. МЕТРО \"ПРОСПЕКТ ВЕТЕРАНОВ\"",
       "timePoint": "05:32"
     },
     {
-      "stopName": "ДАЧНОЕ, Ж.-Д. СТАНЦИЯ",
-      "timePoint": "05:33"
+      "stopName": "УЛ. ЛЁНИ ГОЛИКОВА",
+      "timePoint": "05:34"
     },
     {
-      "stopName": "ДАЧНЫЙ ПР., 23",
-      "timePoint": "05:36"
+      "stopName": "ТОРГОВЫЙ ЦЕНТР",
+      "timePoint": "05:35"
     },
     {
-      "stopName": "СТ. МЕТРО \"ПРОСПЕКТ ВЕТЕРАНОВ\"",
+      "stopName": "УЛ. КОЗЛОВА",
       "timePoint": "05:37"
     },
     {
-      "stopName": "УЛ. ЛЁНИ ГОЛИКОВА",
+      "stopName": "УЛ. СОЛДАТА КОРЗУНА",
+      "timePoint": "05:38"
+    },
+    {
+      "stopName": "УНИВЕРСАМ \"ТАЛЛИНСКИЙ\"",
       "timePoint": "05:39"
     },
     {
-      "stopName": "ТОРГОВЫЙ ЦЕНТР",
+      "stopName": "УЛ. ГЕНЕРАЛА СИМОНЯКА",
       "timePoint": "05:40"
     },
     {
-      "stopName": "УЛ. КОЗЛОВА",
+      "stopName": "ПР. МАРШАЛА ЖУКОВА, УГОЛ ПР. ВЕТЕРАНОВ",
       "timePoint": "05:42"
     },
     {
-      "stopName": "УЛ. СОЛДАТА КОРЗУНА",
+      "stopName": "УЛ. СТОЙКОСТИ",
       "timePoint": "05:43"
     },
     {
-      "stopName": "УНИВЕРСАМ \"ТАЛЛИНСКИЙ\"",
-      "timePoint": "05:44"
-    },
-    {
-      "stopName": "УЛ. ГЕНЕРАЛА СИМОНЯКА",
-      "timePoint": "05:45"
-    },
-    {
-      "stopName": "ПР. МАРШАЛА ЖУКОВА, УГОЛ ПР. ВЕТЕРАНОВ",
-      "timePoint": "05:47"
-    },
-    {
-      "stopName": "УЛ. СТОЙКОСТИ",
-      "timePoint": "05:48"
-    },
-    {
       "stopName": "БЕЗЫМЯННАЯ УЛ.",
+      "timePoint": "05:46"
+    },
+    {
+      "stopName": "РАБОЧАЯ УЛ.",
+      "timePoint": "05:49"
+    },
+    {
+      "stopName": "ТАЛЛИННСКОЕ ШОССЕ, 159, ТЦ \"ЛЕНТА\"",
       "timePoint": "05:51"
     },
     {
-      "stopName": "РАБОЧАЯ УЛ.",
-      "timePoint": "05:54"
-    },
-    {
-      "stopName": "ТАЛЛИННСКОЕ ШОССЕ, 159, ТЦ \"ЛЕНТА\"",
-      "timePoint": "05:56"
-    },
-    {
       "stopName": "КОЛОБАНОВСКАЯ УЛ.",
-      "timePoint": "06:02"
+      "timePoint": "05:57"
     },
     {
       "stopName": "КРАСНОСЕЛЬСКОЕ ШОССЕ, 40",
-      "timePoint": "06:03"
+      "timePoint": "05:58"
     },
     {
       "stopName": "ПОЛЕВАЯ УЛ.",
-      "timePoint": "06:04"
+      "timePoint": "05:59"
     },
     {
       "stopName": "АННИНСКОЕ ШОССЕ, УГОЛ КРАСНОСЕЛЬСКОГО ШОССЕ",
-      "timePoint": "06:06"
+      "timePoint": "06:01"
     },
     {
       "stopName": "Ж.-Д. СТ. ГОРЕЛОВО",
+      "timePoint": "06:02"
+    },
+    {
+      "stopName": "ЛЕНИНГРАДСКАЯ УЛ.",
+      "timePoint": "06:04"
+    },
+    {
+      "stopName": "АННИНСКОЕ ШОССЕ, 30",
+      "timePoint": "06:05"
+    },
+    {
+      "stopName": "ПОС. ТОРИКИ",
       "timePoint": "06:07"
     },
     {
-      "stopName": "ЛЕНИНГРАДСКАЯ УЛ.",
+      "stopName": "ПОС. ТОРИКИ",
+      "timePoint": "06:07"
+    },
+    {
+      "stopName": "АННИНСКОЕ ШОССЕ, 30",
       "timePoint": "06:09"
     },
     {
-      "stopName": "АННИНСКОЕ ШОССЕ, 30",
+      "stopName": "ЛЕНИНГРАДСКАЯ УЛ.",
       "timePoint": "06:10"
     },
     {
-      "stopName": "ПОС. ТОРИКИ",
-      "timePoint": "06:12"
-    },
-    {
-      "stopName": "ПОС. ТОРИКИ",
-      "timePoint": "06:12"
-    },
-    {
-      "stopName": "АННИНСКОЕ ШОССЕ, 30",
-      "timePoint": "06:14"
-    },
-    {
-      "stopName": "ЛЕНИНГРАДСКАЯ УЛ.",
-      "timePoint": "06:15"
-    },
-    {
       "stopName": "Ж.-Д. СТ. ГОРЕЛОВО",
-      "timePoint": "06:17"
+      "timePoint": "06:12"
     },
     {
       "stopName": "АННИНСКОЕ ШОССЕ",
-      "timePoint": "06:18"
+      "timePoint": "06:13"
     },
     {
       "stopName": "ПОЛЕВАЯ УЛ.",
-      "timePoint": "06:20"
+      "timePoint": "06:15"
     },
     {
       "stopName": "КРАСНОСЕЛЬСКОЕ ШОССЕ, 40",
-      "timePoint": "06:21"
+      "timePoint": "06:16"
     },
     {
       "stopName": "КОЛОБАНОВСКАЯ УЛ.",
-      "timePoint": "06:22"
+      "timePoint": "06:17"
     },
     {
       "stopName": "ТАЛЛИННСКОЕ ШОССЕ, 159, ТЦ \"ЛЕНТА\"",
-      "timePoint": "06:28"
+      "timePoint": "06:23"
     },
     {
       "stopName": "РАБОЧАЯ УЛ.",
-      "timePoint": "06:30"
+      "timePoint": "06:25"
     },
     {
       "stopName": "БЕЗЫМЯННАЯ УЛ.",
-      "timePoint": "06:32"
+      "timePoint": "06:27"
     },
     {
       "stopName": "УЛ. СТОЙКОСТИ",
-      "timePoint": "06:35"
+      "timePoint": "06:30"
     },
     {
       "stopName": "ПР. МАРШАЛА ЖУКОВА, УГОЛ ПР. ВЕТЕРАНОВ",
-      "timePoint": "06:36"
+      "timePoint": "06:31"
     },
     {
       "stopName": "УЛ. ГЕНЕРАЛА СИМОНЯКА",
-      "timePoint": "06:38"
+      "timePoint": "06:33"
     },
     {
       "stopName": "УНИВЕРСАМ \"ТАЛЛИНСКИЙ\"",
-      "timePoint": "06:39"
+      "timePoint": "06:34"
     },
     {
       "stopName": "УЛ. СОЛДАТА КОРЗУНА",
-      "timePoint": "06:40"
+      "timePoint": "06:35"
     },
     {
       "stopName": "УЛ. КОЗЛОВА",
-      "timePoint": "06:41"
+      "timePoint": "06:36"
     },
     {
       "stopName": "ТОРГОВЫЙ ЦЕНТР",
-      "timePoint": "06:42"
+      "timePoint": "06:37"
     },
     {
       "stopName": "УЛ. ЛЁНИ ГОЛИКОВА",
-      "timePoint": "06:43"
+      "timePoint": "06:38"
     },
     {
       "stopName": "СТ. МЕТРО \"ПРОСПЕКТ ВЕТЕРАНОВ\"",
-      "timePoint": "06:46"
+      "timePoint": "06:41"
     },
     {
       "stopName": "ДАЧНЫЙ ПР., 19",
-      "timePoint": "06:47"
+      "timePoint": "06:42"
     },
     {
       "stopName": "ДАЧНЫЙ ПР., 23",
-      "timePoint": "06:48"
+      "timePoint": "06:43"
     },
     {
       "stopName": "ДАЧНЫЙ ПР., 33",
-      "timePoint": "06:49"
+      "timePoint": "06:44"
     },
     {
       "stopName": "ДАЧНОЕ, Ж.-Д. СТАНЦИЯ",
-      "timePoint": "06:51"
+      "timePoint": "06:46"
     },
     {
       "stopName": "УЛ. ПОДВОДНИКА КУЗЬМИНА",
-      "timePoint": "06:52"
+      "timePoint": "06:47"
     },
     {
       "stopName": "СЧАСТЛИВАЯ УЛ.",
-      "timePoint": "06:53"
+      "timePoint": "06:48"
     },
     {
       "stopName": "А.С. \"СЧАСТЛИВАЯ УЛ.\",",
-      "timePoint": "06:54"
+      "timePoint": "06:49"
     }
   ],
   "coordinates": {
@@ -1007,5 +1000,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:11:21.149839"
+  "timestamp": "2025-11-10T21:40:54.004490"
 }

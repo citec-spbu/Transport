@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 112        СТАНЦИЯ МЕТРО \"УДЕЛЬНАЯ\" - ЖК \"ЮНТОЛОВО\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТАНЦИЯ УДЕЛЬНАЯ": {
@@ -661,7 +661,7 @@
       "endStop": "СТ. МЕТРО \"СТАРАЯ ДЕРЕВНЯ\"",
       "name": "ТОРФЯНАЯ ДОРОГА, УГОЛ УЛ. ОПТИКОВ -> СТ. МЕТРО \"СТАРАЯ ДЕРЕВНЯ\"; route_name: Автобус 112        СТАНЦИЯ МЕТРО \"УДЕЛЬНАЯ\" - ЖК \"ЮНТОЛОВО\"",
       "route": "Автобус 112        СТАНЦИЯ МЕТРО \"УДЕЛЬНАЯ\" - ЖК \"ЮНТОЛОВО\"",
-      "duration": 2
+      "duration": 1
     },
     {
       "startStop": "СТ. МЕТРО \"СТАРАЯ ДЕРЕВНЯ\"",
@@ -865,13 +865,6 @@
       "name": "ГЛАДЫШЕВСКИЙ ПР., УГОЛ ЮНТОЛОВСКОГО ПР. -> ЖК \"ЮНТОЛОВО\"; route_name: Автобус 112        СТАНЦИЯ МЕТРО \"УДЕЛЬНАЯ\" - ЖК \"ЮНТОЛОВО\"",
       "route": "Автобус 112        СТАНЦИЯ МЕТРО \"УДЕЛЬНАЯ\" - ЖК \"ЮНТОЛОВО\"",
       "duration": 1
-    },
-    {
-      "startStop": "ЖК \"ЮНТОЛОВО\"",
-      "endStop": "ЖК \"ЮНТОЛОВО\"",
-      "name": "ЖК \"ЮНТОЛОВО\" -> ЖК \"ЮНТОЛОВО\"; route_name: Автобус 112        СТАНЦИЯ МЕТРО \"УДЕЛЬНАЯ\" - ЖК \"ЮНТОЛОВО\"",
-      "route": "Автобус 112        СТАНЦИЯ МЕТРО \"УДЕЛЬНАЯ\" - ЖК \"ЮНТОЛОВО\"",
-      "duration": 89
     },
     {
       "startStop": "ЖК \"ЮНТОЛОВО\"",
@@ -1253,123 +1246,123 @@
     },
     {
       "stopName": "СТ. МЕТРО \"СТАРАЯ ДЕРЕВНЯ\"",
-      "timePoint": "6:19"
+      "timePoint": "6:18"
     },
     {
       "stopName": "ЛИПОВАЯ АЛЛЕЯ, УГ. УЛ. САВУШКИНА",
-      "timePoint": "6:21"
+      "timePoint": "6:20"
     },
     {
       "stopName": "ГОРОХОВ ПЕР.",
-      "timePoint": "6:22"
+      "timePoint": "6:21"
     },
     {
       "stopName": "СТАРОДЕРЕВЕНСКАЯ УЛ.",
-      "timePoint": "6:23"
+      "timePoint": "6:22"
     },
     {
       "stopName": "УЛ. САВУШКИНА, 115",
-      "timePoint": "6:24"
+      "timePoint": "6:23"
     },
     {
       "stopName": "ГИПЕРМАРКЕТ \"ЛЕНТА\"",
-      "timePoint": "6:25"
+      "timePoint": "6:24"
     },
     {
       "stopName": "УЛ. САВУШКИНА УГ. ЯХТЕННОЙ УЛ.",
-      "timePoint": "6:27"
+      "timePoint": "6:26"
     },
     {
       "stopName": "ПРИМОРСКИЙ ПР.,139",
-      "timePoint": "6:28"
+      "timePoint": "6:27"
     },
     {
       "stopName": "ПРИМОРСКИЙ ПР.,147",
-      "timePoint": "6:29"
+      "timePoint": "6:28"
     },
     {
       "stopName": "ПАРК 300-ЛЕТИЯ САНКТ-ПЕТЕРБУРГА",
-      "timePoint": "6:30"
+      "timePoint": "6:29"
     },
     {
       "stopName": "СТ. МЕТРО \"БЕГОВАЯ\"",
-      "timePoint": "6:31"
+      "timePoint": "6:30"
     },
     {
       "stopName": "ШКОЛЬНАЯ УЛ.",
-      "timePoint": "6:32"
+      "timePoint": "6:31"
     },
     {
       "stopName": "ЛАХТА ЦЕНТР",
-      "timePoint": "6:34"
+      "timePoint": "6:33"
     },
     {
       "stopName": "Ж.-Д. СТАНЦИЯ ЛАХТА",
-      "timePoint": "6:37"
+      "timePoint": "6:36"
     },
     {
       "stopName": "ОЛЬГИНО, КЛЮЧЕВОЙ ПР.",
-      "timePoint": "6:38"
+      "timePoint": "6:37"
     },
     {
       "stopName": "Ж.-Д. ПЛАТФОРМА ОЛЬГИНО",
-      "timePoint": "6:40"
+      "timePoint": "6:39"
     },
     {
       "stopName": "КОННОЛАХТИНСКИЙ ПР.",
-      "timePoint": "6:41"
+      "timePoint": "6:40"
     },
     {
       "stopName": "УЛ. КОММУНАРОВ",
-      "timePoint": "6:43"
+      "timePoint": "6:42"
     },
     {
       "stopName": "ТУПИКОВАЯ УЛ.",
-      "timePoint": "6:44"
+      "timePoint": "6:43"
     },
     {
       "stopName": "1-Я КОННАЯ ЛАХТА",
-      "timePoint": "6:45"
+      "timePoint": "6:44"
     },
     {
       "stopName": "2-Я КОННАЯ ЛАХТА",
-      "timePoint": "6:46"
+      "timePoint": "6:45"
     },
     {
       "stopName": "КОЛЛЕКТИВНЫЙ САД ИМ. КЛИМОВА",
-      "timePoint": "6:48"
+      "timePoint": "6:47"
     },
     {
       "stopName": "3-Я КОННАЯ ЛАХТА, 40",
-      "timePoint": "6:49"
+      "timePoint": "6:48"
     },
     {
       "stopName": "КОЛЛЕКТИВНЫЙ САД \"СЕВЕРНЫЙ\" ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:50"
+      "timePoint": "6:49"
     },
     {
       "stopName": "МШИНСКИЙ ПЕР.",
-      "timePoint": "6:52"
+      "timePoint": "6:51"
     },
     {
       "stopName": "ИВИНСКАЯ УЛ.",
-      "timePoint": "6:55"
+      "timePoint": "6:54"
     },
     {
       "stopName": "ЮНТОЛОВСКИЙ ПР., УГОЛ ИВИНСКОЙ УЛ.",
-      "timePoint": "6:56"
+      "timePoint": "6:55"
     },
     {
       "stopName": "ЮНТОЛОВСКИЙ ПР., Д. 43",
-      "timePoint": "6:57"
+      "timePoint": "6:56"
     },
     {
       "stopName": "ГЛАДЫШЕВСКИЙ ПР., УГОЛ ЮНТОЛОВСКОГО ПР.",
-      "timePoint": "6:58"
+      "timePoint": "6:57"
     },
     {
       "stopName": "ЖК \"ЮНТОЛОВО\"",
-      "timePoint": "6:59"
+      "timePoint": "6:58"
     },
     {
       "stopName": "ЖК \"ЮНТОЛОВО\"",
@@ -1854,5 +1847,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:12:51.285269"
+  "timestamp": "2025-11-10T21:42:47.654819"
 }

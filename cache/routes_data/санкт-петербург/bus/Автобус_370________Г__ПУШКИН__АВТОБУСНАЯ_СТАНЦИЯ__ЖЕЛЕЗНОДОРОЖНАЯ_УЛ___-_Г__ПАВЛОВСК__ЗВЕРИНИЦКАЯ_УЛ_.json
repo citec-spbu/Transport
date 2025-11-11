@@ -412,13 +412,6 @@
     },
     {
       "startStop": "Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
-      "endStop": "Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
-      "name": "Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ. -> Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.; route_name: Автобус 370        Г. ПУШКИН, АВТОБУСНАЯ СТАНЦИЯ \"ЖЕЛЕЗНОДОРОЖНАЯ УЛ.\" - Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
-      "route": "Автобус 370        Г. ПУШКИН, АВТОБУСНАЯ СТАНЦИЯ \"ЖЕЛЕЗНОДОРОЖНАЯ УЛ.\" - Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
-      "duration": 0
-    },
-    {
-      "startStop": "Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
       "endStop": "2-Я КРАСНОФЛОТСКАЯ УЛ.",
       "name": "Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ. -> 2-Я КРАСНОФЛОТСКАЯ УЛ.; route_name: Автобус 370        Г. ПУШКИН, АВТОБУСНАЯ СТАНЦИЯ \"ЖЕЛЕЗНОДОРОЖНАЯ УЛ.\" - Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
       "route": "Автобус 370        Г. ПУШКИН, АВТОБУСНАЯ СТАНЦИЯ \"ЖЕЛЕЗНОДОРОЖНАЯ УЛ.\" - Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
@@ -568,183 +561,183 @@
   "timetable": [
     {
       "stopName": "Г. ПУШКИН, АС \"ЖЕЛЕЗНОДОРОЖНАЯ УЛ.\", ПОСАДКИ/ВЫСАДКИ НЕТ",
-      "timePoint": "05:55"
+      "timePoint": "05:25"
     },
     {
       "stopName": "Г. ПУШКИН, ЖЕЛЕЗНОДОРОЖНАЯ УЛ.",
-      "timePoint": "06:01"
+      "timePoint": "05:31"
     },
     {
       "stopName": "АХМАТОВСКАЯ УЛ., 15",
-      "timePoint": "06:03"
+      "timePoint": "05:33"
     },
     {
       "stopName": "ВОКЗАЛ",
-      "timePoint": "06:05"
+      "timePoint": "05:35"
     },
     {
       "stopName": "ОРАНЖЕРЕЙНАЯ УЛ. УГ. ЛЕНИНГРАДСКОЙ УЛ.",
-      "timePoint": "06:07"
+      "timePoint": "05:37"
     },
     {
       "stopName": "ОКТЯБРЬСКИЙ Б-Р",
-      "timePoint": "06:09"
+      "timePoint": "05:39"
     },
     {
       "stopName": "МОСКОВСКАЯ УЛ.",
-      "timePoint": "06:10"
+      "timePoint": "05:40"
     },
     {
       "stopName": "САДОВАЯ УЛ., ЕКАТЕРИНИНСКИЙ ДВОРЕЦ",
-      "timePoint": "06:12"
+      "timePoint": "05:42"
     },
     {
       "stopName": "ПАРКОВАЯ УЛ.",
-      "timePoint": "06:14"
+      "timePoint": "05:44"
     },
     {
       "stopName": "АРТИЛЛЕРИЙСКАЯ УЛ.",
-      "timePoint": "06:16"
+      "timePoint": "05:46"
     },
     {
       "stopName": "САПЕРНАЯ УЛ.",
-      "timePoint": "06:17"
+      "timePoint": "05:47"
     },
     {
       "stopName": "ПАВЛОВСКОЕ ШОССЕ, 67",
-      "timePoint": "06:19"
+      "timePoint": "05:49"
     },
     {
       "stopName": "ПАВЛОВСКОЕ ШОССЕ,93",
-      "timePoint": "06:20"
+      "timePoint": "05:50"
     },
     {
       "stopName": "Г. ПУШКИН, ГЛАВНАЯ УЛ.",
-      "timePoint": "06:21"
+      "timePoint": "05:51"
     },
     {
       "stopName": "Г. ПАВЛОВСК, ВОКЗАЛ",
-      "timePoint": "06:24"
+      "timePoint": "05:54"
     },
     {
       "stopName": "БЕРЕЗОВАЯ УЛ., УГ. ДЕТСКОСЕЛЬСКОЙ УЛ.",
-      "timePoint": "06:27"
+      "timePoint": "05:57"
     },
     {
       "stopName": "ГУММОЛОСАРОВСКАЯ УЛ.",
-      "timePoint": "06:28"
+      "timePoint": "05:58"
     },
     {
       "stopName": "ПЕСЧАНЫЙ ПЕР.",
-      "timePoint": "06:29"
+      "timePoint": "05:59"
     },
     {
       "stopName": "САДОВАЯ УЛ., УГ. ГОСПИТАЛЬНОЙ УЛ.",
-      "timePoint": "06:30"
+      "timePoint": "06:00"
     },
     {
       "stopName": "ДВОРЕЦ",
-      "timePoint": "06:32"
+      "timePoint": "06:02"
     },
     {
       "stopName": "ПЯТЬ УГЛОВ",
-      "timePoint": "06:33"
+      "timePoint": "06:03"
     },
     {
       "stopName": "2-Я КРАСНОФЛОТСКАЯ УЛ.",
-      "timePoint": "06:34"
+      "timePoint": "06:04"
     },
     {
       "stopName": "Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
-      "timePoint": "06:35"
+      "timePoint": "06:05"
     },
     {
       "stopName": "Г. ПАВЛОВСК, ЗВЕРИНИЦКАЯ УЛ.",
-      "timePoint": "06:35"
+      "timePoint": "06:05"
     },
     {
       "stopName": "2-Я КРАСНОФЛОТСКАЯ УЛ.",
-      "timePoint": "06:38"
+      "timePoint": "06:08"
     },
     {
       "stopName": "ПЯТЬ УГЛОВ",
-      "timePoint": "06:39"
+      "timePoint": "06:09"
     },
     {
       "stopName": "ДВОРЕЦ",
-      "timePoint": "06:40"
+      "timePoint": "06:10"
     },
     {
       "stopName": "КОНЮШЕННАЯ УЛ. УГ. САДОВОЙ УЛ.",
-      "timePoint": "06:42"
+      "timePoint": "06:12"
     },
     {
       "stopName": "МЕДВЕЖИЙ ПЕР.",
-      "timePoint": "06:43"
+      "timePoint": "06:13"
     },
     {
       "stopName": "БЕРЕЗОВАЯ УЛ., УГ. ДЕТСКОСЕЛЬСКОЙ УЛ.",
-      "timePoint": "06:44"
+      "timePoint": "06:14"
     },
     {
       "stopName": "Г. ПАВЛОВСК, ВОКЗАЛ",
-      "timePoint": "06:47"
+      "timePoint": "06:17"
     },
     {
       "stopName": "ПАВЛОВСКОЕ ШОССЕ, 56",
-      "timePoint": "06:51"
+      "timePoint": "06:21"
     },
     {
       "stopName": "ПАВЛОВСКОЕ ШОССЕ, 67",
-      "timePoint": "06:52"
+      "timePoint": "06:22"
     },
     {
       "stopName": "САПЕРНАЯ УЛ.",
-      "timePoint": "06:53"
+      "timePoint": "06:23"
     },
     {
       "stopName": "АРТИЛЛЕРИЙСКАЯ УЛ.",
-      "timePoint": "06:55"
+      "timePoint": "06:25"
     },
     {
       "stopName": "ПАРКОВАЯ УЛ.",
-      "timePoint": "06:57"
+      "timePoint": "06:27"
     },
     {
       "stopName": "КОНЮШЕННАЯ УЛ. УГ. САДОВОЙ УЛ.",
-      "timePoint": "06:58"
+      "timePoint": "06:28"
     },
     {
       "stopName": "ОРАНЖЕРЕЙНАЯ УЛ.,7",
-      "timePoint": "06:59"
+      "timePoint": "06:29"
     },
     {
       "stopName": "МОСКОВСКАЯ УЛ.",
-      "timePoint": "07:00"
+      "timePoint": "06:30"
     },
     {
       "stopName": "ОКТЯБРЬСКИЙ БУЛЬВАР",
-      "timePoint": "07:01"
+      "timePoint": "06:31"
     },
     {
       "stopName": "ОРАНЖЕРЕЙНАЯ УЛ. УГ. ЛЕНИНГРАДСКОЙ УЛ.",
-      "timePoint": "07:03"
+      "timePoint": "06:33"
     },
     {
       "stopName": "ВОКЗАЛ",
-      "timePoint": "07:06"
+      "timePoint": "06:36"
     },
     {
       "stopName": "АХМАТОВСКАЯ УЛ., 15",
-      "timePoint": "07:08"
+      "timePoint": "06:38"
     },
     {
       "stopName": "Г. ПУШКИН, ЖЕЛЕЗНОДОРОЖНАЯ УЛ.",
-      "timePoint": "07:10"
+      "timePoint": "06:40"
     },
     {
       "stopName": "Г. ПУШКИН, АС \"ЖЕЛЕЗНОДОРОЖНАЯ УЛ.\", ПОСАДКИ/ВЫСАДКИ НЕТ",
-      "timePoint": "07:11"
+      "timePoint": "06:41"
     }
   ],
   "coordinates": {
@@ -904,5 +897,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:54:44.344679"
+  "timestamp": "2025-11-10T21:57:13.849706"
 }

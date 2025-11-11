@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 285        АВТОБУСНАЯ СТАНЦИЯ \"РЕКА ОККЕРВИЛЬ\" - УТКИНА ЗАВОДЬ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "ТОВАРИЩЕСКИЙ ПР.": {
@@ -425,13 +425,6 @@
     },
     {
       "startStop": "УТКИНА ЗАВОДЬ",
-      "endStop": "УТКИНА ЗАВОДЬ",
-      "name": "УТКИНА ЗАВОДЬ -> УТКИНА ЗАВОДЬ; route_name: Автобус 285        АВТОБУСНАЯ СТАНЦИЯ \"РЕКА ОККЕРВИЛЬ\" - УТКИНА ЗАВОДЬ",
-      "route": "Автобус 285        АВТОБУСНАЯ СТАНЦИЯ \"РЕКА ОККЕРВИЛЬ\" - УТКИНА ЗАВОДЬ",
-      "duration": 42
-    },
-    {
-      "startStop": "УТКИНА ЗАВОДЬ",
       "endStop": "РУСАНОВСКАЯ УЛ., 17",
       "name": "УТКИНА ЗАВОДЬ -> РУСАНОВСКАЯ УЛ., 17; route_name: Автобус 285        АВТОБУСНАЯ СТАНЦИЯ \"РЕКА ОККЕРВИЛЬ\" - УТКИНА ЗАВОДЬ",
       "route": "Автобус 285        АВТОБУСНАЯ СТАНЦИЯ \"РЕКА ОККЕРВИЛЬ\" - УТКИНА ЗАВОДЬ",
@@ -581,87 +574,87 @@
   "timetable": [
     {
       "stopName": "РЕКА ОККЕРВИЛЬ",
-      "timePoint": "5:45"
+      "timePoint": "5:25"
     },
     {
       "stopName": "ТОВАРИЩЕСКИЙ ПР.",
-      "timePoint": "5:46"
+      "timePoint": "5:26"
     },
     {
       "stopName": "СТ. МЕТРО \"УЛИЦА ДЫБЕНКО\"",
-      "timePoint": "5:48"
+      "timePoint": "5:28"
     },
     {
       "stopName": "УЛ. ДЫБЕНКО, 22",
-      "timePoint": "5:49"
+      "timePoint": "5:29"
     },
     {
       "stopName": "УЛ. ДЫБЕНКО",
-      "timePoint": "5:51"
+      "timePoint": "5:31"
     },
     {
       "stopName": "УЛ. ШОТМАНА",
-      "timePoint": "5:52"
+      "timePoint": "5:32"
     },
     {
       "stopName": "УЛ. КРЫЛЕНКО",
-      "timePoint": "5:53"
+      "timePoint": "5:33"
     },
     {
       "stopName": "УЛ. ТЕЛЬМАНА, УГ. ИСКРОВСКОГО ПР.",
-      "timePoint": "5:55"
+      "timePoint": "5:35"
     },
     {
       "stopName": "УЛ. ТЕЛЬМАНА, 34",
-      "timePoint": "5:56"
+      "timePoint": "5:36"
     },
     {
       "stopName": "ДАЛЬНЕВОСТОЧНЫЙ ПР., УГ. УЛ. ТЕЛЬМАНА",
-      "timePoint": "5:57"
+      "timePoint": "5:37"
     },
     {
       "stopName": "УЛ. НОВОСЕЛОВ",
-      "timePoint": "5:59"
+      "timePoint": "5:39"
     },
     {
       "stopName": "НАРОДНАЯ УЛ., УГ. ДАЛЬНЕВОСТОЧНОГО ПР.",
-      "timePoint": "6:00"
+      "timePoint": "5:40"
     },
     {
       "stopName": "ПОЛИКЛИНИКА",
-      "timePoint": "6:01"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ДАЛЬНЕВОСТОЧНЫЙ ПР., УГ. ПР. БОЛЬШЕВИКОВ",
-      "timePoint": "6:02"
+      "timePoint": "5:42"
     },
     {
       "stopName": "ПР. БОЛЬШЕВИКОВ,77",
-      "timePoint": "6:03"
+      "timePoint": "5:43"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ НАБ.",
-      "timePoint": "6:04"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ОКТЯБРЬСКАЯ НАБ.,106",
-      "timePoint": "6:06"
+      "timePoint": "5:46"
     },
     {
       "stopName": "РУСАНОВСКАЯ УЛ.",
-      "timePoint": "6:09"
+      "timePoint": "5:49"
     },
     {
       "stopName": "РУСАНОВСКАЯ УЛ., 9",
-      "timePoint": "6:10"
+      "timePoint": "5:50"
     },
     {
       "stopName": "РУСАНОВСКАЯ УЛ., 17",
-      "timePoint": "6:11"
+      "timePoint": "5:51"
     },
     {
       "stopName": "УТКИНА ЗАВОДЬ",
-      "timePoint": "6:12"
+      "timePoint": "5:52"
     },
     {
       "stopName": "УТКИНА ЗАВОДЬ",
@@ -904,5 +897,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:51:23.576189"
+  "timestamp": "2025-11-10T21:53:16.012828"
 }

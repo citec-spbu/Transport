@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 287        А.С. \"ЗВЕЗДНАЯ УЛ.\" - А.С. \"ЗВЕЗДНАЯ УЛ.\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "ЗВЕЗДНАЯ УЛ.": {
@@ -535,5 +535,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:51:28.855685"
+  "timestamp": "2025-11-10T21:53:22.184541"
 }

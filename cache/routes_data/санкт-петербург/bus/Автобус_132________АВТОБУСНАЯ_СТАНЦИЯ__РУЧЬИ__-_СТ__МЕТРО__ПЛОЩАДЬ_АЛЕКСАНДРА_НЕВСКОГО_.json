@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 132        АВТОБУСНАЯ СТАНЦИЯ \"РУЧЬИ\" - СТ. МЕТРО \"ПЛОЩАДЬ АЛЕКСАНДРА НЕВСКОГО\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "Ж.-Д. СТАНЦИЯ РУЧЬИ,": {
@@ -16,8 +16,8 @@
       "routeList": [
         "Автобус 132        АВТОБУСНАЯ СТАНЦИЯ \"РУЧЬИ\" - СТ. МЕТРО \"ПЛОЩАДЬ АЛЕКСАНДРА НЕВСКОГО\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "УЛ. РУСТАВЕЛИ УГ. ПР. НАУКИ": {
@@ -505,13 +505,6 @@
     },
     {
       "startStop": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ.",
-      "endStop": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ.",
-      "name": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ. -> ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ.; route_name: Автобус 132        АВТОБУСНАЯ СТАНЦИЯ \"РУЧЬИ\" - СТ. МЕТРО \"ПЛОЩАДЬ АЛЕКСАНДРА НЕВСКОГО\"",
-      "route": "Автобус 132        АВТОБУСНАЯ СТАНЦИЯ \"РУЧЬИ\" - СТ. МЕТРО \"ПЛОЩАДЬ АЛЕКСАНДРА НЕВСКОГО\"",
-      "duration": 28
-    },
-    {
-      "startStop": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ.",
       "endStop": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
       "name": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ. -> СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"; route_name: Автобус 132        АВТОБУСНАЯ СТАНЦИЯ \"РУЧЬИ\" - СТ. МЕТРО \"ПЛОЩАДЬ АЛЕКСАНДРА НЕВСКОГО\"",
       "route": "Автобус 132        АВТОБУСНАЯ СТАНЦИЯ \"РУЧЬИ\" - СТ. МЕТРО \"ПЛОЩАДЬ АЛЕКСАНДРА НЕВСКОГО\"",
@@ -675,203 +668,203 @@
   "timetable": [
     {
       "stopName": "А.С. \"РУЧЬИ\"",
-      "timePoint": "5:50"
+      "timePoint": "5:25"
     },
     {
       "stopName": "Ж.-Д. СТАНЦИЯ РУЧЬИ,",
-      "timePoint": "5:56"
+      "timePoint": "5:31"
     },
     {
       "stopName": "УЛ. РУСТАВЕЛИ УГ. ПР. НАУКИ",
-      "timePoint": "5:57"
+      "timePoint": "5:32"
     },
     {
       "stopName": "УЛ. ВЕРНОСТИ",
-      "timePoint": "5:59"
+      "timePoint": "5:34"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР., 56",
-      "timePoint": "6:01"
+      "timePoint": "5:36"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР., 50",
-      "timePoint": "6:03"
+      "timePoint": "5:38"
     },
     {
       "stopName": "Ж.-Д. СТ. ПИСКАРЁВКА",
-      "timePoint": "6:05"
+      "timePoint": "5:40"
     },
     {
       "stopName": "БЕСТУЖЕВСКАЯ УЛ.",
-      "timePoint": "6:07"
+      "timePoint": "5:42"
     },
     {
       "stopName": "ПР. МАРШАЛА БЛЮХЕРА",
-      "timePoint": "6:09"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ, УГОЛ ПИСКАРЁВСКОГО ПР.",
-      "timePoint": "6:12"
+      "timePoint": "5:47"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ, УГОЛ АПРЕЛЬСКОЙ УЛ.",
-      "timePoint": "6:14"
+      "timePoint": "5:49"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ",
-      "timePoint": "6:16"
+      "timePoint": "5:51"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ, УГОЛ БОЛЬШОЙ ПОРОХОВСКОЙ УЛ.",
-      "timePoint": "6:18"
+      "timePoint": "5:53"
     },
     {
       "stopName": "УЛ. ДЕГТЯРЕВА",
-      "timePoint": "6:20"
+      "timePoint": "5:55"
     },
     {
       "stopName": "ШЕПЕТОВСКАЯ УЛ.",
-      "timePoint": "6:21"
+      "timePoint": "5:56"
     },
     {
       "stopName": "ЯКОРНАЯ УЛ.",
-      "timePoint": "6:22"
+      "timePoint": "5:57"
     },
     {
       "stopName": "КРАСНОГВАРДЕЙСКАЯ ПЛ.",
-      "timePoint": "6:23"
+      "timePoint": "5:58"
     },
     {
       "stopName": "НОВОЧЕРКАССКИЙ ПР.",
-      "timePoint": "6:24"
+      "timePoint": "5:59"
     },
     {
       "stopName": "УЛ. ПОМЯЛОВСКОГО",
-      "timePoint": "6:26"
+      "timePoint": "6:01"
     },
     {
       "stopName": "РЕСПУБЛИКАНСКАЯ УЛ.",
-      "timePoint": "6:27"
+      "timePoint": "6:02"
     },
     {
       "stopName": "ЗАНЕВСКАЯ ПЛ.",
-      "timePoint": "6:28"
+      "timePoint": "6:03"
     },
     {
       "stopName": "СТ. МЕТРО \"НОВОЧЕРКАССКАЯ\"",
-      "timePoint": "6:29"
+      "timePoint": "6:04"
     },
     {
       "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
-      "timePoint": "6:34"
-    },
-    {
-      "stopName": "ИСПОЛКОМСКАЯ УЛ.",
-      "timePoint": "6:35"
-    },
-    {
-      "stopName": "КОННАЯ УЛ.",
-      "timePoint": "6:36"
-    },
-    {
-      "stopName": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ.",
-      "timePoint": "6:37"
-    },
-    {
-      "stopName": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ.",
       "timePoint": "6:09"
     },
     {
-      "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
+      "stopName": "ИСПОЛКОМСКАЯ УЛ.",
+      "timePoint": "6:10"
+    },
+    {
+      "stopName": "КОННАЯ УЛ.",
       "timePoint": "6:11"
     },
     {
+      "stopName": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ.",
+      "timePoint": "6:12"
+    },
+    {
+      "stopName": "ХЕРСОНСКАЯ УЛ., УГ. ИСПОЛКОМСКОЙ УЛ.",
+      "timePoint": "5:30"
+    },
+    {
+      "stopName": "СТ. МЕТРО \"ПЛОЩАДЬ АЛ. НЕВСКОГО\"",
+      "timePoint": "5:32"
+    },
+    {
       "stopName": "УЛ. СТАХАНОВЦЕВ",
-      "timePoint": "6:15"
+      "timePoint": "5:36"
     },
     {
       "stopName": "СТ. МЕТРО \"НОВОЧЕРКАССКАЯ\"",
-      "timePoint": "6:16"
+      "timePoint": "5:37"
     },
     {
       "stopName": "РЕСПУБЛИКАНСКАЯ УЛ.",
-      "timePoint": "6:18"
+      "timePoint": "5:39"
     },
     {
       "stopName": "УЛ. ПОМЯЛОВСКОГО",
-      "timePoint": "6:19"
+      "timePoint": "5:40"
     },
     {
       "stopName": "КРАСНОГВАРДЕЙСКАЯ ПЛ.",
-      "timePoint": "6:21"
+      "timePoint": "5:42"
     },
     {
       "stopName": "ЯКОРНАЯ УЛ.",
-      "timePoint": "6:22"
+      "timePoint": "5:43"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ",
-      "timePoint": "6:23"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ШЕПЕТОВСКАЯ УЛ.",
-      "timePoint": "6:24"
+      "timePoint": "5:45"
     },
     {
       "stopName": "УЛ. ДЕГТЯРЕВА",
-      "timePoint": "6:25"
+      "timePoint": "5:46"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ, УГОЛ БОЛЬШОЙ ПОРОХОВСКОЙ УЛ.",
-      "timePoint": "6:27"
+      "timePoint": "5:48"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ, УГОЛ ШОССЕ РЕВОЛЮЦИИ",
-      "timePoint": "6:29"
+      "timePoint": "5:50"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ, УГОЛ АПРЕЛЬСКОЙ УЛ.",
-      "timePoint": "6:31"
+      "timePoint": "5:52"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР., УГОЛ ПР. МЕТАЛЛИСТОВ",
-      "timePoint": "6:33"
+      "timePoint": "5:54"
     },
     {
       "stopName": "УЛ. МАРШАЛА ТУХАЧЕВСКОГО",
-      "timePoint": "6:35"
+      "timePoint": "5:56"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР. УГ. ПР. М. БЛЮХЕРА",
-      "timePoint": "6:36"
+      "timePoint": "5:57"
     },
     {
       "stopName": "БЕСТУЖЕВСКАЯ УЛ.",
-      "timePoint": "6:37"
+      "timePoint": "5:58"
     },
     {
       "stopName": "Ж.-Д. СТ. ПИСКАРЁВКА",
-      "timePoint": "6:39"
+      "timePoint": "6:00"
     },
     {
       "stopName": "ПР. НЕПОКОРЁННЫХ",
-      "timePoint": "6:41"
+      "timePoint": "6:02"
     },
     {
       "stopName": "УЛ. ВЕРНОСТИ",
-      "timePoint": "6:43"
+      "timePoint": "6:04"
     },
     {
       "stopName": "УЛ. РУСТАВЕЛИ УГ. ПР. НАУКИ",
-      "timePoint": "6:45"
+      "timePoint": "6:06"
     },
     {
       "stopName": "Ж.-Д. СТАНЦИЯ РУЧЬИ,",
-      "timePoint": "6:46"
+      "timePoint": "6:07"
     },
     {
       "stopName": "А.С. \"РУЧЬИ\"",
-      "timePoint": "6:47"
+      "timePoint": "6:08"
     }
   ],
   "coordinates": {
@@ -1046,5 +1039,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:13:45.564373"
+  "timestamp": "2025-11-10T21:44:06.723252"
 }

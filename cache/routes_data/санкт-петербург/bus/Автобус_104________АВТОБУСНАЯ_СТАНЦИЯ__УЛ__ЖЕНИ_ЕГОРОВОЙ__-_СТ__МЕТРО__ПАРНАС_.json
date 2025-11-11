@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 104        АВТОБУСНАЯ СТАНЦИЯ \"УЛ. ЖЕНИ ЕГОРОВОЙ\" - СТ. МЕТРО \"ПАРНАС\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "УЛ. ЖЕНИ ЕГОРОВОЙ": {
@@ -1077,5 +1077,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:12:25.719694"
+  "timestamp": "2025-11-10T21:42:16.279938"
 }

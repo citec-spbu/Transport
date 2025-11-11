@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 59        ЗВЕЗДНАЯ УЛ. - СТАНЦИЯ МЕТРО \"БУХАРЕСТСКАЯ\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "ЗВЕЗДНАЯ УЛ.": {
@@ -353,13 +353,6 @@
     },
     {
       "startStop": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\"",
-      "endStop": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\"",
-      "name": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\" -> СТ. МЕТРО \"БУХАРЕСТСКАЯ\"; route_name: Автобус 59        ЗВЕЗДНАЯ УЛ. - СТАНЦИЯ МЕТРО \"БУХАРЕСТСКАЯ\"",
-      "route": "Автобус 59        ЗВЕЗДНАЯ УЛ. - СТАНЦИЯ МЕТРО \"БУХАРЕСТСКАЯ\"",
-      "duration": 38
-    },
-    {
-      "startStop": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\"",
       "endStop": "УНИВЕРСИТЕТ ПРОФСОЮЗОВ",
       "name": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\" -> УНИВЕРСИТЕТ ПРОФСОЮЗОВ; route_name: Автобус 59        ЗВЕЗДНАЯ УЛ. - СТАНЦИЯ МЕТРО \"БУХАРЕСТСКАЯ\"",
       "route": "Автобус 59        ЗВЕЗДНАЯ УЛ. - СТАНЦИЯ МЕТРО \"БУХАРЕСТСКАЯ\"",
@@ -509,175 +502,175 @@
   "timetable": [
     {
       "stopName": "А.С. \"ЗВЁЗДНАЯ УЛ.\",",
-      "timePoint": "05:55"
+      "timePoint": "05:25"
     },
     {
       "stopName": "ЗВЕЗДНАЯ УЛ.",
-      "timePoint": "06:01"
+      "timePoint": "05:31"
     },
     {
       "stopName": "ПР. КОСМОНАВТОВ",
-      "timePoint": "06:02"
+      "timePoint": "05:32"
     },
     {
       "stopName": "СТ. МЕТРО \"ЗВЕЗДНАЯ\"",
-      "timePoint": "06:04"
+      "timePoint": "05:34"
     },
     {
       "stopName": "УЛ. ЛЕНСОВЕТА,87",
-      "timePoint": "06:05"
+      "timePoint": "05:35"
     },
     {
       "stopName": "ПР. ЮРИЯ ГАГАРИНА",
-      "timePoint": "06:08"
+      "timePoint": "05:38"
     },
     {
       "stopName": "ПЛ. ПОБЕДЫ",
-      "timePoint": "06:11"
+      "timePoint": "05:41"
     },
     {
       "stopName": "СТ. МЕТРО \"МОСКОВСКАЯ\"",
-      "timePoint": "06:13"
+      "timePoint": "05:43"
     },
     {
       "stopName": "МОСКОВСКАЯ ПЛ., СТ. МЕТРО \"МОСКОВСКАЯ\"",
-      "timePoint": "06:15"
+      "timePoint": "05:45"
     },
     {
       "stopName": "УЛ. ЛЕНСОВЕТА",
-      "timePoint": "06:17"
+      "timePoint": "05:47"
     },
     {
       "stopName": "УЛ. ТИПАНОВА, УГОЛ ПР. ЮРИЯ ГАГАРИНА",
-      "timePoint": "06:18"
+      "timePoint": "05:48"
     },
     {
       "stopName": "ПР. КОСМОНАВТОВ",
-      "timePoint": "06:20"
+      "timePoint": "05:50"
     },
     {
       "stopName": "БЕЛГРАДСКАЯ УЛ.",
-      "timePoint": "06:23"
+      "timePoint": "05:53"
     },
     {
       "stopName": "БУДАПЕШТСКАЯ УЛ., УГОЛ ПР. СЛАВЫ",
-      "timePoint": "06:25"
+      "timePoint": "05:55"
     },
     {
       "stopName": "БУДАПЕШТСКАЯ УЛ., 33",
-      "timePoint": "06:27"
+      "timePoint": "05:57"
     },
     {
       "stopName": "БУДАПЕШТСКАЯ УЛ., 19",
-      "timePoint": "06:29"
+      "timePoint": "05:59"
     },
     {
       "stopName": "УЛ. ТУРКУ",
-      "timePoint": "06:30"
-    },
-    {
-      "stopName": "БУДАПЕШТСКАЯ УЛ. 5",
-      "timePoint": "06:32"
-    },
-    {
-      "stopName": "ИНСТИТУТ СКОРОЙ ПОМОЩИ",
-      "timePoint": "06:34"
-    },
-    {
-      "stopName": "УНИВЕРСИТЕТ ПРОФСОЮЗОВ",
-      "timePoint": "06:36"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\"",
-      "timePoint": "06:38"
-    },
-    {
-      "stopName": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\"",
       "timePoint": "06:00"
     },
     {
-      "stopName": "УНИВЕРСИТЕТ ПРОФСОЮЗОВ",
-      "timePoint": "06:04"
+      "stopName": "БУДАПЕШТСКАЯ УЛ. 5",
+      "timePoint": "06:02"
     },
     {
       "stopName": "ИНСТИТУТ СКОРОЙ ПОМОЩИ",
+      "timePoint": "06:04"
+    },
+    {
+      "stopName": "УНИВЕРСИТЕТ ПРОФСОЮЗОВ",
       "timePoint": "06:06"
     },
     {
-      "stopName": "БУДАПЕШТСКАЯ УЛ. 5",
+      "stopName": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\"",
       "timePoint": "06:08"
     },
     {
+      "stopName": "СТ. МЕТРО \"БУХАРЕСТСКАЯ\"",
+      "timePoint": "05:50"
+    },
+    {
+      "stopName": "УНИВЕРСИТЕТ ПРОФСОЮЗОВ",
+      "timePoint": "05:54"
+    },
+    {
+      "stopName": "ИНСТИТУТ СКОРОЙ ПОМОЩИ",
+      "timePoint": "05:56"
+    },
+    {
+      "stopName": "БУДАПЕШТСКАЯ УЛ. 5",
+      "timePoint": "05:58"
+    },
+    {
       "stopName": "УЛ. ТУРКУ",
-      "timePoint": "06:10"
+      "timePoint": "06:00"
     },
     {
       "stopName": "БУДАПЕШТСКАЯ УЛ., 19",
-      "timePoint": "06:11"
+      "timePoint": "06:01"
     },
     {
       "stopName": "БУДАПЕШТСКАЯ УЛ., 33",
-      "timePoint": "06:13"
+      "timePoint": "06:03"
     },
     {
       "stopName": "ПР. СЛАВЫ, УГОЛ БУДАПЕШТСКОЙ УЛ.",
-      "timePoint": "06:15"
+      "timePoint": "06:05"
     },
     {
       "stopName": "БЕЛГРАДСКАЯ УЛ.",
-      "timePoint": "06:17"
+      "timePoint": "06:07"
     },
     {
       "stopName": "ПР. КОСМОНАВТОВ",
-      "timePoint": "06:20"
+      "timePoint": "06:10"
     },
     {
       "stopName": "УЛ. ТИПАНОВА, УГОЛ ПР. ЮРИЯ ГАГАРИНА",
-      "timePoint": "06:22"
+      "timePoint": "06:12"
     },
     {
       "stopName": "УЛ. ЛЕНСОВЕТА",
-      "timePoint": "06:23"
+      "timePoint": "06:13"
     },
     {
       "stopName": "МОСКОВСКАЯ ПЛ., СТ. МЕТРО \"МОСКОВСКАЯ\"",
-      "timePoint": "06:26"
+      "timePoint": "06:16"
     },
     {
       "stopName": "СТ. МЕТРО \"МОСКОВСКАЯ\"",
-      "timePoint": "06:28"
+      "timePoint": "06:18"
     },
     {
       "stopName": "ПЛ. ПОБЕДЫ",
-      "timePoint": "06:30"
+      "timePoint": "06:20"
     },
     {
       "stopName": "МОСКОВСКОЕ ШОССЕ, Д.2",
-      "timePoint": "06:31"
+      "timePoint": "06:21"
     },
     {
       "stopName": "ПР. ЮРИЯ ГАГАРИНА",
-      "timePoint": "06:33"
+      "timePoint": "06:23"
     },
     {
       "stopName": "УЛ. ЛЕНСОВЕТА,87",
-      "timePoint": "06:35"
+      "timePoint": "06:25"
     },
     {
       "stopName": "СТ. МЕТРО \"ЗВЕЗДНАЯ\"",
-      "timePoint": "06:36"
+      "timePoint": "06:26"
     },
     {
       "stopName": "ПР. КОСМОНАВТОВ",
-      "timePoint": "06:38"
+      "timePoint": "06:28"
     },
     {
       "stopName": "ЗВЕЗДНАЯ УЛ.",
-      "timePoint": "06:39"
+      "timePoint": "06:29"
     },
     {
       "stopName": "А.С. \"ЗВЁЗДНАЯ УЛ.\",",
-      "timePoint": "06:40"
+      "timePoint": "06:30"
     }
   ],
   "coordinates": {
@@ -792,5 +785,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:10:19.363753"
+  "timestamp": "2025-11-10T21:39:28.736842"
 }

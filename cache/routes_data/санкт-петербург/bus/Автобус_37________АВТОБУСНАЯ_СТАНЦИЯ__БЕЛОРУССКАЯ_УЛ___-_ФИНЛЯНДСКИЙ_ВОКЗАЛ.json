@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ"
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "БЕЛОРУССКАЯ УЛ.": {
@@ -554,7 +554,7 @@
       "endStop": "ПИСКАРЁВСКИЙ ПР., УГ. Ш. РЕВОЛЮЦИИ",
       "name": "АДМИНИСТРАЦИЯ КРАСНОГВАРДЕЙСКОГО РАЙОНА -> ПИСКАРЁВСКИЙ ПР., УГ. Ш. РЕВОЛЮЦИИ; route_name: Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ",
       "route": "Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ",
-      "duration": 1
+      "duration": 2
     },
     {
       "startStop": "ПИСКАРЁВСКИЙ ПР., УГ. Ш. РЕВОЛЮЦИИ",
@@ -639,13 +639,6 @@
       "name": "АРСЕНАЛЬНАЯ УЛ. -> ФИНЛЯНДСКИЙ ВОКЗАЛ; route_name: Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ",
       "route": "Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ",
       "duration": 4
-    },
-    {
-      "startStop": "ФИНЛЯНДСКИЙ ВОКЗАЛ",
-      "endStop": "ФИНЛЯНДСКИЙ ВОКЗАЛ",
-      "name": "ФИНЛЯНДСКИЙ ВОКЗАЛ -> ФИНЛЯНДСКИЙ ВОКЗАЛ; route_name: Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ",
-      "route": "Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ",
-      "duration": 35
     },
     {
       "startStop": "ФИНЛЯНДСКИЙ ВОКЗАЛ",
@@ -785,7 +778,7 @@
       "endStop": "ШОССЕ РЕВОЛЮЦИИ,88",
       "name": "УМАНСКИЙ ПЕР. -> ШОССЕ РЕВОЛЮЦИИ,88; route_name: Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ",
       "route": "Автобус 37        АВТОБУСНАЯ СТАНЦИЯ \"БЕЛОРУССКАЯ УЛ.\" - ФИНЛЯНДСКИЙ ВОКЗАЛ",
-      "duration": 2
+      "duration": 3
     },
     {
       "startStop": "ШОССЕ РЕВОЛЮЦИИ,88",
@@ -875,271 +868,271 @@
   "timetable": [
     {
       "stopName": "А.С. \"БЕЛОРУССКАЯ УЛ.\"",
-      "timePoint": "5:50"
+      "timePoint": "5:10"
     },
     {
       "stopName": "БЕЛОРУССКАЯ УЛ.",
-      "timePoint": "5:56"
+      "timePoint": "5:16"
     },
     {
       "stopName": "УЛ. КОММУНЫ, УГ. ЛЕНСКОЙ УЛ.",
-      "timePoint": "5:57"
+      "timePoint": "5:17"
     },
     {
       "stopName": "ПР. КОСЫГИНА",
-      "timePoint": "6:00"
+      "timePoint": "5:20"
     },
     {
       "stopName": "УЛ. КОММУНЫ, Д. 26",
-      "timePoint": "6:01"
+      "timePoint": "5:21"
     },
     {
       "stopName": "ПОЛИКЛИНИКА № 107",
-      "timePoint": "6:02"
+      "timePoint": "5:22"
     },
     {
       "stopName": "ПР. ЭНТУЗИАСТОВ",
-      "timePoint": "6:03"
+      "timePoint": "5:23"
     },
     {
       "stopName": "ПР. УДАРНИКОВ",
-      "timePoint": "6:04"
+      "timePoint": "5:24"
     },
     {
       "stopName": "РЯБОВСКОЕ ШОССЕ",
-      "timePoint": "6:06"
+      "timePoint": "5:26"
     },
     {
       "stopName": "УЛ. КОММУНЫ, УГ. ИРИНОВСКОГО ПР.",
-      "timePoint": "6:07"
+      "timePoint": "5:27"
     },
     {
       "stopName": "2-Я ЖЕРНОВСКАЯ УЛ.",
-      "timePoint": "6:08"
+      "timePoint": "5:28"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ",
-      "timePoint": "6:09"
+      "timePoint": "5:29"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ,116",
-      "timePoint": "6:11"
+      "timePoint": "5:31"
     },
     {
       "stopName": "БОЛЬШОЙ ИЛЬИНСКИЙ САД",
-      "timePoint": "6:13"
+      "timePoint": "5:33"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ,88",
-      "timePoint": "6:14"
+      "timePoint": "5:34"
     },
     {
       "stopName": "ИНДУСТРИАЛЬНЫЙ ПР.",
-      "timePoint": "6:15"
+      "timePoint": "5:35"
     },
     {
       "stopName": "УМАНСКИЙ ПЕР.",
-      "timePoint": "6:17"
+      "timePoint": "5:37"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ",
-      "timePoint": "6:20"
+      "timePoint": "5:40"
     },
     {
       "stopName": "УЛ. МАРШАЛА ТУХАЧЕВСКОГО",
-      "timePoint": "6:21"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ПР. МЕТАЛЛИСТОВ",
-      "timePoint": "6:23"
+      "timePoint": "5:43"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ КРАСНОГВАРДЕЙСКОГО РАЙОНА",
-      "timePoint": "6:24"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ПИСКАРЁВСКИЙ ПР., УГ. Ш. РЕВОЛЮЦИИ",
-      "timePoint": "6:25"
+      "timePoint": "5:46"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР.",
-      "timePoint": "6:27"
+      "timePoint": "5:48"
     },
     {
       "stopName": "ФЕОДОСИЙСКАЯ УЛ.",
-      "timePoint": "6:29"
+      "timePoint": "5:50"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., УГОЛ ЗАМШИНОЙ УЛ.",
-      "timePoint": "6:31"
+      "timePoint": "5:52"
     },
     {
       "stopName": "ПЛ. КАЛИНИНА",
-      "timePoint": "6:33"
+      "timePoint": "5:54"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., Д. 59, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:34"
+      "timePoint": "5:55"
     },
     {
       "stopName": "ЧУГУННАЯ УЛ.",
-      "timePoint": "6:35"
+      "timePoint": "5:56"
     },
     {
       "stopName": "БОЛЬНИЦА СВЯТИТЕЛЯ ЛУКИ",
-      "timePoint": "6:36"
+      "timePoint": "5:57"
     },
     {
       "stopName": "ТРОЛЛЕЙБУСНЫЙ ПАРК № 2",
-      "timePoint": "6:38"
+      "timePoint": "5:59"
     },
     {
       "stopName": "МИНЕРАЛЬНАЯ УЛ.",
-      "timePoint": "6:39"
+      "timePoint": "6:00"
     },
     {
       "stopName": "АСФАЛЬТОБЕТОННЫЙ ЗАВОД, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:41"
+      "timePoint": "6:02"
     },
     {
       "stopName": "АРСЕНАЛЬНАЯ УЛ.",
-      "timePoint": "6:43"
+      "timePoint": "6:04"
     },
     {
       "stopName": "ФИНЛЯНДСКИЙ ВОКЗАЛ",
-      "timePoint": "6:47"
+      "timePoint": "6:08"
     },
     {
       "stopName": "ФИНЛЯНДСКИЙ ВОКЗАЛ",
-      "timePoint": "6:12"
+      "timePoint": "6:08"
     },
     {
       "stopName": "УЛ. МИХАЙЛОВА",
-      "timePoint": "6:14"
+      "timePoint": "6:10"
     },
     {
       "stopName": "АРСЕНАЛЬНАЯ УЛ.",
-      "timePoint": "6:16"
+      "timePoint": "6:12"
     },
     {
       "stopName": "КОНДРАТЬЕВСКИЙ ПР., ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:17"
+      "timePoint": "6:13"
     },
     {
       "stopName": "АСФАЛЬТОБЕТОННЫЙ ЗАВОД, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:18"
+      "timePoint": "6:14"
     },
     {
       "stopName": "МИНЕРАЛЬНАЯ УЛ.",
-      "timePoint": "6:20"
+      "timePoint": "6:16"
     },
     {
       "stopName": "ТРОЛЛЕЙБУСНЫЙ ПАРК № 2",
-      "timePoint": "6:21"
+      "timePoint": "6:17"
     },
     {
       "stopName": "БОЛЬНИЦА СВЯТИТЕЛЯ ЛУКИ",
-      "timePoint": "6:23"
+      "timePoint": "6:19"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., УГОЛ ЧУГУННОЙ УЛ.",
-      "timePoint": "6:25"
+      "timePoint": "6:21"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., Д. 59, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:27"
+      "timePoint": "6:23"
     },
     {
       "stopName": "ПЛ. КАЛИНИНА",
-      "timePoint": "6:28"
+      "timePoint": "6:24"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., УГОЛ ЗАМШИНОЙ УЛ.",
-      "timePoint": "6:31"
+      "timePoint": "6:27"
     },
     {
       "stopName": "ФЕОДОСИЙСКАЯ УЛ.",
-      "timePoint": "6:32"
+      "timePoint": "6:28"
     },
     {
       "stopName": "ПОЛЮСТРОВСКИЙ ПР., УГ. ПИСКАРЁВСКОГО ПР.",
-      "timePoint": "6:34"
+      "timePoint": "6:30"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ, 3",
-      "timePoint": "6:36"
+      "timePoint": "6:32"
     },
     {
       "stopName": "АДМИНИСТРАЦИЯ КРАСНОГВАРДЕЙСКОГО РАЙОНА",
-      "timePoint": "6:38"
+      "timePoint": "6:34"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ, УГОЛ ПР. МЕТАЛЛИСТОВ",
-      "timePoint": "6:39"
+      "timePoint": "6:35"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ, УГОЛ УЛ. МАРШАЛА ТУХАЧЕВСКОГО",
-      "timePoint": "6:41"
+      "timePoint": "6:37"
     },
     {
       "stopName": "ПР. ЭНЕРГЕТИКОВ",
-      "timePoint": "6:43"
+      "timePoint": "6:39"
     },
     {
       "stopName": "УМАНСКИЙ ПЕР.",
-      "timePoint": "6:45"
+      "timePoint": "6:41"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ,88",
-      "timePoint": "6:47"
+      "timePoint": "6:44"
     },
     {
       "stopName": "БОЛЬШОЙ ИЛЬИНСКИЙ САД",
-      "timePoint": "6:48"
+      "timePoint": "6:45"
     },
     {
       "stopName": "ШОССЕ РЕВОЛЮЦИИ,116",
-      "timePoint": "6:50"
+      "timePoint": "6:47"
     },
     {
       "stopName": "УЛ. КОММУНЫ УГ. ШОССЕ РЕВОЛЮЦИИ",
-      "timePoint": "6:52"
+      "timePoint": "6:49"
     },
     {
       "stopName": "2-Я ЖЕРНОВСКАЯ УЛ.",
-      "timePoint": "6:53"
+      "timePoint": "6:50"
     },
     {
       "stopName": "ИРИНОВСКИЙ ПР., УГ. УЛ. КОММУНЫ",
-      "timePoint": "6:54"
+      "timePoint": "6:51"
     },
     {
       "stopName": "ПР. УДАРНИКОВ",
-      "timePoint": "6:56"
+      "timePoint": "6:53"
     },
     {
       "stopName": "ПР. ЭНТУЗИАСТОВ",
-      "timePoint": "6:57"
+      "timePoint": "6:54"
     },
     {
       "stopName": "ПОЛИКЛИНИКА № 107",
-      "timePoint": "6:58"
+      "timePoint": "6:55"
     },
     {
       "stopName": "УЛ. КОММУНЫ, Д. 26",
-      "timePoint": "6:59"
+      "timePoint": "6:56"
     },
     {
       "stopName": "ПР. КОСЫГИНА",
-      "timePoint": "7:00"
+      "timePoint": "6:57"
     },
     {
       "stopName": "ЛЕНСКАЯ УЛ. УГ. БЕЛОРУССКОЙ УЛ.",
-      "timePoint": "7:03"
+      "timePoint": "7:00"
     },
     {
       "stopName": "А.С. \"БЕЛОРУССКАЯ УЛ.\"",
-      "timePoint": "7:04"
+      "timePoint": "7:01"
     }
   ],
   "coordinates": {
@@ -1364,5 +1357,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:09:25.138133"
+  "timestamp": "2025-11-10T21:38:18.855435"
 }

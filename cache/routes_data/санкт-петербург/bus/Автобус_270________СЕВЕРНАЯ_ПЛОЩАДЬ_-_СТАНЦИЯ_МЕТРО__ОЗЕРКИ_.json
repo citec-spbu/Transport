@@ -7,8 +7,8 @@
       "routeList": [
         "Автобус 270        СЕВЕРНАЯ ПЛОЩАДЬ - СТАНЦИЯ МЕТРО \"ОЗЕРКИ\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "СЕВЕРНАЯ ПЛ.": {
@@ -16,8 +16,8 @@
       "routeList": [
         "Автобус 270        СЕВЕРНАЯ ПЛОЩАДЬ - СТАНЦИЯ МЕТРО \"ОЗЕРКИ\""
       ],
-      "xCoordinate": 60.0,
-      "yCoordinate": 30.0,
+      "xCoordinate": 30.3351,
+      "yCoordinate": 59.9343,
       "isCoordinateApproximate": true
     },
     "ГРАЖДАНСКИЙ ПР. УГ. СЕВЕРНОГО ПР.": {
@@ -216,7 +216,7 @@
       "endStop": "СЕВЕРНАЯ ПЛ.",
       "name": "Д.С. \"СЕВЕРНАЯ ПЛ.\", -> СЕВЕРНАЯ ПЛ.; route_name: Автобус 270        СЕВЕРНАЯ ПЛОЩАДЬ - СТАНЦИЯ МЕТРО \"ОЗЕРКИ\"",
       "route": "Автобус 270        СЕВЕРНАЯ ПЛОЩАДЬ - СТАНЦИЯ МЕТРО \"ОЗЕРКИ\"",
-      "duration": 9
+      "duration": 6
     },
     {
       "startStop": "СЕВЕРНАЯ ПЛ.",
@@ -301,13 +301,6 @@
       "name": "ПР. ЭНГЕЛЬСА -> СТ. МЕТРО \"ОЗЕРКИ\"; route_name: Автобус 270        СЕВЕРНАЯ ПЛОЩАДЬ - СТАНЦИЯ МЕТРО \"ОЗЕРКИ\"",
       "route": "Автобус 270        СЕВЕРНАЯ ПЛОЩАДЬ - СТАНЦИЯ МЕТРО \"ОЗЕРКИ\"",
       "duration": 1
-    },
-    {
-      "startStop": "СТ. МЕТРО \"ОЗЕРКИ\"",
-      "endStop": "СТ. МЕТРО \"ОЗЕРКИ\"",
-      "name": "СТ. МЕТРО \"ОЗЕРКИ\" -> СТ. МЕТРО \"ОЗЕРКИ\"; route_name: Автобус 270        СЕВЕРНАЯ ПЛОЩАДЬ - СТАНЦИЯ МЕТРО \"ОЗЕРКИ\"",
-      "route": "Автобус 270        СЕВЕРНАЯ ПЛОЩАДЬ - СТАНЦИЯ МЕТРО \"ОЗЕРКИ\"",
-      "duration": 0
     },
     {
       "startStop": "СТ. МЕТРО \"ОЗЕРКИ\"",
@@ -415,115 +408,115 @@
     },
     {
       "stopName": "СЕВЕРНАЯ ПЛ.",
-      "timePoint": "5:34"
+      "timePoint": "5:31"
     },
     {
       "stopName": "ГРАЖДАНСКИЙ ПР. УГ. СЕВЕРНОГО ПР.",
-      "timePoint": "5:35"
+      "timePoint": "5:32"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР. УГ. УЛ. ВАВИЛОВЫХ",
-      "timePoint": "5:37"
+      "timePoint": "5:34"
     },
     {
       "stopName": "ЕЛИЗАВЕТИНСКАЯ БОЛЬНИЦА",
-      "timePoint": "5:38"
+      "timePoint": "5:35"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР., УГОЛ ТИХОРЕЦКОГО ПР.",
-      "timePoint": "5:42"
+      "timePoint": "5:39"
     },
     {
       "stopName": "УЛ. САНТЬЯГО-ДЕ-КУБА",
-      "timePoint": "5:44"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ПР. ХУДОЖНИКОВ",
-      "timePoint": "5:46"
+      "timePoint": "5:43"
     },
     {
       "stopName": "УЛ. СИКЕЙРОСА",
-      "timePoint": "5:47"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ШКОЛА",
-      "timePoint": "5:48"
+      "timePoint": "5:45"
     },
     {
       "stopName": "УЛ. СИКЕЙРОСА, ПОЛИКЛИНИКА",
-      "timePoint": "5:49"
+      "timePoint": "5:46"
     },
     {
       "stopName": "УЛ. ЕСЕНИНА УГ. УЛ. СИКЕЙРОСА",
-      "timePoint": "5:50"
+      "timePoint": "5:47"
     },
     {
       "stopName": "ПР. ЭНГЕЛЬСА",
-      "timePoint": "5:51"
+      "timePoint": "5:48"
     },
     {
       "stopName": "СТ. МЕТРО \"ОЗЕРКИ\"",
-      "timePoint": "5:52"
+      "timePoint": "5:49"
     },
     {
       "stopName": "СТ. МЕТРО \"ОЗЕРКИ\"",
-      "timePoint": "5:52"
+      "timePoint": "5:49"
     },
     {
       "stopName": "ПР. ЭНГЕЛЬСА УГ. ПР. ЛУНАЧАРСКОГО",
-      "timePoint": "5:55"
+      "timePoint": "5:52"
     },
     {
       "stopName": "СТ. МЕТРО \"ОЗЕРКИ\"",
-      "timePoint": "5:58"
+      "timePoint": "5:55"
     },
     {
       "stopName": "УЛ. СИКЕЙРОСА УГ. ПР. ЭНГЕЛЬСА",
-      "timePoint": "5:59"
+      "timePoint": "5:56"
     },
     {
       "stopName": "УЛ. ЕСЕНИНА УГ. УЛ. СИКЕЙРОСА",
-      "timePoint": "6:00"
+      "timePoint": "5:57"
     },
     {
       "stopName": "ШКОЛА",
-      "timePoint": "6:02"
+      "timePoint": "5:59"
     },
     {
       "stopName": "ПР. ХУДОЖНИКОВ, УГОЛ УЛ. СИКЕЙРОСА",
-      "timePoint": "6:03"
+      "timePoint": "6:00"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР.",
-      "timePoint": "6:04"
+      "timePoint": "6:01"
     },
     {
       "stopName": "УЛ. САНТЬЯГО-ДЕ-КУБА",
-      "timePoint": "6:06"
+      "timePoint": "6:03"
     },
     {
       "stopName": "ТИХОРЕЦКИЙ ПР.",
-      "timePoint": "6:08"
+      "timePoint": "6:05"
     },
     {
       "stopName": "СЕВЕРНЫЙ МОСТ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "6:10"
+      "timePoint": "6:07"
     },
     {
       "stopName": "ЕЛИЗАВЕТИНСКАЯ БОЛЬНИЦА",
-      "timePoint": "6:12"
+      "timePoint": "6:09"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР., УГОЛ УЛ. ВАВИЛОВЫХ",
-      "timePoint": "6:13"
+      "timePoint": "6:10"
     },
     {
       "stopName": "СЕВЕРНЫЙ ПР., 65",
-      "timePoint": "6:14"
+      "timePoint": "6:11"
     },
     {
       "stopName": "Д.С. \"СЕВЕРНАЯ ПЛ.\",",
-      "timePoint": "6:17"
+      "timePoint": "6:14"
     }
   ],
   "coordinates": {
@@ -638,5 +631,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-11-08T13:50:50.858700"
+  "timestamp": "2025-11-10T21:52:34.932866"
 }

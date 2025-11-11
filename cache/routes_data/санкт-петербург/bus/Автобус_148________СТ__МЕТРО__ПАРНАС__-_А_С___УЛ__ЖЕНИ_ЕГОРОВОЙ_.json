@@ -657,167 +657,167 @@
   "timetable": [
     {
       "stopName": "СТ. МЕТРО \"ПАРНАС\"",
-      "timePoint": "5:00"
+      "timePoint": "4:55"
     },
     {
       "stopName": "УЛ. ФЁДОРА АБРАМОВА, УГОЛ УЛ. МЕРКУРЬЕВА",
-      "timePoint": "5:01"
+      "timePoint": "4:56"
     },
     {
       "stopName": "УЛ. ФЁДОРА АБРАМОВА, УГОЛ УЛ. НИКОЛАЯ РУБЦОВА",
-      "timePoint": "5:02"
+      "timePoint": "4:57"
     },
     {
       "stopName": "УЛ. ФЁДОРА АБРАМОВА, 18",
-      "timePoint": "5:03"
+      "timePoint": "4:58"
     },
     {
       "stopName": "ЗАРЕЧНАЯ УЛ.",
-      "timePoint": "5:04"
+      "timePoint": "4:59"
     },
     {
       "stopName": "ЗАРЕЧНАЯ УЛ., 42",
-      "timePoint": "5:05"
+      "timePoint": "5:00"
     },
     {
       "stopName": "ТРК \"МЕГА-ПАРНАС\", ВЫСАДКА",
-      "timePoint": "5:12"
+      "timePoint": "5:07"
     },
     {
       "stopName": "ТРК \"МЕГА-ПАРНАС\"",
-      "timePoint": "5:14"
+      "timePoint": "5:09"
     },
     {
       "stopName": "ПОРОШКИНО, ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:22"
+      "timePoint": "5:17"
     },
     {
       "stopName": "СВЕТЛАЯ УЛ.",
-      "timePoint": "5:23"
+      "timePoint": "5:18"
     },
     {
       "stopName": "САДОВОДСТВО БЕРЁЗКА",
-      "timePoint": "5:24"
+      "timePoint": "5:19"
     },
     {
       "stopName": "ЮККИ, СПОРТИВНАЯ УЛ., ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:26"
+      "timePoint": "5:21"
     },
     {
       "stopName": "ЮККИ ПАРК, ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:27"
+      "timePoint": "5:22"
     },
     {
       "stopName": "СПОРТИВНЫЙ КОМПЛЕКС \"ЮККИ\", ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:28"
+      "timePoint": "5:23"
     },
     {
       "stopName": "ЗЕЛЁНАЯ УЛ., ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:29"
+      "timePoint": "5:24"
     },
     {
       "stopName": "ЮККИ, ЦЕНТР",
-      "timePoint": "5:31"
+      "timePoint": "5:26"
     },
     {
       "stopName": "ЮККИ, ЕЛОВАЯ АЛЛЕЯ",
-      "timePoint": "5:32"
+      "timePoint": "5:27"
     },
     {
       "stopName": "ЮККОВСКОЕ ШОССЕ",
-      "timePoint": "5:33"
+      "timePoint": "5:28"
     },
     {
       "stopName": "ГОЛИЦЫНСКАЯ УЛ.",
-      "timePoint": "5:34"
+      "timePoint": "5:29"
     },
     {
       "stopName": "АПРАКСИНСКАЯ УЛ.",
-      "timePoint": "5:35"
+      "timePoint": "5:30"
     },
     {
       "stopName": "ВЫБОРГСКОЕ ШОССЕ, УГОЛ ПРИОЗЕРСКОГО ШОССЕ",
-      "timePoint": "5:37"
+      "timePoint": "5:32"
     },
     {
       "stopName": "ПАРГОЛОВО, ВЫБОРГСКОЕ ШОССЕ, 499",
-      "timePoint": "5:40"
+      "timePoint": "5:35"
     },
     {
       "stopName": "ПАРГОЛОВО, УЛ. ШИШКИНА",
-      "timePoint": "5:42"
+      "timePoint": "5:37"
     },
     {
       "stopName": "ПАРГОЛОВО, УЛ. ЛОМОНОСОВА",
-      "timePoint": "5:43"
+      "timePoint": "5:38"
     },
     {
       "stopName": "ПАРГОЛОВО, ВЫБОРГСКОЕ ШОССЕ, 373, ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:45"
+      "timePoint": "5:40"
     },
     {
       "stopName": "ПАРГОЛОВО, ШКОЛА № 474",
-      "timePoint": "5:46"
+      "timePoint": "5:41"
     },
     {
       "stopName": "ДОРОГА В КАМЕНКУ, ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:48"
+      "timePoint": "5:43"
     },
     {
       "stopName": "ПАРГОЛОВО, ЗАВОДСКАЯ УЛ., ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:49"
+      "timePoint": "5:44"
     },
     {
       "stopName": "ШУВАЛОВСКИЙ ПАРК, ПО ТРЕБОВАНИЮ",
-      "timePoint": "5:50"
+      "timePoint": "5:45"
     },
     {
       "stopName": "ВЫБОРГСКОЕ ШОССЕ, УГОЛ УЛ. ЖЕНИ ЕГОРОВОЙ",
-      "timePoint": "5:52"
+      "timePoint": "5:47"
     },
     {
       "stopName": "ВЫБОРГСКОЕ ШОССЕ, УГОЛ ПР. ПРОСВЕЩЕНИЯ",
-      "timePoint": "5:53"
+      "timePoint": "5:48"
     },
     {
       "stopName": "ВЫБОРГСКОЕ ШОССЕ, 17",
-      "timePoint": "5:54"
+      "timePoint": "5:49"
     },
     {
       "stopName": "ВЫБОРГСКОЕ ШОССЕ, УГОЛ УЛ. ХОШИМИНА",
-      "timePoint": "5:55"
+      "timePoint": "5:50"
     },
     {
       "stopName": "УЛ. ХОШИМИНА, УГОЛ УЛ. КОМПОЗИТОРОВ",
-      "timePoint": "5:56"
+      "timePoint": "5:51"
     },
     {
       "stopName": "УЛ. ХОШИМИНА, СТ. МЕТРО \"ПРОСПЕКТ ПРОСВЕЩЕНИЯ\"",
-      "timePoint": "5:57"
+      "timePoint": "5:52"
     },
     {
       "stopName": "ПР. ПРОСВЕЩЕНИЯ УГ. УЛ. СИМОНОВА",
-      "timePoint": "5:59"
+      "timePoint": "5:54"
     },
     {
       "stopName": "УЛ. КОМПОЗИТОРОВ, УГОЛ ПР. ПРОСВЕЩЕНИЯ",
-      "timePoint": "6:00"
+      "timePoint": "5:55"
     },
     {
       "stopName": "УЛ. КОМПОЗИТОРОВ,29",
-      "timePoint": "6:01"
+      "timePoint": "5:56"
     },
     {
       "stopName": "УЛ. ПРОКОФЬЕВА, УГОЛ УЛ. КОМПОЗИТОРОВ",
-      "timePoint": "6:02"
+      "timePoint": "5:57"
     },
     {
       "stopName": "УЛ. ЖЕНИ ЕГОРОВОЙ",
-      "timePoint": "6:03"
+      "timePoint": "5:58"
     },
     {
       "stopName": "А.С. \"УЛ. ЖЕНИ ЕГОРОВОЙ\",",
-      "timePoint": "6:04"
+      "timePoint": "5:59"
     }
   ],
   "coordinates": {
@@ -1027,5 +1027,5 @@
       "is_approximate": false
     }
   },
-  "timestamp": "2025-10-25T15:14:40.095847"
+  "timestamp": "2025-11-10T21:45:18.062296"
 }

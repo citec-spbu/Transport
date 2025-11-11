@@ -34,9 +34,14 @@ class Neo4jConnection:
         try:
             session = self.__driver.session()
             result = session.run(query, parameters)
-            print(list(result))
+            records = list(result)
+            # Materialize and return records for callers to inspect programmatically
+            print(records)
+            return records
         except Exception as e:
+            # Re-raise after logging so callers can react to failures
             print("Query failed:", e)
+            raise
         finally:
             if session is not None:
                 session.close()
