@@ -1,0 +1,10 @@
+@reference "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
