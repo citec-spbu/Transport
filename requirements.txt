@@ -1,5 +1,7 @@
-urban-transit-network-analysis
 dotenv~=0.9.9
 dash
 plotly
 requests_cache
+fastapi~=0.95.2
+pydantic~=1.10.7
+uvicorn[standard]~=0.21.1
