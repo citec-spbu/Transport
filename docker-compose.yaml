@@ -1,0 +1,32 @@
+services:
+  neo4j:
+    image: neo4j:community-bullseye
+    container_name: neo4j_gds
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/hello123
+      - NEO4J_PLUGINS=["graph-data-science"]
+      - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
+      - NEO4J_dbms_security_procedures_unrestricted=jwt.security.*,apoc.*,gds.*
+    volumes:
+      - neo4j_data:/data
+
+  app:
+    build: .
+    container_name: transit_analysis_app
+    depends_on:
+      - neo4j
+    environment:
+      - GRAPH_DATABASE_URL=neo4j://neo4j:7687
+      - GRAPH_DATABASE_USER=neo4j
+      - GRAPH_DATABASE_PASSWORD=hello123
+    command: python -u main.py
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./cache:/app/cache
+
+volumes:
+  neo4j_data:

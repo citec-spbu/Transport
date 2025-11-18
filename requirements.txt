@@ -1,9 +1,7 @@
-osmnx==1.9.4
-requests==2.32.3
-beautifulsoup4==4.12.3
-neo4j==5.23.1
-pandas==2.2.2
-plotly==6.0.1
-deep-translator==1.1.4
-quads~=1.1.0
-numpy~=1.24.2
+dotenv~=0.9.9
+dash
+plotly
+requests_cache
+fastapi~=0.95.2
+pydantic~=1.10.7
+uvicorn[standard]~=0.21.1
