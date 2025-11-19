@@ -1,6 +1,6 @@
-from context.analysis_context import AnalysisContext
-from metric_cluster.metric_cluster_preparer import MetricClusterPreparer
-from analysis_preparer import AnalysisPreparer
+from app.core.context.analysis_context import AnalysisContext
+from app.core.metric_cluster.metric_cluster_preparer import MetricClusterPreparer
+from app.core.services.analysis_preparer import AnalysisPreparer
 
 """
     Класс, ответственный за создание графа и проведение анализа на основе переданного контекста.

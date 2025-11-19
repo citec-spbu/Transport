@@ -1,7 +1,7 @@
 import random
 
-from db_graph_parameters import DBGraphParameters
-from metric_calculation_context import MetricCalculationContext
+from app.core.context.db_graph_parameters import DBGraphParameters
+from app.core.context.metric_calculation_context import MetricCalculationContext
 from app.models.graph_types import GraphTypes
 
 """

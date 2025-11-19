@@ -1,6 +1,6 @@
-from context.analysis_context import AnalysisContext
-from community_detection import Leiden, Louvain
-from metrics_calculate import Betweenness, PageRank
+from app.core.context.analysis_context import AnalysisContext
+from app.core.metric_cluster.community_detection import Leiden, Louvain
+from app.core.metric_cluster.metrics_calculate import Betweenness, PageRank
 from app.database.neo4j_connection import Neo4jConnection
 
 

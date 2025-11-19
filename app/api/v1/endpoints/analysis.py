@@ -3,7 +3,7 @@ from app.models.schemas import (
     ClusterRequest, ClusterResponse, MetricAnalysisRequest, MetricAnalysisResponse,
     ClusterNode, MetricNode
 )
-from datasets import active_datasets
+from app.api.v1.endpoints.datasets import active_datasets
 from app.core.context.analysis_context import AnalysisContext
 from app.core.context.metric_calculation_context import MetricCalculationContext
 from app.core.services.analysis_manager import AnalysisManager
@@ -27,8 +27,8 @@ async def cluster_analysis(req: ClusterRequest):
     )
     
     analysis_context = AnalysisContext(
-        city_name=dataset["ru_city_name"],
-        graph_type=dataset["graph_context"].graph_type,
+        city_name=dataset["analysis_context"].city_name,
+        graph_type=dataset["analysis_context"].graph_type,
         metric_calculation_context=metric_context,
         need_prepare_data=True
     )
@@ -58,8 +58,8 @@ async def metric_analysis(req: MetricAnalysisRequest):
     )
 
     analysis_context = AnalysisContext(
-        city_name=dataset["ru_city_name"],
-        graph_type=dataset["graph_context"].graph_type,
+        city_name=dataset["analysis_context"].city_name,
+        graph_type=dataset["analysis_context"].graph_type,
         metric_calculation_context=metric_context,
         need_prepare_data=True
     )

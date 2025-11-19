@@ -1,80 +1,89 @@
-from neo4j import GraphDatabase, Session
-from dotenv import load_dotenv
+from neo4j import GraphDatabase
 import os
-from functools import wraps
-from typing import Callable, Optional, Dict
+from dotenv import load_dotenv
 
 """
-    Класс, содержащий логику работы с Neo4j.
+    Класс содержащий логику работы с бд neo4j
 """
-
-
-def with_session(func: Callable):
-    """
-    Декоратор для автоматического создания и закрытия сессии.
-    Используется для методов run(), execute_write() и т.д.
-    """
-
-    @wraps(func)
-    def wrapper(self, *args, **kwargs):
-        assert self._driver is not None, "Driver not initialized!"
-        session: Optional[Session] = None
-
-        try:
-            session = self._driver.session()
-            return func(self, session, *args, **kwargs)
-        except Exception as e:
-            print(f"Neo4j error in {func.__name__}: {e}")
-            raise
-        finally:
-            if session is not None:
-                session.close()
-
-    return wrapper
 
 
 class Neo4jConnection:
     def __init__(self):
         load_dotenv()
+        os.environ.get("DB_HOST", "localhost")
 
-        self._uri = os.getenv("GRAPH_DATABASE_URL")
-        self._user = os.getenv("GRAPH_DATABASE_USER")
-        self._pwd = os.getenv("GRAPH_DATABASE_PASSWORD")
-
-        self._driver = None
+        self.__uri = os.environ.get("GRAPH_DATABASE_URL")
+        self.__user = os.environ.get("GRAPH_DATABASE_USER")
+        self.__pwd = os.environ.get("GRAPH_DATABASE_PASSWORD")
+        self.__driver = None
 
         try:
-            self._driver = GraphDatabase.driver(
-                self._uri,
-                auth=(self._user, self._pwd)
-            )
+            self.__driver = GraphDatabase.driver(self.__uri, auth=(self.__user, self.__pwd))
         except Exception as e:
-            print("Failed to create the Neo4j driver:", e)
+            print("Failed to create the driver:", e)
 
     def close(self):
-        if self._driver:
-            self._driver.close()
 
-    # -----------------------------
-    # Унифицированные методы
-    # -----------------------------
+        if self.__driver is not None:
+            self.__driver.close()
 
-    @with_session
-    def run(self, session: Session, query: str, parameters: Dict = None):
-        result = session.run(query, parameters)
-        return list(result)
+    # TODO: need to add decorator for run and execute_write
+    def run(self, query, parameters=None):
+        assert self.__driver is not None, "Driver not initialized!"
+        session = None
 
-    @with_session
-    def execute_query(self, session: Session, query: str, parameters: Dict = None, need_log: bool = True):
-        result = session.execute_query(query, parameters=parameters)
-        if need_log:
-            print(result.records)
-        return result
+        try:
+            session = self.__driver.session()
+            result = session.run(query, parameters)
+            print(list(result))
+        except Exception as e:
+            print("Query failed:", e)
+        finally:
+            if session is not None:
+                session.close()
 
-    @with_session
-    def execute_read(self, session: Session, tx_func: Callable, *args, **kwargs):
-        return session.execute_read(tx_func, *args, **kwargs)
+    def execute_query(self, query, needLog=True):
+        assert self.__driver is not None, "Driver not initialized!"
+        session = None
 
-    @with_session
-    def execute_write(self, session: Session, tx_func: Callable, *args, **kwargs):
-        return session.execute_write(tx_func, *args, **kwargs)
+        try:
+            result = self.__driver.execute_query(query)
+            if needLog: print(list(result))
+            return result
+        except Exception as e:
+            print("Query failed:", e)
+        finally:
+            if session is not None:
+                session.close()
+
+    def read_all(self, query):
+        assert self.__driver is not None, "Driver not initialized!"
+        session = None
+
+        try:
+            session = self.__driver.session()
+            result = session.execute_read(get_node, query)
+            return result
+        except Exception as e:
+            print("Query failed:", e)
+        finally:
+            if session is not None:
+                session.close()
+
+    def execute_write(self, transaction_function, *args):
+        assert self.__driver is not None, "Driver not initialized!"
+        session = None
+
+        try:
+            session = self.__driver.session()
+            session.execute_write(transaction_function, *args)
+        except Exception as e:
+            print("Query failed:", e)
+        finally:
+            if session is not None:
+                session.close()
+
+
+def get_node(tx, query, bounds=None):
+    results = tx.run(query, parameters=bounds).to_df()
+    return results
