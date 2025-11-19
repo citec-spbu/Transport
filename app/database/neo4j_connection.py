@@ -2,16 +2,9 @@ from neo4j import GraphDatabase
 import os
 from dotenv import load_dotenv
 
-"""
-    Класс содержащий логику работы с бд neo4j
-"""
-
-
 class Neo4jConnection:
     def __init__(self):
         load_dotenv()
-        os.environ.get("DB_HOST", "localhost")
-
         self.__uri = os.environ.get("GRAPH_DATABASE_URL")
         self.__user = os.environ.get("GRAPH_DATABASE_USER")
         self.__pwd = os.environ.get("GRAPH_DATABASE_PASSWORD")
@@ -23,67 +16,27 @@ class Neo4jConnection:
             print("Failed to create the driver:", e)
 
     def close(self):
-
-        if self.__driver is not None:
+        if self.__driver:
             self.__driver.close()
 
-    # TODO: need to add decorator for run and execute_write
     def run(self, query, parameters=None):
-        assert self.__driver is not None, "Driver not initialized!"
-        session = None
-
-        try:
-            session = self.__driver.session()
+        """Выполнить запрос и вернуть все строки как список"""
+        assert self.__driver, "Driver not initialized!"
+        with self.__driver.session() as session:
             result = session.run(query, parameters)
-            print(list(result))
-        except Exception as e:
-            print("Query failed:", e)
-        finally:
-            if session is not None:
-                session.close()
+            return list(result)
 
-    def execute_query(self, query, needLog=True):
-        assert self.__driver is not None, "Driver not initialized!"
-        session = None
+    def read_all(self, query, parameters=None):
+        """Выполнить read-запрос и вернуть список словарей"""
+        assert self.__driver, "Driver not initialized!"
+        def read_tx(tx):
+            result = tx.run(query, parameters)
+            return [dict(record) for record in result]
+        with self.__driver.session() as session:
+            return session.execute_read(read_tx)
 
-        try:
-            result = self.__driver.execute_query(query)
-            if needLog: print(list(result))
-            return result
-        except Exception as e:
-            print("Query failed:", e)
-        finally:
-            if session is not None:
-                session.close()
-
-    def read_all(self, query):
-        assert self.__driver is not None, "Driver not initialized!"
-        session = None
-
-        try:
-            session = self.__driver.session()
-            result = session.execute_read(get_node, query)
-            return result
-        except Exception as e:
-            print("Query failed:", e)
-        finally:
-            if session is not None:
-                session.close()
-
-    def execute_write(self, transaction_function, *args):
-        assert self.__driver is not None, "Driver not initialized!"
-        session = None
-
-        try:
-            session = self.__driver.session()
-            session.execute_write(transaction_function, *args)
-        except Exception as e:
-            print("Query failed:", e)
-        finally:
-            if session is not None:
-                session.close()
-
-
-def get_node(tx, query, bounds=None):
-    results = tx.run(query, parameters=bounds).to_df()
-    return results
+    def execute_write(self, tx_func, *args, **kwargs):
+        """Выполнить write-транзакцию"""
+        assert self.__driver, "Driver not initialized!"
+        with self.__driver.session() as session:
+            return session.execute_write(tx_func, *args, **kwargs)

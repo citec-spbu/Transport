@@ -45,7 +45,7 @@ class GuestTokenResponse(BaseModel):
 # Dataset Schemas
 class DatasetUploadRequest(BaseModel):
     transport_type: str = Field(..., example="bus", description="Тип транспорта")
-    city: str = Field(..., example="Saint Petersburg", description="Город для набора данных")
+    city: str = Field(..., example="Бирск", description="Город для набора данных")
 
 
 class DatasetUploadResponse(BaseModel):

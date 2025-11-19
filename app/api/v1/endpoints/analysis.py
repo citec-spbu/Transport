@@ -53,7 +53,7 @@ async def metric_analysis(req: MetricAnalysisRequest):
 
     # Контекст для анализа метрик
     metric_context = MetricCalculationContext(
-        need_page_rank=(req.metric == "pagerank"),
+        need_pagerank=(req.metric == "pagerank"),
         need_betweenness=(req.metric == "betweenness")
     )
 

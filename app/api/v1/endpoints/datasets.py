@@ -76,7 +76,7 @@ async def delete_dataset(dataset_id: str):
 
     try:
         ctx = dataset["analysis_context"]
-        db_params = ctx.neo4j_DB_graph_parameters
+        db_params = ctx.db_graph_parameters
 
         connection = Neo4jConnection()
 

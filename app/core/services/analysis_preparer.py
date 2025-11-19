@@ -32,7 +32,7 @@ class AnalysisPreparer:
                 '{self.graph_name}',
                 '{self.graph_db_parameters.main_node_name}',
                 {{
-                    `{rel_name}`: {{
+                    {rel_name}: {{
                         orientation: 'UNDIRECTED',
                         properties: {{
                             {normalized_prop}: {{
