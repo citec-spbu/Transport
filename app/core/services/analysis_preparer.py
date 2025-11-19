@@ -1,5 +1,5 @@
 from app.database.neo4j_connection import Neo4jConnection
-from context.analysis_context import AnalysisContext
+from app.core.context.analysis_context import AnalysisContext
 
 class AnalysisPreparer:
     def __init__(self, analysis_context: AnalysisContext):
@@ -32,7 +32,7 @@ class AnalysisPreparer:
                 '{self.graph_name}',
                 '{self.graph_db_parameters.main_node_name}',
                 {{
-                    `{rel_name}`: {{
+                    {rel_name}: {{
                         orientation: 'UNDIRECTED',
                         properties: {{
                             {normalized_prop}: {{

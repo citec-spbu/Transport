@@ -1,14 +1,10 @@
 from typing import List, Tuple
 
-from app.core.context.analysis_context import AnalysisContext
 from app.core.services.parsers import BusGraphParser, TrolleyGraphParser, TramGraphParser, MiniBusGraphParser
-from database.graph_db_manager import OneTypeNodeDBManager
-
+from app.database.graph_db_manager import OneTypeNodeDBManager
+from abc import abstractmethod
 
 class TransportNetworkGraphDBManager(OneTypeNodeDBManager):
-
-    def __init__(self, graph_analis_context: AnalysisContext):
-        super().__init__(graph_analis_context)
 
     def create_node_query(self) -> str:
         return f"""
@@ -31,6 +27,51 @@ class TransportNetworkGraphDBManager(OneTypeNodeDBManager):
                 r.route = path.route
         RETURN COUNT(*) AS total
         """
+    
+    def get_bd_all_node_query_graph(self):
+        return f'''
+        MATCH (s:{self.db_graph_parameters.main_node_name})
+        RETURN 
+            ID(s) AS id,
+            s.roteList AS roteList, 
+            s.location.longitude AS x, 
+            s.location.latitude AS y, 
+            s.name AS name, 
+            s.isCoordinateApproximate AS isCoordinateApproximate
+        '''
+
+    def get_bd_all_rels_query_graph(self):
+        return f'''
+        MATCH (u:{self.db_graph_parameters.main_node_name})
+        -[r:{self.db_graph_parameters.main_rels_name}]->
+        (v:{self.db_graph_parameters.main_node_name})
+        RETURN
+            u.name AS first_stop_name, 
+            v.name AS second_stop_name, 
+            r.duration AS duration
+        '''
+
+    def get_constraint_list(self):
+        return [
+            f"CREATE CONSTRAINT IF NOT EXISTS FOR (s:{self.db_graph_parameters.main_node_name}) REQUIRE s.name IS UNIQUE",
+            f"CREATE INDEX IF NOT EXISTS FOR ()-[r:{self.db_graph_parameters.main_rels_name}]-() ON r.name"
+        ]
+    
+    @abstractmethod
+    def get_graph(self):
+        pass
+
+    @abstractmethod
+    def get_node_name(self):
+        pass
+
+    @abstractmethod
+    def get_rels_name(self):
+        pass
+
+    @abstractmethod
+    def get_weight(self):
+        pass
 
 
 class BusGraphDBManager(TransportNetworkGraphDBManager):

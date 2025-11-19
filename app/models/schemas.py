@@ -1,14 +1,13 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import List
 from enum import Enum
 
 
 class TransportType(str, Enum):
     BUS = "bus"
-    METRO = "metro"
     TRAM = "tram"
-    TROLLEYBUS = "trolleybus"
-
+    TROLLEY = "trolleybus"
+    MINIBUS = "minibus"
 
 class ClusteringMethod(str, Enum):
     LEIDEN = "leiden"
@@ -46,16 +45,12 @@ class GuestTokenResponse(BaseModel):
 # Dataset Schemas
 class DatasetUploadRequest(BaseModel):
     transport_type: str = Field(..., example="bus", description="Тип транспорта")
-    city: str = Field(..., example="Saint Petersburg", description="Город для набора данных")
+    city: str = Field(..., example="Бирск", description="Город для набора данных")
 
 
 class DatasetUploadResponse(BaseModel):
     dataset_id: str = Field(..., example="abc123")
     name: str = Field(..., example="Bus routes — Saint Petersburg")
-
-
-class ErrorResponse(BaseModel):
-    error: str = Field(..., example="Unknown city or transport type")
 
 
 # Analysis Schemas
