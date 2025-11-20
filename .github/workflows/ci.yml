@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, backend_endpoints ]
+  pull_request:
+    branches: [ main, backend_endpoints ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      neo4j:
+        image: neo4j:community-bullseye
+        env:
+          NEO4J_AUTH: neo4j/hello123
+          NEO4J_ACCEPT_LICENSE_AGREEMENT: 'yes'
+          NEO4J_PLUGINS: '["graph-data-science"]'
+          NEO4J_dbms_security_procedures_unrestricted: 'jwt.security.*,apoc.*,gds.*'
+        ports:
+          - 7474:7474
+          - 7687:7687
+        options: >-
+          --health-cmd="curl -sS http://localhost:7474 || exit 1"
+          --health-interval=10s --health-timeout=5s --health-retries=30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Wait for Neo4j
+        env:
+          NEO4J_URL: bolt://localhost:7687
+        run: |
+          echo "Waiting for Neo4j to be ready..."
+          for i in {1..30}; do
+            (echo > /dev/tcp/localhost/7687) >/dev/null 2>&1 && break || true
+            sleep 2
+          done
+          echo "Neo4j should be reachable on bolt://localhost:7687"
+
+      - name: Set DB env vars
+        run: |
+          echo "GRAPH_DATABASE_URL=neo4j://localhost:7687" >> $GITHUB_ENV
+          echo "GRAPH_DATABASE_USER=neo4j" >> $GITHUB_ENV
+          echo "GRAPH_DATABASE_PASSWORD=hello123" >> $GITHUB_ENV
+
+      - name: Run tests
+        run: |
+          pytest -q
