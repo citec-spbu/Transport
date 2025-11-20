@@ -16,12 +16,13 @@ class AnalysisContext:
         graph_type: GraphTypes = GraphTypes.BUS_GRAPH,
         need_prepare_data: bool = False,
         need_create_graph: bool = False,
-        city_name: str = ""
+        city_name: str = "",
+        db_graph_parameters: DBGraphParameters = DBGraphParameters()
     ):
         self.metric_calculation_context = metric_calculation_context
         self.graph_name = graph_name
         self.graph_type = graph_type
         self.need_prepare_data = need_prepare_data
         self.need_create_graph = need_create_graph
-        self.db_graph_parameters = DBGraphParameters()
+        self.db_graph_parameters = db_graph_parameters
         self.city_name = city_name

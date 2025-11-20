@@ -1,9 +1,12 @@
 from abc import ABC, abstractmethod
-from typing import List
+from typing import List, TYPE_CHECKING
 
 import pandas as pd
 
 from app.database.neo4j_connection import Neo4jConnection
+
+if TYPE_CHECKING:
+    from app.core.context.analysis_context import AnalysisContext
 
 
 class GraphDBManager(ABC):

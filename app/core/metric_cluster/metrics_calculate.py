@@ -30,4 +30,4 @@ class Betweenness(MetricsCalculate):
 
 class PageRank(MetricsCalculate):
     def __init__(self):
-        super().__init__("pageRank", "pageRank")
+        super().__init__("pageRank", "pagerank")

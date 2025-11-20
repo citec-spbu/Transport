@@ -26,6 +26,7 @@ services:
     ports:
       - "8050:8050"
     volumes:
+      - ./:/app
       - ./cache:/app/cache
 
 volumes:

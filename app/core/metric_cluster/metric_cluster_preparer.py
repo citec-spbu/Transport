@@ -69,10 +69,10 @@ class MetricClusterPreparer:
         query = f"""
             MATCH (n:`{node_label}`)
             RETURN
-                id(n) AS id,
+                toString(id(n)) AS id,
                 n.name AS name,
-                n.lat AS lat,
-                n.lon AS lon,
+                n.location.longitude AS lon,
+                n.location.latitude AS lat,
                 n.leiden_community AS leiden_community,
                 n.louvain_community AS louvain_community,
                 n.betweenness AS betweenness,
@@ -86,7 +86,7 @@ class MetricClusterPreparer:
             node = {
                 "id": r["id"],
                 "name": r["name"],
-                "coordinates": [r["lat"], r["lon"]],
+                "coordinates": [r["lon"], r["lat"]],
             }
 
             if self.mc.need_leiden_clusterization:

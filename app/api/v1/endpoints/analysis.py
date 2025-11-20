@@ -7,6 +7,7 @@ from app.api.v1.endpoints.datasets import active_datasets
 from app.core.context.analysis_context import AnalysisContext
 from app.core.context.metric_calculation_context import MetricCalculationContext
 from app.core.services.analysis_manager import AnalysisManager
+import copy
 
 router = APIRouter()
 
@@ -20,18 +21,13 @@ async def cluster_analysis(req: ClusterRequest):
     
     dataset = active_datasets[req.dataset_id]
 
-    # Контекст для кластеризации
-    metric_context = MetricCalculationContext(
+    # Копируем старый контекст и меняем только параметры для кластеризации
+    analysis_context = copy.deepcopy(dataset["analysis_context"])
+    analysis_context.metric_calculation_context = MetricCalculationContext(
         need_leiden_clusterization=(req.method == "leiden"),
         need_louvain_clusterization=(req.method == "louvain")
     )
-    
-    analysis_context = AnalysisContext(
-        city_name=dataset["analysis_context"].city_name,
-        graph_type=dataset["analysis_context"].graph_type,
-        metric_calculation_context=metric_context,
-        need_prepare_data=True
-    )
+    analysis_context.need_prepare_data = True
 
     # Проведение кластеризации и обработка результатов
     manager = AnalysisManager()
@@ -51,18 +47,13 @@ async def metric_analysis(req: MetricAnalysisRequest):
 
     dataset = active_datasets[req.dataset_id]
 
-    # Контекст для анализа метрик
-    metric_context = MetricCalculationContext(
+    # Копируем старый контекст и меняем только параметры для анализа метрик
+    analysis_context = copy.deepcopy(dataset["analysis_context"])
+    analysis_context.metric_calculation_context = MetricCalculationContext(
         need_pagerank=(req.metric == "pagerank"),
         need_betweenness=(req.metric == "betweenness")
     )
-
-    analysis_context = AnalysisContext(
-        city_name=dataset["analysis_context"].city_name,
-        graph_type=dataset["analysis_context"].graph_type,
-        metric_calculation_context=metric_context,
-        need_prepare_data=True
-    )
+    analysis_context.need_prepare_data = True
 
     manager = AnalysisManager()
     nodes = manager.process(analysis_context)

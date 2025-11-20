@@ -27,6 +27,12 @@ class AnalysisPreparer:
         normalized_prop = f"norm_{weight_prop}"
         self.graph_db_parameters.weight = normalized_prop
 
+        if not self.graph_db_parameters.main_node_name or not self.graph_db_parameters.main_rels_name:
+            raise ValueError("Graph parameters 'main_node_name' or 'main_rels_name' are not set.")
+
+        print(f"Preparing graph with nodes: {self.graph_db_parameters.main_node_name}, relationships: {rel_name}")
+        print(f"Normalized weight property: {normalized_prop}")
+
         graph_project_query = f"""
             CALL gds.graph.project(
                 '{self.graph_name}',
@@ -46,6 +52,8 @@ class AnalysisPreparer:
             )
         """
         try:
+            print(f"Graph projection query: {graph_project_query}")
+            print(f"Graph parameters: {self.graph_db_parameters}")
             self.connection.run(graph_project_query)
         except Exception as e:
             print(f"Warning: GDS graph projection failed for {self.graph_name}: {e}")
