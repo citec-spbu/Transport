@@ -42,7 +42,9 @@ class CommunityDetection:
             ) 
             YIELD communityCount, modularity, modularities
         '''
-        return self.connection.execute_query(query).records[0][2]
+        result = self.connection.run(query)
+        # Предполагается, что результат не пустой и имеет нужную структуру
+        return list(result)[0][2] if result else None
 
 
 class Leiden(CommunityDetection):
