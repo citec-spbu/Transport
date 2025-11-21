@@ -28,6 +28,7 @@ async def cluster_analysis(req: ClusterRequest):
         need_louvain_clusterization=(req.method == "louvain")
     )
     analysis_context.need_prepare_data = True
+    analysis_context.need_create_graph = False
 
     # Проведение кластеризации и обработка результатов
     manager = AnalysisManager()
@@ -54,6 +55,7 @@ async def metric_analysis(req: MetricAnalysisRequest):
         need_betweenness=(req.metric == "betweenness")
     )
     analysis_context.need_prepare_data = True
+    analysis_context.need_create_graph = False
 
     manager = AnalysisManager()
     nodes = manager.process(analysis_context)

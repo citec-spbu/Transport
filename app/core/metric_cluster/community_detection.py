@@ -44,7 +44,7 @@ class CommunityDetection:
         '''
         result = self.connection.run(query)
         # Предполагается, что результат не пустой и имеет нужную структуру
-        return list(result)[0][2] if result else None
+        return result[0][2] if result else None
 
 
 class Leiden(CommunityDetection):
