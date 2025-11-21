@@ -1,0 +1,4578 @@
+{
+  "routeNumber": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+  "routeUrl": "/kotla/bus/622",
+  "nodes": {
+    "Вокзал Северодвинск": {
+      "name": "Вокзал Северодвинск",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 39.850092,
+      "yCoordinate": 64.572859,
+      "isCoordinateApproximate": false
+    },
+    "Автовокзал Архангельск": {
+      "name": "Автовокзал Архангельск",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 40.576591822,
+      "yCoordinate": 64.547694788,
+      "isCoordinateApproximate": false
+    },
+    "Зелёный Бор": {
+      "name": "Зелёный Бор",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 40.601032297,
+      "yCoordinate": 64.433427393,
+      "isCoordinateApproximate": false
+    },
+    "Беломорье": {
+      "name": "Беломорье",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 40.890388367,
+      "yCoordinate": 64.28960929,
+      "isCoordinateApproximate": false
+    },
+    "Холмогорская развилка": {
+      "name": "Холмогорская развилка",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.611730628,
+      "yCoordinate": 64.145703083,
+      "isCoordinateApproximate": false
+    },
+    "Малая Товра": {
+      "name": "Малая Товра",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.672248613,
+      "yCoordinate": 64.11061201,
+      "isCoordinateApproximate": false
+    },
+    "Большая Товра": {
+      "name": "Большая Товра",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.692201764,
+      "yCoordinate": 64.082055849,
+      "isCoordinateApproximate": false
+    },
+    "Новинки": {
+      "name": "Новинки",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.691036345,
+      "yCoordinate": 64.048960176,
+      "isCoordinateApproximate": false
+    },
+    "Вороновское": {
+      "name": "Вороновское",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.697903004,
+      "yCoordinate": 64.024961099,
+      "isCoordinateApproximate": false
+    },
+    "Копачёво": {
+      "name": "Копачёво",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.689670816,
+      "yCoordinate": 63.961593742,
+      "isCoordinateApproximate": false
+    },
+    "Голдобиха": {
+      "name": "Голдобиха",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.65811,
+      "yCoordinate": 63.944894,
+      "isCoordinateApproximate": false
+    },
+    "Пухтаковка": {
+      "name": "Пухтаковка",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.627524137,
+      "yCoordinate": 63.922393037,
+      "isCoordinateApproximate": false
+    },
+    "Демидово": {
+      "name": "Демидово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.608233,
+      "yCoordinate": 63.909555,
+      "isCoordinateApproximate": false
+    },
+    "Канзово": {
+      "name": "Канзово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.594894535,
+      "yCoordinate": 63.849977258,
+      "isCoordinateApproximate": false
+    },
+    "Великий Двор": {
+      "name": "Великий Двор",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.573439698,
+      "yCoordinate": 63.842446522,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Палово": {
+      "name": "Поворот на Палово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.552518499,
+      "yCoordinate": 63.83187863,
+      "isCoordinateApproximate": false
+    },
+    "Ракула": {
+      "name": "Ракула",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.514237833,
+      "yCoordinate": 63.817579339,
+      "isCoordinateApproximate": false
+    },
+    "Среднеконское": {
+      "name": "Среднеконское",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.486036871,
+      "yCoordinate": 63.807823737,
+      "isCoordinateApproximate": false
+    },
+    "Палишино": {
+      "name": "Палишино",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.427215288,
+      "yCoordinate": 63.770912314,
+      "isCoordinateApproximate": false
+    },
+    "Брин-Наволок": {
+      "name": "Брин-Наволок",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.411829918,
+      "yCoordinate": 63.736476005,
+      "isCoordinateApproximate": false
+    },
+    "Сия": {
+      "name": "Сия",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.615304291,
+      "yCoordinate": 63.613593846,
+      "isCoordinateApproximate": false
+    },
+    "Емецк": {
+      "name": "Емецк",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.778517257,
+      "yCoordinate": 63.47782288,
+      "isCoordinateApproximate": false
+    },
+    "Красный Яр": {
+      "name": "Красный Яр",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.769440232,
+      "yCoordinate": 63.442064219,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Зачачье": {
+      "name": "Поворот на Зачачье",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.781046,
+      "yCoordinate": 63.414413,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Заболотье": {
+      "name": "Поворот на Заболотье",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.859962,
+      "yCoordinate": 63.381956,
+      "isCoordinateApproximate": false
+    },
+    "Коскошино": {
+      "name": "Коскошино",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.892425,
+      "yCoordinate": 63.36855,
+      "isCoordinateApproximate": false
+    },
+    "Ныкола": {
+      "name": "Ныкола",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.968211,
+      "yCoordinate": 63.328228,
+      "isCoordinateApproximate": false
+    },
+    "Звоз": {
+      "name": "Звоз",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.970359,
+      "yCoordinate": 63.291799,
+      "isCoordinateApproximate": false
+    },
+    "Орлово": {
+      "name": "Орлово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 41.973483,
+      "yCoordinate": 63.20543,
+      "isCoordinateApproximate": false
+    },
+    "Посёлок Почтовое": {
+      "name": "Посёлок Почтовое",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.00697,
+      "yCoordinate": 63.163644,
+      "isCoordinateApproximate": false
+    },
+    "Деревня Почтовое": {
+      "name": "Деревня Почтовое",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.009342,
+      "yCoordinate": 63.140578,
+      "isCoordinateApproximate": false
+    },
+    "Монастырёк": {
+      "name": "Монастырёк",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.055944,
+      "yCoordinate": 63.07226,
+      "isCoordinateApproximate": false
+    },
+    "Моржегоры": {
+      "name": "Моржегоры",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.154246,
+      "yCoordinate": 63.047951,
+      "isCoordinateApproximate": false
+    },
+    "Усть-Морж": {
+      "name": "Усть-Морж",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.313233978,
+      "yCoordinate": 63.030890097,
+      "isCoordinateApproximate": false
+    },
+    "Хетово": {
+      "name": "Хетово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.347601,
+      "yCoordinate": 63.027283,
+      "isCoordinateApproximate": false
+    },
+    "Рязаново": {
+      "name": "Рязаново",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.375986402,
+      "yCoordinate": 63.025925817,
+      "isCoordinateApproximate": false
+    },
+    "Гора": {
+      "name": "Гора",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.416893,
+      "yCoordinate": 63.020449,
+      "isCoordinateApproximate": false
+    },
+    "Шастки": {
+      "name": "Шастки",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.445561,
+      "yCoordinate": 63.019696,
+      "isCoordinateApproximate": false
+    },
+    "Уйта": {
+      "name": "Уйта",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.52168,
+      "yCoordinate": 63.011349,
+      "isCoordinateApproximate": false
+    },
+    "Усть-Ваеньга": {
+      "name": "Усть-Ваеньга",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.586655,
+      "yCoordinate": 62.987176,
+      "isCoordinateApproximate": false
+    },
+    "Посёлок Пянда": {
+      "name": "Посёлок Пянда",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.597103109,
+      "yCoordinate": 62.966290279,
+      "isCoordinateApproximate": false
+    },
+    "Хитровка": {
+      "name": "Хитровка",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.594010996,
+      "yCoordinate": 62.958081343,
+      "isCoordinateApproximate": false
+    },
+    "Антоново": {
+      "name": "Антоново",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.582973085,
+      "yCoordinate": 62.947780775,
+      "isCoordinateApproximate": false
+    },
+    "Деревня Пянда": {
+      "name": "Деревня Пянда",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.584095309,
+      "yCoordinate": 62.934519669,
+      "isCoordinateApproximate": false
+    },
+    "Кафе На БАМе": {
+      "name": "Кафе На БАМе",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.606204448,
+      "yCoordinate": 62.891105843,
+      "isCoordinateApproximate": false
+    },
+    "БАМ": {
+      "name": "БАМ",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.605001613,
+      "yCoordinate": 62.891570306,
+      "isCoordinateApproximate": false
+    },
+    "Нижнее Чажестрово": {
+      "name": "Нижнее Чажестрово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.61583944,
+      "yCoordinate": 62.886062156,
+      "isCoordinateApproximate": false
+    },
+    "Верхнее Чажестрово": {
+      "name": "Верхнее Чажестрово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.657005772,
+      "yCoordinate": 62.87316719,
+      "isCoordinateApproximate": false
+    },
+    "Автостанция Двинской Березник": {
+      "name": "Автостанция Двинской Березник",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.725345,
+      "yCoordinate": 62.852093,
+      "isCoordinateApproximate": false
+    },
+    "Шидрово": {
+      "name": "Шидрово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.843318412,
+      "yCoordinate": 62.797562739,
+      "isCoordinateApproximate": false
+    },
+    "Усть-Вага": {
+      "name": "Усть-Вага",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.810408423,
+      "yCoordinate": 62.741518234,
+      "isCoordinateApproximate": false
+    },
+    "Котласский поворот": {
+      "name": "Котласский поворот",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 42.890283306,
+      "yCoordinate": 62.693172498,
+      "isCoordinateApproximate": false
+    },
+    "Чамово": {
+      "name": "Чамово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.147895317,
+      "yCoordinate": 62.720551152,
+      "isCoordinateApproximate": false
+    },
+    "Шужега": {
+      "name": "Шужега",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.266597026,
+      "yCoordinate": 62.679398337,
+      "isCoordinateApproximate": false
+    },
+    "Попово": {
+      "name": "Попово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.307030277,
+      "yCoordinate": 62.670601733,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Рочегду": {
+      "name": "Поворот на Рочегду",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.333615874,
+      "yCoordinate": 62.665227894,
+      "isCoordinateApproximate": false
+    },
+    "Масловская": {
+      "name": "Масловская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.508825596,
+      "yCoordinate": 62.592427414,
+      "isCoordinateApproximate": false
+    },
+    "Река Тулгас": {
+      "name": "Река Тулгас",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.531857306,
+      "yCoordinate": 62.58433187,
+      "isCoordinateApproximate": false
+    },
+    "Заостровье": {
+      "name": "Заостровье",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.647457564,
+      "yCoordinate": 62.517279067,
+      "isCoordinateApproximate": false
+    },
+    "Сельцо": {
+      "name": "Сельцо",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.764332373,
+      "yCoordinate": 62.476925297,
+      "isCoordinateApproximate": false
+    },
+    "Слуда": {
+      "name": "Слуда",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.857381704,
+      "yCoordinate": 62.430532021,
+      "isCoordinateApproximate": false
+    },
+    "Евдокимовская": {
+      "name": "Евдокимовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.871240976,
+      "yCoordinate": 62.394417457,
+      "isCoordinateApproximate": false
+    },
+    "Кодима": {
+      "name": "Кодима",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.905168414,
+      "yCoordinate": 62.372875055,
+      "isCoordinateApproximate": false
+    },
+    "Кондратовская": {
+      "name": "Кондратовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.933673749,
+      "yCoordinate": 62.366089482,
+      "isCoordinateApproximate": false
+    },
+    "Терешевская": {
+      "name": "Терешевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 43.988776816,
+      "yCoordinate": 62.358803716,
+      "isCoordinateApproximate": false
+    },
+    "Анциферовская": {
+      "name": "Анциферовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.012173217,
+      "yCoordinate": 62.351452226,
+      "isCoordinateApproximate": false
+    },
+    "Осиевская": {
+      "name": "Осиевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.147646568,
+      "yCoordinate": 62.33570028,
+      "isCoordinateApproximate": false
+    },
+    "Автомоновская": {
+      "name": "Автомоновская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.190910678,
+      "yCoordinate": 62.329249368,
+      "isCoordinateApproximate": false
+    },
+    "Останская": {
+      "name": "Останская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.215289099,
+      "yCoordinate": 62.317815955,
+      "isCoordinateApproximate": false
+    },
+    "Копытовская": {
+      "name": "Копытовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.281080859,
+      "yCoordinate": 62.30837628,
+      "isCoordinateApproximate": false
+    },
+    "Власьевская": {
+      "name": "Власьевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.322433835,
+      "yCoordinate": 62.300448666,
+      "isCoordinateApproximate": false
+    },
+    "Ларионовская": {
+      "name": "Ларионовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.651139208,
+      "yCoordinate": 62.323224575,
+      "isCoordinateApproximate": false
+    },
+    "Сосновый": {
+      "name": "Сосновый",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.76170752,
+      "yCoordinate": 62.307591351,
+      "isCoordinateApproximate": false
+    },
+    "Исаковская": {
+      "name": "Исаковская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.765320712,
+      "yCoordinate": 62.260651378,
+      "isCoordinateApproximate": false
+    },
+    "Чаплинская": {
+      "name": "Чаплинская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.799595329,
+      "yCoordinate": 62.230328051,
+      "isCoordinateApproximate": false
+    },
+    "Сойга": {
+      "name": "Сойга",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.874258613,
+      "yCoordinate": 62.227845781,
+      "isCoordinateApproximate": false
+    },
+    "Верхняя Тойма – Левый берег": {
+      "name": "Верхняя Тойма – Левый берег",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.956340499,
+      "yCoordinate": 62.228231588,
+      "isCoordinateApproximate": false
+    },
+    "Приозёрный": {
+      "name": "Приозёрный",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 44.940069834,
+      "yCoordinate": 62.217294664,
+      "isCoordinateApproximate": false
+    },
+    "Абрамково": {
+      "name": "Абрамково",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.086806909,
+      "yCoordinate": 62.088098162,
+      "isCoordinateApproximate": false
+    },
+    "Евлампиевская": {
+      "name": "Евлампиевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.088299096,
+      "yCoordinate": 62.07376545,
+      "isCoordinateApproximate": false
+    },
+    "Гридинская": {
+      "name": "Гридинская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.092699647,
+      "yCoordinate": 62.057913913,
+      "isCoordinateApproximate": false
+    },
+    "Борисовская": {
+      "name": "Борисовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.091368037,
+      "yCoordinate": 62.052884415,
+      "isCoordinateApproximate": false
+    },
+    "Дмитриевская": {
+      "name": "Дмитриевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.088397145,
+      "yCoordinate": 62.047274257,
+      "isCoordinateApproximate": false
+    },
+    "Анфимовская": {
+      "name": "Анфимовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.078418955,
+      "yCoordinate": 62.034003306,
+      "isCoordinateApproximate": false
+    },
+    "Авнюга": {
+      "name": "Авнюга",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.09635972,
+      "yCoordinate": 61.999160247,
+      "isCoordinateApproximate": false
+    },
+    "Глинный Мыс": {
+      "name": "Глинный Мыс",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.129152298,
+      "yCoordinate": 61.968200986,
+      "isCoordinateApproximate": false
+    },
+    "Алексеевская": {
+      "name": "Алексеевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.153141688,
+      "yCoordinate": 61.952844143,
+      "isCoordinateApproximate": false
+    },
+    "Петушиха": {
+      "name": "Петушиха",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.16729491,
+      "yCoordinate": 61.936378237,
+      "isCoordinateApproximate": false
+    },
+    "Куртяевская": {
+      "name": "Куртяевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.17216592,
+      "yCoordinate": 61.924650806,
+      "isCoordinateApproximate": false
+    },
+    "Леонтьевская": {
+      "name": "Леонтьевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.170110037,
+      "yCoordinate": 61.903788133,
+      "isCoordinateApproximate": false
+    },
+    "Ляховская": {
+      "name": "Ляховская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.16471075,
+      "yCoordinate": 61.885184893,
+      "isCoordinateApproximate": false
+    },
+    "Аверкиевская": {
+      "name": "Аверкиевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.1760104,
+      "yCoordinate": 61.866882678,
+      "isCoordinateApproximate": false
+    },
+    "Наумовская": {
+      "name": "Наумовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.175463825,
+      "yCoordinate": 61.85497732,
+      "isCoordinateApproximate": false
+    },
+    "Лукинская": {
+      "name": "Лукинская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.190611279,
+      "yCoordinate": 61.833602314,
+      "isCoordinateApproximate": false
+    },
+    "Кучковская": {
+      "name": "Кучковская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.204645083,
+      "yCoordinate": 61.823049097,
+      "isCoordinateApproximate": false
+    },
+    "Черевково": {
+      "name": "Черевково",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.278965432,
+      "yCoordinate": 61.779522231,
+      "isCoordinateApproximate": false
+    },
+    "2-е отделение": {
+      "name": "2-е отделение",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.331374076,
+      "yCoordinate": 61.722168194,
+      "isCoordinateApproximate": false
+    },
+    "Емельяновская": {
+      "name": "Емельяновская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.385980786,
+      "yCoordinate": 61.705531336,
+      "isCoordinateApproximate": false
+    },
+    "Верхняя Сергиевская": {
+      "name": "Верхняя Сергиевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.413176664,
+      "yCoordinate": 61.697665512,
+      "isCoordinateApproximate": false
+    },
+    "Шилово": {
+      "name": "Шилово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.537688949,
+      "yCoordinate": 61.673571926,
+      "isCoordinateApproximate": false
+    },
+    "Пермогорье": {
+      "name": "Пермогорье",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.627560264,
+      "yCoordinate": 61.630707009,
+      "isCoordinateApproximate": false
+    },
+    "Антропово": {
+      "name": "Антропово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.688567883,
+      "yCoordinate": 61.615000941,
+      "isCoordinateApproximate": false
+    },
+    "Бондари": {
+      "name": "Бондари",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.709162652,
+      "yCoordinate": 61.609408841,
+      "isCoordinateApproximate": false
+    },
+    "Ляпуново": {
+      "name": "Ляпуново",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.727659129,
+      "yCoordinate": 61.603917691,
+      "isCoordinateApproximate": false
+    },
+    "Автостанция Красноборск": {
+      "name": "Автостанция Красноборск",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.954544014,
+      "yCoordinate": 61.558444826,
+      "isCoordinateApproximate": false
+    },
+    "Сазониха": {
+      "name": "Сазониха",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.003088448,
+      "yCoordinate": 61.54388155,
+      "isCoordinateApproximate": false
+    },
+    "Евдская школа": {
+      "name": "Евдская школа",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.029577346,
+      "yCoordinate": 61.533934621,
+      "isCoordinateApproximate": false
+    },
+    "Кузнецово": {
+      "name": "Кузнецово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.099475346,
+      "yCoordinate": 61.515391744,
+      "isCoordinateApproximate": false
+    },
+    "Телегово": {
+      "name": "Телегово",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.156671737,
+      "yCoordinate": 61.501598818,
+      "isCoordinateApproximate": false
+    },
+    "Усть-Канза": {
+      "name": "Усть-Канза",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.160580754,
+      "yCoordinate": 61.488280242,
+      "isCoordinateApproximate": false
+    },
+    "Лежакино": {
+      "name": "Лежакино",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.185119633,
+      "yCoordinate": 61.460179602,
+      "isCoordinateApproximate": false
+    },
+    "Троица": {
+      "name": "Троица",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.199448653,
+      "yCoordinate": 61.450979171,
+      "isCoordinateApproximate": false
+    },
+    "Мишковская": {
+      "name": "Мишковская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.20698733,
+      "yCoordinate": 61.444305231,
+      "isCoordinateApproximate": false
+    },
+    "Новая Канза": {
+      "name": "Новая Канза",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.216591684,
+      "yCoordinate": 61.437283628,
+      "isCoordinateApproximate": false
+    },
+    "Артюковская": {
+      "name": "Артюковская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.228483193,
+      "yCoordinate": 61.43075099,
+      "isCoordinateApproximate": false
+    },
+    "Кунчаевская": {
+      "name": "Кунчаевская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.2322822,
+      "yCoordinate": 61.419881233,
+      "isCoordinateApproximate": false
+    },
+    "Федотовская": {
+      "name": "Федотовская",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.270932101,
+      "yCoordinate": 61.407403402,
+      "isCoordinateApproximate": false
+    },
+    "Комарица": {
+      "name": "Комарица",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.314968681,
+      "yCoordinate": 61.399773717,
+      "isCoordinateApproximate": false
+    },
+    "Кулига-1": {
+      "name": "Кулига-1",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.40321258,
+      "yCoordinate": 61.358814509,
+      "isCoordinateApproximate": false
+    },
+    "Туровец": {
+      "name": "Туровец",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.421538113,
+      "yCoordinate": 61.335973694,
+      "isCoordinateApproximate": false
+    },
+    "Уртомаж": {
+      "name": "Уртомаж",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.50401444,
+      "yCoordinate": 61.310711919,
+      "isCoordinateApproximate": false
+    },
+    "Горка": {
+      "name": "Горка",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.527008857,
+      "yCoordinate": 61.296145347,
+      "isCoordinateApproximate": false
+    },
+    "Автостанция Шипицыно": {
+      "name": "Автостанция Шипицыно",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.519358342,
+      "yCoordinate": 61.278513401,
+      "isCoordinateApproximate": false
+    },
+    "Железнодорожный вокзал Котлас": {
+      "name": "Железнодорожный вокзал Котлас",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.627730349,
+      "yCoordinate": 61.257424697,
+      "isCoordinateApproximate": false
+    },
+    "Вычегодский": {
+      "name": "Вычегодский",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 46.869604,
+      "yCoordinate": 61.247705,
+      "isCoordinateApproximate": false
+    },
+    "Автовокзал Коряжма": {
+      "name": "Автовокзал Коряжма",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 47.180304855,
+      "yCoordinate": 61.306225718,
+      "isCoordinateApproximate": false
+    },
+    "Первомайский": {
+      "name": "Первомайский",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 45.726146363,
+      "yCoordinate": 61.604523224,
+      "isCoordinateApproximate": false
+    },
+    "Пирсы": {
+      "name": "Пирсы",
+      "routeList": [
+        "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма"
+      ],
+      "xCoordinate": 40.526307396,
+      "yCoordinate": 64.510602674,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "Вокзал Северодвинск",
+      "endStop": "Автовокзал Архангельск",
+      "name": "Вокзал Северодвинск -> Автовокзал Архангельск; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 58
+    },
+    {
+      "startStop": "Автовокзал Архангельск",
+      "endStop": "Зелёный Бор",
+      "name": "Автовокзал Архангельск -> Зелёный Бор; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 15
+    },
+    {
+      "startStop": "Зелёный Бор",
+      "endStop": "Беломорье",
+      "name": "Зелёный Бор -> Беломорье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 22
+    },
+    {
+      "startStop": "Беломорье",
+      "endStop": "Холмогорская развилка",
+      "name": "Беломорье -> Холмогорская развилка; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 34
+    },
+    {
+      "startStop": "Холмогорская развилка",
+      "endStop": "Малая Товра",
+      "name": "Холмогорская развилка -> Малая Товра; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Малая Товра",
+      "endStop": "Большая Товра",
+      "name": "Малая Товра -> Большая Товра; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Большая Товра",
+      "endStop": "Новинки",
+      "name": "Большая Товра -> Новинки; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Новинки",
+      "endStop": "Вороновское",
+      "name": "Новинки -> Вороновское; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Вороновское",
+      "endStop": "Копачёво",
+      "name": "Вороновское -> Копачёво; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Копачёво",
+      "endStop": "Голдобиха",
+      "name": "Копачёво -> Голдобиха; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Голдобиха",
+      "endStop": "Пухтаковка",
+      "name": "Голдобиха -> Пухтаковка; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Пухтаковка",
+      "endStop": "Демидово",
+      "name": "Пухтаковка -> Демидово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Демидово",
+      "endStop": "Канзово",
+      "name": "Демидово -> Канзово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Канзово",
+      "endStop": "Великий Двор",
+      "name": "Канзово -> Великий Двор; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Великий Двор",
+      "endStop": "Поворот на Палово",
+      "name": "Великий Двор -> Поворот на Палово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Палово",
+      "endStop": "Ракула",
+      "name": "Поворот на Палово -> Ракула; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Ракула",
+      "endStop": "Среднеконское",
+      "name": "Ракула -> Среднеконское; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Среднеконское",
+      "endStop": "Палишино",
+      "name": "Среднеконское -> Палишино; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Палишино",
+      "endStop": "Брин-Наволок",
+      "name": "Палишино -> Брин-Наволок; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Брин-Наволок",
+      "endStop": "Сия",
+      "name": "Брин-Наволок -> Сия; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 15
+    },
+    {
+      "startStop": "Сия",
+      "endStop": "Емецк",
+      "name": "Сия -> Емецк; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 16
+    },
+    {
+      "startStop": "Емецк",
+      "endStop": "Красный Яр",
+      "name": "Емецк -> Красный Яр; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Красный Яр",
+      "endStop": "Поворот на Зачачье",
+      "name": "Красный Яр -> Поворот на Зачачье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Зачачье",
+      "endStop": "Поворот на Заболотье",
+      "name": "Поворот на Зачачье -> Поворот на Заболотье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Заболотье",
+      "endStop": "Коскошино",
+      "name": "Поворот на Заболотье -> Коскошино; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Коскошино",
+      "endStop": "Ныкола",
+      "name": "Коскошино -> Ныкола; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Ныкола",
+      "endStop": "Звоз",
+      "name": "Ныкола -> Звоз; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Звоз",
+      "endStop": "Орлово",
+      "name": "Звоз -> Орлово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 9
+    },
+    {
+      "startStop": "Орлово",
+      "endStop": "Посёлок Почтовое",
+      "name": "Орлово -> Посёлок Почтовое; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Посёлок Почтовое",
+      "endStop": "Деревня Почтовое",
+      "name": "Посёлок Почтовое -> Деревня Почтовое; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Деревня Почтовое",
+      "endStop": "Монастырёк",
+      "name": "Деревня Почтовое -> Монастырёк; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Монастырёк",
+      "endStop": "Моржегоры",
+      "name": "Монастырёк -> Моржегоры; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Моржегоры",
+      "endStop": "Усть-Морж",
+      "name": "Моржегоры -> Усть-Морж; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Усть-Морж",
+      "endStop": "Хетово",
+      "name": "Усть-Морж -> Хетово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Хетово",
+      "endStop": "Рязаново",
+      "name": "Хетово -> Рязаново; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Рязаново",
+      "endStop": "Гора",
+      "name": "Рязаново -> Гора; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Гора",
+      "endStop": "Шастки",
+      "name": "Гора -> Шастки; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Шастки",
+      "endStop": "Уйта",
+      "name": "Шастки -> Уйта; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Уйта",
+      "endStop": "Усть-Ваеньга",
+      "name": "Уйта -> Усть-Ваеньга; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Усть-Ваеньга",
+      "endStop": "Посёлок Пянда",
+      "name": "Усть-Ваеньга -> Посёлок Пянда; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Посёлок Пянда",
+      "endStop": "Хитровка",
+      "name": "Посёлок Пянда -> Хитровка; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Хитровка",
+      "endStop": "Антоново",
+      "name": "Хитровка -> Антоново; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Антоново",
+      "endStop": "Деревня Пянда",
+      "name": "Антоново -> Деревня Пянда; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Деревня Пянда",
+      "endStop": "Кафе На БАМе",
+      "name": "Деревня Пянда -> Кафе На БАМе; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 19
+    },
+    {
+      "startStop": "Кафе На БАМе",
+      "endStop": "БАМ",
+      "name": "Кафе На БАМе -> БАМ; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "БАМ",
+      "endStop": "Нижнее Чажестрово",
+      "name": "БАМ -> Нижнее Чажестрово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Нижнее Чажестрово",
+      "endStop": "Верхнее Чажестрово",
+      "name": "Нижнее Чажестрово -> Верхнее Чажестрово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Верхнее Чажестрово",
+      "endStop": "Автостанция Двинской Березник",
+      "name": "Верхнее Чажестрово -> Автостанция Двинской Березник; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Автостанция Двинской Березник",
+      "endStop": "Шидрово",
+      "name": "Автостанция Двинской Березник -> Шидрово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 9
+    },
+    {
+      "startStop": "Шидрово",
+      "endStop": "Усть-Вага",
+      "name": "Шидрово -> Усть-Вага; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Усть-Вага",
+      "endStop": "Котласский поворот",
+      "name": "Усть-Вага -> Котласский поворот; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Котласский поворот",
+      "endStop": "Чамово",
+      "name": "Котласский поворот -> Чамово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 13
+    },
+    {
+      "startStop": "Чамово",
+      "endStop": "Шужега",
+      "name": "Чамово -> Шужега; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Шужега",
+      "endStop": "Попово",
+      "name": "Шужега -> Попово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Попово",
+      "endStop": "Поворот на Рочегду",
+      "name": "Попово -> Поворот на Рочегду; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Рочегду",
+      "endStop": "Масловская",
+      "name": "Поворот на Рочегду -> Масловская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 12
+    },
+    {
+      "startStop": "Масловская",
+      "endStop": "Река Тулгас",
+      "name": "Масловская -> Река Тулгас; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Река Тулгас",
+      "endStop": "Заостровье",
+      "name": "Река Тулгас -> Заостровье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 9
+    },
+    {
+      "startStop": "Заостровье",
+      "endStop": "Сельцо",
+      "name": "Заостровье -> Сельцо; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 8
+    },
+    {
+      "startStop": "Сельцо",
+      "endStop": "Слуда",
+      "name": "Сельцо -> Слуда; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Слуда",
+      "endStop": "Евдокимовская",
+      "name": "Слуда -> Евдокимовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Евдокимовская",
+      "endStop": "Кодима",
+      "name": "Евдокимовская -> Кодима; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Кодима",
+      "endStop": "Кондратовская",
+      "name": "Кодима -> Кондратовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Кондратовская",
+      "endStop": "Терешевская",
+      "name": "Кондратовская -> Терешевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Терешевская",
+      "endStop": "Анциферовская",
+      "name": "Терешевская -> Анциферовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Анциферовская",
+      "endStop": "Осиевская",
+      "name": "Анциферовская -> Осиевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Осиевская",
+      "endStop": "Автомоновская",
+      "name": "Осиевская -> Автомоновская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Автомоновская",
+      "endStop": "Останская",
+      "name": "Автомоновская -> Останская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Останская",
+      "endStop": "Копытовская",
+      "name": "Останская -> Копытовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Копытовская",
+      "endStop": "Власьевская",
+      "name": "Копытовская -> Власьевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Власьевская",
+      "endStop": "Ларионовская",
+      "name": "Власьевская -> Ларионовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 17
+    },
+    {
+      "startStop": "Ларионовская",
+      "endStop": "Сосновый",
+      "name": "Ларионовская -> Сосновый; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 9
+    },
+    {
+      "startStop": "Сосновый",
+      "endStop": "Исаковская",
+      "name": "Сосновый -> Исаковская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Исаковская",
+      "endStop": "Чаплинская",
+      "name": "Исаковская -> Чаплинская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Чаплинская",
+      "endStop": "Сойга",
+      "name": "Чаплинская -> Сойга; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Сойга",
+      "endStop": "Верхняя Тойма – Левый берег",
+      "name": "Сойга -> Верхняя Тойма – Левый берег; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Верхняя Тойма – Левый берег",
+      "endStop": "Приозёрный",
+      "name": "Верхняя Тойма – Левый берег -> Приозёрный; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Приозёрный",
+      "endStop": "Абрамково",
+      "name": "Приозёрный -> Абрамково; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 14
+    },
+    {
+      "startStop": "Абрамково",
+      "endStop": "Евлампиевская",
+      "name": "Абрамково -> Евлампиевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Евлампиевская",
+      "endStop": "Гридинская",
+      "name": "Евлампиевская -> Гридинская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Гридинская",
+      "endStop": "Борисовская",
+      "name": "Гридинская -> Борисовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Борисовская",
+      "endStop": "Дмитриевская",
+      "name": "Борисовская -> Дмитриевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Дмитриевская",
+      "endStop": "Анфимовская",
+      "name": "Дмитриевская -> Анфимовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Анфимовская",
+      "endStop": "Авнюга",
+      "name": "Анфимовская -> Авнюга; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 36
+    },
+    {
+      "startStop": "Авнюга",
+      "endStop": "Глинный Мыс",
+      "name": "Авнюга -> Глинный Мыс; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Глинный Мыс",
+      "endStop": "Алексеевская",
+      "name": "Глинный Мыс -> Алексеевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Алексеевская",
+      "endStop": "Петушиха",
+      "name": "Алексеевская -> Петушиха; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Петушиха",
+      "endStop": "Куртяевская",
+      "name": "Петушиха -> Куртяевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Куртяевская",
+      "endStop": "Леонтьевская",
+      "name": "Куртяевская -> Леонтьевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Леонтьевская",
+      "endStop": "Ляховская",
+      "name": "Леонтьевская -> Ляховская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Ляховская",
+      "endStop": "Аверкиевская",
+      "name": "Ляховская -> Аверкиевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Аверкиевская",
+      "endStop": "Наумовская",
+      "name": "Аверкиевская -> Наумовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Наумовская",
+      "endStop": "Лукинская",
+      "name": "Наумовская -> Лукинская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Лукинская",
+      "endStop": "Кучковская",
+      "name": "Лукинская -> Кучковская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Кучковская",
+      "endStop": "Черевково",
+      "name": "Кучковская -> Черевково; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Черевково",
+      "endStop": "2-е отделение",
+      "name": "Черевково -> 2-е отделение; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 10
+    },
+    {
+      "startStop": "2-е отделение",
+      "endStop": "Емельяновская",
+      "name": "2-е отделение -> Емельяновская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Емельяновская",
+      "endStop": "Верхняя Сергиевская",
+      "name": "Емельяновская -> Верхняя Сергиевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Верхняя Сергиевская",
+      "endStop": "Шилово",
+      "name": "Верхняя Сергиевская -> Шилово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 11
+    },
+    {
+      "startStop": "Шилово",
+      "endStop": "Пермогорье",
+      "name": "Шилово -> Пермогорье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 9
+    },
+    {
+      "startStop": "Пермогорье",
+      "endStop": "Антропово",
+      "name": "Пермогорье -> Антропово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Антропово",
+      "endStop": "Бондари",
+      "name": "Антропово -> Бондари; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Бондари",
+      "endStop": "Ляпуново",
+      "name": "Бондари -> Ляпуново; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Ляпуново",
+      "endStop": "Автостанция Красноборск",
+      "name": "Ляпуново -> Автостанция Красноборск; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 27
+    },
+    {
+      "startStop": "Автостанция Красноборск",
+      "endStop": "Сазониха",
+      "name": "Автостанция Красноборск -> Сазониха; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Сазониха",
+      "endStop": "Евдская школа",
+      "name": "Сазониха -> Евдская школа; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Евдская школа",
+      "endStop": "Кузнецово",
+      "name": "Евдская школа -> Кузнецово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Кузнецово",
+      "endStop": "Телегово",
+      "name": "Кузнецово -> Телегово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Телегово",
+      "endStop": "Усть-Канза",
+      "name": "Телегово -> Усть-Канза; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Усть-Канза",
+      "endStop": "Лежакино",
+      "name": "Усть-Канза -> Лежакино; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Лежакино",
+      "endStop": "Троица",
+      "name": "Лежакино -> Троица; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Троица",
+      "endStop": "Мишковская",
+      "name": "Троица -> Мишковская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Мишковская",
+      "endStop": "Новая Канза",
+      "name": "Мишковская -> Новая Канза; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Новая Канза",
+      "endStop": "Артюковская",
+      "name": "Новая Канза -> Артюковская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Артюковская",
+      "endStop": "Кунчаевская",
+      "name": "Артюковская -> Кунчаевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Кунчаевская",
+      "endStop": "Федотовская",
+      "name": "Кунчаевская -> Федотовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Федотовская",
+      "endStop": "Комарица",
+      "name": "Федотовская -> Комарица; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Комарица",
+      "endStop": "Кузнецово",
+      "name": "Комарица -> Кузнецово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Кузнецово",
+      "endStop": "Кулига-1",
+      "name": "Кузнецово -> Кулига-1; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Кулига-1",
+      "endStop": "Туровец",
+      "name": "Кулига-1 -> Туровец; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Туровец",
+      "endStop": "Уртомаж",
+      "name": "Туровец -> Уртомаж; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Уртомаж",
+      "endStop": "Горка",
+      "name": "Уртомаж -> Горка; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Горка",
+      "endStop": "Автостанция Шипицыно",
+      "name": "Горка -> Автостанция Шипицыно; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Автостанция Шипицыно",
+      "endStop": "Железнодорожный вокзал Котлас",
+      "name": "Автостанция Шипицыно -> Железнодорожный вокзал Котлас; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 19
+    },
+    {
+      "startStop": "Железнодорожный вокзал Котлас",
+      "endStop": "Вычегодский",
+      "name": "Железнодорожный вокзал Котлас -> Вычегодский; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 33
+    },
+    {
+      "startStop": "Вычегодский",
+      "endStop": "Автовокзал Коряжма",
+      "name": "Вычегодский -> Автовокзал Коряжма; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 36
+    },
+    {
+      "startStop": "Автовокзал Коряжма",
+      "endStop": "Вычегодский",
+      "name": "Автовокзал Коряжма -> Вычегодский; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 25
+    },
+    {
+      "startStop": "Вычегодский",
+      "endStop": "Железнодорожный вокзал Котлас",
+      "name": "Вычегодский -> Железнодорожный вокзал Котлас; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 40
+    },
+    {
+      "startStop": "Железнодорожный вокзал Котлас",
+      "endStop": "Автостанция Шипицыно",
+      "name": "Железнодорожный вокзал Котлас -> Автостанция Шипицыно; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 17
+    },
+    {
+      "startStop": "Автостанция Шипицыно",
+      "endStop": "Горка",
+      "name": "Автостанция Шипицыно -> Горка; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Горка",
+      "endStop": "Туровец",
+      "name": "Горка -> Туровец; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Туровец",
+      "endStop": "Кулига-1",
+      "name": "Туровец -> Кулига-1; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Кулига-1",
+      "endStop": "Кузнецово",
+      "name": "Кулига-1 -> Кузнецово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Кузнецово",
+      "endStop": "Комарица",
+      "name": "Кузнецово -> Комарица; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Комарица",
+      "endStop": "Федотовская",
+      "name": "Комарица -> Федотовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Федотовская",
+      "endStop": "Кунчаевская",
+      "name": "Федотовская -> Кунчаевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Кунчаевская",
+      "endStop": "Артюковская",
+      "name": "Кунчаевская -> Артюковская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Артюковская",
+      "endStop": "Новая Канза",
+      "name": "Артюковская -> Новая Канза; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Новая Канза",
+      "endStop": "Мишковская",
+      "name": "Новая Канза -> Мишковская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Мишковская",
+      "endStop": "Троица",
+      "name": "Мишковская -> Троица; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Троица",
+      "endStop": "Лежакино",
+      "name": "Троица -> Лежакино; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Лежакино",
+      "endStop": "Кондратовская",
+      "name": "Лежакино -> Кондратовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Кондратовская",
+      "endStop": "Усть-Канза",
+      "name": "Кондратовская -> Усть-Канза; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Усть-Канза",
+      "endStop": "Телегово",
+      "name": "Усть-Канза -> Телегово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Телегово",
+      "endStop": "Кузнецово",
+      "name": "Телегово -> Кузнецово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Кузнецово",
+      "endStop": "Евдская школа",
+      "name": "Кузнецово -> Евдская школа; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Евдская школа",
+      "endStop": "Сазониха",
+      "name": "Евдская школа -> Сазониха; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Сазониха",
+      "endStop": "Автостанция Красноборск",
+      "name": "Сазониха -> Автостанция Красноборск; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Автостанция Красноборск",
+      "endStop": "Первомайский",
+      "name": "Автостанция Красноборск -> Первомайский; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 14
+    },
+    {
+      "startStop": "Первомайский",
+      "endStop": "Бондари",
+      "name": "Первомайский -> Бондари; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Бондари",
+      "endStop": "Антропово",
+      "name": "Бондари -> Антропово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Антропово",
+      "endStop": "Пермогорье",
+      "name": "Антропово -> Пермогорье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Пермогорье",
+      "endStop": "Шилово",
+      "name": "Пермогорье -> Шилово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Шилово",
+      "endStop": "Верхняя Сергиевская",
+      "name": "Шилово -> Верхняя Сергиевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Верхняя Сергиевская",
+      "endStop": "Емельяновская",
+      "name": "Верхняя Сергиевская -> Емельяновская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Емельяновская",
+      "endStop": "2-е отделение",
+      "name": "Емельяновская -> 2-е отделение; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "2-е отделение",
+      "endStop": "Черевково",
+      "name": "2-е отделение -> Черевково; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Черевково",
+      "endStop": "Кучковская",
+      "name": "Черевково -> Кучковская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Кучковская",
+      "endStop": "Лукинская",
+      "name": "Кучковская -> Лукинская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Лукинская",
+      "endStop": "Наумовская",
+      "name": "Лукинская -> Наумовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Наумовская",
+      "endStop": "Аверкиевская",
+      "name": "Наумовская -> Аверкиевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Аверкиевская",
+      "endStop": "Ляховская",
+      "name": "Аверкиевская -> Ляховская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Ляховская",
+      "endStop": "Леонтьевская",
+      "name": "Ляховская -> Леонтьевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Леонтьевская",
+      "endStop": "Куртяевская",
+      "name": "Леонтьевская -> Куртяевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Куртяевская",
+      "endStop": "Петушиха",
+      "name": "Куртяевская -> Петушиха; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Петушиха",
+      "endStop": "Алексеевская",
+      "name": "Петушиха -> Алексеевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Алексеевская",
+      "endStop": "Глинный Мыс",
+      "name": "Алексеевская -> Глинный Мыс; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Глинный Мыс",
+      "endStop": "Авнюга",
+      "name": "Глинный Мыс -> Авнюга; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Авнюга",
+      "endStop": "Анфимовская",
+      "name": "Авнюга -> Анфимовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Анфимовская",
+      "endStop": "Дмитриевская",
+      "name": "Анфимовская -> Дмитриевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Дмитриевская",
+      "endStop": "Борисовская",
+      "name": "Дмитриевская -> Борисовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Борисовская",
+      "endStop": "Гридинская",
+      "name": "Борисовская -> Гридинская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Гридинская",
+      "endStop": "Евлампиевская",
+      "name": "Гридинская -> Евлампиевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Евлампиевская",
+      "endStop": "Абрамково",
+      "name": "Евлампиевская -> Абрамково; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Абрамково",
+      "endStop": "Приозёрный",
+      "name": "Абрамково -> Приозёрный; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 15
+    },
+    {
+      "startStop": "Приозёрный",
+      "endStop": "Верхняя Тойма – Левый берег",
+      "name": "Приозёрный -> Верхняя Тойма – Левый берег; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Верхняя Тойма – Левый берег",
+      "endStop": "Сойга",
+      "name": "Верхняя Тойма – Левый берег -> Сойга; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Сойга",
+      "endStop": "Чаплинская",
+      "name": "Сойга -> Чаплинская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Чаплинская",
+      "endStop": "Исаковская",
+      "name": "Чаплинская -> Исаковская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Исаковская",
+      "endStop": "Сосновый",
+      "name": "Исаковская -> Сосновый; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Сосновый",
+      "endStop": "Ларионовская",
+      "name": "Сосновый -> Ларионовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Ларионовская",
+      "endStop": "Власьевская",
+      "name": "Ларионовская -> Власьевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 16
+    },
+    {
+      "startStop": "Власьевская",
+      "endStop": "Копытовская",
+      "name": "Власьевская -> Копытовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Копытовская",
+      "endStop": "Останская",
+      "name": "Копытовская -> Останская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Останская",
+      "endStop": "Автомоновская",
+      "name": "Останская -> Автомоновская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Автомоновская",
+      "endStop": "Осиевская",
+      "name": "Автомоновская -> Осиевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Осиевская",
+      "endStop": "Анциферовская",
+      "name": "Осиевская -> Анциферовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Анциферовская",
+      "endStop": "Терешевская",
+      "name": "Анциферовская -> Терешевская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Терешевская",
+      "endStop": "Кондратовская",
+      "name": "Терешевская -> Кондратовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Кондратовская",
+      "endStop": "Кодима",
+      "name": "Кондратовская -> Кодима; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Кодима",
+      "endStop": "Евдокимовская",
+      "name": "Кодима -> Евдокимовская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Евдокимовская",
+      "endStop": "Слуда",
+      "name": "Евдокимовская -> Слуда; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Слуда",
+      "endStop": "Сельцо",
+      "name": "Слуда -> Сельцо; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Сельцо",
+      "endStop": "Заостровье",
+      "name": "Сельцо -> Заостровье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Заостровье",
+      "endStop": "Река Тулгас",
+      "name": "Заостровье -> Река Тулгас; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 9
+    },
+    {
+      "startStop": "Река Тулгас",
+      "endStop": "Масловская",
+      "name": "Река Тулгас -> Масловская; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Масловская",
+      "endStop": "Поворот на Рочегду",
+      "name": "Масловская -> Поворот на Рочегду; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Поворот на Рочегду",
+      "endStop": "Попово",
+      "name": "Поворот на Рочегду -> Попово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Попово",
+      "endStop": "Шужега",
+      "name": "Попово -> Шужега; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Шужега",
+      "endStop": "Чамово",
+      "name": "Шужега -> Чамово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Чамово",
+      "endStop": "Усть-Вага",
+      "name": "Чамово -> Усть-Вага; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 19
+    },
+    {
+      "startStop": "Усть-Вага",
+      "endStop": "Шидрово",
+      "name": "Усть-Вага -> Шидрово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Шидрово",
+      "endStop": "Автостанция Двинской Березник",
+      "name": "Шидрово -> Автостанция Двинской Березник; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 9
+    },
+    {
+      "startStop": "Автостанция Двинской Березник",
+      "endStop": "Верхнее Чажестрово",
+      "name": "Автостанция Двинской Березник -> Верхнее Чажестрово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Верхнее Чажестрово",
+      "endStop": "Нижнее Чажестрово",
+      "name": "Верхнее Чажестрово -> Нижнее Чажестрово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Нижнее Чажестрово",
+      "endStop": "Кафе На БАМе",
+      "name": "Нижнее Чажестрово -> Кафе На БАМе; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 26
+    },
+    {
+      "startStop": "БАМ",
+      "endStop": "Деревня Пянда",
+      "name": "БАМ -> Деревня Пянда; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Деревня Пянда",
+      "endStop": "Антоново",
+      "name": "Деревня Пянда -> Антоново; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Антоново",
+      "endStop": "Хитровка",
+      "name": "Антоново -> Хитровка; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Хитровка",
+      "endStop": "Посёлок Пянда",
+      "name": "Хитровка -> Посёлок Пянда; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Посёлок Пянда",
+      "endStop": "Усть-Ваеньга",
+      "name": "Посёлок Пянда -> Усть-Ваеньга; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Усть-Ваеньга",
+      "endStop": "Уйта",
+      "name": "Усть-Ваеньга -> Уйта; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Уйта",
+      "endStop": "Шастки",
+      "name": "Уйта -> Шастки; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Шастки",
+      "endStop": "Гора",
+      "name": "Шастки -> Гора; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Гора",
+      "endStop": "Рязаново",
+      "name": "Гора -> Рязаново; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Рязаново",
+      "endStop": "Хетово",
+      "name": "Рязаново -> Хетово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Хетово",
+      "endStop": "Усть-Морж",
+      "name": "Хетово -> Усть-Морж; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Усть-Морж",
+      "endStop": "Моржегоры",
+      "name": "Усть-Морж -> Моржегоры; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Моржегоры",
+      "endStop": "Монастырёк",
+      "name": "Моржегоры -> Монастырёк; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Монастырёк",
+      "endStop": "Деревня Почтовое",
+      "name": "Монастырёк -> Деревня Почтовое; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Деревня Почтовое",
+      "endStop": "Посёлок Почтовое",
+      "name": "Деревня Почтовое -> Посёлок Почтовое; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Посёлок Почтовое",
+      "endStop": "Орлово",
+      "name": "Посёлок Почтовое -> Орлово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Орлово",
+      "endStop": "Звоз",
+      "name": "Орлово -> Звоз; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 8
+    },
+    {
+      "startStop": "Звоз",
+      "endStop": "Ныкола",
+      "name": "Звоз -> Ныкола; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Ныкола",
+      "endStop": "Коскошино",
+      "name": "Ныкола -> Коскошино; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Коскошино",
+      "endStop": "Поворот на Заболотье",
+      "name": "Коскошино -> Поворот на Заболотье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Заболотье",
+      "endStop": "Поворот на Зачачье",
+      "name": "Поворот на Заболотье -> Поворот на Зачачье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Зачачье",
+      "endStop": "Красный Яр",
+      "name": "Поворот на Зачачье -> Красный Яр; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Красный Яр",
+      "endStop": "Емецк",
+      "name": "Красный Яр -> Емецк; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Емецк",
+      "endStop": "Сия",
+      "name": "Емецк -> Сия; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 15
+    },
+    {
+      "startStop": "Сия",
+      "endStop": "Брин-Наволок",
+      "name": "Сия -> Брин-Наволок; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 15
+    },
+    {
+      "startStop": "Брин-Наволок",
+      "endStop": "Палишино",
+      "name": "Брин-Наволок -> Палишино; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Палишино",
+      "endStop": "Среднеконское",
+      "name": "Палишино -> Среднеконское; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 5
+    },
+    {
+      "startStop": "Среднеконское",
+      "endStop": "Ракула",
+      "name": "Среднеконское -> Ракула; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Ракула",
+      "endStop": "Поворот на Палово",
+      "name": "Ракула -> Поворот на Палово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Палово",
+      "endStop": "Великий Двор",
+      "name": "Поворот на Палово -> Великий Двор; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Великий Двор",
+      "endStop": "Канзово",
+      "name": "Великий Двор -> Канзово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Канзово",
+      "endStop": "Демидово",
+      "name": "Канзово -> Демидово; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 6
+    },
+    {
+      "startStop": "Демидово",
+      "endStop": "Пухтаковка",
+      "name": "Демидово -> Пухтаковка; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 1
+    },
+    {
+      "startStop": "Пухтаковка",
+      "endStop": "Голдобиха",
+      "name": "Пухтаковка -> Голдобиха; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Голдобиха",
+      "endStop": "Копачёво",
+      "name": "Голдобиха -> Копачёво; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Копачёво",
+      "endStop": "Вороновское",
+      "name": "Копачёво -> Вороновское; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 7
+    },
+    {
+      "startStop": "Вороновское",
+      "endStop": "Новинки",
+      "name": "Вороновское -> Новинки; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 2
+    },
+    {
+      "startStop": "Новинки",
+      "endStop": "Большая Товра",
+      "name": "Новинки -> Большая Товра; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Большая Товра",
+      "endStop": "Малая Товра",
+      "name": "Большая Товра -> Малая Товра; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 3
+    },
+    {
+      "startStop": "Малая Товра",
+      "endStop": "Холмогорская развилка",
+      "name": "Малая Товра -> Холмогорская развилка; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 4
+    },
+    {
+      "startStop": "Холмогорская развилка",
+      "endStop": "Беломорье",
+      "name": "Холмогорская развилка -> Беломорье; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 33
+    },
+    {
+      "startStop": "Беломорье",
+      "endStop": "Зелёный Бор",
+      "name": "Беломорье -> Зелёный Бор; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 23
+    },
+    {
+      "startStop": "Зелёный Бор",
+      "endStop": "Автовокзал Архангельск",
+      "name": "Зелёный Бор -> Автовокзал Архангельск; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 23
+    },
+    {
+      "startStop": "Автовокзал Архангельск",
+      "endStop": "Пирсы",
+      "name": "Автовокзал Архангельск -> Пирсы; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 12
+    },
+    {
+      "startStop": "Пирсы",
+      "endStop": "Вокзал Северодвинск",
+      "name": "Пирсы -> Вокзал Северодвинск; route_name: Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "route": "Автобус 622        Вокзал Северодвинск — Автовокзал Коряжма",
+      "duration": 36
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "Вокзал Северодвинск",
+      "timePoint": "06:00"
+    },
+    {
+      "stopName": "Автовокзал Архангельск",
+      "timePoint": "06:58"
+    },
+    {
+      "stopName": "Зелёный Бор",
+      "timePoint": "07:13"
+    },
+    {
+      "stopName": "Беломорье",
+      "timePoint": "07:35"
+    },
+    {
+      "stopName": "Холмогорская развилка",
+      "timePoint": "08:09"
+    },
+    {
+      "stopName": "Малая Товра",
+      "timePoint": "08:14"
+    },
+    {
+      "stopName": "Большая Товра",
+      "timePoint": "08:17"
+    },
+    {
+      "stopName": "Новинки",
+      "timePoint": "08:20"
+    },
+    {
+      "stopName": "Вороновское",
+      "timePoint": "08:23"
+    },
+    {
+      "stopName": "Копачёво",
+      "timePoint": "08:30"
+    },
+    {
+      "stopName": "Голдобиха",
+      "timePoint": "08:32"
+    },
+    {
+      "stopName": "Пухтаковка",
+      "timePoint": "08:35"
+    },
+    {
+      "stopName": "Демидово",
+      "timePoint": "08:36"
+    },
+    {
+      "stopName": "Канзово",
+      "timePoint": "08:43"
+    },
+    {
+      "stopName": "Великий Двор",
+      "timePoint": "08:44"
+    },
+    {
+      "stopName": "Поворот на Палово",
+      "timePoint": "08:46"
+    },
+    {
+      "stopName": "Ракула",
+      "timePoint": "08:48"
+    },
+    {
+      "stopName": "Среднеконское",
+      "timePoint": "08:50"
+    },
+    {
+      "stopName": "Палишино",
+      "timePoint": "08:55"
+    },
+    {
+      "stopName": "Брин-Наволок",
+      "timePoint": "08:58"
+    },
+    {
+      "stopName": "Сия",
+      "timePoint": "09:13"
+    },
+    {
+      "stopName": "Емецк",
+      "timePoint": "09:29"
+    },
+    {
+      "stopName": "Красный Яр",
+      "timePoint": "09:32"
+    },
+    {
+      "stopName": "Поворот на Зачачье",
+      "timePoint": "09:36"
+    },
+    {
+      "stopName": "Поворот на Заболотье",
+      "timePoint": "09:41"
+    },
+    {
+      "stopName": "Коскошино",
+      "timePoint": "09:43"
+    },
+    {
+      "stopName": "Ныкола",
+      "timePoint": "09:48"
+    },
+    {
+      "stopName": "Звоз",
+      "timePoint": "09:52"
+    },
+    {
+      "stopName": "Орлово",
+      "timePoint": "10:01"
+    },
+    {
+      "stopName": "Посёлок Почтовое",
+      "timePoint": "10:05"
+    },
+    {
+      "stopName": "Деревня Почтовое",
+      "timePoint": "10:08"
+    },
+    {
+      "stopName": "Монастырёк",
+      "timePoint": "10:15"
+    },
+    {
+      "stopName": "Моржегоры",
+      "timePoint": "10:20"
+    },
+    {
+      "stopName": "Усть-Морж",
+      "timePoint": "10:27"
+    },
+    {
+      "stopName": "Хетово",
+      "timePoint": "10:29"
+    },
+    {
+      "stopName": "Рязаново",
+      "timePoint": "10:31"
+    },
+    {
+      "stopName": "Гора",
+      "timePoint": "10:33"
+    },
+    {
+      "stopName": "Шастки",
+      "timePoint": "10:35"
+    },
+    {
+      "stopName": "Уйта",
+      "timePoint": "10:38"
+    },
+    {
+      "stopName": "Усть-Ваеньга",
+      "timePoint": "10:42"
+    },
+    {
+      "stopName": "Посёлок Пянда",
+      "timePoint": "10:45"
+    },
+    {
+      "stopName": "Хитровка",
+      "timePoint": "10:46"
+    },
+    {
+      "stopName": "Антоново",
+      "timePoint": "10:47"
+    },
+    {
+      "stopName": "Деревня Пянда",
+      "timePoint": "10:49"
+    },
+    {
+      "stopName": "Кафе На БАМе",
+      "timePoint": "11:08"
+    },
+    {
+      "stopName": "БАМ",
+      "timePoint": "11:10"
+    },
+    {
+      "stopName": "Нижнее Чажестрово",
+      "timePoint": "11:11"
+    },
+    {
+      "stopName": "Верхнее Чажестрово",
+      "timePoint": "11:13"
+    },
+    {
+      "stopName": "Автостанция Двинской Березник",
+      "timePoint": "11:20"
+    },
+    {
+      "stopName": "Шидрово",
+      "timePoint": "11:29"
+    },
+    {
+      "stopName": "Усть-Вага",
+      "timePoint": "11:36"
+    },
+    {
+      "stopName": "Котласский поворот",
+      "timePoint": "11:42"
+    },
+    {
+      "stopName": "Чамово",
+      "timePoint": "11:55"
+    },
+    {
+      "stopName": "Шужега",
+      "timePoint": "12:02"
+    },
+    {
+      "stopName": "Попово",
+      "timePoint": "12:04"
+    },
+    {
+      "stopName": "Поворот на Рочегду",
+      "timePoint": "12:06"
+    },
+    {
+      "stopName": "Масловская",
+      "timePoint": "12:18"
+    },
+    {
+      "stopName": "Река Тулгас",
+      "timePoint": "12:20"
+    },
+    {
+      "stopName": "Заостровье",
+      "timePoint": "12:29"
+    },
+    {
+      "stopName": "Сельцо",
+      "timePoint": "12:37"
+    },
+    {
+      "stopName": "Слуда",
+      "timePoint": "12:43"
+    },
+    {
+      "stopName": "Евдокимовская",
+      "timePoint": "12:47"
+    },
+    {
+      "stopName": "Кодима",
+      "timePoint": "12:50"
+    },
+    {
+      "stopName": "Кондратовская",
+      "timePoint": "12:52"
+    },
+    {
+      "stopName": "Терешевская",
+      "timePoint": "12:54"
+    },
+    {
+      "stopName": "Анциферовская",
+      "timePoint": "12:56"
+    },
+    {
+      "stopName": "Осиевская",
+      "timePoint": "13:03"
+    },
+    {
+      "stopName": "Автомоновская",
+      "timePoint": "13:06"
+    },
+    {
+      "stopName": "Останская",
+      "timePoint": "13:07"
+    },
+    {
+      "stopName": "Копытовская",
+      "timePoint": "13:11"
+    },
+    {
+      "stopName": "Власьевская",
+      "timePoint": "13:13"
+    },
+    {
+      "stopName": "Ларионовская",
+      "timePoint": "13:30"
+    },
+    {
+      "stopName": "Сосновый",
+      "timePoint": "13:39"
+    },
+    {
+      "stopName": "Исаковская",
+      "timePoint": "13:46"
+    },
+    {
+      "stopName": "Чаплинская",
+      "timePoint": "13:52"
+    },
+    {
+      "stopName": "Сойга",
+      "timePoint": "13:57"
+    },
+    {
+      "stopName": "Верхняя Тойма – Левый берег",
+      "timePoint": "14:01"
+    },
+    {
+      "stopName": "Приозёрный",
+      "timePoint": "14:04"
+    },
+    {
+      "stopName": "Абрамково",
+      "timePoint": "14:18"
+    },
+    {
+      "stopName": "Евлампиевская",
+      "timePoint": "14:20"
+    },
+    {
+      "stopName": "Гридинская",
+      "timePoint": "14:23"
+    },
+    {
+      "stopName": "Борисовская",
+      "timePoint": "14:24"
+    },
+    {
+      "stopName": "Дмитриевская",
+      "timePoint": "14:25"
+    },
+    {
+      "stopName": "Анфимовская",
+      "timePoint": "14:27"
+    },
+    {
+      "stopName": "Авнюга",
+      "timePoint": "15:03"
+    },
+    {
+      "stopName": "Глинный Мыс",
+      "timePoint": "15:07"
+    },
+    {
+      "stopName": "Алексеевская",
+      "timePoint": "15:09"
+    },
+    {
+      "stopName": "Петушиха",
+      "timePoint": "15:11"
+    },
+    {
+      "stopName": "Куртяевская",
+      "timePoint": "15:13"
+    },
+    {
+      "stopName": "Леонтьевская",
+      "timePoint": "15:15"
+    },
+    {
+      "stopName": "Ляховская",
+      "timePoint": "15:17"
+    },
+    {
+      "stopName": "Аверкиевская",
+      "timePoint": "15:20"
+    },
+    {
+      "stopName": "Наумовская",
+      "timePoint": "15:21"
+    },
+    {
+      "stopName": "Лукинская",
+      "timePoint": "15:23"
+    },
+    {
+      "stopName": "Кучковская",
+      "timePoint": "15:24"
+    },
+    {
+      "stopName": "Черевково",
+      "timePoint": "15:31"
+    },
+    {
+      "stopName": "2-е отделение",
+      "timePoint": "15:41"
+    },
+    {
+      "stopName": "Емельяновская",
+      "timePoint": "15:45"
+    },
+    {
+      "stopName": "Верхняя Сергиевская",
+      "timePoint": "15:48"
+    },
+    {
+      "stopName": "Шилово",
+      "timePoint": "15:59"
+    },
+    {
+      "stopName": "Пермогорье",
+      "timePoint": "16:08"
+    },
+    {
+      "stopName": "Антропово",
+      "timePoint": "16:14"
+    },
+    {
+      "stopName": "Бондари",
+      "timePoint": "16:16"
+    },
+    {
+      "stopName": "Ляпуново",
+      "timePoint": "16:17"
+    },
+    {
+      "stopName": "Автостанция Красноборск",
+      "timePoint": "16:44"
+    },
+    {
+      "stopName": "Сазониха",
+      "timePoint": "16:47"
+    },
+    {
+      "stopName": "Евдская школа",
+      "timePoint": "16:49"
+    },
+    {
+      "stopName": "Кузнецово",
+      "timePoint": "16:53"
+    },
+    {
+      "stopName": "Телегово",
+      "timePoint": "16:57"
+    },
+    {
+      "stopName": "Усть-Канза",
+      "timePoint": "16:59"
+    },
+    {
+      "stopName": "Лежакино",
+      "timePoint": "17:02"
+    },
+    {
+      "stopName": "Троица",
+      "timePoint": "17:04"
+    },
+    {
+      "stopName": "Мишковская",
+      "timePoint": "17:05"
+    },
+    {
+      "stopName": "Новая Канза",
+      "timePoint": "17:06"
+    },
+    {
+      "stopName": "Артюковская",
+      "timePoint": "17:07"
+    },
+    {
+      "stopName": "Кунчаевская",
+      "timePoint": "17:08"
+    },
+    {
+      "stopName": "Федотовская",
+      "timePoint": "17:11"
+    },
+    {
+      "stopName": "Комарица",
+      "timePoint": "17:14"
+    },
+    {
+      "stopName": "Кузнецово",
+      "timePoint": "17:16"
+    },
+    {
+      "stopName": "Кулига-1",
+      "timePoint": "17:21"
+    },
+    {
+      "stopName": "Туровец",
+      "timePoint": "17:23"
+    },
+    {
+      "stopName": "Уртомаж",
+      "timePoint": "17:29"
+    },
+    {
+      "stopName": "Горка",
+      "timePoint": "17:32"
+    },
+    {
+      "stopName": "Автостанция Шипицыно",
+      "timePoint": "17:35"
+    },
+    {
+      "stopName": "Железнодорожный вокзал Котлас",
+      "timePoint": "17:54"
+    },
+    {
+      "stopName": "Вычегодский",
+      "timePoint": "18:27"
+    },
+    {
+      "stopName": "Автовокзал Коряжма",
+      "timePoint": "19:03"
+    },
+    {
+      "stopName": "Автовокзал Коряжма",
+      "timePoint": "08:45"
+    },
+    {
+      "stopName": "Вычегодский",
+      "timePoint": "09:10"
+    },
+    {
+      "stopName": "Железнодорожный вокзал Котлас",
+      "timePoint": "09:50"
+    },
+    {
+      "stopName": "Автостанция Шипицыно",
+      "timePoint": "10:07"
+    },
+    {
+      "stopName": "Горка",
+      "timePoint": "10:09"
+    },
+    {
+      "stopName": "Туровец",
+      "timePoint": "10:14"
+    },
+    {
+      "stopName": "Кулига-1",
+      "timePoint": "10:16"
+    },
+    {
+      "stopName": "Кузнецово",
+      "timePoint": "10:19"
+    },
+    {
+      "stopName": "Комарица",
+      "timePoint": "10:22"
+    },
+    {
+      "stopName": "Федотовская",
+      "timePoint": "10:25"
+    },
+    {
+      "stopName": "Кунчаевская",
+      "timePoint": "10:27"
+    },
+    {
+      "stopName": "Артюковская",
+      "timePoint": "10:29"
+    },
+    {
+      "stopName": "Новая Канза",
+      "timePoint": "10:30"
+    },
+    {
+      "stopName": "Мишковская",
+      "timePoint": "10:32"
+    },
+    {
+      "stopName": "Троица",
+      "timePoint": "10:33"
+    },
+    {
+      "stopName": "Лежакино",
+      "timePoint": "10:35"
+    },
+    {
+      "stopName": "Кондратовская",
+      "timePoint": "10:37"
+    },
+    {
+      "stopName": "Усть-Канза",
+      "timePoint": "10:40"
+    },
+    {
+      "stopName": "Телегово",
+      "timePoint": "10:42"
+    },
+    {
+      "stopName": "Кузнецово",
+      "timePoint": "10:45"
+    },
+    {
+      "stopName": "Евдская школа",
+      "timePoint": "10:48"
+    },
+    {
+      "stopName": "Сазониха",
+      "timePoint": "10:50"
+    },
+    {
+      "stopName": "Автостанция Красноборск",
+      "timePoint": "10:55"
+    },
+    {
+      "stopName": "Первомайский",
+      "timePoint": "11:09"
+    },
+    {
+      "stopName": "Бондари",
+      "timePoint": "11:10"
+    },
+    {
+      "stopName": "Антропово",
+      "timePoint": "11:11"
+    },
+    {
+      "stopName": "Пермогорье",
+      "timePoint": "11:15"
+    },
+    {
+      "stopName": "Шилово",
+      "timePoint": "11:21"
+    },
+    {
+      "stopName": "Верхняя Сергиевская",
+      "timePoint": "11:28"
+    },
+    {
+      "stopName": "Емельяновская",
+      "timePoint": "11:30"
+    },
+    {
+      "stopName": "2-е отделение",
+      "timePoint": "11:33"
+    },
+    {
+      "stopName": "Черевково",
+      "timePoint": "11:40"
+    },
+    {
+      "stopName": "Кучковская",
+      "timePoint": "11:46"
+    },
+    {
+      "stopName": "Лукинская",
+      "timePoint": "11:48"
+    },
+    {
+      "stopName": "Наумовская",
+      "timePoint": "11:50"
+    },
+    {
+      "stopName": "Аверкиевская",
+      "timePoint": "11:51"
+    },
+    {
+      "stopName": "Ляховская",
+      "timePoint": "11:53"
+    },
+    {
+      "stopName": "Леонтьевская",
+      "timePoint": "11:55"
+    },
+    {
+      "stopName": "Куртяевская",
+      "timePoint": "11:57"
+    },
+    {
+      "stopName": "Петушиха",
+      "timePoint": "11:59"
+    },
+    {
+      "stopName": "Алексеевская",
+      "timePoint": "12:01"
+    },
+    {
+      "stopName": "Глинный Мыс",
+      "timePoint": "12:03"
+    },
+    {
+      "stopName": "Авнюга",
+      "timePoint": "12:07"
+    },
+    {
+      "stopName": "Анфимовская",
+      "timePoint": "12:11"
+    },
+    {
+      "stopName": "Дмитриевская",
+      "timePoint": "12:12"
+    },
+    {
+      "stopName": "Борисовская",
+      "timePoint": "12:13"
+    },
+    {
+      "stopName": "Гридинская",
+      "timePoint": "12:14"
+    },
+    {
+      "stopName": "Евлампиевская",
+      "timePoint": "12:15"
+    },
+    {
+      "stopName": "Абрамково",
+      "timePoint": "12:17"
+    },
+    {
+      "stopName": "Приозёрный",
+      "timePoint": "12:32"
+    },
+    {
+      "stopName": "Верхняя Тойма – Левый берег",
+      "timePoint": "12:35"
+    },
+    {
+      "stopName": "Сойга",
+      "timePoint": "12:40"
+    },
+    {
+      "stopName": "Чаплинская",
+      "timePoint": "12:44"
+    },
+    {
+      "stopName": "Исаковская",
+      "timePoint": "12:48"
+    },
+    {
+      "stopName": "Сосновый",
+      "timePoint": "12:52"
+    },
+    {
+      "stopName": "Ларионовская",
+      "timePoint": "12:58"
+    },
+    {
+      "stopName": "Власьевская",
+      "timePoint": "13:14"
+    },
+    {
+      "stopName": "Копытовская",
+      "timePoint": "13:17"
+    },
+    {
+      "stopName": "Останская",
+      "timePoint": "13:20"
+    },
+    {
+      "stopName": "Автомоновская",
+      "timePoint": "13:22"
+    },
+    {
+      "stopName": "Осиевская",
+      "timePoint": "13:24"
+    },
+    {
+      "stopName": "Анциферовская",
+      "timePoint": "13:31"
+    },
+    {
+      "stopName": "Терешевская",
+      "timePoint": "13:33"
+    },
+    {
+      "stopName": "Кондратовская",
+      "timePoint": "13:35"
+    },
+    {
+      "stopName": "Кодима",
+      "timePoint": "13:37"
+    },
+    {
+      "stopName": "Евдокимовская",
+      "timePoint": "13:40"
+    },
+    {
+      "stopName": "Слуда",
+      "timePoint": "13:43"
+    },
+    {
+      "stopName": "Сельцо",
+      "timePoint": "13:50"
+    },
+    {
+      "stopName": "Заостровье",
+      "timePoint": "13:57"
+    },
+    {
+      "stopName": "Река Тулгас",
+      "timePoint": "14:06"
+    },
+    {
+      "stopName": "Масловская",
+      "timePoint": "14:12"
+    },
+    {
+      "stopName": "Поворот на Рочегду",
+      "timePoint": "14:18"
+    },
+    {
+      "stopName": "Попово",
+      "timePoint": "14:20"
+    },
+    {
+      "stopName": "Шужега",
+      "timePoint": "14:23"
+    },
+    {
+      "stopName": "Чамово",
+      "timePoint": "14:29"
+    },
+    {
+      "stopName": "Усть-Вага",
+      "timePoint": "14:48"
+    },
+    {
+      "stopName": "Шидрово",
+      "timePoint": "14:54"
+    },
+    {
+      "stopName": "Автостанция Двинской Березник",
+      "timePoint": "15:03"
+    },
+    {
+      "stopName": "Верхнее Чажестрово",
+      "timePoint": "15:07"
+    },
+    {
+      "stopName": "Нижнее Чажестрово",
+      "timePoint": "15:10"
+    },
+    {
+      "stopName": "Кафе На БАМе",
+      "timePoint": "15:36"
+    },
+    {
+      "stopName": "БАМ",
+      "timePoint": "15:36"
+    },
+    {
+      "stopName": "Деревня Пянда",
+      "timePoint": "15:41"
+    },
+    {
+      "stopName": "Антоново",
+      "timePoint": "15:42"
+    },
+    {
+      "stopName": "Хитровка",
+      "timePoint": "15:43"
+    },
+    {
+      "stopName": "Посёлок Пянда",
+      "timePoint": "15:45"
+    },
+    {
+      "stopName": "Усть-Ваеньга",
+      "timePoint": "15:47"
+    },
+    {
+      "stopName": "Уйта",
+      "timePoint": "15:51"
+    },
+    {
+      "stopName": "Шастки",
+      "timePoint": "15:54"
+    },
+    {
+      "stopName": "Гора",
+      "timePoint": "15:56"
+    },
+    {
+      "stopName": "Рязаново",
+      "timePoint": "15:58"
+    },
+    {
+      "stopName": "Хетово",
+      "timePoint": "15:59"
+    },
+    {
+      "stopName": "Усть-Морж",
+      "timePoint": "16:02"
+    },
+    {
+      "stopName": "Моржегоры",
+      "timePoint": "16:08"
+    },
+    {
+      "stopName": "Монастырёк",
+      "timePoint": "16:13"
+    },
+    {
+      "stopName": "Деревня Почтовое",
+      "timePoint": "16:20"
+    },
+    {
+      "stopName": "Посёлок Почтовое",
+      "timePoint": "16:23"
+    },
+    {
+      "stopName": "Орлово",
+      "timePoint": "16:27"
+    },
+    {
+      "stopName": "Звоз",
+      "timePoint": "16:35"
+    },
+    {
+      "stopName": "Ныкола",
+      "timePoint": "16:39"
+    },
+    {
+      "stopName": "Коскошино",
+      "timePoint": "16:44"
+    },
+    {
+      "stopName": "Поворот на Заболотье",
+      "timePoint": "16:46"
+    },
+    {
+      "stopName": "Поворот на Зачачье",
+      "timePoint": "16:51"
+    },
+    {
+      "stopName": "Красный Яр",
+      "timePoint": "16:54"
+    },
+    {
+      "stopName": "Емецк",
+      "timePoint": "16:58"
+    },
+    {
+      "stopName": "Сия",
+      "timePoint": "17:13"
+    },
+    {
+      "stopName": "Брин-Наволок",
+      "timePoint": "17:28"
+    },
+    {
+      "stopName": "Палишино",
+      "timePoint": "17:32"
+    },
+    {
+      "stopName": "Среднеконское",
+      "timePoint": "17:37"
+    },
+    {
+      "stopName": "Ракула",
+      "timePoint": "17:38"
+    },
+    {
+      "stopName": "Поворот на Палово",
+      "timePoint": "17:41"
+    },
+    {
+      "stopName": "Великий Двор",
+      "timePoint": "17:42"
+    },
+    {
+      "stopName": "Канзово",
+      "timePoint": "17:44"
+    },
+    {
+      "stopName": "Демидово",
+      "timePoint": "17:50"
+    },
+    {
+      "stopName": "Пухтаковка",
+      "timePoint": "17:51"
+    },
+    {
+      "stopName": "Голдобиха",
+      "timePoint": "17:54"
+    },
+    {
+      "stopName": "Копачёво",
+      "timePoint": "17:56"
+    },
+    {
+      "stopName": "Вороновское",
+      "timePoint": "18:03"
+    },
+    {
+      "stopName": "Новинки",
+      "timePoint": "18:05"
+    },
+    {
+      "stopName": "Большая Товра",
+      "timePoint": "18:09"
+    },
+    {
+      "stopName": "Малая Товра",
+      "timePoint": "18:12"
+    },
+    {
+      "stopName": "Холмогорская развилка",
+      "timePoint": "18:16"
+    },
+    {
+      "stopName": "Беломорье",
+      "timePoint": "18:49"
+    },
+    {
+      "stopName": "Зелёный Бор",
+      "timePoint": "19:12"
+    },
+    {
+      "stopName": "Автовокзал Архангельск",
+      "timePoint": "19:35"
+    },
+    {
+      "stopName": "Пирсы",
+      "timePoint": "19:47"
+    },
+    {
+      "stopName": "Вокзал Северодвинск",
+      "timePoint": "20:23"
+    }
+  ],
+  "coordinates": {
+    "Вокзал Северодвинск": {
+      "x": 39.850092,
+      "y": 64.572859,
+      "is_approximate": false
+    },
+    "Автовокзал Архангельск": {
+      "x": 40.576591822,
+      "y": 64.547694788,
+      "is_approximate": false
+    },
+    "Зелёный Бор": {
+      "x": 40.601032297,
+      "y": 64.433427393,
+      "is_approximate": false
+    },
+    "Беломорье": {
+      "x": 40.890388367,
+      "y": 64.28960929,
+      "is_approximate": false
+    },
+    "Холмогорская развилка": {
+      "x": 41.611730628,
+      "y": 64.145703083,
+      "is_approximate": false
+    },
+    "Малая Товра": {
+      "x": 41.672248613,
+      "y": 64.11061201,
+      "is_approximate": false
+    },
+    "Большая Товра": {
+      "x": 41.692201764,
+      "y": 64.082055849,
+      "is_approximate": false
+    },
+    "Новинки": {
+      "x": 41.691036345,
+      "y": 64.048960176,
+      "is_approximate": false
+    },
+    "Вороновское": {
+      "x": 41.697903004,
+      "y": 64.024961099,
+      "is_approximate": false
+    },
+    "Копачёво": {
+      "x": 41.689670816,
+      "y": 63.961593742,
+      "is_approximate": false
+    },
+    "Голдобиха": {
+      "x": 41.65811,
+      "y": 63.944894,
+      "is_approximate": false
+    },
+    "Пухтаковка": {
+      "x": 41.627524137,
+      "y": 63.922393037,
+      "is_approximate": false
+    },
+    "Демидово": {
+      "x": 41.608233,
+      "y": 63.909555,
+      "is_approximate": false
+    },
+    "Канзово": {
+      "x": 41.594894535,
+      "y": 63.849977258,
+      "is_approximate": false
+    },
+    "Великий Двор": {
+      "x": 41.573439698,
+      "y": 63.842446522,
+      "is_approximate": false
+    },
+    "Поворот на Палово": {
+      "x": 41.552518499,
+      "y": 63.83187863,
+      "is_approximate": false
+    },
+    "Ракула": {
+      "x": 41.514237833,
+      "y": 63.817579339,
+      "is_approximate": false
+    },
+    "Среднеконское": {
+      "x": 41.486036871,
+      "y": 63.807823737,
+      "is_approximate": false
+    },
+    "Палишино": {
+      "x": 41.427215288,
+      "y": 63.770912314,
+      "is_approximate": false
+    },
+    "Брин-Наволок": {
+      "x": 41.411829918,
+      "y": 63.736476005,
+      "is_approximate": false
+    },
+    "Сия": {
+      "x": 41.615304291,
+      "y": 63.613593846,
+      "is_approximate": false
+    },
+    "Емецк": {
+      "x": 41.778517257,
+      "y": 63.47782288,
+      "is_approximate": false
+    },
+    "Красный Яр": {
+      "x": 41.769440232,
+      "y": 63.442064219,
+      "is_approximate": false
+    },
+    "Поворот на Зачачье": {
+      "x": 41.781046,
+      "y": 63.414413,
+      "is_approximate": false
+    },
+    "Поворот на Заболотье": {
+      "x": 41.859962,
+      "y": 63.381956,
+      "is_approximate": false
+    },
+    "Коскошино": {
+      "x": 41.892425,
+      "y": 63.36855,
+      "is_approximate": false
+    },
+    "Ныкола": {
+      "x": 41.968211,
+      "y": 63.328228,
+      "is_approximate": false
+    },
+    "Звоз": {
+      "x": 41.970359,
+      "y": 63.291799,
+      "is_approximate": false
+    },
+    "Орлово": {
+      "x": 41.973483,
+      "y": 63.20543,
+      "is_approximate": false
+    },
+    "Посёлок Почтовое": {
+      "x": 42.00697,
+      "y": 63.163644,
+      "is_approximate": false
+    },
+    "Деревня Почтовое": {
+      "x": 42.009342,
+      "y": 63.140578,
+      "is_approximate": false
+    },
+    "Монастырёк": {
+      "x": 42.055944,
+      "y": 63.07226,
+      "is_approximate": false
+    },
+    "Моржегоры": {
+      "x": 42.154246,
+      "y": 63.047951,
+      "is_approximate": false
+    },
+    "Усть-Морж": {
+      "x": 42.313233978,
+      "y": 63.030890097,
+      "is_approximate": false
+    },
+    "Хетово": {
+      "x": 42.347601,
+      "y": 63.027283,
+      "is_approximate": false
+    },
+    "Рязаново": {
+      "x": 42.375986402,
+      "y": 63.025925817,
+      "is_approximate": false
+    },
+    "Гора": {
+      "x": 42.416893,
+      "y": 63.020449,
+      "is_approximate": false
+    },
+    "Шастки": {
+      "x": 42.445561,
+      "y": 63.019696,
+      "is_approximate": false
+    },
+    "Уйта": {
+      "x": 42.52168,
+      "y": 63.011349,
+      "is_approximate": false
+    },
+    "Усть-Ваеньга": {
+      "x": 42.586655,
+      "y": 62.987176,
+      "is_approximate": false
+    },
+    "Посёлок Пянда": {
+      "x": 42.597103109,
+      "y": 62.966290279,
+      "is_approximate": false
+    },
+    "Хитровка": {
+      "x": 42.594010996,
+      "y": 62.958081343,
+      "is_approximate": false
+    },
+    "Антоново": {
+      "x": 42.582973085,
+      "y": 62.947780775,
+      "is_approximate": false
+    },
+    "Деревня Пянда": {
+      "x": 42.584095309,
+      "y": 62.934519669,
+      "is_approximate": false
+    },
+    "Кафе На БАМе": {
+      "x": 42.606204448,
+      "y": 62.891105843,
+      "is_approximate": false
+    },
+    "БАМ": {
+      "x": 42.605001613,
+      "y": 62.891570306,
+      "is_approximate": false
+    },
+    "Нижнее Чажестрово": {
+      "x": 42.61583944,
+      "y": 62.886062156,
+      "is_approximate": false
+    },
+    "Верхнее Чажестрово": {
+      "x": 42.657005772,
+      "y": 62.87316719,
+      "is_approximate": false
+    },
+    "Автостанция Двинской Березник": {
+      "x": 42.725345,
+      "y": 62.852093,
+      "is_approximate": false
+    },
+    "Шидрово": {
+      "x": 42.843318412,
+      "y": 62.797562739,
+      "is_approximate": false
+    },
+    "Усть-Вага": {
+      "x": 42.810408423,
+      "y": 62.741518234,
+      "is_approximate": false
+    },
+    "Котласский поворот": {
+      "x": 42.890283306,
+      "y": 62.693172498,
+      "is_approximate": false
+    },
+    "Чамово": {
+      "x": 43.147895317,
+      "y": 62.720551152,
+      "is_approximate": false
+    },
+    "Шужега": {
+      "x": 43.266597026,
+      "y": 62.679398337,
+      "is_approximate": false
+    },
+    "Попово": {
+      "x": 43.307030277,
+      "y": 62.670601733,
+      "is_approximate": false
+    },
+    "Поворот на Рочегду": {
+      "x": 43.333615874,
+      "y": 62.665227894,
+      "is_approximate": false
+    },
+    "Масловская": {
+      "x": 43.508825596,
+      "y": 62.592427414,
+      "is_approximate": false
+    },
+    "Река Тулгас": {
+      "x": 43.531857306,
+      "y": 62.58433187,
+      "is_approximate": false
+    },
+    "Заостровье": {
+      "x": 43.647457564,
+      "y": 62.517279067,
+      "is_approximate": false
+    },
+    "Сельцо": {
+      "x": 43.764332373,
+      "y": 62.476925297,
+      "is_approximate": false
+    },
+    "Слуда": {
+      "x": 43.857381704,
+      "y": 62.430532021,
+      "is_approximate": false
+    },
+    "Евдокимовская": {
+      "x": 43.871240976,
+      "y": 62.394417457,
+      "is_approximate": false
+    },
+    "Кодима": {
+      "x": 43.905168414,
+      "y": 62.372875055,
+      "is_approximate": false
+    },
+    "Кондратовская": {
+      "x": 43.933673749,
+      "y": 62.366089482,
+      "is_approximate": false
+    },
+    "Терешевская": {
+      "x": 43.988776816,
+      "y": 62.358803716,
+      "is_approximate": false
+    },
+    "Анциферовская": {
+      "x": 44.012173217,
+      "y": 62.351452226,
+      "is_approximate": false
+    },
+    "Осиевская": {
+      "x": 44.147646568,
+      "y": 62.33570028,
+      "is_approximate": false
+    },
+    "Автомоновская": {
+      "x": 44.190910678,
+      "y": 62.329249368,
+      "is_approximate": false
+    },
+    "Останская": {
+      "x": 44.215289099,
+      "y": 62.317815955,
+      "is_approximate": false
+    },
+    "Копытовская": {
+      "x": 44.281080859,
+      "y": 62.30837628,
+      "is_approximate": false
+    },
+    "Власьевская": {
+      "x": 44.322433835,
+      "y": 62.300448666,
+      "is_approximate": false
+    },
+    "Ларионовская": {
+      "x": 44.651139208,
+      "y": 62.323224575,
+      "is_approximate": false
+    },
+    "Сосновый": {
+      "x": 44.76170752,
+      "y": 62.307591351,
+      "is_approximate": false
+    },
+    "Исаковская": {
+      "x": 44.765320712,
+      "y": 62.260651378,
+      "is_approximate": false
+    },
+    "Чаплинская": {
+      "x": 44.799595329,
+      "y": 62.230328051,
+      "is_approximate": false
+    },
+    "Сойга": {
+      "x": 44.874258613,
+      "y": 62.227845781,
+      "is_approximate": false
+    },
+    "Верхняя Тойма – Левый берег": {
+      "x": 44.956340499,
+      "y": 62.228231588,
+      "is_approximate": false
+    },
+    "Приозёрный": {
+      "x": 44.940069834,
+      "y": 62.217294664,
+      "is_approximate": false
+    },
+    "Абрамково": {
+      "x": 45.086806909,
+      "y": 62.088098162,
+      "is_approximate": false
+    },
+    "Евлампиевская": {
+      "x": 45.088299096,
+      "y": 62.07376545,
+      "is_approximate": false
+    },
+    "Гридинская": {
+      "x": 45.092699647,
+      "y": 62.057913913,
+      "is_approximate": false
+    },
+    "Борисовская": {
+      "x": 45.091368037,
+      "y": 62.052884415,
+      "is_approximate": false
+    },
+    "Дмитриевская": {
+      "x": 45.088397145,
+      "y": 62.047274257,
+      "is_approximate": false
+    },
+    "Анфимовская": {
+      "x": 45.078418955,
+      "y": 62.034003306,
+      "is_approximate": false
+    },
+    "Авнюга": {
+      "x": 45.09635972,
+      "y": 61.999160247,
+      "is_approximate": false
+    },
+    "Глинный Мыс": {
+      "x": 45.129152298,
+      "y": 61.968200986,
+      "is_approximate": false
+    },
+    "Алексеевская": {
+      "x": 45.153141688,
+      "y": 61.952844143,
+      "is_approximate": false
+    },
+    "Петушиха": {
+      "x": 45.16729491,
+      "y": 61.936378237,
+      "is_approximate": false
+    },
+    "Куртяевская": {
+      "x": 45.17216592,
+      "y": 61.924650806,
+      "is_approximate": false
+    },
+    "Леонтьевская": {
+      "x": 45.170110037,
+      "y": 61.903788133,
+      "is_approximate": false
+    },
+    "Ляховская": {
+      "x": 45.16471075,
+      "y": 61.885184893,
+      "is_approximate": false
+    },
+    "Аверкиевская": {
+      "x": 45.1760104,
+      "y": 61.866882678,
+      "is_approximate": false
+    },
+    "Наумовская": {
+      "x": 45.175463825,
+      "y": 61.85497732,
+      "is_approximate": false
+    },
+    "Лукинская": {
+      "x": 45.190611279,
+      "y": 61.833602314,
+      "is_approximate": false
+    },
+    "Кучковская": {
+      "x": 45.204645083,
+      "y": 61.823049097,
+      "is_approximate": false
+    },
+    "Черевково": {
+      "x": 45.278965432,
+      "y": 61.779522231,
+      "is_approximate": false
+    },
+    "2-е отделение": {
+      "x": 45.331374076,
+      "y": 61.722168194,
+      "is_approximate": false
+    },
+    "Емельяновская": {
+      "x": 45.385980786,
+      "y": 61.705531336,
+      "is_approximate": false
+    },
+    "Верхняя Сергиевская": {
+      "x": 45.413176664,
+      "y": 61.697665512,
+      "is_approximate": false
+    },
+    "Шилово": {
+      "x": 45.537688949,
+      "y": 61.673571926,
+      "is_approximate": false
+    },
+    "Пермогорье": {
+      "x": 45.627560264,
+      "y": 61.630707009,
+      "is_approximate": false
+    },
+    "Антропово": {
+      "x": 45.688567883,
+      "y": 61.615000941,
+      "is_approximate": false
+    },
+    "Бондари": {
+      "x": 45.709162652,
+      "y": 61.609408841,
+      "is_approximate": false
+    },
+    "Ляпуново": {
+      "x": 45.727659129,
+      "y": 61.603917691,
+      "is_approximate": false
+    },
+    "Автостанция Красноборск": {
+      "x": 45.954544014,
+      "y": 61.558444826,
+      "is_approximate": false
+    },
+    "Сазониха": {
+      "x": 46.003088448,
+      "y": 61.54388155,
+      "is_approximate": false
+    },
+    "Евдская школа": {
+      "x": 46.029577346,
+      "y": 61.533934621,
+      "is_approximate": false
+    },
+    "Кузнецово": {
+      "x": 46.099475346,
+      "y": 61.515391744,
+      "is_approximate": false
+    },
+    "Телегово": {
+      "x": 46.156671737,
+      "y": 61.501598818,
+      "is_approximate": false
+    },
+    "Усть-Канза": {
+      "x": 46.160580754,
+      "y": 61.488280242,
+      "is_approximate": false
+    },
+    "Лежакино": {
+      "x": 46.185119633,
+      "y": 61.460179602,
+      "is_approximate": false
+    },
+    "Троица": {
+      "x": 46.199448653,
+      "y": 61.450979171,
+      "is_approximate": false
+    },
+    "Мишковская": {
+      "x": 46.20698733,
+      "y": 61.444305231,
+      "is_approximate": false
+    },
+    "Новая Канза": {
+      "x": 46.216591684,
+      "y": 61.437283628,
+      "is_approximate": false
+    },
+    "Артюковская": {
+      "x": 46.228483193,
+      "y": 61.43075099,
+      "is_approximate": false
+    },
+    "Кунчаевская": {
+      "x": 46.2322822,
+      "y": 61.419881233,
+      "is_approximate": false
+    },
+    "Федотовская": {
+      "x": 46.270932101,
+      "y": 61.407403402,
+      "is_approximate": false
+    },
+    "Комарица": {
+      "x": 46.314968681,
+      "y": 61.399773717,
+      "is_approximate": false
+    },
+    "Кулига-1": {
+      "x": 46.40321258,
+      "y": 61.358814509,
+      "is_approximate": false
+    },
+    "Туровец": {
+      "x": 46.421538113,
+      "y": 61.335973694,
+      "is_approximate": false
+    },
+    "Уртомаж": {
+      "x": 46.50401444,
+      "y": 61.310711919,
+      "is_approximate": false
+    },
+    "Горка": {
+      "x": 46.527008857,
+      "y": 61.296145347,
+      "is_approximate": false
+    },
+    "Автостанция Шипицыно": {
+      "x": 46.519358342,
+      "y": 61.278513401,
+      "is_approximate": false
+    },
+    "Железнодорожный вокзал Котлас": {
+      "x": 46.627730349,
+      "y": 61.257424697,
+      "is_approximate": false
+    },
+    "Вычегодский": {
+      "x": 46.869604,
+      "y": 61.247705,
+      "is_approximate": false
+    },
+    "Автовокзал Коряжма": {
+      "x": 47.180304855,
+      "y": 61.306225718,
+      "is_approximate": false
+    },
+    "Первомайский": {
+      "x": 45.726146363,
+      "y": 61.604523224,
+      "is_approximate": false
+    },
+    "Пирсы": {
+      "x": 40.526307396,
+      "y": 64.510602674,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-21T16:34:21.787427"
+}

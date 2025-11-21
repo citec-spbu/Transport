@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Chart,
   BarElement,
@@ -12,27 +12,54 @@ import Card from "./ui/Card.tsx";
 
 Chart.register(BarElement, CategoryScale, LinearScale, Tooltip);
 
-interface HistogramData {
+export interface ApiMetricNode {
   id: string;
   name: string;
   metric: number;
-  norm: number;
+  coordinates: [number, number];
+  norm?: number;
 }
 
 interface HistogramWindowProps {
-  data: HistogramData[];
+  data: ApiMetricNode[];
   metricName?: string;
+  metricKey?: keyof ApiMetricNode;
 }
 
 export default function HistogramWindow({
-  data,
-  metricName = "pageRank",
+  data: rawData,
+  metricName = "Metric",
+  metricKey = "metric",
 }: HistogramWindowProps) {
   const [windowSize, setWindowSize] = useState(50);
   const [startIndex, setStartIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [normalizedData, setNormalizedData] = useState<ApiMetricNode[]>([]);
+  const total = normalizedData.length;
 
-  const total = data.length;
+  // Normalize and sort data
+  useEffect(() => {
+    if (rawData.length === 0) {
+      setNormalizedData([]);
+      return;
+    }
+
+    const metricValues = rawData.map((n) => n[metricKey] as number);
+    const minValue = Math.min(...metricValues);
+    const maxValue = Math.max(...metricValues);
+    const range = maxValue - minValue;
+
+    const normalized = rawData
+      .map((n) => ({
+        ...n,
+        norm: range > 0 ? ((n[metricKey] as number) - minValue) / range : 0.5,
+      }))
+
+      .sort((a, b) => (b[metricKey] as number) - (a[metricKey] as number));
+    setNormalizedData(normalized);
+    setStartIndex(0);
+    setWindowSize(Math.min(50, normalized.length));
+  }, [rawData, metricKey]);
 
   const getColor = (vNorm: number) => {
     const c: [number, [number, number, number]][] = [
@@ -58,16 +85,19 @@ export default function HistogramWindow({
 
   const getWindowData = () => {
     const end = Math.min(total, startIndex + windowSize);
-    const windowData = data.slice(startIndex, end);
+    const windowData = normalizedData.slice(startIndex, end);
     return {
       labels: windowData.map((d) => d.name),
-      values: windowData.map((d) => d.metric),
-      colors: windowData.map((d) => getColor(d.norm)),
+      values: windowData.map((d) => d[metricKey] as number),
+      colors: windowData.map((d) =>
+        d.norm !== undefined ? getColor(d.norm) : "#ccc"
+      ),
     };
   };
 
   const { labels, values, colors } = getWindowData();
-  const maxValue = Math.max(...data.map((d) => d.metric)) * 1.05;
+  const maxValue =
+    Math.max(...normalizedData.map((d) => d[metricKey] as number)) * 1.05;
 
   const chartData = {
     labels,
@@ -78,6 +108,7 @@ export default function HistogramWindow({
         backgroundColor: colors,
         borderColor: "#444",
         borderWidth: 0.4,
+        borderRadius: 2,
       },
     ],
   };
@@ -121,13 +152,13 @@ export default function HistogramWindow({
         <input
           type="range"
           min={5}
-          max={200}
+          max={Math.max(5, total)}
           value={windowSize}
           onChange={(e) => {
             const newSize = Number(e.target.value);
             setWindowSize(newSize);
-            if (startIndex > data.length - newSize) {
-              setStartIndex(Math.max(0, data.length - newSize));
+            if (startIndex > total - newSize) {
+              setStartIndex(Math.max(0, total - newSize));
             }
           }}
           className="flex-1"
@@ -142,7 +173,7 @@ export default function HistogramWindow({
         <input
           type="range"
           min={0}
-          max={Math.max(0, data.length - windowSize)}
+          max={Math.max(0, total - windowSize)}
           value={startIndex}
           onChange={(e) => setStartIndex(Number(e.target.value))}
           className="flex-1"
@@ -168,7 +199,7 @@ export default function HistogramWindow({
             onClick={() =>
               setStartIndex(
                 Math.min(
-                  data.length - windowSize,
+                  total - windowSize,
                   startIndex + Math.floor(windowSize / 4)
                 )
               )
@@ -180,7 +211,7 @@ export default function HistogramWindow({
         </div>
         <button
           onClick={() => {
-            setWindowSize(50);
+            setWindowSize(Math.min(50, total));
             setStartIndex(0);
           }}
           className="px-3 py-1 text-xs bg-blue-500 hover:bg-blue-600 text-white rounded transition-colors"
@@ -191,9 +222,18 @@ export default function HistogramWindow({
     </div>
   );
 
+  if (normalizedData.length === 0) {
+    return (
+      <Card className="w-full flex flex-col items-center justify-center p-6 min-h-[300px]">
+        <p className="text-gray-500 text-center">
+          Нет данных для отображения гистограммы
+        </p>
+      </Card>
+    );
+  }
+
   return (
     <>
-
       <Card className="w-full flex flex-col gap-2 p-3">
         <div className="flex justify-between items-center mb-1">
           <span className="text-sm font-semibold text-gray-700">

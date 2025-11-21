@@ -7,37 +7,18 @@ import CityCard from "../components/CityCard.tsx";
 import { useParamsStore } from "../store/useParamStore";
 
 export default function Clustering() {
-  const { city, transport, datasetId } = useParamsStore();
+  const {
+    city,
+    transport,
+    datasetId,
+    clusterType,
+    setClusterType,
+    datasetCache,
+  } = useParamsStore();
 
-  const [clusterType, setClusterType] = useState<"leiden" | "louvain">("leiden");
-
-  // Данные для карты
-  const [nodes, setNodes] = useState([]);
-  const [links, setLinks] = useState([]);
-  const [loading, setLoading] = useState(false);
-
-  // Загружаем данные кластеризации
-  useEffect(() => {
-    if (!datasetId) return;
-
-    setLoading(true);
-
-    fetch("http://localhost:8000/analysis/cluster", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        clusterType,
-      }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setNodes(data.nodes || []);
-        setLinks([]);
-      })
-      .catch((err) => console.error("Cluster load error:", err))
-      .finally(() => setLoading(false));
-  }, [datasetId, clusterType]);
-
+  const currentCluster = datasetId
+    ? datasetCache[datasetId]?.clusters?.[clusterType]
+    : undefined;
   return (
     <div className="min-h-screen bg-[#F9FAFB] font-sans">
       <Header />
@@ -48,6 +29,7 @@ export default function Clustering() {
           <MetricToggle
             firstLabel="Leiden"
             secondLabel="Louvain"
+            selected={clusterType}
             onChange={(value) => setClusterType(value as "leiden" | "louvain")}
           />
         </div>
@@ -56,10 +38,10 @@ export default function Clustering() {
       </div>
 
       <div className="flex-1 bg-white rounded-xl shadow-sm h-full mr-4 ml-4">
-        {loading ? (
-          <div className="p-4 text-gray-600">Загрузка кластеризации...</div>
+        {currentCluster ? (
+          <ClusteringMap data={currentCluster} clusterType={clusterType} />
         ) : (
-          <ClusteringMap nodes={nodes} links={links} clusterType={clusterType} />
+          <div className="p-4 text-gray-600">Загрузка данных...</div>
         )}
       </div>
     </div>

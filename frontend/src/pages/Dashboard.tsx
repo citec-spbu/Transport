@@ -8,141 +8,148 @@ import HistogramWindow from "../components/HistogramWindow.tsx";
 import { useParamsStore } from "../store/useParamStore";
 
 export default function Dashboard() {
-  const { city, transport, datasetId } = useParamsStore();
+const {
+  city,
+  datasetId,
+  datasetCache,
+  metricType,
+  setMetricType,
+} = useParamsStore();
 
-  const [analysisType, setAnalysisType] = useState<"pagerank" | "betweenness">("pagerank");
-
-  const [nodes, setNodes] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
-
+// метрики  для текущего datasetId
+const metrics = datasetId ? datasetCache[datasetId]?.metrics : undefined;
+const currentMetricData = metrics ? metrics[metricType] : undefined;
+const nodes = currentMetricData?.nodes || [];
   const [selectedChart, setSelectedChart] = useState("histogram_pagerank");
   const heatmapRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<HTMLDivElement>(null);
 
-  const chartOptions = [
-    { value: "histogram_pagerank", label: "Гистограмма PageRank" },
-    { value: "histogram_betweenness", label: "Гистограмма Betweenness" },
-  ];
 
-  // Debug logs
-  console.log("City:", city);
-  console.log("Transport:", transport);
-  console.log("Analysis Type:", analysisType);
-  console.log("Nodes:", nodes);
-
-  // Загружаем данные с backend
   useEffect(() => {
-    if (!datasetId) return;
-
-    setLoading(true);
-
-    fetch('/analysis/metric', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        datasetId,
-        metric: analysisType
-      })
-    })
-      .then(res => res.json())
-      .then(data => {
-        setNodes(data.nodes);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error("Ошибка загрузки данных:", err);
-        setLoading(false);
-      });
-  }, [datasetId, analysisType]);
-
-
-const stats = {
-  city,
-  pageRank: nodes.length > 0 ? Math.max(...nodes.map(n => n.pagerank ?? 0)) : 0,
-  maxBetweenness: nodes.length > 0 ? Math.max(...nodes.map(n => n.betweenness ?? 0)) : 0,
-  nodes: nodes.length,
-  routes: nodes.length > 0 ? nodes.reduce((acc, n) => acc + (n.routesCount ?? 0), 0) : 0,
-};
-
-  const renderChart = () => {
-    switch (selectedChart) {
-      case "histogram_pagerank":
-        return <HistogramWindow data={nodes} metricName="PageRank" />;
-      case "histogram_betweenness":
-        return <HistogramWindow data={nodes} metricName="Betweenness" />;
-      default:
-        return <HistogramWindow data={nodes} metricName="PageRank" />;
+    if (metricType === "pagerank") {
+      setSelectedChart("histogram_pagerank");
+    } else {
+      setSelectedChart("histogram_betweenness");
     }
-  };
+  }, [metricType]);
 
   const handleMetricToggleChange = (active: string) => {
     if (active === "PageRank" || active === "pagerank") {
-      setAnalysisType("pagerank");
+      setMetricType("pagerank");
       setSelectedChart("histogram_pagerank");
     } else if (active === "Betweenness" || active === "betweenness") {
-      setAnalysisType("betweenness");
+      setMetricType("betweenness");
       setSelectedChart("histogram_betweenness");
     }
   };
 
+  const stats = {
+    city,
+    maxMetric: nodes.length > 0 ? Math.max(...nodes.map(n => n.metric ?? 0)) : 0,
+    nodes: nodes.length,
+    routes: 0,
+  };
+
+  const renderChart = () => {
+    if (!currentMetricData || nodes.length === 0) {
+      return <p className="text-gray-500">Нет данных для графика</p>;
+    }
+
+    switch (selectedChart) {
+      case "histogram_pagerank":
+        return (
+          <HistogramWindow 
+            data={nodes} 
+            metricName="PageRank" 
+            metricKey="metric"
+          />
+        );
+      case "histogram_betweenness":
+        return (
+          <HistogramWindow 
+            data={nodes} 
+            metricName="Betweenness" 
+            metricKey="metric"
+          />
+        );
+      default:
+        return (
+          <HistogramWindow 
+            data={nodes} 
+            metricName={metricType === "pagerank" ? "PageRank" : "Betweenness"} 
+            metricKey="metric"
+          />
+        );
+    }
+  };
+
+ 
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-screen flex flex-col bg-[#F9FAFB]" key={datasetId}>
       <Header />
 
       <div className="px-4 py-3 flex justify-between items-center shrink-0">
-        <MetricToggle selected={analysisType === "pagerank" ? "PageRank" : "Betweenness"} firstLabel="PageRank" secondLabel="Betweenness" onChange={handleMetricToggleChange} />
+        <MetricToggle 
+          selected={metricType === "pagerank" ? "PageRank" : "Betweenness"} 
+          firstLabel="PageRank" 
+          secondLabel="Betweenness" 
+          onChange={handleMetricToggleChange} 
+        />
         <ExportButton
           nodes={nodes}
           stats={stats}
           heatmapRef={heatmapRef}
           chartRef={chartRef}
+
         />
       </div>
 
       <div className="flex justify-between items-stretch px-4 pb-4 flex-1 overflow-hidden">
-        <div ref={heatmapRef} className="flex-1 mr-4 h-full">
-          {loading ? (
-            <p>Загрузка карты...</p>
-          ) : nodes.length === 0 ? (
-            <p>Данные отсутствуют для отображения карты.</p>
+        <div ref={heatmapRef} className="flex-1 mr-4 h-full bg-white rounded-xl shadow-sm">
+          {nodes.length === 0 ? (
+            <div className="flex items-center justify-center h-full text-gray-500">
+              {currentMetricData ? "Нет данных для отображения" : "Выберите метрику для анализа"}
+            </div>
           ) : (
             <Heatmap
+              key={`${datasetId}-${metricType}`} // Уникальный ключ для пересоздания карты
               nodes={nodes}
-              title={analysisType === "pagerank" ? "PageRank Heatmap" : "Betweenness Heatmap"}
+              metricType={metricType}
+              title={metricType === "pagerank" ? "PageRank Heatmap" : "Betweenness Heatmap"}
             />
           )}
         </div>
 
         <div className="w-[300px] flex flex-col space-y-3 overflow-y-auto">
-          <StatsCard
-            city={stats.city}
-            pageRank={stats.pageRank}
-            betweenness={stats.maxBetweenness}
-            nodes={stats.nodes}
-            routes={stats.routes}
-          />
+          <div className="bg-white rounded-xl shadow-sm p-4">
+            <StatsCard
+              city={stats.city}
+              maxMetric={stats.maxMetric}
+              metricType={metricType}
+              nodes={stats.nodes}
+              routes={stats.routes}
+            />
+          </div>
 
-          <div>
-            <label>Тип графика</label>
+          <div className="bg-white rounded-xl shadow-sm p-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Тип графика
+            </label>
             <select
               value={selectedChart}
               onChange={(e) => setSelectedChart(e.target.value)}
+              className="w-full p-2 border border-gray-300 rounded-md focus:ring-[#003A8C] focus:border-[#003A8C]"
             >
-              {chartOptions.map((option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              ))}
+              <option value="histogram_pagerank">Гистограмма PageRank</option>
+              <option value="histogram_betweenness">Гистограмма Betweenness</option>
             </select>
           </div>
 
-          <div ref={chartRef}>
-            {loading ? (
-              <p>Загрузка графика...</p>
-            ) : nodes.length === 0 ? (
-              <p>Данные отсутствуют для отображения графика.</p>
+          <div ref={chartRef} className="bg-white rounded-xl shadow-sm p-4 flex-1">
+            {nodes.length === 0 ? (
+              <div className="flex items-center justify-center h-full text-gray-500">
+                {currentMetricData ? "Нет данных для графика" : "Выберите метрику для анализа"}
+              </div>
             ) : (
               renderChart()
             )}

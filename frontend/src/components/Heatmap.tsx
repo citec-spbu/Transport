@@ -2,37 +2,50 @@ import { useEffect, useRef } from "react";
 import L from "leaflet";
 import Card from "./ui/Card";
 
-type Node = {
+type ApiMetricNode = {
+  id: string;
   name: string;
-  lat: number;
-  lon: number;
   metric: number;
-  norm: number;
+  coordinates: [number, number]; // [longitude, latitude]
 };
 
 export default function Heatmap({
-  nodes,
+  nodes: apiNodes,
+  metricType,
   title,
 }: {
-  nodes: Node[];
+  nodes: ApiMetricNode[];
+  metricType: "pagerank" | "betweenness";
   title: string;
 }) {
   const mapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!mapRef.current) return;
-
-    const map = L.map(mapRef.current).setView([0, 0], 2);
+    if (!mapRef.current || apiNodes.length === 0) return;
+    if ((mapRef.current as any)._leaflet_id) {
+      (mapRef.current as any)._leaflet_id = null;
+    }
+    const map = L.map(mapRef.current);
 
     L.tileLayer(
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
       {
         maxZoom: 18,
         opacity: 0.65,
+        attribution: "© OpenStreetMap contributors",
       }
     ).addTo(map);
 
-    const getColor = (v: number) => {
+    // Нормализация  метрик
+    const metricValues = apiNodes.map((node) => node.metric);
+    const minValue = Math.min(...metricValues);
+    const maxValue = Math.max(...metricValues);
+    const valueRange = maxValue - minValue;
+
+    const getColor = (value: number) => {
+      const normalized = valueRange > 0 ? (value - minValue) / valueRange : 0.5;
+
+      // Цветовая шкала
       const c: [number, [number, number, number]][] = [
         [0.0, [0, 17, 255]],
         [0.25, [0, 255, 255]],
@@ -42,10 +55,10 @@ export default function Heatmap({
       ];
 
       for (let i = 1; i < c.length; i++) {
-        if (v <= c[i][0]) {
+        if (normalized <= c[i][0]) {
           const [r1, g1, b1] = c[i - 1][1];
           const [r2, g2, b2] = c[i][1];
-          const t = (v - c[i - 1][0]) / (c[i][0] - c[i - 1][0]);
+          const t = (normalized - c[i - 1][0]) / (c[i][0] - c[i - 1][0]);
           const r = Math.round(r1 + (r2 - r1) * t);
           const g = Math.round(g1 + (g2 - g1) * t);
           const b = Math.round(b1 + (b2 - b1) * t);
@@ -55,37 +68,66 @@ export default function Heatmap({
       return "rgb(255,0,0)";
     };
 
-    const markers = nodes.map((n) =>
-      L.circleMarker([n.lat, n.lon], {
+    const markers = apiNodes.map((node) => {
+      const [lon, lat] = node.coordinates;
+
+      return L.circleMarker([lat, lon], {
         radius: 5,
-        fillColor: getColor(n.norm),
-        color: getColor(n.norm),
-        weight: 0.4,
+        fillColor: getColor(node.metric),
+        color: "#000",
+        weight: 0,
         opacity: 0.8,
         fillOpacity: 0.8,
-      }).bindPopup(`<b>${n.name}</b><br>${title}: ${n.metric.toFixed(6)}`)
-    );
+      }).bindPopup(`
+        <div style="font-family: Arial, sans-serif; min-width: 200px;">
+          <div style="font-weight: bold; margin-bottom: 4px;">${
+            node.name || node.id
+          }</div>
+          <div><strong>${title}:</strong> ${node.metric.toFixed(6)}</div>
+          <div><strong>Координаты:</strong> ${lat.toFixed(4)}, ${lon.toFixed(
+        4
+      )}</div>
+        </div>
+      `);
+    });
 
     const group = L.featureGroup(markers);
     group.addTo(map);
-    map.fitBounds(group.getBounds());
+
+    // Проверяем, что есть маркеры для отображения
+    if (group.getLayers().length > 0) {
+      map.fitBounds(group.getBounds(), { padding: [20, 20] });
+    } else {
+      // Если нет маркеров, устанавливаем дефолтное положение (Москва)
+      map.setView([55.7558, 37.6173], 10);
+    }
 
     return () => {
+      group.clearLayers();
       map.remove();
     };
-  }, [nodes, title]);
+  }, [apiNodes, metricType, title]);
 
   return (
-    <Card className="relative w-full h-full">
+    <Card className="relative w-full h-full overflow-hidden">
       <div ref={mapRef} className="w-full h-full" />
-      <div className="absolute bottom-5 left-5 bg-white p-3 rounded-lg shadow text-xs z-[600] opacity-100 mix-blend-normal">
-        <div className="font-semibold">{title}</div>
-        <div className="w-36 h-2 mt-1 rounded bg-gradient-to-r from-[#0011ff] via-[#ffff00] to-[#ff0000]" />
-        <div className="flex justify-between text-gray-500 text-[10px] mt-1">
-          <span>Low</span>
-          <span>High</span>
+
+      {apiNodes.length > 0 && (
+        <div className="absolute bottom-5 left-5 bg-white p-3 rounded-lg shadow text-xs z-[600]">
+          <div className="font-semibold">{title}</div>
+          <div className="w-36 h-2 mt-1 rounded bg-gradient-to-r from-[#0011ff] via-[#ffff00] to-[#ff0000]" />
+          <div className="flex justify-between text-gray-500 text-[10px] mt-1">
+            <span>Low</span>
+            <span>High</span>
+          </div>
         </div>
-      </div>
+      )}
+
+      {apiNodes.length === 0 && (
+        <div className="absolute inset-0 flex items-center justify-center bg-gray-50">
+          <div className="text-gray-500">Нет данных для отображения</div>
+        </div>
+      )}
     </Card>
   );
 }
