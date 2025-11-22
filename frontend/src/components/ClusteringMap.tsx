@@ -99,7 +99,7 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
     // Узлы
     nodes.forEach((n) => {
       const color = getColorForCommunity(n.clusterId);
-      const radius = 5;
+      const radius = 6;
 
       const popupContent = `
         <div style="font-family: sans-serif;">
@@ -116,7 +116,7 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
         color: "#000",
         weight: 0,
         fillColor: color,
-        fillOpacity: 0.8,
+        fillOpacity: 0.9,
       })
         .bindPopup(popupContent)
         .addTo(map);

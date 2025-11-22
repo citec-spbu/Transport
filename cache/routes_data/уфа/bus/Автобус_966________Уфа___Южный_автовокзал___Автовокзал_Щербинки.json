@@ -1,0 +1,5659 @@
+{
+  "routeNumber": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+  "routeUrl": "/ufa/bus/966",
+  "nodes": {
+    "Автовокзал Щербинки": {
+      "name": "Автовокзал Щербинки",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 43.940716227,
+      "yCoordinate": 56.221825435,
+      "isCoordinateApproximate": false
+    },
+    "Автостанция Кстово": {
+      "name": "Автостанция Кстово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.196667197,
+      "yCoordinate": 56.157663481,
+      "isCoordinateApproximate": false
+    },
+    "Магистральная улица": {
+      "name": "Магистральная улица",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.205387985,
+      "yCoordinate": 56.152620766,
+      "isCoordinateApproximate": false
+    },
+    "Завод Агат": {
+      "name": "Завод Агат",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.217297662,
+      "yCoordinate": 56.145581795,
+      "isCoordinateApproximate": false
+    },
+    "Караулово": {
+      "name": "Караулово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.256568069,
+      "yCoordinate": 56.128952354,
+      "isCoordinateApproximate": false
+    },
+    "Кладбище": {
+      "name": "Кладбище",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.279559805,
+      "yCoordinate": 56.114091582,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Студенец": {
+      "name": "Поворот на Студенец",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.28286707,
+      "yCoordinate": 56.111175887,
+      "isCoordinateApproximate": false
+    },
+    "Ветчак": {
+      "name": "Ветчак",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.30605085,
+      "yCoordinate": 56.099818105,
+      "isCoordinateApproximate": false
+    },
+    "Починок": {
+      "name": "Починок",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.32399946,
+      "yCoordinate": 56.093008118,
+      "isCoordinateApproximate": false
+    },
+    "Сады Кудьма": {
+      "name": "Сады Кудьма",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.34647135,
+      "yCoordinate": 56.085411892,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Борок": {
+      "name": "Поворот на Борок",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.380595476,
+      "yCoordinate": 56.0634634,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Шаву": {
+      "name": "Поворот на Шаву",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.398407532,
+      "yCoordinate": 56.056237672,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Кадницы": {
+      "name": "Поворот на Кадницы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.434410333,
+      "yCoordinate": 56.045422897,
+      "isCoordinateApproximate": false
+    },
+    "Запрудное": {
+      "name": "Запрудное",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.444361985,
+      "yCoordinate": 56.042296534,
+      "isCoordinateApproximate": false
+    },
+    "Горяньково": {
+      "name": "Горяньково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.497292315,
+      "yCoordinate": 56.03372673,
+      "isCoordinateApproximate": false
+    },
+    "Варварское": {
+      "name": "Варварское",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.506987626,
+      "yCoordinate": 56.03096414,
+      "isCoordinateApproximate": false
+    },
+    "Поляны": {
+      "name": "Поляны",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.543118384,
+      "yCoordinate": 56.029509653,
+      "isCoordinateApproximate": false
+    },
+    "Абатурово": {
+      "name": "Абатурово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.626284399,
+      "yCoordinate": 56.013171797,
+      "isCoordinateApproximate": false
+    },
+    "Малиновка": {
+      "name": "Малиновка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.638146774,
+      "yCoordinate": 55.998931658,
+      "isCoordinateApproximate": false
+    },
+    "Ачапное": {
+      "name": "Ачапное",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.696020326,
+      "yCoordinate": 55.996636534,
+      "isCoordinateApproximate": false
+    },
+    "Нива": {
+      "name": "Нива",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.784873837,
+      "yCoordinate": 55.992358728,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Окинино": {
+      "name": "Поворот на Окинино",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.864186089,
+      "yCoordinate": 56.01111575,
+      "isCoordinateApproximate": false
+    },
+    "Летнево": {
+      "name": "Летнево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.898521971,
+      "yCoordinate": 56.006697112,
+      "isCoordinateApproximate": false
+    },
+    "Баранниково": {
+      "name": "Баранниково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.922201365,
+      "yCoordinate": 56.011004284,
+      "isCoordinateApproximate": false
+    },
+    "Мяском": {
+      "name": "Мяском",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.95110848,
+      "yCoordinate": 56.009577097,
+      "isCoordinateApproximate": false
+    },
+    "Красная Лука": {
+      "name": "Красная Лука",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 44.96145787,
+      "yCoordinate": 56.011134501,
+      "isCoordinateApproximate": false
+    },
+    "Автостанция Лысково": {
+      "name": "Автостанция Лысково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.031786778,
+      "yCoordinate": 56.013450638,
+      "isCoordinateApproximate": false
+    },
+    "Лысково – Ярмарка": {
+      "name": "Лысково – Ярмарка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.055661452,
+      "yCoordinate": 56.016567437,
+      "isCoordinateApproximate": false
+    },
+    "Мост": {
+      "name": "Мост",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.390413804,
+      "yCoordinate": 55.557023337,
+      "isCoordinateApproximate": false
+    },
+    "Лужки": {
+      "name": "Лужки",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.163276661,
+      "yCoordinate": 56.038030165,
+      "isCoordinateApproximate": false
+    },
+    "Крестьянка": {
+      "name": "Крестьянка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.21947836,
+      "yCoordinate": 56.056545461,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Асташиху": {
+      "name": "Поворот на Асташиху",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.257133016,
+      "yCoordinate": 56.055293778,
+      "isCoordinateApproximate": false
+    },
+    "Очаиха": {
+      "name": "Очаиха",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.284036478,
+      "yCoordinate": 56.059460978,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Белозёриху": {
+      "name": "Поворот на Белозёриху",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.35004646,
+      "yCoordinate": 56.053519493,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Варганы": {
+      "name": "Поворот на Варганы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.425375946,
+      "yCoordinate": 56.045643289,
+      "isCoordinateApproximate": false
+    },
+    "Анатольевка": {
+      "name": "Анатольевка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.487765376,
+      "yCoordinate": 56.050295709,
+      "isCoordinateApproximate": false
+    },
+    "Львово": {
+      "name": "Львово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.543129898,
+      "yCoordinate": 56.04998777,
+      "isCoordinateApproximate": false
+    },
+    "Сарайки": {
+      "name": "Сарайки",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.585646227,
+      "yCoordinate": 56.045717711,
+      "isCoordinateApproximate": false
+    },
+    "Южный": {
+      "name": "Южный",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.691236091,
+      "yCoordinate": 56.045832814,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Криуши": {
+      "name": "Поворот на Криуши",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.780103657,
+      "yCoordinate": 56.049996744,
+      "isCoordinateApproximate": false
+    },
+    "Автостанция Воротынец": {
+      "name": "Автостанция Воротынец",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.863116553,
+      "yCoordinate": 56.049805535,
+      "isCoordinateApproximate": false
+    },
+    "Семьяны": {
+      "name": "Семьяны",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 45.985651973,
+      "yCoordinate": 56.032194127,
+      "isCoordinateApproximate": false
+    },
+    "Никольское": {
+      "name": "Никольское",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.029841401,
+      "yCoordinate": 56.007719262,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Белавку": {
+      "name": "Поворот на Белавку",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.087504423,
+      "yCoordinate": 55.999945859,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Ядрин": {
+      "name": "Поворот на Ядрин",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.198655536,
+      "yCoordinate": 55.99355468,
+      "isCoordinateApproximate": false
+    },
+    "Совхозный": {
+      "name": "Совхозный",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.280319489,
+      "yCoordinate": 56.039566989,
+      "isCoordinateApproximate": false
+    },
+    "Сучково": {
+      "name": "Сучково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.360277932,
+      "yCoordinate": 56.041592087,
+      "isCoordinateApproximate": false
+    },
+    "Пошнары": {
+      "name": "Пошнары",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.396929283,
+      "yCoordinate": 56.043394989,
+      "isCoordinateApproximate": false
+    },
+    "Малые Тюмерли": {
+      "name": "Малые Тюмерли",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.469007157,
+      "yCoordinate": 56.053255362,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Новое Тянымово": {
+      "name": "Поворот на Новое Тянымово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.488333104,
+      "yCoordinate": 56.052556449,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Юваново": {
+      "name": "Поворот на Юваново",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.518732227,
+      "yCoordinate": 56.044605799,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Янымово": {
+      "name": "Поворот на Янымово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.561917741,
+      "yCoordinate": 56.033119743,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Юнгу": {
+      "name": "Поворот на Юнгу",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.626909967,
+      "yCoordinate": 56.0272303,
+      "isCoordinateApproximate": false
+    },
+    "Юнгапоси": {
+      "name": "Юнгапоси",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.664540743,
+      "yCoordinate": 56.035100214,
+      "isCoordinateApproximate": false
+    },
+    "Ивановка": {
+      "name": "Ивановка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.731658918,
+      "yCoordinate": 56.040440627,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Москакасы": {
+      "name": "Поворот на Москакасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.765353449,
+      "yCoordinate": 56.039300238,
+      "isCoordinateApproximate": false
+    },
+    "Сидуккасы": {
+      "name": "Сидуккасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.781998712,
+      "yCoordinate": 56.036683876,
+      "isCoordinateApproximate": false
+    },
+    "КС Пищевик": {
+      "name": "КС Пищевик",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.807352101,
+      "yCoordinate": 56.039388703,
+      "isCoordinateApproximate": false
+    },
+    "Тереси": {
+      "name": "Тереси",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.830531306,
+      "yCoordinate": 56.037824435,
+      "isCoordinateApproximate": false
+    },
+    "Рыкакасы": {
+      "name": "Рыкакасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.857456019,
+      "yCoordinate": 56.046179802,
+      "isCoordinateApproximate": false
+    },
+    "Калайкасы": {
+      "name": "Калайкасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.88412405,
+      "yCoordinate": 56.056327201,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Кадикасы": {
+      "name": "Поворот на Кадикасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.913734486,
+      "yCoordinate": 56.066197808,
+      "isCoordinateApproximate": false
+    },
+    "Малый Сундырь": {
+      "name": "Малый Сундырь",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.95782614,
+      "yCoordinate": 56.067051891,
+      "isCoordinateApproximate": false
+    },
+    "Ишлейский поворот": {
+      "name": "Ишлейский поворот",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.973581225,
+      "yCoordinate": 56.069170503,
+      "isCoordinateApproximate": false
+    },
+    "Шобашкаркасы": {
+      "name": "Шобашкаркасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 46.995344718,
+      "yCoordinate": 56.076770793,
+      "isCoordinateApproximate": false
+    },
+    "Питикасы": {
+      "name": "Питикасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.004031861,
+      "yCoordinate": 56.092609767,
+      "isCoordinateApproximate": false
+    },
+    "Вурманкасы": {
+      "name": "Вурманкасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.022362504,
+      "yCoordinate": 56.098068486,
+      "isCoordinateApproximate": false
+    },
+    "Хыркасы": {
+      "name": "Хыркасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.042132707,
+      "yCoordinate": 56.104732557,
+      "isCoordinateApproximate": false
+    },
+    "Крикакасы": {
+      "name": "Крикакасы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.076239139,
+      "yCoordinate": 56.100121199,
+      "isCoordinateApproximate": false
+    },
+    "Яуши": {
+      "name": "Яуши",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.113047752,
+      "yCoordinate": 56.092656312,
+      "isCoordinateApproximate": false
+    },
+    "Черёмушки": {
+      "name": "Черёмушки",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.123317107,
+      "yCoordinate": 56.086459896,
+      "isCoordinateApproximate": false
+    },
+    "Заводская": {
+      "name": "Заводская",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.143680036,
+      "yCoordinate": 56.080852309,
+      "isCoordinateApproximate": false
+    },
+    "Чебоксарское ТПУ": {
+      "name": "Чебоксарское ТПУ",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.164921324,
+      "yCoordinate": 56.07894728,
+      "isCoordinateApproximate": false
+    },
+    "Карачуры": {
+      "name": "Карачуры",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.177996687,
+      "yCoordinate": 56.077543089,
+      "isCoordinateApproximate": false
+    },
+    "Станция Чебоксары-2": {
+      "name": "Станция Чебоксары-2",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.189883878,
+      "yCoordinate": 56.07603123,
+      "isCoordinateApproximate": false
+    },
+    "Новые Лапсары": {
+      "name": "Новые Лапсары",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.212746525,
+      "yCoordinate": 56.072937852,
+      "isCoordinateApproximate": false
+    },
+    "Чебоксары – Центральный автовокзал": {
+      "name": "Чебоксары – Центральный автовокзал",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.268174487,
+      "yCoordinate": 56.113331045,
+      "isCoordinateApproximate": false
+    },
+    "Конно-спортивная школа": {
+      "name": "Конно-спортивная школа",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.457893965,
+      "yCoordinate": 56.125171638,
+      "isCoordinateApproximate": false
+    },
+    "Коллективный сад": {
+      "name": "Коллективный сад",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.467747148,
+      "yCoordinate": 56.157908029,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Иванбеляк": {
+      "name": "Поворот на Иванбеляк",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.560918224,
+      "yCoordinate": 56.179804874,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Сидельниково": {
+      "name": "Поворот на Сидельниково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.631728293,
+      "yCoordinate": 56.176266491,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Кокшамары": {
+      "name": "Поворот на Кокшамары",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.676441746,
+      "yCoordinate": 56.181418145,
+      "isCoordinateApproximate": false
+    },
+    "Ялпай": {
+      "name": "Ялпай",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.897057698,
+      "yCoordinate": 56.180235912,
+      "isCoordinateApproximate": false
+    },
+    "Шуйка": {
+      "name": "Шуйка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 47.937333598,
+      "yCoordinate": 56.177481259,
+      "isCoordinateApproximate": false
+    },
+    "Большие Вележи": {
+      "name": "Большие Вележи",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.019121192,
+      "yCoordinate": 56.165711677,
+      "isCoordinateApproximate": false
+    },
+    "Кужмара-2": {
+      "name": "Кужмара-2",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.074026744,
+      "yCoordinate": 56.155819665,
+      "isCoordinateApproximate": false
+    },
+    "Кужмара-1": {
+      "name": "Кужмара-1",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.08845332,
+      "yCoordinate": 56.151566314,
+      "isCoordinateApproximate": false
+    },
+    "Большой Кожвож": {
+      "name": "Большой Кожвож",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.136616656,
+      "yCoordinate": 56.148633141,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Изоткино": {
+      "name": "Поворот на Изоткино",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.163637457,
+      "yCoordinate": 56.155949694,
+      "isCoordinateApproximate": false
+    },
+    "Малая Кужмара": {
+      "name": "Малая Кужмара",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.186881218,
+      "yCoordinate": 56.164445404,
+      "isCoordinateApproximate": false
+    },
+    "Ташнур": {
+      "name": "Ташнур",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.255055113,
+      "yCoordinate": 56.166893764,
+      "isCoordinateApproximate": false
+    },
+    "Сады": {
+      "name": "Сады",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.275574291,
+      "yCoordinate": 56.167690277,
+      "isCoordinateApproximate": false
+    },
+    "Кожласола": {
+      "name": "Кожласола",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.288507,
+      "yCoordinate": 56.163262,
+      "isCoordinateApproximate": false
+    },
+    "Красногорский": {
+      "name": "Красногорский",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.310013928,
+      "yCoordinate": 56.147449781,
+      "isCoordinateApproximate": false
+    },
+    "Илеть": {
+      "name": "Илеть",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.345328,
+      "yCoordinate": 56.113899,
+      "isCoordinateApproximate": false
+    },
+    "Кичиер": {
+      "name": "Кичиер",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.358916,
+      "yCoordinate": 56.076325,
+      "isCoordinateApproximate": false
+    },
+    "Яльчик": {
+      "name": "Яльчик",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.380678581,
+      "yCoordinate": 56.019866745,
+      "isCoordinateApproximate": false
+    },
+    "Помары – Кафе": {
+      "name": "Помары – Кафе",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.368117911,
+      "yCoordinate": 55.96876273,
+      "isCoordinateApproximate": false
+    },
+    "Помары": {
+      "name": "Помары",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.36723407,
+      "yCoordinate": 55.966376087,
+      "isCoordinateApproximate": false
+    },
+    "Компрессорная": {
+      "name": "Компрессорная",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.370365726,
+      "yCoordinate": 55.941133482,
+      "isCoordinateApproximate": false
+    },
+    "Часовенная": {
+      "name": "Часовенная",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.37034452,
+      "yCoordinate": 55.918454205,
+      "isCoordinateApproximate": false
+    },
+    "Нарат": {
+      "name": "Нарат",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.635947473,
+      "yCoordinate": 55.883102989,
+      "isCoordinateApproximate": false
+    },
+    "Ильинское": {
+      "name": "Ильинское",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.67069098,
+      "yCoordinate": 55.871043347,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Раифу": {
+      "name": "Поворот на Раифу",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.720484093,
+      "yCoordinate": 55.869812271,
+      "isCoordinateApproximate": false
+    },
+    "Грузинский": {
+      "name": "Грузинский",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.734382306,
+      "yCoordinate": 55.868301132,
+      "isCoordinateApproximate": false
+    },
+    "Новопольский": {
+      "name": "Новопольский",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.763499591,
+      "yCoordinate": 55.865154855,
+      "isCoordinateApproximate": false
+    },
+    "Урняк": {
+      "name": "Урняк",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.773350671,
+      "yCoordinate": 55.864241488,
+      "isCoordinateApproximate": false
+    },
+    "Дубровка": {
+      "name": "Дубровка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.803381007,
+      "yCoordinate": 55.863229119,
+      "isCoordinateApproximate": false
+    },
+    "Новая Тура": {
+      "name": "Новая Тура",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.834845916,
+      "yCoordinate": 55.860128142,
+      "isCoordinateApproximate": false
+    },
+    "АЗС": {
+      "name": "АЗС",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.409168416,
+      "yCoordinate": 55.549686387,
+      "isCoordinateApproximate": false
+    },
+    "Жилой массив Залесный": {
+      "name": "Жилой массив Залесный",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 48.897472024,
+      "yCoordinate": 55.849302091,
+      "isCoordinateApproximate": false
+    },
+    "Улица Можайского": {
+      "name": "Улица Можайского",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.033085326,
+      "yCoordinate": 55.825788804,
+      "isCoordinateApproximate": false
+    },
+    "Горьковское шоссе": {
+      "name": "Горьковское шоссе",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.039199853,
+      "yCoordinate": 55.825067437,
+      "isCoordinateApproximate": false
+    },
+    "Железнодорожный вокзал": {
+      "name": "Железнодорожный вокзал",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.101714729,
+      "yCoordinate": 55.788710142,
+      "isCoordinateApproximate": false
+    },
+    "Казанский автовокзал": {
+      "name": "Казанский автовокзал",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.104363229,
+      "yCoordinate": 55.773064676,
+      "isCoordinateApproximate": false
+    },
+    "Кафе Полёт": {
+      "name": "Кафе Полёт",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.187152816,
+      "yCoordinate": 55.801442743,
+      "isCoordinateApproximate": false
+    },
+    "Казань – Автовокзал Восточный": {
+      "name": "Казань – Автовокзал Восточный",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.207818918,
+      "yCoordinate": 55.793961663,
+      "isCoordinateApproximate": false
+    },
+    "Жилой массив Малые Клыки": {
+      "name": "Жилой массив Малые Клыки",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.224547747,
+      "yCoordinate": 55.796096807,
+      "isCoordinateApproximate": false
+    },
+    "Сады Домостроитель": {
+      "name": "Сады Домостроитель",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.38063927,
+      "yCoordinate": 55.756809544,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Богородское": {
+      "name": "Поворот на Богородское",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.396554716,
+      "yCoordinate": 55.745806567,
+      "isCoordinateApproximate": false
+    },
+    "Посёлок Ильинский": {
+      "name": "Посёлок Ильинский",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.459223935,
+      "yCoordinate": 55.722716381,
+      "isCoordinateApproximate": false
+    },
+    "СНТ Нива": {
+      "name": "СНТ Нива",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.479345858,
+      "yCoordinate": 55.720319682,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Пестрецы": {
+      "name": "Поворот на Пестрецы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.547135173,
+      "yCoordinate": 55.711244884,
+      "isCoordinateApproximate": false
+    },
+    "Сады Меша-1": {
+      "name": "Сады Меша-1",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.587964328,
+      "yCoordinate": 55.697156921,
+      "isCoordinateApproximate": false
+    },
+    "Деревня имени ТатЦИКа": {
+      "name": "Деревня имени ТатЦИКа",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.641846444,
+      "yCoordinate": 55.698321108,
+      "isCoordinateApproximate": false
+    },
+    "Шали": {
+      "name": "Шали",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.666779259,
+      "yCoordinate": 55.69074059,
+      "isCoordinateApproximate": false
+    },
+    "Нептун": {
+      "name": "Нептун",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.748735384,
+      "yCoordinate": 55.672660366,
+      "isCoordinateApproximate": false
+    },
+    "Опытное Поле": {
+      "name": "Опытное Поле",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.82420784,
+      "yCoordinate": 55.68066223,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Екатериновку": {
+      "name": "Поворот на Екатериновку",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.86061084,
+      "yCoordinate": 55.672404602,
+      "isCoordinateApproximate": false
+    },
+    "Иксуар": {
+      "name": "Иксуар",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.901796343,
+      "yCoordinate": 55.660396256,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Большой Салтан": {
+      "name": "Поворот на Большой Салтан",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 49.975726512,
+      "yCoordinate": 55.649216572,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Отар-Дубровку": {
+      "name": "Поворот на Отар-Дубровку",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.005279842,
+      "yCoordinate": 55.643967883,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Крещёные Казыли": {
+      "name": "Поворот на Крещёные Казыли",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.105415403,
+      "yCoordinate": 55.658299318,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Новый Арыш": {
+      "name": "Поворот на Новый Арыш",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.299835771,
+      "yCoordinate": 55.695071386,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Кукеево": {
+      "name": "Поворот на Кукеево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.437891,
+      "yCoordinate": 55.687441,
+      "isCoordinateApproximate": false
+    },
+    "Алан-Полян": {
+      "name": "Алан-Полян",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.533249869,
+      "yCoordinate": 55.685223506,
+      "isCoordinateApproximate": false
+    },
+    "Уреево": {
+      "name": "Уреево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.571206,
+      "yCoordinate": 55.688418,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Большой Машляк – Кафе": {
+      "name": "Поворот на Большой Машляк – Кафе",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.630504327,
+      "yCoordinate": 55.677216687,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Большой Машляк": {
+      "name": "Поворот на Большой Машляк",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.685437739,
+      "yCoordinate": 55.678373559,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Берсут-Сукаче": {
+      "name": "Поворот на Берсут-Сукаче",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.788581324,
+      "yCoordinate": 55.663460488,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Катмыш": {
+      "name": "Поворот на Катмыш",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.836768652,
+      "yCoordinate": 55.647105289,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Нижнюю Сунь": {
+      "name": "Поворот на Нижнюю Сунь",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.911688246,
+      "yCoordinate": 55.637668616,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Рахматову Поляну": {
+      "name": "Поворот на Рахматову Поляну",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 50.97776991,
+      "yCoordinate": 55.63978552,
+      "isCoordinateApproximate": false
+    },
+    "Нижние Яки": {
+      "name": "Нижние Яки",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.043894499,
+      "yCoordinate": 55.644132549,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Средние Кирмени": {
+      "name": "Поворот на Средние Кирмени",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.149711288,
+      "yCoordinate": 55.652704874,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Омары": {
+      "name": "Поворот на Омары",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.296857852,
+      "yCoordinate": 55.661155707,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Мамадыш": {
+      "name": "Поворот на Мамадыш",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.385407,
+      "yCoordinate": 55.648612,
+      "isCoordinateApproximate": false
+    },
+    "Посёлок Совхоз Пятилетка": {
+      "name": "Посёлок Совхоз Пятилетка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.409238793,
+      "yCoordinate": 55.663872336,
+      "isCoordinateApproximate": false
+    },
+    "Чирши": {
+      "name": "Чирши",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.517582999,
+      "yCoordinate": 55.700156707,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Яковлево": {
+      "name": "Поворот на Яковлево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.577075541,
+      "yCoordinate": 55.710702266,
+      "isCoordinateApproximate": false
+    },
+    "Костенеево": {
+      "name": "Костенеево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.587717177,
+      "yCoordinate": 55.71165049,
+      "isCoordinateApproximate": false
+    },
+    "Казыли": {
+      "name": "Казыли",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.620832133,
+      "yCoordinate": 55.712155281,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Новую Мурзиху": {
+      "name": "Поворот на Новую Мурзиху",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.669659901,
+      "yCoordinate": 55.712741135,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Покровское": {
+      "name": "Поворот на Покровское",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.690836487,
+      "yCoordinate": 55.718137328,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Морты": {
+      "name": "Поворот на Морты",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.750511157,
+      "yCoordinate": 55.742120249,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Лекарево": {
+      "name": "Поворот на Лекарево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.830495532,
+      "yCoordinate": 55.770344309,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Малореченский": {
+      "name": "Поворот на Малореченский",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.859975422,
+      "yCoordinate": 55.787438055,
+      "isCoordinateApproximate": false
+    },
+    "Хлыстово": {
+      "name": "Хлыстово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 51.963490485,
+      "yCoordinate": 55.795488643,
+      "isCoordinateApproximate": false
+    },
+    "Большая Тарловка": {
+      "name": "Большая Тарловка",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.018776982,
+      "yCoordinate": 55.792220056,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Елабугу – Три заправки": {
+      "name": "Поворот на Елабугу – Три заправки",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.047174614,
+      "yCoordinate": 55.789089131,
+      "isCoordinateApproximate": false
+    },
+    "Святой Ключ": {
+      "name": "Святой Ключ",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.136792577,
+      "yCoordinate": 55.773177807,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Поспелово": {
+      "name": "Поворот на Поспелово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.206828088,
+      "yCoordinate": 55.774128508,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Мальцево": {
+      "name": "Поворот на Мальцево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.221549998,
+      "yCoordinate": 55.765383841,
+      "isCoordinateApproximate": false
+    },
+    "Автовокзал Набережные Челны": {
+      "name": "Автовокзал Набережные Челны",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.27821825,
+      "yCoordinate": 55.672509113,
+      "isCoordinateApproximate": false
+    },
+    "Набережные Челны – ТЦ Казанский": {
+      "name": "Набережные Челны – ТЦ Казанский",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.380533603,
+      "yCoordinate": 55.702065002,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Тогаево": {
+      "name": "Поворот на Тогаево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.528302908,
+      "yCoordinate": 55.672600574,
+      "isCoordinateApproximate": false
+    },
+    "Телебашня": {
+      "name": "Телебашня",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.609813114,
+      "yCoordinate": 55.650711597,
+      "isCoordinateApproximate": false
+    },
+    "Сосновый Бор": {
+      "name": "Сосновый Бор",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.62319358,
+      "yCoordinate": 55.645247856,
+      "isCoordinateApproximate": false
+    },
+    "Наратлы": {
+      "name": "Наратлы",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.648996284,
+      "yCoordinate": 55.644226496,
+      "isCoordinateApproximate": false
+    },
+    "Верхний Такермен": {
+      "name": "Верхний Такермен",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.678671136,
+      "yCoordinate": 55.643602833,
+      "isCoordinateApproximate": false
+    },
+    "Усаево": {
+      "name": "Усаево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.833807543,
+      "yCoordinate": 55.645614377,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Новую Александровку": {
+      "name": "Поворот на Новую Александровку",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.859124064,
+      "yCoordinate": 55.649203669,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Канонерку": {
+      "name": "Поворот на Канонерку",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.932258109,
+      "yCoordinate": 55.673327294,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Коноваловку": {
+      "name": "Поворот на Коноваловку",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 52.963264987,
+      "yCoordinate": 55.686190559,
+      "isCoordinateApproximate": false
+    },
+    "Юртово": {
+      "name": "Юртово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.049155712,
+      "yCoordinate": 55.706045624,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на посёлок Совхоз имени Воровского": {
+      "name": "Поворот на посёлок Совхоз имени Воровского",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.136933455,
+      "yCoordinate": 55.682197542,
+      "isCoordinateApproximate": false
+    },
+    "Совхоз имени Воровского – Кафе": {
+      "name": "Совхоз имени Воровского – Кафе",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.139968899,
+      "yCoordinate": 55.680793516,
+      "isCoordinateApproximate": false
+    },
+    "Аю": {
+      "name": "Аю",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.268247232,
+      "yCoordinate": 55.604377384,
+      "isCoordinateApproximate": false
+    },
+    "Калмурзино": {
+      "name": "Калмурзино",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.347830111,
+      "yCoordinate": 55.573569136,
+      "isCoordinateApproximate": false
+    },
+    "Поисево": {
+      "name": "Поисево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.500374438,
+      "yCoordinate": 55.547332964,
+      "isCoordinateApproximate": false
+    },
+    "Качкиново": {
+      "name": "Качкиново",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.566320792,
+      "yCoordinate": 55.538497228,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Улиманово": {
+      "name": "Поворот на Улиманово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.686634243,
+      "yCoordinate": 55.523726497,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Верхнее Яхшеево": {
+      "name": "Поворот на Верхнее Яхшеево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.772205939,
+      "yCoordinate": 55.509915085,
+      "isCoordinateApproximate": false
+    },
+    "Старое Байсарово": {
+      "name": "Старое Байсарово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 53.882024026,
+      "yCoordinate": 55.486558083,
+      "isCoordinateApproximate": false
+    },
+    "Зяйляу": {
+      "name": "Зяйляу",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.030565709,
+      "yCoordinate": 55.476366363,
+      "isCoordinateApproximate": false
+    },
+    "Исаметово": {
+      "name": "Исаметово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.052886248,
+      "yCoordinate": 55.46829978,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Старокуктово": {
+      "name": "Поворот на Старокуктово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.246629355,
+      "yCoordinate": 55.447988347,
+      "isCoordinateApproximate": false
+    },
+    "По требованию": {
+      "name": "По требованию",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.275409458,
+      "yCoordinate": 55.441876056,
+      "isCoordinateApproximate": false
+    },
+    "Маслозавод": {
+      "name": "Маслозавод",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.310581457,
+      "yCoordinate": 55.439893912,
+      "isCoordinateApproximate": false
+    },
+    "Ишкарово": {
+      "name": "Ишкарово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.530385834,
+      "yCoordinate": 55.477144606,
+      "isCoordinateApproximate": false
+    },
+    "Лаяшты": {
+      "name": "Лаяшты",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.602339804,
+      "yCoordinate": 55.470023993,
+      "isCoordinateApproximate": false
+    },
+    "Асяново": {
+      "name": "Асяново",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.717263886,
+      "yCoordinate": 55.441245961,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Дюртюли – Кафе Дуслык": {
+      "name": "Поворот на Дюртюли – Кафе Дуслык",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.805444861,
+      "yCoordinate": 55.428170203,
+      "isCoordinateApproximate": false
+    },
+    "Такарликово": {
+      "name": "Такарликово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.791729371,
+      "yCoordinate": 55.467729987,
+      "isCoordinateApproximate": false
+    },
+    "Мечеть Мирас": {
+      "name": "Мечеть Мирас",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.853794,
+      "yCoordinate": 55.488663,
+      "isCoordinateApproximate": false
+    },
+    "Старосултанбеково": {
+      "name": "Старосултанбеково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.843110027,
+      "yCoordinate": 55.445051432,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Султанбеково": {
+      "name": "Поворот на Султанбеково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.832316231,
+      "yCoordinate": 55.39866601,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Салпарово": {
+      "name": "Поворот на Салпарово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.903937906,
+      "yCoordinate": 55.35784825,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Куккуяново": {
+      "name": "Поворот на Куккуяново",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 54.965221,
+      "yCoordinate": 55.328332,
+      "isCoordinateApproximate": false
+    },
+    "Ивачево": {
+      "name": "Ивачево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.015099445,
+      "yCoordinate": 55.298508722,
+      "isCoordinateApproximate": false
+    },
+    "Саитово": {
+      "name": "Саитово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.039668665,
+      "yCoordinate": 55.279231955,
+      "isCoordinateApproximate": false
+    },
+    "Марс": {
+      "name": "Марс",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.069520495,
+      "yCoordinate": 55.24981717,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Гумерово": {
+      "name": "Поворот на Гумерово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.090108991,
+      "yCoordinate": 55.223748082,
+      "isCoordinateApproximate": false
+    },
+    "Карача-Елга": {
+      "name": "Карача-Елга",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.114621265,
+      "yCoordinate": 55.195330873,
+      "isCoordinateApproximate": false
+    },
+    "Чирша-Тартыш": {
+      "name": "Чирша-Тартыш",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.130229226,
+      "yCoordinate": 55.158930837,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Якупово": {
+      "name": "Поворот на Якупово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.208927327,
+      "yCoordinate": 55.136275106,
+      "isCoordinateApproximate": false
+    },
+    "Матвеево": {
+      "name": "Матвеево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.240464138,
+      "yCoordinate": 55.137701657,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Старобаскаково": {
+      "name": "Поворот на Старобаскаково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.304488107,
+      "yCoordinate": 55.129746215,
+      "isCoordinateApproximate": false
+    },
+    "Кушнаренково": {
+      "name": "Кушнаренково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.333529858,
+      "yCoordinate": 55.10043866,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Тарабердино": {
+      "name": "Поворот на Тарабердино",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.390056904,
+      "yCoordinate": 55.079271369,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Ахметово": {
+      "name": "Поворот на Ахметово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.418821301,
+      "yCoordinate": 55.065909221,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Кувыково": {
+      "name": "Поворот на Кувыково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.470818405,
+      "yCoordinate": 55.02288596,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Калтаево": {
+      "name": "Поворот на Калтаево",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.481207218,
+      "yCoordinate": 55.013240566,
+      "isCoordinateApproximate": false
+    },
+    "Субай": {
+      "name": "Субай",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.494074268,
+      "yCoordinate": 55.002100094,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Шарипово": {
+      "name": "Поворот на Шарипово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.585108641,
+      "yCoordinate": 54.95844664,
+      "isCoordinateApproximate": false
+    },
+    "Волково": {
+      "name": "Волково",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.6314238,
+      "yCoordinate": 54.900137,
+      "isCoordinateApproximate": false
+    },
+    "Подымалово": {
+      "name": "Подымалово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.734729081,
+      "yCoordinate": 54.872401593,
+      "isCoordinateApproximate": false
+    },
+    "Промзона Курасково-1": {
+      "name": "Промзона Курасково-1",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.815005467,
+      "yCoordinate": 54.832123293,
+      "isCoordinateApproximate": false
+    },
+    "Вавилово": {
+      "name": "Вавилово",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.843831118,
+      "yCoordinate": 54.814773367,
+      "isCoordinateApproximate": false
+    },
+    "Кафе Встреча": {
+      "name": "Кафе Встреча",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.851197418,
+      "yCoordinate": 54.806755561,
+      "isCoordinateApproximate": false
+    },
+    "КПМ": {
+      "name": "КПМ",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.859397729,
+      "yCoordinate": 54.800979684,
+      "isCoordinateApproximate": false
+    },
+    "Уфа – Южный автовокзал": {
+      "name": "Уфа – Южный автовокзал",
+      "routeList": [
+        "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки"
+      ],
+      "xCoordinate": 55.985782861,
+      "yCoordinate": 54.751355065,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "Автовокзал Щербинки",
+      "endStop": "Автостанция Кстово",
+      "name": "Автовокзал Щербинки -> Автостанция Кстово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 19
+    },
+    {
+      "startStop": "Автостанция Кстово",
+      "endStop": "Магистральная улица",
+      "name": "Автостанция Кстово -> Магистральная улица; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Магистральная улица",
+      "endStop": "Завод Агат",
+      "name": "Магистральная улица -> Завод Агат; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Завод Агат",
+      "endStop": "Караулово",
+      "name": "Завод Агат -> Караулово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Караулово",
+      "endStop": "Кладбище",
+      "name": "Караулово -> Кладбище; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Студенец",
+      "endStop": "Ветчак",
+      "name": "Поворот на Студенец -> Ветчак; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Ветчак",
+      "endStop": "Починок",
+      "name": "Ветчак -> Починок; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Починок",
+      "endStop": "Сады Кудьма",
+      "name": "Починок -> Сады Кудьма; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Сады Кудьма",
+      "endStop": "Поворот на Борок",
+      "name": "Сады Кудьма -> Поворот на Борок; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Борок",
+      "endStop": "Поворот на Шаву",
+      "name": "Поворот на Борок -> Поворот на Шаву; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Шаву",
+      "endStop": "Поворот на Кадницы",
+      "name": "Поворот на Шаву -> Поворот на Кадницы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Кадницы",
+      "endStop": "Запрудное",
+      "name": "Поворот на Кадницы -> Запрудное; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Запрудное",
+      "endStop": "Горяньково",
+      "name": "Запрудное -> Горяньково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Горяньково",
+      "endStop": "Варварское",
+      "name": "Горяньково -> Варварское; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Варварское",
+      "endStop": "Поляны",
+      "name": "Варварское -> Поляны; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поляны",
+      "endStop": "Абатурово",
+      "name": "Поляны -> Абатурово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Абатурово",
+      "endStop": "Малиновка",
+      "name": "Абатурово -> Малиновка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Малиновка",
+      "endStop": "Ачапное",
+      "name": "Малиновка -> Ачапное; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Ачапное",
+      "endStop": "Нива",
+      "name": "Ачапное -> Нива; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Нива",
+      "endStop": "Поворот на Окинино",
+      "name": "Нива -> Поворот на Окинино; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Окинино",
+      "endStop": "Летнево",
+      "name": "Поворот на Окинино -> Летнево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Летнево",
+      "endStop": "Баранниково",
+      "name": "Летнево -> Баранниково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Баранниково",
+      "endStop": "Мяском",
+      "name": "Баранниково -> Мяском; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Мяском",
+      "endStop": "Красная Лука",
+      "name": "Мяском -> Красная Лука; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Красная Лука",
+      "endStop": "Автостанция Лысково",
+      "name": "Красная Лука -> Автостанция Лысково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Автостанция Лысково",
+      "endStop": "Лысково – Ярмарка",
+      "name": "Автостанция Лысково -> Лысково – Ярмарка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 16
+    },
+    {
+      "startStop": "Лысково – Ярмарка",
+      "endStop": "Мост",
+      "name": "Лысково – Ярмарка -> Мост; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Мост",
+      "endStop": "Лужки",
+      "name": "Мост -> Лужки; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Лужки",
+      "endStop": "Крестьянка",
+      "name": "Лужки -> Крестьянка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Крестьянка",
+      "endStop": "Поворот на Асташиху",
+      "name": "Крестьянка -> Поворот на Асташиху; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Асташиху",
+      "endStop": "Очаиха",
+      "name": "Поворот на Асташиху -> Очаиха; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Очаиха",
+      "endStop": "Поворот на Белозёриху",
+      "name": "Очаиха -> Поворот на Белозёриху; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Белозёриху",
+      "endStop": "Поворот на Варганы",
+      "name": "Поворот на Белозёриху -> Поворот на Варганы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Варганы",
+      "endStop": "Анатольевка",
+      "name": "Поворот на Варганы -> Анатольевка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Анатольевка",
+      "endStop": "Львово",
+      "name": "Анатольевка -> Львово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Львово",
+      "endStop": "Сарайки",
+      "name": "Львово -> Сарайки; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Сарайки",
+      "endStop": "Южный",
+      "name": "Сарайки -> Южный; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Южный",
+      "endStop": "Поворот на Криуши",
+      "name": "Южный -> Поворот на Криуши; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Криуши",
+      "endStop": "Автостанция Воротынец",
+      "name": "Поворот на Криуши -> Автостанция Воротынец; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Автостанция Воротынец",
+      "endStop": "Семьяны",
+      "name": "Автостанция Воротынец -> Семьяны; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Семьяны",
+      "endStop": "Никольское",
+      "name": "Семьяны -> Никольское; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Никольское",
+      "endStop": "Поворот на Белавку",
+      "name": "Никольское -> Поворот на Белавку; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Белавку",
+      "endStop": "Поворот на Ядрин",
+      "name": "Поворот на Белавку -> Поворот на Ядрин; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 21
+    },
+    {
+      "startStop": "Поворот на Ядрин",
+      "endStop": "Совхозный",
+      "name": "Поворот на Ядрин -> Совхозный; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Совхозный",
+      "endStop": "Сучково",
+      "name": "Совхозный -> Сучково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Сучково",
+      "endStop": "Пошнары",
+      "name": "Сучково -> Пошнары; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Пошнары",
+      "endStop": "Малые Тюмерли",
+      "name": "Пошнары -> Малые Тюмерли; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Малые Тюмерли",
+      "endStop": "Поворот на Новое Тянымово",
+      "name": "Малые Тюмерли -> Поворот на Новое Тянымово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Поворот на Новое Тянымово",
+      "endStop": "Поворот на Юваново",
+      "name": "Поворот на Новое Тянымово -> Поворот на Юваново; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Юваново",
+      "endStop": "Поворот на Янымово",
+      "name": "Поворот на Юваново -> Поворот на Янымово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Янымово",
+      "endStop": "Поворот на Юнгу",
+      "name": "Поворот на Янымово -> Поворот на Юнгу; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Юнгу",
+      "endStop": "Юнгапоси",
+      "name": "Поворот на Юнгу -> Юнгапоси; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Юнгапоси",
+      "endStop": "Ивановка",
+      "name": "Юнгапоси -> Ивановка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Ивановка",
+      "endStop": "Поворот на Москакасы",
+      "name": "Ивановка -> Поворот на Москакасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Москакасы",
+      "endStop": "Сидуккасы",
+      "name": "Поворот на Москакасы -> Сидуккасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Сидуккасы",
+      "endStop": "КС Пищевик",
+      "name": "Сидуккасы -> КС Пищевик; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "КС Пищевик",
+      "endStop": "Тереси",
+      "name": "КС Пищевик -> Тереси; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Тереси",
+      "endStop": "Рыкакасы",
+      "name": "Тереси -> Рыкакасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Рыкакасы",
+      "endStop": "Калайкасы",
+      "name": "Рыкакасы -> Калайкасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Калайкасы",
+      "endStop": "Поворот на Кадикасы",
+      "name": "Калайкасы -> Поворот на Кадикасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Кадикасы",
+      "endStop": "Малый Сундырь",
+      "name": "Поворот на Кадикасы -> Малый Сундырь; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Малый Сундырь",
+      "endStop": "Ишлейский поворот",
+      "name": "Малый Сундырь -> Ишлейский поворот; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Ишлейский поворот",
+      "endStop": "Шобашкаркасы",
+      "name": "Ишлейский поворот -> Шобашкаркасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Шобашкаркасы",
+      "endStop": "Питикасы",
+      "name": "Шобашкаркасы -> Питикасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Питикасы",
+      "endStop": "Вурманкасы",
+      "name": "Питикасы -> Вурманкасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Вурманкасы",
+      "endStop": "Хыркасы",
+      "name": "Вурманкасы -> Хыркасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Хыркасы",
+      "endStop": "Крикакасы",
+      "name": "Хыркасы -> Крикакасы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Крикакасы",
+      "endStop": "Яуши",
+      "name": "Крикакасы -> Яуши; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Яуши",
+      "endStop": "Черёмушки",
+      "name": "Яуши -> Черёмушки; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Черёмушки",
+      "endStop": "Заводская",
+      "name": "Черёмушки -> Заводская; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Заводская",
+      "endStop": "Чебоксарское ТПУ",
+      "name": "Заводская -> Чебоксарское ТПУ; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Чебоксарское ТПУ",
+      "endStop": "Карачуры",
+      "name": "Чебоксарское ТПУ -> Карачуры; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Станция Чебоксары-2",
+      "endStop": "Новые Лапсары",
+      "name": "Станция Чебоксары-2 -> Новые Лапсары; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Новые Лапсары",
+      "endStop": "Чебоксары – Центральный автовокзал",
+      "name": "Новые Лапсары -> Чебоксары – Центральный автовокзал; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 42
+    },
+    {
+      "startStop": "Чебоксары – Центральный автовокзал",
+      "endStop": "Конно-спортивная школа",
+      "name": "Чебоксары – Центральный автовокзал -> Конно-спортивная школа; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 14
+    },
+    {
+      "startStop": "Конно-спортивная школа",
+      "endStop": "Коллективный сад",
+      "name": "Конно-спортивная школа -> Коллективный сад; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Коллективный сад",
+      "endStop": "Поворот на Иванбеляк",
+      "name": "Коллективный сад -> Поворот на Иванбеляк; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 7
+    },
+    {
+      "startStop": "Поворот на Иванбеляк",
+      "endStop": "Поворот на Сидельниково",
+      "name": "Поворот на Иванбеляк -> Поворот на Сидельниково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Сидельниково",
+      "endStop": "Поворот на Кокшамары",
+      "name": "Поворот на Сидельниково -> Поворот на Кокшамары; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Кокшамары",
+      "endStop": "Ялпай",
+      "name": "Поворот на Кокшамары -> Ялпай; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 13
+    },
+    {
+      "startStop": "Ялпай",
+      "endStop": "Шуйка",
+      "name": "Ялпай -> Шуйка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Шуйка",
+      "endStop": "Большие Вележи",
+      "name": "Шуйка -> Большие Вележи; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Большие Вележи",
+      "endStop": "Кужмара-2",
+      "name": "Большие Вележи -> Кужмара-2; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Кужмара-2",
+      "endStop": "Кужмара-1",
+      "name": "Кужмара-2 -> Кужмара-1; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Кужмара-1",
+      "endStop": "Большой Кожвож",
+      "name": "Кужмара-1 -> Большой Кожвож; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Большой Кожвож",
+      "endStop": "Поворот на Изоткино",
+      "name": "Большой Кожвож -> Поворот на Изоткино; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Поворот на Изоткино",
+      "endStop": "Малая Кужмара",
+      "name": "Поворот на Изоткино -> Малая Кужмара; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Малая Кужмара",
+      "endStop": "Ташнур",
+      "name": "Малая Кужмара -> Ташнур; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Ташнур",
+      "endStop": "Сады",
+      "name": "Ташнур -> Сады; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Сады",
+      "endStop": "Кожласола",
+      "name": "Сады -> Кожласола; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Кожласола",
+      "endStop": "Красногорский",
+      "name": "Кожласола -> Красногорский; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Красногорский",
+      "endStop": "Илеть",
+      "name": "Красногорский -> Илеть; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Илеть",
+      "endStop": "Кичиер",
+      "name": "Илеть -> Кичиер; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Кичиер",
+      "endStop": "Яльчик",
+      "name": "Кичиер -> Яльчик; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Яльчик",
+      "endStop": "Помары – Кафе",
+      "name": "Яльчик -> Помары – Кафе; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 21
+    },
+    {
+      "startStop": "Помары – Кафе",
+      "endStop": "Помары",
+      "name": "Помары – Кафе -> Помары; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Помары",
+      "endStop": "Компрессорная",
+      "name": "Помары -> Компрессорная; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Компрессорная",
+      "endStop": "Часовенная",
+      "name": "Компрессорная -> Часовенная; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Часовенная",
+      "endStop": "Нарат",
+      "name": "Часовенная -> Нарат; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 15
+    },
+    {
+      "startStop": "Нарат",
+      "endStop": "Ильинское",
+      "name": "Нарат -> Ильинское; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Ильинское",
+      "endStop": "Поворот на Раифу",
+      "name": "Ильинское -> Поворот на Раифу; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Раифу",
+      "endStop": "Грузинский",
+      "name": "Поворот на Раифу -> Грузинский; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Грузинский",
+      "endStop": "Новопольский",
+      "name": "Грузинский -> Новопольский; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Новопольский",
+      "endStop": "Урняк",
+      "name": "Новопольский -> Урняк; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Урняк",
+      "endStop": "Дубровка",
+      "name": "Урняк -> Дубровка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Дубровка",
+      "endStop": "Новая Тура",
+      "name": "Дубровка -> Новая Тура; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Новая Тура",
+      "endStop": "АЗС",
+      "name": "Новая Тура -> АЗС; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "АЗС",
+      "endStop": "Жилой массив Залесный",
+      "name": "АЗС -> Жилой массив Залесный; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Жилой массив Залесный",
+      "endStop": "Улица Можайского",
+      "name": "Жилой массив Залесный -> Улица Можайского; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 11
+    },
+    {
+      "startStop": "Горьковское шоссе",
+      "endStop": "Железнодорожный вокзал",
+      "name": "Горьковское шоссе -> Железнодорожный вокзал; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 8
+    },
+    {
+      "startStop": "Железнодорожный вокзал",
+      "endStop": "Казанский автовокзал",
+      "name": "Железнодорожный вокзал -> Казанский автовокзал; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 18
+    },
+    {
+      "startStop": "Казанский автовокзал",
+      "endStop": "Кафе Полёт",
+      "name": "Казанский автовокзал -> Кафе Полёт; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 9
+    },
+    {
+      "startStop": "Кафе Полёт",
+      "endStop": "Казань – Автовокзал Восточный",
+      "name": "Кафе Полёт -> Казань – Автовокзал Восточный; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Казань – Автовокзал Восточный",
+      "endStop": "Жилой массив Малые Клыки",
+      "name": "Казань – Автовокзал Восточный -> Жилой массив Малые Клыки; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Жилой массив Малые Клыки",
+      "endStop": "Сады Домостроитель",
+      "name": "Жилой массив Малые Клыки -> Сады Домостроитель; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 13
+    },
+    {
+      "startStop": "Сады Домостроитель",
+      "endStop": "Поворот на Богородское",
+      "name": "Сады Домостроитель -> Поворот на Богородское; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Богородское",
+      "endStop": "Посёлок Ильинский",
+      "name": "Поворот на Богородское -> Посёлок Ильинский; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Посёлок Ильинский",
+      "endStop": "СНТ Нива",
+      "name": "Посёлок Ильинский -> СНТ Нива; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "СНТ Нива",
+      "endStop": "Поворот на Пестрецы",
+      "name": "СНТ Нива -> Поворот на Пестрецы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Пестрецы",
+      "endStop": "Сады Меша-1",
+      "name": "Поворот на Пестрецы -> Сады Меша-1; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Сады Меша-1",
+      "endStop": "Деревня имени ТатЦИКа",
+      "name": "Сады Меша-1 -> Деревня имени ТатЦИКа; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Деревня имени ТатЦИКа",
+      "endStop": "Шали",
+      "name": "Деревня имени ТатЦИКа -> Шали; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Шали",
+      "endStop": "Нептун",
+      "name": "Шали -> Нептун; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Нептун",
+      "endStop": "Опытное Поле",
+      "name": "Нептун -> Опытное Поле; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Опытное Поле",
+      "endStop": "Поворот на Екатериновку",
+      "name": "Опытное Поле -> Поворот на Екатериновку; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Екатериновку",
+      "endStop": "Иксуар",
+      "name": "Поворот на Екатериновку -> Иксуар; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Иксуар",
+      "endStop": "Поворот на Большой Салтан",
+      "name": "Иксуар -> Поворот на Большой Салтан; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Большой Салтан",
+      "endStop": "Поворот на Отар-Дубровку",
+      "name": "Поворот на Большой Салтан -> Поворот на Отар-Дубровку; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Отар-Дубровку",
+      "endStop": "Поворот на Крещёные Казыли",
+      "name": "Поворот на Отар-Дубровку -> Поворот на Крещёные Казыли; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Крещёные Казыли",
+      "endStop": "Поворот на Новый Арыш",
+      "name": "Поворот на Крещёные Казыли -> Поворот на Новый Арыш; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 10
+    },
+    {
+      "startStop": "Поворот на Новый Арыш",
+      "endStop": "Поворот на Кукеево",
+      "name": "Поворот на Новый Арыш -> Поворот на Кукеево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 7
+    },
+    {
+      "startStop": "Поворот на Кукеево",
+      "endStop": "Алан-Полян",
+      "name": "Поворот на Кукеево -> Алан-Полян; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 7
+    },
+    {
+      "startStop": "Алан-Полян",
+      "endStop": "Уреево",
+      "name": "Алан-Полян -> Уреево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Уреево",
+      "endStop": "Поворот на Большой Машляк – Кафе",
+      "name": "Уреево -> Поворот на Большой Машляк – Кафе; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 23
+    },
+    {
+      "startStop": "Поворот на Большой Машляк – Кафе",
+      "endStop": "Поворот на Большой Машляк",
+      "name": "Поворот на Большой Машляк – Кафе -> Поворот на Большой Машляк; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Большой Машляк",
+      "endStop": "Поворот на Берсут-Сукаче",
+      "name": "Поворот на Большой Машляк -> Поворот на Берсут-Сукаче; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Берсут-Сукаче",
+      "endStop": "Поворот на Катмыш",
+      "name": "Поворот на Берсут-Сукаче -> Поворот на Катмыш; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Катмыш",
+      "endStop": "Поворот на Нижнюю Сунь",
+      "name": "Поворот на Катмыш -> Поворот на Нижнюю Сунь; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Нижнюю Сунь",
+      "endStop": "Поворот на Рахматову Поляну",
+      "name": "Поворот на Нижнюю Сунь -> Поворот на Рахматову Поляну; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Рахматову Поляну",
+      "endStop": "Нижние Яки",
+      "name": "Поворот на Рахматову Поляну -> Нижние Яки; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Нижние Яки",
+      "endStop": "Поворот на Средние Кирмени",
+      "name": "Нижние Яки -> Поворот на Средние Кирмени; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Поворот на Средние Кирмени",
+      "endStop": "Поворот на Омары",
+      "name": "Поворот на Средние Кирмени -> Поворот на Омары; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 7
+    },
+    {
+      "startStop": "Поворот на Омары",
+      "endStop": "Поворот на Мамадыш",
+      "name": "Поворот на Омары -> Поворот на Мамадыш; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Мамадыш",
+      "endStop": "Посёлок Совхоз Пятилетка",
+      "name": "Поворот на Мамадыш -> Посёлок Совхоз Пятилетка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Посёлок Совхоз Пятилетка",
+      "endStop": "Чирши",
+      "name": "Посёлок Совхоз Пятилетка -> Чирши; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Чирши",
+      "endStop": "Поворот на Яковлево",
+      "name": "Чирши -> Поворот на Яковлево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Яковлево",
+      "endStop": "Костенеево",
+      "name": "Поворот на Яковлево -> Костенеево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Костенеево",
+      "endStop": "Казыли",
+      "name": "Костенеево -> Казыли; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Казыли",
+      "endStop": "Поворот на Новую Мурзиху",
+      "name": "Казыли -> Поворот на Новую Мурзиху; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Новую Мурзиху",
+      "endStop": "Поворот на Покровское",
+      "name": "Поворот на Новую Мурзиху -> Поворот на Покровское; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Поворот на Покровское",
+      "endStop": "Поворот на Морты",
+      "name": "Поворот на Покровское -> Поворот на Морты; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Морты",
+      "endStop": "Поворот на Лекарево",
+      "name": "Поворот на Морты -> Поворот на Лекарево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Лекарево",
+      "endStop": "Поворот на Малореченский",
+      "name": "Поворот на Лекарево -> Поворот на Малореченский; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Малореченский",
+      "endStop": "Хлыстово",
+      "name": "Поворот на Малореченский -> Хлыстово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Хлыстово",
+      "endStop": "Большая Тарловка",
+      "name": "Хлыстово -> Большая Тарловка; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Большая Тарловка",
+      "endStop": "Поворот на Елабугу – Три заправки",
+      "name": "Большая Тарловка -> Поворот на Елабугу – Три заправки; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Елабугу – Три заправки",
+      "endStop": "Святой Ключ",
+      "name": "Поворот на Елабугу – Три заправки -> Святой Ключ; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Святой Ключ",
+      "endStop": "Поворот на Поспелово",
+      "name": "Святой Ключ -> Поворот на Поспелово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Поспелово",
+      "endStop": "Поворот на Мальцево",
+      "name": "Поворот на Поспелово -> Поворот на Мальцево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Поворот на Мальцево",
+      "endStop": "Автовокзал Набережные Челны",
+      "name": "Поворот на Мальцево -> Автовокзал Набережные Челны; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 33
+    },
+    {
+      "startStop": "Автовокзал Набережные Челны",
+      "endStop": "Набережные Челны – ТЦ Казанский",
+      "name": "Автовокзал Набережные Челны -> Набережные Челны – ТЦ Казанский; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 14
+    },
+    {
+      "startStop": "Набережные Челны – ТЦ Казанский",
+      "endStop": "Поворот на Тогаево",
+      "name": "Набережные Челны – ТЦ Казанский -> Поворот на Тогаево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 14
+    },
+    {
+      "startStop": "Поворот на Тогаево",
+      "endStop": "Телебашня",
+      "name": "Поворот на Тогаево -> Телебашня; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Телебашня",
+      "endStop": "Сосновый Бор",
+      "name": "Телебашня -> Сосновый Бор; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Сосновый Бор",
+      "endStop": "Наратлы",
+      "name": "Сосновый Бор -> Наратлы; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Наратлы",
+      "endStop": "Верхний Такермен",
+      "name": "Наратлы -> Верхний Такермен; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Верхний Такермен",
+      "endStop": "Усаево",
+      "name": "Верхний Такермен -> Усаево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 9
+    },
+    {
+      "startStop": "Усаево",
+      "endStop": "Поворот на Новую Александровку",
+      "name": "Усаево -> Поворот на Новую Александровку; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Поворот на Новую Александровку",
+      "endStop": "Поворот на Канонерку",
+      "name": "Поворот на Новую Александровку -> Поворот на Канонерку; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Канонерку",
+      "endStop": "Поворот на Коноваловку",
+      "name": "Поворот на Канонерку -> Поворот на Коноваловку; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Поворот на Коноваловку",
+      "endStop": "Юртово",
+      "name": "Поворот на Коноваловку -> Юртово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Юртово",
+      "endStop": "Поворот на посёлок Совхоз имени Воровского",
+      "name": "Юртово -> Поворот на посёлок Совхоз имени Воровского; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Совхоз имени Воровского – Кафе",
+      "endStop": "Аю",
+      "name": "Совхоз имени Воровского – Кафе -> Аю; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 10
+    },
+    {
+      "startStop": "Аю",
+      "endStop": "Калмурзино",
+      "name": "Аю -> Калмурзино; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Калмурзино",
+      "endStop": "Мост",
+      "name": "Калмурзино -> Мост; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Мост",
+      "endStop": "АЗС",
+      "name": "Мост -> АЗС; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "АЗС",
+      "endStop": "Поисево",
+      "name": "АЗС -> Поисево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поисево",
+      "endStop": "Качкиново",
+      "name": "Поисево -> Качкиново; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Качкиново",
+      "endStop": "Поворот на Улиманово",
+      "name": "Качкиново -> Поворот на Улиманово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Поворот на Улиманово",
+      "endStop": "Поворот на Верхнее Яхшеево",
+      "name": "Поворот на Улиманово -> Поворот на Верхнее Яхшеево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Верхнее Яхшеево",
+      "endStop": "Старое Байсарово",
+      "name": "Поворот на Верхнее Яхшеево -> Старое Байсарово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Старое Байсарово",
+      "endStop": "Зяйляу",
+      "name": "Старое Байсарово -> Зяйляу; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 128
+    },
+    {
+      "startStop": "Зяйляу",
+      "endStop": "Исаметово",
+      "name": "Зяйляу -> Исаметово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Исаметово",
+      "endStop": "Поворот на Старокуктово",
+      "name": "Исаметово -> Поворот на Старокуктово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Старокуктово",
+      "endStop": "По требованию",
+      "name": "Поворот на Старокуктово -> По требованию; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "По требованию",
+      "endStop": "Маслозавод",
+      "name": "По требованию -> Маслозавод; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Маслозавод",
+      "endStop": "Ишкарово",
+      "name": "Маслозавод -> Ишкарово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 12
+    },
+    {
+      "startStop": "Ишкарово",
+      "endStop": "Лаяшты",
+      "name": "Ишкарово -> Лаяшты; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Лаяшты",
+      "endStop": "Асяново",
+      "name": "Лаяшты -> Асяново; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Асяново",
+      "endStop": "Поворот на Дюртюли – Кафе Дуслык",
+      "name": "Асяново -> Поворот на Дюртюли – Кафе Дуслык; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 20
+    },
+    {
+      "startStop": "Поворот на Дюртюли – Кафе Дуслык",
+      "endStop": "Такарликово",
+      "name": "Поворот на Дюртюли – Кафе Дуслык -> Такарликово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Такарликово",
+      "endStop": "Мечеть Мирас",
+      "name": "Такарликово -> Мечеть Мирас; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 8
+    },
+    {
+      "startStop": "Мечеть Мирас",
+      "endStop": "Старосултанбеково",
+      "name": "Мечеть Мирас -> Старосултанбеково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Старосултанбеково",
+      "endStop": "Поворот на Султанбеково",
+      "name": "Старосултанбеково -> Поворот на Султанбеково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Султанбеково",
+      "endStop": "Поворот на Салпарово",
+      "name": "Поворот на Султанбеково -> Поворот на Салпарово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Салпарово",
+      "endStop": "Поворот на Куккуяново",
+      "name": "Поворот на Салпарово -> Поворот на Куккуяново; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Куккуяново",
+      "endStop": "Ивачево",
+      "name": "Поворот на Куккуяново -> Ивачево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Ивачево",
+      "endStop": "Саитово",
+      "name": "Ивачево -> Саитово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Саитово",
+      "endStop": "Марс",
+      "name": "Саитово -> Марс; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Марс",
+      "endStop": "Поворот на Гумерово",
+      "name": "Марс -> Поворот на Гумерово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Гумерово",
+      "endStop": "Карача-Елга",
+      "name": "Поворот на Гумерово -> Карача-Елга; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Карача-Елга",
+      "endStop": "Чирша-Тартыш",
+      "name": "Карача-Елга -> Чирша-Тартыш; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Чирша-Тартыш",
+      "endStop": "Поворот на Якупово",
+      "name": "Чирша-Тартыш -> Поворот на Якупово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Якупово",
+      "endStop": "Матвеево",
+      "name": "Поворот на Якупово -> Матвеево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Матвеево",
+      "endStop": "Поворот на Старобаскаково",
+      "name": "Матвеево -> Поворот на Старобаскаково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 3
+    },
+    {
+      "startStop": "Поворот на Старобаскаково",
+      "endStop": "Кушнаренково",
+      "name": "Поворот на Старобаскаково -> Кушнаренково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Кушнаренково",
+      "endStop": "Поворот на Тарабердино",
+      "name": "Кушнаренково -> Поворот на Тарабердино; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Тарабердино",
+      "endStop": "Поворот на Ахметово",
+      "name": "Поворот на Тарабердино -> Поворот на Ахметово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Поворот на Ахметово",
+      "endStop": "Поворот на Кувыково",
+      "name": "Поворот на Ахметово -> Поворот на Кувыково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 5
+    },
+    {
+      "startStop": "Поворот на Кувыково",
+      "endStop": "Поворот на Калтаево",
+      "name": "Поворот на Кувыково -> Поворот на Калтаево; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Поворот на Калтаево",
+      "endStop": "Субай",
+      "name": "Поворот на Калтаево -> Субай; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Субай",
+      "endStop": "Поворот на Шарипово",
+      "name": "Субай -> Поворот на Шарипово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 4
+    },
+    {
+      "startStop": "Поворот на Шарипово",
+      "endStop": "Волково",
+      "name": "Поворот на Шарипово -> Волково; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Волково",
+      "endStop": "Подымалово",
+      "name": "Волково -> Подымалово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 12
+    },
+    {
+      "startStop": "Подымалово",
+      "endStop": "Промзона Курасково-1",
+      "name": "Подымалово -> Промзона Курасково-1; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 6
+    },
+    {
+      "startStop": "Промзона Курасково-1",
+      "endStop": "Вавилово",
+      "name": "Промзона Курасково-1 -> Вавилово; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 2
+    },
+    {
+      "startStop": "Вавилово",
+      "endStop": "Кафе Встреча",
+      "name": "Вавилово -> Кафе Встреча; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "Кафе Встреча",
+      "endStop": "КПМ",
+      "name": "Кафе Встреча -> КПМ; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 1
+    },
+    {
+      "startStop": "КПМ",
+      "endStop": "Уфа – Южный автовокзал",
+      "name": "КПМ -> Уфа – Южный автовокзал; route_name: Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "route": "Автобус 966        Уфа – Южный автовокзал — Автовокзал Щербинки",
+      "duration": 14
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "Автовокзал Щербинки",
+      "timePoint": "19:00"
+    },
+    {
+      "stopName": "Автостанция Кстово",
+      "timePoint": "19:19"
+    },
+    {
+      "stopName": "Магистральная улица",
+      "timePoint": "19:20"
+    },
+    {
+      "stopName": "Завод Агат",
+      "timePoint": "19:22"
+    },
+    {
+      "stopName": "Караулово",
+      "timePoint": "19:25"
+    },
+    {
+      "stopName": "Кладбище",
+      "timePoint": "19:27"
+    },
+    {
+      "stopName": "Поворот на Студенец",
+      "timePoint": "19:27"
+    },
+    {
+      "stopName": "Ветчак",
+      "timePoint": "19:29"
+    },
+    {
+      "stopName": "Починок",
+      "timePoint": "19:30"
+    },
+    {
+      "stopName": "Сады Кудьма",
+      "timePoint": "19:32"
+    },
+    {
+      "stopName": "Поворот на Борок",
+      "timePoint": "19:34"
+    },
+    {
+      "stopName": "Поворот на Шаву",
+      "timePoint": "19:36"
+    },
+    {
+      "stopName": "Поворот на Кадницы",
+      "timePoint": "19:38"
+    },
+    {
+      "stopName": "Запрудное",
+      "timePoint": "19:39"
+    },
+    {
+      "stopName": "Горяньково",
+      "timePoint": "19:41"
+    },
+    {
+      "stopName": "Варварское",
+      "timePoint": "19:42"
+    },
+    {
+      "stopName": "Поляны",
+      "timePoint": "19:44"
+    },
+    {
+      "stopName": "Абатурово",
+      "timePoint": "19:50"
+    },
+    {
+      "stopName": "Малиновка",
+      "timePoint": "19:51"
+    },
+    {
+      "stopName": "Ачапное",
+      "timePoint": "19:54"
+    },
+    {
+      "stopName": "Нива",
+      "timePoint": "19:59"
+    },
+    {
+      "stopName": "Поворот на Окинино",
+      "timePoint": "20:03"
+    },
+    {
+      "stopName": "Летнево",
+      "timePoint": "20:05"
+    },
+    {
+      "stopName": "Баранниково",
+      "timePoint": "20:07"
+    },
+    {
+      "stopName": "Мяском",
+      "timePoint": "20:08"
+    },
+    {
+      "stopName": "Красная Лука",
+      "timePoint": "20:09"
+    },
+    {
+      "stopName": "Автостанция Лысково",
+      "timePoint": "20:13"
+    },
+    {
+      "stopName": "Лысково – Ярмарка",
+      "timePoint": "20:29"
+    },
+    {
+      "stopName": "Мост",
+      "timePoint": "20:30"
+    },
+    {
+      "stopName": "Лужки",
+      "timePoint": "20:36"
+    },
+    {
+      "stopName": "Крестьянка",
+      "timePoint": "20:39"
+    },
+    {
+      "stopName": "Поворот на Асташиху",
+      "timePoint": "20:41"
+    },
+    {
+      "stopName": "Очаиха",
+      "timePoint": "20:43"
+    },
+    {
+      "stopName": "Поворот на Белозёриху",
+      "timePoint": "20:46"
+    },
+    {
+      "stopName": "Поворот на Варганы",
+      "timePoint": "20:50"
+    },
+    {
+      "stopName": "Анатольевка",
+      "timePoint": "20:53"
+    },
+    {
+      "stopName": "Львово",
+      "timePoint": "20:56"
+    },
+    {
+      "stopName": "Сарайки",
+      "timePoint": "20:58"
+    },
+    {
+      "stopName": "Южный",
+      "timePoint": "21:03"
+    },
+    {
+      "stopName": "Поворот на Криуши",
+      "timePoint": "21:08"
+    },
+    {
+      "stopName": "Автостанция Воротынец",
+      "timePoint": "21:12"
+    },
+    {
+      "stopName": "Семьяны",
+      "timePoint": "21:18"
+    },
+    {
+      "stopName": "Никольское",
+      "timePoint": "21:21"
+    },
+    {
+      "stopName": "Поворот на Белавку",
+      "timePoint": "21:24"
+    },
+    {
+      "stopName": "Поворот на Ядрин",
+      "timePoint": "21:45"
+    },
+    {
+      "stopName": "Совхозный",
+      "timePoint": "21:51"
+    },
+    {
+      "stopName": "Сучково",
+      "timePoint": "21:56"
+    },
+    {
+      "stopName": "Пошнары",
+      "timePoint": "21:58"
+    },
+    {
+      "stopName": "Малые Тюмерли",
+      "timePoint": "22:02"
+    },
+    {
+      "stopName": "Поворот на Новое Тянымово",
+      "timePoint": "22:03"
+    },
+    {
+      "stopName": "Поворот на Юваново",
+      "timePoint": "22:05"
+    },
+    {
+      "stopName": "Поворот на Янымово",
+      "timePoint": "22:07"
+    },
+    {
+      "stopName": "Поворот на Юнгу",
+      "timePoint": "22:10"
+    },
+    {
+      "stopName": "Юнгапоси",
+      "timePoint": "22:12"
+    },
+    {
+      "stopName": "Ивановка",
+      "timePoint": "22:16"
+    },
+    {
+      "stopName": "Поворот на Москакасы",
+      "timePoint": "22:18"
+    },
+    {
+      "stopName": "Сидуккасы",
+      "timePoint": "22:19"
+    },
+    {
+      "stopName": "КС Пищевик",
+      "timePoint": "22:20"
+    },
+    {
+      "stopName": "Тереси",
+      "timePoint": "22:22"
+    },
+    {
+      "stopName": "Рыкакасы",
+      "timePoint": "22:23"
+    },
+    {
+      "stopName": "Калайкасы",
+      "timePoint": "22:25"
+    },
+    {
+      "stopName": "Поворот на Кадикасы",
+      "timePoint": "22:27"
+    },
+    {
+      "stopName": "Малый Сундырь",
+      "timePoint": "22:30"
+    },
+    {
+      "stopName": "Ишлейский поворот",
+      "timePoint": "22:31"
+    },
+    {
+      "stopName": "Шобашкаркасы",
+      "timePoint": "22:32"
+    },
+    {
+      "stopName": "Питикасы",
+      "timePoint": "22:34"
+    },
+    {
+      "stopName": "Вурманкасы",
+      "timePoint": "22:35"
+    },
+    {
+      "stopName": "Хыркасы",
+      "timePoint": "22:36"
+    },
+    {
+      "stopName": "Крикакасы",
+      "timePoint": "22:39"
+    },
+    {
+      "stopName": "Яуши",
+      "timePoint": "22:41"
+    },
+    {
+      "stopName": "Черёмушки",
+      "timePoint": "22:42"
+    },
+    {
+      "stopName": "Заводская",
+      "timePoint": "22:43"
+    },
+    {
+      "stopName": "Чебоксарское ТПУ",
+      "timePoint": "22:45"
+    },
+    {
+      "stopName": "Карачуры",
+      "timePoint": "22:46"
+    },
+    {
+      "stopName": "Станция Чебоксары-2",
+      "timePoint": "22:46"
+    },
+    {
+      "stopName": "Новые Лапсары",
+      "timePoint": "22:48"
+    },
+    {
+      "stopName": "Чебоксары – Центральный автовокзал",
+      "timePoint": "23:30"
+    },
+    {
+      "stopName": "Конно-спортивная школа",
+      "timePoint": "23:44"
+    },
+    {
+      "stopName": "Коллективный сад",
+      "timePoint": "23:47"
+    },
+    {
+      "stopName": "Поворот на Иванбеляк",
+      "timePoint": "23:54"
+    },
+    {
+      "stopName": "Поворот на Сидельниково",
+      "timePoint": "23:57"
+    },
+    {
+      "stopName": "Поворот на Кокшамары",
+      "timePoint": "00:00"
+    },
+    {
+      "stopName": "Ялпай",
+      "timePoint": "00:13"
+    },
+    {
+      "stopName": "Шуйка",
+      "timePoint": "00:15"
+    },
+    {
+      "stopName": "Большие Вележи",
+      "timePoint": "00:19"
+    },
+    {
+      "stopName": "Кужмара-2",
+      "timePoint": "00:21"
+    },
+    {
+      "stopName": "Кужмара-1",
+      "timePoint": "00:22"
+    },
+    {
+      "stopName": "Большой Кожвож",
+      "timePoint": "00:25"
+    },
+    {
+      "stopName": "Поворот на Изоткино",
+      "timePoint": "00:26"
+    },
+    {
+      "stopName": "Малая Кужмара",
+      "timePoint": "00:28"
+    },
+    {
+      "stopName": "Ташнур",
+      "timePoint": "00:31"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "00:32"
+    },
+    {
+      "stopName": "Кожласола",
+      "timePoint": "00:34"
+    },
+    {
+      "stopName": "Красногорский",
+      "timePoint": "00:36"
+    },
+    {
+      "stopName": "Илеть",
+      "timePoint": "00:41"
+    },
+    {
+      "stopName": "Кичиер",
+      "timePoint": "00:45"
+    },
+    {
+      "stopName": "Яльчик",
+      "timePoint": "00:51"
+    },
+    {
+      "stopName": "Помары – Кафе",
+      "timePoint": "01:12"
+    },
+    {
+      "stopName": "Помары",
+      "timePoint": "01:13"
+    },
+    {
+      "stopName": "Компрессорная",
+      "timePoint": "01:16"
+    },
+    {
+      "stopName": "Часовенная",
+      "timePoint": "01:19"
+    },
+    {
+      "stopName": "Нарат",
+      "timePoint": "01:34"
+    },
+    {
+      "stopName": "Ильинское",
+      "timePoint": "01:37"
+    },
+    {
+      "stopName": "Поворот на Раифу",
+      "timePoint": "01:40"
+    },
+    {
+      "stopName": "Грузинский",
+      "timePoint": "01:41"
+    },
+    {
+      "stopName": "Новопольский",
+      "timePoint": "01:43"
+    },
+    {
+      "stopName": "Урняк",
+      "timePoint": "01:44"
+    },
+    {
+      "stopName": "Дубровка",
+      "timePoint": "01:45"
+    },
+    {
+      "stopName": "Новая Тура",
+      "timePoint": "01:47"
+    },
+    {
+      "stopName": "АЗС",
+      "timePoint": "01:51"
+    },
+    {
+      "stopName": "Жилой массив Залесный",
+      "timePoint": "01:53"
+    },
+    {
+      "stopName": "Улица Можайского",
+      "timePoint": "02:04"
+    },
+    {
+      "stopName": "Горьковское шоссе",
+      "timePoint": "02:04"
+    },
+    {
+      "stopName": "Железнодорожный вокзал",
+      "timePoint": "02:12"
+    },
+    {
+      "stopName": "Казанский автовокзал",
+      "timePoint": "02:30"
+    },
+    {
+      "stopName": "Кафе Полёт",
+      "timePoint": "02:39"
+    },
+    {
+      "stopName": "Казань – Автовокзал Восточный",
+      "timePoint": "02:45"
+    },
+    {
+      "stopName": "Жилой массив Малые Клыки",
+      "timePoint": "02:47"
+    },
+    {
+      "stopName": "Сады Домостроитель",
+      "timePoint": "03:00"
+    },
+    {
+      "stopName": "Поворот на Богородское",
+      "timePoint": "03:02"
+    },
+    {
+      "stopName": "Посёлок Ильинский",
+      "timePoint": "03:06"
+    },
+    {
+      "stopName": "СНТ Нива",
+      "timePoint": "03:07"
+    },
+    {
+      "stopName": "Поворот на Пестрецы",
+      "timePoint": "03:10"
+    },
+    {
+      "stopName": "Сады Меша-1",
+      "timePoint": "03:13"
+    },
+    {
+      "stopName": "Деревня имени ТатЦИКа",
+      "timePoint": "03:15"
+    },
+    {
+      "stopName": "Шали",
+      "timePoint": "03:17"
+    },
+    {
+      "stopName": "Нептун",
+      "timePoint": "03:22"
+    },
+    {
+      "stopName": "Опытное Поле",
+      "timePoint": "03:25"
+    },
+    {
+      "stopName": "Поворот на Екатериновку",
+      "timePoint": "03:28"
+    },
+    {
+      "stopName": "Иксуар",
+      "timePoint": "03:30"
+    },
+    {
+      "stopName": "Поворот на Большой Салтан",
+      "timePoint": "03:34"
+    },
+    {
+      "stopName": "Поворот на Отар-Дубровку",
+      "timePoint": "03:36"
+    },
+    {
+      "stopName": "Поворот на Крещёные Казыли",
+      "timePoint": "03:40"
+    },
+    {
+      "stopName": "Поворот на Новый Арыш",
+      "timePoint": "03:50"
+    },
+    {
+      "stopName": "Поворот на Кукеево",
+      "timePoint": "03:57"
+    },
+    {
+      "stopName": "Алан-Полян",
+      "timePoint": "04:04"
+    },
+    {
+      "stopName": "Уреево",
+      "timePoint": "04:06"
+    },
+    {
+      "stopName": "Поворот на Большой Машляк – Кафе",
+      "timePoint": "04:29"
+    },
+    {
+      "stopName": "Поворот на Большой Машляк",
+      "timePoint": "04:33"
+    },
+    {
+      "stopName": "Поворот на Берсут-Сукаче",
+      "timePoint": "04:37"
+    },
+    {
+      "stopName": "Поворот на Катмыш",
+      "timePoint": "04:40"
+    },
+    {
+      "stopName": "Поворот на Нижнюю Сунь",
+      "timePoint": "04:44"
+    },
+    {
+      "stopName": "Поворот на Рахматову Поляну",
+      "timePoint": "04:47"
+    },
+    {
+      "stopName": "Нижние Яки",
+      "timePoint": "04:50"
+    },
+    {
+      "stopName": "Поворот на Средние Кирмени",
+      "timePoint": "04:56"
+    },
+    {
+      "stopName": "Поворот на Омары",
+      "timePoint": "05:03"
+    },
+    {
+      "stopName": "Поворот на Мамадыш",
+      "timePoint": "05:08"
+    },
+    {
+      "stopName": "Посёлок Совхоз Пятилетка",
+      "timePoint": "05:10"
+    },
+    {
+      "stopName": "Чирши",
+      "timePoint": "05:16"
+    },
+    {
+      "stopName": "Поворот на Яковлево",
+      "timePoint": "05:19"
+    },
+    {
+      "stopName": "Костенеево",
+      "timePoint": "05:21"
+    },
+    {
+      "stopName": "Казыли",
+      "timePoint": "05:22"
+    },
+    {
+      "stopName": "Поворот на Новую Мурзиху",
+      "timePoint": "05:24"
+    },
+    {
+      "stopName": "Поворот на Покровское",
+      "timePoint": "05:25"
+    },
+    {
+      "stopName": "Поворот на Морты",
+      "timePoint": "05:29"
+    },
+    {
+      "stopName": "Поворот на Лекарево",
+      "timePoint": "05:34"
+    },
+    {
+      "stopName": "Поворот на Малореченский",
+      "timePoint": "05:36"
+    },
+    {
+      "stopName": "Хлыстово",
+      "timePoint": "05:41"
+    },
+    {
+      "stopName": "Большая Тарловка",
+      "timePoint": "05:44"
+    },
+    {
+      "stopName": "Поворот на Елабугу – Три заправки",
+      "timePoint": "05:46"
+    },
+    {
+      "stopName": "Святой Ключ",
+      "timePoint": "05:51"
+    },
+    {
+      "stopName": "Поворот на Поспелово",
+      "timePoint": "05:55"
+    },
+    {
+      "stopName": "Поворот на Мальцево",
+      "timePoint": "05:56"
+    },
+    {
+      "stopName": "Автовокзал Набережные Челны",
+      "timePoint": "06:29"
+    },
+    {
+      "stopName": "Набережные Челны – ТЦ Казанский",
+      "timePoint": "06:43"
+    },
+    {
+      "stopName": "Поворот на Тогаево",
+      "timePoint": "06:57"
+    },
+    {
+      "stopName": "Телебашня",
+      "timePoint": "07:01"
+    },
+    {
+      "stopName": "Сосновый Бор",
+      "timePoint": "07:02"
+    },
+    {
+      "stopName": "Наратлы",
+      "timePoint": "07:05"
+    },
+    {
+      "stopName": "Верхний Такермен",
+      "timePoint": "07:06"
+    },
+    {
+      "stopName": "Усаево",
+      "timePoint": "07:15"
+    },
+    {
+      "stopName": "Поворот на Новую Александровку",
+      "timePoint": "07:16"
+    },
+    {
+      "stopName": "Поворот на Канонерку",
+      "timePoint": "07:21"
+    },
+    {
+      "stopName": "Поворот на Коноваловку",
+      "timePoint": "07:22"
+    },
+    {
+      "stopName": "Юртово",
+      "timePoint": "07:27"
+    },
+    {
+      "stopName": "Поворот на посёлок Совхоз имени Воровского",
+      "timePoint": "07:33"
+    },
+    {
+      "stopName": "Совхоз имени Воровского – Кафе",
+      "timePoint": "07:33"
+    },
+    {
+      "stopName": "Аю",
+      "timePoint": "07:43"
+    },
+    {
+      "stopName": "Калмурзино",
+      "timePoint": "07:47"
+    },
+    {
+      "stopName": "Мост",
+      "timePoint": "07:50"
+    },
+    {
+      "stopName": "АЗС",
+      "timePoint": "07:51"
+    },
+    {
+      "stopName": "Поисево",
+      "timePoint": "07:56"
+    },
+    {
+      "stopName": "Качкиново",
+      "timePoint": "07:59"
+    },
+    {
+      "stopName": "Поворот на Улиманово",
+      "timePoint": "08:05"
+    },
+    {
+      "stopName": "Поворот на Верхнее Яхшеево",
+      "timePoint": "08:09"
+    },
+    {
+      "stopName": "Старое Байсарово",
+      "timePoint": "08:15"
+    },
+    {
+      "stopName": "Зяйляу",
+      "timePoint": "10:23"
+    },
+    {
+      "stopName": "Исаметово",
+      "timePoint": "10:25"
+    },
+    {
+      "stopName": "Поворот на Старокуктово",
+      "timePoint": "10:30"
+    },
+    {
+      "stopName": "По требованию",
+      "timePoint": "10:34"
+    },
+    {
+      "stopName": "Маслозавод",
+      "timePoint": "10:38"
+    },
+    {
+      "stopName": "Ишкарово",
+      "timePoint": "10:50"
+    },
+    {
+      "stopName": "Лаяшты",
+      "timePoint": "10:53"
+    },
+    {
+      "stopName": "Асяново",
+      "timePoint": "10:59"
+    },
+    {
+      "stopName": "Поворот на Дюртюли – Кафе Дуслык",
+      "timePoint": "11:19"
+    },
+    {
+      "stopName": "Такарликово",
+      "timePoint": "11:24"
+    },
+    {
+      "stopName": "Мечеть Мирас",
+      "timePoint": "11:32"
+    },
+    {
+      "stopName": "Старосултанбеково",
+      "timePoint": "11:37"
+    },
+    {
+      "stopName": "Поворот на Султанбеково",
+      "timePoint": "11:42"
+    },
+    {
+      "stopName": "Поворот на Салпарово",
+      "timePoint": "11:47"
+    },
+    {
+      "stopName": "Поворот на Куккуяново",
+      "timePoint": "11:51"
+    },
+    {
+      "stopName": "Ивачево",
+      "timePoint": "11:55"
+    },
+    {
+      "stopName": "Саитово",
+      "timePoint": "11:57"
+    },
+    {
+      "stopName": "Марс",
+      "timePoint": "12:00"
+    },
+    {
+      "stopName": "Поворот на Гумерово",
+      "timePoint": "12:02"
+    },
+    {
+      "stopName": "Карача-Елга",
+      "timePoint": "12:05"
+    },
+    {
+      "stopName": "Чирша-Тартыш",
+      "timePoint": "12:09"
+    },
+    {
+      "stopName": "Поворот на Якупово",
+      "timePoint": "12:13"
+    },
+    {
+      "stopName": "Матвеево",
+      "timePoint": "12:14"
+    },
+    {
+      "stopName": "Поворот на Старобаскаково",
+      "timePoint": "12:17"
+    },
+    {
+      "stopName": "Кушнаренково",
+      "timePoint": "12:21"
+    },
+    {
+      "stopName": "Поворот на Тарабердино",
+      "timePoint": "12:26"
+    },
+    {
+      "stopName": "Поворот на Ахметово",
+      "timePoint": "12:28"
+    },
+    {
+      "stopName": "Поворот на Кувыково",
+      "timePoint": "12:33"
+    },
+    {
+      "stopName": "Поворот на Калтаево",
+      "timePoint": "12:34"
+    },
+    {
+      "stopName": "Субай",
+      "timePoint": "12:35"
+    },
+    {
+      "stopName": "Поворот на Шарипово",
+      "timePoint": "12:39"
+    },
+    {
+      "stopName": "Поворот на Шарипово",
+      "timePoint": "12:42"
+    },
+    {
+      "stopName": "Волково",
+      "timePoint": "12:48"
+    },
+    {
+      "stopName": "Подымалово",
+      "timePoint": "13:00"
+    },
+    {
+      "stopName": "Промзона Курасково-1",
+      "timePoint": "13:06"
+    },
+    {
+      "stopName": "Вавилово",
+      "timePoint": "13:08"
+    },
+    {
+      "stopName": "Кафе Встреча",
+      "timePoint": "13:09"
+    },
+    {
+      "stopName": "КПМ",
+      "timePoint": "13:10"
+    },
+    {
+      "stopName": "Уфа – Южный автовокзал",
+      "timePoint": "13:24"
+    }
+  ],
+  "coordinates": {
+    "Уфа – Южный автовокзал": {
+      "x": 55.985782861,
+      "y": 54.751355065,
+      "is_approximate": false
+    },
+    "КПМ": {
+      "x": 55.859397729,
+      "y": 54.800979684,
+      "is_approximate": false
+    },
+    "Кафе Встреча": {
+      "x": 55.851197418,
+      "y": 54.806755561,
+      "is_approximate": false
+    },
+    "Вавилово": {
+      "x": 55.843831118,
+      "y": 54.814773367,
+      "is_approximate": false
+    },
+    "Промзона Курасково-1": {
+      "x": 55.815005467,
+      "y": 54.832123293,
+      "is_approximate": false
+    },
+    "Подымалово": {
+      "x": 55.734729081,
+      "y": 54.872401593,
+      "is_approximate": false
+    },
+    "Волково": {
+      "x": 55.6314238,
+      "y": 54.900137,
+      "is_approximate": false
+    },
+    "Поворот на Шарипово": {
+      "x": 55.585108641,
+      "y": 54.95844664,
+      "is_approximate": false
+    },
+    "Субай": {
+      "x": 55.494074268,
+      "y": 55.002100094,
+      "is_approximate": false
+    },
+    "Поворот на Калтаево": {
+      "x": 55.481207218,
+      "y": 55.013240566,
+      "is_approximate": false
+    },
+    "Поворот на Кувыково": {
+      "x": 55.470818405,
+      "y": 55.02288596,
+      "is_approximate": false
+    },
+    "Поворот на Ахметово": {
+      "x": 55.418821301,
+      "y": 55.065909221,
+      "is_approximate": false
+    },
+    "Поворот на Тарабердино": {
+      "x": 55.390056904,
+      "y": 55.079271369,
+      "is_approximate": false
+    },
+    "Кушнаренково": {
+      "x": 55.333529858,
+      "y": 55.10043866,
+      "is_approximate": false
+    },
+    "Поворот на Старобаскаково": {
+      "x": 55.304488107,
+      "y": 55.129746215,
+      "is_approximate": false
+    },
+    "Матвеево": {
+      "x": 55.240464138,
+      "y": 55.137701657,
+      "is_approximate": false
+    },
+    "Чирша-Тартыш": {
+      "x": 55.130229226,
+      "y": 55.158930837,
+      "is_approximate": false
+    },
+    "Карача-Елга": {
+      "x": 55.114621265,
+      "y": 55.195330873,
+      "is_approximate": false
+    },
+    "Поворот на Гумерово": {
+      "x": 55.090108991,
+      "y": 55.223748082,
+      "is_approximate": false
+    },
+    "Марс": {
+      "x": 55.069520495,
+      "y": 55.24981717,
+      "is_approximate": false
+    },
+    "Саитово": {
+      "x": 55.039668665,
+      "y": 55.279231955,
+      "is_approximate": false
+    },
+    "Ивачево": {
+      "x": 55.015099445,
+      "y": 55.298508722,
+      "is_approximate": false
+    },
+    "Поворот на Куккуяново": {
+      "x": 54.965221,
+      "y": 55.328332,
+      "is_approximate": false
+    },
+    "Поворот на Салпарово": {
+      "x": 54.903937906,
+      "y": 55.35784825,
+      "is_approximate": false
+    },
+    "Поворот на Султанбеково": {
+      "x": 54.832316231,
+      "y": 55.39866601,
+      "is_approximate": false
+    },
+    "Старосултанбеково": {
+      "x": 54.843110027,
+      "y": 55.445051432,
+      "is_approximate": false
+    },
+    "Новая улица": {
+      "x": 54.851372284,
+      "y": 55.450246299,
+      "is_approximate": false
+    },
+    "Автовокзал Дюртюли": {
+      "x": 54.854096707,
+      "y": 55.489412143,
+      "is_approximate": false
+    },
+    "Такарликово": {
+      "x": 54.791729371,
+      "y": 55.467729987,
+      "is_approximate": false
+    },
+    "Кафе Дуслык": {
+      "x": 54.804279194,
+      "y": 55.42815149,
+      "is_approximate": false
+    },
+    "Асяново": {
+      "x": 54.717263886,
+      "y": 55.441245961,
+      "is_approximate": false
+    },
+    "Лаяшты": {
+      "x": 54.602339804,
+      "y": 55.470023993,
+      "is_approximate": false
+    },
+    "Ишкарово": {
+      "x": 54.530385834,
+      "y": 55.477144606,
+      "is_approximate": false
+    },
+    "Улица Пушкина": {
+      "x": 54.315226716,
+      "y": 55.444893372,
+      "is_approximate": false
+    },
+    "Автостанция Верхнеяркеево": {
+      "x": 54.316327037,
+      "y": 55.450536864,
+      "is_approximate": false
+    },
+    "Маслозавод": {
+      "x": 54.310581457,
+      "y": 55.439893912,
+      "is_approximate": false
+    },
+    "По требованию": {
+      "x": 54.275409458,
+      "y": 55.441876056,
+      "is_approximate": false
+    },
+    "Поворот на Старокуктово": {
+      "x": 54.246629355,
+      "y": 55.447988347,
+      "is_approximate": false
+    },
+    "Исаметово": {
+      "x": 54.052886248,
+      "y": 55.46829978,
+      "is_approximate": false
+    },
+    "Зяйляу": {
+      "x": 54.030565709,
+      "y": 55.476366363,
+      "is_approximate": false
+    },
+    "Старое Байсарово": {
+      "x": 53.882024026,
+      "y": 55.486558083,
+      "is_approximate": false
+    },
+    "Поворот на Верхнее Яхшеево": {
+      "x": 53.772205939,
+      "y": 55.509915085,
+      "is_approximate": false
+    },
+    "Поворот на Улиманово": {
+      "x": 53.686634243,
+      "y": 55.523726497,
+      "is_approximate": false
+    },
+    "Качкиново": {
+      "x": 53.566320792,
+      "y": 55.538497228,
+      "is_approximate": false
+    },
+    "АЗС": {
+      "x": 53.409168416,
+      "y": 55.549686387,
+      "is_approximate": false
+    },
+    "Калмурзино": {
+      "x": 53.347830111,
+      "y": 55.573569136,
+      "is_approximate": false
+    },
+    "Аю": {
+      "x": 53.268247232,
+      "y": 55.604377384,
+      "is_approximate": false
+    },
+    "Поворот на посёлок Совхоз имени Воровского": {
+      "x": 53.136933455,
+      "y": 55.682197542,
+      "is_approximate": false
+    },
+    "Поворот на Мензелинск": {
+      "x": 53.059918,
+      "y": 55.710208,
+      "is_approximate": false
+    },
+    "Юртово": {
+      "x": 53.049155712,
+      "y": 55.706045624,
+      "is_approximate": false
+    },
+    "Поворот на Коноваловку": {
+      "x": 52.963264987,
+      "y": 55.686190559,
+      "is_approximate": false
+    },
+    "Поворот на Канонерку": {
+      "x": 52.932258109,
+      "y": 55.673327294,
+      "is_approximate": false
+    },
+    "Поворот на Новую Александровку": {
+      "x": 52.859124064,
+      "y": 55.649203669,
+      "is_approximate": false
+    },
+    "Усаево": {
+      "x": 52.833807543,
+      "y": 55.645614377,
+      "is_approximate": false
+    },
+    "Верхний Такермен": {
+      "x": 52.678671136,
+      "y": 55.643602833,
+      "is_approximate": false
+    },
+    "Наратлы": {
+      "x": 52.648996284,
+      "y": 55.644226496,
+      "is_approximate": false
+    },
+    "Сосновый Бор": {
+      "x": 52.62319358,
+      "y": 55.645247856,
+      "is_approximate": false
+    },
+    "Телебашня": {
+      "x": 52.609813114,
+      "y": 55.650711597,
+      "is_approximate": false
+    },
+    "Поворот на Тогаево": {
+      "x": 52.528302908,
+      "y": 55.672600574,
+      "is_approximate": false
+    },
+    "Энергостроительный техникум": {
+      "x": 52.29069682,
+      "y": 55.673906606,
+      "is_approximate": false
+    },
+    "Автовокзал Набережные Челны": {
+      "x": 52.27821825,
+      "y": 55.672509113,
+      "is_approximate": false
+    },
+    "Поворот на Мальцево": {
+      "x": 52.221549998,
+      "y": 55.765383841,
+      "is_approximate": false
+    },
+    "Поворот на Поспелово": {
+      "x": 52.206828088,
+      "y": 55.774128508,
+      "is_approximate": false
+    },
+    "Поворот на Елабугу – Три заправки": {
+      "x": 52.047174614,
+      "y": 55.789089131,
+      "is_approximate": false
+    },
+    "Большая Тарловка": {
+      "x": 52.018776982,
+      "y": 55.792220056,
+      "is_approximate": false
+    },
+    "Хлыстово": {
+      "x": 51.963490485,
+      "y": 55.795488643,
+      "is_approximate": false
+    },
+    "Поворот на Малореченский": {
+      "x": 51.859975422,
+      "y": 55.787438055,
+      "is_approximate": false
+    },
+    "Поворот на Лекарево": {
+      "x": 51.830495532,
+      "y": 55.770344309,
+      "is_approximate": false
+    },
+    "Поворот на Морты": {
+      "x": 51.750511157,
+      "y": 55.742120249,
+      "is_approximate": false
+    },
+    "Поворот на Покровское": {
+      "x": 51.690836487,
+      "y": 55.718137328,
+      "is_approximate": false
+    },
+    "Поворот на Новую Мурзиху": {
+      "x": 51.669659901,
+      "y": 55.712741135,
+      "is_approximate": false
+    },
+    "Казыли": {
+      "x": 51.620832133,
+      "y": 55.712155281,
+      "is_approximate": false
+    },
+    "Костенеево": {
+      "x": 51.587717177,
+      "y": 55.71165049,
+      "is_approximate": false
+    },
+    "Поворот на Яковлево": {
+      "x": 51.577075541,
+      "y": 55.710702266,
+      "is_approximate": false
+    },
+    "Чирши": {
+      "x": 51.517582999,
+      "y": 55.700156707,
+      "is_approximate": false
+    },
+    "Посёлок Совхоз Пятилетка": {
+      "x": 51.409238793,
+      "y": 55.663872336,
+      "is_approximate": false
+    },
+    "Поворот на Мамадыш": {
+      "x": 51.385407,
+      "y": 55.648612,
+      "is_approximate": false
+    },
+    "Поворот на Омары": {
+      "x": 51.296857852,
+      "y": 55.661155707,
+      "is_approximate": false
+    },
+    "Поворот на Средние Кирмени": {
+      "x": 51.149711288,
+      "y": 55.652704874,
+      "is_approximate": false
+    },
+    "Нижние Яки": {
+      "x": 51.043894499,
+      "y": 55.644132549,
+      "is_approximate": false
+    },
+    "Поворот на Рахматову Поляну": {
+      "x": 50.97776991,
+      "y": 55.63978552,
+      "is_approximate": false
+    },
+    "Поворот на Нижнюю Сунь": {
+      "x": 50.911688246,
+      "y": 55.637668616,
+      "is_approximate": false
+    },
+    "Поворот на Катмыш": {
+      "x": 50.836768652,
+      "y": 55.647105289,
+      "is_approximate": false
+    },
+    "Поворот на Берсут-Сукаче": {
+      "x": 50.788581324,
+      "y": 55.663460488,
+      "is_approximate": false
+    },
+    "Поворот на Большой Машляк": {
+      "x": 50.685437739,
+      "y": 55.678373559,
+      "is_approximate": false
+    },
+    "Поворот на Большой Машляк – Кафе": {
+      "x": 50.630504327,
+      "y": 55.677216687,
+      "is_approximate": false
+    },
+    "Уреево": {
+      "x": 50.571206,
+      "y": 55.688418,
+      "is_approximate": false
+    },
+    "Алан-Полян": {
+      "x": 50.533249869,
+      "y": 55.685223506,
+      "is_approximate": false
+    },
+    "Поворот на Кукеево": {
+      "x": 50.437891,
+      "y": 55.687441,
+      "is_approximate": false
+    },
+    "Поворот на Новый Арыш": {
+      "x": 50.299835771,
+      "y": 55.695071386,
+      "is_approximate": false
+    },
+    "Поворот на Крещёные Казыли": {
+      "x": 50.105415403,
+      "y": 55.658299318,
+      "is_approximate": false
+    },
+    "Поворот на Отар-Дубровку": {
+      "x": 50.005279842,
+      "y": 55.643967883,
+      "is_approximate": false
+    },
+    "Поворот на Большой Салтан": {
+      "x": 49.975726512,
+      "y": 55.649216572,
+      "is_approximate": false
+    },
+    "Иксуар": {
+      "x": 49.901796343,
+      "y": 55.660396256,
+      "is_approximate": false
+    },
+    "Поворот на Екатериновку": {
+      "x": 49.86061084,
+      "y": 55.672404602,
+      "is_approximate": false
+    },
+    "Опытное Поле": {
+      "x": 49.82420784,
+      "y": 55.68066223,
+      "is_approximate": false
+    },
+    "Нептун": {
+      "x": 49.748735384,
+      "y": 55.672660366,
+      "is_approximate": false
+    },
+    "Шали": {
+      "x": 49.666779259,
+      "y": 55.69074059,
+      "is_approximate": false
+    },
+    "Деревня имени ТатЦИКа": {
+      "x": 49.641846444,
+      "y": 55.698321108,
+      "is_approximate": false
+    },
+    "Сады Меша-1": {
+      "x": 49.587964328,
+      "y": 55.697156921,
+      "is_approximate": false
+    },
+    "Поворот на Пестрецы": {
+      "x": 49.547135173,
+      "y": 55.711244884,
+      "is_approximate": false
+    },
+    "СНТ Нива": {
+      "x": 49.479345858,
+      "y": 55.720319682,
+      "is_approximate": false
+    },
+    "Посёлок Ильинский": {
+      "x": 49.459223935,
+      "y": 55.722716381,
+      "is_approximate": false
+    },
+    "Поворот на Богородское": {
+      "x": 49.396554716,
+      "y": 55.745806567,
+      "is_approximate": false
+    },
+    "Сады Домостроитель": {
+      "x": 49.38063927,
+      "y": 55.756809544,
+      "is_approximate": false
+    },
+    "Автовокзал Восточный": {
+      "x": 49.206951047,
+      "y": 55.794991619,
+      "is_approximate": false
+    },
+    "Метро Площадь Тукая": {
+      "x": 49.121775399,
+      "y": 55.78727719,
+      "is_approximate": false
+    },
+    "Казанский автовокзал": {
+      "x": 49.104363229,
+      "y": 55.773064676,
+      "is_approximate": false
+    },
+    "Улица Саид-Галеева": {
+      "x": 49.099889646,
+      "y": 55.791003569,
+      "is_approximate": false
+    },
+    "Горьковское шоссе": {
+      "x": 49.039199853,
+      "y": 55.825067437,
+      "is_approximate": false
+    },
+    "Жилой массив Залесный": {
+      "x": 48.897472024,
+      "y": 55.849302091,
+      "is_approximate": false
+    },
+    "Новая Тура": {
+      "x": 48.834845916,
+      "y": 55.860128142,
+      "is_approximate": false
+    },
+    "Дубровка": {
+      "x": 48.803381007,
+      "y": 55.863229119,
+      "is_approximate": false
+    },
+    "Урняк": {
+      "x": 48.773350671,
+      "y": 55.864241488,
+      "is_approximate": false
+    },
+    "Новопольский": {
+      "x": 48.763499591,
+      "y": 55.865154855,
+      "is_approximate": false
+    },
+    "Грузинский": {
+      "x": 48.734382306,
+      "y": 55.868301132,
+      "is_approximate": false
+    },
+    "Поворот на Раифу": {
+      "x": 48.720484093,
+      "y": 55.869812271,
+      "is_approximate": false
+    },
+    "Ильинское": {
+      "x": 48.67069098,
+      "y": 55.871043347,
+      "is_approximate": false
+    },
+    "Нарат": {
+      "x": 48.635947473,
+      "y": 55.883102989,
+      "is_approximate": false
+    },
+    "Часовенная": {
+      "x": 48.37034452,
+      "y": 55.918454205,
+      "is_approximate": false
+    },
+    "Компрессорная": {
+      "x": 48.370365726,
+      "y": 55.941133482,
+      "is_approximate": false
+    },
+    "Помары": {
+      "x": 48.36723407,
+      "y": 55.966376087,
+      "is_approximate": false
+    },
+    "Яльчик": {
+      "x": 48.380678581,
+      "y": 56.019866745,
+      "is_approximate": false
+    },
+    "Кичиер": {
+      "x": 48.358916,
+      "y": 56.076325,
+      "is_approximate": false
+    },
+    "Илеть": {
+      "x": 48.345328,
+      "y": 56.113899,
+      "is_approximate": false
+    },
+    "Красногорский – Кафе": {
+      "x": 48.313457266,
+      "y": 56.146117448,
+      "is_approximate": false
+    },
+    "Красногорский": {
+      "x": 48.310013928,
+      "y": 56.147449781,
+      "is_approximate": false
+    },
+    "Кожласола": {
+      "x": 48.288507,
+      "y": 56.163262,
+      "is_approximate": false
+    },
+    "Сады": {
+      "x": 48.275574291,
+      "y": 56.167690277,
+      "is_approximate": false
+    },
+    "Ташнур": {
+      "x": 48.255055113,
+      "y": 56.166893764,
+      "is_approximate": false
+    },
+    "Малая Кужмара": {
+      "x": 48.186881218,
+      "y": 56.164445404,
+      "is_approximate": false
+    },
+    "Поворот на Изоткино": {
+      "x": 48.163637457,
+      "y": 56.155949694,
+      "is_approximate": false
+    },
+    "Большой Кожвож": {
+      "x": 48.136616656,
+      "y": 56.148633141,
+      "is_approximate": false
+    },
+    "Кужмарский перекрёсток": {
+      "x": 48.092625,
+      "y": 56.15067,
+      "is_approximate": false
+    },
+    "Кужмара-1": {
+      "x": 48.08845332,
+      "y": 56.151566314,
+      "is_approximate": false
+    },
+    "Кужмара-2": {
+      "x": 48.074026744,
+      "y": 56.155819665,
+      "is_approximate": false
+    },
+    "Большие Вележи": {
+      "x": 48.019121192,
+      "y": 56.165711677,
+      "is_approximate": false
+    },
+    "Шуйка": {
+      "x": 47.937333598,
+      "y": 56.177481259,
+      "is_approximate": false
+    },
+    "Шимшурга": {
+      "x": 47.896468953,
+      "y": 56.180501449,
+      "is_approximate": false
+    },
+    "Поворот на Кокшамары": {
+      "x": 47.676441746,
+      "y": 56.181418145,
+      "is_approximate": false
+    },
+    "Поворот на Сидельниково": {
+      "x": 47.631728293,
+      "y": 56.176266491,
+      "is_approximate": false
+    },
+    "Поворот на Иванбеляк": {
+      "x": 47.560918224,
+      "y": 56.179804874,
+      "is_approximate": false
+    },
+    "Коллективный сад": {
+      "x": 47.467747148,
+      "y": 56.157908029,
+      "is_approximate": false
+    },
+    "Конно-спортивная школа": {
+      "x": 47.457893965,
+      "y": 56.125171638,
+      "is_approximate": false
+    },
+    "Типсирмы": {
+      "x": 47.400779044,
+      "y": 56.123733897,
+      "is_approximate": false
+    },
+    "Пихтулино": {
+      "x": 47.380098423,
+      "y": 56.124923918,
+      "is_approximate": false
+    },
+    "Проспект Тракторостроителей": {
+      "x": 47.361347607,
+      "y": 56.126129816,
+      "is_approximate": false
+    },
+    "Школа № 33": {
+      "x": 47.286427269,
+      "y": 56.128564349,
+      "is_approximate": false
+    },
+    "Чебоксары – Центральный автовокзал": {
+      "x": 47.268174487,
+      "y": 56.113331045,
+      "is_approximate": false
+    },
+    "Новые Лапсары": {
+      "x": 47.212746525,
+      "y": 56.072937852,
+      "is_approximate": false
+    },
+    "Станция Чебоксары-2": {
+      "x": 47.189883878,
+      "y": 56.07603123,
+      "is_approximate": false
+    },
+    "Большие Карачуры": {
+      "x": 47.169749073,
+      "y": 56.078683138,
+      "is_approximate": false
+    },
+    "Чебоксарское ТПУ": {
+      "x": 47.164921324,
+      "y": 56.07894728,
+      "is_approximate": false
+    },
+    "Заводская": {
+      "x": 47.143680036,
+      "y": 56.080852309,
+      "is_approximate": false
+    },
+    "Черёмушки": {
+      "x": 47.123317107,
+      "y": 56.086459896,
+      "is_approximate": false
+    },
+    "Яуши": {
+      "x": 47.113047752,
+      "y": 56.092656312,
+      "is_approximate": false
+    },
+    "Крикакасы": {
+      "x": 47.076239139,
+      "y": 56.100121199,
+      "is_approximate": false
+    },
+    "Хыркасы": {
+      "x": 47.042132707,
+      "y": 56.104732557,
+      "is_approximate": false
+    },
+    "Вурманкасы": {
+      "x": 47.022362504,
+      "y": 56.098068486,
+      "is_approximate": false
+    },
+    "Питикасы": {
+      "x": 47.004031861,
+      "y": 56.092609767,
+      "is_approximate": false
+    },
+    "Шобашкаркасы": {
+      "x": 46.995344718,
+      "y": 56.076770793,
+      "is_approximate": false
+    },
+    "Ишлейский поворот": {
+      "x": 46.973581225,
+      "y": 56.069170503,
+      "is_approximate": false
+    },
+    "Малый Сундырь": {
+      "x": 46.95782614,
+      "y": 56.067051891,
+      "is_approximate": false
+    },
+    "Поворот на Кадикасы": {
+      "x": 46.913734486,
+      "y": 56.066197808,
+      "is_approximate": false
+    },
+    "Калайкасы": {
+      "x": 46.88412405,
+      "y": 56.056327201,
+      "is_approximate": false
+    },
+    "Рыкакасы": {
+      "x": 46.857456019,
+      "y": 56.046179802,
+      "is_approximate": false
+    },
+    "Калмыково": {
+      "x": 46.822362908,
+      "y": 56.037073,
+      "is_approximate": false
+    },
+    "КС Пищевик": {
+      "x": 46.807352101,
+      "y": 56.039388703,
+      "is_approximate": false
+    },
+    "Сидуккасы": {
+      "x": 46.781998712,
+      "y": 56.036683876,
+      "is_approximate": false
+    },
+    "Поворот на Москакасы": {
+      "x": 46.765353449,
+      "y": 56.039300238,
+      "is_approximate": false
+    },
+    "Ивановка": {
+      "x": 46.731658918,
+      "y": 56.040440627,
+      "is_approximate": false
+    },
+    "Юнгапоси": {
+      "x": 46.664540743,
+      "y": 56.035100214,
+      "is_approximate": false
+    },
+    "Поворот на Юнгу": {
+      "x": 46.626909967,
+      "y": 56.0272303,
+      "is_approximate": false
+    },
+    "Поворот на Янымово": {
+      "x": 46.561917741,
+      "y": 56.033119743,
+      "is_approximate": false
+    },
+    "Поворот на Юваново": {
+      "x": 46.518732227,
+      "y": 56.044605799,
+      "is_approximate": false
+    },
+    "Поворот на Новое Тянымово": {
+      "x": 46.488333104,
+      "y": 56.052556449,
+      "is_approximate": false
+    },
+    "Малые Тюмерли": {
+      "x": 46.469007157,
+      "y": 56.053255362,
+      "is_approximate": false
+    },
+    "Пошнары": {
+      "x": 46.396929283,
+      "y": 56.043394989,
+      "is_approximate": false
+    },
+    "Сучково": {
+      "x": 46.360277932,
+      "y": 56.041592087,
+      "is_approximate": false
+    },
+    "Совхозный": {
+      "x": 46.280319489,
+      "y": 56.039566989,
+      "is_approximate": false
+    },
+    "Поворот на Ядрин": {
+      "x": 46.198655536,
+      "y": 55.99355468,
+      "is_approximate": false
+    },
+    "Поворот на Белавку": {
+      "x": 46.087504423,
+      "y": 55.999945859,
+      "is_approximate": false
+    },
+    "Никольское": {
+      "x": 46.029841401,
+      "y": 56.007719262,
+      "is_approximate": false
+    },
+    "Семьяны": {
+      "x": 45.985651973,
+      "y": 56.032194127,
+      "is_approximate": false
+    },
+    "Автостанция Воротынец": {
+      "x": 45.863116553,
+      "y": 56.049805535,
+      "is_approximate": false
+    },
+    "Поворот на Криуши": {
+      "x": 45.780103657,
+      "y": 56.049996744,
+      "is_approximate": false
+    },
+    "Южный": {
+      "x": 45.691236091,
+      "y": 56.045832814,
+      "is_approximate": false
+    },
+    "Сарайки": {
+      "x": 45.585646227,
+      "y": 56.045717711,
+      "is_approximate": false
+    },
+    "Львово": {
+      "x": 45.543129898,
+      "y": 56.04998777,
+      "is_approximate": false
+    },
+    "Анатольевка": {
+      "x": 45.487765376,
+      "y": 56.050295709,
+      "is_approximate": false
+    },
+    "Поворот на Варганы": {
+      "x": 45.425375946,
+      "y": 56.045643289,
+      "is_approximate": false
+    },
+    "Поворот на Белозёриху": {
+      "x": 45.35004646,
+      "y": 56.053519493,
+      "is_approximate": false
+    },
+    "Очаиха": {
+      "x": 45.284036478,
+      "y": 56.059460978,
+      "is_approximate": false
+    },
+    "Поворот на Асташиху": {
+      "x": 45.257133016,
+      "y": 56.055293778,
+      "is_approximate": false
+    },
+    "Крестьянка": {
+      "x": 45.21947836,
+      "y": 56.056545461,
+      "is_approximate": false
+    },
+    "Лужки": {
+      "x": 45.163276661,
+      "y": 56.038030165,
+      "is_approximate": false
+    },
+    "Мост": {
+      "x": 53.390413804,
+      "y": 55.557023337,
+      "is_approximate": false
+    },
+    "Лысково – Ярмарка": {
+      "x": 45.055661452,
+      "y": 56.016567437,
+      "is_approximate": false
+    },
+    "Автостанция Лысково": {
+      "x": 45.031786778,
+      "y": 56.013450638,
+      "is_approximate": false
+    },
+    "Объездная дорога": {
+      "x": 45.009090781,
+      "y": 56.015646587,
+      "is_approximate": false
+    },
+    "Красная Лука": {
+      "x": 44.96145787,
+      "y": 56.011134501,
+      "is_approximate": false
+    },
+    "Мяском": {
+      "x": 44.95110848,
+      "y": 56.009577097,
+      "is_approximate": false
+    },
+    "Баранниково": {
+      "x": 44.922201365,
+      "y": 56.011004284,
+      "is_approximate": false
+    },
+    "Летнево": {
+      "x": 44.898521971,
+      "y": 56.006697112,
+      "is_approximate": false
+    },
+    "Поворот на Окинино": {
+      "x": 44.864186089,
+      "y": 56.01111575,
+      "is_approximate": false
+    },
+    "Нива": {
+      "x": 44.784873837,
+      "y": 55.992358728,
+      "is_approximate": false
+    },
+    "Ачапное": {
+      "x": 44.696020326,
+      "y": 55.996636534,
+      "is_approximate": false
+    },
+    "Малиновка": {
+      "x": 44.638146774,
+      "y": 55.998931658,
+      "is_approximate": false
+    },
+    "Абатурово": {
+      "x": 44.626284399,
+      "y": 56.013171797,
+      "is_approximate": false
+    },
+    "Поляны": {
+      "x": 44.543118384,
+      "y": 56.029509653,
+      "is_approximate": false
+    },
+    "Варварское": {
+      "x": 44.506987626,
+      "y": 56.03096414,
+      "is_approximate": false
+    },
+    "Горяньково": {
+      "x": 44.497292315,
+      "y": 56.03372673,
+      "is_approximate": false
+    },
+    "Запрудное": {
+      "x": 44.444361985,
+      "y": 56.042296534,
+      "is_approximate": false
+    },
+    "Поворот на Кадницы": {
+      "x": 44.434410333,
+      "y": 56.045422897,
+      "is_approximate": false
+    },
+    "Поворот на Шаву": {
+      "x": 44.398407532,
+      "y": 56.056237672,
+      "is_approximate": false
+    },
+    "Поворот на Борок": {
+      "x": 44.380595476,
+      "y": 56.0634634,
+      "is_approximate": false
+    },
+    "Сады Кудьма": {
+      "x": 44.34647135,
+      "y": 56.085411892,
+      "is_approximate": false
+    },
+    "Починок": {
+      "x": 44.32399946,
+      "y": 56.093008118,
+      "is_approximate": false
+    },
+    "Ветчак": {
+      "x": 44.30605085,
+      "y": 56.099818105,
+      "is_approximate": false
+    },
+    "Поворот на Студенец": {
+      "x": 44.28286707,
+      "y": 56.111175887,
+      "is_approximate": false
+    },
+    "Кладбище": {
+      "x": 44.279559805,
+      "y": 56.114091582,
+      "is_approximate": false
+    },
+    "Караулово": {
+      "x": 44.256568069,
+      "y": 56.128952354,
+      "is_approximate": false
+    },
+    "Завод Агат": {
+      "x": 44.217297662,
+      "y": 56.145581795,
+      "is_approximate": false
+    },
+    "Магистральная улица": {
+      "x": 44.205387985,
+      "y": 56.152620766,
+      "is_approximate": false
+    },
+    "Автостанция Кстово": {
+      "x": 44.196667197,
+      "y": 56.157663481,
+      "is_approximate": false
+    },
+    "АО Термаль": {
+      "x": 43.966818301,
+      "y": 56.243938974,
+      "is_approximate": false
+    },
+    "Автовокзал Щербинки": {
+      "x": 43.940716227,
+      "y": 56.221825435,
+      "is_approximate": false
+    },
+    "Тереси": {
+      "x": 46.830531306,
+      "y": 56.037824435,
+      "is_approximate": false
+    },
+    "Карачуры": {
+      "x": 47.177996687,
+      "y": 56.077543089,
+      "is_approximate": false
+    },
+    "Ялпай": {
+      "x": 47.897057698,
+      "y": 56.180235912,
+      "is_approximate": false
+    },
+    "Помары – Кафе": {
+      "x": 48.368117911,
+      "y": 55.96876273,
+      "is_approximate": false
+    },
+    "Улица Можайского": {
+      "x": 49.033085326,
+      "y": 55.825788804,
+      "is_approximate": false
+    },
+    "Железнодорожный вокзал": {
+      "x": 49.101714729,
+      "y": 55.788710142,
+      "is_approximate": false
+    },
+    "Кафе Полёт": {
+      "x": 49.187152816,
+      "y": 55.801442743,
+      "is_approximate": false
+    },
+    "Казань – Автовокзал Восточный": {
+      "x": 49.207818918,
+      "y": 55.793961663,
+      "is_approximate": false
+    },
+    "Жилой массив Малые Клыки": {
+      "x": 49.224547747,
+      "y": 55.796096807,
+      "is_approximate": false
+    },
+    "Святой Ключ": {
+      "x": 52.136792577,
+      "y": 55.773177807,
+      "is_approximate": false
+    },
+    "Набережные Челны – ТЦ Казанский": {
+      "x": 52.380533603,
+      "y": 55.702065002,
+      "is_approximate": false
+    },
+    "Совхоз имени Воровского – Кафе": {
+      "x": 53.139968899,
+      "y": 55.680793516,
+      "is_approximate": false
+    },
+    "Поисево": {
+      "x": 53.500374438,
+      "y": 55.547332964,
+      "is_approximate": false
+    },
+    "Поворот на Дюртюли – Кафе Дуслык": {
+      "x": 54.805444861,
+      "y": 55.428170203,
+      "is_approximate": false
+    },
+    "Мечеть Мирас": {
+      "x": 54.853794,
+      "y": 55.488663,
+      "is_approximate": false
+    },
+    "Поворот на Якупово": {
+      "x": 55.208927327,
+      "y": 55.136275106,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T18:41:27.903233"
+}

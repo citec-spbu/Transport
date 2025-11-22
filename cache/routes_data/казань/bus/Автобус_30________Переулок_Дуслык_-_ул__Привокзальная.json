@@ -1,0 +1,3044 @@
+{
+  "routeNumber": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+  "routeUrl": "/kzn/bus/30",
+  "nodes": {
+    "переулок Дуслык": {
+      "name": "переулок Дуслык",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.229921,
+      "yCoordinate": 55.792624,
+      "isCoordinateApproximate": false
+    },
+    "ул. Д.Файзи-3": {
+      "name": "ул. Д.Файзи-3",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.225486,
+      "yCoordinate": 55.791677,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Глушко-3": {
+      "name": "ул. Академика Глушко-3",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.22445,
+      "yCoordinate": 55.789192,
+      "isCoordinateApproximate": false
+    },
+    "ул. Бигичева-1": {
+      "name": "ул. Бигичева-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.223768,
+      "yCoordinate": 55.786493,
+      "isCoordinateApproximate": false
+    },
+    "Детский сад №185-1": {
+      "name": "Детский сад №185-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.223379,
+      "yCoordinate": 55.785121,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Сахарова-2": {
+      "name": "ул. Академика Сахарова-2",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.222644,
+      "yCoordinate": 55.782696,
+      "isCoordinateApproximate": false
+    },
+    "Проспект А.Камалеева-1": {
+      "name": "Проспект А.Камалеева-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.218818,
+      "yCoordinate": 55.781613,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Сахарова-1": {
+      "name": "ул. Академика Сахарова-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.224104,
+      "yCoordinate": 55.782156,
+      "isCoordinateApproximate": false
+    },
+    "ул. Вагапова-1": {
+      "name": "ул. Вагапова-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.229178,
+      "yCoordinate": 55.780241,
+      "isCoordinateApproximate": false
+    },
+    "Кабельное телевидение-1": {
+      "name": "Кабельное телевидение-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231506,
+      "yCoordinate": 55.775736,
+      "isCoordinateApproximate": false
+    },
+    "ул. Минская-1": {
+      "name": "ул. Минская-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.23144,
+      "yCoordinate": 55.77198,
+      "isCoordinateApproximate": false
+    },
+    "Школа №125-1": {
+      "name": "Школа №125-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231408,
+      "yCoordinate": 55.769426,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ломжинская-1": {
+      "name": "ул. Ломжинская-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231196,
+      "yCoordinate": 55.765669,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чишмяле-1": {
+      "name": "ул. Чишмяле-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231392,
+      "yCoordinate": 55.761884,
+      "isCoordinateApproximate": false
+    },
+    "10-й микрорайон-1": {
+      "name": "10-й микрорайон-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.230995,
+      "yCoordinate": 55.754228,
+      "isCoordinateApproximate": false
+    },
+    "ул. Кул Гали-1": {
+      "name": "ул. Кул Гали-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.228163,
+      "yCoordinate": 55.751197,
+      "isCoordinateApproximate": false
+    },
+    "ул. Генерала Сафиуллина-1": {
+      "name": "ул. Генерала Сафиуллина-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.224017,
+      "yCoordinate": 55.749068,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ю.Фучика-1": {
+      "name": "ул. Ю.Фучика-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.217787,
+      "yCoordinate": 55.745685,
+      "isCoordinateApproximate": false
+    },
+    "Проспект Победы": {
+      "name": "Проспект Победы",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.212832,
+      "yCoordinate": 55.748153,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гарифьянова": {
+      "name": "ул. Гарифьянова",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.202877,
+      "yCoordinate": 55.75385,
+      "isCoordinateApproximate": false
+    },
+    "ул. Братьев Касимовых": {
+      "name": "ул. Братьев Касимовых",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.196944,
+      "yCoordinate": 55.757423,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Горки\"": {
+      "name": "Станция метро \"Горки\"",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.192489,
+      "yCoordinate": 55.759916,
+      "isCoordinateApproximate": false
+    },
+    "ул. Р.Зорге-1": {
+      "name": "ул. Р.Зорге-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.184666,
+      "yCoordinate": 55.764279,
+      "isCoordinateApproximate": false
+    },
+    "ул. Даурская-1": {
+      "name": "ул. Даурская-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.180753,
+      "yCoordinate": 55.766621,
+      "isCoordinateApproximate": false
+    },
+    "Сады-1": {
+      "name": "Сады-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.176944,
+      "yCoordinate": 55.770232,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гвардейская-1": {
+      "name": "ул. Гвардейская-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.172582,
+      "yCoordinate": 55.779657,
+      "isCoordinateApproximate": false
+    },
+    "Кафе \"Сирень\"-1": {
+      "name": "Кафе \"Сирень\"-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.171128,
+      "yCoordinate": 55.782799,
+      "isCoordinateApproximate": false
+    },
+    "ул. А.Кутуя-1": {
+      "name": "ул. А.Кутуя-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.169154,
+      "yCoordinate": 55.78752,
+      "isCoordinateApproximate": false
+    },
+    "ул. Достоевского-1": {
+      "name": "ул. Достоевского-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.1603,
+      "yCoordinate": 55.787266,
+      "isCoordinateApproximate": false
+    },
+    "ул. Товарищеская": {
+      "name": "ул. Товарищеская",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.156033,
+      "yCoordinate": 55.78773,
+      "isCoordinateApproximate": false
+    },
+    "ул. Лейтенанта Шмидта": {
+      "name": "ул. Лейтенанта Шмидта",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.152198,
+      "yCoordinate": 55.788949,
+      "isCoordinateApproximate": false
+    },
+    "ЦПКиО им. Горького": {
+      "name": "ЦПКиО им. Горького",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.151887,
+      "yCoordinate": 55.793058,
+      "isCoordinateApproximate": false
+    },
+    "ул. Толстого": {
+      "name": "ул. Толстого",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.136969,
+      "yCoordinate": 55.795242,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гоголя": {
+      "name": "ул. Гоголя",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.13221,
+      "yCoordinate": 55.795608,
+      "isCoordinateApproximate": false
+    },
+    "площадь Свободы": {
+      "name": "площадь Свободы",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.125327,
+      "yCoordinate": 55.795909,
+      "isCoordinateApproximate": false
+    },
+    "Университет": {
+      "name": "Университет",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.12483,
+      "yCoordinate": 55.7931,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Площадь Г.Тукая\"": {
+      "name": "Станция метро \"Площадь Г.Тукая\"",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.121853,
+      "yCoordinate": 55.787251,
+      "isCoordinateApproximate": false
+    },
+    "Театр им. Г.Камала": {
+      "name": "Театр им. Г.Камала",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.11584,
+      "yCoordinate": 55.783074,
+      "isCoordinateApproximate": false
+    },
+    "Колхозный рынок": {
+      "name": "Колхозный рынок",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.110448,
+      "yCoordinate": 55.786916,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чернышевского-3": {
+      "name": "ул. Чернышевского-3",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.107199,
+      "yCoordinate": 55.789726,
+      "isCoordinateApproximate": false
+    },
+    "Ж.-д.вокзал": {
+      "name": "Ж.-д.вокзал",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.102119,
+      "yCoordinate": 55.788852,
+      "isCoordinateApproximate": false
+    },
+    "ул. С.Саид-Галиева": {
+      "name": "ул. С.Саид-Галиева",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.099906,
+      "yCoordinate": 55.790881,
+      "isCoordinateApproximate": false
+    },
+    "ул. Серп и Молот": {
+      "name": "ул. Серп и Молот",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.06814,
+      "yCoordinate": 55.79998,
+      "isCoordinateApproximate": false
+    },
+    "ул. Урицкого": {
+      "name": "ул. Урицкого",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.058863,
+      "yCoordinate": 55.798853,
+      "isCoordinateApproximate": false
+    },
+    "ул. Адмиралтейская": {
+      "name": "ул. Адмиралтейская",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.050484,
+      "yCoordinate": 55.797865,
+      "isCoordinateApproximate": false
+    },
+    "ул. Набережная": {
+      "name": "ул. Набережная",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.042183,
+      "yCoordinate": 55.798319,
+      "isCoordinateApproximate": false
+    },
+    "ул. Боевая": {
+      "name": "ул. Боевая",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.034296,
+      "yCoordinate": 55.79977,
+      "isCoordinateApproximate": false
+    },
+    "ул. Западная": {
+      "name": "ул. Западная",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.027345,
+      "yCoordinate": 55.800191,
+      "isCoordinateApproximate": false
+    },
+    "Товарный двор": {
+      "name": "Товарный двор",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.017561,
+      "yCoordinate": 55.800642,
+      "isCoordinateApproximate": false
+    },
+    "Станция Лагерная": {
+      "name": "Станция Лагерная",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.010032,
+      "yCoordinate": 55.800903,
+      "isCoordinateApproximate": false
+    },
+    "Водозабор": {
+      "name": "Водозабор",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.002683,
+      "yCoordinate": 55.801738,
+      "isCoordinateApproximate": false
+    },
+    "Поликлиника №4": {
+      "name": "Поликлиника №4",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.998185,
+      "yCoordinate": 55.802023,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Алтай": {
+      "name": "жилой массив Алтай",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.984332,
+      "yCoordinate": 55.800758,
+      "isCoordinateApproximate": false
+    },
+    "Переправа": {
+      "name": "Переправа",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.977365,
+      "yCoordinate": 55.800398,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Старое Аракчино-2": {
+      "name": "жилой массив Старое Аракчино-2",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.970261,
+      "yCoordinate": 55.800735,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гумера Баширова": {
+      "name": "ул. Гумера Баширова",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.962972,
+      "yCoordinate": 55.802182,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Новое Аракчино": {
+      "name": "жилой массив Новое Аракчино",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.9515,
+      "yCoordinate": 55.802392,
+      "isCoordinateApproximate": false
+    },
+    "Затон": {
+      "name": "Затон",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.942481,
+      "yCoordinate": 55.803881,
+      "isCoordinateApproximate": false
+    },
+    "Гипсовый завод": {
+      "name": "Гипсовый завод",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.936279,
+      "yCoordinate": 55.806159,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Новостройка": {
+      "name": "жилой массив Новостройка",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.928309,
+      "yCoordinate": 55.808684,
+      "isCoordinateApproximate": false
+    },
+    "Школа №8": {
+      "name": "Школа №8",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.918751,
+      "yCoordinate": 55.809832,
+      "isCoordinateApproximate": false
+    },
+    "ул. Приволжская": {
+      "name": "ул. Приволжская",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.910549,
+      "yCoordinate": 55.810053,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Красная Горка": {
+      "name": "жилой массив Красная Горка",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.903315,
+      "yCoordinate": 55.809642,
+      "isCoordinateApproximate": false
+    },
+    "ул. Богатырская": {
+      "name": "ул. Богатырская",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.902648,
+      "yCoordinate": 55.814753,
+      "isCoordinateApproximate": false
+    },
+    "ул. Привокзальная": {
+      "name": "ул. Привокзальная",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.893535,
+      "yCoordinate": 55.815135,
+      "isCoordinateApproximate": false
+    },
+    "ул. Богатырская-1": {
+      "name": "ул. Богатырская-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.902236,
+      "yCoordinate": 55.814698,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Красная Горка-1": {
+      "name": "жилой массив Красная Горка-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.903153,
+      "yCoordinate": 55.809459,
+      "isCoordinateApproximate": false
+    },
+    "ул. Приволжская-1": {
+      "name": "ул. Приволжская-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.910813,
+      "yCoordinate": 55.809932,
+      "isCoordinateApproximate": false
+    },
+    "Школа №8-1": {
+      "name": "Школа №8-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.918246,
+      "yCoordinate": 55.809719,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Новостройка-1": {
+      "name": "жилой массив Новостройка-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.92819,
+      "yCoordinate": 55.808485,
+      "isCoordinateApproximate": false
+    },
+    "Гипсовый завод-1": {
+      "name": "Гипсовый завод-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.936181,
+      "yCoordinate": 55.805823,
+      "isCoordinateApproximate": false
+    },
+    "Затон-1": {
+      "name": "Затон-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.942101,
+      "yCoordinate": 55.803716,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Новое Аракчино-1": {
+      "name": "жилой массив Новое Аракчино-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.952036,
+      "yCoordinate": 55.80194,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гумера Баширова-1": {
+      "name": "ул. Гумера Баширова-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.961862,
+      "yCoordinate": 55.802293,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Старое Аракчино-3": {
+      "name": "жилой массив Старое Аракчино-3",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.969372,
+      "yCoordinate": 55.80065,
+      "isCoordinateApproximate": false
+    },
+    "Переправа-1": {
+      "name": "Переправа-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.977821,
+      "yCoordinate": 55.79997,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Алтай-1": {
+      "name": "жилой массив Алтай-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.984477,
+      "yCoordinate": 55.800617,
+      "isCoordinateApproximate": false
+    },
+    "Поликлиника №4-1": {
+      "name": "Поликлиника №4-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 48.998654,
+      "yCoordinate": 55.801727,
+      "isCoordinateApproximate": false
+    },
+    "Водозабор-1": {
+      "name": "Водозабор-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.002483,
+      "yCoordinate": 55.801516,
+      "isCoordinateApproximate": false
+    },
+    "Станция Лагерная-1": {
+      "name": "Станция Лагерная-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.009832,
+      "yCoordinate": 55.80069,
+      "isCoordinateApproximate": false
+    },
+    "ул. Слесарная-1": {
+      "name": "ул. Слесарная-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.0233,
+      "yCoordinate": 55.800302,
+      "isCoordinateApproximate": false
+    },
+    "ул. Западная-1": {
+      "name": "ул. Западная-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.028611,
+      "yCoordinate": 55.799877,
+      "isCoordinateApproximate": false
+    },
+    "ул. Боевая-1": {
+      "name": "ул. Боевая-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.033021,
+      "yCoordinate": 55.799625,
+      "isCoordinateApproximate": false
+    },
+    "ул. Набережная-1": {
+      "name": "ул. Набережная-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.041709,
+      "yCoordinate": 55.798221,
+      "isCoordinateApproximate": false
+    },
+    "ул. Адмиралтейская-1": {
+      "name": "ул. Адмиралтейская-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.050216,
+      "yCoordinate": 55.79765,
+      "isCoordinateApproximate": false
+    },
+    "ул. Урицкого-1": {
+      "name": "ул. Урицкого-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.05779,
+      "yCoordinate": 55.798588,
+      "isCoordinateApproximate": false
+    },
+    "ул. Серп и Молот-1": {
+      "name": "ул. Серп и Молот-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.067078,
+      "yCoordinate": 55.799632,
+      "isCoordinateApproximate": false
+    },
+    "Ж.-д.вокзал-1": {
+      "name": "Ж.-д.вокзал-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.101776,
+      "yCoordinate": 55.788702,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чернышевского-2": {
+      "name": "ул. Чернышевского-2",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.106446,
+      "yCoordinate": 55.789991,
+      "isCoordinateApproximate": false
+    },
+    "Колхозный рынок-2": {
+      "name": "Колхозный рынок-2",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.109996,
+      "yCoordinate": 55.787007,
+      "isCoordinateApproximate": false
+    },
+    "Театр им. Г.Камала-1": {
+      "name": "Театр им. Г.Камала-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.116394,
+      "yCoordinate": 55.782817,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Площадь Г.Тукая\"-1": {
+      "name": "Станция метро \"Площадь Г.Тукая\"-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.122337,
+      "yCoordinate": 55.786939,
+      "isCoordinateApproximate": false
+    },
+    "Университет-1": {
+      "name": "Университет-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.12505,
+      "yCoordinate": 55.792846,
+      "isCoordinateApproximate": false
+    },
+    "Театр им. К.Тинчурина": {
+      "name": "Театр им. К.Тинчурина",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.12939,
+      "yCoordinate": 55.7939,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гоголя-1": {
+      "name": "ул. Гоголя-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.132813,
+      "yCoordinate": 55.793652,
+      "isCoordinateApproximate": false
+    },
+    "ул. Толстого-1": {
+      "name": "ул. Толстого-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.137475,
+      "yCoordinate": 55.793417,
+      "isCoordinateApproximate": false
+    },
+    "ул. Достоевского": {
+      "name": "ул. Достоевского",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.158412,
+      "yCoordinate": 55.78727,
+      "isCoordinateApproximate": false
+    },
+    "ул. А.Кутуя": {
+      "name": "ул. А.Кутуя",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.170642,
+      "yCoordinate": 55.785693,
+      "isCoordinateApproximate": false
+    },
+    "Кафе \"Сирень\"": {
+      "name": "Кафе \"Сирень\"",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.170422,
+      "yCoordinate": 55.782845,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гвардейская": {
+      "name": "ул. Гвардейская",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.17184,
+      "yCoordinate": 55.779596,
+      "isCoordinateApproximate": false
+    },
+    "Сады": {
+      "name": "Сады",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.176299,
+      "yCoordinate": 55.770015,
+      "isCoordinateApproximate": false
+    },
+    "ул. Даурская": {
+      "name": "ул. Даурская",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.180246,
+      "yCoordinate": 55.766267,
+      "isCoordinateApproximate": false
+    },
+    "ул. Р.Зорге": {
+      "name": "ул. Р.Зорге",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.185696,
+      "yCoordinate": 55.763255,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Горки\"-3": {
+      "name": "Станция метро \"Горки\"-3",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.191545,
+      "yCoordinate": 55.759659,
+      "isCoordinateApproximate": false
+    },
+    "ул. Братьев Касимовых-1": {
+      "name": "ул. Братьев Касимовых-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.197657,
+      "yCoordinate": 55.756269,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гарифьянова-1": {
+      "name": "ул. Гарифьянова-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.202828,
+      "yCoordinate": 55.753224,
+      "isCoordinateApproximate": false
+    },
+    "Проспект Победы-1": {
+      "name": "Проспект Победы-1",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.212113,
+      "yCoordinate": 55.74779,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ю.Фучика": {
+      "name": "ул. Ю.Фучика",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.218238,
+      "yCoordinate": 55.745571,
+      "isCoordinateApproximate": false
+    },
+    "ул. Генерала Сафиуллина": {
+      "name": "ул. Генерала Сафиуллина",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.224726,
+      "yCoordinate": 55.749079,
+      "isCoordinateApproximate": false
+    },
+    "ул. Кул Гали": {
+      "name": "ул. Кул Гали",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.229333,
+      "yCoordinate": 55.751595,
+      "isCoordinateApproximate": false
+    },
+    "10-й микрорайон": {
+      "name": "10-й микрорайон",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231775,
+      "yCoordinate": 55.755001,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Завойского": {
+      "name": "ул. Академика Завойского",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231587,
+      "yCoordinate": 55.757194,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чишмяле": {
+      "name": "ул. Чишмяле",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231697,
+      "yCoordinate": 55.76343,
+      "isCoordinateApproximate": false
+    },
+    "Школа №125": {
+      "name": "Школа №125",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231868,
+      "yCoordinate": 55.769459,
+      "isCoordinateApproximate": false
+    },
+    "ул. Минская": {
+      "name": "ул. Минская",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.231807,
+      "yCoordinate": 55.771802,
+      "isCoordinateApproximate": false
+    },
+    "Кабельное телевидение": {
+      "name": "Кабельное телевидение",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.232224,
+      "yCoordinate": 55.776674,
+      "isCoordinateApproximate": false
+    },
+    "ул. Вагапова": {
+      "name": "ул. Вагапова",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.230251,
+      "yCoordinate": 55.779897,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Сахарова": {
+      "name": "ул. Академика Сахарова",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.224182,
+      "yCoordinate": 55.782758,
+      "isCoordinateApproximate": false
+    },
+    "Детский сад №185": {
+      "name": "Детский сад №185",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.223776,
+      "yCoordinate": 55.785539,
+      "isCoordinateApproximate": false
+    },
+    "ул. Бигичева": {
+      "name": "ул. Бигичева",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.224547,
+      "yCoordinate": 55.786747,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Глушко-2": {
+      "name": "ул. Академика Глушко-2",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.224925,
+      "yCoordinate": 55.789047,
+      "isCoordinateApproximate": false
+    },
+    "ул. Д.Файзи-2": {
+      "name": "ул. Д.Файзи-2",
+      "routeList": [
+        "Автобус 30        Переулок Дуслык - ул. Привокзальная"
+      ],
+      "xCoordinate": 49.226168,
+      "yCoordinate": 55.791512,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "переулок Дуслык",
+      "endStop": "ул. Д.Файзи-3",
+      "name": "переулок Дуслык -> ул. Д.Файзи-3; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Д.Файзи-3",
+      "endStop": "ул. Академика Глушко-3",
+      "name": "ул. Д.Файзи-3 -> ул. Академика Глушко-3; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Глушко-3",
+      "endStop": "ул. Бигичева-1",
+      "name": "ул. Академика Глушко-3 -> ул. Бигичева-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Детский сад №185-1",
+      "endStop": "ул. Академика Сахарова-2",
+      "name": "Детский сад №185-1 -> ул. Академика Сахарова-2; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Сахарова-2",
+      "endStop": "Проспект А.Камалеева-1",
+      "name": "ул. Академика Сахарова-2 -> Проспект А.Камалеева-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "Проспект А.Камалеева-1",
+      "endStop": "ул. Академика Сахарова-1",
+      "name": "Проспект А.Камалеева-1 -> ул. Академика Сахарова-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Академика Сахарова-1",
+      "endStop": "ул. Вагапова-1",
+      "name": "ул. Академика Сахарова-1 -> ул. Вагапова-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Вагапова-1",
+      "endStop": "Кабельное телевидение-1",
+      "name": "ул. Вагапова-1 -> Кабельное телевидение-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Кабельное телевидение-1",
+      "endStop": "ул. Минская-1",
+      "name": "Кабельное телевидение-1 -> ул. Минская-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Минская-1",
+      "endStop": "Школа №125-1",
+      "name": "ул. Минская-1 -> Школа №125-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №125-1",
+      "endStop": "ул. Ломжинская-1",
+      "name": "Школа №125-1 -> ул. Ломжинская-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Ломжинская-1",
+      "endStop": "ул. Чишмяле-1",
+      "name": "ул. Ломжинская-1 -> ул. Чишмяле-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Чишмяле-1",
+      "endStop": "10-й микрорайон-1",
+      "name": "ул. Чишмяле-1 -> 10-й микрорайон-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "10-й микрорайон-1",
+      "endStop": "ул. Кул Гали-1",
+      "name": "10-й микрорайон-1 -> ул. Кул Гали-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Кул Гали-1",
+      "endStop": "ул. Генерала Сафиуллина-1",
+      "name": "ул. Кул Гали-1 -> ул. Генерала Сафиуллина-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Генерала Сафиуллина-1",
+      "endStop": "ул. Ю.Фучика-1",
+      "name": "ул. Генерала Сафиуллина-1 -> ул. Ю.Фучика-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Ю.Фучика-1",
+      "endStop": "Проспект Победы",
+      "name": "ул. Ю.Фучика-1 -> Проспект Победы; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Проспект Победы",
+      "endStop": "ул. Гарифьянова",
+      "name": "Проспект Победы -> ул. Гарифьянова; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Гарифьянова",
+      "endStop": "ул. Братьев Касимовых",
+      "name": "ул. Гарифьянова -> ул. Братьев Касимовых; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Братьев Касимовых",
+      "endStop": "Станция метро \"Горки\"",
+      "name": "ул. Братьев Касимовых -> Станция метро \"Горки\"; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Станция метро \"Горки\"",
+      "endStop": "ул. Р.Зорге-1",
+      "name": "Станция метро \"Горки\" -> ул. Р.Зорге-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Р.Зорге-1",
+      "endStop": "ул. Даурская-1",
+      "name": "ул. Р.Зорге-1 -> ул. Даурская-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Даурская-1",
+      "endStop": "Сады-1",
+      "name": "ул. Даурская-1 -> Сады-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Сады-1",
+      "endStop": "ул. Гвардейская-1",
+      "name": "Сады-1 -> ул. Гвардейская-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Гвардейская-1",
+      "endStop": "Кафе \"Сирень\"-1",
+      "name": "ул. Гвардейская-1 -> Кафе \"Сирень\"-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Кафе \"Сирень\"-1",
+      "endStop": "ул. А.Кутуя-1",
+      "name": "Кафе \"Сирень\"-1 -> ул. А.Кутуя-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. А.Кутуя-1",
+      "endStop": "ул. Достоевского-1",
+      "name": "ул. А.Кутуя-1 -> ул. Достоевского-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Достоевского-1",
+      "endStop": "ул. Товарищеская",
+      "name": "ул. Достоевского-1 -> ул. Товарищеская; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Товарищеская",
+      "endStop": "ул. Лейтенанта Шмидта",
+      "name": "ул. Товарищеская -> ул. Лейтенанта Шмидта; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Лейтенанта Шмидта",
+      "endStop": "ЦПКиО им. Горького",
+      "name": "ул. Лейтенанта Шмидта -> ЦПКиО им. Горького; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ЦПКиО им. Горького",
+      "endStop": "ул. Толстого",
+      "name": "ЦПКиО им. Горького -> ул. Толстого; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Толстого",
+      "endStop": "ул. Гоголя",
+      "name": "ул. Толстого -> ул. Гоголя; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Гоголя",
+      "endStop": "площадь Свободы",
+      "name": "ул. Гоголя -> площадь Свободы; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "площадь Свободы",
+      "endStop": "Университет",
+      "name": "площадь Свободы -> Университет; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Университет",
+      "endStop": "Станция метро \"Площадь Г.Тукая\"",
+      "name": "Университет -> Станция метро \"Площадь Г.Тукая\"; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "Станция метро \"Площадь Г.Тукая\"",
+      "endStop": "Театр им. Г.Камала",
+      "name": "Станция метро \"Площадь Г.Тукая\" -> Театр им. Г.Камала; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "Театр им. Г.Камала",
+      "endStop": "Колхозный рынок",
+      "name": "Театр им. Г.Камала -> Колхозный рынок; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "Колхозный рынок",
+      "endStop": "ул. Чернышевского-3",
+      "name": "Колхозный рынок -> ул. Чернышевского-3; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Чернышевского-3",
+      "endStop": "Ж.-д.вокзал",
+      "name": "ул. Чернышевского-3 -> Ж.-д.вокзал; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. С.Саид-Галиева",
+      "endStop": "ул. Серп и Молот",
+      "name": "ул. С.Саид-Галиева -> ул. Серп и Молот; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 4
+    },
+    {
+      "startStop": "ул. Серп и Молот",
+      "endStop": "ул. Урицкого",
+      "name": "ул. Серп и Молот -> ул. Урицкого; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Урицкого",
+      "endStop": "ул. Адмиралтейская",
+      "name": "ул. Урицкого -> ул. Адмиралтейская; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Адмиралтейская",
+      "endStop": "ул. Набережная",
+      "name": "ул. Адмиралтейская -> ул. Набережная; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Набережная",
+      "endStop": "ул. Боевая",
+      "name": "ул. Набережная -> ул. Боевая; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Боевая",
+      "endStop": "ул. Западная",
+      "name": "ул. Боевая -> ул. Западная; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Западная",
+      "endStop": "Товарный двор",
+      "name": "ул. Западная -> Товарный двор; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "Товарный двор",
+      "endStop": "Станция Лагерная",
+      "name": "Товарный двор -> Станция Лагерная; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Станция Лагерная",
+      "endStop": "Водозабор",
+      "name": "Станция Лагерная -> Водозабор; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Водозабор",
+      "endStop": "Поликлиника №4",
+      "name": "Водозабор -> Поликлиника №4; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Поликлиника №4",
+      "endStop": "жилой массив Алтай",
+      "name": "Поликлиника №4 -> жилой массив Алтай; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "жилой массив Алтай",
+      "endStop": "Переправа",
+      "name": "жилой массив Алтай -> Переправа; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Переправа",
+      "endStop": "жилой массив Старое Аракчино-2",
+      "name": "Переправа -> жилой массив Старое Аракчино-2; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "жилой массив Старое Аракчино-2",
+      "endStop": "ул. Гумера Баширова",
+      "name": "жилой массив Старое Аракчино-2 -> ул. Гумера Баширова; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Гумера Баширова",
+      "endStop": "жилой массив Новое Аракчино",
+      "name": "ул. Гумера Баширова -> жилой массив Новое Аракчино; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "жилой массив Новое Аракчино",
+      "endStop": "Затон",
+      "name": "жилой массив Новое Аракчино -> Затон; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Затон",
+      "endStop": "Гипсовый завод",
+      "name": "Затон -> Гипсовый завод; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Гипсовый завод",
+      "endStop": "жилой массив Новостройка",
+      "name": "Гипсовый завод -> жилой массив Новостройка; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "жилой массив Новостройка",
+      "endStop": "Школа №8",
+      "name": "жилой массив Новостройка -> Школа №8; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "Школа №8",
+      "endStop": "ул. Приволжская",
+      "name": "Школа №8 -> ул. Приволжская; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Приволжская",
+      "endStop": "жилой массив Красная Горка",
+      "name": "ул. Приволжская -> жилой массив Красная Горка; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "жилой массив Красная Горка",
+      "endStop": "ул. Богатырская",
+      "name": "жилой массив Красная Горка -> ул. Богатырская; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Богатырская",
+      "endStop": "ул. Привокзальная",
+      "name": "ул. Богатырская -> ул. Привокзальная; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Привокзальная",
+      "endStop": "ул. Богатырская-1",
+      "name": "ул. Привокзальная -> ул. Богатырская-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Богатырская-1",
+      "endStop": "жилой массив Красная Горка-1",
+      "name": "ул. Богатырская-1 -> жилой массив Красная Горка-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "жилой массив Красная Горка-1",
+      "endStop": "ул. Приволжская-1",
+      "name": "жилой массив Красная Горка-1 -> ул. Приволжская-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Приволжская-1",
+      "endStop": "Школа №8-1",
+      "name": "ул. Приволжская-1 -> Школа №8-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №8-1",
+      "endStop": "жилой массив Новостройка-1",
+      "name": "Школа №8-1 -> жилой массив Новостройка-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "жилой массив Новостройка-1",
+      "endStop": "Гипсовый завод-1",
+      "name": "жилой массив Новостройка-1 -> Гипсовый завод-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Гипсовый завод-1",
+      "endStop": "Затон-1",
+      "name": "Гипсовый завод-1 -> Затон-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Затон-1",
+      "endStop": "жилой массив Новое Аракчино-1",
+      "name": "Затон-1 -> жилой массив Новое Аракчино-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "жилой массив Новое Аракчино-1",
+      "endStop": "ул. Гумера Баширова-1",
+      "name": "жилой массив Новое Аракчино-1 -> ул. Гумера Баширова-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Гумера Баширова-1",
+      "endStop": "жилой массив Старое Аракчино-3",
+      "name": "ул. Гумера Баширова-1 -> жилой массив Старое Аракчино-3; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "жилой массив Старое Аракчино-3",
+      "endStop": "Переправа-1",
+      "name": "жилой массив Старое Аракчино-3 -> Переправа-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Переправа-1",
+      "endStop": "жилой массив Алтай-1",
+      "name": "Переправа-1 -> жилой массив Алтай-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "жилой массив Алтай-1",
+      "endStop": "Поликлиника №4-1",
+      "name": "жилой массив Алтай-1 -> Поликлиника №4-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Водозабор-1",
+      "endStop": "Станция Лагерная-1",
+      "name": "Водозабор-1 -> Станция Лагерная-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Станция Лагерная-1",
+      "endStop": "ул. Слесарная-1",
+      "name": "Станция Лагерная-1 -> ул. Слесарная-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Слесарная-1",
+      "endStop": "ул. Западная-1",
+      "name": "ул. Слесарная-1 -> ул. Западная-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Боевая-1",
+      "endStop": "ул. Набережная-1",
+      "name": "ул. Боевая-1 -> ул. Набережная-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Набережная-1",
+      "endStop": "ул. Адмиралтейская-1",
+      "name": "ул. Набережная-1 -> ул. Адмиралтейская-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Адмиралтейская-1",
+      "endStop": "ул. Урицкого-1",
+      "name": "ул. Адмиралтейская-1 -> ул. Урицкого-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Урицкого-1",
+      "endStop": "ул. Серп и Молот-1",
+      "name": "ул. Урицкого-1 -> ул. Серп и Молот-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Серп и Молот-1",
+      "endStop": "Ж.-д.вокзал-1",
+      "name": "ул. Серп и Молот-1 -> Ж.-д.вокзал-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 7
+    },
+    {
+      "startStop": "Ж.-д.вокзал-1",
+      "endStop": "ул. Чернышевского-2",
+      "name": "Ж.-д.вокзал-1 -> ул. Чернышевского-2; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Чернышевского-2",
+      "endStop": "Колхозный рынок-2",
+      "name": "ул. Чернышевского-2 -> Колхозный рынок-2; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "Колхозный рынок-2",
+      "endStop": "Театр им. Г.Камала-1",
+      "name": "Колхозный рынок-2 -> Театр им. Г.Камала-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "Театр им. Г.Камала-1",
+      "endStop": "Станция метро \"Площадь Г.Тукая\"-1",
+      "name": "Театр им. Г.Камала-1 -> Станция метро \"Площадь Г.Тукая\"-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "Станция метро \"Площадь Г.Тукая\"-1",
+      "endStop": "Университет-1",
+      "name": "Станция метро \"Площадь Г.Тукая\"-1 -> Университет-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "Университет-1",
+      "endStop": "Театр им. К.Тинчурина",
+      "name": "Университет-1 -> Театр им. К.Тинчурина; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "Театр им. К.Тинчурина",
+      "endStop": "ул. Гоголя-1",
+      "name": "Театр им. К.Тинчурина -> ул. Гоголя-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Гоголя-1",
+      "endStop": "ул. Толстого-1",
+      "name": "ул. Гоголя-1 -> ул. Толстого-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Толстого-1",
+      "endStop": "ул. Достоевского",
+      "name": "ул. Толстого-1 -> ул. Достоевского; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 6
+    },
+    {
+      "startStop": "ул. Достоевского",
+      "endStop": "ул. А.Кутуя",
+      "name": "ул. Достоевского -> ул. А.Кутуя; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. А.Кутуя",
+      "endStop": "Кафе \"Сирень\"",
+      "name": "ул. А.Кутуя -> Кафе \"Сирень\"; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Кафе \"Сирень\"",
+      "endStop": "ул. Гвардейская",
+      "name": "Кафе \"Сирень\" -> ул. Гвардейская; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Гвардейская",
+      "endStop": "Сады",
+      "name": "ул. Гвардейская -> Сады; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 4
+    },
+    {
+      "startStop": "Сады",
+      "endStop": "ул. Даурская",
+      "name": "Сады -> ул. Даурская; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Даурская",
+      "endStop": "ул. Р.Зорге",
+      "name": "ул. Даурская -> ул. Р.Зорге; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Р.Зорге",
+      "endStop": "Станция метро \"Горки\"-3",
+      "name": "ул. Р.Зорге -> Станция метро \"Горки\"-3; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "Станция метро \"Горки\"-3",
+      "endStop": "ул. Братьев Касимовых-1",
+      "name": "Станция метро \"Горки\"-3 -> ул. Братьев Касимовых-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Братьев Касимовых-1",
+      "endStop": "ул. Гарифьянова-1",
+      "name": "ул. Братьев Касимовых-1 -> ул. Гарифьянова-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Гарифьянова-1",
+      "endStop": "Проспект Победы-1",
+      "name": "ул. Гарифьянова-1 -> Проспект Победы-1; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "Проспект Победы-1",
+      "endStop": "ул. Ю.Фучика",
+      "name": "Проспект Победы-1 -> ул. Ю.Фучика; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Ю.Фучика",
+      "endStop": "ул. Генерала Сафиуллина",
+      "name": "ул. Ю.Фучика -> ул. Генерала Сафиуллина; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Генерала Сафиуллина",
+      "endStop": "ул. Кул Гали",
+      "name": "ул. Генерала Сафиуллина -> ул. Кул Гали; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Кул Гали",
+      "endStop": "10-й микрорайон",
+      "name": "ул. Кул Гали -> 10-й микрорайон; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "10-й микрорайон",
+      "endStop": "ул. Академика Завойского",
+      "name": "10-й микрорайон -> ул. Академика Завойского; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Завойского",
+      "endStop": "ул. Чишмяле",
+      "name": "ул. Академика Завойского -> ул. Чишмяле; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №125",
+      "endStop": "ул. Минская",
+      "name": "Школа №125 -> ул. Минская; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Минская",
+      "endStop": "Кабельное телевидение",
+      "name": "ул. Минская -> Кабельное телевидение; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Вагапова",
+      "endStop": "ул. Академика Сахарова",
+      "name": "ул. Вагапова -> ул. Академика Сахарова; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Сахарова",
+      "endStop": "Детский сад №185",
+      "name": "ул. Академика Сахарова -> Детский сад №185; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 3
+    },
+    {
+      "startStop": "Детский сад №185",
+      "endStop": "ул. Бигичева",
+      "name": "Детский сад №185 -> ул. Бигичева; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Бигичева",
+      "endStop": "ул. Академика Глушко-2",
+      "name": "ул. Бигичева -> ул. Академика Глушко-2; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Академика Глушко-2",
+      "endStop": "ул. Д.Файзи-2",
+      "name": "ул. Академика Глушко-2 -> ул. Д.Файзи-2; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Д.Файзи-2",
+      "endStop": "переулок Дуслык",
+      "name": "ул. Д.Файзи-2 -> переулок Дуслык; route_name: Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "route": "Автобус 30        Переулок Дуслык - ул. Привокзальная",
+      "duration": 2
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "переулок Дуслык",
+      "timePoint": "05:03"
+    },
+    {
+      "stopName": "ул. Д.Файзи-3",
+      "timePoint": "05:04"
+    },
+    {
+      "stopName": "ул. Академика Глушко-3",
+      "timePoint": "05:05"
+    },
+    {
+      "stopName": "ул. Бигичева-1",
+      "timePoint": "05:06"
+    },
+    {
+      "stopName": "Детский сад №185-1",
+      "timePoint": "05:06"
+    },
+    {
+      "stopName": "ул. Академика Сахарова-2",
+      "timePoint": "05:07"
+    },
+    {
+      "stopName": "Проспект А.Камалеева-1",
+      "timePoint": "05:09"
+    },
+    {
+      "stopName": "ул. Академика Сахарова-1",
+      "timePoint": "05:11"
+    },
+    {
+      "stopName": "ул. Вагапова-1",
+      "timePoint": "05:12"
+    },
+    {
+      "stopName": "Кабельное телевидение-1",
+      "timePoint": "05:13"
+    },
+    {
+      "stopName": "ул. Минская-1",
+      "timePoint": "05:14"
+    },
+    {
+      "stopName": "Школа №125-1",
+      "timePoint": "05:15"
+    },
+    {
+      "stopName": "ул. Ломжинская-1",
+      "timePoint": "05:16"
+    },
+    {
+      "stopName": "ул. Чишмяле-1",
+      "timePoint": "05:17"
+    },
+    {
+      "stopName": "10-й микрорайон-1",
+      "timePoint": "05:20"
+    },
+    {
+      "stopName": "ул. Кул Гали-1",
+      "timePoint": "05:21"
+    },
+    {
+      "stopName": "ул. Генерала Сафиуллина-1",
+      "timePoint": "05:22"
+    },
+    {
+      "stopName": "ул. Ю.Фучика-1",
+      "timePoint": "05:24"
+    },
+    {
+      "stopName": "Проспект Победы",
+      "timePoint": "05:25"
+    },
+    {
+      "stopName": "ул. Гарифьянова",
+      "timePoint": "05:28"
+    },
+    {
+      "stopName": "ул. Братьев Касимовых",
+      "timePoint": "05:30"
+    },
+    {
+      "stopName": "Станция метро \"Горки\"",
+      "timePoint": "05:31"
+    },
+    {
+      "stopName": "ул. Р.Зорге-1",
+      "timePoint": "05:32"
+    },
+    {
+      "stopName": "ул. Даурская-1",
+      "timePoint": "05:34"
+    },
+    {
+      "stopName": "Сады-1",
+      "timePoint": "05:35"
+    },
+    {
+      "stopName": "ул. Гвардейская-1",
+      "timePoint": "05:37"
+    },
+    {
+      "stopName": "Кафе \"Сирень\"-1",
+      "timePoint": "05:38"
+    },
+    {
+      "stopName": "ул. А.Кутуя-1",
+      "timePoint": "05:39"
+    },
+    {
+      "stopName": "ул. Достоевского-1",
+      "timePoint": "05:40"
+    },
+    {
+      "stopName": "ул. Товарищеская",
+      "timePoint": "05:42"
+    },
+    {
+      "stopName": "ул. Лейтенанта Шмидта",
+      "timePoint": "05:45"
+    },
+    {
+      "stopName": "ЦПКиО им. Горького",
+      "timePoint": "05:46"
+    },
+    {
+      "stopName": "ул. Толстого",
+      "timePoint": "05:49"
+    },
+    {
+      "stopName": "ул. Гоголя",
+      "timePoint": "05:50"
+    },
+    {
+      "stopName": "площадь Свободы",
+      "timePoint": "05:51"
+    },
+    {
+      "stopName": "Университет",
+      "timePoint": "05:52"
+    },
+    {
+      "stopName": "Станция метро \"Площадь Г.Тукая\"",
+      "timePoint": "05:55"
+    },
+    {
+      "stopName": "Театр им. Г.Камала",
+      "timePoint": "05:57"
+    },
+    {
+      "stopName": "Колхозный рынок",
+      "timePoint": "06:00"
+    },
+    {
+      "stopName": "ул. Чернышевского-3",
+      "timePoint": "06:02"
+    },
+    {
+      "stopName": "Ж.-д.вокзал",
+      "timePoint": "06:05"
+    },
+    {
+      "stopName": "ул. С.Саид-Галиева",
+      "timePoint": "06:05"
+    },
+    {
+      "stopName": "ул. Серп и Молот",
+      "timePoint": "06:09"
+    },
+    {
+      "stopName": "ул. Урицкого",
+      "timePoint": "06:10"
+    },
+    {
+      "stopName": "ул. Адмиралтейская",
+      "timePoint": "06:12"
+    },
+    {
+      "stopName": "ул. Набережная",
+      "timePoint": "06:13"
+    },
+    {
+      "stopName": "ул. Боевая",
+      "timePoint": "06:14"
+    },
+    {
+      "stopName": "ул. Западная",
+      "timePoint": "06:15"
+    },
+    {
+      "stopName": "Товарный двор",
+      "timePoint": "06:17"
+    },
+    {
+      "stopName": "Станция Лагерная",
+      "timePoint": "06:18"
+    },
+    {
+      "stopName": "Водозабор",
+      "timePoint": "06:19"
+    },
+    {
+      "stopName": "Поликлиника №4",
+      "timePoint": "06:20"
+    },
+    {
+      "stopName": "жилой массив Алтай",
+      "timePoint": "06:21"
+    },
+    {
+      "stopName": "Переправа",
+      "timePoint": "06:22"
+    },
+    {
+      "stopName": "жилой массив Старое Аракчино-2",
+      "timePoint": "06:23"
+    },
+    {
+      "stopName": "ул. Гумера Баширова",
+      "timePoint": "06:24"
+    },
+    {
+      "stopName": "жилой массив Новое Аракчино",
+      "timePoint": "06:26"
+    },
+    {
+      "stopName": "Затон",
+      "timePoint": "06:27"
+    },
+    {
+      "stopName": "Гипсовый завод",
+      "timePoint": "06:28"
+    },
+    {
+      "stopName": "жилой массив Новостройка",
+      "timePoint": "06:29"
+    },
+    {
+      "stopName": "Школа №8",
+      "timePoint": "06:31"
+    },
+    {
+      "stopName": "ул. Приволжская",
+      "timePoint": "06:32"
+    },
+    {
+      "stopName": "жилой массив Красная Горка",
+      "timePoint": "06:33"
+    },
+    {
+      "stopName": "ул. Богатырская",
+      "timePoint": "06:34"
+    },
+    {
+      "stopName": "ул. Привокзальная",
+      "timePoint": "06:36"
+    },
+    {
+      "stopName": "ул. Привокзальная",
+      "timePoint": "05:40"
+    },
+    {
+      "stopName": "ул. Богатырская-1",
+      "timePoint": "05:42"
+    },
+    {
+      "stopName": "жилой массив Красная Горка-1",
+      "timePoint": "05:43"
+    },
+    {
+      "stopName": "ул. Приволжская-1",
+      "timePoint": "05:44"
+    },
+    {
+      "stopName": "Школа №8-1",
+      "timePoint": "05:45"
+    },
+    {
+      "stopName": "жилой массив Новостройка-1",
+      "timePoint": "05:46"
+    },
+    {
+      "stopName": "Гипсовый завод-1",
+      "timePoint": "05:47"
+    },
+    {
+      "stopName": "Затон-1",
+      "timePoint": "05:48"
+    },
+    {
+      "stopName": "жилой массив Новое Аракчино-1",
+      "timePoint": "05:49"
+    },
+    {
+      "stopName": "ул. Гумера Баширова-1",
+      "timePoint": "05:51"
+    },
+    {
+      "stopName": "жилой массив Старое Аракчино-3",
+      "timePoint": "05:52"
+    },
+    {
+      "stopName": "Переправа-1",
+      "timePoint": "05:53"
+    },
+    {
+      "stopName": "жилой массив Алтай-1",
+      "timePoint": "05:55"
+    },
+    {
+      "stopName": "Поликлиника №4-1",
+      "timePoint": "05:56"
+    },
+    {
+      "stopName": "Водозабор-1",
+      "timePoint": "05:56"
+    },
+    {
+      "stopName": "Станция Лагерная-1",
+      "timePoint": "05:57"
+    },
+    {
+      "stopName": "ул. Слесарная-1",
+      "timePoint": "05:59"
+    },
+    {
+      "stopName": "ул. Западная-1",
+      "timePoint": "06:00"
+    },
+    {
+      "stopName": "ул. Боевая-1",
+      "timePoint": "06:00"
+    },
+    {
+      "stopName": "ул. Набережная-1",
+      "timePoint": "06:01"
+    },
+    {
+      "stopName": "ул. Адмиралтейская-1",
+      "timePoint": "06:02"
+    },
+    {
+      "stopName": "ул. Урицкого-1",
+      "timePoint": "06:03"
+    },
+    {
+      "stopName": "ул. Серп и Молот-1",
+      "timePoint": "06:05"
+    },
+    {
+      "stopName": "Ж.-д.вокзал-1",
+      "timePoint": "06:12"
+    },
+    {
+      "stopName": "ул. Чернышевского-2",
+      "timePoint": "06:14"
+    },
+    {
+      "stopName": "Колхозный рынок-2",
+      "timePoint": "06:16"
+    },
+    {
+      "stopName": "Театр им. Г.Камала-1",
+      "timePoint": "06:19"
+    },
+    {
+      "stopName": "Станция метро \"Площадь Г.Тукая\"-1",
+      "timePoint": "06:22"
+    },
+    {
+      "stopName": "Университет-1",
+      "timePoint": "06:24"
+    },
+    {
+      "stopName": "Театр им. К.Тинчурина",
+      "timePoint": "06:26"
+    },
+    {
+      "stopName": "ул. Гоголя-1",
+      "timePoint": "06:27"
+    },
+    {
+      "stopName": "ул. Толстого-1",
+      "timePoint": "06:28"
+    },
+    {
+      "stopName": "ул. Достоевского",
+      "timePoint": "06:34"
+    },
+    {
+      "stopName": "ул. А.Кутуя",
+      "timePoint": "06:37"
+    },
+    {
+      "stopName": "Кафе \"Сирень\"",
+      "timePoint": "06:38"
+    },
+    {
+      "stopName": "ул. Гвардейская",
+      "timePoint": "06:39"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "06:43"
+    },
+    {
+      "stopName": "ул. Даурская",
+      "timePoint": "06:45"
+    },
+    {
+      "stopName": "ул. Р.Зорге",
+      "timePoint": "06:47"
+    },
+    {
+      "stopName": "Станция метро \"Горки\"-3",
+      "timePoint": "06:49"
+    },
+    {
+      "stopName": "ул. Братьев Касимовых-1",
+      "timePoint": "06:51"
+    },
+    {
+      "stopName": "ул. Гарифьянова-1",
+      "timePoint": "06:52"
+    },
+    {
+      "stopName": "Проспект Победы-1",
+      "timePoint": "06:55"
+    },
+    {
+      "stopName": "ул. Ю.Фучика",
+      "timePoint": "06:57"
+    },
+    {
+      "stopName": "ул. Генерала Сафиуллина",
+      "timePoint": "06:59"
+    },
+    {
+      "stopName": "ул. Кул Гали",
+      "timePoint": "07:00"
+    },
+    {
+      "stopName": "10-й микрорайон",
+      "timePoint": "07:01"
+    },
+    {
+      "stopName": "ул. Академика Завойского",
+      "timePoint": "07:02"
+    },
+    {
+      "stopName": "ул. Чишмяле",
+      "timePoint": "07:03"
+    },
+    {
+      "stopName": "Школа №125",
+      "timePoint": "07:03"
+    },
+    {
+      "stopName": "ул. Минская",
+      "timePoint": "07:04"
+    },
+    {
+      "stopName": "Кабельное телевидение",
+      "timePoint": "07:05"
+    },
+    {
+      "stopName": "ул. Вагапова",
+      "timePoint": "07:05"
+    },
+    {
+      "stopName": "ул. Академика Сахарова",
+      "timePoint": "07:06"
+    },
+    {
+      "stopName": "Детский сад №185",
+      "timePoint": "07:09"
+    },
+    {
+      "stopName": "ул. Бигичева",
+      "timePoint": "07:10"
+    },
+    {
+      "stopName": "ул. Академика Глушко-2",
+      "timePoint": "07:12"
+    },
+    {
+      "stopName": "ул. Д.Файзи-2",
+      "timePoint": "07:14"
+    },
+    {
+      "stopName": "переулок Дуслык",
+      "timePoint": "07:16"
+    }
+  ],
+  "coordinates": {
+    "переулок Дуслык": {
+      "x": 49.229921,
+      "y": 55.792624,
+      "is_approximate": false
+    },
+    "ул. Д.Файзи-3": {
+      "x": 49.225486,
+      "y": 55.791677,
+      "is_approximate": false
+    },
+    "ул. Академика Глушко-3": {
+      "x": 49.22445,
+      "y": 55.789192,
+      "is_approximate": false
+    },
+    "ул. Бигичева-1": {
+      "x": 49.223768,
+      "y": 55.786493,
+      "is_approximate": false
+    },
+    "Детский сад №185-1": {
+      "x": 49.223379,
+      "y": 55.785121,
+      "is_approximate": false
+    },
+    "ул. Академика Сахарова-2": {
+      "x": 49.222644,
+      "y": 55.782696,
+      "is_approximate": false
+    },
+    "Проспект А.Камалеева-1": {
+      "x": 49.218818,
+      "y": 55.781613,
+      "is_approximate": false
+    },
+    "ул. Академика Сахарова-1": {
+      "x": 49.224104,
+      "y": 55.782156,
+      "is_approximate": false
+    },
+    "ул. Вагапова-1": {
+      "x": 49.229178,
+      "y": 55.780241,
+      "is_approximate": false
+    },
+    "Кабельное телевидение-1": {
+      "x": 49.231506,
+      "y": 55.775736,
+      "is_approximate": false
+    },
+    "ул. Минская-1": {
+      "x": 49.23144,
+      "y": 55.77198,
+      "is_approximate": false
+    },
+    "Школа №125-1": {
+      "x": 49.231408,
+      "y": 55.769426,
+      "is_approximate": false
+    },
+    "ул. Ломжинская-1": {
+      "x": 49.231196,
+      "y": 55.765669,
+      "is_approximate": false
+    },
+    "ул. Чишмяле-1": {
+      "x": 49.231392,
+      "y": 55.761884,
+      "is_approximate": false
+    },
+    "10-й микрорайон-1": {
+      "x": 49.230995,
+      "y": 55.754228,
+      "is_approximate": false
+    },
+    "ул. Кул Гали-1": {
+      "x": 49.228163,
+      "y": 55.751197,
+      "is_approximate": false
+    },
+    "ул. Генерала Сафиуллина-1": {
+      "x": 49.224017,
+      "y": 55.749068,
+      "is_approximate": false
+    },
+    "ул. Ю.Фучика-1": {
+      "x": 49.217787,
+      "y": 55.745685,
+      "is_approximate": false
+    },
+    "Проспект Победы": {
+      "x": 49.212832,
+      "y": 55.748153,
+      "is_approximate": false
+    },
+    "ул. Гарифьянова": {
+      "x": 49.202877,
+      "y": 55.75385,
+      "is_approximate": false
+    },
+    "ул. Братьев Касимовых": {
+      "x": 49.196944,
+      "y": 55.757423,
+      "is_approximate": false
+    },
+    "Станция метро \"Горки\"": {
+      "x": 49.192489,
+      "y": 55.759916,
+      "is_approximate": false
+    },
+    "ул. Р.Зорге-1": {
+      "x": 49.184666,
+      "y": 55.764279,
+      "is_approximate": false
+    },
+    "ул. Даурская-1": {
+      "x": 49.180753,
+      "y": 55.766621,
+      "is_approximate": false
+    },
+    "Сады-1": {
+      "x": 49.176944,
+      "y": 55.770232,
+      "is_approximate": false
+    },
+    "ул. Гвардейская-1": {
+      "x": 49.172582,
+      "y": 55.779657,
+      "is_approximate": false
+    },
+    "Кафе \"Сирень\"-1": {
+      "x": 49.171128,
+      "y": 55.782799,
+      "is_approximate": false
+    },
+    "ул. А.Кутуя-1": {
+      "x": 49.169154,
+      "y": 55.78752,
+      "is_approximate": false
+    },
+    "ул. Достоевского-1": {
+      "x": 49.1603,
+      "y": 55.787266,
+      "is_approximate": false
+    },
+    "ул. Товарищеская": {
+      "x": 49.156033,
+      "y": 55.78773,
+      "is_approximate": false
+    },
+    "ул. Лейтенанта Шмидта": {
+      "x": 49.152198,
+      "y": 55.788949,
+      "is_approximate": false
+    },
+    "ЦПКиО им. Горького": {
+      "x": 49.151887,
+      "y": 55.793058,
+      "is_approximate": false
+    },
+    "ул. Толстого": {
+      "x": 49.136969,
+      "y": 55.795242,
+      "is_approximate": false
+    },
+    "ул. Гоголя": {
+      "x": 49.13221,
+      "y": 55.795608,
+      "is_approximate": false
+    },
+    "площадь Свободы": {
+      "x": 49.125327,
+      "y": 55.795909,
+      "is_approximate": false
+    },
+    "Университет": {
+      "x": 49.12483,
+      "y": 55.7931,
+      "is_approximate": false
+    },
+    "Станция метро \"Площадь Г.Тукая\"": {
+      "x": 49.121853,
+      "y": 55.787251,
+      "is_approximate": false
+    },
+    "Театр им. Г.Камала": {
+      "x": 49.11584,
+      "y": 55.783074,
+      "is_approximate": false
+    },
+    "Колхозный рынок": {
+      "x": 49.110448,
+      "y": 55.786916,
+      "is_approximate": false
+    },
+    "ул. Чернышевского-3": {
+      "x": 49.107199,
+      "y": 55.789726,
+      "is_approximate": false
+    },
+    "Ж.-д.вокзал": {
+      "x": 49.102119,
+      "y": 55.788852,
+      "is_approximate": false
+    },
+    "ул. С.Саид-Галиева": {
+      "x": 49.099906,
+      "y": 55.790881,
+      "is_approximate": false
+    },
+    "ул. Серп и Молот": {
+      "x": 49.06814,
+      "y": 55.79998,
+      "is_approximate": false
+    },
+    "ул. Урицкого": {
+      "x": 49.058863,
+      "y": 55.798853,
+      "is_approximate": false
+    },
+    "ул. Адмиралтейская": {
+      "x": 49.050484,
+      "y": 55.797865,
+      "is_approximate": false
+    },
+    "ул. Набережная": {
+      "x": 49.042183,
+      "y": 55.798319,
+      "is_approximate": false
+    },
+    "ул. Боевая": {
+      "x": 49.034296,
+      "y": 55.79977,
+      "is_approximate": false
+    },
+    "ул. Западная": {
+      "x": 49.027345,
+      "y": 55.800191,
+      "is_approximate": false
+    },
+    "Товарный двор": {
+      "x": 49.017561,
+      "y": 55.800642,
+      "is_approximate": false
+    },
+    "Станция Лагерная": {
+      "x": 49.010032,
+      "y": 55.800903,
+      "is_approximate": false
+    },
+    "Водозабор": {
+      "x": 49.002683,
+      "y": 55.801738,
+      "is_approximate": false
+    },
+    "Поликлиника №4": {
+      "x": 48.998185,
+      "y": 55.802023,
+      "is_approximate": false
+    },
+    "жилой массив Алтай": {
+      "x": 48.984332,
+      "y": 55.800758,
+      "is_approximate": false
+    },
+    "Переправа": {
+      "x": 48.977365,
+      "y": 55.800398,
+      "is_approximate": false
+    },
+    "жилой массив Старое Аракчино-2": {
+      "x": 48.970261,
+      "y": 55.800735,
+      "is_approximate": false
+    },
+    "ул. Гумера Баширова": {
+      "x": 48.962972,
+      "y": 55.802182,
+      "is_approximate": false
+    },
+    "жилой массив Новое Аракчино": {
+      "x": 48.9515,
+      "y": 55.802392,
+      "is_approximate": false
+    },
+    "Затон": {
+      "x": 48.942481,
+      "y": 55.803881,
+      "is_approximate": false
+    },
+    "Гипсовый завод": {
+      "x": 48.936279,
+      "y": 55.806159,
+      "is_approximate": false
+    },
+    "жилой массив Новостройка": {
+      "x": 48.928309,
+      "y": 55.808684,
+      "is_approximate": false
+    },
+    "Школа №8": {
+      "x": 48.918751,
+      "y": 55.809832,
+      "is_approximate": false
+    },
+    "ул. Приволжская": {
+      "x": 48.910549,
+      "y": 55.810053,
+      "is_approximate": false
+    },
+    "жилой массив Красная Горка": {
+      "x": 48.903315,
+      "y": 55.809642,
+      "is_approximate": false
+    },
+    "ул. Богатырская": {
+      "x": 48.902648,
+      "y": 55.814753,
+      "is_approximate": false
+    },
+    "ул. Привокзальная": {
+      "x": 48.893535,
+      "y": 55.815135,
+      "is_approximate": false
+    },
+    "ул. Богатырская-1": {
+      "x": 48.902236,
+      "y": 55.814698,
+      "is_approximate": false
+    },
+    "жилой массив Красная Горка-1": {
+      "x": 48.903153,
+      "y": 55.809459,
+      "is_approximate": false
+    },
+    "ул. Приволжская-1": {
+      "x": 48.910813,
+      "y": 55.809932,
+      "is_approximate": false
+    },
+    "Школа №8-1": {
+      "x": 48.918246,
+      "y": 55.809719,
+      "is_approximate": false
+    },
+    "жилой массив Новостройка-1": {
+      "x": 48.92819,
+      "y": 55.808485,
+      "is_approximate": false
+    },
+    "Гипсовый завод-1": {
+      "x": 48.936181,
+      "y": 55.805823,
+      "is_approximate": false
+    },
+    "Затон-1": {
+      "x": 48.942101,
+      "y": 55.803716,
+      "is_approximate": false
+    },
+    "жилой массив Новое Аракчино-1": {
+      "x": 48.952036,
+      "y": 55.80194,
+      "is_approximate": false
+    },
+    "ул. Гумера Баширова-1": {
+      "x": 48.961862,
+      "y": 55.802293,
+      "is_approximate": false
+    },
+    "жилой массив Старое Аракчино-3": {
+      "x": 48.969372,
+      "y": 55.80065,
+      "is_approximate": false
+    },
+    "Переправа-1": {
+      "x": 48.977821,
+      "y": 55.79997,
+      "is_approximate": false
+    },
+    "жилой массив Алтай-1": {
+      "x": 48.984477,
+      "y": 55.800617,
+      "is_approximate": false
+    },
+    "Поликлиника №4-1": {
+      "x": 48.998654,
+      "y": 55.801727,
+      "is_approximate": false
+    },
+    "Водозабор-1": {
+      "x": 49.002483,
+      "y": 55.801516,
+      "is_approximate": false
+    },
+    "Станция Лагерная-1": {
+      "x": 49.009832,
+      "y": 55.80069,
+      "is_approximate": false
+    },
+    "ул. Слесарная-1": {
+      "x": 49.0233,
+      "y": 55.800302,
+      "is_approximate": false
+    },
+    "ул. Западная-1": {
+      "x": 49.028611,
+      "y": 55.799877,
+      "is_approximate": false
+    },
+    "ул. Боевая-1": {
+      "x": 49.033021,
+      "y": 55.799625,
+      "is_approximate": false
+    },
+    "ул. Набережная-1": {
+      "x": 49.041709,
+      "y": 55.798221,
+      "is_approximate": false
+    },
+    "ул. Адмиралтейская-1": {
+      "x": 49.050216,
+      "y": 55.79765,
+      "is_approximate": false
+    },
+    "ул. Урицкого-1": {
+      "x": 49.05779,
+      "y": 55.798588,
+      "is_approximate": false
+    },
+    "ул. Серп и Молот-1": {
+      "x": 49.067078,
+      "y": 55.799632,
+      "is_approximate": false
+    },
+    "Ж.-д.вокзал-1": {
+      "x": 49.101776,
+      "y": 55.788702,
+      "is_approximate": false
+    },
+    "ул. Чернышевского-2": {
+      "x": 49.106446,
+      "y": 55.789991,
+      "is_approximate": false
+    },
+    "Колхозный рынок-2": {
+      "x": 49.109996,
+      "y": 55.787007,
+      "is_approximate": false
+    },
+    "Театр им. Г.Камала-1": {
+      "x": 49.116394,
+      "y": 55.782817,
+      "is_approximate": false
+    },
+    "Станция метро \"Площадь Г.Тукая\"-1": {
+      "x": 49.122337,
+      "y": 55.786939,
+      "is_approximate": false
+    },
+    "Университет-1": {
+      "x": 49.12505,
+      "y": 55.792846,
+      "is_approximate": false
+    },
+    "Театр им. К.Тинчурина": {
+      "x": 49.12939,
+      "y": 55.7939,
+      "is_approximate": false
+    },
+    "ул. Гоголя-1": {
+      "x": 49.132813,
+      "y": 55.793652,
+      "is_approximate": false
+    },
+    "ул. Толстого-1": {
+      "x": 49.137475,
+      "y": 55.793417,
+      "is_approximate": false
+    },
+    "Чеховский рынок": {
+      "x": 49.147134,
+      "y": 55.790189,
+      "is_approximate": false
+    },
+    "Кинотеатр \"Мир\"": {
+      "x": 49.148205,
+      "y": 55.788243,
+      "is_approximate": false
+    },
+    "ул. Вишневского": {
+      "x": 49.15257,
+      "y": 55.787809,
+      "is_approximate": false
+    },
+    "ул. Достоевского": {
+      "x": 49.158412,
+      "y": 55.78727,
+      "is_approximate": false
+    },
+    "ул. А.Кутуя": {
+      "x": 49.170642,
+      "y": 55.785693,
+      "is_approximate": false
+    },
+    "Кафе \"Сирень\"": {
+      "x": 49.170422,
+      "y": 55.782845,
+      "is_approximate": false
+    },
+    "ул. Гвардейская": {
+      "x": 49.17184,
+      "y": 55.779596,
+      "is_approximate": false
+    },
+    "Сады": {
+      "x": 49.176299,
+      "y": 55.770015,
+      "is_approximate": false
+    },
+    "ул. Даурская": {
+      "x": 49.180246,
+      "y": 55.766267,
+      "is_approximate": false
+    },
+    "ул. Р.Зорге": {
+      "x": 49.185696,
+      "y": 55.763255,
+      "is_approximate": false
+    },
+    "Станция метро \"Горки\"-3": {
+      "x": 49.191545,
+      "y": 55.759659,
+      "is_approximate": false
+    },
+    "ул. Братьев Касимовых-1": {
+      "x": 49.197657,
+      "y": 55.756269,
+      "is_approximate": false
+    },
+    "ул. Гарифьянова-1": {
+      "x": 49.202828,
+      "y": 55.753224,
+      "is_approximate": false
+    },
+    "Проспект Победы-1": {
+      "x": 49.212113,
+      "y": 55.74779,
+      "is_approximate": false
+    },
+    "ул. Ю.Фучика": {
+      "x": 49.218238,
+      "y": 55.745571,
+      "is_approximate": false
+    },
+    "ул. Генерала Сафиуллина": {
+      "x": 49.224726,
+      "y": 55.749079,
+      "is_approximate": false
+    },
+    "ул. Кул Гали": {
+      "x": 49.229333,
+      "y": 55.751595,
+      "is_approximate": false
+    },
+    "10-й микрорайон": {
+      "x": 49.231775,
+      "y": 55.755001,
+      "is_approximate": false
+    },
+    "ул. Академика Завойского": {
+      "x": 49.231587,
+      "y": 55.757194,
+      "is_approximate": false
+    },
+    "ул. Чишмяле": {
+      "x": 49.231697,
+      "y": 55.76343,
+      "is_approximate": false
+    },
+    "Школа №125": {
+      "x": 49.231868,
+      "y": 55.769459,
+      "is_approximate": false
+    },
+    "ул. Минская": {
+      "x": 49.231807,
+      "y": 55.771802,
+      "is_approximate": false
+    },
+    "Кабельное телевидение": {
+      "x": 49.232224,
+      "y": 55.776674,
+      "is_approximate": false
+    },
+    "ул. Вагапова": {
+      "x": 49.230251,
+      "y": 55.779897,
+      "is_approximate": false
+    },
+    "ул. Академика Сахарова": {
+      "x": 49.224182,
+      "y": 55.782758,
+      "is_approximate": false
+    },
+    "Детский сад №185": {
+      "x": 49.223776,
+      "y": 55.785539,
+      "is_approximate": false
+    },
+    "ул. Бигичева": {
+      "x": 49.224547,
+      "y": 55.786747,
+      "is_approximate": false
+    },
+    "ул. Академика Глушко-2": {
+      "x": 49.224925,
+      "y": 55.789047,
+      "is_approximate": false
+    },
+    "ул. Д.Файзи-2": {
+      "x": 49.226168,
+      "y": 55.791512,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T17:21:47.438136"
+}

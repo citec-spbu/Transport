@@ -100,14 +100,14 @@ class OneTypeNodeDBManager(GraphDBManager):
 
     def get_main_node_name(self):
         name = self.get_node_name()
-        safe = re.sub(r"[^0-9A-Za-z_]", "", name)
+        safe = re.sub(r"[^0-9A-Za-zA-Яа-я_]", "", name)
         if re.match(r"^[0-9]", safe):
             safe = "_" + safe
         return safe
 
     def get_main_rels_name(self):
         name = self.get_rels_name()
-        safe = re.sub(r"[^0-9A-Za-z_]", "", name)
+        safe = re.sub(r"[^0-9A-Za-zА-Яа-я_]", "", name)
         if re.match(r"^[0-9]", safe):
             safe = "_" + safe
         return safe

@@ -1,0 +1,515 @@
+{
+  "routeNumber": "Автобус 91        М Ботаническая - Горный щит",
+  "routeUrl": "/ekb/bus/91",
+  "nodes": {
+    "Метро Ботаническая": {
+      "name": "Метро Ботаническая",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.631415,
+      "yCoordinate": 56.79721,
+      "isCoordinateApproximate": false
+    },
+    "ТЦ \"Дирижабль\"": {
+      "name": "ТЦ \"Дирижабль\"",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.628294,
+      "yCoordinate": 56.79615,
+      "isCoordinateApproximate": false
+    },
+    "б-р Малахова": {
+      "name": "б-р Малахова",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.621675,
+      "yCoordinate": 56.79581,
+      "isCoordinateApproximate": false
+    },
+    "Самоцветный б-р": {
+      "name": "Самоцветный б-р",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.615023,
+      "yCoordinate": 56.795846,
+      "isCoordinateApproximate": false
+    },
+    "Ювелирная": {
+      "name": "Ювелирная",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.606717,
+      "yCoordinate": 56.792986,
+      "isCoordinateApproximate": false
+    },
+    "пер. Рижский": {
+      "name": "пер. Рижский",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.607055,
+      "yCoordinate": 56.785792,
+      "isCoordinateApproximate": false
+    },
+    "Сухоложская": {
+      "name": "Сухоложская",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.612406,
+      "yCoordinate": 56.776361,
+      "isCoordinateApproximate": false
+    },
+    "Вторчермет": {
+      "name": "Вторчермет",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.614857,
+      "yCoordinate": 56.769643,
+      "isCoordinateApproximate": false
+    },
+    "Поликлиника": {
+      "name": "Поликлиника",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.612464,
+      "yCoordinate": 56.762326,
+      "isCoordinateApproximate": false
+    },
+    "Общежитие": {
+      "name": "Общежитие",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.609991,
+      "yCoordinate": 56.756198,
+      "isCoordinateApproximate": false
+    },
+    "ст. Керамик": {
+      "name": "ст. Керамик",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.607817,
+      "yCoordinate": 56.749855,
+      "isCoordinateApproximate": false
+    },
+    "Южная подстанция": {
+      "name": "Южная подстанция",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.606357,
+      "yCoordinate": 56.746083,
+      "isCoordinateApproximate": false
+    },
+    "Сады": {
+      "name": "Сады",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.599637,
+      "yCoordinate": 56.738442,
+      "isCoordinateApproximate": false
+    },
+    "Сад \"Родничок\"": {
+      "name": "Сад \"Родничок\"",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.56738,
+      "yCoordinate": 56.707541,
+      "isCoordinateApproximate": false
+    },
+    "Полеводство": {
+      "name": "Полеводство",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.559104,
+      "yCoordinate": 56.704074,
+      "isCoordinateApproximate": false
+    },
+    "17-й км": {
+      "name": "17-й км",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.536519,
+      "yCoordinate": 56.695695,
+      "isCoordinateApproximate": false
+    },
+    "Зелёная": {
+      "name": "Зелёная",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.528177,
+      "yCoordinate": 56.694652,
+      "isCoordinateApproximate": false
+    },
+    "Средняя": {
+      "name": "Средняя",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.51683,
+      "yCoordinate": 56.693026,
+      "isCoordinateApproximate": false
+    },
+    "Горный щит": {
+      "name": "Горный щит",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.516372,
+      "yCoordinate": 56.687489,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на Широкую речку": {
+      "name": "Поворот на Широкую речку",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.467466,
+      "yCoordinate": 56.67307,
+      "isCoordinateApproximate": false
+    },
+    "п. Широкая речка": {
+      "name": "п. Широкая речка",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.472795,
+      "yCoordinate": 56.667777,
+      "isCoordinateApproximate": false
+    },
+    "Военная": {
+      "name": "Военная",
+      "routeList": [
+        "Автобус 91        М Ботаническая - Горный щит"
+      ],
+      "xCoordinate": 60.608983,
+      "yCoordinate": 56.783526,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "Поворот на Широкую речку",
+      "endStop": "п. Широкая речка",
+      "name": "Поворот на Широкую речку -> п. Широкая речка; route_name: Автобус 91        М Ботаническая - Горный щит",
+      "route": "Автобус 91        М Ботаническая - Горный щит",
+      "duration": 1
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "Метро Ботаническая",
+      "timePoint": "06:03I"
+    },
+    {
+      "stopName": "ТЦ \"Дирижабль\"",
+      "timePoint": "06:03I"
+    },
+    {
+      "stopName": "б-р Малахова",
+      "timePoint": "06:05I"
+    },
+    {
+      "stopName": "Самоцветный б-р",
+      "timePoint": "06:06I"
+    },
+    {
+      "stopName": "Ювелирная",
+      "timePoint": "06:10I"
+    },
+    {
+      "stopName": "пер. Рижский",
+      "timePoint": "06:13I"
+    },
+    {
+      "stopName": "Сухоложская",
+      "timePoint": "06:17I"
+    },
+    {
+      "stopName": "Вторчермет",
+      "timePoint": "06:20I"
+    },
+    {
+      "stopName": "Поликлиника",
+      "timePoint": "06:23I"
+    },
+    {
+      "stopName": "Общежитие",
+      "timePoint": "06:25I"
+    },
+    {
+      "stopName": "ст. Керамик",
+      "timePoint": "06:27I"
+    },
+    {
+      "stopName": "Южная подстанция",
+      "timePoint": "05:32G"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "05:33G"
+    },
+    {
+      "stopName": "Сад \"Родничок\"",
+      "timePoint": "05:40G"
+    },
+    {
+      "stopName": "Полеводство",
+      "timePoint": "05:41G"
+    },
+    {
+      "stopName": "17-й км",
+      "timePoint": "05:44G"
+    },
+    {
+      "stopName": "Зелёная",
+      "timePoint": "05:45G"
+    },
+    {
+      "stopName": "Средняя",
+      "timePoint": "05:56G"
+    },
+    {
+      "stopName": "Горный щит",
+      "timePoint": "06:00D"
+    },
+    {
+      "stopName": "Поворот на Широкую речку",
+      "timePoint": "06:22"
+    },
+    {
+      "stopName": "п. Широкая речка",
+      "timePoint": "06:23"
+    },
+    {
+      "stopName": "п. Широкая речка",
+      "timePoint": "06:25"
+    },
+    {
+      "stopName": "Поворот на Широкую речку",
+      "timePoint": "06:25"
+    },
+    {
+      "stopName": "Горный щит",
+      "timePoint": "06:00D"
+    },
+    {
+      "stopName": "Средняя",
+      "timePoint": "06:01D"
+    },
+    {
+      "stopName": "Зелёная",
+      "timePoint": "06:03D"
+    },
+    {
+      "stopName": "17-й км",
+      "timePoint": "05:44G"
+    },
+    {
+      "stopName": "Полеводство",
+      "timePoint": "06:07D"
+    },
+    {
+      "stopName": "Сад \"Родничок\"",
+      "timePoint": "06:08D"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "06:15D"
+    },
+    {
+      "stopName": "Южная подстанция",
+      "timePoint": "06:17D"
+    },
+    {
+      "stopName": "ст. Керамик",
+      "timePoint": "06:18D"
+    },
+    {
+      "stopName": "Общежитие",
+      "timePoint": "06:19D"
+    },
+    {
+      "stopName": "Поликлиника",
+      "timePoint": "06:21D"
+    },
+    {
+      "stopName": "Вторчермет",
+      "timePoint": "06:24D"
+    },
+    {
+      "stopName": "Сухоложская",
+      "timePoint": "06:26D"
+    },
+    {
+      "stopName": "Военная",
+      "timePoint": "06:29D"
+    },
+    {
+      "stopName": "пер. Рижский",
+      "timePoint": "06:29D"
+    },
+    {
+      "stopName": "Ювелирная",
+      "timePoint": "06:32D"
+    },
+    {
+      "stopName": "Самоцветный б-р",
+      "timePoint": "06:34D"
+    },
+    {
+      "stopName": "б-р Малахова",
+      "timePoint": "06:35D"
+    },
+    {
+      "stopName": "ТЦ \"Дирижабль\"",
+      "timePoint": "06:37D"
+    },
+    {
+      "stopName": "Метро Ботаническая",
+      "timePoint": "06:38D"
+    }
+  ],
+  "coordinates": {
+    "Метро Ботаническая": {
+      "x": 60.631415,
+      "y": 56.79721,
+      "is_approximate": false
+    },
+    "ТЦ \"Дирижабль\"": {
+      "x": 60.628294,
+      "y": 56.79615,
+      "is_approximate": false
+    },
+    "б-р Малахова": {
+      "x": 60.621675,
+      "y": 56.79581,
+      "is_approximate": false
+    },
+    "Самоцветный б-р": {
+      "x": 60.615023,
+      "y": 56.795846,
+      "is_approximate": false
+    },
+    "Ювелирная": {
+      "x": 60.606717,
+      "y": 56.792986,
+      "is_approximate": false
+    },
+    "пер. Рижский": {
+      "x": 60.607055,
+      "y": 56.785792,
+      "is_approximate": false
+    },
+    "Сухоложская": {
+      "x": 60.612406,
+      "y": 56.776361,
+      "is_approximate": false
+    },
+    "Вторчермет": {
+      "x": 60.614857,
+      "y": 56.769643,
+      "is_approximate": false
+    },
+    "Поликлиника": {
+      "x": 60.612464,
+      "y": 56.762326,
+      "is_approximate": false
+    },
+    "Общежитие": {
+      "x": 60.609991,
+      "y": 56.756198,
+      "is_approximate": false
+    },
+    "ст. Керамик": {
+      "x": 60.607817,
+      "y": 56.749855,
+      "is_approximate": false
+    },
+    "Южная подстанция": {
+      "x": 60.606357,
+      "y": 56.746083,
+      "is_approximate": false
+    },
+    "Сады": {
+      "x": 60.599637,
+      "y": 56.738442,
+      "is_approximate": false
+    },
+    "Сад \"Родничок\"": {
+      "x": 60.56738,
+      "y": 56.707541,
+      "is_approximate": false
+    },
+    "Полеводство": {
+      "x": 60.559104,
+      "y": 56.704074,
+      "is_approximate": false
+    },
+    "17-й км": {
+      "x": 60.536519,
+      "y": 56.695695,
+      "is_approximate": false
+    },
+    "Зелёная": {
+      "x": 60.528177,
+      "y": 56.694652,
+      "is_approximate": false
+    },
+    "Средняя": {
+      "x": 60.51683,
+      "y": 56.693026,
+      "is_approximate": false
+    },
+    "Горный щит": {
+      "x": 60.516372,
+      "y": 56.687489,
+      "is_approximate": false
+    },
+    "Поворот на Широкую речку": {
+      "x": 60.467466,
+      "y": 56.67307,
+      "is_approximate": false
+    },
+    "п. Широкая речка": {
+      "x": 60.472795,
+      "y": 56.667777,
+      "is_approximate": false
+    },
+    "Военная": {
+      "x": 60.608983,
+      "y": 56.783526,
+      "is_approximate": false
+    },
+    "Зелёный Бор": {
+      "x": 60.512198,
+      "y": 56.71309,
+      "is_approximate": false
+    },
+    "Поворот на п. Зелёный Бор": {
+      "x": 60.51049,
+      "y": 56.699896,
+      "is_approximate": false
+    },
+    "Экодолье": {
+      "x": 60.495451,
+      "y": 56.707028,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T17:15:55.918813"
+}

@@ -51,13 +51,57 @@ export default function ExportButton({
         return;
       }
 
-      const headers = Object.keys(nodes[0]).join(",");
-      const rows = nodes.map(node => 
-        Object.values(node).map(val => 
-          typeof val === "string" && val.includes(",") ? `"${val}"` : val
-        ).join(",")
-      );
-      const csv = [headers, ...rows].join("\n");
+      const sample = nodes[0];
+      const headers: string[] = [];
+      const keyOrder: string[] = [];
+
+      // Build headers and key order, expanding coordinate-like arrays into lon/lat
+      Object.keys(sample).forEach((k) => {
+        const v = sample[k];
+        if (Array.isArray(v) && v.length >= 2 && typeof v[0] === "number" && typeof v[1] === "number") {
+          headers.push(`${k}_lon`, `${k}_lat`);
+          keyOrder.push(`${k}__lon`, `${k}__lat`);
+        } else {
+          headers.push(k);
+          keyOrder.push(k);
+        }
+      });
+
+      const escape = (val: any) => {
+        if (val === null || val === undefined) return "";
+        const s = String(val);
+        // Escape double quotes by doubling them, and wrap in quotes if necessary
+        const needsQuotes = s.includes(",") || s.includes("\n") || s.includes('"');
+        const escaped = s.replace(/"/g, '""');
+        return needsQuotes ? `"${escaped}"` : escaped;
+      };
+
+      const rows = nodes.map((node) => {
+        const values: string[] = [];
+        keyOrder.forEach((k) => {
+          if (k.endsWith("__lon")) {
+            const orig = k.replace(/__lon$/, "");
+            const val = node[orig];
+            const lon = Array.isArray(val) ? val[0] : val?.x ?? "";
+            values.push(escape(lon));
+          } else if (k.endsWith("__lat")) {
+            const orig = k.replace(/__lat$/, "");
+            const val = node[orig];
+            const lat = Array.isArray(val) ? val[1] : val?.y ?? "";
+            values.push(escape(lat));
+          } else {
+            const v = node[k];
+            if (Array.isArray(v) || (v && typeof v === "object")) {
+              values.push(escape(JSON.stringify(v)));
+            } else {
+              values.push(escape(v));
+            }
+          }
+        });
+        return values.join(",");
+      });
+
+      const csv = [headers.join(","), ...rows].join("\n");
 
       const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
       downloadFile(blob, "transit-network-data.csv");

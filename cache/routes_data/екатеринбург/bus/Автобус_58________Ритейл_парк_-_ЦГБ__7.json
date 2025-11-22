@@ -1,0 +1,1450 @@
+{
+  "routeNumber": "Автобус 58        Ритейл парк - ЦГБ №7",
+  "routeUrl": "/ekb/bus/58",
+  "nodes": {
+    "Горбольница №7": {
+      "name": "Горбольница №7",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.64312,
+      "yCoordinate": 56.866647,
+      "isCoordinateApproximate": false
+    },
+    "Д. Зверева": {
+      "name": "Д. Зверева",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.653178,
+      "yCoordinate": 56.863898,
+      "isCoordinateApproximate": false
+    },
+    "ТК \"Современник\"": {
+      "name": "ТК \"Современник\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.65384,
+      "yCoordinate": 56.858381,
+      "isCoordinateApproximate": false
+    },
+    "Академическая": {
+      "name": "Академическая",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.655769,
+      "yCoordinate": 56.851834,
+      "isCoordinateApproximate": false
+    },
+    "С. Ковалевской": {
+      "name": "С. Ковалевской",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.655383,
+      "yCoordinate": 56.846703,
+      "isCoordinateApproximate": false
+    },
+    "УрФУ": {
+      "name": "УрФУ",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.651003,
+      "yCoordinate": 56.843154,
+      "isCoordinateApproximate": false
+    },
+    "Профессорская": {
+      "name": "Профессорская",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.651893,
+      "yCoordinate": 56.840653,
+      "isCoordinateApproximate": false
+    },
+    "Гагарина": {
+      "name": "Гагарина",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.644227,
+      "yCoordinate": 56.839231,
+      "isCoordinateApproximate": false
+    },
+    "Генеральская": {
+      "name": "Генеральская",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.638176,
+      "yCoordinate": 56.838621,
+      "isCoordinateApproximate": false
+    },
+    "Энгельса": {
+      "name": "Энгельса",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.63416,
+      "yCoordinate": 56.835295,
+      "isCoordinateApproximate": false
+    },
+    "Шарташский рынок": {
+      "name": "Шарташский рынок",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.636846,
+      "yCoordinate": 56.829264,
+      "isCoordinateApproximate": false
+    },
+    "Сибирский тракт": {
+      "name": "Сибирский тракт",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.637749,
+      "yCoordinate": 56.827031,
+      "isCoordinateApproximate": false
+    },
+    "Луначарского": {
+      "name": "Луначарского",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.626857,
+      "yCoordinate": 56.824897,
+      "isCoordinateApproximate": false
+    },
+    "Белинского": {
+      "name": "Белинского",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.619182,
+      "yCoordinate": 56.824051,
+      "isCoordinateApproximate": false
+    },
+    "Чапаева": {
+      "name": "Чапаева",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.611213,
+      "yCoordinate": 56.823056,
+      "isCoordinateApproximate": false
+    },
+    "Дом-музей П. Бажова": {
+      "name": "Дом-музей П. Бажова",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.614117,
+      "yCoordinate": 56.818574,
+      "isCoordinateApproximate": false
+    },
+    "Аэроагентство": {
+      "name": "Аэроагентство",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.603773,
+      "yCoordinate": 56.817221,
+      "isCoordinateApproximate": false
+    },
+    "Дворец спорта": {
+      "name": "Дворец спорта",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.593276,
+      "yCoordinate": 56.816218,
+      "isCoordinateApproximate": false
+    },
+    "ТРЦ \"Фан-Фан\"": {
+      "name": "ТРЦ \"Фан-Фан\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.582939,
+      "yCoordinate": 56.817929,
+      "isCoordinateApproximate": false
+    },
+    "Посадская": {
+      "name": "Посадская",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.576147,
+      "yCoordinate": 56.820409,
+      "isCoordinateApproximate": false
+    },
+    "Белореченская": {
+      "name": "Белореченская",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.569338,
+      "yCoordinate": 56.82154,
+      "isCoordinateApproximate": false
+    },
+    "ТЦ \"Буревестник\"": {
+      "name": "ТЦ \"Буревестник\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.564962,
+      "yCoordinate": 56.817975,
+      "isCoordinateApproximate": false
+    },
+    "Медгородок": {
+      "name": "Медгородок",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.559284,
+      "yCoordinate": 56.811928,
+      "isCoordinateApproximate": false
+    },
+    "Областная больница №1": {
+      "name": "Областная больница №1",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.56311,
+      "yCoordinate": 56.809276,
+      "isCoordinateApproximate": false
+    },
+    "Ясная": {
+      "name": "Ясная",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.559688,
+      "yCoordinate": 56.805967,
+      "isCoordinateApproximate": false
+    },
+    "Микрохирургия глаза": {
+      "name": "Микрохирургия глаза",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.54872,
+      "yCoordinate": 56.809096,
+      "isCoordinateApproximate": false
+    },
+    "Горбольница №6": {
+      "name": "Горбольница №6",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.544461,
+      "yCoordinate": 56.808021,
+      "isCoordinateApproximate": false
+    },
+    "Академический р-н": {
+      "name": "Академический р-н",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.522398,
+      "yCoordinate": 56.793427,
+      "isCoordinateApproximate": false
+    },
+    "П. Шаманова": {
+      "name": "П. Шаманова",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.515391,
+      "yCoordinate": 56.789641,
+      "isCoordinateApproximate": false
+    },
+    "Вильгельма де Геннина": {
+      "name": "Вильгельма де Геннина",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.512017,
+      "yCoordinate": 56.787254,
+      "isCoordinateApproximate": false
+    },
+    "Преображенский парк": {
+      "name": "Преображенский парк",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.516011,
+      "yCoordinate": 56.785515,
+      "isCoordinateApproximate": false
+    },
+    "ЖК \"Аксиома\"": {
+      "name": "ЖК \"Аксиома\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.519674,
+      "yCoordinate": 56.783518,
+      "isCoordinateApproximate": false
+    },
+    "мкр. Европейский": {
+      "name": "мкр. Европейский",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.525314,
+      "yCoordinate": 56.780387,
+      "isCoordinateApproximate": false
+    },
+    "Квартал \"Преображенский\"": {
+      "name": "Квартал \"Преображенский\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.528794,
+      "yCoordinate": 56.778402,
+      "isCoordinateApproximate": false
+    },
+    "ЖК \"Сахаров\"": {
+      "name": "ЖК \"Сахаров\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.535011,
+      "yCoordinate": 56.775193,
+      "isCoordinateApproximate": false
+    },
+    "ТК \"Академический\"": {
+      "name": "ТК \"Академический\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.54176,
+      "yCoordinate": 56.771673,
+      "isCoordinateApproximate": false
+    },
+    "УНЦ": {
+      "name": "УНЦ",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.547588,
+      "yCoordinate": 56.768338,
+      "isCoordinateApproximate": false
+    },
+    "Патра": {
+      "name": "Патра",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.556527,
+      "yCoordinate": 56.76521,
+      "isCoordinateApproximate": false
+    },
+    "Городская": {
+      "name": "Городская",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.566334,
+      "yCoordinate": 56.763381,
+      "isCoordinateApproximate": false
+    },
+    "п. Совхозный": {
+      "name": "п. Совхозный",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.566044,
+      "yCoordinate": 56.760414,
+      "isCoordinateApproximate": false
+    },
+    "Чемпионов": {
+      "name": "Чемпионов",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.568864,
+      "yCoordinate": 56.749228,
+      "isCoordinateApproximate": false
+    },
+    "Счастливая": {
+      "name": "Счастливая",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.566267,
+      "yCoordinate": 56.746576,
+      "isCoordinateApproximate": false
+    },
+    "Золотистый б-р": {
+      "name": "Золотистый б-р",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.560583,
+      "yCoordinate": 56.744347,
+      "isCoordinateApproximate": false
+    },
+    "Любви": {
+      "name": "Любви",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.561184,
+      "yCoordinate": 56.741382,
+      "isCoordinateApproximate": false
+    },
+    "Центр художественной гимнастики": {
+      "name": "Центр художественной гимнастики",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.558234,
+      "yCoordinate": 56.739701,
+      "isCoordinateApproximate": false
+    },
+    "Нескучная": {
+      "name": "Нескучная",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.552499,
+      "yCoordinate": 56.737611,
+      "isCoordinateApproximate": false
+    },
+    "Ритейл-парк \"Солнечный\"": {
+      "name": "Ритейл-парк \"Солнечный\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.543841,
+      "yCoordinate": 56.739564,
+      "isCoordinateApproximate": false
+    },
+    "Школа \"Созвездие\"": {
+      "name": "Школа \"Созвездие\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.561745,
+      "yCoordinate": 56.751077,
+      "isCoordinateApproximate": false
+    },
+    "Академика Сахарова": {
+      "name": "Академика Сахарова",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.512242,
+      "yCoordinate": 56.78795,
+      "isCoordinateApproximate": false
+    },
+    "Академика Вонсовского": {
+      "name": "Академика Вонсовского",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.530344,
+      "yCoordinate": 56.797529,
+      "isCoordinateApproximate": false
+    },
+    "Облсобес": {
+      "name": "Облсобес",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.599163,
+      "yCoordinate": 56.816704,
+      "isCoordinateApproximate": false
+    },
+    "Большакова": {
+      "name": "Большакова",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.607906,
+      "yCoordinate": 56.817861,
+      "isCoordinateApproximate": false
+    },
+    "ТЦ \"Восточный\"": {
+      "name": "ТЦ \"Восточный\"",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.634941,
+      "yCoordinate": 56.834215,
+      "isCoordinateApproximate": false
+    },
+    "Первомайская": {
+      "name": "Первомайская",
+      "routeList": [
+        "Автобус 58        Ритейл парк - ЦГБ №7"
+      ],
+      "xCoordinate": 60.657425,
+      "yCoordinate": 56.847489,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "Горбольница №7",
+      "endStop": "Д. Зверева",
+      "name": "Горбольница №7 -> Д. Зверева; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 3
+    },
+    {
+      "startStop": "Д. Зверева",
+      "endStop": "ТК \"Современник\"",
+      "name": "Д. Зверева -> ТК \"Современник\"; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 3
+    },
+    {
+      "startStop": "ТК \"Современник\"",
+      "endStop": "Академическая",
+      "name": "ТК \"Современник\" -> Академическая; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 3
+    },
+    {
+      "startStop": "Академическая",
+      "endStop": "С. Ковалевской",
+      "name": "Академическая -> С. Ковалевской; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 3
+    },
+    {
+      "startStop": "С. Ковалевской",
+      "endStop": "УрФУ",
+      "name": "С. Ковалевской -> УрФУ; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 3
+    },
+    {
+      "startStop": "УрФУ",
+      "endStop": "Профессорская",
+      "name": "УрФУ -> Профессорская; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Профессорская",
+      "endStop": "Гагарина",
+      "name": "Профессорская -> Гагарина; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Гагарина",
+      "endStop": "Генеральская",
+      "name": "Гагарина -> Генеральская; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Генеральская",
+      "endStop": "Энгельса",
+      "name": "Генеральская -> Энгельса; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Энгельса",
+      "endStop": "Шарташский рынок",
+      "name": "Энгельса -> Шарташский рынок; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Шарташский рынок",
+      "endStop": "Сибирский тракт",
+      "name": "Шарташский рынок -> Сибирский тракт; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Сибирский тракт",
+      "endStop": "Луначарского",
+      "name": "Сибирский тракт -> Луначарского; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 3
+    },
+    {
+      "startStop": "Луначарского",
+      "endStop": "Белинского",
+      "name": "Луначарского -> Белинского; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Белинского",
+      "endStop": "Чапаева",
+      "name": "Белинского -> Чапаева; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Чапаева",
+      "endStop": "Дом-музей П. Бажова",
+      "name": "Чапаева -> Дом-музей П. Бажова; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Дом-музей П. Бажова",
+      "endStop": "Аэроагентство",
+      "name": "Дом-музей П. Бажова -> Аэроагентство; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Аэроагентство",
+      "endStop": "Дворец спорта",
+      "name": "Аэроагентство -> Дворец спорта; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 4
+    },
+    {
+      "startStop": "Дворец спорта",
+      "endStop": "ТРЦ \"Фан-Фан\"",
+      "name": "Дворец спорта -> ТРЦ \"Фан-Фан\"; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "ТРЦ \"Фан-Фан\"",
+      "endStop": "Посадская",
+      "name": "ТРЦ \"Фан-Фан\" -> Посадская; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Посадская",
+      "endStop": "Белореченская",
+      "name": "Посадская -> Белореченская; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Белореченская",
+      "endStop": "ТЦ \"Буревестник\"",
+      "name": "Белореченская -> ТЦ \"Буревестник\"; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "ТЦ \"Буревестник\"",
+      "endStop": "Медгородок",
+      "name": "ТЦ \"Буревестник\" -> Медгородок; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 3
+    },
+    {
+      "startStop": "Областная больница №1",
+      "endStop": "Ясная",
+      "name": "Областная больница №1 -> Ясная; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 3
+    },
+    {
+      "startStop": "Ясная",
+      "endStop": "Микрохирургия глаза",
+      "name": "Ясная -> Микрохирургия глаза; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Микрохирургия глаза",
+      "endStop": "Горбольница №6",
+      "name": "Микрохирургия глаза -> Горбольница №6; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Горбольница №6",
+      "endStop": "Академический р-н",
+      "name": "Горбольница №6 -> Академический р-н; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 6
+    },
+    {
+      "startStop": "Академический р-н",
+      "endStop": "П. Шаманова",
+      "name": "Академический р-н -> П. Шаманова; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "П. Шаманова",
+      "endStop": "Вильгельма де Геннина",
+      "name": "П. Шаманова -> Вильгельма де Геннина; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Вильгельма де Геннина",
+      "endStop": "Преображенский парк",
+      "name": "Вильгельма де Геннина -> Преображенский парк; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Преображенский парк",
+      "endStop": "ЖК \"Аксиома\"",
+      "name": "Преображенский парк -> ЖК \"Аксиома\"; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "ЖК \"Аксиома\"",
+      "endStop": "мкр. Европейский",
+      "name": "ЖК \"Аксиома\" -> мкр. Европейский; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "мкр. Европейский",
+      "endStop": "Квартал \"Преображенский\"",
+      "name": "мкр. Европейский -> Квартал \"Преображенский\"; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Квартал \"Преображенский\"",
+      "endStop": "ЖК \"Сахаров\"",
+      "name": "Квартал \"Преображенский\" -> ЖК \"Сахаров\"; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Ритейл-парк \"Солнечный\"",
+      "endStop": "Нескучная",
+      "name": "Ритейл-парк \"Солнечный\" -> Нескучная; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Нескучная",
+      "endStop": "Центр художественной гимнастики",
+      "name": "Нескучная -> Центр художественной гимнастики; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Центр художественной гимнастики",
+      "endStop": "Золотистый б-р",
+      "name": "Центр художественной гимнастики -> Золотистый б-р; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Золотистый б-р",
+      "endStop": "Счастливая",
+      "name": "Золотистый б-р -> Счастливая; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Счастливая",
+      "endStop": "Чемпионов",
+      "name": "Счастливая -> Чемпионов; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Чемпионов",
+      "endStop": "Школа \"Созвездие\"",
+      "name": "Чемпионов -> Школа \"Созвездие\"; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Школа \"Созвездие\"",
+      "endStop": "п. Совхозный",
+      "name": "Школа \"Созвездие\" -> п. Совхозный; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 4
+    },
+    {
+      "startStop": "п. Совхозный",
+      "endStop": "Городская",
+      "name": "п. Совхозный -> Городская; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 1
+    },
+    {
+      "startStop": "Городская",
+      "endStop": "Патра",
+      "name": "Городская -> Патра; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    },
+    {
+      "startStop": "Патра",
+      "endStop": "УНЦ",
+      "name": "Патра -> УНЦ; route_name: Автобус 58        Ритейл парк - ЦГБ №7",
+      "route": "Автобус 58        Ритейл парк - ЦГБ №7",
+      "duration": 2
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "Горбольница №7",
+      "timePoint": "05:58"
+    },
+    {
+      "stopName": "Д. Зверева",
+      "timePoint": "06:01"
+    },
+    {
+      "stopName": "ТК \"Современник\"",
+      "timePoint": "06:04"
+    },
+    {
+      "stopName": "Академическая",
+      "timePoint": "06:07"
+    },
+    {
+      "stopName": "С. Ковалевской",
+      "timePoint": "06:10"
+    },
+    {
+      "stopName": "УрФУ",
+      "timePoint": "06:13"
+    },
+    {
+      "stopName": "Профессорская",
+      "timePoint": "06:14"
+    },
+    {
+      "stopName": "Гагарина",
+      "timePoint": "06:16"
+    },
+    {
+      "stopName": "Генеральская",
+      "timePoint": "06:18"
+    },
+    {
+      "stopName": "Энгельса",
+      "timePoint": "06:20"
+    },
+    {
+      "stopName": "Шарташский рынок",
+      "timePoint": "06:22"
+    },
+    {
+      "stopName": "Сибирский тракт",
+      "timePoint": "06:24"
+    },
+    {
+      "stopName": "Луначарского",
+      "timePoint": "06:27"
+    },
+    {
+      "stopName": "Белинского",
+      "timePoint": "06:28"
+    },
+    {
+      "stopName": "Чапаева",
+      "timePoint": "06:30"
+    },
+    {
+      "stopName": "Дом-музей П. Бажова",
+      "timePoint": "06:31"
+    },
+    {
+      "stopName": "Аэроагентство",
+      "timePoint": "06:33"
+    },
+    {
+      "stopName": "Дворец спорта",
+      "timePoint": "06:37"
+    },
+    {
+      "stopName": "ТРЦ \"Фан-Фан\"",
+      "timePoint": "06:39"
+    },
+    {
+      "stopName": "Посадская",
+      "timePoint": "06:41"
+    },
+    {
+      "stopName": "Белореченская",
+      "timePoint": "06:43"
+    },
+    {
+      "stopName": "ТЦ \"Буревестник\"",
+      "timePoint": "06:45"
+    },
+    {
+      "stopName": "Медгородок",
+      "timePoint": "06:48"
+    },
+    {
+      "stopName": "Областная больница №1",
+      "timePoint": "06:48"
+    },
+    {
+      "stopName": "Ясная",
+      "timePoint": "06:51"
+    },
+    {
+      "stopName": "Микрохирургия глаза",
+      "timePoint": "06:53"
+    },
+    {
+      "stopName": "Горбольница №6",
+      "timePoint": "06:54"
+    },
+    {
+      "stopName": "Академический р-н",
+      "timePoint": "07:00"
+    },
+    {
+      "stopName": "П. Шаманова",
+      "timePoint": "07:02"
+    },
+    {
+      "stopName": "Вильгельма де Геннина",
+      "timePoint": "07:03"
+    },
+    {
+      "stopName": "Преображенский парк",
+      "timePoint": "07:04"
+    },
+    {
+      "stopName": "ЖК \"Аксиома\"",
+      "timePoint": "07:05"
+    },
+    {
+      "stopName": "мкр. Европейский",
+      "timePoint": "07:06"
+    },
+    {
+      "stopName": "Квартал \"Преображенский\"",
+      "timePoint": "07:07"
+    },
+    {
+      "stopName": "ЖК \"Сахаров\"",
+      "timePoint": "07:09"
+    },
+    {
+      "stopName": "ТК \"Академический\"",
+      "timePoint": "05:56I"
+    },
+    {
+      "stopName": "УНЦ",
+      "timePoint": "05:57I"
+    },
+    {
+      "stopName": "Патра",
+      "timePoint": "05:58I"
+    },
+    {
+      "stopName": "Городская",
+      "timePoint": "06:00I"
+    },
+    {
+      "stopName": "п. Совхозный",
+      "timePoint": "06:01I"
+    },
+    {
+      "stopName": "Чемпионов",
+      "timePoint": "06:06I"
+    },
+    {
+      "stopName": "Счастливая",
+      "timePoint": "06:07I"
+    },
+    {
+      "stopName": "Золотистый б-р",
+      "timePoint": "06:08I"
+    },
+    {
+      "stopName": "Любви",
+      "timePoint": "06:09I"
+    },
+    {
+      "stopName": "Центр художественной гимнастики",
+      "timePoint": "06:10I"
+    },
+    {
+      "stopName": "Нескучная",
+      "timePoint": "06:11I"
+    },
+    {
+      "stopName": "Ритейл-парк \"Солнечный\"",
+      "timePoint": "06:14I"
+    },
+    {
+      "stopName": "Ритейл-парк \"Солнечный\"",
+      "timePoint": "06:16"
+    },
+    {
+      "stopName": "Нескучная",
+      "timePoint": "06:17"
+    },
+    {
+      "stopName": "Центр художественной гимнастики",
+      "timePoint": "06:18"
+    },
+    {
+      "stopName": "Золотистый б-р",
+      "timePoint": "06:19"
+    },
+    {
+      "stopName": "Счастливая",
+      "timePoint": "06:20"
+    },
+    {
+      "stopName": "Чемпионов",
+      "timePoint": "06:22"
+    },
+    {
+      "stopName": "Школа \"Созвездие\"",
+      "timePoint": "06:24"
+    },
+    {
+      "stopName": "п. Совхозный",
+      "timePoint": "06:28"
+    },
+    {
+      "stopName": "Городская",
+      "timePoint": "06:29"
+    },
+    {
+      "stopName": "Патра",
+      "timePoint": "06:31"
+    },
+    {
+      "stopName": "УНЦ",
+      "timePoint": "06:33"
+    },
+    {
+      "stopName": "ТК \"Академический\"",
+      "timePoint": "05:34G"
+    },
+    {
+      "stopName": "ЖК \"Сахаров\"",
+      "timePoint": "05:35G"
+    },
+    {
+      "stopName": "Квартал \"Преображенский\"",
+      "timePoint": "05:37G"
+    },
+    {
+      "stopName": "мкр. Европейский",
+      "timePoint": "05:38G"
+    },
+    {
+      "stopName": "ЖК \"Аксиома\"",
+      "timePoint": "05:40G"
+    },
+    {
+      "stopName": "Преображенский парк",
+      "timePoint": "05:41G"
+    },
+    {
+      "stopName": "Академика Сахарова",
+      "timePoint": "05:42G"
+    },
+    {
+      "stopName": "П. Шаманова",
+      "timePoint": "05:43G"
+    },
+    {
+      "stopName": "Академический р-н",
+      "timePoint": "05:44G"
+    },
+    {
+      "stopName": "Академика Вонсовского",
+      "timePoint": "05:47G"
+    },
+    {
+      "stopName": "Горбольница №6",
+      "timePoint": "05:49G"
+    },
+    {
+      "stopName": "Микрохирургия глаза",
+      "timePoint": "05:51G"
+    },
+    {
+      "stopName": "Ясная",
+      "timePoint": "05:52G"
+    },
+    {
+      "stopName": "Медгородок",
+      "timePoint": "05:57G"
+    },
+    {
+      "stopName": "ТЦ \"Буревестник\"",
+      "timePoint": "05:59G"
+    },
+    {
+      "stopName": "Белореченская",
+      "timePoint": "06:01G"
+    },
+    {
+      "stopName": "Посадская",
+      "timePoint": "06:03G"
+    },
+    {
+      "stopName": "ТРЦ \"Фан-Фан\"",
+      "timePoint": "06:04G"
+    },
+    {
+      "stopName": "Дворец спорта",
+      "timePoint": "06:07G"
+    },
+    {
+      "stopName": "Облсобес",
+      "timePoint": "06:08G"
+    },
+    {
+      "stopName": "Большакова",
+      "timePoint": "06:10G"
+    },
+    {
+      "stopName": "Дом-музей П. Бажова",
+      "timePoint": "06:11G"
+    },
+    {
+      "stopName": "Белинского",
+      "timePoint": "06:15G"
+    },
+    {
+      "stopName": "Луначарского",
+      "timePoint": "06:17G"
+    },
+    {
+      "stopName": "Сибирский тракт",
+      "timePoint": "06:20G"
+    },
+    {
+      "stopName": "Шарташский рынок",
+      "timePoint": "06:20G"
+    },
+    {
+      "stopName": "ТЦ \"Восточный\"",
+      "timePoint": "06:23G"
+    },
+    {
+      "stopName": "Генеральская",
+      "timePoint": "06:26G"
+    },
+    {
+      "stopName": "Гагарина",
+      "timePoint": "06:27G"
+    },
+    {
+      "stopName": "Профессорская",
+      "timePoint": "06:28G"
+    },
+    {
+      "stopName": "УрФУ",
+      "timePoint": "06:30G"
+    },
+    {
+      "stopName": "С. Ковалевской",
+      "timePoint": "06:32G"
+    },
+    {
+      "stopName": "Первомайская",
+      "timePoint": "06:32G"
+    },
+    {
+      "stopName": "Академическая",
+      "timePoint": "06:34G"
+    },
+    {
+      "stopName": "ТК \"Современник\"",
+      "timePoint": "06:36G"
+    },
+    {
+      "stopName": "Д. Зверева",
+      "timePoint": "06:38G"
+    },
+    {
+      "stopName": "Горбольница №7",
+      "timePoint": "06:41G"
+    }
+  ],
+  "coordinates": {
+    "Горбольница №7": {
+      "x": 60.64312,
+      "y": 56.866647,
+      "is_approximate": false
+    },
+    "Д. Зверева": {
+      "x": 60.653178,
+      "y": 56.863898,
+      "is_approximate": false
+    },
+    "ТК \"Современник\"": {
+      "x": 60.65384,
+      "y": 56.858381,
+      "is_approximate": false
+    },
+    "Академическая": {
+      "x": 60.655769,
+      "y": 56.851834,
+      "is_approximate": false
+    },
+    "С. Ковалевской": {
+      "x": 60.655383,
+      "y": 56.846703,
+      "is_approximate": false
+    },
+    "УрФУ": {
+      "x": 60.651003,
+      "y": 56.843154,
+      "is_approximate": false
+    },
+    "Профессорская": {
+      "x": 60.651893,
+      "y": 56.840653,
+      "is_approximate": false
+    },
+    "Гагарина": {
+      "x": 60.644227,
+      "y": 56.839231,
+      "is_approximate": false
+    },
+    "Генеральская": {
+      "x": 60.638176,
+      "y": 56.838621,
+      "is_approximate": false
+    },
+    "Энгельса": {
+      "x": 60.63416,
+      "y": 56.835295,
+      "is_approximate": false
+    },
+    "Шарташский рынок": {
+      "x": 60.636846,
+      "y": 56.829264,
+      "is_approximate": false
+    },
+    "Сибирский тракт": {
+      "x": 60.637749,
+      "y": 56.827031,
+      "is_approximate": false
+    },
+    "Луначарского": {
+      "x": 60.626857,
+      "y": 56.824897,
+      "is_approximate": false
+    },
+    "Белинского": {
+      "x": 60.619182,
+      "y": 56.824051,
+      "is_approximate": false
+    },
+    "Чапаева": {
+      "x": 60.611213,
+      "y": 56.823056,
+      "is_approximate": false
+    },
+    "Дом-музей П. Бажова": {
+      "x": 60.614117,
+      "y": 56.818574,
+      "is_approximate": false
+    },
+    "Аэроагентство": {
+      "x": 60.603773,
+      "y": 56.817221,
+      "is_approximate": false
+    },
+    "Дворец спорта": {
+      "x": 60.593276,
+      "y": 56.816218,
+      "is_approximate": false
+    },
+    "ТРЦ \"Фан-Фан\"": {
+      "x": 60.582939,
+      "y": 56.817929,
+      "is_approximate": false
+    },
+    "Посадская": {
+      "x": 60.576147,
+      "y": 56.820409,
+      "is_approximate": false
+    },
+    "Белореченская": {
+      "x": 60.569338,
+      "y": 56.82154,
+      "is_approximate": false
+    },
+    "ТЦ \"Буревестник\"": {
+      "x": 60.564962,
+      "y": 56.817975,
+      "is_approximate": false
+    },
+    "Медгородок": {
+      "x": 60.559284,
+      "y": 56.811928,
+      "is_approximate": false
+    },
+    "Областная больница №1": {
+      "x": 60.56311,
+      "y": 56.809276,
+      "is_approximate": false
+    },
+    "Ясная": {
+      "x": 60.559688,
+      "y": 56.805967,
+      "is_approximate": false
+    },
+    "Микрохирургия глаза": {
+      "x": 60.54872,
+      "y": 56.809096,
+      "is_approximate": false
+    },
+    "Горбольница №6": {
+      "x": 60.544461,
+      "y": 56.808021,
+      "is_approximate": false
+    },
+    "Академический р-н": {
+      "x": 60.522398,
+      "y": 56.793427,
+      "is_approximate": false
+    },
+    "П. Шаманова": {
+      "x": 60.515391,
+      "y": 56.789641,
+      "is_approximate": false
+    },
+    "Вильгельма де Геннина": {
+      "x": 60.512017,
+      "y": 56.787254,
+      "is_approximate": false
+    },
+    "Преображенский парк": {
+      "x": 60.516011,
+      "y": 56.785515,
+      "is_approximate": false
+    },
+    "ЖК \"Аксиома\"": {
+      "x": 60.519674,
+      "y": 56.783518,
+      "is_approximate": false
+    },
+    "мкр. Европейский": {
+      "x": 60.525314,
+      "y": 56.780387,
+      "is_approximate": false
+    },
+    "Квартал \"Преображенский\"": {
+      "x": 60.528794,
+      "y": 56.778402,
+      "is_approximate": false
+    },
+    "ЖК \"Сахаров\"": {
+      "x": 60.535011,
+      "y": 56.775193,
+      "is_approximate": false
+    },
+    "ТК \"Академический\"": {
+      "x": 60.54176,
+      "y": 56.771673,
+      "is_approximate": false
+    },
+    "УНЦ": {
+      "x": 60.547588,
+      "y": 56.768338,
+      "is_approximate": false
+    },
+    "Патра": {
+      "x": 60.556527,
+      "y": 56.76521,
+      "is_approximate": false
+    },
+    "Городская": {
+      "x": 60.566334,
+      "y": 56.763381,
+      "is_approximate": false
+    },
+    "п. Совхозный": {
+      "x": 60.566044,
+      "y": 56.760414,
+      "is_approximate": false
+    },
+    "Чемпионов": {
+      "x": 60.568864,
+      "y": 56.749228,
+      "is_approximate": false
+    },
+    "Счастливая": {
+      "x": 60.566267,
+      "y": 56.746576,
+      "is_approximate": false
+    },
+    "Золотистый б-р": {
+      "x": 60.560583,
+      "y": 56.744347,
+      "is_approximate": false
+    },
+    "Любви": {
+      "x": 60.561184,
+      "y": 56.741382,
+      "is_approximate": false
+    },
+    "Центр художественной гимнастики": {
+      "x": 60.558234,
+      "y": 56.739701,
+      "is_approximate": false
+    },
+    "Нескучная": {
+      "x": 60.552499,
+      "y": 56.737611,
+      "is_approximate": false
+    },
+    "Ритейл-парк \"Солнечный\"": {
+      "x": 60.543841,
+      "y": 56.739564,
+      "is_approximate": false
+    },
+    "Школа \"Созвездие\"": {
+      "x": 60.561745,
+      "y": 56.751077,
+      "is_approximate": false
+    },
+    "Академика Сахарова": {
+      "x": 60.512242,
+      "y": 56.78795,
+      "is_approximate": false
+    },
+    "Академика Вонсовского": {
+      "x": 60.530344,
+      "y": 56.797529,
+      "is_approximate": false
+    },
+    "Облсобес": {
+      "x": 60.599163,
+      "y": 56.816704,
+      "is_approximate": false
+    },
+    "Большакова": {
+      "x": 60.607906,
+      "y": 56.817861,
+      "is_approximate": false
+    },
+    "ТЦ \"Восточный\"": {
+      "x": 60.634941,
+      "y": 56.834215,
+      "is_approximate": false
+    },
+    "Первомайская": {
+      "x": 60.657425,
+      "y": 56.847489,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T17:14:42.127043"
+}

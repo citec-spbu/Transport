@@ -45,7 +45,16 @@ export default function Clustering() {
           />
         </div>
 
-        <ExportButton />
+        <ExportButton
+          nodes={currentCluster?.nodes || []}
+          stats={{
+            city,
+            nodes: currentCluster?.nodes?.length || 0,
+            clusters: currentCluster?.nodes
+              ? Array.from(new Set(currentCluster.nodes.map((n: any) => n.cluster_id))).length
+              : 0,
+          }}
+        />
       </div>
 
       <div className="flex-1 bg-white rounded-xl shadow-sm h-full mr-4 ml-4">

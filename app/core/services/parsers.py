@@ -24,8 +24,6 @@ TIMETABLE_FORWARD_URL = "/A"
 TIMETABLE_BACKWARD_URL = "/B"
 CACHE_EXPIRE_DAYS = 30
 REQUEST_PAUSE_SEC = 2
-CITY_AVG_X_COORDINATE = 30.3351
-CITY_AVG_Y_COORDINATE = 59.9343
 
 # --- Cache Configuration ---
 BASE_CACHE_DIR = "./cache"
@@ -116,7 +114,7 @@ class AbstractTransportGraphParser:
             )
 
         route_nodes, route_relationships = {}, []
-        last_coordinate = Coordinate(CITY_AVG_X_COORDINATE, CITY_AVG_Y_COORDINATE)
+        last_coordinate = None
         previous_stop = None
         previous_time = None
 
@@ -127,6 +125,11 @@ class AbstractTransportGraphParser:
             coordinate = self.__get_filled_coordinate(
                 stop_coords, stop_name, last_coordinate
             )
+            if coordinate is None:
+                print(
+                    f"[WARN] Skipping stop '{stop_name}' in route '{route_number}': No coordinate available."
+                )
+                continue
             node_name, _ = self.__check_and_find_unique_stop(
                 stop_name, coordinate, route_nodes
             )
@@ -172,7 +175,10 @@ class AbstractTransportGraphParser:
     def __get_filled_coordinate(self, stop_coordinates, stop_name, last_coordinate):
         coordinate = stop_coordinates.get(stop_name)
         if coordinate is None or not coordinate.is_defined():
-            return Coordinate(last_coordinate.x, last_coordinate.y, True)
+            if last_coordinate is None:
+                return None
+            else:
+                return Coordinate(last_coordinate.x, last_coordinate.y, True)
         return coordinate
 
     # === Caching Logic ===
