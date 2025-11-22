@@ -14,7 +14,7 @@ export default function ExportButton({
   stats = {}, 
 }: ExportButtonProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const [isExporting, setIsExporting] = useState(false);
+  const [isExporting] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
