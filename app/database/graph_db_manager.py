@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+import re
 from typing import List, TYPE_CHECKING
 
 import pandas as pd
@@ -98,10 +99,18 @@ class OneTypeNodeDBManager(GraphDBManager):
             tx.run(constraint)
 
     def get_main_node_name(self):
-        return self.get_node_name().replace('-', '')
+        name = self.get_node_name()
+        safe = re.sub(r"[^0-9A-Za-z_]", "", name)
+        if re.match(r"^[0-9]", safe):
+            safe = "_" + safe
+        return safe
 
     def get_main_rels_name(self):
-        return self.get_rels_name().replace('-', '')
+        name = self.get_rels_name()
+        safe = re.sub(r"[^0-9A-Za-z_]", "", name)
+        if re.match(r"^[0-9]", safe):
+            safe = "_" + safe
+        return safe
 
 
 def insert_data(tx, query: str, rows: List[dict], batch_size: int = 10000) -> int:

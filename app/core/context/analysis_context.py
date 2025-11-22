@@ -12,7 +12,7 @@ class AnalysisContext:
     def __init__(
         self,
         metric_calculation_context: MetricCalculationContext = MetricCalculationContext(),
-        graph_name: str = "SomeGraph" + str(random.random()),
+        graph_name: str = "Graph",
         graph_type: GraphTypes = GraphTypes.BUS_GRAPH,
         need_prepare_data: bool = False,
         need_create_graph: bool = False,

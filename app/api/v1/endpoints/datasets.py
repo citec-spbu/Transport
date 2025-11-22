@@ -39,7 +39,8 @@ async def upload_dataset(data: DatasetUploadRequest):
 
     try:
         analysis_context = AnalysisContext(
-            city_name=data.city,                      
+            city_name=data.city,
+            graph_name=dataset_id,                      
             graph_type=graph_type,
             metric_calculation_context=MetricCalculationContext(),
             need_create_graph=True

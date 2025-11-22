@@ -73,10 +73,10 @@ class MetricClusterPreparer:
                 n.name AS name,
                 n.location.longitude AS lon,
                 n.location.latitude AS lat,
-                coalesce(n.leiden_community, -1) AS leiden_community,
-                coalesce(n.louvain_community, -1) AS louvain_community,
-                coalesce(n.betweenness, 0.0) AS betweenness,
-                coalesce(n.pagerank, 0.0) AS pagerank
+                n.leiden_community AS leiden_community,
+                n.louvain_community AS louvain_community,
+                n.betweenness AS betweenness,
+                n.pagerank AS pagerank
         """
 
         rows = self.conn.read_all(query)
@@ -90,24 +90,32 @@ class MetricClusterPreparer:
             }
 
             if self.mc.need_leiden_clusterization:
-                node["cluster_id"] = (
-                    r["leiden_community"]
-                )
+                if r["leiden_community"] is not None:
+                    node["cluster_id"] = (
+                        r["leiden_community"]
+                    )
+                else:
+                    continue
 
             if self.mc.need_louvain_clusterization:
-                node["cluster_id"] = (
-                    r["louvain_community"]
-                )
+                if r["louvain_community"] is not None:
+                    node["cluster_id"] = (
+                        r["louvain_community"]
+                    )
+                else:
+                    continue
 
             if self.mc.need_betweenness:
-                node["metric"] = r["betweenness"]
+                if r["betweenness"] is not None:
+                    node["metric"] = r["betweenness"]
+                else:
+                    continue
 
             if self.mc.need_pagerank:
-                node["metric"] = r["pagerank"]
-
-            # Если мы запрашиваем кластеризацию, исключаем узлы без присвоенного кластера
-            if (self.mc.need_leiden_clusterization or self.mc.need_louvain_clusterization) and node.get("cluster_id") == -1:
-                continue
+                if r["pagerank"] is not None:
+                    node["metric"] = r["pagerank"]
+                else:
+                    continue
 
             result.append(node)
 
