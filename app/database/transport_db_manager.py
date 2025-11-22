@@ -12,7 +12,7 @@ class TransportNetworkGraphDBManager(OneTypeNodeDBManager):
         WITH row WHERE row.name IS NOT NULL
         MERGE (s:{self.db_graph_parameters.main_node_name} {{name: row.name}})
             SET s.location = point({{latitude: row.yCoordinate, longitude: row.xCoordinate}}),
-                s.roteList = row.roteList,
+                s.routeList = row.routeList,
                 s.isCoordinateApproximate = row.isCoordinateApproximate
         RETURN COUNT(*) AS total
         """
@@ -33,7 +33,7 @@ class TransportNetworkGraphDBManager(OneTypeNodeDBManager):
         MATCH (s:{self.db_graph_parameters.main_node_name})
         RETURN 
             ID(s) AS id,
-            s.roteList AS roteList, 
+            s.routeList AS routeList, 
             s.location.longitude AS x, 
             s.location.latitude AS y, 
             s.name AS name, 

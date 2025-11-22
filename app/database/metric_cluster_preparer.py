@@ -69,14 +69,14 @@ class MetricClusterPreparer:
         query = f"""
             MATCH (n:`{node_label}`)
             RETURN
-                toString(id(n)) AS id,
-                n.name AS name,
-                n.location.longitude AS lon,
-                n.location.latitude AS lat,
-                n.leiden_community AS leiden_community,
-                n.louvain_community AS louvain_community,
-                n.betweenness AS betweenness,
-                n.pagerank AS pagerank
+                    elementId(n) AS id,
+                    n.name AS name,
+                    n.location.longitude AS lon,
+                    n.location.latitude AS lat,
+                    n.leiden_community AS leiden_community,
+                    n.louvain_community AS louvain_community,
+                    coalesce(n.betweenness, 0.0) AS betweenness,
+                    coalesce(n.pagerank, 0.0) AS pagerank
         """
 
         rows = self.conn.read_all(query)
@@ -104,6 +104,10 @@ class MetricClusterPreparer:
 
             if self.mc.need_pagerank:
                 node["metric"] = r["pagerank"]
+
+            # Если запрошена кластеризация, не возвращаем узлы без кластера
+            #if (self.mc.need_leiden_clusterization or self.mc.need_louvain_clusterization) and node.get("cluster_id") == -1:
+             #   continue
 
             result.append(node)
 

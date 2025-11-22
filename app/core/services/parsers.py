@@ -5,6 +5,7 @@ import os
 import random
 import re
 import time
+import unicodedata
 from abc import abstractmethod
 from urllib.parse import urljoin
 
@@ -48,10 +49,13 @@ class AbstractTransportGraphParser:
         self.relationships = []
         self.transport_url = self.get_transport_url()
         self.transport_class = self.get_transport_class()
+        # Normalize city name to NFC to avoid duplicate filenames due to
+        # different Unicode normalization forms (NFC vs NFD across OSes).
+        city_dir_name = unicodedata.normalize("NFC", self.city_name.lower())
         self.city_dir = os.path.join(
             BASE_CACHE_DIR,
             "routes_data",
-            self.city_name.lower(),
+            city_dir_name,
             self.transport_url.strip("/"),
         )
         os.makedirs(self.city_dir, exist_ok=True)
@@ -78,6 +82,11 @@ class AbstractTransportGraphParser:
             print("[INFO] Fetched and saved new route index.")
 
         for route_number, route_name, route_url in all_routes:
+            # Normalize route name to NFC so content written into JSON is
+            # consistent across platforms (avoids duplicates caused by
+            # different Unicode decompositions in route strings).
+            route_number = unicodedata.normalize("NFC", route_number)
+            route_name = unicodedata.normalize("NFC", route_name)
             route_path = self.__get_route_path(route_number)
             if use_cache and self.__is_cache_fresh(route_path):
                 with open(route_path, "r", encoding="utf-8") as f:
@@ -122,6 +131,10 @@ class AbstractTransportGraphParser:
 
         for row in timetable:
             stop_name = row["stopName"]
+            # Normalize stop names to NFC as well to keep node keys stable
+            # and avoid visually-identical duplicates with different
+            # Unicode decompositions.
+            stop_name = unicodedata.normalize("NFC", stop_name)
             time_point = row["timePoint"]
 
             coordinate = self.__get_filled_coordinate(
@@ -177,7 +190,11 @@ class AbstractTransportGraphParser:
 
     # === Caching Logic ===
     def __get_route_path(self, route_number):
-        safe_name = re.sub(r"[^a-zA-Zа-яА-Я0-9_-]", "_", route_number)
+        # Make a filesystem-safe name and normalize to NFC to avoid
+        # creating visually-identical duplicate filenames with different
+        # Unicode decompositions (macOS vs Linux/Windows).
+        raw_safe = re.sub(r"[^a-zA-Zа-яА-Я0-9_-]", "_", route_number)
+        safe_name = unicodedata.normalize("NFC", raw_safe)
         return os.path.join(self.city_dir, f"{safe_name}.json")
 
     def __is_cache_fresh(self, path):
