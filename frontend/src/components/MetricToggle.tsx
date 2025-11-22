@@ -32,7 +32,7 @@ export default function MetricToggle({
     <Card className="flex items-center gap-3 px-4 py-2 h-[45px]">
       <button
         onClick={() => handleClick(firstLabel)}
-        className={`px-5 py-1.5 rounded-[6px] text-[10px] font-normal transition-all ${
+        className={`px-5 py-1.5 rounded-[6px] text-[11px] font-normal transition-all ${
           active === firstLabel
             ? "bg-[#003A8C] text-white"
             : "bg-[#F5F7FA] text-black"
@@ -43,7 +43,7 @@ export default function MetricToggle({
 
       <button
         onClick={() => handleClick(secondLabel)}
-        className={`px-5 py-1.5 rounded-[6px] text-[10px] font-normal transition-all ${
+        className={`px-5 py-1.5 rounded-[6px] text-[11px] font-normal transition-all ${
           active === secondLabel
             ? "bg-[#003A8C] text-white"
             : "bg-[#F5F7FA] text-black"

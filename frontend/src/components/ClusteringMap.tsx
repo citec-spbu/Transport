@@ -139,25 +139,21 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
         {/* информация Nodes */}
         <div className="flex gap-3">
           {nodes.length > 0 && (
-            <Card>
-              <div className="text-sm text-gray-600">
+            <Card className="p-2">
+              <div className="text-xs text-gray-600">
                 <span className="font-semibold">Nodes:</span> {nodes.length}
               </div>
             </Card>
           )}
           {communities.size > 0 && (
-            <Card>
-              <div className="text-sm text-gray-600">
+            <Card className="p-2">
+              <div className="text-xs text-gray-600">
                 <span className="font-semibold">Clusters:</span>{" "}
                 {communities.size}
               </div>
             </Card>
           )}
-          <Card>
-            <div className="text-sm text-gray-600">
-              <span className="font-semibold">Method:</span> {clusterType}
-            </div>
-          </Card>
+
         </div>
         {/* кнопка показать легенду */}
         <div>

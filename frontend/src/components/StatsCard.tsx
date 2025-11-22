@@ -38,10 +38,10 @@ const StatsCard: React.FC<StatsCardProps> = ({
 
   return (
     <Card className="p-3 font-sans">
-      <div className="space-y-3">
+      <div className="space-y-2">
         <div>
           <div className="text-xs text-gray-500 font-medium">Город</div>
-          <div className="text-sm font-semibold text-gray-900 mt-0.5">
+          <div className="text-sm font-semibold text-gray-900 ">
             {city || "Не указан"}
           </div>
         </div>
@@ -50,7 +50,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
           <div className="text-xs text-gray-500 font-medium">
             {getMetricLabel()}
           </div>
-          <div className="text-sm font-semibold text-gray-900 mt-0.5">
+          <div className="text-sm font-semibold text-gray-900 ">
             {formatMetric(maxMetric)}
           </div>
         </div>
@@ -59,7 +59,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
           <div className="text-xs text-gray-500 font-medium">
             Количество узлов
           </div>
-          <div className="text-sm font-semibold text-gray-900 mt-0.5">
+          <div className="text-sm font-semibold text-gray-900">
             {nodes.toLocaleString()}
           </div>
         </div>
@@ -69,7 +69,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
             <div className="text-xs text-gray-500 font-medium">
               Количество маршрутов
             </div>
-            <div className="text-sm font-semibold text-gray-900 mt-0.5">
+            <div className="text-sm font-semibold text-gray-900 ">
               {routes.toLocaleString()}
             </div>
           </div>

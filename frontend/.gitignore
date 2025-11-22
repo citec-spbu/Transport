@@ -10,7 +10,7 @@ node_modules/
 dist/
 dist-ssr/
 *.local
-
+.vite/deps
 .vscode/*
 !.vscode/extensions.json
 .idea/

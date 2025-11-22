@@ -4,19 +4,32 @@ import MetricToggle from "../components/MetricToggle.tsx";
 import ClusteringMap from "../components/ClusteringMap.tsx";
 import CityCard from "../components/CityCard.tsx";
 import { useParamsStore } from "../store/useParamStore";
+import { useEffect } from "react";
 
 export default function Clustering() {
-  const {
-    city,
-    datasetId,
-    clusterType,
-    setClusterType,
-    datasetCache,
-  } = useParamsStore();
+  const { city, datasetId, clusterType, setClusterType, datasetCache } =
+    useParamsStore();
 
   const currentCluster = datasetId
     ? datasetCache[datasetId]?.clusters?.[clusterType]
     : undefined;
+
+  const selectedToggleValue = clusterType === "leiden" ? "Leiden" : "Louvain";
+
+  const handleClusterToggleChange = (active: string) => {
+    if (active === "Leiden" || active === "leiden") {
+      setClusterType("leiden");
+    } else if (active === "Louvain" || active === "louvain") {
+      setClusterType("louvain");
+    }
+  };
+
+  useEffect(() => {
+    if (clusterType === "leiden") {
+    } else if (clusterType === "louvain") {
+    }
+  }, [clusterType]);
+
   return (
     <div className="min-h-screen bg-[#F9FAFB] font-sans">
       <Header />
@@ -27,8 +40,8 @@ export default function Clustering() {
           <MetricToggle
             firstLabel="Leiden"
             secondLabel="Louvain"
-            selected={clusterType}
-            onChange={(value) => setClusterType(value as "leiden" | "louvain")}
+            selected={selectedToggleValue}
+            onChange={handleClusterToggleChange}
           />
         </div>
 
