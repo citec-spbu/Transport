@@ -12,7 +12,8 @@ services:
       - NEO4J_dbms_security_procedures_unrestricted=jwt.security.*,apoc.*,gds.*
     volumes:
       - neo4j_data:/data
-
+    networks:
+      - app-network
   app:
     build: .
     container_name: transit_analysis_app
@@ -28,6 +29,23 @@ services:
     volumes:
       - ./:/app
       - ./cache:/app/cache
+    networks:
+      - app-network
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+    ports:
+      - 3000:80
+    depends_on:
+      - app
+    networks:
+      - app-network
 
 volumes:
   neo4j_data:
+
+
+networks:
+  app-network:
+    driver: bridge
