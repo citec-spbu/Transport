@@ -112,7 +112,7 @@ const nodes = currentMetricData?.nodes || [];
             </div>
           ) : (
             <Heatmap
-              key={`${datasetId}-${metricType}`} // Уникальный ключ для пересоздания карты
+              key={`${datasetId}-${metricType}`}
               nodes={nodes}
               metricType={metricType}
               title={metricType === "pagerank" ? "PageRank Heatmap" : "Betweenness Heatmap"}

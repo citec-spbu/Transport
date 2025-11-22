@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Header from "../components/Header.tsx";
 import ExportButton from "../components/ExportButton.tsx";
 import MetricToggle from "../components/MetricToggle.tsx";
@@ -9,7 +8,6 @@ import { useParamsStore } from "../store/useParamStore";
 export default function Clustering() {
   const {
     city,
-    transport,
     datasetId,
     clusterType,
     setClusterType,
@@ -41,7 +39,7 @@ export default function Clustering() {
         {currentCluster ? (
           <ClusteringMap data={currentCluster} clusterType={clusterType} />
         ) : (
-          <div className="p-4 text-gray-600">Загрузка данных...</div>
+          <div className="p-4 text-gray-600">Загрузка данных</div>
         )}
       </div>
     </div>

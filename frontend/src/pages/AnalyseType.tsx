@@ -1,7 +1,5 @@
-import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import AnalyseSelector from "../components/AnalyseSelector";
-import { useParamsStore } from "../store/useParamStore";
 
 export default function Analysis() {
   return (
@@ -16,8 +14,6 @@ export default function Analysis() {
 
       <div className="relative z-10 flex flex-col h-full">
         <Header />
-
-        {/* Основная часть */}
         <AnalyseSelector />
       </div>
     </div>

@@ -14,8 +14,6 @@ export default function Parameters() {
 
       <div className="relative z-10 flex flex-col h-full">
         <Header />
-
-        {/* Основная часть */}
         <ParamsSelector />
       </div>
     </div>

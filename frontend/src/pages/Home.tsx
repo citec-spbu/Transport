@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import PrimaryButton from "../components/PrimaryButton";
@@ -14,19 +13,15 @@ export default function LandingPage() {
         }}
       />
 
-      {/* Контент поверх фона */}
       <div className="relative z-10 flex flex-col h-full">
-        {/* Header */}
         <Header />
-
-        {/* Центрированный блок */}
         <div className="flex flex-col items-center justify-center flex-1 text-center px-4">
           <h1 className="text-8xl font-medium text-black ">
             Transit Network
           </h1>
 
           <p className="mt-3 text-gray-600 text-lg">
-            Сервис <span className="font-semibold text-black">анализа</span>{" "}
+            Сервис анализа 
             общественного транспорта города
           </p>
 
