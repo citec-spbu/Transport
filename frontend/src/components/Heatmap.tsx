@@ -43,15 +43,14 @@ export default function Heatmap({
     const valueRange = maxValue - minValue;
 
     const getColor = (value: number) => {
-      const normalized = valueRange > 0 ? (value - minValue) / valueRange : 0.5;
+      const normalized = valueRange > 0 ? (maxValue - value) / valueRange : 0.5;
 
-      // Цветовая шкала
       const c: [number, [number, number, number]][] = [
-        [0.0, [0, 17, 255]],
-        [0.25, [0, 255, 255]],
+        [0.0, [255, 0, 0]],
+        [0.25, [255, 123, 0]],
         [0.5, [255, 255, 0]],
-        [0.75, [255, 123, 0]],
-        [1.0, [255, 0, 0]],
+        [0.75, [0, 255, 255]],
+        [1.0, [0, 17, 255]],
       ];
 
       for (let i = 1; i < c.length; i++) {
@@ -65,7 +64,7 @@ export default function Heatmap({
           return `rgb(${r},${g},${b})`;
         }
       }
-      return "rgb(255,0,0)";
+      return "rgb(0,17,255)";
     };
 
     const markers = apiNodes.map((node) => {
@@ -94,11 +93,9 @@ export default function Heatmap({
     const group = L.featureGroup(markers);
     group.addTo(map);
 
-    // Проверяем, что есть маркеры для отображения
     if (group.getLayers().length > 0) {
       map.fitBounds(group.getBounds(), { padding: [20, 20] });
     } else {
-      // Если нет маркеров, устанавливаем дефолтное положение (Москва)
       map.setView([55.7558, 37.6173], 10);
     }
 
@@ -115,7 +112,8 @@ export default function Heatmap({
       {apiNodes.length > 0 && (
         <div className="absolute bottom-5 left-5 bg-white p-3 rounded-lg shadow text-xs z-[600]">
           <div className="font-semibold">{title}</div>
-          <div className="w-36 h-2 mt-1 rounded bg-gradient-to-r from-[#0011ff] via-[#ffff00] to-[#ff0000]" />
+          <div className="w-36 h-2 mt-1 rounded bg-gradient-to-r from-[#ff0000] via-[#ff7b00] to-[#0011ff]" />
+
           <div className="flex justify-between text-gray-500 text-[10px] mt-1">
             <span>Low</span>
             <span>High</span>
