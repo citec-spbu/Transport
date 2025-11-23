@@ -1,74 +1,95 @@
-# Transit Analysis — анализ городских транспортных сетей
+# Transit Analysis — веб‑приложение для анализа городских транспортных сетей
 
-## Возможности:
+Краткое описание
+---
+Веб‑приложение, состоящее из backend (HTTP API на FastAPI) и frontend (веб‑интерфейс на React/Vite) частей. Оно собирает и анализирует данные городских транспортных сетей, сохраняет графы в Neo4j и выполняет алгоритмы Graph Data Science (GDS) — кластеризацию (Leiden/Louvain)
+и вычисление метрик центральности (PageRank, Betweenness). Результаты доступны через API и визуализируются в клиенте.
 
-1. Кластеризация дорожных сетей городов
-2. Вычисление метрик центральности (betweenness, page rank) для сетей
-3. Кластеризация остановок общественного транспорта Российских городов
-4. Формирование различных графиков: Histogram, Heatmap на основании анализа сетей
-5. Формирование интерактивной карты с информацией о анализе
+Содержимое репозитория — основные директории
+---
+- `app/` — серверная часть с FastAPI + uvicorn (эндпоинты в `app/api`, логика в `app/core`, доступ к БД в `app/database`).
+- `cache/` — кешированные JSON файлы с маршрутами по городам.
+- `frontend/` — клиентская часть на React + TypeScript (Vite).
 
-## Запуск:
+Стек используемых технологий
+---
+- Backend: Python 3.12, FastAPI + uvicorn, neo4j Python driver.
+- Визуализация и frontend: React, TypeScript, Vite, Leaflet + Chart.js.
+- База данных: Neo4j с Graph Data Science (GDS).
+- Контейнеризация: Docker + Docker Compose.
 
-0. В файле main.py указать ваш город
-1. `docker-compose up --build`
-2. Открыть http://localhost:8050 и дождаться появления графиков
-3. Для просмотра интерактивной карты подключитесь к neo4j://localhost:7687
-используя данные из docker-compose
-4. Открыть http://localhost:3000 для запуска веб-сервиса 
+Быстрый старт
+---
+1) Запуск через Docker Compose (рекомендуется):
 
+```bash
+docker compose up --build
+```
 
-## Создание графов дорог и сети автобусных остановок:
+2) Локальный запуск (без Docker)
 
-Для создания графов дорог данные берутся из OpenStreetMap с помощью библиотеки osmnx. Для сетей общественного транспорта
-берет данные из https://kudikina.ru. С этого сайта есть возможность получать данные о дорожных сетях более чем 200
-городов.
+Backend:
 
-Подробнее о данных сети общественного транспорта:
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8050
+```
 
-- Вершины - остановки. Включает географическое положение остановки (могут быть не
-  точными - если информацию получить не удалось, то в таком случае данные будут приближенными и узел будет
-  иметь `isCoordinateApproximate = True`), название остановки, список автобусных маршрутов в которых включена
-  остановка;
-- Связи - маршруты между соседними остановками внутри одного автобусного маршрута (название маршрута, длительность
-  перемещения между соединяемыми остановками).
+Frontend:
 
-## Используемые инструменты
-1. В качестве языка программирования используется Python
-2. Для получения информации о дорожных сетях использовалась библиотека osnmx c базой данных OpenStreetMap, для получения
-   Для получения данных о сетях маршрутов общественного транспорта был написан парсер, использующий библиотеку beautifulsoup4
-   , который собирает информацию с сайта https://kudikina.ru
-3. Для исполнения алгоритмов и хранения информации использовались возможности базы данных neo4j и Python библиотеки neo4j
-4. Для визуализации использовались Python библиотеки plotly(для построение гистограмм и тепловых карт), folium(для 
-   построение интерактивной карты с информацией анализа)
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-## Процесс анализа
-1. Формирование контекста AnalysContext, который содержит основные параметры анализа(город, тип сети,
-   необходимые метрики, неыобходимые алгоритмы, необходимые графики) 
-2. Если есть необходимость в соответствии с AnalysContext, формируется граф и записывается в бд:
-    - В случае с графом дорожных сетей информация получается с помощью библиотеки osnmx с использованием 
-    функций graph_from_place graph_to_gdfs. На основании этих данных формируется сеть и записывается в neo4j
-    - В случае с графом дорожных сетей с информацией о зданиях данные получается с помощью библиотеки osnmx с использованием
-    функций graph_from_place, graph_to_gdfs, geometries_from_place, и на основании этих данных формируется сеть с 
-    использованием библиотеки quad для быстрого формировнии сети и записывается в neo4j
-    - В случае с графом маршрутов общественного транспорта данные получается с помощью парсера сайта https://kudikina.ru 
-    использованием beautifulsoup4. На основании этих данных формируется сеть и записывается в neo4j
-3. Далее для исполнения различных алгоритмов neo4j формируется единый проект с помощью gds.graph.project
-4. Далее для вычисления метрик используются различные процедуры neo4j (gds.leiden.stream, gds.louvain.stream,
-   gds.leiden.write, gds.louvain.write, gds.betweenness.write, gds.pagerank.write)
-5. Далее вычисленные и записанные данные собираются из базы данные(С использованием различных запросов)
-   и приводятся к единому виду в Python для удобства в визуализации
-6. Далее начинается процесс визуализации, используются:
-    - plotly - используется для построения графиков гистограмм и тепловых карт, используются ранее собранные данные
-    , агрегируются и с использованием plotly.express.histogram и plotly.express.heatmap формируются графики
-    - folium - используется для построения интерактивных географических карт в формате html, используются ранее собранные данные
-    , агрегируются и с использованием plotly.express.histogram и plotly.express.heatmap формируются графики
+Доступ по умолчанию
+---
+- Backend API: `http://localhost:8050`
+- Neo4j Browser: `http://localhost:7474` (логин: `neo4j`, пароль: `hello123`)
+- Frontend: `http://localhost:3000`
 
-## Источники информации используемые при разработке:
+Переменные окружения
+---
 
-1. https://neo4j.com/docs/python-manual/current/
-2. https://neo4j.com/docs
-3. https://neo4j.com/docs/graph-data-science/current/algorithms/louvain/
-4. https://neo4j.com/docs/graph-data-science/current/algorithms/leiden/
-5. https://en.wikipedia.org/wiki/Louvain_method
-6. https://proproprogs.ru/ml/ml-aglomerativnaya-ierarhicheskaya-klasterizaciya-dendogramma
+```bash
+GRAPH_DATABASE_URL="neo4j://localhost:7687"
+GRAPH_DATABASE_USER="neo4j"
+GRAPH_DATABASE_PASSWORD="secret"
+```
+
+API — основные эндпоинты
+---
+- `POST /v1/datasets` — создание/загрузка датасета (`{ "transport_type": "bus|tram|...", "city": "Город" }`). Возвращает `dataset_id`.
+- `DELETE /v1/datasets/{dataset_id}` — удалить датасет и связанный граф.
+- `POST /v1/analysis/cluster` — запустить кластеризацию (`{ "dataset_id": "...", "method": "leiden|louvain" }`).
+- `POST /v1/analysis/metric` — рассчитать метрику (`{ "dataset_id": "...", "metric": "pagerank|betweenness" }`).
+
+Примеры использования (curl)
+---
+
+Создать датасет (используется кеш, если данные уже скачаны):
+
+```bash
+curl -s -X POST "http://127.0.0.1:8050/v1/datasets" \
+  -H "Content-Type: application/json" \
+  -d '{"transport_type":"bus","city":"Бирск"}' | jq
+```
+
+Запустить кластеризацию (Leiden):
+
+```bash
+curl -s -X POST "http://127.0.0.1:8050/v1/analysis/cluster" \
+  -H "Content-Type: application/json" \
+  -d '{"dataset_id":"<DATASET_ID>","method":"leiden"}' | jq
+```
+
+Запустить вычисление PageRank:
+
+```bash
+curl -s -X POST "http://127.0.0.1:8050/v1/analysis/metric" \
+  -H "Content-Type: application/json" \
+  -d '{"dataset_id":"<DATASET_ID>","metric":"pagerank"}' | jq
+```
