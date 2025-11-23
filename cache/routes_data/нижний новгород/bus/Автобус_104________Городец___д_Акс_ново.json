@@ -1,0 +1,504 @@
+{
+  "routeNumber": "Автобус 104        Городец – д Аксёново",
+  "routeUrl": "/nnov/bus/104_6",
+  "nodes": {
+    "Городец (автостанция)": {
+      "name": "Городец (автостанция)",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.470743,
+      "yCoordinate": 56.645428,
+      "isCoordinateApproximate": false
+    },
+    "д Галанино": {
+      "name": "д Галанино",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.465872,
+      "yCoordinate": 56.677468,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Строчково": {
+      "name": "поворот на Строчково",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.466906,
+      "yCoordinate": 56.684176,
+      "isCoordinateApproximate": false
+    },
+    "Разъезд": {
+      "name": "Разъезд",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.467332,
+      "yCoordinate": 56.688668,
+      "isCoordinateApproximate": false
+    },
+    "Пестово": {
+      "name": "Пестово",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.469118,
+      "yCoordinate": 56.69788,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Решетниково": {
+      "name": "поворот на Решетниково",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.476098,
+      "yCoordinate": 56.712337,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Ковригино": {
+      "name": "поворот на Ковригино",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.481843,
+      "yCoordinate": 56.721509,
+      "isCoordinateApproximate": false
+    },
+    "д Романово": {
+      "name": "д Романово",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.495758,
+      "yCoordinate": 56.74228,
+      "isCoordinateApproximate": false
+    },
+    "Сады": {
+      "name": "Сады",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.498966,
+      "yCoordinate": 56.747386,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Мошкино": {
+      "name": "поворот на Мошкино",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.508488,
+      "yCoordinate": 56.761211,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Бекет": {
+      "name": "поворот на Бекет",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.515687,
+      "yCoordinate": 56.775722,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Богомолово": {
+      "name": "поворот на Богомолово",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.547938,
+      "yCoordinate": 56.800194,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Горюшки": {
+      "name": "поворот на Горюшки",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.561907,
+      "yCoordinate": 56.815883,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Кумохино": {
+      "name": "поворот на Кумохино",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.569527,
+      "yCoordinate": 56.824979,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Косолапово": {
+      "name": "поворот на Косолапово",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.585127,
+      "yCoordinate": 56.836601,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Привалово": {
+      "name": "поворот на Привалово",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.59485,
+      "yCoordinate": 56.842522,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Стрекалово": {
+      "name": "поворот на Стрекалово",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.60682,
+      "yCoordinate": 56.850226,
+      "isCoordinateApproximate": false
+    },
+    "д Бриляково": {
+      "name": "д Бриляково",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.626572,
+      "yCoordinate": 56.860058,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Евдокимово": {
+      "name": "поворот на Евдокимово",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.640919,
+      "yCoordinate": 56.8805,
+      "isCoordinateApproximate": false
+    },
+    "д Мошкино": {
+      "name": "д Мошкино",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.650355,
+      "yCoordinate": 56.892945,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Смиркино": {
+      "name": "поворот на Смиркино",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.586747,
+      "yCoordinate": 56.92648,
+      "isCoordinateApproximate": false
+    },
+    "д Смиркино": {
+      "name": "д Смиркино",
+      "routeList": [
+        "Автобус 104        Городец – д Аксёново"
+      ],
+      "xCoordinate": 43.57844,
+      "yCoordinate": 56.9274,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [],
+  "timetable": [
+    {
+      "stopName": "Городец (автостанция)",
+      "timePoint": "15:15E"
+    },
+    {
+      "stopName": "д Галанино",
+      "timePoint": "15:24E"
+    },
+    {
+      "stopName": "поворот на Строчково",
+      "timePoint": "15:25E"
+    },
+    {
+      "stopName": "Разъезд",
+      "timePoint": "15:26E"
+    },
+    {
+      "stopName": "Пестово",
+      "timePoint": "15:28E"
+    },
+    {
+      "stopName": "поворот на Решетниково",
+      "timePoint": "15:31E"
+    },
+    {
+      "stopName": "поворот на Ковригино",
+      "timePoint": "15:32E"
+    },
+    {
+      "stopName": "д Романово",
+      "timePoint": "15:36E"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "15:37E"
+    },
+    {
+      "stopName": "поворот на Мошкино",
+      "timePoint": "15:40E"
+    },
+    {
+      "stopName": "поворот на Бекет",
+      "timePoint": "15:43E"
+    },
+    {
+      "stopName": "поворот на Богомолово",
+      "timePoint": "15:49E"
+    },
+    {
+      "stopName": "поворот на Горюшки",
+      "timePoint": "15:52E"
+    },
+    {
+      "stopName": "поворот на Кумохино",
+      "timePoint": "15:54E"
+    },
+    {
+      "stopName": "поворот на Косолапово",
+      "timePoint": "15:56E"
+    },
+    {
+      "stopName": "поворот на Привалово",
+      "timePoint": "15:58E"
+    },
+    {
+      "stopName": "поворот на Стрекалово",
+      "timePoint": "16:00E"
+    },
+    {
+      "stopName": "д Бриляково",
+      "timePoint": "16:02E"
+    },
+    {
+      "stopName": "поворот на Евдокимово",
+      "timePoint": "16:07E"
+    },
+    {
+      "stopName": "д Мошкино",
+      "timePoint": "16:09E"
+    },
+    {
+      "stopName": "поворот на Смиркино",
+      "timePoint": "16:21G"
+    },
+    {
+      "stopName": "д Смиркино",
+      "timePoint": "16:20E"
+    },
+    {
+      "stopName": "д Мошкино",
+      "timePoint": "16:37G"
+    },
+    {
+      "stopName": "поворот на Евдокимово",
+      "timePoint": "16:38G"
+    },
+    {
+      "stopName": "д Бриляково",
+      "timePoint": "16:45G"
+    },
+    {
+      "stopName": "поворот на Стрекалово",
+      "timePoint": "16:46G"
+    },
+    {
+      "stopName": "поворот на Привалово",
+      "timePoint": "16:47G"
+    },
+    {
+      "stopName": "поворот на Косолапово",
+      "timePoint": "16:48G"
+    },
+    {
+      "stopName": "поворот на Кумохино",
+      "timePoint": "16:49G"
+    },
+    {
+      "stopName": "поворот на Горюшки",
+      "timePoint": "16:51G"
+    },
+    {
+      "stopName": "поворот на Богомолово",
+      "timePoint": "16:54G"
+    },
+    {
+      "stopName": "поворот на Бекет",
+      "timePoint": "16:59G"
+    },
+    {
+      "stopName": "поворот на Мошкино",
+      "timePoint": "17:01G"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "17:04G"
+    },
+    {
+      "stopName": "д Романово",
+      "timePoint": "17:05G"
+    },
+    {
+      "stopName": "поворот на Ковригино",
+      "timePoint": "17:08G"
+    },
+    {
+      "stopName": "поворот на Решетниково",
+      "timePoint": "17:10G"
+    },
+    {
+      "stopName": "Пестово",
+      "timePoint": "17:12G"
+    },
+    {
+      "stopName": "Разъезд",
+      "timePoint": "17:14G"
+    },
+    {
+      "stopName": "д Галанино",
+      "timePoint": "17:15G"
+    },
+    {
+      "stopName": "Городец (автостанция)",
+      "timePoint": "17:25G"
+    }
+  ],
+  "coordinates": {
+    "Городец (автостанция)": {
+      "x": 43.470743,
+      "y": 56.645428,
+      "is_approximate": false
+    },
+    "д Галанино": {
+      "x": 43.465872,
+      "y": 56.677468,
+      "is_approximate": false
+    },
+    "поворот на Строчково": {
+      "x": 43.466906,
+      "y": 56.684176,
+      "is_approximate": false
+    },
+    "Разъезд": {
+      "x": 43.467332,
+      "y": 56.688668,
+      "is_approximate": false
+    },
+    "Пестово": {
+      "x": 43.469118,
+      "y": 56.69788,
+      "is_approximate": false
+    },
+    "поворот на Решетниково": {
+      "x": 43.476098,
+      "y": 56.712337,
+      "is_approximate": false
+    },
+    "поворот на Ковригино": {
+      "x": 43.481843,
+      "y": 56.721509,
+      "is_approximate": false
+    },
+    "д Романово": {
+      "x": 43.495758,
+      "y": 56.74228,
+      "is_approximate": false
+    },
+    "Сады": {
+      "x": 43.498966,
+      "y": 56.747386,
+      "is_approximate": false
+    },
+    "поворот на Мошкино": {
+      "x": 43.508488,
+      "y": 56.761211,
+      "is_approximate": false
+    },
+    "поворот на Бекет": {
+      "x": 43.515687,
+      "y": 56.775722,
+      "is_approximate": false
+    },
+    "поворот на Богомолово": {
+      "x": 43.547938,
+      "y": 56.800194,
+      "is_approximate": false
+    },
+    "поворот на Горюшки": {
+      "x": 43.561907,
+      "y": 56.815883,
+      "is_approximate": false
+    },
+    "поворот на Кумохино": {
+      "x": 43.569527,
+      "y": 56.824979,
+      "is_approximate": false
+    },
+    "поворот на Косолапово": {
+      "x": 43.585127,
+      "y": 56.836601,
+      "is_approximate": false
+    },
+    "поворот на Привалово": {
+      "x": 43.59485,
+      "y": 56.842522,
+      "is_approximate": false
+    },
+    "поворот на Стрекалово": {
+      "x": 43.60682,
+      "y": 56.850226,
+      "is_approximate": false
+    },
+    "д Бриляково": {
+      "x": 43.626572,
+      "y": 56.860058,
+      "is_approximate": false
+    },
+    "поворот на Евдокимово": {
+      "x": 43.640919,
+      "y": 56.8805,
+      "is_approximate": false
+    },
+    "д Мошкино": {
+      "x": 43.650355,
+      "y": 56.892945,
+      "is_approximate": false
+    },
+    "поворот на Смиркино": {
+      "x": 43.586747,
+      "y": 56.92648,
+      "is_approximate": false
+    },
+    "д Беляево": {
+      "x": 43.537334,
+      "y": 56.900654,
+      "is_approximate": false
+    },
+    "д Аксеново": {
+      "x": 43.502659,
+      "y": 56.889561,
+      "is_approximate": false
+    },
+    "д Смиркино": {
+      "x": 43.57844,
+      "y": 56.9274,
+      "is_approximate": false
+    },
+    "поворот Шадрино": {
+      "x": 43.654159,
+      "y": 56.89674,
+      "is_approximate": false
+    },
+    "д Шадрино": {
+      "x": 43.684567,
+      "y": 56.896621,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T19:25:29.924933"
+}

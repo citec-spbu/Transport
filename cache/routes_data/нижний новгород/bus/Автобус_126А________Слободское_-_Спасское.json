@@ -1,0 +1,490 @@
+{
+  "routeNumber": "Автобус 126А        Слободское - Спасское",
+  "routeUrl": "/nnov/bus/126a",
+  "nodes": {
+    "Слободское": {
+      "name": "Слободское",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.066567,
+      "yCoordinate": 56.61648,
+      "isCoordinateApproximate": false
+    },
+    "Больница": {
+      "name": "Больница",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.084868,
+      "yCoordinate": 56.615536,
+      "isCoordinateApproximate": false
+    },
+    "Дрюково": {
+      "name": "Дрюково",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.094411,
+      "yCoordinate": 56.655361,
+      "isCoordinateApproximate": false
+    },
+    "Николино": {
+      "name": "Николино",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.018894,
+      "yCoordinate": 56.758546,
+      "isCoordinateApproximate": false
+    },
+    "Церковь": {
+      "name": "Церковь",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.026401,
+      "yCoordinate": 56.763841,
+      "isCoordinateApproximate": false
+    },
+    "Бузуйки": {
+      "name": "Бузуйки",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.02624,
+      "yCoordinate": 56.782738,
+      "isCoordinateApproximate": false
+    },
+    "с Спасское": {
+      "name": "с Спасское",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 43.965754,
+      "yCoordinate": 56.821812,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Кузнечиху": {
+      "name": "поворот на Кузнечиху",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 43.976287,
+      "yCoordinate": 56.810183,
+      "isCoordinateApproximate": false
+    },
+    "Волчиха": {
+      "name": "Волчиха",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 43.985733,
+      "yCoordinate": 56.799329,
+      "isCoordinateApproximate": false
+    },
+    "Филимонцево": {
+      "name": "Филимонцево",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.018054,
+      "yCoordinate": 56.788077,
+      "isCoordinateApproximate": false
+    },
+    "Одинцы": {
+      "name": "Одинцы",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.028035,
+      "yCoordinate": 56.748014,
+      "isCoordinateApproximate": false
+    },
+    "Гусево": {
+      "name": "Гусево",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.034185,
+      "yCoordinate": 56.741023,
+      "isCoordinateApproximate": false
+    },
+    "Коровино": {
+      "name": "Коровино",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.046528,
+      "yCoordinate": 56.728015,
+      "isCoordinateApproximate": false
+    },
+    "Кресты": {
+      "name": "Кресты",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.051539,
+      "yCoordinate": 56.724794,
+      "isCoordinateApproximate": false
+    },
+    "Зоренки": {
+      "name": "Зоренки",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.080034,
+      "yCoordinate": 56.702459,
+      "isCoordinateApproximate": false
+    },
+    "Морозово": {
+      "name": "Морозово",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.082344,
+      "yCoordinate": 56.682632,
+      "isCoordinateApproximate": false
+    },
+    "Каплино": {
+      "name": "Каплино",
+      "routeList": [
+        "Автобус 126А        Слободское - Спасское"
+      ],
+      "xCoordinate": 44.087428,
+      "yCoordinate": 56.670345,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "Слободское",
+      "endStop": "Больница",
+      "name": "Слободское -> Больница; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 2
+    },
+    {
+      "startStop": "Больница",
+      "endStop": "Дрюково",
+      "name": "Больница -> Дрюково; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 10
+    },
+    {
+      "startStop": "Дрюково",
+      "endStop": "Николино",
+      "name": "Дрюково -> Николино; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 21
+    },
+    {
+      "startStop": "Николино",
+      "endStop": "Церковь",
+      "name": "Николино -> Церковь; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 2
+    },
+    {
+      "startStop": "Церковь",
+      "endStop": "Бузуйки",
+      "name": "Церковь -> Бузуйки; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 3
+    },
+    {
+      "startStop": "Бузуйки",
+      "endStop": "с Спасское",
+      "name": "Бузуйки -> с Спасское; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 12
+    },
+    {
+      "startStop": "с Спасское",
+      "endStop": "поворот на Кузнечиху",
+      "name": "с Спасское -> поворот на Кузнечиху; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 3
+    },
+    {
+      "startStop": "поворот на Кузнечиху",
+      "endStop": "Волчиха",
+      "name": "поворот на Кузнечиху -> Волчиха; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 2
+    },
+    {
+      "startStop": "Волчиха",
+      "endStop": "Филимонцево",
+      "name": "Волчиха -> Филимонцево; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 4
+    },
+    {
+      "startStop": "Филимонцево",
+      "endStop": "Церковь",
+      "name": "Филимонцево -> Церковь; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 5
+    },
+    {
+      "startStop": "Церковь",
+      "endStop": "Николино",
+      "name": "Церковь -> Николино; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 2
+    },
+    {
+      "startStop": "Николино",
+      "endStop": "Одинцы",
+      "name": "Николино -> Одинцы; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 2
+    },
+    {
+      "startStop": "Одинцы",
+      "endStop": "Гусево",
+      "name": "Одинцы -> Гусево; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 1
+    },
+    {
+      "startStop": "Гусево",
+      "endStop": "Коровино",
+      "name": "Гусево -> Коровино; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 3
+    },
+    {
+      "startStop": "Коровино",
+      "endStop": "Кресты",
+      "name": "Коровино -> Кресты; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 1
+    },
+    {
+      "startStop": "Кресты",
+      "endStop": "Зоренки",
+      "name": "Кресты -> Зоренки; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 5
+    },
+    {
+      "startStop": "Зоренки",
+      "endStop": "Морозово",
+      "name": "Зоренки -> Морозово; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 4
+    },
+    {
+      "startStop": "Морозово",
+      "endStop": "Каплино",
+      "name": "Морозово -> Каплино; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 2
+    },
+    {
+      "startStop": "Каплино",
+      "endStop": "Дрюково",
+      "name": "Каплино -> Дрюково; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 3
+    },
+    {
+      "startStop": "Дрюково",
+      "endStop": "Больница",
+      "name": "Дрюково -> Больница; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 10
+    },
+    {
+      "startStop": "Больница",
+      "endStop": "Слободское",
+      "name": "Больница -> Слободское; route_name: Автобус 126А        Слободское - Спасское",
+      "route": "Автобус 126А        Слободское - Спасское",
+      "duration": 3
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "Слободское",
+      "timePoint": "04:30"
+    },
+    {
+      "stopName": "Больница",
+      "timePoint": "04:32"
+    },
+    {
+      "stopName": "Дрюково",
+      "timePoint": "04:42"
+    },
+    {
+      "stopName": "Николино",
+      "timePoint": "05:03"
+    },
+    {
+      "stopName": "Церковь",
+      "timePoint": "05:05"
+    },
+    {
+      "stopName": "Бузуйки",
+      "timePoint": "05:08"
+    },
+    {
+      "stopName": "с Спасское",
+      "timePoint": "05:20"
+    },
+    {
+      "stopName": "с Спасское",
+      "timePoint": "07:55"
+    },
+    {
+      "stopName": "поворот на Кузнечиху",
+      "timePoint": "07:58"
+    },
+    {
+      "stopName": "Волчиха",
+      "timePoint": "08:00"
+    },
+    {
+      "stopName": "Филимонцево",
+      "timePoint": "08:04"
+    },
+    {
+      "stopName": "Церковь",
+      "timePoint": "08:09"
+    },
+    {
+      "stopName": "Николино",
+      "timePoint": "08:11"
+    },
+    {
+      "stopName": "Одинцы",
+      "timePoint": "08:13"
+    },
+    {
+      "stopName": "Гусево",
+      "timePoint": "08:14"
+    },
+    {
+      "stopName": "Коровино",
+      "timePoint": "08:17"
+    },
+    {
+      "stopName": "Кресты",
+      "timePoint": "08:18"
+    },
+    {
+      "stopName": "Зоренки",
+      "timePoint": "08:23"
+    },
+    {
+      "stopName": "Морозово",
+      "timePoint": "08:27"
+    },
+    {
+      "stopName": "Каплино",
+      "timePoint": "08:29"
+    },
+    {
+      "stopName": "Дрюково",
+      "timePoint": "08:32"
+    },
+    {
+      "stopName": "Больница",
+      "timePoint": "08:42"
+    },
+    {
+      "stopName": "Слободское",
+      "timePoint": "08:45"
+    }
+  ],
+  "coordinates": {
+    "Слободское": {
+      "x": 44.066567,
+      "y": 56.61648,
+      "is_approximate": false
+    },
+    "Больница": {
+      "x": 44.084868,
+      "y": 56.615536,
+      "is_approximate": false
+    },
+    "Дрюково": {
+      "x": 44.094411,
+      "y": 56.655361,
+      "is_approximate": false
+    },
+    "Николино": {
+      "x": 44.018894,
+      "y": 56.758546,
+      "is_approximate": false
+    },
+    "Церковь": {
+      "x": 44.026401,
+      "y": 56.763841,
+      "is_approximate": false
+    },
+    "Бузуйки": {
+      "x": 44.02624,
+      "y": 56.782738,
+      "is_approximate": false
+    },
+    "с Спасское": {
+      "x": 43.965754,
+      "y": 56.821812,
+      "is_approximate": false
+    },
+    "поворот на Кузнечиху": {
+      "x": 43.976287,
+      "y": 56.810183,
+      "is_approximate": false
+    },
+    "Волчиха": {
+      "x": 43.985733,
+      "y": 56.799329,
+      "is_approximate": false
+    },
+    "Филимонцево": {
+      "x": 44.018054,
+      "y": 56.788077,
+      "is_approximate": false
+    },
+    "Одинцы": {
+      "x": 44.028035,
+      "y": 56.748014,
+      "is_approximate": false
+    },
+    "Гусево": {
+      "x": 44.034185,
+      "y": 56.741023,
+      "is_approximate": false
+    },
+    "Коровино": {
+      "x": 44.046528,
+      "y": 56.728015,
+      "is_approximate": false
+    },
+    "Кресты": {
+      "x": 44.051539,
+      "y": 56.724794,
+      "is_approximate": false
+    },
+    "Зоренки": {
+      "x": 44.080034,
+      "y": 56.702459,
+      "is_approximate": false
+    },
+    "Морозово": {
+      "x": 44.082344,
+      "y": 56.682632,
+      "is_approximate": false
+    },
+    "Каплино": {
+      "x": 44.087428,
+      "y": 56.670345,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T19:31:46.509680"
+}

@@ -1,0 +1,2359 @@
+{
+  "routeNumber": "Автобус 5        ЦУМ - ул. Халитова",
+  "routeUrl": "/kzn/bus/5",
+  "nodes": {
+    "ЦУМ 2": {
+      "name": "ЦУМ 2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.099349,
+      "yCoordinate": 55.792709,
+      "isCoordinateApproximate": false
+    },
+    "ЦУМ-1": {
+      "name": "ЦУМ-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.102763,
+      "yCoordinate": 55.792928,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чернышевского-2": {
+      "name": "ул. Чернышевского-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.106446,
+      "yCoordinate": 55.789991,
+      "isCoordinateApproximate": false
+    },
+    "Колхозный рынок-2": {
+      "name": "Колхозный рынок-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.109996,
+      "yCoordinate": 55.787007,
+      "isCoordinateApproximate": false
+    },
+    "Театр им. Г.Камала-2": {
+      "name": "Театр им. Г.Камала-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.114916,
+      "yCoordinate": 55.782457,
+      "isCoordinateApproximate": false
+    },
+    "Юнусовская площадь": {
+      "name": "Юнусовская площадь",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.114386,
+      "yCoordinate": 55.778701,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ахтямова": {
+      "name": "ул. Ахтямова",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.118103,
+      "yCoordinate": 55.774927,
+      "isCoordinateApproximate": false
+    },
+    "ул. С.Сайдашева": {
+      "name": "ул. С.Сайдашева",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.120335,
+      "yCoordinate": 55.772561,
+      "isCoordinateApproximate": false
+    },
+    "площадь Вахитова-3": {
+      "name": "площадь Вахитова-3",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.12794,
+      "yCoordinate": 55.767872,
+      "isCoordinateApproximate": false
+    },
+    "ул. Х.Такташа-1": {
+      "name": "ул. Х.Такташа-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.132899,
+      "yCoordinate": 55.769755,
+      "isCoordinateApproximate": false
+    },
+    "Концертный зал филармонии-1": {
+      "name": "Концертный зал филармонии-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.14032,
+      "yCoordinate": 55.772544,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ипподромная-1": {
+      "name": "ул. Ипподромная-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.145889,
+      "yCoordinate": 55.768115,
+      "isCoordinateApproximate": false
+    },
+    "ул. Халева-1": {
+      "name": "ул. Халева-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.148777,
+      "yCoordinate": 55.76499,
+      "isCoordinateApproximate": false
+    },
+    "Казанская ярмарка-1": {
+      "name": "Казанская ярмарка-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.152688,
+      "yCoordinate": 55.760256,
+      "isCoordinateApproximate": false
+    },
+    "ул. Танковая-1": {
+      "name": "ул. Танковая-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.16135,
+      "yCoordinate": 55.75335,
+      "isCoordinateApproximate": false
+    },
+    "ул. Латышских Стрелков-1": {
+      "name": "ул. Латышских Стрелков-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.16547,
+      "yCoordinate": 55.7521,
+      "isCoordinateApproximate": false
+    },
+    "ул. Комарова-1": {
+      "name": "ул. Комарова-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.170904,
+      "yCoordinate": 55.754189,
+      "isCoordinateApproximate": false
+    },
+    "ул. Карбышева-1": {
+      "name": "ул. Карбышева-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.178971,
+      "yCoordinate": 55.756855,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Горки\"-1": {
+      "name": "Станция метро \"Горки\"-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.188105,
+      "yCoordinate": 55.759435,
+      "isCoordinateApproximate": false
+    },
+    "ул. Х.Мавлютова": {
+      "name": "ул. Х.Мавлютова",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.18856,
+      "yCoordinate": 55.75403,
+      "isCoordinateApproximate": false
+    },
+    "Медицинский колледж": {
+      "name": "Медицинский колледж",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.189498,
+      "yCoordinate": 55.749596,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Парина": {
+      "name": "ул. Академика Парина",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.190409,
+      "yCoordinate": 55.746224,
+      "isCoordinateApproximate": false
+    },
+    "Деревня Универсиады-2": {
+      "name": "Деревня Универсиады-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.193448,
+      "yCoordinate": 55.741426,
+      "isCoordinateApproximate": false
+    },
+    "ул. Сыртлановой-1": {
+      "name": "ул. Сыртлановой-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.200579,
+      "yCoordinate": 55.745303,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Проспект Победы\"-2": {
+      "name": "Станция метро \"Проспект Победы\"-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.209382,
+      "yCoordinate": 55.749388,
+      "isCoordinateApproximate": false
+    },
+    "Проспект Победы-1": {
+      "name": "Проспект Победы-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.212113,
+      "yCoordinate": 55.74779,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ю.Фучика": {
+      "name": "ул. Ю.Фучика",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.218238,
+      "yCoordinate": 55.745571,
+      "isCoordinateApproximate": false
+    },
+    "ул. Генерала Сафиуллина": {
+      "name": "ул. Генерала Сафиуллина",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.224726,
+      "yCoordinate": 55.749079,
+      "isCoordinateApproximate": false
+    },
+    "ул. Кул Гали": {
+      "name": "ул. Кул Гали",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.229333,
+      "yCoordinate": 55.751595,
+      "isCoordinateApproximate": false
+    },
+    "10-й микрорайон": {
+      "name": "10-й микрорайон",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231775,
+      "yCoordinate": 55.755001,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Завойского": {
+      "name": "ул. Академика Завойского",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231587,
+      "yCoordinate": 55.757194,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чишмяле": {
+      "name": "ул. Чишмяле",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231697,
+      "yCoordinate": 55.76343,
+      "isCoordinateApproximate": false
+    },
+    "Школа №125": {
+      "name": "Школа №125",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231868,
+      "yCoordinate": 55.769459,
+      "isCoordinateApproximate": false
+    },
+    "ул. Минская": {
+      "name": "ул. Минская",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231807,
+      "yCoordinate": 55.771802,
+      "isCoordinateApproximate": false
+    },
+    "Кабельное телевидение": {
+      "name": "Кабельное телевидение",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.232224,
+      "yCoordinate": 55.776674,
+      "isCoordinateApproximate": false
+    },
+    "ул. Вагапова": {
+      "name": "ул. Вагапова",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.230251,
+      "yCoordinate": 55.779897,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Сахарова": {
+      "name": "ул. Академика Сахарова",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.224182,
+      "yCoordinate": 55.782758,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Глушко": {
+      "name": "ул. Академика Глушко",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.219921,
+      "yCoordinate": 55.788328,
+      "isCoordinateApproximate": false
+    },
+    "Агропромышленный парк \"Казань\"-2": {
+      "name": "Агропромышленный парк \"Казань\"-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.219924,
+      "yCoordinate": 55.791785,
+      "isCoordinateApproximate": false
+    },
+    "Автовокзал \"Восточный\"-1": {
+      "name": "Автовокзал \"Восточный\"-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.206029,
+      "yCoordinate": 55.794667,
+      "isCoordinateApproximate": false
+    },
+    "ул. Аграрная-1": {
+      "name": "ул. Аграрная-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.202144,
+      "yCoordinate": 55.794988,
+      "isCoordinateApproximate": false
+    },
+    "ул. Космонавтов-1": {
+      "name": "ул. Космонавтов-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.191906,
+      "yCoordinate": 55.79852,
+      "isCoordinateApproximate": false
+    },
+    "Кафе \"Полет\"-3": {
+      "name": "Кафе \"Полет\"-3",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.187484,
+      "yCoordinate": 55.801508,
+      "isCoordinateApproximate": false
+    },
+    "ул. Пионерская-1": {
+      "name": "ул. Пионерская-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.18441,
+      "yCoordinate": 55.806002,
+      "isCoordinateApproximate": false
+    },
+    "ул. А.Попова-1": {
+      "name": "ул. А.Попова-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.182557,
+      "yCoordinate": 55.809877,
+      "isCoordinateApproximate": false
+    },
+    "Архив Казани-1": {
+      "name": "Архив Казани-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.181376,
+      "yCoordinate": 55.812357,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Арбузова-2": {
+      "name": "ул. Академика Арбузова-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.182413,
+      "yCoordinate": 55.817968,
+      "isCoordinateApproximate": false
+    },
+    "ул. Халитова-2": {
+      "name": "ул. Халитова-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.182501,
+      "yCoordinate": 55.820376,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Арбузова-4": {
+      "name": "ул. Академика Арбузова-4",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.179788,
+      "yCoordinate": 55.814327,
+      "isCoordinateApproximate": false
+    },
+    "Архив Казани": {
+      "name": "Архив Казани",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.181128,
+      "yCoordinate": 55.811509,
+      "isCoordinateApproximate": false
+    },
+    "ул. А.Попова": {
+      "name": "ул. А.Попова",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.182236,
+      "yCoordinate": 55.809078,
+      "isCoordinateApproximate": false
+    },
+    "ул. Пионерская": {
+      "name": "ул. Пионерская",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.184093,
+      "yCoordinate": 55.805315,
+      "isCoordinateApproximate": false
+    },
+    "Кафе \"Полет\"-2": {
+      "name": "Кафе \"Полет\"-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.186851,
+      "yCoordinate": 55.801635,
+      "isCoordinateApproximate": false
+    },
+    "ул. Космонавтов": {
+      "name": "ул. Космонавтов",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.193272,
+      "yCoordinate": 55.7971,
+      "isCoordinateApproximate": false
+    },
+    "ул. Аграрная": {
+      "name": "ул. Аграрная",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.201754,
+      "yCoordinate": 55.794869,
+      "isCoordinateApproximate": false
+    },
+    "Автовокзал \"Восточный\"": {
+      "name": "Автовокзал \"Восточный\"",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.206937,
+      "yCoordinate": 55.794745,
+      "isCoordinateApproximate": false
+    },
+    "Агропромышленный парк \"Казань\"-3": {
+      "name": "Агропромышленный парк \"Казань\"-3",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.219095,
+      "yCoordinate": 55.791586,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Глушко-1": {
+      "name": "ул. Академика Глушко-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.218796,
+      "yCoordinate": 55.788024,
+      "isCoordinateApproximate": false
+    },
+    "Проспект А.Камалеева-1": {
+      "name": "Проспект А.Камалеева-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.218818,
+      "yCoordinate": 55.781613,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Сахарова-1": {
+      "name": "ул. Академика Сахарова-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.224104,
+      "yCoordinate": 55.782156,
+      "isCoordinateApproximate": false
+    },
+    "ул. Вагапова-1": {
+      "name": "ул. Вагапова-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.229178,
+      "yCoordinate": 55.780241,
+      "isCoordinateApproximate": false
+    },
+    "Кабельное телевидение-1": {
+      "name": "Кабельное телевидение-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231506,
+      "yCoordinate": 55.775736,
+      "isCoordinateApproximate": false
+    },
+    "ул. Минская-1": {
+      "name": "ул. Минская-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.23144,
+      "yCoordinate": 55.77198,
+      "isCoordinateApproximate": false
+    },
+    "Школа №125-1": {
+      "name": "Школа №125-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231408,
+      "yCoordinate": 55.769426,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ломжинская-1": {
+      "name": "ул. Ломжинская-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231196,
+      "yCoordinate": 55.765669,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чишмяле-1": {
+      "name": "ул. Чишмяле-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.231392,
+      "yCoordinate": 55.761884,
+      "isCoordinateApproximate": false
+    },
+    "10-й микрорайон-1": {
+      "name": "10-й микрорайон-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.230995,
+      "yCoordinate": 55.754228,
+      "isCoordinateApproximate": false
+    },
+    "ул. Кул Гали-1": {
+      "name": "ул. Кул Гали-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.228163,
+      "yCoordinate": 55.751197,
+      "isCoordinateApproximate": false
+    },
+    "ул. Генерала Сафиуллина-1": {
+      "name": "ул. Генерала Сафиуллина-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.224017,
+      "yCoordinate": 55.749068,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ю.Фучика-1": {
+      "name": "ул. Ю.Фучика-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.217787,
+      "yCoordinate": 55.745685,
+      "isCoordinateApproximate": false
+    },
+    "Проспект Победы": {
+      "name": "Проспект Победы",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.212832,
+      "yCoordinate": 55.748153,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Проспект Победы\"": {
+      "name": "Станция метро \"Проспект Победы\"",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.207524,
+      "yCoordinate": 55.749783,
+      "isCoordinateApproximate": false
+    },
+    "ул. Сыртлановой": {
+      "name": "ул. Сыртлановой",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.19915,
+      "yCoordinate": 55.745096,
+      "isCoordinateApproximate": false
+    },
+    "Деревня Универсиады-1": {
+      "name": "Деревня Универсиады-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.192403,
+      "yCoordinate": 55.741962,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Парина-1": {
+      "name": "ул. Академика Парина-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.190882,
+      "yCoordinate": 55.745709,
+      "isCoordinateApproximate": false
+    },
+    "Медицинский колледж-1": {
+      "name": "Медицинский колледж-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.189943,
+      "yCoordinate": 55.749156,
+      "isCoordinateApproximate": false
+    },
+    "ул. Х.Мавлютова-1": {
+      "name": "ул. Х.Мавлютова-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.189495,
+      "yCoordinate": 55.753952,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Горки\"-2": {
+      "name": "Станция метро \"Горки\"-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.189035,
+      "yCoordinate": 55.759318,
+      "isCoordinateApproximate": false
+    },
+    "ул. Карбышева": {
+      "name": "ул. Карбышева",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.178154,
+      "yCoordinate": 55.757278,
+      "isCoordinateApproximate": false
+    },
+    "ул. Комарова": {
+      "name": "ул. Комарова",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.170819,
+      "yCoordinate": 55.754773,
+      "isCoordinateApproximate": false
+    },
+    "ул. Латышских Стрелков": {
+      "name": "ул. Латышских Стрелков",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.166116,
+      "yCoordinate": 55.752863,
+      "isCoordinateApproximate": false
+    },
+    "ул. Танковая": {
+      "name": "ул. Танковая",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.161699,
+      "yCoordinate": 55.75344,
+      "isCoordinateApproximate": false
+    },
+    "Казанская ярмарка": {
+      "name": "Казанская ярмарка",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.1532,
+      "yCoordinate": 55.760579,
+      "isCoordinateApproximate": false
+    },
+    "ул. Халева": {
+      "name": "ул. Халева",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.149301,
+      "yCoordinate": 55.764962,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ипподромная": {
+      "name": "ул. Ипподромная",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.146133,
+      "yCoordinate": 55.768459,
+      "isCoordinateApproximate": false
+    },
+    "Концертный зал филармонии": {
+      "name": "Концертный зал филармонии",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.141965,
+      "yCoordinate": 55.772207,
+      "isCoordinateApproximate": false
+    },
+    "ул. Павлюхина-1": {
+      "name": "ул. Павлюхина-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.138663,
+      "yCoordinate": 55.77299,
+      "isCoordinateApproximate": false
+    },
+    "ул. Х.Такташа": {
+      "name": "ул. Х.Такташа",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.132527,
+      "yCoordinate": 55.769898,
+      "isCoordinateApproximate": false
+    },
+    "площадь Вахитова-2": {
+      "name": "площадь Вахитова-2",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.127376,
+      "yCoordinate": 55.768099,
+      "isCoordinateApproximate": false
+    },
+    "ул. С.Сайдашева-1": {
+      "name": "ул. С.Сайдашева-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.120631,
+      "yCoordinate": 55.772598,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ахтямова-1": {
+      "name": "ул. Ахтямова-1",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.118293,
+      "yCoordinate": 55.775068,
+      "isCoordinateApproximate": false
+    },
+    "ул. Г.Тукая-3": {
+      "name": "ул. Г.Тукая-3",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.113538,
+      "yCoordinate": 55.780703,
+      "isCoordinateApproximate": false
+    },
+    "Колхозный рынок": {
+      "name": "Колхозный рынок",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.110448,
+      "yCoordinate": 55.786916,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чернышевского-3": {
+      "name": "ул. Чернышевского-3",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.107199,
+      "yCoordinate": 55.789726,
+      "isCoordinateApproximate": false
+    },
+    "ул. С.Саид-Галиева": {
+      "name": "ул. С.Саид-Галиева",
+      "routeList": [
+        "Автобус 5        ЦУМ - ул. Халитова"
+      ],
+      "xCoordinate": 49.099906,
+      "yCoordinate": 55.790881,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "ЦУМ 2",
+      "endStop": "ЦУМ-1",
+      "name": "ЦУМ 2 -> ЦУМ-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 3
+    },
+    {
+      "startStop": "ЦУМ-1",
+      "endStop": "ул. Чернышевского-2",
+      "name": "ЦУМ-1 -> ул. Чернышевского-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Чернышевского-2",
+      "endStop": "Колхозный рынок-2",
+      "name": "ул. Чернышевского-2 -> Колхозный рынок-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 3
+    },
+    {
+      "startStop": "Колхозный рынок-2",
+      "endStop": "Театр им. Г.Камала-2",
+      "name": "Колхозный рынок-2 -> Театр им. Г.Камала-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 7
+    },
+    {
+      "startStop": "Театр им. Г.Камала-2",
+      "endStop": "Юнусовская площадь",
+      "name": "Театр им. Г.Камала-2 -> Юнусовская площадь; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Юнусовская площадь",
+      "endStop": "ул. Ахтямова",
+      "name": "Юнусовская площадь -> ул. Ахтямова; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Ахтямова",
+      "endStop": "ул. С.Сайдашева",
+      "name": "ул. Ахтямова -> ул. С.Сайдашева; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. С.Сайдашева",
+      "endStop": "площадь Вахитова-3",
+      "name": "ул. С.Сайдашева -> площадь Вахитова-3; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "площадь Вахитова-3",
+      "endStop": "ул. Х.Такташа-1",
+      "name": "площадь Вахитова-3 -> ул. Х.Такташа-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Х.Такташа-1",
+      "endStop": "Концертный зал филармонии-1",
+      "name": "ул. Х.Такташа-1 -> Концертный зал филармонии-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Концертный зал филармонии-1",
+      "endStop": "ул. Ипподромная-1",
+      "name": "Концертный зал филармонии-1 -> ул. Ипподромная-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Ипподромная-1",
+      "endStop": "ул. Халева-1",
+      "name": "ул. Ипподромная-1 -> ул. Халева-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Халева-1",
+      "endStop": "Казанская ярмарка-1",
+      "name": "ул. Халева-1 -> Казанская ярмарка-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Казанская ярмарка-1",
+      "endStop": "ул. Танковая-1",
+      "name": "Казанская ярмарка-1 -> ул. Танковая-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Танковая-1",
+      "endStop": "ул. Латышских Стрелков-1",
+      "name": "ул. Танковая-1 -> ул. Латышских Стрелков-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Латышских Стрелков-1",
+      "endStop": "ул. Комарова-1",
+      "name": "ул. Латышских Стрелков-1 -> ул. Комарова-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Комарова-1",
+      "endStop": "ул. Карбышева-1",
+      "name": "ул. Комарова-1 -> ул. Карбышева-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Карбышева-1",
+      "endStop": "Станция метро \"Горки\"-1",
+      "name": "ул. Карбышева-1 -> Станция метро \"Горки\"-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Станция метро \"Горки\"-1",
+      "endStop": "ул. Х.Мавлютова",
+      "name": "Станция метро \"Горки\"-1 -> ул. Х.Мавлютова; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Х.Мавлютова",
+      "endStop": "Медицинский колледж",
+      "name": "ул. Х.Мавлютова -> Медицинский колледж; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Медицинский колледж",
+      "endStop": "ул. Академика Парина",
+      "name": "Медицинский колледж -> ул. Академика Парина; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Парина",
+      "endStop": "Деревня Универсиады-2",
+      "name": "ул. Академика Парина -> Деревня Универсиады-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Деревня Универсиады-2",
+      "endStop": "ул. Сыртлановой-1",
+      "name": "Деревня Универсиады-2 -> ул. Сыртлановой-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Сыртлановой-1",
+      "endStop": "Станция метро \"Проспект Победы\"-2",
+      "name": "ул. Сыртлановой-1 -> Станция метро \"Проспект Победы\"-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Станция метро \"Проспект Победы\"-2",
+      "endStop": "Проспект Победы-1",
+      "name": "Станция метро \"Проспект Победы\"-2 -> Проспект Победы-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Проспект Победы-1",
+      "endStop": "ул. Ю.Фучика",
+      "name": "Проспект Победы-1 -> ул. Ю.Фучика; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Ю.Фучика",
+      "endStop": "ул. Генерала Сафиуллина",
+      "name": "ул. Ю.Фучика -> ул. Генерала Сафиуллина; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Генерала Сафиуллина",
+      "endStop": "ул. Кул Гали",
+      "name": "ул. Генерала Сафиуллина -> ул. Кул Гали; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Кул Гали",
+      "endStop": "10-й микрорайон",
+      "name": "ул. Кул Гали -> 10-й микрорайон; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "10-й микрорайон",
+      "endStop": "ул. Академика Завойского",
+      "name": "10-й микрорайон -> ул. Академика Завойского; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Академика Завойского",
+      "endStop": "ул. Чишмяле",
+      "name": "ул. Академика Завойского -> ул. Чишмяле; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Чишмяле",
+      "endStop": "Школа №125",
+      "name": "ул. Чишмяле -> Школа №125; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №125",
+      "endStop": "ул. Минская",
+      "name": "Школа №125 -> ул. Минская; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Минская",
+      "endStop": "Кабельное телевидение",
+      "name": "ул. Минская -> Кабельное телевидение; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Кабельное телевидение",
+      "endStop": "ул. Вагапова",
+      "name": "Кабельное телевидение -> ул. Вагапова; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 4
+    },
+    {
+      "startStop": "ул. Вагапова",
+      "endStop": "ул. Академика Сахарова",
+      "name": "ул. Вагапова -> ул. Академика Сахарова; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Сахарова",
+      "endStop": "ул. Академика Глушко",
+      "name": "ул. Академика Сахарова -> ул. Академика Глушко; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Академика Глушко",
+      "endStop": "Агропромышленный парк \"Казань\"-2",
+      "name": "ул. Академика Глушко -> Агропромышленный парк \"Казань\"-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Агропромышленный парк \"Казань\"-2",
+      "endStop": "Автовокзал \"Восточный\"-1",
+      "name": "Агропромышленный парк \"Казань\"-2 -> Автовокзал \"Восточный\"-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Автовокзал \"Восточный\"-1",
+      "endStop": "ул. Аграрная-1",
+      "name": "Автовокзал \"Восточный\"-1 -> ул. Аграрная-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Аграрная-1",
+      "endStop": "ул. Космонавтов-1",
+      "name": "ул. Аграрная-1 -> ул. Космонавтов-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Космонавтов-1",
+      "endStop": "Кафе \"Полет\"-3",
+      "name": "ул. Космонавтов-1 -> Кафе \"Полет\"-3; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. А.Попова-1",
+      "endStop": "Архив Казани-1",
+      "name": "ул. А.Попова-1 -> Архив Казани-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Халитова-2",
+      "endStop": "ул. Академика Арбузова-4",
+      "name": "ул. Халитова-2 -> ул. Академика Арбузова-4; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Академика Арбузова-4",
+      "endStop": "Архив Казани",
+      "name": "ул. Академика Арбузова-4 -> Архив Казани; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Архив Казани",
+      "endStop": "ул. А.Попова",
+      "name": "Архив Казани -> ул. А.Попова; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. А.Попова",
+      "endStop": "ул. Пионерская",
+      "name": "ул. А.Попова -> ул. Пионерская; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Пионерская",
+      "endStop": "Кафе \"Полет\"-2",
+      "name": "ул. Пионерская -> Кафе \"Полет\"-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Кафе \"Полет\"-2",
+      "endStop": "ул. Космонавтов",
+      "name": "Кафе \"Полет\"-2 -> ул. Космонавтов; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Космонавтов",
+      "endStop": "ул. Аграрная",
+      "name": "ул. Космонавтов -> ул. Аграрная; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Аграрная",
+      "endStop": "Автовокзал \"Восточный\"",
+      "name": "ул. Аграрная -> Автовокзал \"Восточный\"; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 3
+    },
+    {
+      "startStop": "Автовокзал \"Восточный\"",
+      "endStop": "Агропромышленный парк \"Казань\"-3",
+      "name": "Автовокзал \"Восточный\" -> Агропромышленный парк \"Казань\"-3; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Агропромышленный парк \"Казань\"-3",
+      "endStop": "ул. Академика Глушко-1",
+      "name": "Агропромышленный парк \"Казань\"-3 -> ул. Академика Глушко-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Академика Глушко-1",
+      "endStop": "Проспект А.Камалеева-1",
+      "name": "ул. Академика Глушко-1 -> Проспект А.Камалеева-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Проспект А.Камалеева-1",
+      "endStop": "ул. Академика Сахарова-1",
+      "name": "Проспект А.Камалеева-1 -> ул. Академика Сахарова-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Сахарова-1",
+      "endStop": "ул. Вагапова-1",
+      "name": "ул. Академика Сахарова-1 -> ул. Вагапова-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Вагапова-1",
+      "endStop": "Кабельное телевидение-1",
+      "name": "ул. Вагапова-1 -> Кабельное телевидение-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Кабельное телевидение-1",
+      "endStop": "ул. Минская-1",
+      "name": "Кабельное телевидение-1 -> ул. Минская-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Минская-1",
+      "endStop": "Школа №125-1",
+      "name": "ул. Минская-1 -> Школа №125-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №125-1",
+      "endStop": "ул. Ломжинская-1",
+      "name": "Школа №125-1 -> ул. Ломжинская-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Ломжинская-1",
+      "endStop": "ул. Чишмяле-1",
+      "name": "ул. Ломжинская-1 -> ул. Чишмяле-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Чишмяле-1",
+      "endStop": "10-й микрорайон-1",
+      "name": "ул. Чишмяле-1 -> 10-й микрорайон-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "10-й микрорайон-1",
+      "endStop": "ул. Кул Гали-1",
+      "name": "10-й микрорайон-1 -> ул. Кул Гали-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Кул Гали-1",
+      "endStop": "ул. Генерала Сафиуллина-1",
+      "name": "ул. Кул Гали-1 -> ул. Генерала Сафиуллина-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Генерала Сафиуллина-1",
+      "endStop": "ул. Ю.Фучика-1",
+      "name": "ул. Генерала Сафиуллина-1 -> ул. Ю.Фучика-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Ю.Фучика-1",
+      "endStop": "Проспект Победы",
+      "name": "ул. Ю.Фучика-1 -> Проспект Победы; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Проспект Победы",
+      "endStop": "Станция метро \"Проспект Победы\"",
+      "name": "Проспект Победы -> Станция метро \"Проспект Победы\"; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 4
+    },
+    {
+      "startStop": "Станция метро \"Проспект Победы\"",
+      "endStop": "ул. Сыртлановой",
+      "name": "Станция метро \"Проспект Победы\" -> ул. Сыртлановой; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Сыртлановой",
+      "endStop": "Деревня Универсиады-1",
+      "name": "ул. Сыртлановой -> Деревня Универсиады-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Деревня Универсиады-1",
+      "endStop": "ул. Академика Парина-1",
+      "name": "Деревня Универсиады-1 -> ул. Академика Парина-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Парина-1",
+      "endStop": "Медицинский колледж-1",
+      "name": "ул. Академика Парина-1 -> Медицинский колледж-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Медицинский колледж-1",
+      "endStop": "ул. Х.Мавлютова-1",
+      "name": "Медицинский колледж-1 -> ул. Х.Мавлютова-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Х.Мавлютова-1",
+      "endStop": "Станция метро \"Горки\"-2",
+      "name": "ул. Х.Мавлютова-1 -> Станция метро \"Горки\"-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Станция метро \"Горки\"-2",
+      "endStop": "ул. Карбышева",
+      "name": "Станция метро \"Горки\"-2 -> ул. Карбышева; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Карбышева",
+      "endStop": "ул. Комарова",
+      "name": "ул. Карбышева -> ул. Комарова; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Комарова",
+      "endStop": "ул. Латышских Стрелков",
+      "name": "ул. Комарова -> ул. Латышских Стрелков; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Латышских Стрелков",
+      "endStop": "ул. Танковая",
+      "name": "ул. Латышских Стрелков -> ул. Танковая; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Танковая",
+      "endStop": "Казанская ярмарка",
+      "name": "ул. Танковая -> Казанская ярмарка; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "Казанская ярмарка",
+      "endStop": "ул. Халева",
+      "name": "Казанская ярмарка -> ул. Халева; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Халева",
+      "endStop": "ул. Ипподромная",
+      "name": "ул. Халева -> ул. Ипподромная; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Ипподромная",
+      "endStop": "Концертный зал филармонии",
+      "name": "ул. Ипподромная -> Концертный зал филармонии; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "Концертный зал филармонии",
+      "endStop": "ул. Павлюхина-1",
+      "name": "Концертный зал филармонии -> ул. Павлюхина-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Павлюхина-1",
+      "endStop": "ул. Х.Такташа",
+      "name": "ул. Павлюхина-1 -> ул. Х.Такташа; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Х.Такташа",
+      "endStop": "площадь Вахитова-2",
+      "name": "ул. Х.Такташа -> площадь Вахитова-2; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "площадь Вахитова-2",
+      "endStop": "ул. С.Сайдашева-1",
+      "name": "площадь Вахитова-2 -> ул. С.Сайдашева-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 6
+    },
+    {
+      "startStop": "ул. С.Сайдашева-1",
+      "endStop": "ул. Ахтямова-1",
+      "name": "ул. С.Сайдашева-1 -> ул. Ахтямова-1; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Ахтямова-1",
+      "endStop": "ул. Г.Тукая-3",
+      "name": "ул. Ахтямова-1 -> ул. Г.Тукая-3; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Г.Тукая-3",
+      "endStop": "Колхозный рынок",
+      "name": "ул. Г.Тукая-3 -> Колхозный рынок; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 3
+    },
+    {
+      "startStop": "Колхозный рынок",
+      "endStop": "ул. Чернышевского-3",
+      "name": "Колхозный рынок -> ул. Чернышевского-3; route_name: Автобус 5        ЦУМ - ул. Халитова",
+      "route": "Автобус 5        ЦУМ - ул. Халитова",
+      "duration": 1
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "ЦУМ 2",
+      "timePoint": "06:18"
+    },
+    {
+      "stopName": "ЦУМ-1",
+      "timePoint": "06:21"
+    },
+    {
+      "stopName": "ул. Чернышевского-2",
+      "timePoint": "06:22"
+    },
+    {
+      "stopName": "Колхозный рынок-2",
+      "timePoint": "06:25"
+    },
+    {
+      "stopName": "Театр им. Г.Камала-2",
+      "timePoint": "06:32"
+    },
+    {
+      "stopName": "Юнусовская площадь",
+      "timePoint": "06:33"
+    },
+    {
+      "stopName": "ул. Ахтямова",
+      "timePoint": "06:35"
+    },
+    {
+      "stopName": "ул. С.Сайдашева",
+      "timePoint": "06:37"
+    },
+    {
+      "stopName": "площадь Вахитова-3",
+      "timePoint": "06:38"
+    },
+    {
+      "stopName": "ул. Х.Такташа-1",
+      "timePoint": "06:39"
+    },
+    {
+      "stopName": "Концертный зал филармонии-1",
+      "timePoint": "06:41"
+    },
+    {
+      "stopName": "ул. Ипподромная-1",
+      "timePoint": "06:42"
+    },
+    {
+      "stopName": "ул. Халева-1",
+      "timePoint": "06:43"
+    },
+    {
+      "stopName": "Казанская ярмарка-1",
+      "timePoint": "06:45"
+    },
+    {
+      "stopName": "ул. Танковая-1",
+      "timePoint": "06:47"
+    },
+    {
+      "stopName": "ул. Латышских Стрелков-1",
+      "timePoint": "06:49"
+    },
+    {
+      "stopName": "ул. Комарова-1",
+      "timePoint": "06:50"
+    },
+    {
+      "stopName": "ул. Карбышева-1",
+      "timePoint": "06:51"
+    },
+    {
+      "stopName": "Станция метро \"Горки\"-1",
+      "timePoint": "06:53"
+    },
+    {
+      "stopName": "ул. Х.Мавлютова",
+      "timePoint": "06:55"
+    },
+    {
+      "stopName": "Медицинский колледж",
+      "timePoint": "06:57"
+    },
+    {
+      "stopName": "ул. Академика Парина",
+      "timePoint": "06:58"
+    },
+    {
+      "stopName": "Деревня Универсиады-2",
+      "timePoint": "07:00"
+    },
+    {
+      "stopName": "ул. Сыртлановой-1",
+      "timePoint": "07:02"
+    },
+    {
+      "stopName": "Станция метро \"Проспект Победы\"-2",
+      "timePoint": "07:03"
+    },
+    {
+      "stopName": "Проспект Победы-1",
+      "timePoint": "07:05"
+    },
+    {
+      "stopName": "ул. Ю.Фучика",
+      "timePoint": "07:06"
+    },
+    {
+      "stopName": "ул. Генерала Сафиуллина",
+      "timePoint": "07:08"
+    },
+    {
+      "stopName": "ул. Кул Гали",
+      "timePoint": "07:10"
+    },
+    {
+      "stopName": "10-й микрорайон",
+      "timePoint": "07:11"
+    },
+    {
+      "stopName": "ул. Академика Завойского",
+      "timePoint": "07:13"
+    },
+    {
+      "stopName": "ул. Чишмяле",
+      "timePoint": "07:14"
+    },
+    {
+      "stopName": "Школа №125",
+      "timePoint": "07:15"
+    },
+    {
+      "stopName": "ул. Минская",
+      "timePoint": "07:17"
+    },
+    {
+      "stopName": "Кабельное телевидение",
+      "timePoint": "07:18"
+    },
+    {
+      "stopName": "ул. Вагапова",
+      "timePoint": "07:22"
+    },
+    {
+      "stopName": "ул. Академика Сахарова",
+      "timePoint": "07:23"
+    },
+    {
+      "stopName": "ул. Академика Глушко",
+      "timePoint": "07:25"
+    },
+    {
+      "stopName": "Агропромышленный парк \"Казань\"-2",
+      "timePoint": "07:26"
+    },
+    {
+      "stopName": "Автовокзал \"Восточный\"-1",
+      "timePoint": "07:28"
+    },
+    {
+      "stopName": "ул. Аграрная-1",
+      "timePoint": "07:29"
+    },
+    {
+      "stopName": "ул. Космонавтов-1",
+      "timePoint": "07:30"
+    },
+    {
+      "stopName": "Кафе \"Полет\"-3",
+      "timePoint": "07:32"
+    },
+    {
+      "stopName": "ул. Пионерская-1",
+      "timePoint": "07:32"
+    },
+    {
+      "stopName": "ул. А.Попова-1",
+      "timePoint": "07:32"
+    },
+    {
+      "stopName": "Архив Казани-1",
+      "timePoint": "07:33"
+    },
+    {
+      "stopName": "ул. Академика Арбузова-2",
+      "timePoint": "07:33"
+    },
+    {
+      "stopName": "ул. Халитова-2",
+      "timePoint": "07:33"
+    },
+    {
+      "stopName": "ул. Халитова-2",
+      "timePoint": "05:20"
+    },
+    {
+      "stopName": "ул. Академика Арбузова-4",
+      "timePoint": "05:22"
+    },
+    {
+      "stopName": "Архив Казани",
+      "timePoint": "05:23"
+    },
+    {
+      "stopName": "ул. А.Попова",
+      "timePoint": "05:24"
+    },
+    {
+      "stopName": "ул. Пионерская",
+      "timePoint": "05:25"
+    },
+    {
+      "stopName": "Кафе \"Полет\"-2",
+      "timePoint": "05:26"
+    },
+    {
+      "stopName": "ул. Космонавтов",
+      "timePoint": "05:27"
+    },
+    {
+      "stopName": "ул. Аграрная",
+      "timePoint": "05:28"
+    },
+    {
+      "stopName": "Автовокзал \"Восточный\"",
+      "timePoint": "05:31"
+    },
+    {
+      "stopName": "Агропромышленный парк \"Казань\"-3",
+      "timePoint": "05:32"
+    },
+    {
+      "stopName": "ул. Академика Глушко-1",
+      "timePoint": "05:34"
+    },
+    {
+      "stopName": "Проспект А.Камалеева-1",
+      "timePoint": "05:36"
+    },
+    {
+      "stopName": "ул. Академика Сахарова-1",
+      "timePoint": "05:37"
+    },
+    {
+      "stopName": "ул. Вагапова-1",
+      "timePoint": "05:38"
+    },
+    {
+      "stopName": "Кабельное телевидение-1",
+      "timePoint": "05:39"
+    },
+    {
+      "stopName": "ул. Минская-1",
+      "timePoint": "05:40"
+    },
+    {
+      "stopName": "Школа №125-1",
+      "timePoint": "05:41"
+    },
+    {
+      "stopName": "ул. Ломжинская-1",
+      "timePoint": "05:42"
+    },
+    {
+      "stopName": "ул. Чишмяле-1",
+      "timePoint": "05:45"
+    },
+    {
+      "stopName": "10-й микрорайон-1",
+      "timePoint": "05:46"
+    },
+    {
+      "stopName": "ул. Кул Гали-1",
+      "timePoint": "05:47"
+    },
+    {
+      "stopName": "ул. Генерала Сафиуллина-1",
+      "timePoint": "05:48"
+    },
+    {
+      "stopName": "ул. Ю.Фучика-1",
+      "timePoint": "05:50"
+    },
+    {
+      "stopName": "Проспект Победы",
+      "timePoint": "05:52"
+    },
+    {
+      "stopName": "Станция метро \"Проспект Победы\"",
+      "timePoint": "05:56"
+    },
+    {
+      "stopName": "ул. Сыртлановой",
+      "timePoint": "05:58"
+    },
+    {
+      "stopName": "Деревня Универсиады-1",
+      "timePoint": "05:59"
+    },
+    {
+      "stopName": "ул. Академика Парина-1",
+      "timePoint": "06:00"
+    },
+    {
+      "stopName": "Медицинский колледж-1",
+      "timePoint": "06:01"
+    },
+    {
+      "stopName": "ул. Х.Мавлютова-1",
+      "timePoint": "06:02"
+    },
+    {
+      "stopName": "Станция метро \"Горки\"-2",
+      "timePoint": "06:04"
+    },
+    {
+      "stopName": "ул. Карбышева",
+      "timePoint": "06:06"
+    },
+    {
+      "stopName": "ул. Комарова",
+      "timePoint": "06:07"
+    },
+    {
+      "stopName": "ул. Латышских Стрелков",
+      "timePoint": "06:08"
+    },
+    {
+      "stopName": "ул. Танковая",
+      "timePoint": "06:09"
+    },
+    {
+      "stopName": "Казанская ярмарка",
+      "timePoint": "06:11"
+    },
+    {
+      "stopName": "ул. Халева",
+      "timePoint": "06:12"
+    },
+    {
+      "stopName": "ул. Ипподромная",
+      "timePoint": "06:13"
+    },
+    {
+      "stopName": "Концертный зал филармонии",
+      "timePoint": "06:14"
+    },
+    {
+      "stopName": "ул. Павлюхина-1",
+      "timePoint": "06:17"
+    },
+    {
+      "stopName": "ул. Х.Такташа",
+      "timePoint": "06:19"
+    },
+    {
+      "stopName": "площадь Вахитова-2",
+      "timePoint": "06:20"
+    },
+    {
+      "stopName": "ул. С.Сайдашева-1",
+      "timePoint": "06:26"
+    },
+    {
+      "stopName": "ул. Ахтямова-1",
+      "timePoint": "06:28"
+    },
+    {
+      "stopName": "ул. Г.Тукая-3",
+      "timePoint": "06:29"
+    },
+    {
+      "stopName": "Колхозный рынок",
+      "timePoint": "06:32"
+    },
+    {
+      "stopName": "ул. Чернышевского-3",
+      "timePoint": "06:33"
+    },
+    {
+      "stopName": "ул. С.Саид-Галиева",
+      "timePoint": "06:33"
+    },
+    {
+      "stopName": "ЦУМ 2",
+      "timePoint": "06:33"
+    }
+  ],
+  "coordinates": {
+    "ЦУМ 2": {
+      "x": 49.099349,
+      "y": 55.792709,
+      "is_approximate": false
+    },
+    "ЦУМ-1": {
+      "x": 49.102763,
+      "y": 55.792928,
+      "is_approximate": false
+    },
+    "ул. Чернышевского-2": {
+      "x": 49.106446,
+      "y": 55.789991,
+      "is_approximate": false
+    },
+    "Колхозный рынок-2": {
+      "x": 49.109996,
+      "y": 55.787007,
+      "is_approximate": false
+    },
+    "Театр им. Г.Камала-2": {
+      "x": 49.114916,
+      "y": 55.782457,
+      "is_approximate": false
+    },
+    "Юнусовская площадь": {
+      "x": 49.114386,
+      "y": 55.778701,
+      "is_approximate": false
+    },
+    "ул. Ахтямова": {
+      "x": 49.118103,
+      "y": 55.774927,
+      "is_approximate": false
+    },
+    "ул. С.Сайдашева": {
+      "x": 49.120335,
+      "y": 55.772561,
+      "is_approximate": false
+    },
+    "площадь Вахитова-3": {
+      "x": 49.12794,
+      "y": 55.767872,
+      "is_approximate": false
+    },
+    "ул. Х.Такташа-1": {
+      "x": 49.132899,
+      "y": 55.769755,
+      "is_approximate": false
+    },
+    "Концертный зал филармонии-1": {
+      "x": 49.14032,
+      "y": 55.772544,
+      "is_approximate": false
+    },
+    "ул. Ипподромная-1": {
+      "x": 49.145889,
+      "y": 55.768115,
+      "is_approximate": false
+    },
+    "ул. Халева-1": {
+      "x": 49.148777,
+      "y": 55.76499,
+      "is_approximate": false
+    },
+    "Казанская ярмарка-1": {
+      "x": 49.152688,
+      "y": 55.760256,
+      "is_approximate": false
+    },
+    "ул. Танковая-1": {
+      "x": 49.16135,
+      "y": 55.75335,
+      "is_approximate": false
+    },
+    "ул. Латышских Стрелков-1": {
+      "x": 49.16547,
+      "y": 55.7521,
+      "is_approximate": false
+    },
+    "ул. Комарова-1": {
+      "x": 49.170904,
+      "y": 55.754189,
+      "is_approximate": false
+    },
+    "ул. Карбышева-1": {
+      "x": 49.178971,
+      "y": 55.756855,
+      "is_approximate": false
+    },
+    "Станция метро \"Горки\"-1": {
+      "x": 49.188105,
+      "y": 55.759435,
+      "is_approximate": false
+    },
+    "ул. Х.Мавлютова": {
+      "x": 49.18856,
+      "y": 55.75403,
+      "is_approximate": false
+    },
+    "Медицинский колледж": {
+      "x": 49.189498,
+      "y": 55.749596,
+      "is_approximate": false
+    },
+    "ул. Академика Парина": {
+      "x": 49.190409,
+      "y": 55.746224,
+      "is_approximate": false
+    },
+    "Деревня Универсиады-2": {
+      "x": 49.193448,
+      "y": 55.741426,
+      "is_approximate": false
+    },
+    "ул. Сыртлановой-1": {
+      "x": 49.200579,
+      "y": 55.745303,
+      "is_approximate": false
+    },
+    "Станция метро \"Проспект Победы\"-2": {
+      "x": 49.209382,
+      "y": 55.749388,
+      "is_approximate": false
+    },
+    "Проспект Победы-1": {
+      "x": 49.212113,
+      "y": 55.74779,
+      "is_approximate": false
+    },
+    "ул. Ю.Фучика": {
+      "x": 49.218238,
+      "y": 55.745571,
+      "is_approximate": false
+    },
+    "ул. Генерала Сафиуллина": {
+      "x": 49.224726,
+      "y": 55.749079,
+      "is_approximate": false
+    },
+    "ул. Кул Гали": {
+      "x": 49.229333,
+      "y": 55.751595,
+      "is_approximate": false
+    },
+    "10-й микрорайон": {
+      "x": 49.231775,
+      "y": 55.755001,
+      "is_approximate": false
+    },
+    "ул. Академика Завойского": {
+      "x": 49.231587,
+      "y": 55.757194,
+      "is_approximate": false
+    },
+    "ул. Чишмяле": {
+      "x": 49.231697,
+      "y": 55.76343,
+      "is_approximate": false
+    },
+    "Школа №125": {
+      "x": 49.231868,
+      "y": 55.769459,
+      "is_approximate": false
+    },
+    "ул. Минская": {
+      "x": 49.231807,
+      "y": 55.771802,
+      "is_approximate": false
+    },
+    "Кабельное телевидение": {
+      "x": 49.232224,
+      "y": 55.776674,
+      "is_approximate": false
+    },
+    "ул. Вагапова": {
+      "x": 49.230251,
+      "y": 55.779897,
+      "is_approximate": false
+    },
+    "ул. Академика Сахарова": {
+      "x": 49.224182,
+      "y": 55.782758,
+      "is_approximate": false
+    },
+    "ул. Академика Глушко": {
+      "x": 49.219921,
+      "y": 55.788328,
+      "is_approximate": false
+    },
+    "Агропромышленный парк \"Казань\"-2": {
+      "x": 49.219924,
+      "y": 55.791785,
+      "is_approximate": false
+    },
+    "Автовокзал \"Восточный\"-1": {
+      "x": 49.206029,
+      "y": 55.794667,
+      "is_approximate": false
+    },
+    "ул. Аграрная-1": {
+      "x": 49.202144,
+      "y": 55.794988,
+      "is_approximate": false
+    },
+    "ул. Космонавтов-1": {
+      "x": 49.191906,
+      "y": 55.79852,
+      "is_approximate": false
+    },
+    "Кафе \"Полет\"-3": {
+      "x": 49.187484,
+      "y": 55.801508,
+      "is_approximate": false
+    },
+    "ул. Пионерская-1": {
+      "x": 49.18441,
+      "y": 55.806002,
+      "is_approximate": false
+    },
+    "ул. А.Попова-1": {
+      "x": 49.182557,
+      "y": 55.809877,
+      "is_approximate": false
+    },
+    "Архив Казани-1": {
+      "x": 49.181376,
+      "y": 55.812357,
+      "is_approximate": false
+    },
+    "ул. Академика Арбузова-2": {
+      "x": 49.182413,
+      "y": 55.817968,
+      "is_approximate": false
+    },
+    "ул. Халитова-2": {
+      "x": 49.182501,
+      "y": 55.820376,
+      "is_approximate": false
+    },
+    "ул. Академика Арбузова-4": {
+      "x": 49.179788,
+      "y": 55.814327,
+      "is_approximate": false
+    },
+    "Архив Казани": {
+      "x": 49.181128,
+      "y": 55.811509,
+      "is_approximate": false
+    },
+    "ул. А.Попова": {
+      "x": 49.182236,
+      "y": 55.809078,
+      "is_approximate": false
+    },
+    "ул. Пионерская": {
+      "x": 49.184093,
+      "y": 55.805315,
+      "is_approximate": false
+    },
+    "Кафе \"Полет\"-2": {
+      "x": 49.186851,
+      "y": 55.801635,
+      "is_approximate": false
+    },
+    "ул. Космонавтов": {
+      "x": 49.193272,
+      "y": 55.7971,
+      "is_approximate": false
+    },
+    "ул. Аграрная": {
+      "x": 49.201754,
+      "y": 55.794869,
+      "is_approximate": false
+    },
+    "Автовокзал \"Восточный\"": {
+      "x": 49.206937,
+      "y": 55.794745,
+      "is_approximate": false
+    },
+    "Агропромышленный парк \"Казань\"-3": {
+      "x": 49.219095,
+      "y": 55.791586,
+      "is_approximate": false
+    },
+    "ул. Академика Глушко-1": {
+      "x": 49.218796,
+      "y": 55.788024,
+      "is_approximate": false
+    },
+    "Проспект А.Камалеева-1": {
+      "x": 49.218818,
+      "y": 55.781613,
+      "is_approximate": false
+    },
+    "ул. Академика Сахарова-1": {
+      "x": 49.224104,
+      "y": 55.782156,
+      "is_approximate": false
+    },
+    "ул. Вагапова-1": {
+      "x": 49.229178,
+      "y": 55.780241,
+      "is_approximate": false
+    },
+    "Кабельное телевидение-1": {
+      "x": 49.231506,
+      "y": 55.775736,
+      "is_approximate": false
+    },
+    "ул. Минская-1": {
+      "x": 49.23144,
+      "y": 55.77198,
+      "is_approximate": false
+    },
+    "Школа №125-1": {
+      "x": 49.231408,
+      "y": 55.769426,
+      "is_approximate": false
+    },
+    "ул. Ломжинская-1": {
+      "x": 49.231196,
+      "y": 55.765669,
+      "is_approximate": false
+    },
+    "ул. Чишмяле-1": {
+      "x": 49.231392,
+      "y": 55.761884,
+      "is_approximate": false
+    },
+    "10-й микрорайон-1": {
+      "x": 49.230995,
+      "y": 55.754228,
+      "is_approximate": false
+    },
+    "ул. Кул Гали-1": {
+      "x": 49.228163,
+      "y": 55.751197,
+      "is_approximate": false
+    },
+    "ул. Генерала Сафиуллина-1": {
+      "x": 49.224017,
+      "y": 55.749068,
+      "is_approximate": false
+    },
+    "ул. Ю.Фучика-1": {
+      "x": 49.217787,
+      "y": 55.745685,
+      "is_approximate": false
+    },
+    "Проспект Победы": {
+      "x": 49.212832,
+      "y": 55.748153,
+      "is_approximate": false
+    },
+    "Станция метро \"Проспект Победы\"": {
+      "x": 49.207524,
+      "y": 55.749783,
+      "is_approximate": false
+    },
+    "ул. Сыртлановой": {
+      "x": 49.19915,
+      "y": 55.745096,
+      "is_approximate": false
+    },
+    "Деревня Универсиады-1": {
+      "x": 49.192403,
+      "y": 55.741962,
+      "is_approximate": false
+    },
+    "ул. Академика Парина-1": {
+      "x": 49.190882,
+      "y": 55.745709,
+      "is_approximate": false
+    },
+    "Медицинский колледж-1": {
+      "x": 49.189943,
+      "y": 55.749156,
+      "is_approximate": false
+    },
+    "ул. Х.Мавлютова-1": {
+      "x": 49.189495,
+      "y": 55.753952,
+      "is_approximate": false
+    },
+    "Станция метро \"Горки\"-2": {
+      "x": 49.189035,
+      "y": 55.759318,
+      "is_approximate": false
+    },
+    "ул. Карбышева": {
+      "x": 49.178154,
+      "y": 55.757278,
+      "is_approximate": false
+    },
+    "ул. Комарова": {
+      "x": 49.170819,
+      "y": 55.754773,
+      "is_approximate": false
+    },
+    "ул. Латышских Стрелков": {
+      "x": 49.166116,
+      "y": 55.752863,
+      "is_approximate": false
+    },
+    "ул. Танковая": {
+      "x": 49.161699,
+      "y": 55.75344,
+      "is_approximate": false
+    },
+    "Казанская ярмарка": {
+      "x": 49.1532,
+      "y": 55.760579,
+      "is_approximate": false
+    },
+    "ул. Халева": {
+      "x": 49.149301,
+      "y": 55.764962,
+      "is_approximate": false
+    },
+    "ул. Ипподромная": {
+      "x": 49.146133,
+      "y": 55.768459,
+      "is_approximate": false
+    },
+    "Концертный зал филармонии": {
+      "x": 49.141965,
+      "y": 55.772207,
+      "is_approximate": false
+    },
+    "ул. Павлюхина-1": {
+      "x": 49.138663,
+      "y": 55.77299,
+      "is_approximate": false
+    },
+    "ул. Х.Такташа": {
+      "x": 49.132527,
+      "y": 55.769898,
+      "is_approximate": false
+    },
+    "площадь Вахитова-2": {
+      "x": 49.127376,
+      "y": 55.768099,
+      "is_approximate": false
+    },
+    "ул. С.Сайдашева-1": {
+      "x": 49.120631,
+      "y": 55.772598,
+      "is_approximate": false
+    },
+    "ул. Ахтямова-1": {
+      "x": 49.118293,
+      "y": 55.775068,
+      "is_approximate": false
+    },
+    "ул. Г.Тукая-3": {
+      "x": 49.113538,
+      "y": 55.780703,
+      "is_approximate": false
+    },
+    "Колхозный рынок": {
+      "x": 49.110448,
+      "y": 55.786916,
+      "is_approximate": false
+    },
+    "ул. Чернышевского-3": {
+      "x": 49.107199,
+      "y": 55.789726,
+      "is_approximate": false
+    },
+    "ул. Р.Яхина": {
+      "x": 49.102755,
+      "y": 55.790652,
+      "is_approximate": false
+    },
+    "ул. С.Саид-Галиева": {
+      "x": 49.099906,
+      "y": 55.790881,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T17:20:48.201781"
+}
