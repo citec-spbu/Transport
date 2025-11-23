@@ -57,7 +57,7 @@ npm run dev
 ```bash
 GRAPH_DATABASE_URL="neo4j://localhost:7687"
 GRAPH_DATABASE_USER="neo4j"
-GRAPH_DATABASE_PASSWORD="secret"
+GRAPH_DATABASE_PASSWORD="hello123"
 ```
 
 API — основные эндпоинты
@@ -92,4 +92,5 @@ curl -s -X POST "http://127.0.0.1:8050/v1/analysis/cluster" \
 curl -s -X POST "http://127.0.0.1:8050/v1/analysis/metric" \
   -H "Content-Type: application/json" \
   -d '{"dataset_id":"<DATASET_ID>","metric":"pagerank"}' | jq
+
 ```
