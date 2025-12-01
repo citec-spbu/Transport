@@ -1,17 +1,15 @@
 import { useEffect, useState, useRef } from "react";
 import Header from "../components/Header.tsx";
-import MetricToggle from "../components/MetricToggle.tsx";
 import ExportButton from "../components/ExportButton.tsx";
 import StatsCard from "../components/StatsCard.tsx";
 import Heatmap from "../components/Heatmap";
 import HistogramWindow from "../components/HistogramWindow.tsx";
 import { useParamsStore } from "../store/useParamStore";
-
+import CustomSelect from "../components/CustomSelect.tsx";
 export default function Dashboard() {
   const { city, datasetId, datasetCache, metricType, setMetricType } =
     useParamsStore();
 
-  // метрики  для текущего datasetId
   const metrics = datasetId ? datasetCache[datasetId]?.metrics : undefined;
   const currentMetricData = metrics ? metrics[metricType] : undefined;
   const nodes = currentMetricData?.nodes || [];
@@ -71,7 +69,9 @@ export default function Dashboard() {
         return (
           <HistogramWindow
             data={nodes}
-            metricName={metricType === "pagerank" ? " PageRank" : " Betweenness"}
+            metricName={
+              metricType === "pagerank" ? " PageRank" : " Betweenness"
+            }
             metricKey="metric"
           />
         );
@@ -83,11 +83,13 @@ export default function Dashboard() {
       <Header />
 
       <div className="px-4 py-3 flex justify-between items-center shrink-0">
-        <MetricToggle
-          selected={metricType === "pagerank" ? "PageRank" : "Betweenness"}
-          firstLabel="PageRank"
-          secondLabel="Betweenness"
-          onChange={handleMetricToggleChange}
+        <CustomSelect
+          value={metricType}
+          onChange={(v) => handleMetricToggleChange(v)}
+          options={[
+            { value: "pagerank", label: "PageRank" },
+            { value: "betweenness", label: "Betweenness" },
+          ]}
         />
         <ExportButton
           nodes={nodes}
@@ -131,7 +133,7 @@ export default function Dashboard() {
             routes={stats.routes}
           />
 
-{/* 
+          {/* 
             <label className="block text-xs font-medium text-gray-700 mb-2">
               Тип графика
             </label>
@@ -145,7 +147,6 @@ export default function Dashboard() {
                 Гистограмма Betweenness
               </option>
             </select> */}
-
 
           <div ref={chartRef}>
             {nodes.length === 0 ? (
