@@ -25,7 +25,10 @@ useEffect(() => {
   if ((mapRef.current as any)._leaflet_id) {
     (mapRef.current as any)._leaflet_id = null;
   }
-  const map = L.map(mapRef.current);
+  const map = L.map(mapRef.current, {
+    zoomControl: false,
+  });
+  L.control.zoom({ position: "topleft" }).addTo(map);
 
   L.tileLayer(
     "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
@@ -106,8 +109,8 @@ useEffect(() => {
 
 
   return (
-    <Card className="relative w-full h-full overflow-hidden">
-      <div ref={mapRef} className="w-full h-full" />
+    <Card className="absolute inset-0 w-full h-full overflow-hidden">
+      <div ref={mapRef} className="absolute inset-0 w-full h-full" />
 
       {apiNodes.length > 0 && (
         <div className="absolute bottom-5 left-5 bg-white p-3 rounded-lg shadow text-xs z-[600]">
