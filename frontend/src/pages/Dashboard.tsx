@@ -73,7 +73,7 @@ export default function Dashboard() {
           <HistogramWindow
             data={nodes}
             metricName={
-              metricType === "pagerank" ? " PageRank" : " Betweenness"
+              metricType === "pagerank" ? "PageRank" : "Betweenness"
             }
             metricKey="metric"
           />
@@ -122,8 +122,8 @@ export default function Dashboard() {
             metricType={metricType}
             title={
               metricType === "pagerank"
-                ? "PageRank Heatmap"
-                : "Betweenness Heatmap"
+                ? "PageRank"
+                : "Betweenness"
             }
           />
         )}
