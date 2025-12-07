@@ -1,10 +1,45 @@
 import re
-
-from app.core.metric_cluster.metrics_calculate import PageRank, Betweenness
+import pytest
 from app.database import neo4j_connection
+from app.core.metric_cluster.community_detection import Leiden, Louvain
+from app.core.metric_cluster.metrics_calculate import PageRank, Betweenness
 
 
-def test_pagerank_query_contains_expected_parts(monkeypatch):
+@pytest.mark.parametrize("ClusterClass,graph_name,expected_call,expected_writeprop", [
+    (Leiden, "GraphL", "leiden", "leiden_community"),
+    (Louvain, "GraphV", "louvain", "louvain_community"),
+])
+def test_cluster_calculate_query_contains_expected_parts(monkeypatch, ClusterClass, graph_name, expected_call, expected_writeprop):
+    captured = {}
+
+    def fake_run(self, query, parameters=None):
+        # capture last query called (write call)
+        captured['query'] = query
+        # return a structure where result[0][2] exists as community data
+        return [(None, None, 'OK')]
+
+    monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
+
+    cluster_instance = ClusterClass()
+    res = cluster_instance.detect_communities(graph_name, "weight_prop")
+
+    # CommunityDetection.detect_communities returns result[0][2]
+    assert res == 'OK'
+
+    q_lower = captured['query'].lower()
+
+    # Проверяем вызов правильного алгоритма GDS
+    assert re.search(rf"call\s+gds\.{expected_call}\.write", q_lower)
+    # Проверяем, что результат пишется в нужное поле
+    assert re.search(rf"writeproperty\s*:\s*'{expected_writeprop}'", q_lower)
+
+@pytest.mark.parametrize("MetricClass,graph_name,weight_prop,expected_call,expected_writeprop", [
+    (PageRank, "GraphA", "weight_prop", "pagerank", "pagerank"),
+    (Betweenness, "GraphB", "w", "betweenness", "betweenness"),
+    # добавляй сюда новые метрики, например:
+    # (Closeness, "GraphC", "weight", "closeness", "closeness")
+])
+def test_metric_calculate_query_contains_expected_parts(monkeypatch, MetricClass, graph_name, weight_prop, expected_call, expected_writeprop):
     captured = {}
 
     def fake_run(self, query, parameters=None):
@@ -13,30 +48,16 @@ def test_pagerank_query_contains_expected_parts(monkeypatch):
 
     monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
 
-    pr = PageRank()
-    res = pr.metric_calculate('MyGraph', 'weight_prop')
+    metric_instance = MetricClass()
+    res = metric_instance.metric_calculate(graph_name, weight_prop)
 
     assert res == ['OK']
-    q = captured['query']
-    assert "CALL gds.pageRank.write" in q or "CALL gds.pageRank.write".lower() in q.lower()
-    assert "relationshipWeightProperty: 'weight_prop'" in q
-    assert "writeProperty: 'pagerank'" in q
 
+    q_lower = captured['query'].lower()
 
-def test_betweenness_query_contains_expected_parts(monkeypatch):
-    captured = {}
-
-    def fake_run(self, query, parameters=None):
-        captured['query'] = query
-        return ['OK']
-
-    monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
-
-    bt = Betweenness()
-    res = bt.metric_calculate('GraphB', 'w')
-
-    assert res == ['OK']
-    q = captured['query']
-    assert "CALL gds.betweenness.write" in q
-    assert "relationshipWeightProperty: 'w'" in q
-    assert "writeProperty: 'betweenness'" in q
+    # Проверяем вызов GDS
+    assert re.search(rf"call\s+gds\.{expected_call}\.write", q_lower)
+    # Проверяем свойство веса ребра
+    assert re.search(rf"relationshipweightproperty\s*:\s*'{weight_prop}'", q_lower)
+    # Проверяем, куда пишется результат
+    assert re.search(rf"writeproperty\s*:\s*'{expected_writeprop}'", q_lower)

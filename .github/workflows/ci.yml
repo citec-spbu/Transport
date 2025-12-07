@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main, backend_endpoints ]
+    branches: [ main, backend_endpoints, frontend, work_with_test ]
   pull_request:
-    branches: [ main, backend_endpoints ]
+    branches: [ main, backend_endpoints, work_with_test ]
 
 jobs:
   unit-tests:
@@ -17,13 +17,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'
+          python-version: 3.12
 
       - name: Cache pip
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
 
@@ -31,10 +31,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -r requirements-test.txt
+
+      - name: Add project to PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
 
       - name: Run unit tests
-        run: |
-          pytest -q -k "not integration"
+        run: pytest -q -m "not integration"
 
   docker-build:
     name: Build Docker image
@@ -74,6 +77,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -r requirements-test.txt
 
       - name: Set NO_NEO4J flag
         run: |
@@ -81,5 +85,13 @@ jobs:
 
       - name: Run integration tests
         run: |
-          pytest -q -k integration
+          echo "Checking for integration tests..."
+          # Count collected integration tests (marker based)
+          count=$(pytest --collect-only -m integration | grep "<Function")
+          if [ "$count" -eq 0 ]; then
+            echo "No integration tests found; skipping.";
+            exit 0;
+          fi
+          echo "Found $count integration tests; running..."
+          pytest -q -m integration
 
