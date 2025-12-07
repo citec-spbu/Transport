@@ -40,7 +40,7 @@ jobs:
         run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
 
       - name: Run unit tests
-        run: pytest -q -k "not integration"
+        run: pytest -q -m "not integration"
 
   docker-build:
     name: Build Docker image
@@ -87,5 +87,14 @@ jobs:
           echo "NO_NEO4J=true" >> $GITHUB_ENV
 
       - name: Run integration tests
-        run: pytest -q -k integration
+        run: |
+          echo "Checking for integration tests..."
+          # Count collected integration tests (marker based)
+          count=$(pytest --collect-only -q -m integration | wc -l)
+          if [ "$count" -eq 0 ]; then
+            echo "No integration tests found; skipping.";
+            exit 0;
+          fi
+          echo "Found $count integration tests; running..."
+          pytest -q -m integration
 
