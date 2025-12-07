@@ -24,14 +24,6 @@ active_datasets = {}
 
 @router.post("/", response_model=DatasetUploadResponse)
 async def upload_dataset(data: DatasetUploadRequest):
-
-    # Проверяем только тип транспорта
-    if data.transport_type not in TRANSPORT_TO_GRAPH:
-        raise HTTPException(
-            status_code=400,
-            detail={"error": "Unknown transport type"}
-        )
-
     graph_type = TRANSPORT_TO_GRAPH[data.transport_type]
 
     dataset_id = str(uuid.uuid4())
@@ -74,61 +66,44 @@ async def delete_dataset(dataset_id: str):
         raise HTTPException(status_code=404, detail="Dataset not found")
 
     dataset = active_datasets[dataset_id]
+    ctx = dataset["analysis_context"]
+    db_params = ctx.db_graph_parameters
 
+    connection = None
     try:
-        ctx = dataset["analysis_context"]
-        db_params = ctx.db_graph_parameters
-
         connection = Neo4jConnection()
 
         # 1. Удаляем GDS граф
-        try:
-            query = f"CALL gds.graph.drop('{db_params.graph_name}', false)"
-            connection.run(query)
-        except Exception:
-            pass
+        query = f"CALL gds.graph.drop('{db_params.graph_name}', false)"
+        connection.run(query)
 
         # 2. Удаляем основные отношения
-        try:
-            query = f"""
-                MATCH ()-[r:{db_params.main_rels_name}]->()
-                DELETE r
-            """
-            connection.run(query)
-        except Exception:
-            pass
+        query = f"""
+            MATCH ()-[r:{db_params.main_rels_name}]->()
+            DELETE r
+        """
+        connection.run(query)
 
         # 3. Удаляем основные узлы
-        try:
-            query = f"""
-                MATCH (n:{db_params.main_node_name})
-                DELETE n
-            """
-            connection.run(query)
-        except Exception:
-            pass
+        query = f"""
+            MATCH (n:{db_params.main_node_name})
+            DELETE n
+        """
+        connection.run(query)
 
         # 4. При наличии — удаляем вторичные узлы/связи
         if getattr(db_params, "secondary_node_name", None):
-            try:
-                q = f"MATCH ()-[r:{db_params.secondary_rels_name}]->() DELETE r"
-                connection.run(q)
-            except Exception:
-                pass
+            q = f"MATCH ()-[r:{db_params.secondary_rels_name}]->() DELETE r"
+            connection.run(q)
 
-            try:
-                q = f"MATCH (n:{db_params.secondary_node_name}) DELETE n"
-                connection.run(q)
-            except Exception:
-                pass
+            q = f"MATCH (n:{db_params.secondary_node_name}) DELETE n"
+            connection.run(q)
 
-        connection.close()
         active_datasets.pop(dataset_id)
-
         return {"message": f"Dataset {dataset_id} deleted"}
 
     except Exception as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Failed to delete dataset: {str(e)}"
-        )
+        raise HTTPException(status_code=500, detail="Failed to delete dataset")
+    finally:
+        if connection:
+            connection.close()
