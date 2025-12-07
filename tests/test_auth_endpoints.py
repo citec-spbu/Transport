@@ -4,6 +4,8 @@ from fastapi.testclient import TestClient
 from app.main import app
 from app.api.v1.endpoints import auth as auth_mod
 
+pytestmark = pytest.mark.integration
+
 client = TestClient(app)
 
 

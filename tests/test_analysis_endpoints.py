@@ -6,6 +6,8 @@ from app.api.v1.endpoints import datasets as datasets_mod
 from app.api.v1.endpoints import analysis as analysis_mod
 from app.core.context.analysis_context import AnalysisContext
 
+pytestmark = pytest.mark.integration
+
 client = TestClient(app)
 
 

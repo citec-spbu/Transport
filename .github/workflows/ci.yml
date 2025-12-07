@@ -90,7 +90,7 @@ jobs:
         run: |
           echo "Checking for integration tests..."
           # Count collected integration tests (marker based)
-          count=$(pytest --collect-only -q -m integration | wc -l)
+          count=$(pytest --collect-only -m integration | grep "<Function")
           if [ "$count" -eq 0 ]; then
             echo "No integration tests found; skipping.";
             exit 0;
