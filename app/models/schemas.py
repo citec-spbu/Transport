@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List
+from typing import List, Optional
 from enum import Enum
 
 
@@ -34,7 +34,7 @@ class VerifyCodeRequest(BaseModel):
 
 
 class VerifyCodeResponse(BaseModel):
-    token: str
+    token: Optional[str] = None
     email: str
 
 

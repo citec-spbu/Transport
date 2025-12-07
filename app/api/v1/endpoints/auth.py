@@ -12,7 +12,6 @@ router = APIRouter()
 # Временное хранилище кодов (в продакшене использовать Redis или БД)
 verification_codes = {}
 
-
 @router.post("/request_code", response_model=RequestCodeResponse)
 async def request_code(data: RequestCodeRequest):
     """Отправить код подтверждения на email"""
