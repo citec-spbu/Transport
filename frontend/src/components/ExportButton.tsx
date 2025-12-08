@@ -140,19 +140,19 @@ export default function ExportButton({
       </button>
 
       {isOpen && !isExporting && (
-        <div className="absolute right-0 mt-1 w-44 bg-white border border-[#E0E6EA] rounded-[8px] shadow-lg z-50">
+        <div className="absolute left-0 mt-1 w-44 bg-white border border-[#E0E6EA] rounded-[8px] shadow-lg z-50">
           <div className="py-1">
            
             <button
               onClick={exportJSON}
-              className="w-full px-3 py-2 text-left text-[10px] hover:bg-gray-50 transition-colors flex items-center gap-2"
+              className="w-full px-3 py-1.5 text-left text-[11px] hover:bg-gray-50 transition-colors flex items-center gap-2"
             >
               <Download size={12} className="text-gray-600" />
               <span>JSON формат</span>
             </button>
             <button
               onClick={exportCSV}
-              className="w-full px-3 py-2 text-left text-[10px] hover:bg-gray-50 transition-colors flex items-center gap-2"
+              className="w-full px-3 py-1.5 text-left text-[11px] hover:bg-gray-50 transition-colors flex items-center gap-2"
             >
               <Download size={12} className="text-gray-600" />
               <span>CSV формат</span>

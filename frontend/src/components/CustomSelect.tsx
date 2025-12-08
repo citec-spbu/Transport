@@ -53,7 +53,7 @@ export default function CustomSelect({
           {options.map((opt) => (
             <div
               key={opt.value}
-              className={`px-4 py-2 text-sm cursor-pointer hover:bg-gray-100 ${
+              className={`px-3 py-1.5 text-sm cursor-pointer hover:bg-gray-100 ${
                 value === opt.value ? "text-[#003A8C] font-medium" : ""
               }`}
               onClick={() => {

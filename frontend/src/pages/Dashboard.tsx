@@ -85,10 +85,12 @@ export default function Dashboard() {
     <div className="h-screen w-screen relative overflow-hidden" key={datasetId}>
       {/* Header and controls - hide in fullscreen */}
       {!isFullscreen && (
-        <div className="relative z-10 pointer-events-auto h-full flex flex-col">
-          <Header />
+        <div className="relative z-10 pointer-events-none">
+          <div className="pointer-events-auto">
+            <Header />
+          </div>
 
-          <div className="px-4 py-3 flex justify-between items-center shrink-0">
+          <div className="px-4 py-1 flex items-center gap-3 justify-start pointer-events-auto w-fit">
             <CustomSelect
               value={metricType}
               onChange={(v) => handleMetricToggleChange(v)}
@@ -130,9 +132,10 @@ export default function Dashboard() {
       </div>
 
       {/* Fullscreen toggle button - always visible */}
+      
       <button
         onClick={() => setIsFullscreen(!isFullscreen)}
-        className="absolute bottom-4 right-4 z-20 pointer-events-auto bg-white hover:bg-gray-100 rounded-lg shadow-lg p-3 transition-colors"
+        className="absolute bottom-4 right-4 z-20 pointer-events-auto bg-white hover:bg-gray-100 rounded-lg shadow-lg p-2 transition-colors"
         title={isFullscreen ? "Показать панели" : "Полноэкранный режим"}
       >
         {isFullscreen ? (
@@ -144,18 +147,20 @@ export default function Dashboard() {
 
       {/* Stats and chart - hide in fullscreen */}
       {!isFullscreen && (
-        <div className="absolute right-4 top-28 z-10 pointer-events-auto w-[300px] max-h-[80vh] overflow-y-auto flex flex-col space-y-3">
-          <StatsCard
-            city={stats.city}
-            maxMetric={stats.maxMetric}
-            metricType={metricType}
-            nodes={stats.nodes}
-            routes={stats.routes}
-          />
+        <div className="py-1 absolute right-4 top-15 z-10 pointer-events-none w-[300px] overflow-y-auto flex flex-col space-y-3">
+          <div className="pointer-events-auto">
+            <StatsCard
+              city={stats.city}
+              maxMetric={stats.maxMetric}
+              metricType={metricType}
+              nodes={stats.nodes}
+              routes={stats.routes}
+            />
+          </div>
 
           <div
             ref={chartRef}
-            className=" w-full"
+            className="w-full pointer-events-auto"
           >
             {nodes.length === 0 ? (
               <div className="flex items-center justify-center h-full text-gray-500">
