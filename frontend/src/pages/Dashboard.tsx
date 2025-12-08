@@ -83,12 +83,12 @@ export default function Dashboard() {
 
   return (
     <div className="h-screen w-screen relative overflow-hidden" key={datasetId}>
-      {/* Header and controls - hide in fullscreen */}
-      {!isFullscreen && (
-        <div className="relative z-10 pointer-events-none">
-          <div className="pointer-events-auto">
+      {/* Header and controls - don't hide in fullscreen */}
+      {(
+        <div className="relative z-10">
+
             <Header />
-          </div>
+
 
           <div className="px-4 py-1 flex items-center gap-3 justify-start pointer-events-auto w-fit">
             <CustomSelect
