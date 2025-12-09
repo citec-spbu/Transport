@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header className="flex items-center gap-2 p-3 bg-white shadow">
+      <Link to ="/"  className="flex items-center gap-2 ">
       <svg
         width="28"
         height="28"
@@ -14,7 +16,7 @@ const Header = () => {
         />
       </svg>
 
-  <div className="text-[13px] font-medium text-gray-800">Transit Network</div>
+  <div className="text-[13px] font-medium text-gray-800">Transit Network</div></Link>
     </header>
   );
 };
