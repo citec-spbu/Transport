@@ -99,11 +99,11 @@ async def delete_dataset(
         raise HTTPException(status_code=404, detail="Dataset not loaded in memory")
 
     dataset = active_datasets[dataset_id]
+    ctx = dataset["analysis_context"]
+    db_params = ctx.db_graph_parameters
 
+    connection = None
     try:
-        ctx = dataset["analysis_context"]
-        db_params = ctx.db_graph_parameters
-
         connection = Neo4jConnection()
 
         # 1. Удаляем GDS граф
