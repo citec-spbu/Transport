@@ -9,5 +9,9 @@
   }
 }
 .leaflet-left .leaflet-control-zoom {
-  top: 150px;
+  top: 200px;
+}
+
+.leaflet-left .leaflet-control-center {
+  top: 200px; 
 }

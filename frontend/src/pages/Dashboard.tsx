@@ -72,9 +72,7 @@ export default function Dashboard() {
         return (
           <HistogramWindow
             data={nodes}
-            metricName={
-              metricType === "pagerank" ? "PageRank" : "Betweenness"
-            }
+            metricName={metricType === "pagerank" ? "PageRank" : "Betweenness"}
             metricKey="metric"
           />
         );
@@ -84,30 +82,26 @@ export default function Dashboard() {
   return (
     <div className="h-screen w-screen relative overflow-hidden" key={datasetId}>
       {/* Header and controls - don't hide in fullscreen */}
-      {(
-        <div className="relative z-10">
+      <div className="relative z-10">
+        <Header />
 
-            <Header />
-
-
-          <div className="px-4 py-1 flex items-center gap-3 justify-start pointer-events-auto w-fit">
-            <CustomSelect
-              value={metricType}
-              onChange={(v) => handleMetricToggleChange(v)}
-              options={[
-                { value: "pagerank", label: "PageRank" },
-                { value: "betweenness", label: "Betweenness" },
-              ]}
-            />
-            <ExportButton
-              nodes={nodes}
-              stats={stats}
-              heatmapRef={heatmapRef}
-              chartRef={chartRef}
-            />
-          </div>
+        <div className="px-4 py-1 flex items-center gap-3 justify-start pointer-events-auto w-fit">
+          <CustomSelect
+            value={metricType}
+            onChange={(v) => handleMetricToggleChange(v)}
+            options={[
+              { value: "pagerank", label: "PageRank" },
+              { value: "betweenness", label: "Betweenness" },
+            ]}
+          />
+          <ExportButton
+            nodes={nodes}
+            stats={stats}
+            heatmapRef={heatmapRef}
+            chartRef={chartRef}
+          />
         </div>
-      )}
+      </div>
 
       {/* Heatmap - always visible */}
       <div ref={heatmapRef} className="absolute inset-0 w-full h-full z-0">
@@ -119,20 +113,16 @@ export default function Dashboard() {
           </div>
         ) : (
           <Heatmap
-            key={`${datasetId}-${metricType}`}
+            key={datasetId}
             nodes={nodes}
             metricType={metricType}
-            title={
-              metricType === "pagerank"
-                ? "PageRank"
-                : "Betweenness"
-            }
+            title={metricType === "pagerank" ? "PageRank" : "Betweenness"}
           />
         )}
       </div>
 
       {/* Fullscreen toggle button - always visible */}
-      
+
       <button
         onClick={() => setIsFullscreen(!isFullscreen)}
         className="absolute bottom-4 right-4 z-20 pointer-events-auto bg-white hover:bg-gray-100 rounded-lg shadow-lg p-2 transition-colors"
@@ -147,7 +137,10 @@ export default function Dashboard() {
 
       {/* Stats and chart - hide in fullscreen */}
       {!isFullscreen && (
-        <div className="py-1 absolute right-4 top-15 z-10 pointer-events-none w-[300px] overflow-y-auto flex flex-col space-y-3">
+        <div
+          className="py-1 absolute right-4 top-15 z-10 pointer-events-none 
+                w-[300px] max-h-screen overflow-y-auto flex flex-col space-y-3"
+        >
           <div className="pointer-events-auto">
             <StatsCard
               city={stats.city}
@@ -158,10 +151,7 @@ export default function Dashboard() {
             />
           </div>
 
-          <div
-            ref={chartRef}
-            className="w-full pointer-events-auto"
-          >
+          <div ref={chartRef} className="w-full pointer-events-auto">
             {nodes.length === 0 ? (
               <div className="flex items-center justify-center h-full text-gray-500">
                 {currentMetricData
