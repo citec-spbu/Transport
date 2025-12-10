@@ -113,6 +113,9 @@ export default function Heatmap({
 
     if (apiNodes.length === 0) return;
 
+    // --- Сортировка узлов по метрике ---
+    const sortedNodes = [...apiNodes].sort((a, b) => a.metric - b.metric);
+
     const metricValues = apiNodes.map((node) => node.metric);
     const minValue = Math.min(...metricValues);
     const maxValue = Math.max(...metricValues);
@@ -141,8 +144,11 @@ export default function Heatmap({
       return "rgb(255,0,0)";
     };
 
-    const markers = apiNodes.map((node) => {
+    const markers = sortedNodes.map((node) => {
       const [lon, lat] = node.coordinates;
+      const normalized = valueRange > 0 ? (node.metric - minValue) / valueRange : 0.5;
+      const zIndex = Math.round(normalized * 10000); // высокие значения = выше на z-index
+      
       return L.circleMarker([lat, lon], {
         radius: 6,
         fillColor: getColor(node.metric),
@@ -150,13 +156,19 @@ export default function Heatmap({
         weight: 0,
         opacity: 0.9,
         fillOpacity: 0.9,
-      }).bindPopup(`
+      })
+      .setStyle({ pane: "markerPane" }) // убедитесь что используем правильный pane
+      .bindPopup(`
         <div style="font-family: Arial, sans-serif; min-width: 200px;">
           <div style="font-weight: bold; margin-bottom: 4px;">${node.name || node.id}</div>
           <div><strong>${title}:</strong> ${node.metric.toFixed(6)}</div>
           <div><strong>Координаты:</strong> ${lat.toFixed(4)}, ${lon.toFixed(4)}</div>
         </div>
-      `);
+      `)
+      .on("add", (e) => {
+        const elem = e.target.getElement();
+        if (elem) elem.style.zIndex = String(zIndex);
+      });
     });
 
     const group = L.featureGroup(markers);
