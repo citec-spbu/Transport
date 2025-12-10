@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import Header from "../components/Header.tsx";
 import ExportButton from "../components/ExportButton.tsx";
 import StatsCard from "../components/StatsCard.tsx";
-import Heatmap from "../components/Heatmap";
+import Heatmap from "../components/Heatmap.tsx";
 import HistogramWindow from "../components/HistogramWindow.tsx";
 import { useParamsStore } from "../store/useParamStore";
 import CustomSelect from "../components/CustomSelect.tsx";

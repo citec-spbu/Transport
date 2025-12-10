@@ -146,8 +146,6 @@ export default function Heatmap({
 
     const markers = sortedNodes.map((node) => {
       const [lon, lat] = node.coordinates;
-      const normalized = valueRange > 0 ? (node.metric - minValue) / valueRange : 0.5;
-      const zIndex = Math.round(normalized * 10000); // высокие значения = выше на z-index
       
       return L.circleMarker([lat, lon], {
         radius: 6,
@@ -164,11 +162,7 @@ export default function Heatmap({
           <div><strong>${title}:</strong> ${node.metric.toFixed(6)}</div>
           <div><strong>Координаты:</strong> ${lat.toFixed(4)}, ${lon.toFixed(4)}</div>
         </div>
-      `)
-      .on("add", (e) => {
-        const elem = e.target.getElement();
-        if (elem) elem.style.zIndex = String(zIndex);
-      });
+      `);
     });
 
     const group = L.featureGroup(markers);
