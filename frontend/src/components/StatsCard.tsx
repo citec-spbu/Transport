@@ -40,36 +40,36 @@ const StatsCard: React.FC<StatsCardProps> = ({
     <Card className="p-3 font-sans">
       <div className="space-y-2">
         <div>
-          <div className="text-xs text-gray-500 font-medium">Город</div>
-          <div className="text-sm font-semibold text-gray-900 ">
+          <div className="text-[11px] text-gray-500 font-medium">Город</div>
+          <div className="text-xs font-semibold text-gray-900 ">
             {city || "Не указан"}
           </div>
         </div>
 
         <div>
-          <div className="text-xs text-gray-500 font-medium">
+          <div className="text-[11px] text-gray-500 font-medium">
             {getMetricLabel()}
           </div>
-          <div className="text-sm font-semibold text-gray-900 ">
+          <div className="text-xs font-semibold text-gray-900 ">
             {formatMetric(maxMetric)}
           </div>
         </div>
 
         <div>
-          <div className="text-xs text-gray-500 font-medium">
+          <div className="text-[11px] text-gray-500 font-medium">
             Количество узлов
           </div>
-          <div className="text-sm font-semibold text-gray-900">
+          <div className="text-xs font-semibold text-gray-900">
             {nodes.toLocaleString()}
           </div>
         </div>
 
         {routes > 0 && (
           <div>
-            <div className="text-xs text-gray-500 font-medium">
+            <div className="text-[11px] text-gray-500 font-medium">
               Количество маршрутов
             </div>
-            <div className="text-sm font-semibold text-gray-900 ">
+            <div className="text-xs font-semibold text-gray-900 ">
               {routes.toLocaleString()}
             </div>
           </div>
