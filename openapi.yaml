@@ -1,0 +1,475 @@
+---
+openapi: 3.1.0
+info:
+  title: Graph Analysis API
+  description: API для загрузки, анализа и визуализации графов маршрутов. Поддерживает
+    гостевой вход, вход по email-коду, загрузку наборов данных, кластеризацию и вычисление
+    метрик (PageRank, Betweenness).
+  version: 1.0.0
+paths:
+  "/v1/auth/request_code":
+    post:
+      tags:
+      - auth
+      summary: Request Code
+      description: Отправить код подтверждения на email
+      operationId: request_code_v1_auth_request_code_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/RequestCodeRequest"
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/RequestCodeResponse"
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/HTTPValidationError"
+  "/v1/auth/verify_code":
+    post:
+      tags:
+      - auth
+      summary: Verify Code
+      description: Проверить код подтверждения и получить токен
+      operationId: verify_code_v1_auth_verify_code_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/VerifyCodeRequest"
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/VerifyCodeResponse"
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/HTTPValidationError"
+  "/v1/auth/guest":
+    post:
+      tags:
+      - auth
+      summary: Guest
+      description: Гостевой вход без регистрации
+      operationId: guest_v1_auth_guest_post
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/GuestTokenResponse"
+  "/v1/datasets/":
+    post:
+      tags:
+      - datasets
+      summary: Upload Dataset
+      operationId: upload_dataset_v1_datasets__post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/DatasetUploadRequest"
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/DatasetUploadResponse"
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/HTTPValidationError"
+  "/v1/datasets/{dataset_id}":
+    delete:
+      tags:
+      - datasets
+      summary: Delete Dataset
+      operationId: delete_dataset_v1_datasets__dataset_id__delete
+      parameters:
+      - name: dataset_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Dataset Id
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/HTTPValidationError"
+  "/v1/analysis/cluster":
+    post:
+      tags:
+      - analysis
+      summary: Cluster Analysis
+      operationId: cluster_analysis_v1_analysis_cluster_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/ClusterRequest"
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/ClusterResponse"
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/HTTPValidationError"
+  "/v1/analysis/metric":
+    post:
+      tags:
+      - analysis
+      summary: Metric Analysis
+      operationId: metric_analysis_v1_analysis_metric_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/MetricAnalysisRequest"
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/MetricAnalysisResponse"
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/HTTPValidationError"
+components:
+  schemas:
+    ClusterNode:
+      properties:
+        id:
+          type: string
+          title: Id
+        name:
+          type: string
+          title: Name
+        cluster_id:
+          type: integer
+          title: Cluster Id
+          description: Значение кластера
+        coordinates:
+          items:
+            type: number
+          type: array
+          maxItems: 2
+          minItems: 2
+          title: Coordinates
+          description: "[longitude, latitude]"
+          example:
+          - 30.33
+          - 59.93
+      type: object
+      required:
+      - id
+      - name
+      - cluster_id
+      - coordinates
+      title: ClusterNode
+    ClusterRequest:
+      properties:
+        dataset_id:
+          type: string
+          title: Dataset Id
+          example: abc123
+        method:
+          "$ref": "#/components/schemas/ClusteringMethod"
+          description: Метод кластеризации
+      type: object
+      required:
+      - dataset_id
+      - method
+      title: ClusterRequest
+    ClusterResponse:
+      properties:
+        dataset_id:
+          type: string
+          title: Dataset Id
+        method:
+          "$ref": "#/components/schemas/ClusteringMethod"
+        nodes:
+          items:
+            "$ref": "#/components/schemas/ClusterNode"
+          type: array
+          title: Nodes
+        statistics:
+          "$ref": "#/components/schemas/ClusterStatistics"
+      type: object
+      required:
+      - dataset_id
+      - method
+      - nodes
+      - statistics
+      title: ClusterResponse
+    ClusterStatistics:
+      properties:
+        modularity:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Modularity
+          description: Модулярность (0-1, выше лучше)
+          example: 0.45
+        silhouette:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Silhouette
+          description: Силуэтный коэффициент (-1 до 1, выше лучше)
+          example: 0.67
+        conductance:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Conductance
+          description: Проводимость (0-1, ниже лучше)
+          example: 0.12
+        coverage:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Coverage
+          description: Покрытие (0-1, выше лучше)
+          example: 0.78
+      type: object
+      title: ClusterStatistics
+    ClusteringMethod:
+      type: string
+      enum:
+      - leiden
+      - louvain
+      title: ClusteringMethod
+    DatasetUploadRequest:
+      properties:
+        transport_type:
+          "$ref": "#/components/schemas/TransportType"
+          description: Тип транспорта
+          example: bus
+        city:
+          type: string
+          title: City
+          description: Город для набора данных
+          example: Бирск
+      type: object
+      required:
+      - transport_type
+      - city
+      title: DatasetUploadRequest
+    DatasetUploadResponse:
+      properties:
+        dataset_id:
+          type: string
+          title: Dataset Id
+          example: abc123
+        name:
+          type: string
+          title: Name
+          example: Bus routes — Saint Petersburg
+      type: object
+      required:
+      - dataset_id
+      - name
+      title: DatasetUploadResponse
+    GuestTokenResponse:
+      properties:
+        token:
+          type: string
+          title: Token
+          example: guest-token
+      type: object
+      required:
+      - token
+      title: GuestTokenResponse
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            "$ref": "#/components/schemas/ValidationError"
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    MetricAnalysisRequest:
+      properties:
+        dataset_id:
+          type: string
+          title: Dataset Id
+          example: abc123
+        metric_type:
+          "$ref": "#/components/schemas/MetricType"
+      type: object
+      required:
+      - dataset_id
+      - metric_type
+      title: MetricAnalysisRequest
+    MetricAnalysisResponse:
+      properties:
+        dataset_id:
+          type: string
+          title: Dataset Id
+        metric_type:
+          "$ref": "#/components/schemas/MetricType"
+        nodes:
+          items:
+            "$ref": "#/components/schemas/MetricNode"
+          type: array
+          title: Nodes
+      type: object
+      required:
+      - dataset_id
+      - metric_type
+      - nodes
+      title: MetricAnalysisResponse
+    MetricNode:
+      properties:
+        id:
+          type: string
+          title: Id
+        name:
+          type: string
+          title: Name
+        metric:
+          type: number
+          title: Metric
+          description: Значение выбранной метрики
+        coordinates:
+          items:
+            type: number
+          type: array
+          maxItems: 2
+          minItems: 2
+          title: Coordinates
+          description: "[longitude, latitude]"
+          example:
+          - 30.33
+          - 59.93
+      type: object
+      required:
+      - id
+      - name
+      - metric
+      - coordinates
+      title: MetricNode
+    MetricType:
+      type: string
+      enum:
+      - pagerank
+      - betweenness
+      title: MetricType
+    RequestCodeRequest:
+      properties:
+        email:
+          type: string
+          title: Email
+          example: user@example.com
+      type: object
+      required:
+      - email
+      title: RequestCodeRequest
+    RequestCodeResponse:
+      properties:
+        message:
+          type: string
+          title: Message
+          example: Verification code sent
+      type: object
+      required:
+      - message
+      title: RequestCodeResponse
+    TransportType:
+      type: string
+      enum:
+      - bus
+      - tram
+      - trolleybus
+      - minibus
+      title: TransportType
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+      type: object
+      required:
+      - loc
+      - msg
+      - type
+      title: ValidationError
+    VerifyCodeRequest:
+      properties:
+        email:
+          type: string
+          title: Email
+          example: user@example.com
+        code:
+          type: string
+          title: Code
+          example: '123456'
+      type: object
+      required:
+      - email
+      - code
+      title: VerifyCodeRequest
+    VerifyCodeResponse:
+      properties:
+        token:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Token
+        email:
+          type: string
+          title: Email
+      type: object
+      required:
+      - email
+      title: VerifyCodeResponse

@@ -17,7 +17,7 @@ class MetricClusterPreparer:
         self.betweenness = Betweenness() if self.mc.need_betweenness else None
         self.pagerank = PageRank() if self.mc.need_pagerank else None
 
-    def prepare_metrics(self) -> list[dict]:
+    def prepare_metrics(self) -> dict:
 
         if self.leiden:
             self._run_leiden()
@@ -31,8 +31,14 @@ class MetricClusterPreparer:
         if self.pagerank:
             self._run_pagerank()
 
-        # Собираем данные из Neo4j и возвращаем
-        return self._load_nodes_with_metrics()
+        nodes = self._load_nodes_with_metrics()
+
+        result = {"nodes": nodes}
+        
+        if self.leiden or self.louvain:
+            result["statistics"] = self._calculate_cluster_statistics()
+        
+        return result
 
     # -------------------- Метрики --------------------
 
@@ -120,3 +126,25 @@ class MetricClusterPreparer:
             result.append(node)
 
         return result
+
+    # -------------------- Статистика кластеризации --------------------
+
+    def _calculate_cluster_statistics(self) -> dict:
+        detector = self.leiden if self.leiden else self.louvain
+        
+        if not detector:
+            return {
+                "modularity": None,
+                "silhouette": None,
+                "conductance": None,
+                "coverage": None
+            }
+        
+        detector.graph_name = self.ctx.graph_name
+        
+        return {
+            "modularity": detector.calculate_modularity(),
+            "silhouette": detector.calculate_silhouette(),
+            "conductance": detector.calculate_conductance(),
+            "coverage": detector.calculate_coverage()
+        }
