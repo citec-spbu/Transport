@@ -34,7 +34,10 @@ def test_cluster_success(monkeypatch, method, cluster_id):
     class DummyManager:
         def __init__(self, *a, **k): pass
         def process(self, ctx):
-            return {"nodes": [{"id": "n1", "name": "Node1", "cluster_id": cluster_id, "coordinates": [30.0, 60.0]}]}
+            return {
+                "nodes": [{"id": "n1", "name": "Node1", "cluster_id": cluster_id, "coordinates": [30.0, 60.0]}],
+                "statistics": {"modularity": 0.5, "silhouette": 0.6, "conductance": 0.2, "coverage": 0.8}
+            }
 
     monkeypatch.setattr(analysis_mod, "AnalysisManager", DummyManager)
 
@@ -64,7 +67,7 @@ def test_metric_success(monkeypatch, metric_name, value):
 
     monkeypatch.setattr(analysis_mod, "AnalysisManager", DummyManager)
 
-    r = client.post("/v1/analysis/metric", json={"dataset_id": dsid, "metric": metric_name})
+    r = client.post("/v1/analysis/metric", json={"dataset_id": dsid, "metric_type": metric_name})
     assert r.status_code == 200
     node = r.json()["nodes"][0]
     assert node["id"] == "m1"
@@ -80,7 +83,7 @@ def test_metric_success(monkeypatch, metric_name, value):
 # -----------------------------
 @pytest.mark.parametrize("endpoint,payload", [
     ("/v1/analysis/cluster", {"dataset_id": "no-ds-cl", "method": "leiden"}),
-    ("/v1/analysis/metric", {"dataset_id": "no-ds-m", "metric": "pagerank"}),
+    ("/v1/analysis/metric", {"dataset_id": "no-ds-m", "metric_type": "pagerank"}),
 ])
 def test_dataset_not_found(endpoint, payload):
     r = client.post(endpoint, json=payload)
@@ -93,7 +96,7 @@ def test_dataset_not_found(endpoint, payload):
 # -----------------------------
 @pytest.mark.parametrize("payload", [
     {"dataset_id": _prepare_dataset("ds-cl-bad"), "method": "unknown"},
-    {"dataset_id": _prepare_dataset("ds-m-bad"), "metric": "unknown_metric"}
+    {"dataset_id": _prepare_dataset("ds-m-bad"), "metric_type": "unknown_metric"}
 ])
 def test_invalid_method_or_metric(payload):
     endpoint = "/v1/analysis/cluster" if "method" in payload else "/v1/analysis/metric"
@@ -107,12 +110,16 @@ def test_invalid_method_or_metric(payload):
 # -----------------------------
 @pytest.mark.parametrize("endpoint,payload", [
     ("/v1/analysis/cluster", {"dataset_id": _prepare_dataset("ds-cl-empty"), "method": "leiden"}),
-    ("/v1/analysis/metric", {"dataset_id": _prepare_dataset("ds-m-empty"), "metric": "pagerank"}),
+    ("/v1/analysis/metric", {"dataset_id": _prepare_dataset("ds-m-empty"), "metric_type": "pagerank"}),
 ])
 def test_empty_nodes(monkeypatch, endpoint, payload):
     class DummyManager:
         def __init__(self, *a, **k): pass
-        def process(self, ctx): return {"nodes": []}
+        def process(self, ctx): 
+            return {
+                "nodes": [], 
+                "statistics": {"modularity": None, "silhouette": None, "conductance": None, "coverage": None}
+            }
 
     monkeypatch.setattr(analysis_mod, "AnalysisManager", DummyManager)
 
@@ -129,7 +136,7 @@ def test_empty_nodes(monkeypatch, endpoint, payload):
 # -----------------------------
 @pytest.mark.parametrize("endpoint,payload", [
     ("/v1/analysis/cluster", {"dataset_id": _prepare_dataset("ds-cl-err"), "method": "leiden"}),
-    ("/v1/analysis/metric", {"dataset_id": _prepare_dataset("ds-m-err"), "metric": "pagerank"}),
+    ("/v1/analysis/metric", {"dataset_id": _prepare_dataset("ds-m-err"), "metric_type": "pagerank"}),
 ])
 def test_analysis_manager_exception(monkeypatch, endpoint, payload):
     class BadManager:
@@ -150,7 +157,7 @@ def test_analysis_manager_exception(monkeypatch, endpoint, payload):
 # -----------------------------
 @pytest.mark.parametrize("endpoint,payload", [
     ("/v1/analysis/cluster", {"method": "leiden"}),
-    ("/v1/analysis/metric", {"metric": "pagerank"}),
+    ("/v1/analysis/metric", {"metric_type": "pagerank"}),
     ("/v1/analysis/cluster", {"dataset_id": "ds-cl-1"}), 
     ("/v1/analysis/metric", {"dataset_id": "ds-m-1"}), 
 ])

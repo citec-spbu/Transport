@@ -70,7 +70,7 @@ async def metric_analysis(req: MetricAnalysisRequest):
     analysis_context = copy.deepcopy(dataset["analysis_context"])
     analysis_context.metric_calculation_context = MetricCalculationContext(
         need_pagerank=(req.metric_type == MetricType.PAGERANK),
-        need_betweenness=(req.metric_type == MetricType.BETWEENNESS)
+        need_betweenness=(req.metric_type == MetricType.BETWEENNESS_CENTRALITY)
     )
     analysis_context.need_prepare_data = True
     analysis_context.need_create_graph = False
