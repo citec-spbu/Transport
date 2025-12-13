@@ -1,10 +1,12 @@
 import Header from "../components/Header.tsx";
 import ExportButton from "../components/ExportButton.tsx";
-import MetricToggle from "../components/MetricToggle.tsx";
 import ClusteringMap from "../components/ClusteringMap.tsx";
 import CityCard from "../components/CityCard.tsx";
 import { useParamsStore } from "../store/useParamStore";
-import { useEffect } from "react";
+import { useEffect, useState, useRef } from "react"; 
+import { Maximize2, Minimize2 } from "lucide-react";
+import ClusterStatsCard from "../components/ClusterStatsCard.tsx";
+import CustomSelect from "../components/CustomSelect.tsx";
 
 export default function Clustering() {
   const { city, datasetId, clusterType, setClusterType, datasetCache } =
@@ -14,56 +16,97 @@ export default function Clustering() {
     ? datasetCache[datasetId]?.clusters?.[clusterType]
     : undefined;
 
-  const selectedToggleValue = clusterType === "leiden" ? "Leiden" : "Louvain";
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  
+
+  const mapRef = useRef<HTMLDivElement>(null);
+  const statsCardRef = useRef<HTMLDivElement>(null);
 
   const handleClusterToggleChange = (active: string) => {
-    if (active === "Leiden" || active === "leiden") {
-      setClusterType("leiden");
-    } else if (active === "Louvain" || active === "louvain") {
-      setClusterType("louvain");
+    if (active === "leiden" || active === "louvain") {
+      setClusterType(active as "leiden" | "louvain");
     }
   };
 
   useEffect(() => {
-    if (clusterType === "leiden") {
-    } else if (clusterType === "louvain") {
-    }
+   
   }, [clusterType]);
 
   return (
-    <div className="min-h-screen bg-[#F9FAFB] font-sans">
-      <Header />
+    
+    <div className="h-screen w-screen relative overflow-hidden" key={datasetId}>
+      
 
-      <div className="px-4 py-3 flex justify-between items-center shrink-0">
-        <div className="flex items-center shrink-0 gap-3">
-          <CityCard city={city} />
-          <MetricToggle
-            firstLabel="Leiden"
-            secondLabel="Louvain"
-            selected={selectedToggleValue}
-            onChange={handleClusterToggleChange}
+      <div className="relative z-10">
+        <Header />
+
+        <div className="px-4 py-1 flex items-center gap-3 justify-start pointer-events-auto w-fit">
+          <div className="flex items-center shrink-0 gap-3">
+            <CityCard city={city} />
+            <CustomSelect
+              value={clusterType}
+              onChange={(v) => handleClusterToggleChange(v)}
+              options={[
+                { value: "leiden", label: "Leiden" },
+                { value: "louvain", label: "Louvain" },
+              ]}
+            />
+          </div>
+
+
+          <ExportButton
+            nodes={currentCluster?.nodes || []}
+            stats={{
+              city,
+              nodes: currentCluster?.nodes?.length || 0,
+              clusters: currentCluster?.nodes
+                ? Array.from(
+                    new Set(currentCluster.nodes.map((n: any) => n.cluster_id))
+                  ).length
+                : 0,
+            }}
+            heatmapRef={mapRef} 
+            chartRef={statsCardRef} 
           />
         </div>
-
-        <ExportButton
-          nodes={currentCluster?.nodes || []}
-          stats={{
-            city,
-            nodes: currentCluster?.nodes?.length || 0,
-            clusters: currentCluster?.nodes
-              ? Array.from(new Set(currentCluster.nodes.map((n: any) => n.cluster_id))).length
-              : 0,
-          }}
-        />
       </div>
 
-      <div className="flex-1 bg-white rounded-xl shadow-sm h-full mr-4 ml-4">
+
+      <div ref={mapRef} className="absolute inset-0 w-full h-full z-0">
         {currentCluster ? (
           <ClusteringMap data={currentCluster} clusterType={clusterType} />
         ) : (
-          <div className="p-4 text-gray-600">Загрузка данных</div>
+          <div className="flex items-center justify-center h-full text-gray-500">
+            Загрузка данных
+          </div>
         )}
       </div>
+
+      
+      <button
+        onClick={() => setIsFullscreen(!isFullscreen)}
+        className="absolute bottom-4 right-4 z-20 pointer-events-auto bg-white hover:bg-gray-100 rounded-lg shadow-lg p-2 transition-colors"
+        title={isFullscreen ? "Показать панели" : "Полноэкранный режим"}
+      >
+        {isFullscreen ? (
+          <Minimize2 className="w-5 h-5 text-gray-700" />
+        ) : (
+          <Maximize2 className="w-5 h-5 text-gray-700" />
+        )}
+      </button>
+
+ 
+      {!isFullscreen && (
+        <div
+          ref={statsCardRef} 
+          className="py-1 absolute right-4 top-15 z-10 pointer-events-none 
+                w-[300px] max-h-[calc(100vh-100px)] overflow-y-auto flex flex-col space-y-3"
+        >
+          <div className="pointer-events-auto">
+            <ClusterStatsCard stats={currentCluster?.statistics} />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
