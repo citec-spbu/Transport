@@ -11,7 +11,7 @@ class AnalysisPreparer:
         """Готовит данные графа к анализу.
 
         Нормализует веса отношений и строит проекцию GDS
-        с использованием нормализованного свойства веса.
+        c использованием нормализованного свойства веса.
         """
         rel_name = self.graph_db_parameters.main_rels_name
         weight_prop = self.graph_db_parameters.weight

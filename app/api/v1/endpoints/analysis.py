@@ -38,11 +38,14 @@ async def cluster_analysis(req: ClusterRequest):
     except Exception as e:
         raise HTTPException(
             status_code=502,
-            detail=f"External service error"
-        )
+            detail="External service error"
+        ) from e
 
-    cluster_nodes = [ClusterNode(**n) for n in result["nodes"]]
-    statistics = ClusterStatistics(**result["statistics"])
+    try:
+        cluster_nodes = [ClusterNode(**n) for n in result["nodes"]]
+        statistics = ClusterStatistics(**result["statistics"])
+    except KeyError as e:
+        raise HTTPException(status_code=500, detail=f"Invalid response structure") from e
     
     return ClusterResponse(
         dataset_id=req.dataset_id,
@@ -66,8 +69,8 @@ async def metric_analysis(req: MetricAnalysisRequest):
 
     analysis_context = copy.deepcopy(dataset["analysis_context"])
     analysis_context.metric_calculation_context = MetricCalculationContext(
-        need_pagerank=(req.metric == MetricType.PAGERANK),
-        need_betweenness=(req.metric == MetricType.BETWEENNESS)
+        need_pagerank=(req.metric_type == MetricType.PAGERANK),
+        need_betweenness=(req.metric_type == MetricType.BETWEENNESS)
     )
     analysis_context.need_prepare_data = True
     analysis_context.need_create_graph = False
@@ -78,8 +81,11 @@ async def metric_analysis(req: MetricAnalysisRequest):
     except Exception as e:
         raise HTTPException(
             status_code=502,
-            detail=f"External service error"
-        )
+            detail="External service error"
+        ) from e
 
-    metric_nodes = [MetricNode(**n) for n in result["nodes"]]
-    return MetricAnalysisResponse(dataset_id=req.dataset_id, metric_type=req.metric, nodes=metric_nodes)
+    try:
+        metric_nodes = [MetricNode(**n) for n in result["nodes"]]
+    except KeyError as e:
+        raise HTTPException(status_code=500, detail=f"Invalid response structure") from e
+    return MetricAnalysisResponse(dataset_id=req.dataset_id, metric_type=req.metric_type, nodes=metric_nodes)
