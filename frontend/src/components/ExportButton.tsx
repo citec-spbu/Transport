@@ -9,6 +9,13 @@ interface ExportButtonProps {
   chartRef?: React.RefObject<HTMLDivElement | null>;
 }
 
+/**
+ * Render an export button with a dropdown that lets the user download provided nodes and stats as JSON or CSV.
+ *
+ * @param nodes - Array of node objects to include in the export (used to build CSV rows and JSON payload).
+ * @param stats - An object of statistics to include in the JSON export.
+ * @returns The React element for the export button and its dropdown menu.
+ */
 export default function ExportButton({
   nodes = [],
   stats = {},

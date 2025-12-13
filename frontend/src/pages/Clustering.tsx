@@ -8,6 +8,11 @@ import { Maximize2, Minimize2 } from "lucide-react";
 import ClusterStatsCard from "../components/ClusterStatsCard.tsx";
 import CustomSelect from "../components/CustomSelect.tsx";
 
+/**
+ * Render the clustering visualization page with controls for city and cluster type, an interactive map, export controls, and an optional statistics panel.
+ *
+ * @returns The React element for the clustering visualization page.
+ */
 export default function Clustering() {
   const { city, datasetId, clusterType, setClusterType, datasetCache } =
     useParamsStore();

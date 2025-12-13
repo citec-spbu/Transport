@@ -19,6 +19,14 @@ const format = (value?: number | null, invert = false) => {
   return v.toFixed(2);
 };
 
+/**
+ * Render a card displaying cluster quality metrics.
+ *
+ * Renders four labeled rows for modularity, silhouette coefficient, conductance, and coverage; each value is formatted for display. If `stats` is not provided, nothing is rendered.
+ *
+ * @param stats - Optional cluster metrics object with numeric or `null` fields: `modularity`, `silhouette`, `conductance`, and `coverage`.
+ * @returns A JSX element containing the metrics card, or `null` when `stats` is falsy.
+ */
 export default function ClusterStatsCard({ stats }: Props) {
   if (!stats) {
     return null;
@@ -56,6 +64,14 @@ export default function ClusterStatsCard({ stats }: Props) {
   );
 }
 
+/**
+ * Renders a single horizontal row with a left-aligned label and a right-aligned value.
+ *
+ * @param label - The text shown on the left side of the row.
+ * @param value - The text shown on the right side of the row, styled prominently.
+ * @param hint - Optional hint text associated with the value; accepted but not currently rendered.
+ * @returns A JSX element containing the styled label/value row.
+ */
 function StatRow({
   label,
   value,
