@@ -8,6 +8,11 @@ class AnalysisPreparer:
         self.graph_name = analysis_context.graph_name
 
     def prepare(self):
+        """Готовит данные графа к анализу.
+
+        Нормализует веса отношений и строит проекцию GDS
+        с использованием нормализованного свойства веса.
+        """
         rel_name = self.graph_db_parameters.main_rels_name
         weight_prop = self.graph_db_parameters.weight
 

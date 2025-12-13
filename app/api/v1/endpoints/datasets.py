@@ -24,6 +24,11 @@ active_datasets = {}
 
 @router.post("/", response_model=DatasetUploadResponse)
 async def upload_dataset(data: DatasetUploadRequest):
+    """Загружает новый датасет маршрутов для города.
+
+    Строит граф в Neo4j/GDS на основе выбранного типа
+    транспорта и возвращает идентификатор полученного датасета.
+    """
     graph_type = TRANSPORT_TO_GRAPH[data.transport_type]
 
     dataset_id = str(uuid.uuid4())
@@ -62,6 +67,11 @@ async def upload_dataset(data: DatasetUploadRequest):
 
 @router.delete("/{dataset_id}")
 async def delete_dataset(dataset_id: str):
+    """Удаляет датасет и связанный граф из базы.
+
+    Очищает GDS-граф, отношения и узлы, затем убирает
+    датасет из активного списка.
+    """
     if dataset_id not in active_datasets:
         raise HTTPException(status_code=404, detail="Dataset not found")
 

@@ -14,6 +14,11 @@ router = APIRouter()
 
 @router.post("/cluster", response_model=ClusterResponse)
 async def cluster_analysis(req: ClusterRequest):
+    """Выполняет кластеризацию графа для датасета.
+
+    Принимает параметры метода кластеризации и возвращает узлы
+    с метками кластеров и статистику по кластерам.
+    """
     if req.dataset_id not in active_datasets:
         raise HTTPException(status_code=404, detail="Dataset not found")
 
@@ -49,6 +54,11 @@ async def cluster_analysis(req: ClusterRequest):
 
 @router.post("/metric", response_model=MetricAnalysisResponse)
 async def metric_analysis(req: MetricAnalysisRequest):
+    """Рассчитывает выбранную метрику графа для датасета.
+
+    Поддерживает метрики PageRank и Betweenness, возвращает список
+    узлов с значениями метрик.
+    """
     if req.dataset_id not in active_datasets:
         raise HTTPException(status_code=404, detail="Dataset not found")
 
