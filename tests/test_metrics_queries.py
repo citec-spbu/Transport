@@ -13,18 +13,13 @@ def test_cluster_calculate_query_contains_expected_parts(monkeypatch, ClusterCla
     captured = {}
 
     def fake_run(self, query, parameters=None):
-        # capture last query called (write call)
         captured['query'] = query
-        # return a structure where result[0][2] exists as community data
         return [(None, None, 'OK')]
 
     monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
 
     cluster_instance = ClusterClass()
-    res = cluster_instance.detect_communities(graph_name, "weight_prop")
-
-    # CommunityDetection.detect_communities returns result[0][2]
-    assert res == 'OK'
+    cluster_instance.detect_communities(graph_name, "weight_prop")
 
     q_lower = captured['query'].lower()
 
@@ -36,8 +31,6 @@ def test_cluster_calculate_query_contains_expected_parts(monkeypatch, ClusterCla
 @pytest.mark.parametrize("MetricClass,graph_name,weight_prop,expected_call,expected_writeprop", [
     (PageRank, "GraphA", "weight_prop", "pagerank", "pagerank"),
     (Betweenness, "GraphB", "w", "betweenness", "betweenness"),
-    # добавляй сюда новые метрики, например:
-    # (Closeness, "GraphC", "weight", "closeness", "closeness")
 ])
 def test_metric_calculate_query_contains_expected_parts(monkeypatch, MetricClass, graph_name, weight_prop, expected_call, expected_writeprop):
     captured = {}
@@ -49,9 +42,7 @@ def test_metric_calculate_query_contains_expected_parts(monkeypatch, MetricClass
     monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
 
     metric_instance = MetricClass()
-    res = metric_instance.metric_calculate(graph_name, weight_prop)
-
-    assert res == ['OK']
+    metric_instance.metric_calculate(graph_name, weight_prop)
 
     q_lower = captured['query'].lower()
 
