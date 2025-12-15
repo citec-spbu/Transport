@@ -7,8 +7,6 @@ from app.api.v1.endpoints import datasets as datasets_mod
 from app.core.context.analysis_context import AnalysisContext
 from app.core.context.metric_calculation_context import MetricCalculationContext
 
-pytestmark = pytest.mark.integration
-
 client = TestClient(app)
 
 
