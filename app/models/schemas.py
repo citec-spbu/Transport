@@ -64,23 +64,18 @@ class ClusterNode(BaseModel):
 )
 
 class ClusterStatistics(BaseModel):
-    modularity: Optional[float] = Field(
-        None,
+    modularity: float = Field(
+        ..., 
         description="Модулярность (0-1, выше лучше)",
         json_schema_extra={"example": 0.45}
     )
-    silhouette: Optional[float] = Field(
-        None,
-        description="Силуэтный коэффициент (-1 до 1, выше лучше)",
-        json_schema_extra={"example": 0.67}
-    )
-    conductance: Optional[float] = Field(
-        None,
+    conductance: float = Field(
+        ...,
         description="Проводимость (0-1, ниже лучше)",
         json_schema_extra={"example": 0.12}
     )
-    coverage: Optional[float] = Field(
-        None,
+    coverage: float = Field(
+        ...,
         description="Покрытие (0-1, выше лучше)",
         json_schema_extra={"example": 0.78}
     )

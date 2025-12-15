@@ -249,13 +249,6 @@ components:
           title: Modularity
           description: Модулярность (0-1, выше лучше)
           example: 0.45
-        silhouette:
-          anyOf:
-          - type: number
-          - type: 'null'
-          title: Silhouette
-          description: Силуэтный коэффициент (-1 до 1, выше лучше)
-          example: 0.67
         conductance:
           anyOf:
           - type: number

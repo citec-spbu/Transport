@@ -36,7 +36,7 @@ def test_cluster_success(monkeypatch, method, cluster_id):
         def process(self, ctx):
             return {
                 "nodes": [{"id": "n1", "name": "Node1", "cluster_id": cluster_id, "coordinates": [30.0, 60.0]}],
-                "statistics": {"modularity": 0.5, "silhouette": 0.6, "conductance": 0.2, "coverage": 0.8}
+                "statistics": {"modularity": 0.5, "conductance": 0.2, "coverage": 0.8}
             }
 
     monkeypatch.setattr(analysis_mod, "AnalysisManager", DummyManager)
@@ -118,7 +118,7 @@ def test_empty_nodes(monkeypatch, endpoint, payload):
         def process(self, ctx): 
             return {
                 "nodes": [], 
-                "statistics": {"modularity": None, "silhouette": None, "conductance": None, "coverage": None}
+                "statistics": {"modularity": 0.0, "conductance": 0.0, "coverage": 0.0}
             }
 
     monkeypatch.setattr(analysis_mod, "AnalysisManager", DummyManager)

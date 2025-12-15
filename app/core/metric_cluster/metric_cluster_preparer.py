@@ -1,3 +1,5 @@
+import logging
+
 from app.core.context.analysis_context import AnalysisContext
 from app.core.metric_cluster.community_detection import Leiden, Louvain
 from app.core.metric_cluster.metrics_calculate import Betweenness, PageRank
@@ -138,22 +140,25 @@ class MetricClusterPreparer:
     # -------------------- Статистика кластеризации --------------------
 
     def _calculate_cluster_statistics(self) -> dict:
-        """Рассчитывает агрегированные показатели качества кластеризации."""
+        """Рассчитывает агрегированные показатели качества кластеризации.
+
+        Возвращает словарь с метриками: модульность, проводимость и покрытие. 
+        При ошибке возвращает -1.0 для каждой метрики.
+        """
         detector = self.leiden if self.leiden else self.louvain
-        
+
         if not detector:
-            return {
-                "modularity": None,
-                "silhouette": None,
-                "conductance": None,
-                "coverage": None
-            }
-        
+            raise ValueError("Cluster detector is not initialized; run clustering first")
+
         detector.graph_name = self.ctx.graph_name
-        
-        return {
-            "modularity": detector.calculate_modularity(),
-            "silhouette": detector.calculate_silhouette(),
-            "conductance": detector.calculate_conductance(),
-            "coverage": detector.calculate_coverage()
-        }
+
+        try:
+            return {
+                "modularity": detector.calculate_modularity(),
+                "conductance": detector.calculate_conductance(),
+                "coverage": detector.calculate_coverage()
+            }
+        except Exception:
+            logger = logging.getLogger(__name__)
+            logger.exception("Error calculating cluster statistics")
+            raise

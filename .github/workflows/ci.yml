@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main, backend_endpoints, frontend, work_with_test ]
   pull_request:
-    branches: [ main, backend_endpoints, work_with_test ]
+    branches: [ main ]
 
 jobs:
   unit-tests:
@@ -36,8 +36,15 @@ jobs:
       - name: Add project to PYTHONPATH
         run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
 
-      - name: Run unit tests
-        run: pytest -q -m "not integration"
+      - name: Run unit tests with coverage
+        run: |
+          pytest -q -m "not integration" --cov=app --cov-report=term --cov-report=html
+
+      - name: Upload HTML coverage report
+        uses: actions/upload-artifact@v3
+        with:
+          name: unit-test-coverage-html
+          path: htmlcov/
 
   docker-build:
     name: Build Docker image
@@ -80,18 +87,21 @@ jobs:
           pip install -r requirements-test.txt
 
       - name: Set NO_NEO4J flag
-        run: |
-          echo "NO_NEO4J=true" >> $GITHUB_ENV
+        run: echo "NO_NEO4J=true" >> $GITHUB_ENV
 
-      - name: Run integration tests
+      - name: Run integration tests with coverage
         run: |
           echo "Checking for integration tests..."
-          # Count collected integration tests (marker based)
           count=$(pytest --collect-only -m integration | grep "<Function")
           if [ "$count" -eq 0 ]; then
-            echo "No integration tests found; skipping.";
-            exit 0;
+            echo "No integration tests found; skipping."
+            exit 0
           fi
           echo "Found $count integration tests; running..."
-          pytest -q -m integration
+          pytest -q -m integration --cov=app --cov-append --cov-report=term --cov-report=html
 
+      - name: Upload HTML coverage report
+        uses: actions/upload-artifact@v3
+        with:
+          name: integration-test-coverage-html
+          path: htmlcov/

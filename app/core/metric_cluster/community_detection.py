@@ -1,5 +1,7 @@
 from app.database.neo4j_connection import Neo4jConnection
 import logging
+from collections import defaultdict
+from math import sqrt
 
 logger = logging.getLogger(__name__)
 
@@ -55,11 +57,11 @@ class CommunityDetection:
     def _get_metric(self, query: str) -> float:
         """Выполняет запрос метрики и возвращает значение.
 
-        Безопасно проверяет структуру результата и возвращает 0.0
-        при ошибке или пустом результате.
+        Бросает исключение при отсутствии graph_name, пустом результате
+        или ошибке выполнения запроса.
         """
         if not self.graph_name:
-            return 0.0
+            raise ValueError("graph_name is not set; run detect_communities first")
 
         try:
             result = self.connection.run(query)
@@ -73,43 +75,52 @@ class CommunityDetection:
             ):
                 return float(result[0][0])
 
-            return 0.0
+            raise ValueError("Metric query returned empty result")
 
         except Exception:
             logger.exception("Error executing metric query")
-            return 0.0
+            raise
 
     def calculate_modularity(self) -> float:
         """Возвращает значение модульности кластеризации."""
-        query = (
-            f"CALL gds.{self.algorithm_name}.stats('{self.graph_name}') "
-            f"YIELD modularity RETURN modularity"
-        )
-        return self._get_metric(query)
-
-    def calculate_silhouette(self) -> float:
-        """Возвращает значение коэффициента силуэта."""
-        query = f"""
-            CALL gds.{self.algorithm_name}.stats(
-                '{self.graph_name}',
-                {{ computeSilhouette: true }}
+        try:
+            query = (
+                f"CALL gds.{self.algorithm_name}.stats('{self.graph_name}') "
+                f"YIELD modularity RETURN modularity"
             )
-            YIELD silhouette
-            RETURN silhouette
-        """
-        return self._get_metric(query)
+            return self._get_metric(query)
+        except Exception:
+            logger.exception("Error calculating modularity")
+            raise
 
     def calculate_conductance(self) -> float:
-        """Возвращает среднюю проводимость сообществ."""
-        query = f"""
-            CALL gds.conductance.stream(
-                '{self.graph_name}',
-                {{ communityProperty: '{self.property_name}' }}
-            )
-            YIELD conductance
-            RETURN AVG(conductance) AS avg_conductance
+        """Возвращает оценку проводимости сообществ.
+
+        Рассчитывает как отношение внешних рёбер к общему числу рёбер.
         """
-        return self._get_metric(query)
+        try:
+            query = f"""
+                MATCH (n)-[r]-(m)
+                WHERE n.{self.property_name} IS NOT NULL
+                WITH
+                    n.{self.property_name} AS community,
+                    CASE
+                        WHEN n.{self.property_name} = m.{self.property_name}
+                        THEN 0 ELSE 1
+                    END AS is_external,
+                    r
+                WITH
+                    community,
+                    sum(is_external) AS external_edges,
+                    count(r) AS total_edges
+                WHERE total_edges > 0
+                RETURN
+                    AVG(toFloat(external_edges) / total_edges) AS avg_conductance
+            """
+            return self._get_metric(query)
+        except Exception:
+            logger.exception("Error calculating conductance")
+            raise
 
     def calculate_coverage(self) -> float:
         """Возвращает среднее значение coverage по сообществам.
@@ -117,24 +128,29 @@ class CommunityDetection:
         Coverage определяется как отношение числа внутренних рёбер
         сообщества к общему числу рёбер, инцидентных его вершинам.
         """
-        query = f"""
-            MATCH (n)-[r]-(m)
-            WHERE n.{self.property_name} IS NOT NULL
-            WITH
-                n.{self.property_name} AS community,
-                CASE
-                    WHEN n.{self.property_name} = m.{self.property_name}
-                    THEN 1 ELSE 0
-                END AS is_internal
-            WITH
-                community,
-                sum(is_internal) AS internal_edges,
-                count(r) AS total_edges
-            WHERE total_edges > 0
-            RETURN
-                AVG(toFloat(internal_edges) / total_edges) AS avg_coverage
-        """
-        return self._get_metric(query)
+        try:
+            query = f"""
+                MATCH (n)-[r]-(m)
+                WHERE n.{self.property_name} IS NOT NULL
+                WITH
+                    n.{self.property_name} AS community,
+                    CASE
+                        WHEN n.{self.property_name} = m.{self.property_name}
+                        THEN 1 ELSE 0
+                    END AS is_internal,
+                    r
+                WITH
+                    community,
+                    sum(is_internal) AS internal_edges,
+                    count(r) AS total_edges
+                WHERE total_edges > 0
+                RETURN
+                    AVG(toFloat(internal_edges) / total_edges) AS avg_coverage
+            """
+            return self._get_metric(query)
+        except Exception:
+            logger.exception("Error calculating coverage")
+            raise
 
 
 class Leiden(CommunityDetection):
