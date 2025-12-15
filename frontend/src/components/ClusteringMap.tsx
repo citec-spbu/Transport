@@ -1,7 +1,7 @@
-import Card from "./ui/Card";
 import React, { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import Card from "./ui/Card";
 
 type ApiClusterNode = {
   id: string;
@@ -25,59 +25,120 @@ interface Props {
   clusterType: "leiden" | "louvain";
 }
 
+// --- Компонент ClusteringMap ---
 const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
   const mapRef = useRef<HTMLDivElement | null>(null);
   const leafletMap = useRef<L.Map | null>(null);
+  const markersLayer = useRef<L.LayerGroup | null>(null);
+  const initialBoundsRef = useRef<L.LatLngBounds | null>(null);
 
   const [nodes, setNodes] = useState<GraphNode[]>([]);
   const [communities, setCommunities] = useState<
     Map<number, { color: string; count: number }>
   >(new Map());
-  const [error, setError] = useState<string>("");
+
   const [showLegend, setShowLegend] = useState(false);
+
+  const [error, setError] = useState<string>("");
 
   useEffect(() => {
     try {
-      const processedNodes = data.nodes.map((node) => {
-        return {
-          id: node.id,
-          name: node.name,
-          lat: node.coordinates[1],
-          lon: node.coordinates[0],
-          clusterId: node.cluster_id,
-        };
-      });
-
+      const processedNodes = data.nodes.map((node) => ({
+        id: node.id,
+        name: node.name,
+        lat: node.coordinates[1], // Latitude
+        lon: node.coordinates[0], // Longitude
+        clusterId: node.cluster_id,
+      }));
       setNodes(processedNodes);
     } catch (err: any) {
       setError(err.message || "Error processing data");
     }
-  }, [data, clusterType]);
+  }, [data]);
 
-  // Leaflet render
   useEffect(() => {
-    if (!mapRef.current || nodes.length === 0) return;
+    if (!mapRef.current || leafletMap.current) return;
 
-    if (!leafletMap.current) {
-      const firstNode = nodes[0];
-      leafletMap.current = L.map(mapRef.current).setView(
-        [firstNode.lat, firstNode.lon],
-        11
-      );
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution: "© OpenStreetMap contributors",
-      }).addTo(leafletMap.current);
-    }
+    const map = L.map(mapRef.current, {
+      zoomControl: true,
+      attributionControl: false,
+    }).setView([0, 0], 2);
 
-    const map = leafletMap.current;
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "© OpenStreetMap contributors",
+    }).addTo(map);
 
-    map.eachLayer((layer) => {
-      if (layer instanceof L.TileLayer) return;
-      map.removeLayer(layer);
+    markersLayer.current = L.layerGroup().addTo(map);
+    leafletMap.current = map;
+
+    const ResetControl = L.Control.extend({
+      onAdd: function (map: L.Map) {
+        const container = L.DomUtil.create(
+          "div",
+          "leaflet-bar leaflet-control leaflet-control-center"
+        );
+
+        const btn = L.DomUtil.create("a", "", container);
+        btn.href = "#";
+        btn.title = "Центрировать карту";
+
+        btn.innerHTML = `<svg
+          xmlns="www.w3.org"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="7"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="23" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="12" x2="1" y2="12"></line>
+        </svg>`;
+
+        // Дополнительные стили для SVG внутри кнопки, чтобы она выглядела как в примере Heatmap
+        btn.style.display = "flex";
+        btn.style.alignItems = "center";
+        btn.style.justifyContent = "center";
+        btn.style.width = "30px";
+        btn.style.height = "30px";
+
+        L.DomEvent.on(btn, "click", (e) => {
+          L.DomEvent.stopPropagation(e);
+          L.DomEvent.preventDefault(e);
+          if (initialBoundsRef.current) {
+            map.fitBounds(initialBoundsRef.current, { padding: [30, 30] });
+          }
+        });
+
+        return container;
+      },
     });
 
-    // Генерация цветов
+    new ResetControl({ position: "topleft" }).addTo(map);
+
+    return () => {
+      if (leafletMap.current) {
+        leafletMap.current.remove();
+        leafletMap.current = null;
+      }
+    };
+  }, []);
+
+  const firstFit = useRef(true);
+  useEffect(() => {
+    if (!leafletMap.current || !markersLayer.current) return;
+
+    const map = leafletMap.current;
+    const layer = markersLayer.current;
+
+    layer.clearLayers();
+
     const communityColors = new Map<number, string>();
     const getColorForCommunity = (comm: number): string => {
       if (!communityColors.has(comm)) {
@@ -96,12 +157,16 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
     });
     setCommunities(communityStats);
 
-    // Узлы
-    nodes.forEach((n) => {
+    const markers = nodes.map((n) => {
       const color = getColorForCommunity(n.clusterId);
-      const radius = 6;
-
-      const popupContent = `
+      return L.circleMarker([n.lat, n.lon], {
+        radius: 6,
+        color: "#000",
+        weight: 0,
+        fillColor: color,
+        fillOpacity: 0.9,
+      }).bindPopup(
+        `
         <div style="font-family: sans-serif;">
           <div style="font-weight: bold; margin-bottom: 4px;">${
             n.name || n.id
@@ -109,84 +174,71 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
           <div>Cluster: ${n.clusterId}</div>
           <div>Type: ${clusterType}</div>
         </div>
-      `;
-
-      L.circleMarker([n.lat, n.lon], {
-        radius,
-        color: "#000",
-        weight: 0,
-        fillColor: color,
-        fillOpacity: 0.9,
-      })
-        .bindPopup(popupContent)
-        .addTo(map);
+      `
+      );
     });
 
-    const bounds = nodes
-      .filter((n) => n.lat != null && n.lon != null)
-      .map((n) => [n.lat, n.lon] as L.LatLngTuple);
+    const group = L.featureGroup(markers);
+    group.addTo(layer);
 
-    if (bounds.length > 0) {
-      map.fitBounds(bounds, { padding: [30, 30] });
+    if (firstFit.current && nodes.length > 0) {
+      const bounds = group.getBounds();
+
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { padding: [30, 30] });
+        initialBoundsRef.current = bounds;
+        firstFit.current = false;
+      }
     }
   }, [nodes, clusterType]);
 
   if (error) return <div className="p-4 text-red-600">Error: {error}</div>;
 
   return (
-    <div className="w-full h-screen flex flex-col relative">
-      <div className="p-4 flex justify-between gap-3">
-        {/* информация Nodes */}
-        <div className="flex gap-3">
-          {nodes.length > 0 && (
-            <Card className="p-2">
-              <div className="text-xs text-gray-600">
-                <span className="font-semibold">Nodes:</span> {nodes.length}
-              </div>
-            </Card>
-          )}
-          {communities.size > 0 && (
-            <Card className="p-2">
-              <div className="text-xs text-gray-600">
-                <span className="font-semibold">Clusters:</span>{" "}
-                {communities.size}
-              </div>
-            </Card>
-          )}
+    <div className="w-full h-full relative">
+      <div className="absolute bottom-4 left-4 z-2000 pointer-events-auto flex flex-col-reverse gap-2">
+        {/* Кнопка легенды */}
+        <button
+          onClick={() => setShowLegend((p) => !p)}
+          className="px-3 py-1.5 text-xs bg-white rounded-lg shadow-md hover:bg-gray-50 transition w-fit"
+        >
+          {showLegend ? "Скрыть легенду" : "Показать легенду"}
+        </button>
 
-        </div>
-        {/* кнопка показать легенду */}
-        <div>
-          <button
-            onClick={() => setShowLegend((prev) => !prev)}
-            className="px-3 py-1.5 text-sm bg-[#003A8C] text-white rounded-md shadow-sm"
-          >
-            {showLegend ? "Скрыть легенду" : "Показать легенду"}
-          </button>
-        </div>
+        {/* Легенда */}
+        {showLegend && communities.size > 0 && (
+  
+        <Card className="text-xs p-3 ">
+            <div className="font-semibold mb-2">
+              Communities ({clusterType})
+            </div>
+
+            <div className="grid grid-cols-3 gap-x-3 gap-y-1">
+              {Array.from(communities.entries())
+                .sort((a, b) => a[0] - b[0])
+                .map(([comm, { color, count }]) => (
+                  <div
+                    key={comm}
+                    className="flex items-center gap-1.5 whitespace-nowrap"
+                  >
+                    <span
+                      className="w-3 h-3 rounded-sm shrink-0"
+                      style={{ backgroundColor: color }}
+                    />
+                    <span className="text-gray-700">
+                      {comm} ({count})
+                    </span>
+                  </div>
+                ))}
+            </div> 
+          </Card>
+  
+         
+        )}
       </div>
 
       {/* Карта */}
-      <div ref={mapRef} className="flex-1 relative">
-        {showLegend && communities.size > 0 && (
-          <div className="absolute bottom-4 right-4 bg-white p-3 rounded-lg shadow-lg z-1000 text-sm border border-[#E0E6EA]">
-            <div className="font-bold mb-2">Communities ({clusterType})</div>
-            {Array.from(communities.entries())
-              .sort((a, b) => a[0] - b[0])
-              .map(([comm, { color, count }]) => (
-                <div key={comm} className="flex items-center gap-2 mb-1">
-                  <span
-                    className="w-3 h-3 border border-black"
-                    style={{ backgroundColor: color }}
-                  />
-                  <span>
-                    Cluster {comm} ({count})
-                  </span>
-                </div>
-              ))}
-          </div>
-        )}
-      </div>
+      <div ref={mapRef} className="w-full h-full z-0" />
     </div>
   );
 };

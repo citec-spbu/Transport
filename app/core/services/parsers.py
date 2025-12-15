@@ -40,6 +40,7 @@ session.mount("https://", adapter)
 
 class AbstractTransportGraphParser:
     def __init__(self, city_name):
+        """Инициализирует парсер для указанного города."""
         self.city_name = city_name
         self.city_url = self.__get_city_url()
         self.nodes = {}
@@ -56,6 +57,7 @@ class AbstractTransportGraphParser:
 
     # === Main Method ===
     def parse(self, use_cache=True):
+        """Парсит все маршруты города и формирует граф."""
         if not self.city_url:
             print(f"[ERROR] City URL for '{self.city_name}' not found. Aborting.")
             return None, None
@@ -101,6 +103,7 @@ class AbstractTransportGraphParser:
 
     # === Single Route Processing ===
     def __parse_single_route(self, route_number, route_url):
+        """Парсит один маршрут: расписание, координаты, узлы и связи."""
         timetable, success = self.get_timetable(route_url)
 
         if not success or not timetable:
@@ -173,6 +176,7 @@ class AbstractTransportGraphParser:
 
     # === Coordinate Helpers ===
     def __get_filled_coordinate(self, stop_coordinates, stop_name, last_coordinate):
+        """Возвращает координату остановки, при отсутствии берёт предыдущую."""
         coordinate = stop_coordinates.get(stop_name)
         if coordinate is None or not coordinate.is_defined():
             if last_coordinate is None:
@@ -183,10 +187,12 @@ class AbstractTransportGraphParser:
 
     # === Caching Logic ===
     def __get_route_path(self, route_number):
+        """Строит путь к файлу кеша для маршрута."""
         safe_name = re.sub(r"[^a-zA-Zа-яА-Я0-9_-]", "_", route_number)
         return os.path.join(self.city_dir, f"{safe_name}.json")
 
     def __is_cache_fresh(self, path):
+        """Проверяет, не устарел ли кеш по пути."""
         if not os.path.exists(path):
             return False
         mtime = os.path.getmtime(path)
@@ -196,11 +202,13 @@ class AbstractTransportGraphParser:
         return age_in_days <= CACHE_EXPIRE_DAYS
 
     def __save_json(self, path, data):
+        """Сохраняет данные в JSON по указанному пути."""
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
     def __merge_route_data(self, route_data):
+        """Объединяет узлы и связи маршрута с общими структурами."""
         for name, node in route_data.get("nodes", {}).items():
             if name not in self.nodes:
                 self.nodes[name] = node
@@ -215,6 +223,7 @@ class AbstractTransportGraphParser:
 
     # === City URL Management ===
     def __get_city_url(self):
+        """Возвращает URL страницы города, используя кеш или парсинг."""
         cache_path = os.path.join(CITY_CACHE_DIR, "city_urls.json")
         cities = self.load_cache(cache_path)
         if not cities:
@@ -226,6 +235,7 @@ class AbstractTransportGraphParser:
         return cities.get(self.city_name)
 
     def parse_all_city_urls(self):
+        """Парсит список всех городов и их относительные URL."""
         print(f"[INFO] Parsing all city URLs from {SITE_URL}...")
         try:
             response = session.get(SITE_URL, timeout=15)
@@ -272,6 +282,7 @@ class AbstractTransportGraphParser:
         return cities
 
     def __check_and_find_unique_stop(self, name, coord, node_map):
+        """Проверяет уникальность остановки и при необходимости добавляет суффикс."""
         is_new = True
         original_name = name
         suffix = 1
@@ -288,6 +299,7 @@ class AbstractTransportGraphParser:
 
     # === Site Parsing Logic ===
     def get_all_routes_info(self):
+        """Возвращает список маршрутов: номер, имя и URL."""
         full_url = urljoin(SITE_URL, self.city_url + self.transport_url)
         try:
             response = session.get(full_url, timeout=10)
@@ -301,7 +313,9 @@ class AbstractTransportGraphParser:
         return [[i.text.strip(), i.find("span").text.strip(), i["href"]] for i in items]
 
     def get_timetable(self, route_url):
+        """Получает расписание для маршрута в обоих направлениях."""
         def parse_dir(suffix):
+            """Парсит расписание для указанного направления (A/B)."""
             full_url = urljoin(SITE_URL, route_url + suffix)
             try:
                 resp = session.get(full_url, timeout=10)
@@ -333,6 +347,7 @@ class AbstractTransportGraphParser:
         return (combined, True) if combined else (None, False)
 
     def get_stop_coordinates(self, route_url):
+        """Извлекает координаты остановок из страницы карты маршрута."""
         full_url = urljoin(SITE_URL, route_url + MAP_URL)
         try:
             response = session.get(full_url, timeout=10)
@@ -364,18 +379,21 @@ class AbstractTransportGraphParser:
 
     # === Utility Methods ===
     def load_cache(self, path):
+        """Загружает данные из кеша, если он актуален."""
         if self.__is_cache_fresh(path):
             with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
         return {}
 
     def save_cache(self, path, data):
+        """Сохраняет словарь в кеш по указанному пути."""
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
     # === Math Helpers ===
     def calculate_duration(self, start, end):
+        """Считает длительность в минутах между двумя точками времени."""
         try:
             h1, m1 = map(int, start.split(":"))
             h2, m2 = map(int, end.split(":"))
@@ -394,6 +412,7 @@ class AbstractTransportGraphParser:
             return False
 
     def are_stops_same(self, c1, c2, tol=0.005):
+        """Проверяет близость координат остановок с заданной точностью."""
         if not c1.is_defined() or not c2.is_defined():
             return False
         return math.dist(c1.get_xy(), c2.get_xy()) < tol
@@ -407,47 +426,59 @@ class AbstractTransportGraphParser:
 # === Concrete Implementations ===
 class BusGraphParser(AbstractTransportGraphParser):
     def get_transport_url(self):
+        """Возвращает относительный URL раздела автобусов."""
         return "bus/"
 
     def get_transport_class(self):
+        """CSS-класс элементов списка автобусных маршрутов."""
         return "bus-item bus-icon"
 
 
 class TrolleyGraphParser(AbstractTransportGraphParser):
     def get_transport_url(self):
+        """Возвращает относительный URL раздела троллейбусов."""
         return "trolley/"
 
     def get_transport_class(self):
+        """CSS-класс элементов списка троллейбусных маршрутов."""
         return "bus-item trolley-icon"
 
 
 class MiniBusGraphParser(AbstractTransportGraphParser):
     def get_transport_url(self):
+        """Возвращает относительный URL раздела маршрутных такси."""
         return "mtaxi/"
 
     def get_transport_class(self):
+        """CSS-класс элементов списка маршрутов маршрутных такси."""
         return "bus-item mtaxi-icon"
 
 
 class TramGraphParser(AbstractTransportGraphParser):
     def get_transport_url(self):
+        """Возвращает относительный URL раздела трамваев."""
         return "tram/"
 
     def get_transport_class(self):
+        """CSS-класс элементов списка трамвайных маршрутов."""
         return "bus-item tram-icon"
 
 
 class Coordinate:
     def __init__(self, x=None, y=None, is_approximate=False):
+        """Создаёт координату с признаком приблизительности."""
         self.x = x
         self.y = y
         self.is_approximate = is_approximate
 
     def __str__(self):
+        """Строковое представление координаты."""
         return f"Coordinate(x={self.x}, y={self.y}, approx={self.is_approximate})"
 
     def is_defined(self):
+        """Проверяет, заданы ли обе координаты (x, y)."""
         return self.x is not None and self.y is not None
 
     def get_xy(self):
+        """Возвращает координаты как список [x, y]."""
         return [self.x, self.y]
