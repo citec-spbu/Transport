@@ -41,7 +41,7 @@ jobs:
           pytest -q -m "not integration" --cov=app --cov-report=term --cov-report=html
 
       - name: Upload HTML coverage report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: unit-test-coverage-html
           path: htmlcov/
@@ -101,7 +101,7 @@ jobs:
           pytest -q -m integration --cov=app --cov-append --cov-report=term --cov-report=html
 
       - name: Upload HTML coverage report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: integration-test-coverage-html
           path: htmlcov/
