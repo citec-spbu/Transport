@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import Card from "./ui/Card";
-
 type ApiClusterNode = {
   id: string;
   name: string;
@@ -33,11 +32,17 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
   const initialBoundsRef = useRef<L.LatLngBounds | null>(null);
 
   const [nodes, setNodes] = useState<GraphNode[]>([]);
+  //   const [communities, setCommunities] = useState<
+  // const [setCommunities] = useState<
+  //   Map<number, { color: string; count: number }>
+  // >(new Map());
   const [communities, setCommunities] = useState<
     Map<number, { color: string; count: number }>
   >(new Map());
-  const [error, setError] = useState<string>("");
+
   const [showLegend, setShowLegend] = useState(false);
+
+  const [error, setError] = useState<string>("");
 
   useEffect(() => {
     try {
@@ -106,12 +111,10 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
         btn.style.width = "30px";
         btn.style.height = "30px";
 
-
         L.DomEvent.on(btn, "click", (e) => {
           L.DomEvent.stopPropagation(e);
           L.DomEvent.preventDefault(e);
           if (initialBoundsRef.current) {
-
             map.fitBounds(initialBoundsRef.current, { padding: [30, 30] });
           }
         });
@@ -120,7 +123,6 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
       },
     });
 
-   
     new ResetControl({ position: "topleft" }).addTo(map);
 
     return () => {
@@ -130,7 +132,6 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
       }
     };
   }, []);
-
 
   const firstFit = useRef(true);
   useEffect(() => {
@@ -180,17 +181,15 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
       );
     });
 
- 
     const group = L.featureGroup(markers);
     group.addTo(layer);
-
 
     if (firstFit.current && nodes.length > 0) {
       const bounds = group.getBounds();
 
       if (bounds.isValid()) {
         map.fitBounds(bounds, { padding: [30, 30] });
-        initialBoundsRef.current = bounds; 
+        initialBoundsRef.current = bounds;
         firstFit.current = false;
       }
     }
@@ -199,8 +198,51 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
   if (error) return <div className="p-4 text-red-600">Error: {error}</div>;
 
   return (
+    <div className="w-full h-full relative">
+      <div className="absolute bottom-4 left-4 z-2000 pointer-events-auto flex flex-col-reverse gap-2">
+        {/* Кнопка легенды */}
+        <button
+          onClick={() => setShowLegend((p) => !p)}
+          className="px-3 py-1.5 text-xs bg-white rounded-lg shadow-md hover:bg-gray-50 transition w-fit"
+        >
+          {showLegend ? "Скрыть легенду" : "Показать легенду"}
+        </button>
+
+        {/* Легенда */}
+        {showLegend && communities.size > 0 && (
   
-    <div ref={mapRef} className="w-full h-full" />
+        <Card className="text-xs p-3 ">
+            <div className="font-semibold mb-2">
+              Communities ({clusterType})
+            </div>
+
+            <div className="grid grid-cols-3 gap-x-3 gap-y-1">
+              {Array.from(communities.entries())
+                .sort((a, b) => a[0] - b[0])
+                .map(([comm, { color, count }]) => (
+                  <div
+                    key={comm}
+                    className="flex items-center gap-1.5 whitespace-nowrap"
+                  >
+                    <span
+                      className="w-3 h-3 rounded-sm shrink-0"
+                      style={{ backgroundColor: color }}
+                    />
+                    <span className="text-gray-700">
+                      {comm} ({count})
+                    </span>
+                  </div>
+                ))}
+            </div> 
+          </Card>
+  
+         
+        )}
+      </div>
+
+      {/* Карта */}
+      <div ref={mapRef} className="w-full h-full z-0" />
+    </div>
   );
 };
 

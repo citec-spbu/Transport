@@ -29,42 +29,16 @@ export default function ClusterStatsCard({ stats }: Props) {
         Качество кластеризации
       </div>
 
-      <StatRow
-        label="Модулярность"
-        value={format(stats.modularity)}
-        hint="Чем выше тем лучше"
-      />
+      <StatRow label="Модулярность" value={format(stats.modularity)} />
 
-      <StatRow
-        label="Силуэтный коэффициент"
-        value={format(stats.silhouette)}
-        hint="Чем выше тем лучше"
-      />
+      <StatRow label="Проводимость" value={format(stats.conductance)} />
 
-      <StatRow
-        label="Проводимость"
-        value={format(stats.conductance)}
-        hint="Чем ниже тем лучше"
-      />
-
-      <StatRow
-        label="Покрытие"
-        value={format(stats.coverage)}
-        hint="Чем выше тем лучше"
-      />
+      <StatRow label="Покрытие" value={format(stats.coverage)} />
     </Card>
   );
 }
 
-function StatRow({
-  label,
-  value,
-  hint,
-}: {
-  label: string;
-  value: string;
-  hint: string;
-}) {
+function StatRow({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex justify-between items-center text-[11px]">
       <div className="text-gray-600">{label}</div>
