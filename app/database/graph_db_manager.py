@@ -25,23 +25,23 @@ class GraphDBManager(ABC):
         analysis_context.db_graph_parameters.weight = self.get_weight()
 
     @abstractmethod
-    def get_graph(self):
+    def get_graph(self):  # pragma: no cover
         pass
 
     @abstractmethod
-    def get_weight(self) -> str:
+    def get_weight(self) -> str:  # pragma: no cover
         pass
 
     @abstractmethod
-    def get_main_node_name(self) -> str:
+    def get_main_node_name(self) -> str:  # pragma: no cover
         pass
 
     @abstractmethod
-    def get_main_rels_name(self) -> str:
+    def get_main_rels_name(self) -> str:  # pragma: no cover
         pass
 
     @abstractmethod
-    def node_geometry_identity(self) -> str:
+    def node_geometry_identity(self) -> str:  # pragma: no cover
         pass
 
 
@@ -50,31 +50,31 @@ class OneTypeNodeDBManager(GraphDBManager):
         super().__init__(analysis_context)
 
     @abstractmethod
-    def get_bd_all_node_query_graph(self) -> str:
+    def get_bd_all_node_query_graph(self) -> str:  # pragma: no cover
         pass
 
     @abstractmethod
-    def get_bd_all_rels_query_graph(self) -> str:
+    def get_bd_all_rels_query_graph(self) -> str:  # pragma: no cover
         pass
 
     @abstractmethod
-    def get_node_name(self) -> str:
+    def get_node_name(self) -> str:  # pragma: no cover
         pass
 
     @abstractmethod
-    def get_rels_name(self) -> str:
+    def get_rels_name(self) -> str:  # pragma: no cover
         pass
 
     @abstractmethod
-    def get_constraint_list(self) -> List[str]:
+    def get_constraint_list(self) -> List[str]:  # pragma: no cover
         pass
 
     @abstractmethod
-    def create_node_query(self) -> str:
+    def create_node_query(self) -> str:  # pragma: no cover
         pass
 
     @abstractmethod
-    def create_relationships_query(self) -> str:
+    def create_relationships_query(self) -> str:  # pragma: no cover
         pass
 
     def update_db(self, city_name):

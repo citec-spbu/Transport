@@ -3,6 +3,14 @@ from app.core.metric_cluster.community_detection import CommunityDetection, Leid
 from app.database import neo4j_connection
 
 
+@pytest.fixture(autouse=True)
+def patch_neo4j_conn(monkeypatch):
+    """Отключает реальное подключение Neo4j в тестах."""
+    def fake_init(self):
+        self.driver = None
+    monkeypatch.setattr(neo4j_connection.Neo4jConnection, "__init__", fake_init)
+
+
 class TestCommunityDetection:
     """Тесты для базового класса CommunityDetection и его подклассов."""
 
@@ -71,7 +79,7 @@ class TestCommunityDetection:
     def test_get_metric_returns_float_value(self, monkeypatch):
         """Проверяет, что _get_metric возвращает корректное значение."""
         def fake_run(self, query, parameters=None):
-            return [[[0.75]]]  # Nested structure as returned by Neo4j
+            return [[0.75]]
 
         monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
 
@@ -84,7 +92,7 @@ class TestCommunityDetection:
     def test_calculate_modularity_success(self, monkeypatch):
         """Проверяет успешный расчёт модульности."""
         def fake_run(self, query, parameters=None):
-            return [[[0.65]]]
+            return [[0.65]]
 
         monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
 
@@ -110,7 +118,7 @@ class TestCommunityDetection:
     def test_calculate_conductance_success(self, monkeypatch):
         """Проверяет успешный расчёт проводимости."""
         def fake_run(self, query, parameters=None):
-            return [[[0.12]]]
+            return [[0.12]]
 
         monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
 
@@ -136,7 +144,7 @@ class TestCommunityDetection:
     def test_calculate_coverage_success(self, monkeypatch):
         """Проверяет успешный расчёт покрытия."""
         def fake_run(self, query, parameters=None):
-            return [[[0.88]]]
+            return [[0.88]]
 
         monkeypatch.setattr(neo4j_connection.Neo4jConnection, 'run', fake_run)
 

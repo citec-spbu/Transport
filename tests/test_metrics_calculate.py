@@ -9,7 +9,7 @@ class TestMetricsCalculate:
     def test_pagerank_initialization(self):
         """Проверяет инициализацию PageRank с правильными параметрами."""
         pr = PageRank()
-        assert pr.metric_name == "pagerank"
+        assert pr.metric_name == "pageRank"  # совпадает с GDS процедурой
         assert pr.write_property == "pagerank"
 
     def test_betweenness_initialization(self):
