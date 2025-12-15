@@ -45,7 +45,6 @@ function StatRow({ label, value }: { label: string; value: string }) {
 
       <div className="flex items-center gap-2">
         <span className="text-gray-900 font-medium">{value}</span>
-        <span className="text-gray-400 text-[10px]">{hint}</span>
       </div>
     </div>
   );

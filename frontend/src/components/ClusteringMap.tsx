@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import Card from "./ui/Card";
 
 type ApiClusterNode = {
   id: string;
@@ -32,7 +33,7 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
   const initialBoundsRef = useRef<L.LatLngBounds | null>(null);
 
   const [nodes, setNodes] = useState<GraphNode[]>([]);
-  const [communities] = useState<
+  const [communities, setCommunities] = useState<
     Map<number, { color: string; count: number }>
   >(new Map());
 
@@ -147,6 +148,15 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
       return communityColors.get(comm)!;
     };
 
+    const communityStats = new Map<number, { color: string; count: number }>();
+    nodes.forEach((n) => {
+      const color = getColorForCommunity(n.clusterId);
+      const current = communityStats.get(n.clusterId);
+      if (current) current.count++;
+      else communityStats.set(n.clusterId, { color, count: 1 });
+    });
+    setCommunities(communityStats);
+
     const markers = nodes.map((n) => {
       const color = getColorForCommunity(n.clusterId);
       return L.circleMarker([n.lat, n.lon], {
@@ -173,6 +183,7 @@ const ClusteringMap: React.FC<Props> = ({ data, clusterType }) => {
 
     if (firstFit.current && nodes.length > 0) {
       const bounds = group.getBounds();
+
       if (bounds.isValid()) {
         map.fitBounds(bounds, { padding: [30, 30] });
         initialBoundsRef.current = bounds;
