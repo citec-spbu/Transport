@@ -61,11 +61,9 @@ sudo apt install git
 ### 3. Клонировать репозиторий
 
 ```bash
-git clone <URL_РЕПОЗИТОРИЯ>
-cd transit-analysis
+git clone https://github.com/citec-spbu/Transport.git
+cd Transport
 ```
-
-Замените `<URL_РЕПОЗИТОРИЯ>` на ссылку на репозиторий проекта.
 
 ### 4. Установить Docker и Docker Compose (если не установлены)
 
@@ -197,3 +195,4 @@ curl -s -X POST "http://127.0.0.1:8050/v1/analysis/metric" \
   -H "Content-Type: application/json" \
   -d '{"dataset_id":"<DATASET_ID>","metric":"pagerank"}' | jq
 ```
+
