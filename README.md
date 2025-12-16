@@ -10,6 +10,7 @@
 - `app/` — серверная часть с FastAPI + uvicorn (эндпоинты в `app/api`, логика в `app/core`, доступ к БД в `app/database`).
 - `cache/` — кешированные JSON файлы с маршрутами по городам.
 - `frontend/` — клиентская часть на React + TypeScript (Vite).
+- `tests/` — модульные (unit) тесты для backend (pytest).
 
 Стек используемых технологий
 ---
@@ -17,18 +18,89 @@
 - Визуализация и frontend: React, TypeScript, Vite, Leaflet + Chart.js.
 - База данных: Neo4j с Graph Data Science (GDS).
 - Контейнеризация: Docker + Docker Compose.
+- Тестирование: pytest (unit тесты).
+
+Перед началом работы
+---
+
+Для запуска проекта потребуется командная строка, Git и Docker.
+
+### 1. Открыть командную строку
+
+**Windows:** PowerShell или «Командная строка»
+
+**macOS / Linux:** Terminal
+
+### 2. Установить Git (если не установлен)
+
+Проверьте, установлен ли Git:
+
+```bash
+git --version
+```
+
+Если команды нет:
+
+**Windows:**
+скачайте и установите Git с официального сайта
+https://git-scm.com/download/win
+
+**macOS:**
+
+```bash
+brew install git
+```
+
+**Linux (Ubuntu/Debian):**
+
+```bash
+sudo apt update
+sudo apt install git
+```
+
+### 3. Клонировать репозиторий
+
+```bash
+git clone <URL_РЕПОЗИТОРИЯ>
+cd transit-analysis
+```
+
+Замените `<URL_РЕПОЗИТОРИЯ>` на ссылку на репозиторий проекта.
+
+### 4. Установить Docker и Docker Compose (если не установлены)
+
+Проверьте установку:
+
+```bash
+docker --version
+docker compose version
+```
+
+Если Docker отсутствует:
+
+**Windows / macOS:**
+установите Docker Desktop
+https://www.docker.com/products/docker-desktop/
+
+**Linux:**
+https://docs.docker.com/engine/install/
+
+После установки убедитесь, что Docker запущен.
 
 Быстрый старт
 ---
-1) Запуск через Docker Compose (рекомендуется):
+
+### 5. Запуск проекта одной командой
+
+В корневой папке проекта выполните:
 
 ```bash
 docker compose up --build
 ```
 
-2) Локальный запуск (без Docker)
+### 6. Альтернативный запуск (локально без Docker)
 
-Backend:
+**Backend:**
 
 ```bash
 python -m venv .venv
@@ -37,7 +109,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8050
 ```
 
-Frontend:
+**Frontend:**
 
 ```bash
 cd frontend
@@ -45,11 +117,43 @@ npm install
 npm run dev
 ```
 
-Доступ по умолчанию
+### 7. Открыть приложение в браузере
+
+После успешного запуска доступны:
+
+- **Frontend:** http://localhost:3000
+- **Backend API:** http://localhost:8050
+- **Neo4j Browser:** http://localhost:7474 (логин: `neo4j`, пароль: `hello123`)
+
+Запуск тестов
 ---
-- Backend API: `http://localhost:8050`
-- Neo4j Browser: `http://localhost:7474` (логин: `neo4j`, пароль: `hello123`)
-- Frontend: `http://localhost:3000`
+
+Для проверки корректности backend'а используются модульные (unit) тесты на pytest.
+
+**Запустить все тесты (локально):**
+
+```bash
+pip install -r requirements-test.txt
+pytest
+```
+
+**Запустить тесты в Docker:**
+
+```bash
+docker compose -f docker-compose.yaml exec app pytest
+```
+
+**Запустить конкретный тестовый файл:**
+
+```bash
+pytest tests/test_analysis_context.py -v
+```
+
+Тесты находятся в директории `tests/` и охватывают:
+- API эндпоинты (`test_*_endpoints.py`)
+- Логику анализа (`test_analysis_*.py`)
+- Работу с БД (`test_database_*.py`)
+- Алгоритмы кластеризации и метрик (`test_metrics_*.py`, `test_community_detection.py`)
 
 Переменные окружения
 ---
@@ -92,5 +196,4 @@ curl -s -X POST "http://127.0.0.1:8050/v1/analysis/cluster" \
 curl -s -X POST "http://127.0.0.1:8050/v1/analysis/metric" \
   -H "Content-Type: application/json" \
   -d '{"dataset_id":"<DATASET_ID>","metric":"pagerank"}' | jq
-
 ```
