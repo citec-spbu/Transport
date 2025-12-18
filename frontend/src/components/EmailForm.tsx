@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import PrimaryButton from "./PrimaryButton";
 
 interface EmailFormProps {
   onSubmit: (email: string) => void;
@@ -20,7 +21,7 @@ const EmailForm = ({ onSubmit, disabled }: EmailFormProps) => {
       <input
         {...register("email", { required: true, pattern: /^\S+@\S+\.\S+$/i })}
         placeholder="Введите email"
-        className="border p-2 rounded"
+        className="border p-3 rounded-4xl"
         disabled={disabled}
       />
       {errors.email && (
@@ -28,9 +29,11 @@ const EmailForm = ({ onSubmit, disabled }: EmailFormProps) => {
           {errors.email.type === 'required' ? 'Email обязателен' : 'Неверный формат email'}
         </span>
       )}
-      <button type="submit" disabled={disabled} className="bg-blue-600 text-white p-2 rounded">
-        Получить код
-      </button>
+      <div className="flex justify-end">
+        <PrimaryButton type="submit" className="w-full text-lg py-2">
+          Получить код
+        </PrimaryButton>
+      </div>
     </form>
   );
 };

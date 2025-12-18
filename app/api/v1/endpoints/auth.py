@@ -14,14 +14,23 @@ router = APIRouter()
 
 @router.post("/request_code", response_model=RequestCodeResponse)
 async def request_code(data: RequestCodeRequest, background_tasks: BackgroundTasks, db = Depends(get_db)):
-    code = "".join(secrets.choice(string.digits) for _ in range(6))
-    expires = datetime.now(timezone.utc) + timedelta(minutes=10)
 
-    # Создаём/обновляем пользователя (без verified)
+    user = await db.fetchrow(
+        "SELECT verified FROM users WHERE email = $1",
+        data.email
+    )
+
+    if user and user["verified"]:
+        return RequestCodeResponse(message="User already verified")
+
+    # Если пользователь новый или не подтверждён, создаём/обновляем запись
     await db.execute(
         "INSERT INTO users (email, verified) VALUES ($1, FALSE) ON CONFLICT (email) DO NOTHING",
         data.email
     )
+
+    code = "".join(secrets.choice(string.digits) for _ in range(6))
+    expires = datetime.now(timezone.utc) + timedelta(minutes=10)
 
     # Сохраняем код
     await db.execute(
@@ -48,9 +57,8 @@ async def request_code(data: RequestCodeRequest, background_tasks: BackgroundTas
 
     return RequestCodeResponse(message="Verification code sent")
 
-
 @router.post("/verify_code", response_model=VerifyCodeResponse)
-async def verify_code(data: VerifyCodeRequest, db = Depends(get_db)):
+async def verify_code(data: VerifyCodeRequest, db=Depends(get_db)):
     row = await db.fetchrow(
         """
         SELECT code, expires_at FROM verification_codes
@@ -59,16 +67,27 @@ async def verify_code(data: VerifyCodeRequest, db = Depends(get_db)):
         data.email
     )
 
-    if not row or row['code'] != data.code or row['expires_at'] < datetime.now(timezone.utc):
-        return VerifyCodeResponse(token=None, email=data.email)
+    if not row:
+        raise HTTPException(
+            status_code=404,
+            detail="Verification code not found for this email"
+        )
 
-    # Удаляем код
+    if row['code'] != data.code:
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid verification code"
+        )
+
+    if row['expires_at'] < datetime.now(timezone.utc):
+        raise HTTPException(
+            status_code=400,
+            detail="Verification code has expired"
+        )
+
     await db.execute("DELETE FROM verification_codes WHERE email = $1", data.email)
-
-    # Помечаем как verified
     await db.execute("UPDATE users SET verified = TRUE WHERE email = $1", data.email)
 
-    # Выдаём токен
     token = secrets.token_urlsafe(32)
     expires = datetime.now(timezone.utc) + timedelta(days=30)
 
@@ -81,6 +100,15 @@ async def verify_code(data: VerifyCodeRequest, db = Depends(get_db)):
 
 
 @router.post("/guest", response_model=GuestTokenResponse)
-async def guest():
+async def guest(db=Depends(get_db)):
+    # Генерация токена
     token = secrets.token_urlsafe(32)
+    expires = datetime.now(timezone.utc) + timedelta(days=1)  # срок действия 1 день
+
+    # Сохраняем токен в БД
+    await db.execute(
+        "INSERT INTO tokens (token, email, expires_at) VALUES ($1, $2, $3)",
+        token, None, expires  # email = None для гостя
+    )
+
     return GuestTokenResponse(token=token)

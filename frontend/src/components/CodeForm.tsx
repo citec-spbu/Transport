@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import PrimaryButton from "./PrimaryButton";
 
 interface CodeFormProps {
   onSubmit: (code: string) => void;
@@ -15,17 +16,19 @@ const CodeForm = ({ onSubmit, disabled }: CodeFormProps) => {
   return (
     <form
       onSubmit={handleSubmit((data: FormValues) => onSubmit(data.code))}
-      className="flex flex-col gap-2 w-full max-w-sm"
+      className="flex flex-col gap-4 w-full"
     >
       <input
         {...register("code", { required: true, maxLength: 6 })}
         placeholder="Введите код"
-        className="border p-2 rounded"
+        className="border p-3 rounded-4xl"
         disabled={disabled}
       />
-      <button type="submit" disabled={disabled} className="bg-green-600 text-white p-2 rounded">
-        Подтвердить код
-      </button>
+      <div className="flex justify-end">
+        <PrimaryButton type="submit" className="w-full py-2 text-lg">
+          Подтвердить код
+        </PrimaryButton>
+      </div>
     </form>
   );
 };

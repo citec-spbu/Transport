@@ -55,11 +55,20 @@ async def init_db():
                 await conn.execute("""
                     CREATE TABLE IF NOT EXISTS tokens (
                         token TEXT PRIMARY KEY,
-                        email TEXT NOT NULL REFERENCES users(email) ON DELETE CASCADE,
+                        email TEXT REFERENCES users(email) ON DELETE CASCADE,
                         expires_at TIMESTAMP WITH TIME ZONE NOT NULL,
                         created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
                     )
                 """)
+
+                # Ensure email column in tokens allows NULL (for guest tokens)
+                try:
+                    await conn.execute("""
+                        ALTER TABLE tokens ALTER COLUMN email DROP NOT NULL;
+                    """)
+                except Exception:
+                    # If alter fails (e.g., column doesn't exist yet), ignore
+                    pass
 
                 # История аналитических запросов
                 await conn.execute("""
