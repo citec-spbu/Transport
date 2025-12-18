@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, EmailStr
 from typing import List, Optional
 from enum import Enum
 
@@ -21,7 +21,7 @@ class MetricType(str, Enum):
 
 # Auth Schemas
 class RequestCodeRequest(BaseModel):
-    email: str = Field(..., json_schema_extra={"example": "user@example.com"})
+    email: EmailStr = Field(..., json_schema_extra={"example": "user@example.com"})
 
 
 class RequestCodeResponse(BaseModel):

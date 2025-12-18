@@ -1,4 +1,5 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
+from app.core.services.email import send_verification_code
 from app.models.schemas import (
     RequestCodeRequest, RequestCodeResponse,
     VerifyCodeRequest, VerifyCodeResponse,
@@ -12,7 +13,7 @@ import string
 router = APIRouter()
 
 @router.post("/request_code", response_model=RequestCodeResponse)
-async def request_code(data: RequestCodeRequest, db = Depends(get_db)):
+async def request_code(data: RequestCodeRequest, db = Depends(get_db), background_tasks: BackgroundTasks):
     code = "".join(secrets.choice(string.digits) for _ in range(6))
     expires = datetime.now(timezone.utc) + timedelta(minutes=10)
 
@@ -33,7 +34,18 @@ async def request_code(data: RequestCodeRequest, db = Depends(get_db)):
         data.email, code, expires
     )
 
-    print(f"Verification code for {data.email}: {code}")
+    try:
+        background_tasks.add_task(send_verification_code, data.email, code)
+    except Exception as e:
+        await db.execute(
+            "DELETE FROM verification_codes WHERE email = $1",
+            data.email
+        )
+        raise HTTPException(
+            status_code=503, 
+            detail="Email service temporarily unavailable"
+        ) from e
+
     return RequestCodeResponse(message="Verification code sent")
 
 
