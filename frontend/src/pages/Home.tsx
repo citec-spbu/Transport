@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import PrimaryButton from "../components/PrimaryButton";
+
 export default function LandingPage() {
   const navigate = useNavigate();
   return (
@@ -25,7 +26,7 @@ export default function LandingPage() {
             общественного транспорта города
           </p>
 
-          <PrimaryButton onClick={() => navigate("/parameters")} className="mt-8 px-20 py-3 text-2xl">
+          <PrimaryButton onClick={() => navigate("/auth")} className="mt-8 px-20 py-3 text-2xl">
             Начать
           </PrimaryButton>
         </div>

@@ -13,7 +13,7 @@ import string
 router = APIRouter()
 
 @router.post("/request_code", response_model=RequestCodeResponse)
-async def request_code(data: RequestCodeRequest, db = Depends(get_db), background_tasks: BackgroundTasks):
+async def request_code(data: RequestCodeRequest, background_tasks: BackgroundTasks, db = Depends(get_db)):
     code = "".join(secrets.choice(string.digits) for _ in range(6))
     expires = datetime.now(timezone.utc) + timedelta(minutes=10)
 

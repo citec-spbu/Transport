@@ -1,6 +1,6 @@
 from email.message import EmailMessage
 from aiosmtplib import send
-from app.core.config import settings
+from app.core.configs.email_config import settings
 
 async def send_verification_code(email: str, code: str):
     message = EmailMessage()

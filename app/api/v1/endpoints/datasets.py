@@ -14,7 +14,6 @@ from app.api.v1.endpoints.storage import active_datasets
 
 router = APIRouter()
 
-# Поддерживаемые типы транспорта
 TRANSPORT_TO_GRAPH = {
     "bus": GraphTypes.BUS_GRAPH,
     "tram": GraphTypes.TRAM_GRAPH,
@@ -28,15 +27,6 @@ async def upload_dataset(
     user_ctx: UserContext = Depends(get_user_or_guest),
     db = Depends(get_db)
 ):
-    if user_ctx.type == "anonymous":
-        raise HTTPException(status_code=401, detail="Please get a guest token or verify email")
-    # Проверяем только тип транспорта
-    if data.transport_type not in TRANSPORT_TO_GRAPH:
-        raise HTTPException(
-            status_code=400,
-            detail={"error": "Unknown transport type"}
-        )
-
     graph_type = TRANSPORT_TO_GRAPH[data.transport_type]
 
     dataset_id = str(uuid.uuid4())

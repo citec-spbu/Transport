@@ -26,7 +26,7 @@ export default function ParamsSelector({ onSubmit }: ParamsSelectorProps) {
     resetAnalysisData();
 
     try {
-      const res = await fetch("http://localhost:8050/v1/datasets/", {
+      const res = await fetch("/v1/datasets/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
