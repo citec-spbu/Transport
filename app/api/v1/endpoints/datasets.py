@@ -1,4 +1,6 @@
-from app.models.schemas import DatasetUploadRequest, DatasetUploadResponse
+from app.models.schemas import (
+    DatasetUploadRequest, DatasetUploadResponse, DatasetListResponse, DatasetInfo
+)
 from app.models.graph_types import GraphTypes
 from app.core.context.analysis_context import AnalysisContext
 from app.core.context.metric_calculation_context import MetricCalculationContext
@@ -6,10 +8,10 @@ from app.core.context.user_context import UserContext
 from app.core.services.analysis_manager import AnalysisManager
 from app.core.services.user_manager import UserManager
 from app.core.storage import active_datasets
-from app.database.neo4j_connection import Neo4jConnection
 from app.database.postgres import postgres_manager
 
 from fastapi import APIRouter, HTTPException, Depends
+from uuid import UUID
 from datetime import datetime, timezone
 import uuid
 
@@ -29,9 +31,20 @@ async def upload_dataset(
     user_ctx: UserContext = Depends(user_manager.get_context),
     db = Depends(postgres_manager.get_db)
 ):
+    # Проверяем дубликаты через active_datasets
+    for dataset in active_datasets.values():
+        # Для пользователей проверяем по user_id
+        if user_ctx.type == "user" and dataset.get("user_id") == user_ctx.user_id:
+            if dataset.get("city_name") == data.city and dataset.get("transport_type") == data.transport_type:
+                raise HTTPException(status_code=409, detail="Dataset with this city and transport type already exists")
+        # Для гостей проверяем по guest_token
+        elif user_ctx.type == "guest" and dataset.get("guest_token") == user_ctx.guest_token:
+            if dataset.get("city_name") == data.city and dataset.get("transport_type") == data.transport_type:
+                raise HTTPException(status_code=409, detail="Dataset with this city and transport type already exists")
+    
     graph_type = TRANSPORT_TO_GRAPH[data.transport_type]
 
-    dataset_id = str(uuid.uuid4())
+    dataset_id = uuid.uuid4()
     dataset_name = f"{data.transport_type.capitalize()} routes — {data.city}"
 
     try:
@@ -50,75 +63,72 @@ async def upload_dataset(
         # Сохраняем в active_datasets с контекстом
         active_datasets[dataset_id] = {
             "name": dataset_name,
+            "city_name": data.city,
+            "transport_type": data.transport_type,
             "analysis_context": analysis_context,
-            "user_email": user_ctx.email if user_ctx.type == "user" else None,
+            "user_id": user_ctx.user_id if user_ctx.type == "user" else None,
             "guest_token": user_ctx.guest_token if user_ctx.type == "guest" else None,
         }
 
         # Только пользователи → сохраняются в PostgreSQL
         if user_ctx.type == "user":
             await db.execute(
-                "INSERT INTO datasets (id, email, city, transport_type, name) VALUES ($1, $2, $3, $4, $5)",
-                dataset_id, user_ctx.email, data.city, data.transport_type, dataset_name
+                "INSERT INTO datasets (id, user_id, city, transport_type, name) VALUES ($1, $2, $3, $4, $5)",
+                dataset_id, user_ctx.user_id, data.city, data.transport_type, dataset_name
             )
-        return DatasetUploadResponse(dataset_id=dataset_id, name=dataset_name)
+        return DatasetUploadResponse(dataset_id=dataset_id)
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to create dataset: {str(e)}")
-    
+
+
+@router.get("/", response_model=DatasetListResponse)
+async def list_datasets(user_ctx: UserContext = Depends(user_manager.get_context)):
+    datasets = []
+    for dataset_id, ds in active_datasets.items():
+        if user_ctx.type == "user" and ds.get("user_id") != user_ctx.user_id:
+            continue
+        if user_ctx.type == "guest" and ds.get("guest_token") != user_ctx.guest_token:
+            continue
+
+        datasets.append(DatasetInfo(
+            dataset_id=dataset_id,
+            city=ds["city_name"],
+            transport_type=ds["transport_type"]
+        ))
+    return DatasetListResponse(datasets=datasets)
 
 @router.delete("/{dataset_id}")
 async def delete_dataset(
-    dataset_id: str,
+    dataset_id: UUID,
     user_ctx: UserContext = Depends(user_manager.get_context),
     db = Depends(postgres_manager.get_db)
 ):
-    if user_ctx.type != "user":
-        raise HTTPException(status_code=401, detail="Only verified users can delete datasets")
+    # Гости
+    if user_ctx.type == "guest":
+        dataset = active_datasets.get(dataset_id)
+        if not dataset:
+            raise HTTPException(status_code=404, detail="Dataset not found")
+        if dataset.get("guest_token") != user_ctx.guest_token:
+            raise HTTPException(status_code=403, detail="Access denied")
+        active_datasets.pop(dataset_id, None)
+        return {"message": f"Dataset {dataset_id} deleted"}
 
-    # Проверка владения через PostgreSQL
-    row = await db.fetchrow(
-        "SELECT id FROM datasets WHERE id = $1 AND email = $2",
-        dataset_id, user_ctx.email
-    )
-    if not row:
-        raise HTTPException(status_code=404, detail="Dataset not found or access denied")
+    # Пользователи
+    if user_ctx.type == "user":
+        row = await db.fetchrow(
+            "SELECT id, user_id FROM datasets WHERE id = $1",
+            dataset_id
+        )
+        if not row or not active_datasets.get(dataset_id):
+            raise HTTPException(status_code=404, detail="Dataset not found")
+        if row["user_id"] != user_ctx.user_id:
+            raise HTTPException(status_code=403, detail="Access denied")
 
-    # Проверка наличия в active_datasets
-    dataset = active_datasets.get(dataset_id)
-    if not dataset:
-        raise HTTPException(status_code=404, detail="Dataset not loaded in memory")
+        active_datasets.pop(dataset_id, None)
 
-    ctx = dataset["analysis_context"]
-    db_params = ctx.db_graph_parameters
+        await db.execute("DELETE FROM datasets WHERE id = $1", dataset_id)
+        return {"message": f"Dataset {dataset_id} deleted"}
 
-    connection = Neo4jConnection()
-    try:
-        # --- Удаление графа GDS ---
-        try:
-            connection.run(f"CALL gds.graph.drop('{ctx.graph_name}')")
-        except Exception as e:
-            print(f"GDS graph drop failed (ignored): {e}")
-
-        # --- Удаление основных узлов и отношений ---
-        for rels_name, node_name in [(db_params.main_rels_name, db_params.main_node_name),
-                                     (getattr(db_params, 'secondary_rels_name', None), 
-                                      getattr(db_params, 'secondary_node_name', None))]:
-            if node_name:
-                try:
-                    if rels_name:
-                        connection.run(f"MATCH ()-[r:{rels_name}]->() DELETE r")
-                    connection.run(f"MATCH (n:{node_name}) DELETE n")
-                except Exception as e:
-                    print(f"Failed to delete {node_name} or {rels_name}: {e}")
-    finally:
-        connection.close()
-
-    # --- Удаление из in-memory кэша ---
-    active_datasets.pop(dataset_id, None)
-
-    # --- Удаление из базы ---
-    await db.execute("DELETE FROM analysis_requests WHERE dataset_id = $1", dataset_id)
-    await db.execute("DELETE FROM datasets WHERE id = $1", dataset_id)
-
-    return {"message": f"Dataset {dataset_id} deleted"}
+    # Анонимные — нет прав на удаление
+    raise HTTPException(status_code=401, detail="Unauthorized")

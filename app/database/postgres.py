@@ -28,44 +28,51 @@ class PostgresManager:
                 await asyncio.sleep(2)
 
     async def _create_tables(self):
-        """Создание таблиц, если их нет"""
         async with self._pool.acquire() as conn:
-            # Таблица пользователей
+            # UUID generator
+            await conn.execute("""
+                CREATE EXTENSION IF NOT EXISTS pgcrypto;
+            """)
+
             await conn.execute("""
                 CREATE TABLE IF NOT EXISTS users (
-                    email TEXT PRIMARY KEY,
+                    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+                    email TEXT UNIQUE NOT NULL,
                     verified BOOLEAN NOT NULL DEFAULT FALSE,
-                    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-                )
+                    created_at TIMESTAMPTZ DEFAULT NOW()
+                );
             """)
-            # Таблица датасетов
+
             await conn.execute("""
                 CREATE TABLE IF NOT EXISTS datasets (
-                    id TEXT PRIMARY KEY,
-                    email TEXT NOT NULL REFERENCES users(email) ON DELETE CASCADE,
+                    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+                    user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
                     city TEXT NOT NULL,
                     transport_type TEXT NOT NULL,
                     name TEXT NOT NULL,
-                    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-                )
+                    created_at TIMESTAMPTZ DEFAULT NOW()
+                );
             """)
-            # Таблица verification_codes
+
             await conn.execute("""
                 CREATE TABLE IF NOT EXISTS verification_codes (
-                    email TEXT PRIMARY KEY,
+                    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+                    email TEXT UNIQUE NOT NULL,
                     code TEXT NOT NULL,
-                    expires_at TIMESTAMP WITH TIME ZONE NOT NULL
-                )
+                    expires_at TIMESTAMPTZ NOT NULL
+                );
             """)
-            # Таблица токенов
+
             await conn.execute("""
                 CREATE TABLE IF NOT EXISTS tokens (
-                    token TEXT PRIMARY KEY,
-                    email TEXT REFERENCES users(email) ON DELETE CASCADE,
-                    expires_at TIMESTAMP WITH TIME ZONE NOT NULL,
-                    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-                )
+                    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+                    token TEXT UNIQUE NOT NULL,
+                    user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+                    expires_at TIMESTAMPTZ NOT NULL,
+                    created_at TIMESTAMPTZ DEFAULT NOW()
+                );
             """)
+
 
     async def get_connection(self) -> asyncpg.Connection:
         """Получение соединения из пула (для Depends)"""

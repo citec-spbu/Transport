@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Header from "../components/Header";
 import EmailForm from "../components/EmailForm";
+import { useParamsStore } from "../store/useParamStore";
 import CodeForm from "../components/CodeForm";
 import PrimaryButton from "../components/PrimaryButton";
 
@@ -14,6 +15,7 @@ const Auth = () => {
   const [info, setInfo] = useState(""); // Для уведомлений (например, "Код отправлен")
 
   const navigate = useNavigate();
+  const { bumpDatasetsRefresh } = useParamsStore();
 
   const handleEmailSubmit = async (emailInput: string) => {
     setError("");
@@ -21,6 +23,12 @@ const Auth = () => {
       setLoading(true);
       const response = await axios.post("/v1/auth/request_code", { email: emailInput });
       setEmail(emailInput);
+      if (response.data.token) {
+        localStorage.setItem("token", response.data.token);
+        bumpDatasetsRefresh();
+        navigate("/parameters");
+        return;
+      }
       if (response.data.message === "User already verified") {
         navigate("/parameters");
         return;
@@ -45,6 +53,7 @@ const Auth = () => {
 
       if (response.data.token) {
         localStorage.setItem("token", response.data.token);
+        bumpDatasetsRefresh();
         navigate("/parameters");
       } else {
         setError("Неверный код или истёк срок действия");
@@ -62,6 +71,7 @@ const Auth = () => {
       setLoading(true);
       const response = await axios.post("/v1/auth/guest");
       localStorage.setItem("token", response.data.token);
+      bumpDatasetsRefresh();
       navigate("/parameters");
     } catch (err: any) {
       setError(err.response?.data?.detail || "Ошибка при гостевом входе");

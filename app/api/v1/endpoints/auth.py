@@ -21,12 +21,31 @@ async def request_code(
 ):
 
     user = await db.fetchrow(
-        "SELECT verified FROM users WHERE email = $1",
+        "SELECT id, verified FROM users WHERE email = $1",
         data.email
     )
 
     if user and user["verified"]:
-        return RequestCodeResponse(message="User already verified")
+        # If already verified, return existing valid token or generate a new one
+        existing_token = await db.fetchrow(
+            """
+            SELECT token FROM tokens
+            WHERE user_id = $1 AND expires_at > $2
+            ORDER BY created_at DESC
+            LIMIT 1
+            """,
+            user["id"], datetime.now(timezone.utc)
+        )
+        if existing_token:
+            return RequestCodeResponse(message="User already verified", token=existing_token["token"])
+
+        token = secrets.token_urlsafe(32)
+        expires = datetime.now(timezone.utc) + timedelta(days=30)
+        await db.execute(
+            "INSERT INTO tokens (token, user_id, expires_at) VALUES ($1, $2, $3)",
+            token, user["id"], expires
+        )
+        return RequestCodeResponse(message="User already verified", token=token)
 
     # Если пользователь новый или не подтверждён, создаём/обновляем запись
     await db.execute(
@@ -94,14 +113,22 @@ async def verify_code(
         )
 
     await db.execute("DELETE FROM verification_codes WHERE email = $1", data.email)
-    await db.execute("UPDATE users SET verified = TRUE WHERE email = $1", data.email)
+    user = await db.fetchrow(
+        """
+        UPDATE users
+        SET verified = TRUE
+        WHERE email = $1
+        RETURNING id
+        """,
+        data.email
+    )
 
     token = secrets.token_urlsafe(32)
     expires = datetime.now(timezone.utc) + timedelta(days=30)
 
     await db.execute(
-        "INSERT INTO tokens (token, email, expires_at) VALUES ($1, $2, $3)",
-        token, data.email, expires
+        "INSERT INTO tokens (token, user_id, expires_at) VALUES ($1, $2, $3)",
+        token, user["id"], expires
     )
 
     return VerifyCodeResponse(token=token, email=data.email)
@@ -117,8 +144,11 @@ async def guest(
 
     # Сохраняем токен в БД
     await db.execute(
-        "INSERT INTO tokens (token, email, expires_at) VALUES ($1, $2, $3)",
-        token, None, expires  # email = None для гостя
+        """
+        INSERT INTO tokens (token, user_id, expires_at)
+        VALUES ($1, NULL, $2)
+        """,
+        token, expires
     )
 
     return GuestTokenResponse(token=token)

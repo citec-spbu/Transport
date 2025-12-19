@@ -31,7 +31,7 @@ const EmailForm = ({ onSubmit, disabled }: EmailFormProps) => {
       )}
       <div className="flex justify-end">
         <PrimaryButton type="submit" className="w-full text-lg py-2">
-          Получить код
+          Войти
         </PrimaryButton>
       </div>
     </form>

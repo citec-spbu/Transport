@@ -16,14 +16,14 @@ class UserManager:
 
         # Проверяем токен в БД
         row = await db.fetchrow(
-            "SELECT email, expires_at FROM tokens WHERE token = $1",
+            "SELECT user_id, expires_at FROM tokens WHERE token = $1",
             authorization
         )
 
         if not row or row["expires_at"] < datetime.now(timezone.utc):
             return UserContext(type="anonymous")
 
-        if row["email"]:
-            return UserContext(type="user", email=row["email"])
+        if row["user_id"]:
+            return UserContext(type="user", user_id=row["user_id"])
         
         return UserContext(type="guest", guest_token=authorization)

@@ -99,8 +99,10 @@ async def restore_active_datasets():
                 )
                 active_datasets[row["id"]] = {
                     "name": row["name"],
+                    "city_name": row["city"],
+                    "transport_type": row["transport_type"],
                     "analysis_context": analysis_context,
-                    "user_email": row["email"],
+                    "user_id": row["user_id"],
                     "guest_token": None,
                 }
         finally:
