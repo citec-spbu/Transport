@@ -9,9 +9,9 @@ interface ExportButtonProps {
   chartRef?: React.RefObject<HTMLDivElement | null>;
 }
 
-export default function ExportButton({ 
-  nodes = [], 
-  stats = {}, 
+export default function ExportButton({
+  nodes = [],
+  stats = {},
 }: ExportButtonProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [isExporting] = useState(false);
@@ -19,7 +19,10 @@ export default function ExportButton({
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
       }
     };
@@ -35,7 +38,9 @@ export default function ExportButton({
         nodes,
         exportDate: new Date().toISOString(),
       };
-      const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+      const blob = new Blob([JSON.stringify(data, null, 2)], {
+        type: "application/json",
+      });
       downloadFile(blob, "transit-network-data.json");
       setIsOpen(false);
     } catch (error) {
@@ -58,7 +63,12 @@ export default function ExportButton({
       // Build headers and key order, expanding coordinate-like arrays into lon/lat
       Object.keys(sample).forEach((k) => {
         const v = sample[k];
-        if (Array.isArray(v) && v.length >= 2 && typeof v[0] === "number" && typeof v[1] === "number") {
+        if (
+          Array.isArray(v) &&
+          v.length >= 2 &&
+          typeof v[0] === "number" &&
+          typeof v[1] === "number"
+        ) {
           headers.push(`${k}_lon`, `${k}_lat`);
           keyOrder.push(`${k}__lon`, `${k}__lat`);
         } else {
@@ -71,7 +81,8 @@ export default function ExportButton({
         if (val === null || val === undefined) return "";
         const s = String(val);
         // Escape double quotes by doubling them, and wrap in quotes if necessary
-        const needsQuotes = s.includes(",") || s.includes("\n") || s.includes('"');
+        const needsQuotes =
+          s.includes(",") || s.includes("\n") || s.includes('"');
         const escaped = s.replace(/"/g, '""');
         return needsQuotes ? `"${escaped}"` : escaped;
       };
@@ -112,8 +123,6 @@ export default function ExportButton({
     }
   };
 
-
-  
   const downloadFile = (blob: Blob, filename: string) => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
@@ -125,43 +134,46 @@ export default function ExportButton({
     URL.revokeObjectURL(url);
   };
 
-    return (
-      <div ref={dropdownRef} className="relative">
-        <Card className="relative">
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        disabled={isExporting}
-        className="flex items-center gap-1.5 px-3 py-1.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-      >
-        <span className="text-[11px] font-light text-gray-800">
-          {isExporting ? "Экспорт..." : "Экспорт данных"}
-        </span>
-        <ChevronDown size={13} className={`text-gray-800 transition-transform ${isOpen ? "rotate-180" : ""}`} />
-      </button>
+  return (
+    <div ref={dropdownRef} className="relative">
+      <Card className="relative">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          disabled={isExporting}
+          className="flex items-center gap-1.5 px-3 py-1.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          <span className="text-[11px] font-light text-gray-800">
+            {isExporting ? "Экспорт..." : "Экспорт данных"}
+          </span>
+          <ChevronDown
+            size={13}
+            className={`text-gray-800 transition-transform ${
+              isOpen ? "rotate-180" : ""
+            }`}
+          />
+        </button>
 
-      {isOpen && !isExporting && (
-        <div className="absolute right-0 mt-1 w-44 bg-white border border-[#E0E6EA] rounded-[8px] shadow-lg z-50">
-          <div className="py-1">
-           
-            <button
-              onClick={exportJSON}
-              className="w-full px-3 py-2 text-left text-[10px] hover:bg-gray-50 transition-colors flex items-center gap-2"
-            >
-              <Download size={12} className="text-gray-600" />
-              <span>JSON формат</span>
-            </button>
-            <button
-              onClick={exportCSV}
-              className="w-full px-3 py-2 text-left text-[10px] hover:bg-gray-50 transition-colors flex items-center gap-2"
-            >
-              <Download size={12} className="text-gray-600" />
-              <span>CSV формат</span>
-            </button>
-
+        {isOpen && !isExporting && (
+          <div className="absolute left-0 mt-1 bg-white border border-[#E0E6EA] rounded-[8px] shadow-lg z-50">
+            <div className="py-1">
+              <button
+                onClick={exportJSON}
+                className="w-full px-3 py-1.5 text-left text-[11px] hover:bg-gray-50 transition-colors flex items-center gap-2"
+              >
+                <Download size={12} className="text-gray-600" />
+                <span>JSON формат</span>
+              </button>
+              <button
+                onClick={exportCSV}
+                className="w-full px-3 py-1.5 text-left text-[11px] hover:bg-gray-50 transition-colors flex items-center gap-2"
+              >
+                <Download size={12} className="text-gray-600" />
+                <span>CSV формат</span>
+              </button>
+            </div>
           </div>
-        </div>
-      )}
-        </Card>
-      </div>
-    );
+        )}
+      </Card>
+    </div>
+  );
 }

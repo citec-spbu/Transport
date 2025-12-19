@@ -234,7 +234,7 @@ export default function HistogramWindow({
 
   return (
     <>
-      <Card className="w-full flex flex-col gap-2 p-3">
+      <Card className="w-full flex flex-col p-3 gap-y-0 gap-x-2">
         <div className="flex justify-between items-center mb-1">
           <span className="text-sm font-semibold text-gray-700">
             {metricName}

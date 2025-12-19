@@ -31,6 +31,11 @@ async def upload_dataset(
     user_ctx: UserContext = Depends(user_manager.get_context),
     db = Depends(postgres_manager.get_db)
 ):
+     """Загружает новый датасет маршрутов для города.
+
+    Строит граф в Neo4j/GDS на основе выбранного типа
+    транспорта и возвращает идентификатор полученного датасета.
+    """
     # Проверяем дубликаты через active_datasets
     for dataset in active_datasets.values():
         # Для пользователей проверяем по user_id

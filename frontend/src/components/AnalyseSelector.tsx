@@ -81,7 +81,7 @@ export default function AnalyseSelector() {
                   "Content-Type": "application/json",
                   Accept: "application/json",
                 },
-                body: JSON.stringify({ dataset_id: datasetId, metric }),
+                body: JSON.stringify({ dataset_id: datasetId, metric_type: metric }),
               });
 
             if (!res.ok) {

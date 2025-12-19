@@ -8,3 +8,10 @@
     @apply font-sans;
   }
 }
+.leaflet-left .leaflet-control-zoom {
+  top: 200px;
+}
+
+.leaflet-left .leaflet-control-center {
+  top: 200px; 
+}

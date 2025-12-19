@@ -1,15 +1,29 @@
 import { create } from "zustand";
 
-interface ClusterData {
+/* Cluster types  */
+
+export interface ClusterStatistics {
+  modularity?: number | null;
+  silhouette?: number | null;
+  conductance?: number | null;
+  coverage?: number | null;
+}
+
+export interface ClusterData {
   nodes: any[];
+  statistics?: ClusterStatistics;
   links?: any[];
 }
 
-interface MetricData {
+/*  Metric types  */
+
+export interface MetricData {
   nodes: any[];
 }
 
-type DatasetAnalysis = {
+/*  Dataset analysis  */
+
+export type DatasetAnalysis = {
   clusters?: {
     leiden?: ClusterData;
     louvain?: ClusterData;
@@ -19,6 +33,8 @@ type DatasetAnalysis = {
     betweenness?: MetricData;
   };
 };
+
+/*  Store  */
 
 interface ParamsState {
   city: string;
@@ -32,7 +48,7 @@ interface ParamsState {
   clusterType: "leiden" | "louvain";
   metricType: "pagerank" | "betweenness";
 
-  // Методы
+  // setters
   setCity: (v: string) => void;
   setTransport: (v: string) => void;
   setAnalysisType: (v: string) => void;
