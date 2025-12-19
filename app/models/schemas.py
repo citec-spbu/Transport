@@ -113,10 +113,10 @@ class MetricNode(BaseModel):
 
 class MetricAnalysisRequest(BaseModel):
     dataset_id: UUID = Field(..., json_schema_extra={"example": "b361e37f-a5bc-436d-ac58-dfe573c29aac"})
-    metric: MetricType = Field(...)
+    metric_type: MetricType = Field(...)
 
 
 class MetricAnalysisResponse(BaseModel):
     dataset_id: UUID
-    type: MetricType = Field("metric", json_schema_extra={"example": "metric"})
+    metric_type: MetricType = Field("metric", json_schema_extra={"example": "metric"})
     nodes: List[MetricNode]
