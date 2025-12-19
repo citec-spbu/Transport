@@ -1,18 +1,20 @@
-from fastapi import APIRouter, HTTPException, Depends
 from app.models.schemas import DatasetUploadRequest, DatasetUploadResponse
-import uuid
-
-from app.core.services.analysis_manager import AnalysisManager
+from app.models.graph_types import GraphTypes
 from app.core.context.analysis_context import AnalysisContext
 from app.core.context.metric_calculation_context import MetricCalculationContext
-from app.models.graph_types import GraphTypes
+from app.core.context.user_context import UserContext
+from app.core.services.analysis_manager import AnalysisManager
+from app.core.services.user_manager import UserManager
+from app.core.storage import active_datasets
 from app.database.neo4j_connection import Neo4jConnection
-from app.api.v1.endpoints.deps import get_user_or_guest, UserContext
-from app.api.v1.endpoints.postgres import get_db
+from app.database.postgres import postgres_manager
+
+from fastapi import APIRouter, HTTPException, Depends
 from datetime import datetime, timezone
-from app.api.v1.endpoints.storage import active_datasets
+import uuid
 
 router = APIRouter()
+user_manager = UserManager()
 
 TRANSPORT_TO_GRAPH = {
     "bus": GraphTypes.BUS_GRAPH,
@@ -24,8 +26,8 @@ TRANSPORT_TO_GRAPH = {
 @router.post("/", response_model=DatasetUploadResponse)
 async def upload_dataset(
     data: DatasetUploadRequest,
-    user_ctx: UserContext = Depends(get_user_or_guest),
-    db = Depends(get_db)
+    user_ctx: UserContext = Depends(user_manager.get_context),
+    db = Depends(postgres_manager.get_db)
 ):
     graph_type = TRANSPORT_TO_GRAPH[data.transport_type]
 
@@ -47,12 +49,10 @@ async def upload_dataset(
 
         # Сохраняем в active_datasets с контекстом
         active_datasets[dataset_id] = {
-            "id": dataset_id,
             "name": dataset_name,
             "analysis_context": analysis_context,
-            "owner_email": user_ctx.email if user_ctx.type == "user" else None,
+            "user_email": user_ctx.email if user_ctx.type == "user" else None,
             "guest_token": user_ctx.guest_token if user_ctx.type == "guest" else None,
-            "created_at": datetime.now(timezone.utc),
         }
 
         # Только пользователи → сохраняются в PostgreSQL
@@ -70,8 +70,8 @@ async def upload_dataset(
 @router.delete("/{dataset_id}")
 async def delete_dataset(
     dataset_id: str,
-    user_ctx: UserContext = Depends(get_user_or_guest),
-    db = Depends(get_db)
+    user_ctx: UserContext = Depends(user_manager.get_context),
+    db = Depends(postgres_manager.get_db)
 ):
     if user_ctx.type != "user":
         raise HTTPException(status_code=401, detail="Only verified users can delete datasets")
@@ -84,73 +84,41 @@ async def delete_dataset(
     if not row:
         raise HTTPException(status_code=404, detail="Dataset not found or access denied")
 
-    # Удаляем из Neo4j
-    if dataset_id not in active_datasets:
+    # Проверка наличия в active_datasets
+    dataset = active_datasets.get(dataset_id)
+    if not dataset:
         raise HTTPException(status_code=404, detail="Dataset not loaded in memory")
 
-    dataset = active_datasets[dataset_id]
     ctx = dataset["analysis_context"]
     db_params = ctx.db_graph_parameters
 
-    connection = None
+    connection = Neo4jConnection()
     try:
-        connection = Neo4jConnection()
-
-        # 1. Удаляем GDS граф
+        # --- Удаление графа GDS ---
         try:
-            query = f"CALL gds.graph.drop('{ctx.graph_name}')"
-            connection.run(query)
-            print(f"GDS graph '{db_params.graph_name}' deleted")
+            connection.run(f"CALL gds.graph.drop('{ctx.graph_name}')")
         except Exception as e:
             print(f"GDS graph drop failed (ignored): {e}")
 
-        # 2. Удаляем основные отношения
-        try:
-            query = f"""
-                MATCH ()-[r:{db_params.main_rels_name}]->()
-                DELETE r
-            """
-            connection.run(query)
-            print(f"Deleted {db_params.main_rels_name} relationships")
-        except Exception as e:
-            print(f"Failed to delete relationships: {e}")
-
-        # 3. Удаляем основные узлы
-        try:
-            query = f"""
-                MATCH (n:{db_params.main_node_name})
-                DELETE n
-            """
-            connection.run(query)
-            print(f"Deleted {db_params.main_node_name} nodes")
-        except Exception as e:
-            print(f"Failed to delete nodes: {e}")
-
-        # 4. При наличии — удаляем вторичные узлы/связи
-        if getattr(db_params, "secondary_node_name", None):
-            try:
-                connection.run(f"MATCH ()-[r:{db_params.secondary_rels_name}]->() DELETE r")
-                connection.run(f"MATCH (n:{db_params.secondary_node_name}) DELETE n")
-                print(f"Deleted secondary nodes/rels")
-            except Exception as e:
-                print(f"Failed to delete secondary nodes/rels: {e}")
-
+        # --- Удаление основных узлов и отношений ---
+        for rels_name, node_name in [(db_params.main_rels_name, db_params.main_node_name),
+                                     (getattr(db_params, 'secondary_rels_name', None), 
+                                      getattr(db_params, 'secondary_node_name', None))]:
+            if node_name:
+                try:
+                    if rels_name:
+                        connection.run(f"MATCH ()-[r:{rels_name}]->() DELETE r")
+                    connection.run(f"MATCH (n:{node_name}) DELETE n")
+                except Exception as e:
+                    print(f"Failed to delete {node_name} or {rels_name}: {e}")
+    finally:
         connection.close()
 
-        # Удаляем из in-memory кэша
-        active_datasets.pop(dataset_id)
+    # --- Удаление из in-memory кэша ---
+    active_datasets.pop(dataset_id, None)
 
-        # удаляем из базы
-        await db.execute("DELETE FROM analysis_requests WHERE dataset_id = $1", dataset_id)
-        await db.execute("DELETE FROM datasets WHERE id = $1", dataset_id)
+    # --- Удаление из базы ---
+    await db.execute("DELETE FROM analysis_requests WHERE dataset_id = $1", dataset_id)
+    await db.execute("DELETE FROM datasets WHERE id = $1", dataset_id)
 
-        return {"message": f"Dataset {dataset_id} deleted"}
-
-    except Exception as e:
-        print(f"Critical error in delete_dataset: {repr(e)}")
-        import traceback
-        traceback.print_exc()
-        raise HTTPException(
-            status_code=500,
-            detail=f"Failed to delete dataset: {str(e)}"
-        )
+    return {"message": f"Dataset {dataset_id} deleted"}

@@ -1,24 +1,21 @@
-from fastapi import APIRouter, HTTPException, Depends
 from app.models.schemas import (
     ClusterRequest, ClusterResponse, MetricAnalysisRequest, MetricAnalysisResponse,
     ClusterNode, MetricNode, ClusteringMethod, MetricType
 )
-from app.api.v1.endpoints.datasets import active_datasets
 from app.core.context.analysis_context import AnalysisContext
 from app.core.context.metric_calculation_context import MetricCalculationContext
 from app.core.services.analysis_manager import AnalysisManager
-from app.api.v1.endpoints.deps import get_current_user_email
-from app.api.v1.endpoints.postgres import get_db
+from app.core.storage import active_datasets
+
+from fastapi import APIRouter, HTTPException
+from typing import Optional
 import copy
 
 router = APIRouter()
 
-
 @router.post("/cluster", response_model=ClusterResponse)
 async def cluster_analysis(
-    req: ClusterRequest,
-    email: str | None = Depends(get_current_user_email),  # ← получаем email (или None)
-    db = Depends(get_db)  # ← подключение к PostgreSQL
+    req: ClusterRequest
 ):
 
     # Проверка идентификатора датасета
@@ -46,23 +43,12 @@ async def cluster_analysis(
 
     cluster_nodes = [ClusterNode(**n) for n in nodes]
 
-    if email is not None:
-        await db.execute(
-            """
-            INSERT INTO analysis_requests (email, type, dataset_id, method)
-            VALUES ($1, $2, $3, $4)
-            """,
-            email, "cluster", req.dataset_id, req.method
-        )
-
     return ClusterResponse(dataset_id=req.dataset_id, type=req.method, nodes=cluster_nodes)
 
 
 @router.post("/metric", response_model=MetricAnalysisResponse)
 async def metric_analysis(
-    req: MetricAnalysisRequest,
-    email: str | None = Depends(get_current_user_email),  # ← получаем email (или None)
-    db = Depends(get_db)
+    req: MetricAnalysisRequest
 ):
     
     # Проверка индентификатора датасета
@@ -89,14 +75,5 @@ async def metric_analysis(
         )
 
     metric_nodes = [MetricNode(**n) for n in nodes]
-
-    if email is not None:
-        await db.execute(
-            """
-            INSERT INTO analysis_requests (email, type, dataset_id, method)
-            VALUES ($1, $2, $3, $4)
-            """,
-            email, "metric", req.dataset_id, req.metric
-        )
 
     return MetricAnalysisResponse(dataset_id=req.dataset_id, metric=req.metric, nodes=metric_nodes)

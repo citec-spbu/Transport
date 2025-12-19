@@ -8,6 +8,8 @@ interface ParamsSelectorProps {
   onSubmit?: () => void;
 }
 
+const token = localStorage.getItem("token");
+
 export default function ParamsSelector({ onSubmit }: ParamsSelectorProps) {
   const { city, transport, setAll, resetAnalysisData } = useParamsStore();
   const navigate = useNavigate();
@@ -31,6 +33,7 @@ export default function ParamsSelector({ onSubmit }: ParamsSelectorProps) {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
+          ...(token ? { Authorization: token } : {})
         },
         body: JSON.stringify({
           city,

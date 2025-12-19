@@ -57,6 +57,7 @@ services:
     volumes:
       - ./frontend:/app   
       - /app/node_modules 
+      - ../certs:/app/certs:ro
     ports:
       - 3000:3000       
     depends_on:

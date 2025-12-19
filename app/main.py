@@ -1,67 +1,20 @@
+from app.models.graph_types import GraphTypes
+from app.api.v1.router import api_router
+from app.core.storage import active_datasets
+from app.core.context.analysis_context import AnalysisContext
+from app.core.context.metric_calculation_context import MetricCalculationContext
+from app.database.postgres import postgres_manager
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from contextlib import asynccontextmanager
-from app.api.v1.router import api_router
-from app.api.v1.endpoints.postgres import init_db, close_db
-import asyncio
-from datetime import datetime, timezone, timedelta
-from app.api.v1.endpoints.storage import active_datasets
-from app.database.neo4j_connection import Neo4jConnection
+from datetime import datetime, timezone
 
-async def cleanup_old_datasets():
-    while True:
-        now = datetime.now(timezone.utc)
-        cutoff = now - timedelta(hours=1)
-        to_delete = []
-
-        # Собираем ID для удаления
-        for ds_id, ds in list(active_datasets.items()):
-            if ds["created_at"] < cutoff:
-                to_delete.append(ds_id)
-
-        # Удаляем по одному
-        for ds_id in to_delete:
-            try:
-                ds = active_datasets[ds_id]
-                ctx = ds["analysis_context"]
-                db_params = ctx.db_graph_parameters
-
-                # Удаляем из Neo4j
-                conn = Neo4jConnection()
-                try:
-                    conn.run(f"CALL gds.graph.drop('{db_params.graph_name}', false)")
-                except:
-                    pass
-                try:
-                    conn.run(f"MATCH ()-[r:{db_params.main_rels_name}]->() DELETE r")
-                    conn.run(f"MATCH (n:{db_params.main_node_name}) DELETE n")
-                except:
-                    pass
-                conn.close()
-
-                # Удаляем из in-memory
-                del active_datasets[ds_id]
-                print(f"Cleaned up expired dataset: {ds_id}")
-
-            except Exception as e:
-                print(f"Error cleaning dataset {ds_id}: {e}")
-
-        await asyncio.sleep(300)  # проверяем каждые 5 минут
-
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    await init_db()
-    # Запускаем фоновую задачу
-    cleanup_task = asyncio.create_task(cleanup_old_datasets())
-    try:
-        yield
-    finally:
-        cleanup_task.cancel()
-        try:
-            await cleanup_task
-        except asyncio.CancelledError:
-            pass
-        await close_db()
+TRANSPORT_TO_GRAPH = {
+    "bus": GraphTypes.BUS_GRAPH,
+    "tram": GraphTypes.TRAM_GRAPH,
+    "trolleybus": GraphTypes.TROLLEY_GRAPH,
+    "minibus": GraphTypes.MINIBUS_GRAPH,
+}
 
 app = FastAPI(
     title="Graph Analysis API",
@@ -69,9 +22,9 @@ app = FastAPI(
                 "Поддерживает гостевой вход, вход по email-коду, загрузку наборов данных, "
                 "кластеризацию и вычисление метрик (PageRank, Betweenness).",
     version="1.0.0",
-    lifespan=lifespan
 )
 
+# CORS — оставляем только origin и credentials
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -81,11 +34,77 @@ app.add_middleware(
         "http://127.0.0.1:3000",
     ],
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
 )
 
 app.include_router(api_router, prefix="/v1")
+
+
+# --- восстановление active_datasets при старте ---
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from datetime import datetime, timezone
+
+from app.models.graph_types import GraphTypes
+from app.api.v1.router import api_router
+from app.core.storage import active_datasets
+from app.core.context.analysis_context import AnalysisContext
+from app.core.context.metric_calculation_context import MetricCalculationContext
+from app.database.postgres import postgres_manager
+
+TRANSPORT_TO_GRAPH = {
+    "bus": GraphTypes.BUS_GRAPH,
+    "tram": GraphTypes.TRAM_GRAPH,
+    "trolleybus": GraphTypes.TROLLEY_GRAPH,
+    "minibus": GraphTypes.MINIBUS_GRAPH,
+}
+
+app = FastAPI(
+    title="Graph Analysis API",
+    description="API для загрузки, анализа и визуализации графов маршрутов. "
+                "Поддерживает гостевой вход, вход по email-коду, загрузку наборов данных, "
+                "кластеризацию и вычисление метрик (PageRank, Betweenness).",
+    version="1.0.0",
+)
+
+# CORS — оставляем только origin и credentials
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+    ],
+    allow_credentials=True,
+)
+
+app.include_router(api_router, prefix="/v1")
+
+
+# --- восстановление active_datasets при старте ---
+@app.on_event("startup")
+async def restore_active_datasets():
+    await postgres_manager.init()
+
+    async for db in postgres_manager.get_db():
+        try:
+            rows = await db.fetch("SELECT * FROM datasets")
+            for row in rows:
+                analysis_context = AnalysisContext(
+                    city_name=row["city"],
+                    graph_name=row["id"],
+                    graph_type=TRANSPORT_TO_GRAPH[row["transport_type"]],
+                    metric_calculation_context=MetricCalculationContext(),
+                    need_create_graph=False
+                )
+                active_datasets[row["id"]] = {
+                    "name": row["name"],
+                    "analysis_context": analysis_context,
+                    "user_email": row["email"],
+                    "guest_token": None,
+                }
+        finally:
+            break  # закрываем генератор после первого соединения
 
 if __name__ == "__main__":
     import uvicorn

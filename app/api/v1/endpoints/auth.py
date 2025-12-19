@@ -1,11 +1,12 @@
-from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
-from app.core.services.email import send_verification_code
 from app.models.schemas import (
     RequestCodeRequest, RequestCodeResponse,
     VerifyCodeRequest, VerifyCodeResponse,
     GuestTokenResponse
 )
-from app.api.v1.endpoints.postgres import get_db
+from app.core.services.email import send_verification_code
+from app.database.postgres import postgres_manager
+
+from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
 from datetime import datetime, timedelta, timezone
 import secrets
 import string
@@ -13,7 +14,11 @@ import string
 router = APIRouter()
 
 @router.post("/request_code", response_model=RequestCodeResponse)
-async def request_code(data: RequestCodeRequest, background_tasks: BackgroundTasks, db = Depends(get_db)):
+async def request_code(
+    data: RequestCodeRequest, 
+    background_tasks: BackgroundTasks, 
+    db = Depends(postgres_manager.get_db)
+):
 
     user = await db.fetchrow(
         "SELECT verified FROM users WHERE email = $1",
@@ -58,7 +63,10 @@ async def request_code(data: RequestCodeRequest, background_tasks: BackgroundTas
     return RequestCodeResponse(message="Verification code sent")
 
 @router.post("/verify_code", response_model=VerifyCodeResponse)
-async def verify_code(data: VerifyCodeRequest, db=Depends(get_db)):
+async def verify_code(
+    data: VerifyCodeRequest, 
+    db=Depends(postgres_manager.get_db)
+):
     row = await db.fetchrow(
         """
         SELECT code, expires_at FROM verification_codes
@@ -100,7 +108,9 @@ async def verify_code(data: VerifyCodeRequest, db=Depends(get_db)):
 
 
 @router.post("/guest", response_model=GuestTokenResponse)
-async def guest(db=Depends(get_db)):
+async def guest(
+    db=Depends(postgres_manager.get_db)
+):
     # Генерация токена
     token = secrets.token_urlsafe(32)
     expires = datetime.now(timezone.utc) + timedelta(days=1)  # срок действия 1 день
