@@ -1,13 +1,33 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-// https://vite.dev/config/
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
+import fs from "fs";
+
+// Пути к сертификатам
+const keyPath = "/app/certs/localhost.key";
+const certPath = "/app/certs/localhost.crt";
+
+let httpsConfig = undefined;
+
+// Если оба файла существуют — включаем HTTPS
+if (fs.existsSync(keyPath) && fs.existsSync(certPath)) {
+  httpsConfig = {
+    key: fs.readFileSync(keyPath),
+    cert: fs.readFileSync(certPath),
+  };
+}
+
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-    server: {
+  server: {
+    host: "localhost",
+    port: 3000,
     proxy: {
-      "/dataset": "http://localhost:8050",
-      "/analysis": "http://localhost:8050",
+      "/v1": {
+        target: "http://app:8050",
+        changeOrigin: true,
+      },
     },
+    https: httpsConfig, // undefined → HTTP, объект → HTTPS
   },
-})
+});

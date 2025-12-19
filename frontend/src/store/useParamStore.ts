@@ -41,6 +41,7 @@ interface ParamsState {
   transport: string;
   analysisType: string;
   datasetId: string;
+  datasetsRefreshToken: number;
 
   datasetCache: Record<string, DatasetAnalysis>;
 
@@ -54,6 +55,7 @@ interface ParamsState {
   setDatasetId: (id: string) => void;
   setClusterType: (type: "leiden" | "louvain") => void;
   setMetricType: (type: "pagerank" | "betweenness") => void;
+  bumpDatasetsRefresh: () => void;
 
   setAnalysisData: (datasetId: string, analysis: DatasetAnalysis) => void;
   getAnalysisData: (datasetId: string) => DatasetAnalysis | undefined;
@@ -67,6 +69,7 @@ export const useParamsStore = create<ParamsState>((set, get) => ({
   transport: "",
   analysisType: "",
   datasetId: "",
+  datasetsRefreshToken: 0,
   datasetCache: {},
 
   clusterType: "leiden",
@@ -78,6 +81,7 @@ export const useParamsStore = create<ParamsState>((set, get) => ({
   setDatasetId: (datasetId) => set({ datasetId }),
   setClusterType: (clusterType) => set({ clusterType }),
   setMetricType: (metricType) => set({ metricType }),
+  bumpDatasetsRefresh: () => set((state) => ({ datasetsRefreshToken: state.datasetsRefreshToken + 1 })),
 
   setAnalysisData: (datasetId, analysis) =>
     set((state) => ({

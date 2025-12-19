@@ -1,5 +1,6 @@
-from pydantic import BaseModel, Field, conlist
+from pydantic import BaseModel, Field, conlist, EmailStr
 from typing import List, Optional
+from uuid import UUID
 from enum import Enum
 
 class TransportType(str, Enum):
@@ -20,11 +21,12 @@ class MetricType(str, Enum):
 
 # Auth Schemas
 class RequestCodeRequest(BaseModel):
-    email: str = Field(..., json_schema_extra={"example": "user@example.com"})
+    email: EmailStr = Field(..., json_schema_extra={"example": "user@example.com"})
 
 
 class RequestCodeResponse(BaseModel):
     message: str = Field(..., json_schema_extra={"example": "Verification code sent"})
+    token: Optional[str] = None
 
 
 class VerifyCodeRequest(BaseModel):
@@ -48,9 +50,16 @@ class DatasetUploadRequest(BaseModel):
 
 
 class DatasetUploadResponse(BaseModel):
-    dataset_id: str = Field(..., json_schema_extra={"example": "abc123"})
-    name: str = Field(..., json_schema_extra={"example": "Bus routes — Saint Petersburg"})
+    dataset_id: UUID = Field(..., json_schema_extra={"example": "b361e37f-a5bc-436d-ac58-dfe573c29aac"})
 
+
+class DatasetInfo(BaseModel):
+    dataset_id: UUID
+    city: str = Field(..., json_schema_extra={"example": "Saint Petersburg"})
+    transport_type: TransportType
+
+class DatasetListResponse(BaseModel):
+    datasets: List[DatasetInfo]
 
 # Analysis Schemas
 class ClusterNode(BaseModel):
@@ -81,13 +90,13 @@ class ClusterStatistics(BaseModel):
     )
 
 class ClusterRequest(BaseModel):
-    dataset_id: str = Field(..., json_schema_extra={"example": "abc123"})
+    dataset_id: UUID = Field(..., json_schema_extra={"example": "b361e37f-a5bc-436d-ac58-dfe573c29aac"})
     method: ClusteringMethod = Field(..., description="Метод кластеризации")
 
 
 class ClusterResponse(BaseModel):
-    dataset_id: str
-    method: ClusteringMethod
+    dataset_id: UUID
+    type: ClusteringMethod = Field("cluster", json_schema_extra={"example": "cluster"})
     nodes: List[ClusterNode]
     statistics: ClusterStatistics
 
@@ -103,10 +112,11 @@ class MetricNode(BaseModel):
 )
 
 class MetricAnalysisRequest(BaseModel):
-    dataset_id: str = Field(..., json_schema_extra={"example": "abc123"})
+    dataset_id: UUID = Field(..., json_schema_extra={"example": "b361e37f-a5bc-436d-ac58-dfe573c29aac"})
     metric_type: MetricType = Field(...)
 
+
 class MetricAnalysisResponse(BaseModel):
-    dataset_id: str
-    metric_type: MetricType
+    dataset_id: UUID
+    metric_type: MetricType = Field("metric", json_schema_extra={"example": "metric"})
     nodes: List[MetricNode]

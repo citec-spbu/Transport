@@ -39,7 +39,7 @@ export default function AnalyseSelector() {
 
           for (const method of methods) {
             const res = await fetch(
-              "http://localhost:8050/v1/analysis/cluster",
+              "/v1/analysis/cluster",
               {
                 method: "POST",
                 headers: {
@@ -74,7 +74,7 @@ export default function AnalyseSelector() {
 
           for (const metric of metrics) {
             const res = await fetch
-              ("http://localhost:8050/v1/analysis/metric",
+              ("/v1/analysis/metric",
               {
                 method: "POST",
                 headers: {

@@ -10,8 +10,20 @@ services:
       - NEO4J_PLUGINS=["graph-data-science"]
       - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
       - NEO4J_dbms_security_procedures_unrestricted=jwt.security.*,apoc.*,gds.*
+      
     volumes:
       - neo4j_data:/data
+    networks:
+      - app-network
+  db:
+    image: postgres:16
+    container_name: postgres_app
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: appdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
     networks:
       - app-network
   app:
@@ -19,10 +31,17 @@ services:
     container_name: transit_analysis_app
     depends_on:
       - neo4j
+      - db 
     environment:
       - GRAPH_DATABASE_URL=neo4j://neo4j:7687
       - GRAPH_DATABASE_USER=neo4j
       - GRAPH_DATABASE_PASSWORD=hello123
+      - DATABASE_URL=postgresql://user:password@postgres_app:5432/appdb
+      - SMTP_HOST=smtp.yandex.ru
+      - SMTP_PORT=587
+      - SMTP_USER=bogdanova.tekna156@yandex.ru
+      - SMTP_PASSWORD=tyxeggdgctidizdw
+      - SMTP_FROM=Transit Analysis <bogdanova.tekna156@yandex.ru>
     command: uvicorn app.main:app --host 0.0.0.0 --port 8050 --reload
     ports:
       - "8050:8050"
@@ -35,15 +54,21 @@ services:
     container_name: frontend
     build:
       context: ./frontend
+    volumes:
+      - ./frontend:/app   
+      - /app/node_modules 
+      - /certs:/app/certs:ro
     ports:
-      - 3000:80
+      - 3000:3000       
     depends_on:
       - app
     networks:
       - app-network
 
+
 volumes:
   neo4j_data:
+  pgdata:
 
 
 networks:

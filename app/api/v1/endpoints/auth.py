@@ -1,45 +1,154 @@
-from fastapi import APIRouter
 from app.models.schemas import (
     RequestCodeRequest, RequestCodeResponse,
     VerifyCodeRequest, VerifyCodeResponse,
     GuestTokenResponse
 )
+from app.core.services.email import send_verification_code
+from app.database.postgres import postgres_manager
+
+from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
+from datetime import datetime, timedelta, timezone
 import secrets
 import string
 
 router = APIRouter()
 
-# Временное хранилище кодов (в продакшене использовать Redis или БД)
-verification_codes = {}
-
 @router.post("/request_code", response_model=RequestCodeResponse)
-async def request_code(data: RequestCodeRequest):
-    """Отправить код подтверждения на email"""
+async def request_code(
+    data: RequestCodeRequest, 
+    background_tasks: BackgroundTasks, 
+    db = Depends(postgres_manager.get_db)
+):
+
+    user = await db.fetchrow(
+        "SELECT id, verified FROM users WHERE email = $1",
+        data.email
+    )
+
+    if user and user["verified"]:
+        # If already verified, return existing valid token or generate a new one
+        existing_token = await db.fetchrow(
+            """
+            SELECT token FROM tokens
+            WHERE user_id = $1 AND expires_at > $2
+            ORDER BY created_at DESC
+            LIMIT 1
+            """,
+            user["id"], datetime.now(timezone.utc)
+        )
+        if existing_token:
+            return RequestCodeResponse(message="User already verified", token=existing_token["token"])
+
+        token = secrets.token_urlsafe(32)
+        expires = datetime.now(timezone.utc) + timedelta(days=30)
+        await db.execute(
+            "INSERT INTO tokens (token, user_id, expires_at) VALUES ($1, $2, $3)",
+            token, user["id"], expires
+        )
+        return RequestCodeResponse(message="User already verified", token=token)
+
+    # Если пользователь новый или не подтверждён, создаём/обновляем запись
+    await db.execute(
+        "INSERT INTO users (email, verified) VALUES ($1, FALSE) ON CONFLICT (email) DO NOTHING",
+        data.email
+    )
+
     code = "".join(secrets.choice(string.digits) for _ in range(6))
-    verification_codes[data.email] = code
-    
-    # TODO: интегрировать отправку email через SMTP сервис
-    print(f"Verification code for {data.email}: {code}")
-    
+    expires = datetime.now(timezone.utc) + timedelta(minutes=10)
+
+    # Сохраняем код
+    await db.execute(
+        """
+        INSERT INTO verification_codes (email, code, expires_at)
+        VALUES ($1, $2, $3)
+        ON CONFLICT (email) DO UPDATE
+        SET code = $2, expires_at = $3
+        """,
+        data.email, code, expires
+    )
+
+    try:
+        background_tasks.add_task(send_verification_code, data.email, code)
+    except Exception as e:
+        await db.execute(
+            "DELETE FROM verification_codes WHERE email = $1",
+            data.email
+        )
+        raise HTTPException(
+            status_code=503, 
+            detail="Email service temporarily unavailable"
+        ) from e
+
     return RequestCodeResponse(message="Verification code sent")
 
-
 @router.post("/verify_code", response_model=VerifyCodeResponse)
-async def verify_code(data: VerifyCodeRequest):
-    """Проверить код подтверждения и получить токен"""
-    stored_code = verification_codes.get(data.email)
-    
-    if not stored_code or stored_code != data.code:
-        token = None
-    else:
-        token = secrets.token_urlsafe(32)
-        del verification_codes[data.email]
-    
+async def verify_code(
+    data: VerifyCodeRequest, 
+    db=Depends(postgres_manager.get_db)
+):
+    row = await db.fetchrow(
+        """
+        SELECT code, expires_at FROM verification_codes
+        WHERE email = $1
+        """,
+        data.email
+    )
+
+    if not row:
+        raise HTTPException(
+            status_code=404,
+            detail="Verification code not found for this email"
+        )
+
+    if row['code'] != data.code:
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid verification code"
+        )
+
+    if row['expires_at'] < datetime.now(timezone.utc):
+        raise HTTPException(
+            status_code=400,
+            detail="Verification code has expired"
+        )
+
+    await db.execute("DELETE FROM verification_codes WHERE email = $1", data.email)
+    user = await db.fetchrow(
+        """
+        UPDATE users
+        SET verified = TRUE
+        WHERE email = $1
+        RETURNING id
+        """,
+        data.email
+    )
+
+    token = secrets.token_urlsafe(32)
+    expires = datetime.now(timezone.utc) + timedelta(days=30)
+
+    await db.execute(
+        "INSERT INTO tokens (token, user_id, expires_at) VALUES ($1, $2, $3)",
+        token, user["id"], expires
+    )
+
     return VerifyCodeResponse(token=token, email=data.email)
 
 
 @router.post("/guest", response_model=GuestTokenResponse)
-async def guest():
-    """Гостевой вход без регистрации"""
+async def guest(
+    db=Depends(postgres_manager.get_db)
+):
+    # Генерация токена
     token = secrets.token_urlsafe(32)
+    expires = datetime.now(timezone.utc) + timedelta(days=1)  # срок действия 1 день
+
+    # Сохраняем токен в БД
+    await db.execute(
+        """
+        INSERT INTO tokens (token, user_id, expires_at)
+        VALUES ($1, NULL, $2)
+        """,
+        token, expires
+    )
+
     return GuestTokenResponse(token=token)

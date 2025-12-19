@@ -114,7 +114,7 @@ export default function CitySelector({ value, onChange }: CitySelectorProps) {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-4 relative">
+    <div className="max-w-md mx-auto mt-2 relative">
       <div className="relative">
         <div className="absolute inset-y-0 left-2 flex items-center">
           <Search className="text-gray-400" size={18} />

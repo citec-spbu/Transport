@@ -1,16 +1,17 @@
-from fastapi import APIRouter, HTTPException
 from app.models.schemas import (
     ClusterRequest, ClusterResponse, MetricAnalysisRequest, MetricAnalysisResponse,
     ClusterNode, MetricNode, ClusteringMethod, MetricType, ClusterStatistics
 )
-from app.api.v1.endpoints.datasets import active_datasets
 from app.core.context.analysis_context import AnalysisContext
 from app.core.context.metric_calculation_context import MetricCalculationContext
 from app.core.services.analysis_manager import AnalysisManager
+from app.core.storage import active_datasets
+
+from fastapi import APIRouter, HTTPException
+from typing import Optional
 import copy
 
 router = APIRouter()
-
 
 @router.post("/cluster", response_model=ClusterResponse)
 async def cluster_analysis(req: ClusterRequest):
