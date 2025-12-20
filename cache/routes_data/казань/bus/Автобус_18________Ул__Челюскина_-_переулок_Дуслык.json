@@ -1,0 +1,2996 @@
+{
+  "routeNumber": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+  "routeUrl": "/kzn/bus/18",
+  "nodes": {
+    "ул. Челюскина-6": {
+      "name": "ул. Челюскина-6",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.080643,
+      "yCoordinate": 55.868673,
+      "isCoordinateApproximate": false
+    },
+    "Молодежная-3": {
+      "name": "Молодежная-3",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.079087,
+      "yCoordinate": 55.865666,
+      "isCoordinateApproximate": false
+    },
+    "Баня №14": {
+      "name": "Баня №14",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.07846,
+      "yCoordinate": 55.863212,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ленинградская-1": {
+      "name": "ул. Ленинградская-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.086207,
+      "yCoordinate": 55.862011,
+      "isCoordinateApproximate": false
+    },
+    "ул. Лукина-1": {
+      "name": "ул. Лукина-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.091626,
+      "yCoordinate": 55.861076,
+      "isCoordinateApproximate": false
+    },
+    "ул. Максимова-1": {
+      "name": "ул. Максимова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.099727,
+      "yCoordinate": 55.859772,
+      "isCoordinateApproximate": false
+    },
+    "ул. О.Кошевого": {
+      "name": "ул. О.Кошевого",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.098239,
+      "yCoordinate": 55.855741,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Авиастроительная\"": {
+      "name": "Станция метро \"Авиастроительная\"",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.084127,
+      "yCoordinate": 55.85368,
+      "isCoordinateApproximate": false
+    },
+    "ул. Дементьева": {
+      "name": "ул. Дементьева",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.083606,
+      "yCoordinate": 55.847364,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Северный вокзал\"": {
+      "name": "Станция метро \"Северный вокзал\"",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.08201,
+      "yCoordinate": 55.841523,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гагарина": {
+      "name": "ул. Гагарина",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.080414,
+      "yCoordinate": 55.838527,
+      "isCoordinateApproximate": false
+    },
+    "площадь Восстания-1": {
+      "name": "площадь Восстания-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.079832,
+      "yCoordinate": 55.833177,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Яшьлек\"": {
+      "name": "Станция метро \"Яшьлек\"",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.082536,
+      "yCoordinate": 55.829335,
+      "isCoordinateApproximate": false
+    },
+    "Проспект Ибрагимова": {
+      "name": "Проспект Ибрагимова",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.090996,
+      "yCoordinate": 55.830355,
+      "isCoordinateApproximate": false
+    },
+    "ул. Коллективная": {
+      "name": "ул. Коллективная",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.09088,
+      "yCoordinate": 55.832911,
+      "isCoordinateApproximate": false
+    },
+    "ул. Восстания": {
+      "name": "ул. Восстания",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.090414,
+      "yCoordinate": 55.834691,
+      "isCoordinateApproximate": false
+    },
+    "Кафе \"Солнышко\"": {
+      "name": "Кафе \"Солнышко\"",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.099389,
+      "yCoordinate": 55.835723,
+      "isCoordinateApproximate": false
+    },
+    "ул. Голубятникова-1": {
+      "name": "ул. Голубятникова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.105774,
+      "yCoordinate": 55.835791,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Дружба-1": {
+      "name": "жилой массив Дружба-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.112868,
+      "yCoordinate": 55.83585,
+      "isCoordinateApproximate": false
+    },
+    "ул. Маршала Чуйкова": {
+      "name": "ул. Маршала Чуйкова",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.122296,
+      "yCoordinate": 55.835795,
+      "isCoordinateApproximate": false
+    },
+    "39-й квартал": {
+      "name": "39-й квартал",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.129975,
+      "yCoordinate": 55.83581,
+      "isCoordinateApproximate": false
+    },
+    "Городская клиническая больница №7": {
+      "name": "Городская клиническая больница №7",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.136959,
+      "yCoordinate": 55.835855,
+      "isCoordinateApproximate": false
+    },
+    "Роддом": {
+      "name": "Роддом",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.147252,
+      "yCoordinate": 55.835634,
+      "isCoordinateApproximate": false
+    },
+    "Универсам 1-1": {
+      "name": "Универсам 1-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.147217,
+      "yCoordinate": 55.83114,
+      "isCoordinateApproximate": false
+    },
+    "ул. Адоратского": {
+      "name": "ул. Адоратского",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.148414,
+      "yCoordinate": 55.826934,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гаврилова": {
+      "name": "ул. Гаврилова",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.154261,
+      "yCoordinate": 55.825762,
+      "isCoordinateApproximate": false
+    },
+    "Футбольный стадион \"Казань Арена\"-1": {
+      "name": "Футбольный стадион \"Казань Арена\"-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.163269,
+      "yCoordinate": 55.823045,
+      "isCoordinateApproximate": false
+    },
+    "Ветеринарная академия": {
+      "name": "Ветеринарная академия",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.176488,
+      "yCoordinate": 55.818686,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Арбузова-4": {
+      "name": "ул. Академика Арбузова-4",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.179788,
+      "yCoordinate": 55.814327,
+      "isCoordinateApproximate": false
+    },
+    "Архив Казани": {
+      "name": "Архив Казани",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.181128,
+      "yCoordinate": 55.811509,
+      "isCoordinateApproximate": false
+    },
+    "ул. А.Попова": {
+      "name": "ул. А.Попова",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.182236,
+      "yCoordinate": 55.809078,
+      "isCoordinateApproximate": false
+    },
+    "ул. Пионерская": {
+      "name": "ул. Пионерская",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.184093,
+      "yCoordinate": 55.805315,
+      "isCoordinateApproximate": false
+    },
+    "Советская площадь": {
+      "name": "Советская площадь",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.181433,
+      "yCoordinate": 55.800766,
+      "isCoordinateApproximate": false
+    },
+    "Октябрьский городок": {
+      "name": "Октябрьский городок",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.176409,
+      "yCoordinate": 55.7975,
+      "isCoordinateApproximate": false
+    },
+    "Кооперативный институт": {
+      "name": "Кооперативный институт",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.173209,
+      "yCoordinate": 55.795492,
+      "isCoordinateApproximate": false
+    },
+    "ул. П.Лумумбы": {
+      "name": "ул. П.Лумумбы",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.171241,
+      "yCoordinate": 55.792963,
+      "isCoordinateApproximate": false
+    },
+    "ул. А.Кутуя": {
+      "name": "ул. А.Кутуя",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.170642,
+      "yCoordinate": 55.785693,
+      "isCoordinateApproximate": false
+    },
+    "Кафе \"Сирень\"": {
+      "name": "Кафе \"Сирень\"",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.170422,
+      "yCoordinate": 55.782845,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гвардейская": {
+      "name": "ул. Гвардейская",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.17184,
+      "yCoordinate": 55.779596,
+      "isCoordinateApproximate": false
+    },
+    "Сады": {
+      "name": "Сады",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.176299,
+      "yCoordinate": 55.770015,
+      "isCoordinateApproximate": false
+    },
+    "ул. Даурская": {
+      "name": "ул. Даурская",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.180246,
+      "yCoordinate": 55.766267,
+      "isCoordinateApproximate": false
+    },
+    "ул. Р.Зорге": {
+      "name": "ул. Р.Зорге",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.185696,
+      "yCoordinate": 55.763255,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Горки\"-3": {
+      "name": "Станция метро \"Горки\"-3",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.191545,
+      "yCoordinate": 55.759659,
+      "isCoordinateApproximate": false
+    },
+    "ул. Братьев Касимовых-1": {
+      "name": "ул. Братьев Касимовых-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.197657,
+      "yCoordinate": 55.756269,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гарифьянова-1": {
+      "name": "ул. Гарифьянова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.202828,
+      "yCoordinate": 55.753224,
+      "isCoordinateApproximate": false
+    },
+    "Проспект Победы-1": {
+      "name": "Проспект Победы-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.212113,
+      "yCoordinate": 55.74779,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ю.Фучика": {
+      "name": "ул. Ю.Фучика",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.218238,
+      "yCoordinate": 55.745571,
+      "isCoordinateApproximate": false
+    },
+    "ул. Генерала Сафиуллина": {
+      "name": "ул. Генерала Сафиуллина",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.224726,
+      "yCoordinate": 55.749079,
+      "isCoordinateApproximate": false
+    },
+    "ул. Кул Гали": {
+      "name": "ул. Кул Гали",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.229333,
+      "yCoordinate": 55.751595,
+      "isCoordinateApproximate": false
+    },
+    "10-й микрорайон": {
+      "name": "10-й микрорайон",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231775,
+      "yCoordinate": 55.755001,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Завойского": {
+      "name": "ул. Академика Завойского",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231587,
+      "yCoordinate": 55.757194,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чишмяле": {
+      "name": "ул. Чишмяле",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231697,
+      "yCoordinate": 55.76343,
+      "isCoordinateApproximate": false
+    },
+    "Школа №125": {
+      "name": "Школа №125",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231868,
+      "yCoordinate": 55.769459,
+      "isCoordinateApproximate": false
+    },
+    "ул. Минская": {
+      "name": "ул. Минская",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231807,
+      "yCoordinate": 55.771802,
+      "isCoordinateApproximate": false
+    },
+    "Кабельное телевидение-2": {
+      "name": "Кабельное телевидение-2",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.23228,
+      "yCoordinate": 55.776089,
+      "isCoordinateApproximate": false
+    },
+    "ул. Г.Кайбицкой": {
+      "name": "ул. Г.Кайбицкой",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.236342,
+      "yCoordinate": 55.780286,
+      "isCoordinateApproximate": false
+    },
+    "Дворец спорта \"Ак Буре\"": {
+      "name": "Дворец спорта \"Ак Буре\"",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.233658,
+      "yCoordinate": 55.784537,
+      "isCoordinateApproximate": false
+    },
+    "ул. Магистральный проезд": {
+      "name": "ул. Магистральный проезд",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.229925,
+      "yCoordinate": 55.788267,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Глушко-2": {
+      "name": "ул. Академика Глушко-2",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.224925,
+      "yCoordinate": 55.789047,
+      "isCoordinateApproximate": false
+    },
+    "ул. Д.Файзи-2": {
+      "name": "ул. Д.Файзи-2",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.226168,
+      "yCoordinate": 55.791512,
+      "isCoordinateApproximate": false
+    },
+    "переулок Дуслык": {
+      "name": "переулок Дуслык",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.229921,
+      "yCoordinate": 55.792624,
+      "isCoordinateApproximate": false
+    },
+    "ул. Д.Файзи-3": {
+      "name": "ул. Д.Файзи-3",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.225486,
+      "yCoordinate": 55.791677,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Глушко-4": {
+      "name": "ул. Академика Глушко-4",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.225159,
+      "yCoordinate": 55.788692,
+      "isCoordinateApproximate": false
+    },
+    "ул. Магистральный проезд-1": {
+      "name": "ул. Магистральный проезд-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.229381,
+      "yCoordinate": 55.788083,
+      "isCoordinateApproximate": false
+    },
+    "Дворец спорта \"Ак Буре\"-1": {
+      "name": "Дворец спорта \"Ак Буре\"-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.233138,
+      "yCoordinate": 55.784435,
+      "isCoordinateApproximate": false
+    },
+    "ул. Г.Кайбицкой-1": {
+      "name": "ул. Г.Кайбицкой-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.235931,
+      "yCoordinate": 55.780368,
+      "isCoordinateApproximate": false
+    },
+    "Кабельное телевидение-1": {
+      "name": "Кабельное телевидение-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231506,
+      "yCoordinate": 55.775736,
+      "isCoordinateApproximate": false
+    },
+    "ул. Минская-1": {
+      "name": "ул. Минская-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.23144,
+      "yCoordinate": 55.77198,
+      "isCoordinateApproximate": false
+    },
+    "Школа №125-1": {
+      "name": "Школа №125-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231408,
+      "yCoordinate": 55.769426,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ломжинская-1": {
+      "name": "ул. Ломжинская-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231196,
+      "yCoordinate": 55.765669,
+      "isCoordinateApproximate": false
+    },
+    "ул. Чишмяле-1": {
+      "name": "ул. Чишмяле-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.231392,
+      "yCoordinate": 55.761884,
+      "isCoordinateApproximate": false
+    },
+    "10-й микрорайон-1": {
+      "name": "10-й микрорайон-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.230995,
+      "yCoordinate": 55.754228,
+      "isCoordinateApproximate": false
+    },
+    "ул. Кул Гали-1": {
+      "name": "ул. Кул Гали-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.228163,
+      "yCoordinate": 55.751197,
+      "isCoordinateApproximate": false
+    },
+    "ул. Генерала Сафиуллина-1": {
+      "name": "ул. Генерала Сафиуллина-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.224017,
+      "yCoordinate": 55.749068,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ю.Фучика-1": {
+      "name": "ул. Ю.Фучика-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.217787,
+      "yCoordinate": 55.745685,
+      "isCoordinateApproximate": false
+    },
+    "Проспект Победы": {
+      "name": "Проспект Победы",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.212832,
+      "yCoordinate": 55.748153,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гарифьянова": {
+      "name": "ул. Гарифьянова",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.202877,
+      "yCoordinate": 55.75385,
+      "isCoordinateApproximate": false
+    },
+    "ул. Братьев Касимовых": {
+      "name": "ул. Братьев Касимовых",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.196944,
+      "yCoordinate": 55.757423,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Горки\"": {
+      "name": "Станция метро \"Горки\"",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.192489,
+      "yCoordinate": 55.759916,
+      "isCoordinateApproximate": false
+    },
+    "ул. Р.Зорге-1": {
+      "name": "ул. Р.Зорге-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.184666,
+      "yCoordinate": 55.764279,
+      "isCoordinateApproximate": false
+    },
+    "ул. Даурская-1": {
+      "name": "ул. Даурская-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.180753,
+      "yCoordinate": 55.766621,
+      "isCoordinateApproximate": false
+    },
+    "Сады-1": {
+      "name": "Сады-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.176944,
+      "yCoordinate": 55.770232,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гвардейская-1": {
+      "name": "ул. Гвардейская-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.172582,
+      "yCoordinate": 55.779657,
+      "isCoordinateApproximate": false
+    },
+    "Кафе \"Сирень\"-1": {
+      "name": "Кафе \"Сирень\"-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.171128,
+      "yCoordinate": 55.782799,
+      "isCoordinateApproximate": false
+    },
+    "ул. А.Кутуя-3": {
+      "name": "ул. А.Кутуя-3",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.171479,
+      "yCoordinate": 55.787864,
+      "isCoordinateApproximate": false
+    },
+    "ул. П.Лумумбы-1": {
+      "name": "ул. П.Лумумбы-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.1718,
+      "yCoordinate": 55.793128,
+      "isCoordinateApproximate": false
+    },
+    "Кооперативный институт-1": {
+      "name": "Кооперативный институт-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.172371,
+      "yCoordinate": 55.794176,
+      "isCoordinateApproximate": false
+    },
+    "Октябрьский городок-1": {
+      "name": "Октябрьский городок-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.176072,
+      "yCoordinate": 55.796801,
+      "isCoordinateApproximate": false
+    },
+    "Советская площадь-1": {
+      "name": "Советская площадь-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.183034,
+      "yCoordinate": 55.801068,
+      "isCoordinateApproximate": false
+    },
+    "ул. Пионерская-1": {
+      "name": "ул. Пионерская-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.18441,
+      "yCoordinate": 55.806002,
+      "isCoordinateApproximate": false
+    },
+    "ул. А.Попова-1": {
+      "name": "ул. А.Попова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.182557,
+      "yCoordinate": 55.809877,
+      "isCoordinateApproximate": false
+    },
+    "Архив Казани-1": {
+      "name": "Архив Казани-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.181376,
+      "yCoordinate": 55.812357,
+      "isCoordinateApproximate": false
+    },
+    "ул. Академика Арбузова-2": {
+      "name": "ул. Академика Арбузова-2",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.182413,
+      "yCoordinate": 55.817968,
+      "isCoordinateApproximate": false
+    },
+    "ул. Халитова-1": {
+      "name": "ул. Халитова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.183263,
+      "yCoordinate": 55.821176,
+      "isCoordinateApproximate": false
+    },
+    "Ветеринарная академия-1": {
+      "name": "Ветеринарная академия-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.177153,
+      "yCoordinate": 55.818985,
+      "isCoordinateApproximate": false
+    },
+    "Футбольный стадион \"Казань Арена\"": {
+      "name": "Футбольный стадион \"Казань Арена\"",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.164427,
+      "yCoordinate": 55.823497,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гаврилова-1": {
+      "name": "ул. Гаврилова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.154497,
+      "yCoordinate": 55.826052,
+      "isCoordinateApproximate": false
+    },
+    "ул. Адоратского-1": {
+      "name": "ул. Адоратского-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.147792,
+      "yCoordinate": 55.827906,
+      "isCoordinateApproximate": false
+    },
+    "Универсам 1": {
+      "name": "Универсам 1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.147604,
+      "yCoordinate": 55.831974,
+      "isCoordinateApproximate": false
+    },
+    "Роддом-1": {
+      "name": "Роддом-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.14621,
+      "yCoordinate": 55.836142,
+      "isCoordinateApproximate": false
+    },
+    "Городская клиническая больница №7-1": {
+      "name": "Городская клиническая больница №7-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.137802,
+      "yCoordinate": 55.836204,
+      "isCoordinateApproximate": false
+    },
+    "39-й квартал-1": {
+      "name": "39-й квартал-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.13061,
+      "yCoordinate": 55.836191,
+      "isCoordinateApproximate": false
+    },
+    "ул. Маршала Чуйкова-1": {
+      "name": "ул. Маршала Чуйкова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.120332,
+      "yCoordinate": 55.836153,
+      "isCoordinateApproximate": false
+    },
+    "жилой массив Дружба": {
+      "name": "жилой массив Дружба",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.111813,
+      "yCoordinate": 55.83615,
+      "isCoordinateApproximate": false
+    },
+    "ул. Голубятникова": {
+      "name": "ул. Голубятникова",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.105495,
+      "yCoordinate": 55.836184,
+      "isCoordinateApproximate": false
+    },
+    "Кафе \"Солнышко\"-1": {
+      "name": "Кафе \"Солнышко\"-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.100215,
+      "yCoordinate": 55.836054,
+      "isCoordinateApproximate": false
+    },
+    "ул. Восстания-2": {
+      "name": "ул. Восстания-2",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.089591,
+      "yCoordinate": 55.8344,
+      "isCoordinateApproximate": false
+    },
+    "Проспект Ибрагимова-1": {
+      "name": "Проспект Ибрагимова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.09094,
+      "yCoordinate": 55.831319,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Яшьлек\"-1": {
+      "name": "Станция метро \"Яшьлек\"-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.081495,
+      "yCoordinate": 55.829841,
+      "isCoordinateApproximate": false
+    },
+    "площадь Восстания-3": {
+      "name": "площадь Восстания-3",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.080828,
+      "yCoordinate": 55.833919,
+      "isCoordinateApproximate": false
+    },
+    "ул. Гагарина-1": {
+      "name": "ул. Гагарина-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.081216,
+      "yCoordinate": 55.837398,
+      "isCoordinateApproximate": false
+    },
+    "Станция метро \"Северный вокзал\"-1": {
+      "name": "Станция метро \"Северный вокзал\"-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.083119,
+      "yCoordinate": 55.841619,
+      "isCoordinateApproximate": false
+    },
+    "ул. Дементьева-3": {
+      "name": "ул. Дементьева-3",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.084421,
+      "yCoordinate": 55.848535,
+      "isCoordinateApproximate": false
+    },
+    "КДК им. Ленина-1": {
+      "name": "КДК им. Ленина-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.086836,
+      "yCoordinate": 55.854273,
+      "isCoordinateApproximate": false
+    },
+    "Площадь им.А.Ф. Павлова": {
+      "name": "Площадь им.А.Ф. Павлова",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.100497,
+      "yCoordinate": 55.856066,
+      "isCoordinateApproximate": false
+    },
+    "Авиационный завод": {
+      "name": "Авиационный завод",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.104666,
+      "yCoordinate": 55.858867,
+      "isCoordinateApproximate": false
+    },
+    "ул. Максимова": {
+      "name": "ул. Максимова",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.098793,
+      "yCoordinate": 55.860087,
+      "isCoordinateApproximate": false
+    },
+    "ул. Лукина": {
+      "name": "ул. Лукина",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.090103,
+      "yCoordinate": 55.861485,
+      "isCoordinateApproximate": false
+    },
+    "ул. Ленинградская": {
+      "name": "ул. Ленинградская",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.08565,
+      "yCoordinate": 55.862372,
+      "isCoordinateApproximate": false
+    },
+    "ул. Айдарова-1": {
+      "name": "ул. Айдарова-1",
+      "routeList": [
+        "Автобус 18        Ул. Челюскина - переулок Дуслык"
+      ],
+      "xCoordinate": 49.08791,
+      "yCoordinate": 55.866759,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "ул. Челюскина-6",
+      "endStop": "Молодежная-3",
+      "name": "ул. Челюскина-6 -> Молодежная-3; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Молодежная-3",
+      "endStop": "Баня №14",
+      "name": "Молодежная-3 -> Баня №14; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Баня №14",
+      "endStop": "ул. Ленинградская-1",
+      "name": "Баня №14 -> ул. Ленинградская-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Ленинградская-1",
+      "endStop": "ул. Лукина-1",
+      "name": "ул. Ленинградская-1 -> ул. Лукина-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Лукина-1",
+      "endStop": "ул. Максимова-1",
+      "name": "ул. Лукина-1 -> ул. Максимова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Максимова-1",
+      "endStop": "ул. О.Кошевого",
+      "name": "ул. Максимова-1 -> ул. О.Кошевого; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. О.Кошевого",
+      "endStop": "Станция метро \"Авиастроительная\"",
+      "name": "ул. О.Кошевого -> Станция метро \"Авиастроительная\"; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Станция метро \"Авиастроительная\"",
+      "endStop": "ул. Дементьева",
+      "name": "Станция метро \"Авиастроительная\" -> ул. Дементьева; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Дементьева",
+      "endStop": "Станция метро \"Северный вокзал\"",
+      "name": "ул. Дементьева -> Станция метро \"Северный вокзал\"; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "Станция метро \"Северный вокзал\"",
+      "endStop": "ул. Гагарина",
+      "name": "Станция метро \"Северный вокзал\" -> ул. Гагарина; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Гагарина",
+      "endStop": "площадь Восстания-1",
+      "name": "ул. Гагарина -> площадь Восстания-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "площадь Восстания-1",
+      "endStop": "Станция метро \"Яшьлек\"",
+      "name": "площадь Восстания-1 -> Станция метро \"Яшьлек\"; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Станция метро \"Яшьлек\"",
+      "endStop": "Проспект Ибрагимова",
+      "name": "Станция метро \"Яшьлек\" -> Проспект Ибрагимова; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Проспект Ибрагимова",
+      "endStop": "ул. Коллективная",
+      "name": "Проспект Ибрагимова -> ул. Коллективная; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Коллективная",
+      "endStop": "ул. Восстания",
+      "name": "ул. Коллективная -> ул. Восстания; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Восстания",
+      "endStop": "Кафе \"Солнышко\"",
+      "name": "ул. Восстания -> Кафе \"Солнышко\"; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Кафе \"Солнышко\"",
+      "endStop": "ул. Голубятникова-1",
+      "name": "Кафе \"Солнышко\" -> ул. Голубятникова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Голубятникова-1",
+      "endStop": "жилой массив Дружба-1",
+      "name": "ул. Голубятникова-1 -> жилой массив Дружба-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "жилой массив Дружба-1",
+      "endStop": "ул. Маршала Чуйкова",
+      "name": "жилой массив Дружба-1 -> ул. Маршала Чуйкова; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Маршала Чуйкова",
+      "endStop": "39-й квартал",
+      "name": "ул. Маршала Чуйкова -> 39-й квартал; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "39-й квартал",
+      "endStop": "Городская клиническая больница №7",
+      "name": "39-й квартал -> Городская клиническая больница №7; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Городская клиническая больница №7",
+      "endStop": "Роддом",
+      "name": "Городская клиническая больница №7 -> Роддом; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Роддом",
+      "endStop": "Универсам 1-1",
+      "name": "Роддом -> Универсам 1-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Универсам 1-1",
+      "endStop": "ул. Адоратского",
+      "name": "Универсам 1-1 -> ул. Адоратского; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Адоратского",
+      "endStop": "ул. Гаврилова",
+      "name": "ул. Адоратского -> ул. Гаврилова; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Гаврилова",
+      "endStop": "Футбольный стадион \"Казань Арена\"-1",
+      "name": "ул. Гаврилова -> Футбольный стадион \"Казань Арена\"-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Футбольный стадион \"Казань Арена\"-1",
+      "endStop": "Ветеринарная академия",
+      "name": "Футбольный стадион \"Казань Арена\"-1 -> Ветеринарная академия; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Ветеринарная академия",
+      "endStop": "ул. Академика Арбузова-4",
+      "name": "Ветеринарная академия -> ул. Академика Арбузова-4; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Академика Арбузова-4",
+      "endStop": "Архив Казани",
+      "name": "ул. Академика Арбузова-4 -> Архив Казани; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Архив Казани",
+      "endStop": "ул. А.Попова",
+      "name": "Архив Казани -> ул. А.Попова; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Пионерская",
+      "endStop": "Советская площадь",
+      "name": "ул. Пионерская -> Советская площадь; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Советская площадь",
+      "endStop": "Октябрьский городок",
+      "name": "Советская площадь -> Октябрьский городок; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Октябрьский городок",
+      "endStop": "Кооперативный институт",
+      "name": "Октябрьский городок -> Кооперативный институт; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Кооперативный институт",
+      "endStop": "ул. П.Лумумбы",
+      "name": "Кооперативный институт -> ул. П.Лумумбы; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. П.Лумумбы",
+      "endStop": "ул. А.Кутуя",
+      "name": "ул. П.Лумумбы -> ул. А.Кутуя; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. А.Кутуя",
+      "endStop": "Кафе \"Сирень\"",
+      "name": "ул. А.Кутуя -> Кафе \"Сирень\"; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Кафе \"Сирень\"",
+      "endStop": "ул. Гвардейская",
+      "name": "Кафе \"Сирень\" -> ул. Гвардейская; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Гвардейская",
+      "endStop": "Сады",
+      "name": "ул. Гвардейская -> Сады; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "Сады",
+      "endStop": "ул. Даурская",
+      "name": "Сады -> ул. Даурская; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Даурская",
+      "endStop": "ул. Р.Зорге",
+      "name": "ул. Даурская -> ул. Р.Зорге; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Р.Зорге",
+      "endStop": "Станция метро \"Горки\"-3",
+      "name": "ул. Р.Зорге -> Станция метро \"Горки\"-3; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Станция метро \"Горки\"-3",
+      "endStop": "ул. Братьев Касимовых-1",
+      "name": "Станция метро \"Горки\"-3 -> ул. Братьев Касимовых-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Братьев Касимовых-1",
+      "endStop": "ул. Гарифьянова-1",
+      "name": "ул. Братьев Касимовых-1 -> ул. Гарифьянова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Гарифьянова-1",
+      "endStop": "Проспект Победы-1",
+      "name": "ул. Гарифьянова-1 -> Проспект Победы-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Проспект Победы-1",
+      "endStop": "ул. Ю.Фучика",
+      "name": "Проспект Победы-1 -> ул. Ю.Фучика; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Ю.Фучика",
+      "endStop": "ул. Генерала Сафиуллина",
+      "name": "ул. Ю.Фучика -> ул. Генерала Сафиуллина; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Генерала Сафиуллина",
+      "endStop": "ул. Кул Гали",
+      "name": "ул. Генерала Сафиуллина -> ул. Кул Гали; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Кул Гали",
+      "endStop": "10-й микрорайон",
+      "name": "ул. Кул Гали -> 10-й микрорайон; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "10-й микрорайон",
+      "endStop": "ул. Академика Завойского",
+      "name": "10-й микрорайон -> ул. Академика Завойского; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Академика Завойского",
+      "endStop": "ул. Чишмяле",
+      "name": "ул. Академика Завойского -> ул. Чишмяле; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Чишмяле",
+      "endStop": "Школа №125",
+      "name": "ул. Чишмяле -> Школа №125; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №125",
+      "endStop": "ул. Минская",
+      "name": "Школа №125 -> ул. Минская; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Минская",
+      "endStop": "Кабельное телевидение-2",
+      "name": "ул. Минская -> Кабельное телевидение-2; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Кабельное телевидение-2",
+      "endStop": "ул. Г.Кайбицкой",
+      "name": "Кабельное телевидение-2 -> ул. Г.Кайбицкой; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 4
+    },
+    {
+      "startStop": "ул. Г.Кайбицкой",
+      "endStop": "Дворец спорта \"Ак Буре\"",
+      "name": "ул. Г.Кайбицкой -> Дворец спорта \"Ак Буре\"; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "Дворец спорта \"Ак Буре\"",
+      "endStop": "ул. Магистральный проезд",
+      "name": "Дворец спорта \"Ак Буре\" -> ул. Магистральный проезд; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Магистральный проезд",
+      "endStop": "ул. Академика Глушко-2",
+      "name": "ул. Магистральный проезд -> ул. Академика Глушко-2; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Академика Глушко-2",
+      "endStop": "ул. Д.Файзи-2",
+      "name": "ул. Академика Глушко-2 -> ул. Д.Файзи-2; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Д.Файзи-2",
+      "endStop": "переулок Дуслык",
+      "name": "ул. Д.Файзи-2 -> переулок Дуслык; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Д.Файзи-3",
+      "endStop": "ул. Академика Глушко-4",
+      "name": "ул. Д.Файзи-3 -> ул. Академика Глушко-4; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Магистральный проезд-1",
+      "endStop": "Дворец спорта \"Ак Буре\"-1",
+      "name": "ул. Магистральный проезд-1 -> Дворец спорта \"Ак Буре\"-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Дворец спорта \"Ак Буре\"-1",
+      "endStop": "ул. Г.Кайбицкой-1",
+      "name": "Дворец спорта \"Ак Буре\"-1 -> ул. Г.Кайбицкой-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Г.Кайбицкой-1",
+      "endStop": "Кабельное телевидение-1",
+      "name": "ул. Г.Кайбицкой-1 -> Кабельное телевидение-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Кабельное телевидение-1",
+      "endStop": "ул. Минская-1",
+      "name": "Кабельное телевидение-1 -> ул. Минская-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №125-1",
+      "endStop": "ул. Ломжинская-1",
+      "name": "Школа №125-1 -> ул. Ломжинская-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Ломжинская-1",
+      "endStop": "ул. Чишмяле-1",
+      "name": "ул. Ломжинская-1 -> ул. Чишмяле-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Чишмяле-1",
+      "endStop": "10-й микрорайон-1",
+      "name": "ул. Чишмяле-1 -> 10-й микрорайон-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "10-й микрорайон-1",
+      "endStop": "ул. Кул Гали-1",
+      "name": "10-й микрорайон-1 -> ул. Кул Гали-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Кул Гали-1",
+      "endStop": "ул. Генерала Сафиуллина-1",
+      "name": "ул. Кул Гали-1 -> ул. Генерала Сафиуллина-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Генерала Сафиуллина-1",
+      "endStop": "ул. Ю.Фучика-1",
+      "name": "ул. Генерала Сафиуллина-1 -> ул. Ю.Фучика-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Ю.Фучика-1",
+      "endStop": "Проспект Победы",
+      "name": "ул. Ю.Фучика-1 -> Проспект Победы; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Проспект Победы",
+      "endStop": "ул. Гарифьянова",
+      "name": "Проспект Победы -> ул. Гарифьянова; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Гарифьянова",
+      "endStop": "ул. Братьев Касимовых",
+      "name": "ул. Гарифьянова -> ул. Братьев Касимовых; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Братьев Касимовых",
+      "endStop": "Станция метро \"Горки\"",
+      "name": "ул. Братьев Касимовых -> Станция метро \"Горки\"; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Станция метро \"Горки\"",
+      "endStop": "ул. Р.Зорге-1",
+      "name": "Станция метро \"Горки\" -> ул. Р.Зорге-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Р.Зорге-1",
+      "endStop": "ул. Даурская-1",
+      "name": "ул. Р.Зорге-1 -> ул. Даурская-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Даурская-1",
+      "endStop": "Сады-1",
+      "name": "ул. Даурская-1 -> Сады-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Сады-1",
+      "endStop": "ул. Гвардейская-1",
+      "name": "Сады-1 -> ул. Гвардейская-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 4
+    },
+    {
+      "startStop": "ул. Гвардейская-1",
+      "endStop": "Кафе \"Сирень\"-1",
+      "name": "ул. Гвардейская-1 -> Кафе \"Сирень\"-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Кафе \"Сирень\"-1",
+      "endStop": "ул. А.Кутуя-3",
+      "name": "Кафе \"Сирень\"-1 -> ул. А.Кутуя-3; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. А.Кутуя-3",
+      "endStop": "ул. П.Лумумбы-1",
+      "name": "ул. А.Кутуя-3 -> ул. П.Лумумбы-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Кооперативный институт-1",
+      "endStop": "Октябрьский городок-1",
+      "name": "Кооперативный институт-1 -> Октябрьский городок-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Октябрьский городок-1",
+      "endStop": "Советская площадь-1",
+      "name": "Октябрьский городок-1 -> Советская площадь-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "Советская площадь-1",
+      "endStop": "ул. Пионерская-1",
+      "name": "Советская площадь-1 -> ул. Пионерская-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Пионерская-1",
+      "endStop": "ул. А.Попова-1",
+      "name": "ул. Пионерская-1 -> ул. А.Попова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. А.Попова-1",
+      "endStop": "Архив Казани-1",
+      "name": "ул. А.Попова-1 -> Архив Казани-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Архив Казани-1",
+      "endStop": "ул. Академика Арбузова-2",
+      "name": "Архив Казани-1 -> ул. Академика Арбузова-2; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Академика Арбузова-2",
+      "endStop": "ул. Халитова-1",
+      "name": "ул. Академика Арбузова-2 -> ул. Халитова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Халитова-1",
+      "endStop": "Ветеринарная академия-1",
+      "name": "ул. Халитова-1 -> Ветеринарная академия-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Ветеринарная академия-1",
+      "endStop": "Футбольный стадион \"Казань Арена\"",
+      "name": "Ветеринарная академия-1 -> Футбольный стадион \"Казань Арена\"; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Футбольный стадион \"Казань Арена\"",
+      "endStop": "ул. Гаврилова-1",
+      "name": "Футбольный стадион \"Казань Арена\" -> ул. Гаврилова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Гаврилова-1",
+      "endStop": "ул. Адоратского-1",
+      "name": "ул. Гаврилова-1 -> ул. Адоратского-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Адоратского-1",
+      "endStop": "Универсам 1",
+      "name": "ул. Адоратского-1 -> Универсам 1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Универсам 1",
+      "endStop": "Роддом-1",
+      "name": "Универсам 1 -> Роддом-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Роддом-1",
+      "endStop": "Городская клиническая больница №7-1",
+      "name": "Роддом-1 -> Городская клиническая больница №7-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Городская клиническая больница №7-1",
+      "endStop": "39-й квартал-1",
+      "name": "Городская клиническая больница №7-1 -> 39-й квартал-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "39-й квартал-1",
+      "endStop": "ул. Маршала Чуйкова-1",
+      "name": "39-й квартал-1 -> ул. Маршала Чуйкова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Маршала Чуйкова-1",
+      "endStop": "жилой массив Дружба",
+      "name": "ул. Маршала Чуйкова-1 -> жилой массив Дружба; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "жилой массив Дружба",
+      "endStop": "ул. Голубятникова",
+      "name": "жилой массив Дружба -> ул. Голубятникова; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Голубятникова",
+      "endStop": "Кафе \"Солнышко\"-1",
+      "name": "ул. Голубятникова -> Кафе \"Солнышко\"-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Кафе \"Солнышко\"-1",
+      "endStop": "ул. Восстания-2",
+      "name": "Кафе \"Солнышко\"-1 -> ул. Восстания-2; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Восстания-2",
+      "endStop": "Проспект Ибрагимова-1",
+      "name": "ул. Восстания-2 -> Проспект Ибрагимова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Проспект Ибрагимова-1",
+      "endStop": "Станция метро \"Яшьлек\"-1",
+      "name": "Проспект Ибрагимова-1 -> Станция метро \"Яшьлек\"-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "Станция метро \"Яшьлек\"-1",
+      "endStop": "площадь Восстания-3",
+      "name": "Станция метро \"Яшьлек\"-1 -> площадь Восстания-3; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "площадь Восстания-3",
+      "endStop": "ул. Гагарина-1",
+      "name": "площадь Восстания-3 -> ул. Гагарина-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Гагарина-1",
+      "endStop": "Станция метро \"Северный вокзал\"-1",
+      "name": "ул. Гагарина-1 -> Станция метро \"Северный вокзал\"-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 1
+    },
+    {
+      "startStop": "Станция метро \"Северный вокзал\"-1",
+      "endStop": "ул. Дементьева-3",
+      "name": "Станция метро \"Северный вокзал\"-1 -> ул. Дементьева-3; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Дементьева-3",
+      "endStop": "КДК им. Ленина-1",
+      "name": "ул. Дементьева-3 -> КДК им. Ленина-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "КДК им. Ленина-1",
+      "endStop": "Площадь им.А.Ф. Павлова",
+      "name": "КДК им. Ленина-1 -> Площадь им.А.Ф. Павлова; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "Площадь им.А.Ф. Павлова",
+      "endStop": "Авиационный завод",
+      "name": "Площадь им.А.Ф. Павлова -> Авиационный завод; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "Авиационный завод",
+      "endStop": "ул. Максимова",
+      "name": "Авиационный завод -> ул. Максимова; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Максимова",
+      "endStop": "ул. Лукина",
+      "name": "ул. Максимова -> ул. Лукина; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Лукина",
+      "endStop": "ул. Ленинградская",
+      "name": "ул. Лукина -> ул. Ленинградская; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Ленинградская",
+      "endStop": "ул. Айдарова-1",
+      "name": "ул. Ленинградская -> ул. Айдарова-1; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    },
+    {
+      "startStop": "ул. Айдарова-1",
+      "endStop": "ул. Челюскина-6",
+      "name": "ул. Айдарова-1 -> ул. Челюскина-6; route_name: Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "route": "Автобус 18        Ул. Челюскина - переулок Дуслык",
+      "duration": 3
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "ул. Челюскина-6",
+      "timePoint": "06:12"
+    },
+    {
+      "stopName": "Молодежная-3",
+      "timePoint": "06:13"
+    },
+    {
+      "stopName": "Баня №14",
+      "timePoint": "06:14"
+    },
+    {
+      "stopName": "ул. Ленинградская-1",
+      "timePoint": "06:15"
+    },
+    {
+      "stopName": "ул. Лукина-1",
+      "timePoint": "06:16"
+    },
+    {
+      "stopName": "ул. Максимова-1",
+      "timePoint": "06:17"
+    },
+    {
+      "stopName": "ул. О.Кошевого",
+      "timePoint": "06:18"
+    },
+    {
+      "stopName": "Станция метро \"Авиастроительная\"",
+      "timePoint": "06:20"
+    },
+    {
+      "stopName": "ул. Дементьева",
+      "timePoint": "06:21"
+    },
+    {
+      "stopName": "Станция метро \"Северный вокзал\"",
+      "timePoint": "06:24"
+    },
+    {
+      "stopName": "ул. Гагарина",
+      "timePoint": "06:26"
+    },
+    {
+      "stopName": "площадь Восстания-1",
+      "timePoint": "06:29"
+    },
+    {
+      "stopName": "Станция метро \"Яшьлек\"",
+      "timePoint": "06:31"
+    },
+    {
+      "stopName": "Проспект Ибрагимова",
+      "timePoint": "06:33"
+    },
+    {
+      "stopName": "ул. Коллективная",
+      "timePoint": "06:34"
+    },
+    {
+      "stopName": "ул. Восстания",
+      "timePoint": "06:36"
+    },
+    {
+      "stopName": "Кафе \"Солнышко\"",
+      "timePoint": "06:37"
+    },
+    {
+      "stopName": "ул. Голубятникова-1",
+      "timePoint": "06:39"
+    },
+    {
+      "stopName": "жилой массив Дружба-1",
+      "timePoint": "06:41"
+    },
+    {
+      "stopName": "ул. Маршала Чуйкова",
+      "timePoint": "06:42"
+    },
+    {
+      "stopName": "39-й квартал",
+      "timePoint": "06:43"
+    },
+    {
+      "stopName": "Городская клиническая больница №7",
+      "timePoint": "06:45"
+    },
+    {
+      "stopName": "Роддом",
+      "timePoint": "06:46"
+    },
+    {
+      "stopName": "Универсам 1-1",
+      "timePoint": "06:48"
+    },
+    {
+      "stopName": "ул. Адоратского",
+      "timePoint": "06:49"
+    },
+    {
+      "stopName": "ул. Гаврилова",
+      "timePoint": "06:51"
+    },
+    {
+      "stopName": "Футбольный стадион \"Казань Арена\"-1",
+      "timePoint": "06:52"
+    },
+    {
+      "stopName": "Ветеринарная академия",
+      "timePoint": "06:54"
+    },
+    {
+      "stopName": "ул. Академика Арбузова-4",
+      "timePoint": "06:57"
+    },
+    {
+      "stopName": "Архив Казани",
+      "timePoint": "06:59"
+    },
+    {
+      "stopName": "ул. А.Попова",
+      "timePoint": "07:00"
+    },
+    {
+      "stopName": "ул. Пионерская",
+      "timePoint": "07:00"
+    },
+    {
+      "stopName": "Советская площадь",
+      "timePoint": "07:02"
+    },
+    {
+      "stopName": "Октябрьский городок",
+      "timePoint": "07:04"
+    },
+    {
+      "stopName": "Кооперативный институт",
+      "timePoint": "07:05"
+    },
+    {
+      "stopName": "ул. П.Лумумбы",
+      "timePoint": "07:06"
+    },
+    {
+      "stopName": "ул. А.Кутуя",
+      "timePoint": "07:09"
+    },
+    {
+      "stopName": "Кафе \"Сирень\"",
+      "timePoint": "07:10"
+    },
+    {
+      "stopName": "ул. Гвардейская",
+      "timePoint": "07:11"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "07:14"
+    },
+    {
+      "stopName": "ул. Даурская",
+      "timePoint": "07:15"
+    },
+    {
+      "stopName": "ул. Р.Зорге",
+      "timePoint": "07:16"
+    },
+    {
+      "stopName": "Станция метро \"Горки\"-3",
+      "timePoint": "07:17"
+    },
+    {
+      "stopName": "ул. Братьев Касимовых-1",
+      "timePoint": "07:19"
+    },
+    {
+      "stopName": "ул. Гарифьянова-1",
+      "timePoint": "07:20"
+    },
+    {
+      "stopName": "Проспект Победы-1",
+      "timePoint": "07:22"
+    },
+    {
+      "stopName": "ул. Ю.Фучика",
+      "timePoint": "07:24"
+    },
+    {
+      "stopName": "ул. Генерала Сафиуллина",
+      "timePoint": "07:26"
+    },
+    {
+      "stopName": "ул. Кул Гали",
+      "timePoint": "07:28"
+    },
+    {
+      "stopName": "10-й микрорайон",
+      "timePoint": "07:29"
+    },
+    {
+      "stopName": "ул. Академика Завойского",
+      "timePoint": "07:30"
+    },
+    {
+      "stopName": "ул. Чишмяле",
+      "timePoint": "07:31"
+    },
+    {
+      "stopName": "Школа №125",
+      "timePoint": "07:32"
+    },
+    {
+      "stopName": "ул. Минская",
+      "timePoint": "07:33"
+    },
+    {
+      "stopName": "Кабельное телевидение-2",
+      "timePoint": "07:34"
+    },
+    {
+      "stopName": "ул. Г.Кайбицкой",
+      "timePoint": "07:38"
+    },
+    {
+      "stopName": "Дворец спорта \"Ак Буре\"",
+      "timePoint": "07:41"
+    },
+    {
+      "stopName": "ул. Магистральный проезд",
+      "timePoint": "07:44"
+    },
+    {
+      "stopName": "ул. Академика Глушко-2",
+      "timePoint": "07:46"
+    },
+    {
+      "stopName": "ул. Д.Файзи-2",
+      "timePoint": "07:48"
+    },
+    {
+      "stopName": "переулок Дуслык",
+      "timePoint": "07:50"
+    },
+    {
+      "stopName": "переулок Дуслык",
+      "timePoint": "05:40"
+    },
+    {
+      "stopName": "ул. Д.Файзи-3",
+      "timePoint": "05:40"
+    },
+    {
+      "stopName": "ул. Академика Глушко-4",
+      "timePoint": "05:41"
+    },
+    {
+      "stopName": "ул. Магистральный проезд-1",
+      "timePoint": "05:41"
+    },
+    {
+      "stopName": "Дворец спорта \"Ак Буре\"-1",
+      "timePoint": "05:42"
+    },
+    {
+      "stopName": "ул. Г.Кайбицкой-1",
+      "timePoint": "05:43"
+    },
+    {
+      "stopName": "Кабельное телевидение-1",
+      "timePoint": "05:44"
+    },
+    {
+      "stopName": "ул. Минская-1",
+      "timePoint": "05:45"
+    },
+    {
+      "stopName": "Школа №125-1",
+      "timePoint": "05:45"
+    },
+    {
+      "stopName": "ул. Ломжинская-1",
+      "timePoint": "05:46"
+    },
+    {
+      "stopName": "ул. Чишмяле-1",
+      "timePoint": "05:47"
+    },
+    {
+      "stopName": "10-й микрорайон-1",
+      "timePoint": "05:48"
+    },
+    {
+      "stopName": "ул. Кул Гали-1",
+      "timePoint": "05:49"
+    },
+    {
+      "stopName": "ул. Генерала Сафиуллина-1",
+      "timePoint": "05:50"
+    },
+    {
+      "stopName": "ул. Ю.Фучика-1",
+      "timePoint": "05:51"
+    },
+    {
+      "stopName": "Проспект Победы",
+      "timePoint": "05:52"
+    },
+    {
+      "stopName": "ул. Гарифьянова",
+      "timePoint": "05:55"
+    },
+    {
+      "stopName": "ул. Братьев Касимовых",
+      "timePoint": "05:57"
+    },
+    {
+      "stopName": "Станция метро \"Горки\"",
+      "timePoint": "05:59"
+    },
+    {
+      "stopName": "ул. Р.Зорге-1",
+      "timePoint": "06:01"
+    },
+    {
+      "stopName": "ул. Даурская-1",
+      "timePoint": "06:03"
+    },
+    {
+      "stopName": "Сады-1",
+      "timePoint": "06:05"
+    },
+    {
+      "stopName": "ул. Гвардейская-1",
+      "timePoint": "06:09"
+    },
+    {
+      "stopName": "Кафе \"Сирень\"-1",
+      "timePoint": "06:10"
+    },
+    {
+      "stopName": "ул. А.Кутуя-3",
+      "timePoint": "06:12"
+    },
+    {
+      "stopName": "ул. П.Лумумбы-1",
+      "timePoint": "06:14"
+    },
+    {
+      "stopName": "Кооперативный институт-1",
+      "timePoint": "06:14"
+    },
+    {
+      "stopName": "Октябрьский городок-1",
+      "timePoint": "06:15"
+    },
+    {
+      "stopName": "Советская площадь-1",
+      "timePoint": "06:18"
+    },
+    {
+      "stopName": "ул. Пионерская-1",
+      "timePoint": "06:19"
+    },
+    {
+      "stopName": "ул. А.Попова-1",
+      "timePoint": "06:20"
+    },
+    {
+      "stopName": "Архив Казани-1",
+      "timePoint": "06:21"
+    },
+    {
+      "stopName": "ул. Академика Арбузова-2",
+      "timePoint": "06:23"
+    },
+    {
+      "stopName": "ул. Халитова-1",
+      "timePoint": "06:24"
+    },
+    {
+      "stopName": "Ветеринарная академия-1",
+      "timePoint": "06:26"
+    },
+    {
+      "stopName": "Футбольный стадион \"Казань Арена\"",
+      "timePoint": "06:28"
+    },
+    {
+      "stopName": "ул. Гаврилова-1",
+      "timePoint": "06:30"
+    },
+    {
+      "stopName": "ул. Адоратского-1",
+      "timePoint": "06:32"
+    },
+    {
+      "stopName": "Универсам 1",
+      "timePoint": "06:34"
+    },
+    {
+      "stopName": "Роддом-1",
+      "timePoint": "06:36"
+    },
+    {
+      "stopName": "Городская клиническая больница №7-1",
+      "timePoint": "06:38"
+    },
+    {
+      "stopName": "39-й квартал-1",
+      "timePoint": "06:39"
+    },
+    {
+      "stopName": "ул. Маршала Чуйкова-1",
+      "timePoint": "06:41"
+    },
+    {
+      "stopName": "жилой массив Дружба",
+      "timePoint": "06:43"
+    },
+    {
+      "stopName": "ул. Голубятникова",
+      "timePoint": "06:44"
+    },
+    {
+      "stopName": "Кафе \"Солнышко\"-1",
+      "timePoint": "06:45"
+    },
+    {
+      "stopName": "ул. Восстания-2",
+      "timePoint": "06:48"
+    },
+    {
+      "stopName": "Проспект Ибрагимова-1",
+      "timePoint": "06:49"
+    },
+    {
+      "stopName": "Станция метро \"Яшьлек\"-1",
+      "timePoint": "06:51"
+    },
+    {
+      "stopName": "площадь Восстания-3",
+      "timePoint": "06:52"
+    },
+    {
+      "stopName": "ул. Гагарина-1",
+      "timePoint": "06:53"
+    },
+    {
+      "stopName": "Станция метро \"Северный вокзал\"-1",
+      "timePoint": "06:54"
+    },
+    {
+      "stopName": "ул. Дементьева-3",
+      "timePoint": "06:56"
+    },
+    {
+      "stopName": "КДК им. Ленина-1",
+      "timePoint": "06:58"
+    },
+    {
+      "stopName": "Площадь им.А.Ф. Павлова",
+      "timePoint": "07:01"
+    },
+    {
+      "stopName": "Авиационный завод",
+      "timePoint": "07:04"
+    },
+    {
+      "stopName": "ул. Максимова",
+      "timePoint": "07:06"
+    },
+    {
+      "stopName": "ул. Лукина",
+      "timePoint": "07:09"
+    },
+    {
+      "stopName": "ул. Ленинградская",
+      "timePoint": "07:11"
+    },
+    {
+      "stopName": "ул. Айдарова-1",
+      "timePoint": "07:14"
+    },
+    {
+      "stopName": "ул. Челюскина-6",
+      "timePoint": "07:17"
+    }
+  ],
+  "coordinates": {
+    "ул. Челюскина-6": {
+      "x": 49.080643,
+      "y": 55.868673,
+      "is_approximate": false
+    },
+    "Молодежная-3": {
+      "x": 49.079087,
+      "y": 55.865666,
+      "is_approximate": false
+    },
+    "Баня №14": {
+      "x": 49.07846,
+      "y": 55.863212,
+      "is_approximate": false
+    },
+    "ул. Ленинградская-1": {
+      "x": 49.086207,
+      "y": 55.862011,
+      "is_approximate": false
+    },
+    "ул. Лукина-1": {
+      "x": 49.091626,
+      "y": 55.861076,
+      "is_approximate": false
+    },
+    "ул. Максимова-1": {
+      "x": 49.099727,
+      "y": 55.859772,
+      "is_approximate": false
+    },
+    "ул. Максимова-3": {
+      "x": 49.102196,
+      "y": 55.858926,
+      "is_approximate": false
+    },
+    "ул. О.Кошевого": {
+      "x": 49.098239,
+      "y": 55.855741,
+      "is_approximate": false
+    },
+    "Станция метро \"Авиастроительная\"": {
+      "x": 49.084127,
+      "y": 55.85368,
+      "is_approximate": false
+    },
+    "ул. Дементьева": {
+      "x": 49.083606,
+      "y": 55.847364,
+      "is_approximate": false
+    },
+    "Станция метро \"Северный вокзал\"": {
+      "x": 49.08201,
+      "y": 55.841523,
+      "is_approximate": false
+    },
+    "ул. Гагарина": {
+      "x": 49.080414,
+      "y": 55.838527,
+      "is_approximate": false
+    },
+    "площадь Восстания-1": {
+      "x": 49.079832,
+      "y": 55.833177,
+      "is_approximate": false
+    },
+    "Станция метро \"Яшьлек\"": {
+      "x": 49.082536,
+      "y": 55.829335,
+      "is_approximate": false
+    },
+    "Проспект Ибрагимова": {
+      "x": 49.090996,
+      "y": 55.830355,
+      "is_approximate": false
+    },
+    "ул. Коллективная": {
+      "x": 49.09088,
+      "y": 55.832911,
+      "is_approximate": false
+    },
+    "ул. Восстания": {
+      "x": 49.090414,
+      "y": 55.834691,
+      "is_approximate": false
+    },
+    "Кафе \"Солнышко\"": {
+      "x": 49.099389,
+      "y": 55.835723,
+      "is_approximate": false
+    },
+    "ул. Голубятникова-1": {
+      "x": 49.105774,
+      "y": 55.835791,
+      "is_approximate": false
+    },
+    "жилой массив Дружба-1": {
+      "x": 49.112868,
+      "y": 55.83585,
+      "is_approximate": false
+    },
+    "ул. Маршала Чуйкова": {
+      "x": 49.122296,
+      "y": 55.835795,
+      "is_approximate": false
+    },
+    "39-й квартал": {
+      "x": 49.129975,
+      "y": 55.83581,
+      "is_approximate": false
+    },
+    "Городская клиническая больница №7": {
+      "x": 49.136959,
+      "y": 55.835855,
+      "is_approximate": false
+    },
+    "Роддом": {
+      "x": 49.147252,
+      "y": 55.835634,
+      "is_approximate": false
+    },
+    "Универсам 1-1": {
+      "x": 49.147217,
+      "y": 55.83114,
+      "is_approximate": false
+    },
+    "ул. Адоратского": {
+      "x": 49.148414,
+      "y": 55.826934,
+      "is_approximate": false
+    },
+    "ул. Гаврилова": {
+      "x": 49.154261,
+      "y": 55.825762,
+      "is_approximate": false
+    },
+    "Футбольный стадион \"Казань Арена\"-1": {
+      "x": 49.163269,
+      "y": 55.823045,
+      "is_approximate": false
+    },
+    "Ветеринарная академия": {
+      "x": 49.176488,
+      "y": 55.818686,
+      "is_approximate": false
+    },
+    "ул. Академика Арбузова-4": {
+      "x": 49.179788,
+      "y": 55.814327,
+      "is_approximate": false
+    },
+    "Архив Казани": {
+      "x": 49.181128,
+      "y": 55.811509,
+      "is_approximate": false
+    },
+    "ул. А.Попова": {
+      "x": 49.182236,
+      "y": 55.809078,
+      "is_approximate": false
+    },
+    "ул. Пионерская": {
+      "x": 49.184093,
+      "y": 55.805315,
+      "is_approximate": false
+    },
+    "Советская площадь": {
+      "x": 49.181433,
+      "y": 55.800766,
+      "is_approximate": false
+    },
+    "Октябрьский городок": {
+      "x": 49.176409,
+      "y": 55.7975,
+      "is_approximate": false
+    },
+    "Кооперативный институт": {
+      "x": 49.173209,
+      "y": 55.795492,
+      "is_approximate": false
+    },
+    "ул. П.Лумумбы": {
+      "x": 49.171241,
+      "y": 55.792963,
+      "is_approximate": false
+    },
+    "ул. А.Кутуя": {
+      "x": 49.170642,
+      "y": 55.785693,
+      "is_approximate": false
+    },
+    "Кафе \"Сирень\"": {
+      "x": 49.170422,
+      "y": 55.782845,
+      "is_approximate": false
+    },
+    "ул. Гвардейская": {
+      "x": 49.17184,
+      "y": 55.779596,
+      "is_approximate": false
+    },
+    "Сады": {
+      "x": 49.176299,
+      "y": 55.770015,
+      "is_approximate": false
+    },
+    "ул. Даурская": {
+      "x": 49.180246,
+      "y": 55.766267,
+      "is_approximate": false
+    },
+    "ул. Р.Зорге": {
+      "x": 49.185696,
+      "y": 55.763255,
+      "is_approximate": false
+    },
+    "Станция метро \"Горки\"-3": {
+      "x": 49.191545,
+      "y": 55.759659,
+      "is_approximate": false
+    },
+    "ул. Братьев Касимовых-1": {
+      "x": 49.197657,
+      "y": 55.756269,
+      "is_approximate": false
+    },
+    "ул. Гарифьянова-1": {
+      "x": 49.202828,
+      "y": 55.753224,
+      "is_approximate": false
+    },
+    "Проспект Победы-1": {
+      "x": 49.212113,
+      "y": 55.74779,
+      "is_approximate": false
+    },
+    "ул. Ю.Фучика": {
+      "x": 49.218238,
+      "y": 55.745571,
+      "is_approximate": false
+    },
+    "ул. Генерала Сафиуллина": {
+      "x": 49.224726,
+      "y": 55.749079,
+      "is_approximate": false
+    },
+    "ул. Кул Гали": {
+      "x": 49.229333,
+      "y": 55.751595,
+      "is_approximate": false
+    },
+    "10-й микрорайон": {
+      "x": 49.231775,
+      "y": 55.755001,
+      "is_approximate": false
+    },
+    "ул. Академика Завойского": {
+      "x": 49.231587,
+      "y": 55.757194,
+      "is_approximate": false
+    },
+    "ул. Чишмяле": {
+      "x": 49.231697,
+      "y": 55.76343,
+      "is_approximate": false
+    },
+    "Школа №125": {
+      "x": 49.231868,
+      "y": 55.769459,
+      "is_approximate": false
+    },
+    "ул. Минская": {
+      "x": 49.231807,
+      "y": 55.771802,
+      "is_approximate": false
+    },
+    "Кабельное телевидение-2": {
+      "x": 49.23228,
+      "y": 55.776089,
+      "is_approximate": false
+    },
+    "ул. Г.Кайбицкой": {
+      "x": 49.236342,
+      "y": 55.780286,
+      "is_approximate": false
+    },
+    "Дворец спорта \"Ак Буре\"": {
+      "x": 49.233658,
+      "y": 55.784537,
+      "is_approximate": false
+    },
+    "ул. Магистральный проезд": {
+      "x": 49.229925,
+      "y": 55.788267,
+      "is_approximate": false
+    },
+    "ул. Академика Глушко-2": {
+      "x": 49.224925,
+      "y": 55.789047,
+      "is_approximate": false
+    },
+    "ул. Д.Файзи-2": {
+      "x": 49.226168,
+      "y": 55.791512,
+      "is_approximate": false
+    },
+    "переулок Дуслык": {
+      "x": 49.229921,
+      "y": 55.792624,
+      "is_approximate": false
+    },
+    "ул. Д.Файзи-3": {
+      "x": 49.225486,
+      "y": 55.791677,
+      "is_approximate": false
+    },
+    "ул. Академика Глушко-4": {
+      "x": 49.225159,
+      "y": 55.788692,
+      "is_approximate": false
+    },
+    "ул. Магистральный проезд-1": {
+      "x": 49.229381,
+      "y": 55.788083,
+      "is_approximate": false
+    },
+    "Дворец спорта \"Ак Буре\"-1": {
+      "x": 49.233138,
+      "y": 55.784435,
+      "is_approximate": false
+    },
+    "ул. Академика Глушко, д.15": {
+      "x": 49.234508,
+      "y": 55.783162,
+      "is_approximate": false
+    },
+    "ул. Г.Кайбицкой-1": {
+      "x": 49.235931,
+      "y": 55.780368,
+      "is_approximate": false
+    },
+    "Кабельное телевидение-1": {
+      "x": 49.231506,
+      "y": 55.775736,
+      "is_approximate": false
+    },
+    "ул. Минская-1": {
+      "x": 49.23144,
+      "y": 55.77198,
+      "is_approximate": false
+    },
+    "Школа №125-1": {
+      "x": 49.231408,
+      "y": 55.769426,
+      "is_approximate": false
+    },
+    "ул. Ломжинская-1": {
+      "x": 49.231196,
+      "y": 55.765669,
+      "is_approximate": false
+    },
+    "ул. Чишмяле-1": {
+      "x": 49.231392,
+      "y": 55.761884,
+      "is_approximate": false
+    },
+    "10-й микрорайон-1": {
+      "x": 49.230995,
+      "y": 55.754228,
+      "is_approximate": false
+    },
+    "ул. Кул Гали-1": {
+      "x": 49.228163,
+      "y": 55.751197,
+      "is_approximate": false
+    },
+    "ул. Генерала Сафиуллина-1": {
+      "x": 49.224017,
+      "y": 55.749068,
+      "is_approximate": false
+    },
+    "ул. Ю.Фучика-1": {
+      "x": 49.217787,
+      "y": 55.745685,
+      "is_approximate": false
+    },
+    "Проспект Победы": {
+      "x": 49.212832,
+      "y": 55.748153,
+      "is_approximate": false
+    },
+    "ул. Гарифьянова": {
+      "x": 49.202877,
+      "y": 55.75385,
+      "is_approximate": false
+    },
+    "ул. Братьев Касимовых": {
+      "x": 49.196944,
+      "y": 55.757423,
+      "is_approximate": false
+    },
+    "Станция метро \"Горки\"": {
+      "x": 49.192489,
+      "y": 55.759916,
+      "is_approximate": false
+    },
+    "ул. Р.Зорге-1": {
+      "x": 49.184666,
+      "y": 55.764279,
+      "is_approximate": false
+    },
+    "ул. Даурская-1": {
+      "x": 49.180753,
+      "y": 55.766621,
+      "is_approximate": false
+    },
+    "Сады-1": {
+      "x": 49.176944,
+      "y": 55.770232,
+      "is_approximate": false
+    },
+    "ул. Гвардейская-1": {
+      "x": 49.172582,
+      "y": 55.779657,
+      "is_approximate": false
+    },
+    "Кафе \"Сирень\"-1": {
+      "x": 49.171128,
+      "y": 55.782799,
+      "is_approximate": false
+    },
+    "ул. А.Кутуя-3": {
+      "x": 49.171479,
+      "y": 55.787864,
+      "is_approximate": false
+    },
+    "ул. П.Лумумбы-1": {
+      "x": 49.1718,
+      "y": 55.793128,
+      "is_approximate": false
+    },
+    "Кооперативный институт-1": {
+      "x": 49.172371,
+      "y": 55.794176,
+      "is_approximate": false
+    },
+    "Октябрьский городок-1": {
+      "x": 49.176072,
+      "y": 55.796801,
+      "is_approximate": false
+    },
+    "Советская площадь-1": {
+      "x": 49.183034,
+      "y": 55.801068,
+      "is_approximate": false
+    },
+    "ул. Пионерская-1": {
+      "x": 49.18441,
+      "y": 55.806002,
+      "is_approximate": false
+    },
+    "ул. А.Попова-1": {
+      "x": 49.182557,
+      "y": 55.809877,
+      "is_approximate": false
+    },
+    "Архив Казани-1": {
+      "x": 49.181376,
+      "y": 55.812357,
+      "is_approximate": false
+    },
+    "ул. Академика Арбузова-2": {
+      "x": 49.182413,
+      "y": 55.817968,
+      "is_approximate": false
+    },
+    "ул. Халитова-1": {
+      "x": 49.183263,
+      "y": 55.821176,
+      "is_approximate": false
+    },
+    "Ветеринарная академия-1": {
+      "x": 49.177153,
+      "y": 55.818985,
+      "is_approximate": false
+    },
+    "Футбольный стадион \"Казань Арена\"": {
+      "x": 49.164427,
+      "y": 55.823497,
+      "is_approximate": false
+    },
+    "ул. Гаврилова-1": {
+      "x": 49.154497,
+      "y": 55.826052,
+      "is_approximate": false
+    },
+    "ул. Адоратского-1": {
+      "x": 49.147792,
+      "y": 55.827906,
+      "is_approximate": false
+    },
+    "Универсам 1": {
+      "x": 49.147604,
+      "y": 55.831974,
+      "is_approximate": false
+    },
+    "Роддом-1": {
+      "x": 49.14621,
+      "y": 55.836142,
+      "is_approximate": false
+    },
+    "Городская клиническая больница №7-1": {
+      "x": 49.137802,
+      "y": 55.836204,
+      "is_approximate": false
+    },
+    "39-й квартал-1": {
+      "x": 49.13061,
+      "y": 55.836191,
+      "is_approximate": false
+    },
+    "ул. Маршала Чуйкова-1": {
+      "x": 49.120332,
+      "y": 55.836153,
+      "is_approximate": false
+    },
+    "жилой массив Дружба": {
+      "x": 49.111813,
+      "y": 55.83615,
+      "is_approximate": false
+    },
+    "ул. Голубятникова": {
+      "x": 49.105495,
+      "y": 55.836184,
+      "is_approximate": false
+    },
+    "Кафе \"Солнышко\"-1": {
+      "x": 49.100215,
+      "y": 55.836054,
+      "is_approximate": false
+    },
+    "ул. Восстания-2": {
+      "x": 49.089591,
+      "y": 55.8344,
+      "is_approximate": false
+    },
+    "Проспект Ибрагимова-1": {
+      "x": 49.09094,
+      "y": 55.831319,
+      "is_approximate": false
+    },
+    "Станция метро \"Яшьлек\"-1": {
+      "x": 49.081495,
+      "y": 55.829841,
+      "is_approximate": false
+    },
+    "площадь Восстания-3": {
+      "x": 49.080828,
+      "y": 55.833919,
+      "is_approximate": false
+    },
+    "ул. Гагарина-1": {
+      "x": 49.081216,
+      "y": 55.837398,
+      "is_approximate": false
+    },
+    "Станция метро \"Северный вокзал\"-1": {
+      "x": 49.083119,
+      "y": 55.841619,
+      "is_approximate": false
+    },
+    "ул. Дементьева-3": {
+      "x": 49.084421,
+      "y": 55.848535,
+      "is_approximate": false
+    },
+    "КДК им. Ленина-1": {
+      "x": 49.086836,
+      "y": 55.854273,
+      "is_approximate": false
+    },
+    "Площадь им.А.Ф. Павлова": {
+      "x": 49.100497,
+      "y": 55.856066,
+      "is_approximate": false
+    },
+    "Авиационный завод": {
+      "x": 49.104666,
+      "y": 55.858867,
+      "is_approximate": false
+    },
+    "ул. Максимова": {
+      "x": 49.098793,
+      "y": 55.860087,
+      "is_approximate": false
+    },
+    "ул. Лукина": {
+      "x": 49.090103,
+      "y": 55.861485,
+      "is_approximate": false
+    },
+    "ул. Ленинградская": {
+      "x": 49.08565,
+      "y": 55.862372,
+      "is_approximate": false
+    },
+    "ул. Айдарова-1": {
+      "x": 49.08791,
+      "y": 55.866759,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T17:21:19.905541"
+}

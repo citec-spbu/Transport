@@ -1,0 +1,512 @@
+{
+  "routeNumber": "Автобус 103        д Демидово - с Дуденево - д Хабарское",
+  "routeUrl": "/nnov/bus/103_3",
+  "nodes": {
+    "д Демидово": {
+      "name": "д Демидово",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.465704,
+      "yCoordinate": 56.101957,
+      "isCoordinateApproximate": false
+    },
+    "3-й микрорайон": {
+      "name": "3-й микрорайон",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.469118,
+      "yCoordinate": 56.102568,
+      "isCoordinateApproximate": false
+    },
+    "Общежитие БМЗ": {
+      "name": "Общежитие БМЗ",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.473626,
+      "yCoordinate": 56.103193,
+      "isCoordinateApproximate": false
+    },
+    "Школа №6 (2 микрорайон)": {
+      "name": "Школа №6 (2 микрорайон)",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.478895,
+      "yCoordinate": 56.101908,
+      "isCoordinateApproximate": false
+    },
+    "Самей": {
+      "name": "Самей",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.483836,
+      "yCoordinate": 56.098682,
+      "isCoordinateApproximate": false
+    },
+    "Пер Удаловский": {
+      "name": "Пер Удаловский",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.494945,
+      "yCoordinate": 56.100163,
+      "isCoordinateApproximate": false
+    },
+    "Завод Оканит": {
+      "name": "Завод Оканит",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.500838,
+      "yCoordinate": 56.100956,
+      "isCoordinateApproximate": false
+    },
+    "Супермаркет Атак": {
+      "name": "Супермаркет Атак",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.505567,
+      "yCoordinate": 56.102545,
+      "isCoordinateApproximate": false
+    },
+    "Городская библиотека": {
+      "name": "Городская библиотека",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.511988,
+      "yCoordinate": 56.103759,
+      "isCoordinateApproximate": false
+    },
+    "Дом спорта (Центр)": {
+      "name": "Дом спорта (Центр)",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.511988,
+      "yCoordinate": 56.103759,
+      "isCoordinateApproximate": true
+    },
+    "школа №3": {
+      "name": "школа №3",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.521298,
+      "yCoordinate": 56.106087,
+      "isCoordinateApproximate": false
+    },
+    "пер Глухой": {
+      "name": "пер Глухой",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.527811,
+      "yCoordinate": 56.108974,
+      "isCoordinateApproximate": false
+    },
+    "СВ АВТО": {
+      "name": "СВ АВТО",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.533996,
+      "yCoordinate": 56.112799,
+      "isCoordinateApproximate": false
+    },
+    "Проминвест": {
+      "name": "Проминвест",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.536769,
+      "yCoordinate": 56.114595,
+      "isCoordinateApproximate": false
+    },
+    "Лесоторговая база": {
+      "name": "Лесоторговая база",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.52744,
+      "yCoordinate": 56.11553,
+      "isCoordinateApproximate": false
+    },
+    "Заводы": {
+      "name": "Заводы",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.524882,
+      "yCoordinate": 56.123514,
+      "isCoordinateApproximate": false
+    },
+    "д Шопово": {
+      "name": "д Шопово",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.522736,
+      "yCoordinate": 56.130007,
+      "isCoordinateApproximate": false
+    },
+    "д Заозерье": {
+      "name": "д Заозерье",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.517135,
+      "yCoordinate": 56.154956,
+      "isCoordinateApproximate": false
+    },
+    "с Дуденево": {
+      "name": "с Дуденево",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.510795,
+      "yCoordinate": 56.178016,
+      "isCoordinateApproximate": false
+    },
+    "д Сокол": {
+      "name": "д Сокол",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.47959,
+      "yCoordinate": 56.175184,
+      "isCoordinateApproximate": false
+    },
+    "д Хабарское": {
+      "name": "д Хабарское",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.446127,
+      "yCoordinate": 56.17891,
+      "isCoordinateApproximate": false
+    },
+    "с Сокол": {
+      "name": "с Сокол",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.480169,
+      "yCoordinate": 56.174945,
+      "isCoordinateApproximate": false
+    },
+    "Дом спорта (Центр) 1": {
+      "name": "Дом спорта (Центр) 1",
+      "routeList": [
+        "Автобус 103        д Демидово - с Дуденево - д Хабарское"
+      ],
+      "xCoordinate": 43.521298,
+      "yCoordinate": 56.106087,
+      "isCoordinateApproximate": true
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "д Сокол",
+      "endStop": "д Хабарское",
+      "name": "д Сокол -> д Хабарское; route_name: Автобус 103        д Демидово - с Дуденево - д Хабарское",
+      "route": "Автобус 103        д Демидово - с Дуденево - д Хабарское",
+      "duration": 4
+    },
+    {
+      "startStop": "д Хабарское",
+      "endStop": "с Сокол",
+      "name": "д Хабарское -> с Сокол; route_name: Автобус 103        д Демидово - с Дуденево - д Хабарское",
+      "route": "Автобус 103        д Демидово - с Дуденево - д Хабарское",
+      "duration": 3
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "д Демидово",
+      "timePoint": "04:50C"
+    },
+    {
+      "stopName": "3-й микрорайон",
+      "timePoint": "04:50C"
+    },
+    {
+      "stopName": "Общежитие БМЗ",
+      "timePoint": "04:50C"
+    },
+    {
+      "stopName": "Школа №6 (2 микрорайон)",
+      "timePoint": "04:51C"
+    },
+    {
+      "stopName": "Самей",
+      "timePoint": "04:52C"
+    },
+    {
+      "stopName": "Пер Удаловский",
+      "timePoint": "04:53C"
+    },
+    {
+      "stopName": "Завод Оканит",
+      "timePoint": "04:53C"
+    },
+    {
+      "stopName": "Супермаркет Атак",
+      "timePoint": "04:54C"
+    },
+    {
+      "stopName": "Городская библиотека",
+      "timePoint": "04:54C"
+    },
+    {
+      "stopName": "Дом спорта (Центр)",
+      "timePoint": "04:55C"
+    },
+    {
+      "stopName": "школа №3",
+      "timePoint": "04:55C"
+    },
+    {
+      "stopName": "пер Глухой",
+      "timePoint": "04:56C"
+    },
+    {
+      "stopName": "СВ АВТО",
+      "timePoint": "04:57C"
+    },
+    {
+      "stopName": "Проминвест",
+      "timePoint": "04:57C"
+    },
+    {
+      "stopName": "Лесоторговая база",
+      "timePoint": "04:59C"
+    },
+    {
+      "stopName": "Заводы",
+      "timePoint": "05:00C"
+    },
+    {
+      "stopName": "д Шопово",
+      "timePoint": "05:02C"
+    },
+    {
+      "stopName": "д Заозерье",
+      "timePoint": "05:05C"
+    },
+    {
+      "stopName": "с Дуденево",
+      "timePoint": "05:10C"
+    },
+    {
+      "stopName": "д Сокол",
+      "timePoint": "06:32"
+    },
+    {
+      "stopName": "д Хабарское",
+      "timePoint": "06:36"
+    },
+    {
+      "stopName": "д Хабарское",
+      "timePoint": "06:45"
+    },
+    {
+      "stopName": "с Сокол",
+      "timePoint": "06:48"
+    },
+    {
+      "stopName": "с Дуденево",
+      "timePoint": "05:30D"
+    },
+    {
+      "stopName": "д Заозерье",
+      "timePoint": "05:33D"
+    },
+    {
+      "stopName": "д Шопово",
+      "timePoint": "05:37D"
+    },
+    {
+      "stopName": "Заводы",
+      "timePoint": "05:38D"
+    },
+    {
+      "stopName": "Лесоторговая база",
+      "timePoint": "05:39D"
+    },
+    {
+      "stopName": "Проминвест",
+      "timePoint": "05:41D"
+    },
+    {
+      "stopName": "СВ АВТО",
+      "timePoint": "05:42D"
+    },
+    {
+      "stopName": "пер Глухой",
+      "timePoint": "05:43D"
+    },
+    {
+      "stopName": "школа №3",
+      "timePoint": "05:43D"
+    },
+    {
+      "stopName": "Дом спорта (Центр)",
+      "timePoint": "05:44D"
+    },
+    {
+      "stopName": "Городская библиотека",
+      "timePoint": "05:44D"
+    },
+    {
+      "stopName": "Супермаркет Атак",
+      "timePoint": "05:45D"
+    },
+    {
+      "stopName": "Завод Оканит",
+      "timePoint": "05:46D"
+    },
+    {
+      "stopName": "Пер Удаловский",
+      "timePoint": "05:46D"
+    },
+    {
+      "stopName": "Самей",
+      "timePoint": "05:47D"
+    },
+    {
+      "stopName": "Школа №6 (2 микрорайон)",
+      "timePoint": "05:48D"
+    },
+    {
+      "stopName": "Общежитие БМЗ",
+      "timePoint": "05:49D"
+    },
+    {
+      "stopName": "3-й микрорайон",
+      "timePoint": "05:49D"
+    },
+    {
+      "stopName": "д Демидово",
+      "timePoint": "05:50D"
+    }
+  ],
+  "coordinates": {
+    "д Демидово": {
+      "x": 43.465704,
+      "y": 56.101957,
+      "is_approximate": false
+    },
+    "3-й микрорайон": {
+      "x": 43.469118,
+      "y": 56.102568,
+      "is_approximate": false
+    },
+    "Общежитие БМЗ": {
+      "x": 43.473626,
+      "y": 56.103193,
+      "is_approximate": false
+    },
+    "Школа №6 (2 микрорайон)": {
+      "x": 43.478895,
+      "y": 56.101908,
+      "is_approximate": false
+    },
+    "Самей": {
+      "x": 43.483836,
+      "y": 56.098682,
+      "is_approximate": false
+    },
+    "Пер Удаловский": {
+      "x": 43.494945,
+      "y": 56.100163,
+      "is_approximate": false
+    },
+    "Завод Оканит": {
+      "x": 43.500838,
+      "y": 56.100956,
+      "is_approximate": false
+    },
+    "Супермаркет Атак": {
+      "x": 43.505567,
+      "y": 56.102545,
+      "is_approximate": false
+    },
+    "Городская библиотека": {
+      "x": 43.511988,
+      "y": 56.103759,
+      "is_approximate": false
+    },
+    "Дом Спорта/Центр": {
+      "x": 43.518447,
+      "y": 56.104691,
+      "is_approximate": false
+    },
+    "школа №3": {
+      "x": 43.521298,
+      "y": 56.106087,
+      "is_approximate": false
+    },
+    "пер Глухой": {
+      "x": 43.527811,
+      "y": 56.108974,
+      "is_approximate": false
+    },
+    "СВ АВТО": {
+      "x": 43.533996,
+      "y": 56.112799,
+      "is_approximate": false
+    },
+    "Проминвест": {
+      "x": 43.536769,
+      "y": 56.114595,
+      "is_approximate": false
+    },
+    "Лесоторговая база": {
+      "x": 43.52744,
+      "y": 56.11553,
+      "is_approximate": false
+    },
+    "Заводы": {
+      "x": 43.524882,
+      "y": 56.123514,
+      "is_approximate": false
+    },
+    "д Шопово": {
+      "x": 43.522736,
+      "y": 56.130007,
+      "is_approximate": false
+    },
+    "д Заозерье": {
+      "x": 43.517135,
+      "y": 56.154956,
+      "is_approximate": false
+    },
+    "с Дуденево": {
+      "x": 43.510795,
+      "y": 56.178016,
+      "is_approximate": false
+    },
+    "д Сокол": {
+      "x": 43.47959,
+      "y": 56.175184,
+      "is_approximate": false
+    },
+    "д Хабарское": {
+      "x": 43.446127,
+      "y": 56.17891,
+      "is_approximate": false
+    },
+    "с Сокол": {
+      "x": 43.480169,
+      "y": 56.174945,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T19:24:57.653800"
+}

@@ -1,0 +1,707 @@
+{
+  "routeNumber": "Автобус 43        ЧМК - Стройкомбинат",
+  "routeUrl": "/chel/bus/43",
+  "nodes": {
+    "ЧМК": {
+      "name": "ЧМК",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.40996,
+      "yCoordinate": 55.26399,
+      "isCoordinateApproximate": false
+    },
+    "ДК Восток": {
+      "name": "ДК Восток",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.40352,
+      "yCoordinate": 55.2644,
+      "isCoordinateApproximate": false
+    },
+    "Сквер Победы": {
+      "name": "Сквер Победы",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.40287,
+      "yCoordinate": 55.26176,
+      "isCoordinateApproximate": false
+    },
+    "ДК Металлургов": {
+      "name": "ДК Металлургов",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.40297,
+      "yCoordinate": 55.2582,
+      "isCoordinateApproximate": false
+    },
+    "ул. Сталеваров": {
+      "name": "ул. Сталеваров",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.40336,
+      "yCoordinate": 55.25125,
+      "isCoordinateApproximate": false
+    },
+    "ул. Аносова": {
+      "name": "ул. Аносова",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.40375,
+      "yCoordinate": 55.2467,
+      "isCoordinateApproximate": false
+    },
+    "Спорт комплекс Метар": {
+      "name": "Спорт комплекс Метар",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.4039,
+      "yCoordinate": 55.24351,
+      "isCoordinateApproximate": false
+    },
+    "ул. Винницкая": {
+      "name": "ул. Винницкая",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.41022,
+      "yCoordinate": 55.24449,
+      "isCoordinateApproximate": false
+    },
+    "Сад Строитель": {
+      "name": "Сад Строитель",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.4171,
+      "yCoordinate": 55.24038,
+      "isCoordinateApproximate": false
+    },
+    "ул. Урожайная": {
+      "name": "ул. Урожайная",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.41448,
+      "yCoordinate": 55.23662,
+      "isCoordinateApproximate": false
+    },
+    "ул. Орловская": {
+      "name": "ул. Орловская",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.40872,
+      "yCoordinate": 55.23679,
+      "isCoordinateApproximate": false
+    },
+    "ул. Красноуфимская": {
+      "name": "ул. Красноуфимская",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.40064,
+      "yCoordinate": 55.23739,
+      "isCoordinateApproximate": false
+    },
+    "Школа №57": {
+      "name": "Школа №57",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.39911,
+      "yCoordinate": 55.23562,
+      "isCoordinateApproximate": false
+    },
+    "Магазин": {
+      "name": "Магазин",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.39487,
+      "yCoordinate": 55.23235,
+      "isCoordinateApproximate": false
+    },
+    "ул. Аральская": {
+      "name": "ул. Аральская",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.39546,
+      "yCoordinate": 55.22823,
+      "isCoordinateApproximate": false
+    },
+    "Старое Першино": {
+      "name": "Старое Першино",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.39479,
+      "yCoordinate": 55.22255,
+      "isCoordinateApproximate": false
+    },
+    "Школа №71": {
+      "name": "Школа №71",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.39107,
+      "yCoordinate": 55.24008,
+      "isCoordinateApproximate": false
+    },
+    "Киноцентр Импульс": {
+      "name": "Киноцентр Импульс",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.38375,
+      "yCoordinate": 55.24171,
+      "isCoordinateApproximate": false
+    },
+    "пос. Першино": {
+      "name": "пос. Першино",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.37993,
+      "yCoordinate": 55.23811,
+      "isCoordinateApproximate": false
+    },
+    "ТК Северный": {
+      "name": "ТК Северный",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.37613,
+      "yCoordinate": 55.23251,
+      "isCoordinateApproximate": false
+    },
+    "ул. Черкасская": {
+      "name": "ул. Черкасская",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.37431,
+      "yCoordinate": 55.2291,
+      "isCoordinateApproximate": false
+    },
+    "Кирпичный завод": {
+      "name": "Кирпичный завод",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.3565,
+      "yCoordinate": 55.23277,
+      "isCoordinateApproximate": false
+    },
+    "Баня": {
+      "name": "Баня",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.34731,
+      "yCoordinate": 55.23164,
+      "isCoordinateApproximate": false
+    },
+    "ул. Барнаульская": {
+      "name": "ул. Барнаульская",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.34221,
+      "yCoordinate": 55.23147,
+      "isCoordinateApproximate": false
+    },
+    "ул. Бродокамская": {
+      "name": "ул. Бродокамская",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.33327,
+      "yCoordinate": 55.23079,
+      "isCoordinateApproximate": false
+    },
+    "Стройкомбинат": {
+      "name": "Стройкомбинат",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.325,
+      "yCoordinate": 55.23228,
+      "isCoordinateApproximate": false
+    },
+    "ЗАО Пластик": {
+      "name": "ЗАО Пластик",
+      "routeList": [
+        "Автобус 43        ЧМК - Стройкомбинат"
+      ],
+      "xCoordinate": 61.32508,
+      "yCoordinate": 55.21808,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "ЧМК",
+      "endStop": "ДК Восток",
+      "name": "ЧМК -> ДК Восток; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "Сквер Победы",
+      "endStop": "ДК Металлургов",
+      "name": "Сквер Победы -> ДК Металлургов; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "ДК Металлургов",
+      "endStop": "ул. Сталеваров",
+      "name": "ДК Металлургов -> ул. Сталеваров; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Сталеваров",
+      "endStop": "ул. Аносова",
+      "name": "ул. Сталеваров -> ул. Аносова; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Аносова",
+      "endStop": "Спорт комплекс Метар",
+      "name": "ул. Аносова -> Спорт комплекс Метар; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "Спорт комплекс Метар",
+      "endStop": "ул. Винницкая",
+      "name": "Спорт комплекс Метар -> ул. Винницкая; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Винницкая",
+      "endStop": "Сад Строитель",
+      "name": "ул. Винницкая -> Сад Строитель; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "Сад Строитель",
+      "endStop": "ул. Урожайная",
+      "name": "Сад Строитель -> ул. Урожайная; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Урожайная",
+      "endStop": "ул. Орловская",
+      "name": "ул. Урожайная -> ул. Орловская; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Орловская",
+      "endStop": "ул. Красноуфимская",
+      "name": "ул. Орловская -> ул. Красноуфимская; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Красноуфимская",
+      "endStop": "Школа №57",
+      "name": "ул. Красноуфимская -> Школа №57; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №57",
+      "endStop": "Магазин",
+      "name": "Школа №57 -> Магазин; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "Магазин",
+      "endStop": "ул. Аральская",
+      "name": "Магазин -> ул. Аральская; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Аральская",
+      "endStop": "Старое Першино",
+      "name": "ул. Аральская -> Старое Першино; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "Старое Першино",
+      "endStop": "ул. Аральская",
+      "name": "Старое Першино -> ул. Аральская; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Аральская",
+      "endStop": "Магазин",
+      "name": "ул. Аральская -> Магазин; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "Магазин",
+      "endStop": "Школа №57",
+      "name": "Магазин -> Школа №57; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "Школа №57",
+      "endStop": "Школа №71",
+      "name": "Школа №57 -> Школа №71; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 3
+    },
+    {
+      "startStop": "Школа №71",
+      "endStop": "Киноцентр Импульс",
+      "name": "Школа №71 -> Киноцентр Импульс; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "Киноцентр Импульс",
+      "endStop": "пос. Першино",
+      "name": "Киноцентр Импульс -> пос. Першино; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "пос. Першино",
+      "endStop": "ТК Северный",
+      "name": "пос. Першино -> ТК Северный; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 3
+    },
+    {
+      "startStop": "ТК Северный",
+      "endStop": "ул. Черкасская",
+      "name": "ТК Северный -> ул. Черкасская; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Черкасская",
+      "endStop": "Кирпичный завод",
+      "name": "ул. Черкасская -> Кирпичный завод; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 5
+    },
+    {
+      "startStop": "Кирпичный завод",
+      "endStop": "Баня",
+      "name": "Кирпичный завод -> Баня; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 3
+    },
+    {
+      "startStop": "Баня",
+      "endStop": "ул. Барнаульская",
+      "name": "Баня -> ул. Барнаульская; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 1
+    },
+    {
+      "startStop": "ул. Барнаульская",
+      "endStop": "ул. Бродокамская",
+      "name": "ул. Барнаульская -> ул. Бродокамская; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 2
+    },
+    {
+      "startStop": "ул. Бродокамская",
+      "endStop": "Стройкомбинат",
+      "name": "ул. Бродокамская -> Стройкомбинат; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 3
+    },
+    {
+      "startStop": "Стройкомбинат",
+      "endStop": "ЗАО Пластик",
+      "name": "Стройкомбинат -> ЗАО Пластик; route_name: Автобус 43        ЧМК - Стройкомбинат",
+      "route": "Автобус 43        ЧМК - Стройкомбинат",
+      "duration": 5
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "ЧМК",
+      "timePoint": "06:20"
+    },
+    {
+      "stopName": "ДК Восток",
+      "timePoint": "06:22"
+    },
+    {
+      "stopName": "Сквер Победы",
+      "timePoint": "06:22"
+    },
+    {
+      "stopName": "ДК Металлургов",
+      "timePoint": "06:24"
+    },
+    {
+      "stopName": "ул. Сталеваров",
+      "timePoint": "06:25"
+    },
+    {
+      "stopName": "ул. Аносова",
+      "timePoint": "06:27"
+    },
+    {
+      "stopName": "Спорт комплекс Метар",
+      "timePoint": "06:28"
+    },
+    {
+      "stopName": "ул. Винницкая",
+      "timePoint": "06:30"
+    },
+    {
+      "stopName": "Сад Строитель",
+      "timePoint": "06:31"
+    },
+    {
+      "stopName": "ул. Урожайная",
+      "timePoint": "06:33"
+    },
+    {
+      "stopName": "ул. Орловская",
+      "timePoint": "06:34"
+    },
+    {
+      "stopName": "ул. Красноуфимская",
+      "timePoint": "06:35"
+    },
+    {
+      "stopName": "Школа №57",
+      "timePoint": "06:36"
+    },
+    {
+      "stopName": "Магазин",
+      "timePoint": "06:38"
+    },
+    {
+      "stopName": "ул. Аральская",
+      "timePoint": "06:39"
+    },
+    {
+      "stopName": "Старое Першино",
+      "timePoint": "06:41"
+    },
+    {
+      "stopName": "ул. Аральская",
+      "timePoint": "06:42"
+    },
+    {
+      "stopName": "Магазин",
+      "timePoint": "06:44"
+    },
+    {
+      "stopName": "Школа №57",
+      "timePoint": "06:45"
+    },
+    {
+      "stopName": "Школа №71",
+      "timePoint": "06:48"
+    },
+    {
+      "stopName": "Киноцентр Импульс",
+      "timePoint": "06:50"
+    },
+    {
+      "stopName": "пос. Першино",
+      "timePoint": "06:52"
+    },
+    {
+      "stopName": "ТК Северный",
+      "timePoint": "06:55"
+    },
+    {
+      "stopName": "ул. Черкасская",
+      "timePoint": "06:56"
+    },
+    {
+      "stopName": "Кирпичный завод",
+      "timePoint": "07:01"
+    },
+    {
+      "stopName": "Баня",
+      "timePoint": "07:04"
+    },
+    {
+      "stopName": "ул. Барнаульская",
+      "timePoint": "07:05"
+    },
+    {
+      "stopName": "ул. Бродокамская",
+      "timePoint": "07:07"
+    },
+    {
+      "stopName": "Стройкомбинат",
+      "timePoint": "07:10"
+    },
+    {
+      "stopName": "ЗАО Пластик",
+      "timePoint": "07:15"
+    }
+  ],
+  "coordinates": {
+    "ЧМК": {
+      "x": 61.40996,
+      "y": 55.26399,
+      "is_approximate": false
+    },
+    "ДК Восток": {
+      "x": 61.40352,
+      "y": 55.2644,
+      "is_approximate": false
+    },
+    "Сквер Победы": {
+      "x": 61.40287,
+      "y": 55.26176,
+      "is_approximate": false
+    },
+    "ДК Металлургов": {
+      "x": 61.40297,
+      "y": 55.2582,
+      "is_approximate": false
+    },
+    "ул. Сталеваров": {
+      "x": 61.40336,
+      "y": 55.25125,
+      "is_approximate": false
+    },
+    "ул. Аносова": {
+      "x": 61.40375,
+      "y": 55.2467,
+      "is_approximate": false
+    },
+    "Спорт комплекс Метар": {
+      "x": 61.4039,
+      "y": 55.24351,
+      "is_approximate": false
+    },
+    "ул. Винницкая": {
+      "x": 61.41022,
+      "y": 55.24449,
+      "is_approximate": false
+    },
+    "Сад Строитель": {
+      "x": 61.4171,
+      "y": 55.24038,
+      "is_approximate": false
+    },
+    "ул. Урожайная": {
+      "x": 61.41448,
+      "y": 55.23662,
+      "is_approximate": false
+    },
+    "ул. Орловская": {
+      "x": 61.40872,
+      "y": 55.23679,
+      "is_approximate": false
+    },
+    "ул. Красноуфимская": {
+      "x": 61.40064,
+      "y": 55.23739,
+      "is_approximate": false
+    },
+    "Школа №57": {
+      "x": 61.39911,
+      "y": 55.23562,
+      "is_approximate": false
+    },
+    "Магазин": {
+      "x": 61.39487,
+      "y": 55.23235,
+      "is_approximate": false
+    },
+    "ул. Аральская": {
+      "x": 61.39546,
+      "y": 55.22823,
+      "is_approximate": false
+    },
+    "Старое Першино": {
+      "x": 61.39479,
+      "y": 55.22255,
+      "is_approximate": false
+    },
+    "Школа №71": {
+      "x": 61.39107,
+      "y": 55.24008,
+      "is_approximate": false
+    },
+    "Киноцентр Импульс": {
+      "x": 61.38375,
+      "y": 55.24171,
+      "is_approximate": false
+    },
+    "пос. Першино": {
+      "x": 61.37993,
+      "y": 55.23811,
+      "is_approximate": false
+    },
+    "ТК Северный": {
+      "x": 61.37613,
+      "y": 55.23251,
+      "is_approximate": false
+    },
+    "ул. Черкасская": {
+      "x": 61.37431,
+      "y": 55.2291,
+      "is_approximate": false
+    },
+    "Кирпичный завод": {
+      "x": 61.3565,
+      "y": 55.23277,
+      "is_approximate": false
+    },
+    "Баня": {
+      "x": 61.34731,
+      "y": 55.23164,
+      "is_approximate": false
+    },
+    "ул. Барнаульская": {
+      "x": 61.34221,
+      "y": 55.23147,
+      "is_approximate": false
+    },
+    "ул. Бродокамская": {
+      "x": 61.33327,
+      "y": 55.23079,
+      "is_approximate": false
+    },
+    "Стройкомбинат": {
+      "x": 61.325,
+      "y": 55.23228,
+      "is_approximate": false
+    },
+    "ЗАО Пластик": {
+      "x": 61.32508,
+      "y": 55.21808,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T18:45:49.036736"
+}

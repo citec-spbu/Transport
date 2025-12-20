@@ -1,0 +1,791 @@
+{
+  "routeNumber": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+  "routeUrl": "/ekb/bus/25",
+  "nodes": {
+    "ТЦ \"Мега\"": {
+      "name": "ТЦ \"Мега\"",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.502892,
+      "yCoordinate": 56.822747,
+      "isCoordinateApproximate": false
+    },
+    "ТК \"Новомосковский\"": {
+      "name": "ТК \"Новомосковский\"",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.518971,
+      "yCoordinate": 56.827552,
+      "isCoordinateApproximate": false
+    },
+    "Ново-Московский тракт": {
+      "name": "Ново-Московский тракт",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.528109,
+      "yCoordinate": 56.827802,
+      "isCoordinateApproximate": false
+    },
+    "Детский центр": {
+      "name": "Детский центр",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.533957,
+      "yCoordinate": 56.827452,
+      "isCoordinateApproximate": false
+    },
+    "Металлургов": {
+      "name": "Металлургов",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.54397,
+      "yCoordinate": 56.828309,
+      "isCoordinateApproximate": false
+    },
+    "Викулова": {
+      "name": "Викулова",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.543639,
+      "yCoordinate": 56.831275,
+      "isCoordinateApproximate": false
+    },
+    "Заводская": {
+      "name": "Заводская",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.550833,
+      "yCoordinate": 56.830855,
+      "isCoordinateApproximate": false
+    },
+    "Токарей": {
+      "name": "Токарей",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.560548,
+      "yCoordinate": 56.830191,
+      "isCoordinateApproximate": false
+    },
+    "Институт связи": {
+      "name": "Институт связи",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.568174,
+      "yCoordinate": 56.829697,
+      "isCoordinateApproximate": false
+    },
+    "Центральный стадион": {
+      "name": "Центральный стадион",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.575631,
+      "yCoordinate": 56.83128,
+      "isCoordinateApproximate": false
+    },
+    "ТЦ \"Алатырь\"": {
+      "name": "ТЦ \"Алатырь\"",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.58236,
+      "yCoordinate": 56.832022,
+      "isCoordinateApproximate": false
+    },
+    "Театр \"Волхонка\"": {
+      "name": "Театр \"Волхонка\"",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.591358,
+      "yCoordinate": 56.833183,
+      "isCoordinateApproximate": false
+    },
+    "Храм Большой Златоуст": {
+      "name": "Храм Большой Златоуст",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.598767,
+      "yCoordinate": 56.834081,
+      "isCoordinateApproximate": false
+    },
+    "Гостиница \"Центральная\"": {
+      "name": "Гостиница \"Центральная\"",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.610684,
+      "yCoordinate": 56.835159,
+      "isCoordinateApproximate": false
+    },
+    "Дом кино": {
+      "name": "Дом кино",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.620579,
+      "yCoordinate": 56.836257,
+      "isCoordinateApproximate": false
+    },
+    "Трансагентство": {
+      "name": "Трансагентство",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.632318,
+      "yCoordinate": 56.837657,
+      "isCoordinateApproximate": false
+    },
+    "Генеральская": {
+      "name": "Генеральская",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.636787,
+      "yCoordinate": 56.838659,
+      "isCoordinateApproximate": false
+    },
+    "Гагарина": {
+      "name": "Гагарина",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.643294,
+      "yCoordinate": 56.839416,
+      "isCoordinateApproximate": false
+    },
+    "Профессорская": {
+      "name": "Профессорская",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.651893,
+      "yCoordinate": 56.840653,
+      "isCoordinateApproximate": false
+    },
+    "Комсомольская": {
+      "name": "Комсомольская",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.658894,
+      "yCoordinate": 56.841234,
+      "isCoordinateApproximate": false
+    },
+    "Каменные палатки": {
+      "name": "Каменные палатки",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.677261,
+      "yCoordinate": 56.842229,
+      "isCoordinateApproximate": false
+    },
+    "Высоцкого": {
+      "name": "Высоцкого",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.687583,
+      "yCoordinate": 56.843358,
+      "isCoordinateApproximate": false
+    },
+    "п. Пески": {
+      "name": "п. Пески",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.70347,
+      "yCoordinate": 56.844939,
+      "isCoordinateApproximate": false
+    },
+    "Развилки": {
+      "name": "Развилки",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.724227,
+      "yCoordinate": 56.844811,
+      "isCoordinateApproximate": false
+    },
+    "Сады": {
+      "name": "Сады",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.761856,
+      "yCoordinate": 56.839832,
+      "isCoordinateApproximate": false
+    },
+    "Сад \"Росинка\"": {
+      "name": "Сад \"Росинка\"",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.786674,
+      "yCoordinate": 56.839441,
+      "isCoordinateApproximate": false
+    },
+    "Технопарк Университетский": {
+      "name": "Технопарк Университетский",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.789757,
+      "yCoordinate": 56.834723,
+      "isCoordinateApproximate": false
+    },
+    "Росинка-2": {
+      "name": "Росинка-2",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.788754,
+      "yCoordinate": 56.839487,
+      "isCoordinateApproximate": false
+    },
+    "КОР": {
+      "name": "КОР",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.695735,
+      "yCoordinate": 56.843329,
+      "isCoordinateApproximate": false
+    },
+    "Горького": {
+      "name": "Горького",
+      "routeList": [
+        "Автобус 25        ТЦ \"Мега\" - Технопарк"
+      ],
+      "xCoordinate": 60.608185,
+      "yCoordinate": 56.835118,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "ТЦ \"Мега\"",
+      "endStop": "ТК \"Новомосковский\"",
+      "name": "ТЦ \"Мега\" -> ТК \"Новомосковский\"; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 6
+    },
+    {
+      "startStop": "ТК \"Новомосковский\"",
+      "endStop": "Ново-Московский тракт",
+      "name": "ТК \"Новомосковский\" -> Ново-Московский тракт; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 2
+    },
+    {
+      "startStop": "Детский центр",
+      "endStop": "Металлургов",
+      "name": "Детский центр -> Металлургов; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 3
+    },
+    {
+      "startStop": "Трансагентство",
+      "endStop": "Дом кино",
+      "name": "Трансагентство -> Дом кино; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 2
+    },
+    {
+      "startStop": "Дом кино",
+      "endStop": "Горького",
+      "name": "Дом кино -> Горького; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 2
+    },
+    {
+      "startStop": "Горького",
+      "endStop": "Храм Большой Златоуст",
+      "name": "Горького -> Храм Большой Златоуст; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 3
+    },
+    {
+      "startStop": "Храм Большой Златоуст",
+      "endStop": "Театр \"Волхонка\"",
+      "name": "Храм Большой Златоуст -> Театр \"Волхонка\"; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 1
+    },
+    {
+      "startStop": "Театр \"Волхонка\"",
+      "endStop": "ТЦ \"Алатырь\"",
+      "name": "Театр \"Волхонка\" -> ТЦ \"Алатырь\"; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 2
+    },
+    {
+      "startStop": "ТЦ \"Алатырь\"",
+      "endStop": "Центральный стадион",
+      "name": "ТЦ \"Алатырь\" -> Центральный стадион; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 3
+    },
+    {
+      "startStop": "Центральный стадион",
+      "endStop": "Институт связи",
+      "name": "Центральный стадион -> Институт связи; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 2
+    },
+    {
+      "startStop": "Институт связи",
+      "endStop": "Токарей",
+      "name": "Институт связи -> Токарей; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 2
+    },
+    {
+      "startStop": "Токарей",
+      "endStop": "Заводская",
+      "name": "Токарей -> Заводская; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 2
+    },
+    {
+      "startStop": "Заводская",
+      "endStop": "Викулова",
+      "name": "Заводская -> Викулова; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 169
+    },
+    {
+      "startStop": "Металлургов",
+      "endStop": "Детский центр",
+      "name": "Металлургов -> Детский центр; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 4
+    },
+    {
+      "startStop": "Детский центр",
+      "endStop": "Ново-Московский тракт",
+      "name": "Детский центр -> Ново-Московский тракт; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 1
+    },
+    {
+      "startStop": "Ново-Московский тракт",
+      "endStop": "ТК \"Новомосковский\"",
+      "name": "Ново-Московский тракт -> ТК \"Новомосковский\"; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 1
+    },
+    {
+      "startStop": "ТК \"Новомосковский\"",
+      "endStop": "ТЦ \"Мега\"",
+      "name": "ТК \"Новомосковский\" -> ТЦ \"Мега\"; route_name: Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "route": "Автобус 25        ТЦ \"Мега\" - Технопарк",
+      "duration": 7
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "ТЦ \"Мега\"",
+      "timePoint": "08:56"
+    },
+    {
+      "stopName": "ТК \"Новомосковский\"",
+      "timePoint": "09:02"
+    },
+    {
+      "stopName": "Ново-Московский тракт",
+      "timePoint": "09:04"
+    },
+    {
+      "stopName": "Детский центр",
+      "timePoint": "09:04"
+    },
+    {
+      "stopName": "Металлургов",
+      "timePoint": "09:07"
+    },
+    {
+      "stopName": "Викулова",
+      "timePoint": "05:54E"
+    },
+    {
+      "stopName": "Заводская",
+      "timePoint": "05:55E"
+    },
+    {
+      "stopName": "Токарей",
+      "timePoint": "05:57E"
+    },
+    {
+      "stopName": "Институт связи",
+      "timePoint": "05:59E"
+    },
+    {
+      "stopName": "Центральный стадион",
+      "timePoint": "06:00E"
+    },
+    {
+      "stopName": "ТЦ \"Алатырь\"",
+      "timePoint": "06:02E"
+    },
+    {
+      "stopName": "Театр \"Волхонка\"",
+      "timePoint": "06:04E"
+    },
+    {
+      "stopName": "Храм Большой Златоуст",
+      "timePoint": "06:07E"
+    },
+    {
+      "stopName": "Гостиница \"Центральная\"",
+      "timePoint": "06:09E"
+    },
+    {
+      "stopName": "Дом кино",
+      "timePoint": "06:12E"
+    },
+    {
+      "stopName": "Трансагентство",
+      "timePoint": "06:14E"
+    },
+    {
+      "stopName": "Генеральская",
+      "timePoint": "06:15E"
+    },
+    {
+      "stopName": "Гагарина",
+      "timePoint": "06:16E"
+    },
+    {
+      "stopName": "Профессорская",
+      "timePoint": "06:19E"
+    },
+    {
+      "stopName": "Комсомольская",
+      "timePoint": "06:20E"
+    },
+    {
+      "stopName": "Каменные палатки",
+      "timePoint": "06:23E"
+    },
+    {
+      "stopName": "Высоцкого",
+      "timePoint": "06:25E"
+    },
+    {
+      "stopName": "п. Пески",
+      "timePoint": "06:26E"
+    },
+    {
+      "stopName": "Развилки",
+      "timePoint": "06:28E"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "06:31E"
+    },
+    {
+      "stopName": "Сад \"Росинка\"",
+      "timePoint": "06:33E"
+    },
+    {
+      "stopName": "Технопарк Университетский",
+      "timePoint": "06:34E"
+    },
+    {
+      "stopName": "Технопарк Университетский",
+      "timePoint": "06:39F"
+    },
+    {
+      "stopName": "Росинка-2",
+      "timePoint": "06:39F"
+    },
+    {
+      "stopName": "Сад \"Росинка\"",
+      "timePoint": "06:39F"
+    },
+    {
+      "stopName": "Сады",
+      "timePoint": "06:42F"
+    },
+    {
+      "stopName": "Развилки",
+      "timePoint": "06:45F"
+    },
+    {
+      "stopName": "п. Пески",
+      "timePoint": "06:47F"
+    },
+    {
+      "stopName": "КОР",
+      "timePoint": "06:48F"
+    },
+    {
+      "stopName": "Высоцкого",
+      "timePoint": "06:49F"
+    },
+    {
+      "stopName": "Каменные палатки",
+      "timePoint": "06:50F"
+    },
+    {
+      "stopName": "Комсомольская",
+      "timePoint": "06:54F"
+    },
+    {
+      "stopName": "Профессорская",
+      "timePoint": "06:56F"
+    },
+    {
+      "stopName": "Гагарина",
+      "timePoint": "06:58F"
+    },
+    {
+      "stopName": "Генеральская",
+      "timePoint": "06:59F"
+    },
+    {
+      "stopName": "Трансагентство",
+      "timePoint": "05:24"
+    },
+    {
+      "stopName": "Дом кино",
+      "timePoint": "05:26"
+    },
+    {
+      "stopName": "Горького",
+      "timePoint": "05:28"
+    },
+    {
+      "stopName": "Храм Большой Златоуст",
+      "timePoint": "05:31"
+    },
+    {
+      "stopName": "Театр \"Волхонка\"",
+      "timePoint": "05:32"
+    },
+    {
+      "stopName": "ТЦ \"Алатырь\"",
+      "timePoint": "05:34"
+    },
+    {
+      "stopName": "Центральный стадион",
+      "timePoint": "05:37"
+    },
+    {
+      "stopName": "Институт связи",
+      "timePoint": "05:39"
+    },
+    {
+      "stopName": "Токарей",
+      "timePoint": "05:41"
+    },
+    {
+      "stopName": "Заводская",
+      "timePoint": "05:43"
+    },
+    {
+      "stopName": "Викулова",
+      "timePoint": "08:32"
+    },
+    {
+      "stopName": "Металлургов",
+      "timePoint": "08:32"
+    },
+    {
+      "stopName": "Детский центр",
+      "timePoint": "08:36"
+    },
+    {
+      "stopName": "Ново-Московский тракт",
+      "timePoint": "08:37"
+    },
+    {
+      "stopName": "ТК \"Новомосковский\"",
+      "timePoint": "08:38"
+    },
+    {
+      "stopName": "ТЦ \"Мега\"",
+      "timePoint": "08:45"
+    }
+  ],
+  "coordinates": {
+    "ТЦ \"Мега\"": {
+      "x": 60.502892,
+      "y": 56.822747,
+      "is_approximate": false
+    },
+    "ТК \"Новомосковский\"": {
+      "x": 60.518971,
+      "y": 56.827552,
+      "is_approximate": false
+    },
+    "Ново-Московский тракт": {
+      "x": 60.528109,
+      "y": 56.827802,
+      "is_approximate": false
+    },
+    "Детский центр": {
+      "x": 60.533957,
+      "y": 56.827452,
+      "is_approximate": false
+    },
+    "Металлургов": {
+      "x": 60.54397,
+      "y": 56.828309,
+      "is_approximate": false
+    },
+    "Викулова": {
+      "x": 60.543639,
+      "y": 56.831275,
+      "is_approximate": false
+    },
+    "Заводская": {
+      "x": 60.550833,
+      "y": 56.830855,
+      "is_approximate": false
+    },
+    "Токарей": {
+      "x": 60.560548,
+      "y": 56.830191,
+      "is_approximate": false
+    },
+    "Институт связи": {
+      "x": 60.568174,
+      "y": 56.829697,
+      "is_approximate": false
+    },
+    "Центральный стадион": {
+      "x": 60.575631,
+      "y": 56.83128,
+      "is_approximate": false
+    },
+    "ТЦ \"Алатырь\"": {
+      "x": 60.58236,
+      "y": 56.832022,
+      "is_approximate": false
+    },
+    "Театр \"Волхонка\"": {
+      "x": 60.591358,
+      "y": 56.833183,
+      "is_approximate": false
+    },
+    "Храм Большой Златоуст": {
+      "x": 60.598767,
+      "y": 56.834081,
+      "is_approximate": false
+    },
+    "Гостиница \"Центральная\"": {
+      "x": 60.610684,
+      "y": 56.835159,
+      "is_approximate": false
+    },
+    "Дом кино": {
+      "x": 60.620579,
+      "y": 56.836257,
+      "is_approximate": false
+    },
+    "Трансагентство": {
+      "x": 60.632318,
+      "y": 56.837657,
+      "is_approximate": false
+    },
+    "Генеральская": {
+      "x": 60.636787,
+      "y": 56.838659,
+      "is_approximate": false
+    },
+    "Гагарина": {
+      "x": 60.643294,
+      "y": 56.839416,
+      "is_approximate": false
+    },
+    "Профессорская": {
+      "x": 60.651893,
+      "y": 56.840653,
+      "is_approximate": false
+    },
+    "Комсомольская": {
+      "x": 60.658894,
+      "y": 56.841234,
+      "is_approximate": false
+    },
+    "Каменные палатки": {
+      "x": 60.677261,
+      "y": 56.842229,
+      "is_approximate": false
+    },
+    "Высоцкого": {
+      "x": 60.687583,
+      "y": 56.843358,
+      "is_approximate": false
+    },
+    "п. Пески": {
+      "x": 60.70347,
+      "y": 56.844939,
+      "is_approximate": false
+    },
+    "Развилки": {
+      "x": 60.724227,
+      "y": 56.844811,
+      "is_approximate": false
+    },
+    "Сады": {
+      "x": 60.761856,
+      "y": 56.839832,
+      "is_approximate": false
+    },
+    "Сад \"Росинка\"": {
+      "x": 60.786674,
+      "y": 56.839441,
+      "is_approximate": false
+    },
+    "Технопарк Университетский": {
+      "x": 60.789757,
+      "y": 56.834723,
+      "is_approximate": false
+    },
+    "Росинка-2": {
+      "x": 60.788754,
+      "y": 56.839487,
+      "is_approximate": false
+    },
+    "КОР": {
+      "x": 60.695735,
+      "y": 56.843329,
+      "is_approximate": false
+    },
+    "Горького": {
+      "x": 60.608185,
+      "y": 56.835118,
+      "is_approximate": false
+    },
+    "Радиоколледж": {
+      "x": 60.52561,
+      "y": 56.83223,
+      "is_approximate": false
+    },
+    "Крауля": {
+      "x": 60.534375,
+      "y": 56.831891,
+      "is_approximate": false
+    },
+    "УрФУ": {
+      "x": 60.651003,
+      "y": 56.843154,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T17:13:58.703186"
+}

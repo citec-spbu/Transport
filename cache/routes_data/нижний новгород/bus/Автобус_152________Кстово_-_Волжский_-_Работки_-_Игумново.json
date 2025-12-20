@@ -1,0 +1,539 @@
+{
+  "routeNumber": "Автобус 152        Кстово - Волжский - Работки - Игумново",
+  "routeUrl": "/nnov/bus/152",
+  "nodes": {
+    "Автостанция (Кстово)": {
+      "name": "Автостанция (Кстово)",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.196137,
+      "yCoordinate": 56.157345,
+      "isCoordinateApproximate": false
+    },
+    "ул Магистральная": {
+      "name": "ул Магистральная",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.204229,
+      "yCoordinate": 56.153579,
+      "isCoordinateApproximate": false
+    },
+    "Агат": {
+      "name": "Агат",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.217321,
+      "yCoordinate": 56.145965,
+      "isCoordinateApproximate": false
+    },
+    "Подвалиха": {
+      "name": "Подвалиха",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.270663,
+      "yCoordinate": 56.122447,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Студенец": {
+      "name": "поворот на Студенец",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.283003,
+      "yCoordinate": 56.111491,
+      "isCoordinateApproximate": false
+    },
+    "Ветчак": {
+      "name": "Ветчак",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.307041,
+      "yCoordinate": 56.09968,
+      "isCoordinateApproximate": false
+    },
+    "Починок": {
+      "name": "Починок",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.323472,
+      "yCoordinate": 56.093417,
+      "isCoordinateApproximate": false
+    },
+    "Сады Кудьма": {
+      "name": "Сады Кудьма",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.346137,
+      "yCoordinate": 56.085797,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Борок": {
+      "name": "поворот на Борок",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.380266,
+      "yCoordinate": 56.0639,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Шаву": {
+      "name": "поворот на Шаву",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.398097,
+      "yCoordinate": 56.056652,
+      "isCoordinateApproximate": false
+    },
+    "Шава": {
+      "name": "Шава",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.411179,
+      "yCoordinate": 56.068298,
+      "isCoordinateApproximate": false
+    },
+    "поворот на Кадницы": {
+      "name": "поворот на Кадницы",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.433084,
+      "yCoordinate": 56.04578,
+      "isCoordinateApproximate": false
+    },
+    "Запрудное": {
+      "name": "Запрудное",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.443676,
+      "yCoordinate": 56.042653,
+      "isCoordinateApproximate": false
+    },
+    "Горяньково": {
+      "name": "Горяньково",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.495365,
+      "yCoordinate": 56.034808,
+      "isCoordinateApproximate": false
+    },
+    "Варварское (поворот)": {
+      "name": "Варварское (поворот)",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.506486,
+      "yCoordinate": 56.031339,
+      "isCoordinateApproximate": false
+    },
+    "Голошубиха": {
+      "name": "Голошубиха",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.543698,
+      "yCoordinate": 56.048751,
+      "isCoordinateApproximate": false
+    },
+    "Волжский": {
+      "name": "Волжский",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.57413,
+      "yCoordinate": 56.04707,
+      "isCoordinateApproximate": false
+    },
+    "Работки (автостанция)": {
+      "name": "Работки (автостанция)",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.614393,
+      "yCoordinate": 56.035141,
+      "isCoordinateApproximate": false
+    },
+    "Абатурово": {
+      "name": "Абатурово",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.626926,
+      "yCoordinate": 56.01448,
+      "isCoordinateApproximate": false
+    },
+    "Развилка на Сергач": {
+      "name": "Развилка на Сергач",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.62993,
+      "yCoordinate": 56.003683,
+      "isCoordinateApproximate": false
+    },
+    "Игумново": {
+      "name": "Игумново",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.701272,
+      "yCoordinate": 55.951145,
+      "isCoordinateApproximate": false
+    },
+    "Чернышиха": {
+      "name": "Чернышиха",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.66158,
+      "yCoordinate": 55.972417,
+      "isCoordinateApproximate": false
+    },
+    "Заправка Малиновка": {
+      "name": "Заправка Малиновка",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.63408,
+      "yCoordinate": 56.002687,
+      "isCoordinateApproximate": false
+    },
+    "Волжский (по требованию)": {
+      "name": "Волжский (по требованию)",
+      "routeList": [
+        "Автобус 152        Кстово - Волжский - Работки - Игумново"
+      ],
+      "xCoordinate": 44.56983,
+      "yCoordinate": 56.04429,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [],
+  "timetable": [
+    {
+      "stopName": "Автостанция (Кстово)",
+      "timePoint": "06:20E"
+    },
+    {
+      "stopName": "ул Магистральная",
+      "timePoint": "06:20E"
+    },
+    {
+      "stopName": "Агат",
+      "timePoint": "06:22E"
+    },
+    {
+      "stopName": "Подвалиха",
+      "timePoint": "06:27E"
+    },
+    {
+      "stopName": "поворот на Студенец",
+      "timePoint": "06:29E"
+    },
+    {
+      "stopName": "Ветчак",
+      "timePoint": "06:31E"
+    },
+    {
+      "stopName": "Починок",
+      "timePoint": "06:32E"
+    },
+    {
+      "stopName": "Сады Кудьма",
+      "timePoint": "06:34E"
+    },
+    {
+      "stopName": "поворот на Борок",
+      "timePoint": "06:38E"
+    },
+    {
+      "stopName": "поворот на Шаву",
+      "timePoint": "06:40E"
+    },
+    {
+      "stopName": "Шава",
+      "timePoint": "16:45J"
+    },
+    {
+      "stopName": "поворот на Кадницы",
+      "timePoint": "06:43E"
+    },
+    {
+      "stopName": "Запрудное",
+      "timePoint": "06:44E"
+    },
+    {
+      "stopName": "Горяньково",
+      "timePoint": "06:48E"
+    },
+    {
+      "stopName": "Варварское (поворот)",
+      "timePoint": "06:49E"
+    },
+    {
+      "stopName": "Голошубиха",
+      "timePoint": "06:53E"
+    },
+    {
+      "stopName": "Волжский",
+      "timePoint": "05:04D"
+    },
+    {
+      "stopName": "Работки (автостанция)",
+      "timePoint": "07:00E"
+    },
+    {
+      "stopName": "Абатурово",
+      "timePoint": "07:08E"
+    },
+    {
+      "stopName": "Развилка на Сергач",
+      "timePoint": "07:09E"
+    },
+    {
+      "stopName": "Игумново",
+      "timePoint": "07:20E"
+    },
+    {
+      "stopName": "Игумново",
+      "timePoint": "07:20F"
+    },
+    {
+      "stopName": "Чернышиха",
+      "timePoint": "07:24F"
+    },
+    {
+      "stopName": "Заправка Малиновка",
+      "timePoint": "07:30F"
+    },
+    {
+      "stopName": "Абатурово",
+      "timePoint": "07:31F"
+    },
+    {
+      "stopName": "Работки (автостанция)",
+      "timePoint": "05:00D"
+    },
+    {
+      "stopName": "Волжский",
+      "timePoint": "05:04D"
+    },
+    {
+      "stopName": "Волжский (по требованию)",
+      "timePoint": "05:05D"
+    },
+    {
+      "stopName": "Голошубиха",
+      "timePoint": "05:07D"
+    },
+    {
+      "stopName": "Варварское (поворот)",
+      "timePoint": "05:12D"
+    },
+    {
+      "stopName": "Горяньково",
+      "timePoint": "05:13D"
+    },
+    {
+      "stopName": "Запрудное",
+      "timePoint": "05:17D"
+    },
+    {
+      "stopName": "поворот на Кадницы",
+      "timePoint": "05:18D"
+    },
+    {
+      "stopName": "Шава",
+      "timePoint": "16:45J"
+    },
+    {
+      "stopName": "поворот на Шаву",
+      "timePoint": "05:21D"
+    },
+    {
+      "stopName": "поворот на Борок",
+      "timePoint": "05:23D"
+    },
+    {
+      "stopName": "Сады Кудьма",
+      "timePoint": "05:28D"
+    },
+    {
+      "stopName": "Починок",
+      "timePoint": "05:30D"
+    },
+    {
+      "stopName": "Ветчак",
+      "timePoint": "05:32D"
+    },
+    {
+      "stopName": "поворот на Студенец",
+      "timePoint": "05:34D"
+    },
+    {
+      "stopName": "Подвалиха",
+      "timePoint": "05:36D"
+    },
+    {
+      "stopName": "Агат",
+      "timePoint": "05:42D"
+    },
+    {
+      "stopName": "ул Магистральная",
+      "timePoint": "05:43D"
+    },
+    {
+      "stopName": "Автостанция (Кстово)",
+      "timePoint": "05:45D"
+    }
+  ],
+  "coordinates": {
+    "Автостанция (Кстово)": {
+      "x": 44.196137,
+      "y": 56.157345,
+      "is_approximate": false
+    },
+    "ул Магистральная": {
+      "x": 44.204229,
+      "y": 56.153579,
+      "is_approximate": false
+    },
+    "Агат": {
+      "x": 44.217321,
+      "y": 56.145965,
+      "is_approximate": false
+    },
+    "Подвалиха": {
+      "x": 44.270663,
+      "y": 56.122447,
+      "is_approximate": false
+    },
+    "поворот на Студенец": {
+      "x": 44.283003,
+      "y": 56.111491,
+      "is_approximate": false
+    },
+    "Ветчак": {
+      "x": 44.307041,
+      "y": 56.09968,
+      "is_approximate": false
+    },
+    "Починок": {
+      "x": 44.323472,
+      "y": 56.093417,
+      "is_approximate": false
+    },
+    "Сады Кудьма": {
+      "x": 44.346137,
+      "y": 56.085797,
+      "is_approximate": false
+    },
+    "поворот на Борок": {
+      "x": 44.380266,
+      "y": 56.0639,
+      "is_approximate": false
+    },
+    "поворот на Шаву": {
+      "x": 44.398097,
+      "y": 56.056652,
+      "is_approximate": false
+    },
+    "Шава": {
+      "x": 44.411179,
+      "y": 56.068298,
+      "is_approximate": false
+    },
+    "поворот на Кадницы": {
+      "x": 44.433084,
+      "y": 56.04578,
+      "is_approximate": false
+    },
+    "Запрудное": {
+      "x": 44.443676,
+      "y": 56.042653,
+      "is_approximate": false
+    },
+    "Горяньково": {
+      "x": 44.495365,
+      "y": 56.034808,
+      "is_approximate": false
+    },
+    "Варварское (поворот)": {
+      "x": 44.506486,
+      "y": 56.031339,
+      "is_approximate": false
+    },
+    "Голошубиха": {
+      "x": 44.543698,
+      "y": 56.048751,
+      "is_approximate": false
+    },
+    "Волжский": {
+      "x": 44.57413,
+      "y": 56.04707,
+      "is_approximate": false
+    },
+    "Работки (автостанция)": {
+      "x": 44.614393,
+      "y": 56.035141,
+      "is_approximate": false
+    },
+    "Абатурово": {
+      "x": 44.626926,
+      "y": 56.01448,
+      "is_approximate": false
+    },
+    "Развилка на Сергач": {
+      "x": 44.62993,
+      "y": 56.003683,
+      "is_approximate": false
+    },
+    "Игумново": {
+      "x": 44.701272,
+      "y": 55.951145,
+      "is_approximate": false
+    },
+    "Чернышиха": {
+      "x": 44.66158,
+      "y": 55.972417,
+      "is_approximate": false
+    },
+    "Заправка Малиновка": {
+      "x": 44.63408,
+      "y": 56.002687,
+      "is_approximate": false
+    },
+    "Волжский (по требованию)": {
+      "x": 44.56983,
+      "y": 56.04429,
+      "is_approximate": false
+    },
+    "Чеченино": {
+      "x": 44.632542,
+      "y": 56.039315,
+      "is_approximate": false
+    },
+    "Соколово": {
+      "x": 44.568772,
+      "y": 55.963618,
+      "is_approximate": false
+    },
+    "Слопинец": {
+      "x": 44.669954,
+      "y": 56.032015,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T19:33:13.025731"
+}

@@ -1,0 +1,464 @@
+{
+  "routeNumber": "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+  "routeUrl": "/nnov/bus/2a",
+  "nodes": {
+    "ул Рождественская": {
+      "name": "ул Рождественская",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.406518,
+      "yCoordinate": 56.621646,
+      "isCoordinateApproximate": false
+    },
+    "Овощная база(ул Грунина)": {
+      "name": "Овощная база(ул Грунина)",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.412433,
+      "yCoordinate": 56.623636,
+      "isCoordinateApproximate": false
+    },
+    "Хлебозавод": {
+      "name": "Хлебозавод",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.414991,
+      "yCoordinate": 56.62809,
+      "isCoordinateApproximate": false
+    },
+    "Магазин \"Волга\"": {
+      "name": "Магазин \"Волга\"",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.411006,
+      "yCoordinate": 56.631516,
+      "isCoordinateApproximate": false
+    },
+    "Гастроном": {
+      "name": "Гастроном",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.396457,
+      "yCoordinate": 56.633509,
+      "isCoordinateApproximate": false
+    },
+    "Больница": {
+      "name": "Больница",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.396661,
+      "yCoordinate": 56.62989,
+      "isCoordinateApproximate": false
+    },
+    "АТС": {
+      "name": "АТС",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.396021,
+      "yCoordinate": 56.637458,
+      "isCoordinateApproximate": false
+    },
+    "Дом Культуры": {
+      "name": "Дом Культуры",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.390323,
+      "yCoordinate": 56.636643,
+      "isCoordinateApproximate": false
+    },
+    "школа №3": {
+      "name": "школа №3",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.390323,
+      "yCoordinate": 56.636643,
+      "isCoordinateApproximate": true
+    },
+    "Поликлиника": {
+      "name": "Поликлиника",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.382122,
+      "yCoordinate": 56.640879,
+      "isCoordinateApproximate": false
+    },
+    "Рынок": {
+      "name": "Рынок",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.383556,
+      "yCoordinate": 56.643406,
+      "isCoordinateApproximate": false
+    },
+    "Горгаз": {
+      "name": "Горгаз",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.371153,
+      "yCoordinate": 56.643731,
+      "isCoordinateApproximate": false
+    },
+    "пл 1 Мая": {
+      "name": "пл 1 Мая",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.364362,
+      "yCoordinate": 56.640958,
+      "isCoordinateApproximate": false
+    },
+    "ул Рабочая": {
+      "name": "ул Рабочая",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.356648,
+      "yCoordinate": 56.641065,
+      "isCoordinateApproximate": false
+    },
+    "ул Возрождения": {
+      "name": "ул Возрождения",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.348274,
+      "yCoordinate": 56.644087,
+      "isCoordinateApproximate": false
+    },
+    "Сады Юбилейный": {
+      "name": "Сады Юбилейный",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.343143,
+      "yCoordinate": 56.64171,
+      "isCoordinateApproximate": false
+    },
+    "Сады Мечта": {
+      "name": "Сады Мечта",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.315319,
+      "yCoordinate": 56.635241,
+      "isCoordinateApproximate": false
+    },
+    "Сады Победа": {
+      "name": "Сады Победа",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.315441,
+      "yCoordinate": 56.63031,
+      "isCoordinateApproximate": false
+    },
+    "школа №3 1": {
+      "name": "школа №3 1",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.382122,
+      "yCoordinate": 56.640879,
+      "isCoordinateApproximate": true
+    },
+    "кафе \"Теремок\"": {
+      "name": "кафе \"Теремок\"",
+      "routeList": [
+        "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа"
+      ],
+      "xCoordinate": 43.404866,
+      "yCoordinate": 56.633369,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [
+    {
+      "startStop": "Сады Юбилейный",
+      "endStop": "Сады Мечта",
+      "name": "Сады Юбилейный -> Сады Мечта; route_name: Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+      "route": "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+      "duration": 5
+    },
+    {
+      "startStop": "Сады Мечта",
+      "endStop": "Сады Победа",
+      "name": "Сады Мечта -> Сады Победа; route_name: Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+      "route": "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+      "duration": 2
+    },
+    {
+      "startStop": "Сады Победа",
+      "endStop": "Сады Мечта",
+      "name": "Сады Победа -> Сады Мечта; route_name: Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+      "route": "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+      "duration": 2
+    },
+    {
+      "startStop": "Сады Мечта",
+      "endStop": "Сады Юбилейный",
+      "name": "Сады Мечта -> Сады Юбилейный; route_name: Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+      "route": "Автобус 2а        Заволжье ул Рождественская - ул Возрождения - сады Победа",
+      "duration": 6
+    }
+  ],
+  "timetable": [
+    {
+      "stopName": "ул Рождественская",
+      "timePoint": "07:30C"
+    },
+    {
+      "stopName": "Овощная база(ул Грунина)",
+      "timePoint": "07:31C"
+    },
+    {
+      "stopName": "Хлебозавод",
+      "timePoint": "07:34C"
+    },
+    {
+      "stopName": "Магазин \"Волга\"",
+      "timePoint": "07:36C"
+    },
+    {
+      "stopName": "Гастроном",
+      "timePoint": "07:39C"
+    },
+    {
+      "stopName": "Больница",
+      "timePoint": "07:41C"
+    },
+    {
+      "stopName": "АТС",
+      "timePoint": "07:44C"
+    },
+    {
+      "stopName": "Дом Культуры",
+      "timePoint": "07:46C"
+    },
+    {
+      "stopName": "школа №3",
+      "timePoint": "07:48C"
+    },
+    {
+      "stopName": "Поликлиника",
+      "timePoint": "07:49C"
+    },
+    {
+      "stopName": "Рынок",
+      "timePoint": "07:51C"
+    },
+    {
+      "stopName": "Горгаз",
+      "timePoint": "07:54C"
+    },
+    {
+      "stopName": "пл 1 Мая",
+      "timePoint": "07:55C"
+    },
+    {
+      "stopName": "ул Рабочая",
+      "timePoint": "07:57C"
+    },
+    {
+      "stopName": "ул Возрождения",
+      "timePoint": "08:00C"
+    },
+    {
+      "stopName": "Сады Юбилейный",
+      "timePoint": "09:53"
+    },
+    {
+      "stopName": "Сады Мечта",
+      "timePoint": "09:58"
+    },
+    {
+      "stopName": "Сады Победа",
+      "timePoint": "10:00"
+    },
+    {
+      "stopName": "Сады Победа",
+      "timePoint": "10:00"
+    },
+    {
+      "stopName": "Сады Мечта",
+      "timePoint": "10:02"
+    },
+    {
+      "stopName": "Сады Юбилейный",
+      "timePoint": "10:08"
+    },
+    {
+      "stopName": "ул Возрождения",
+      "timePoint": "08:00D"
+    },
+    {
+      "stopName": "ул Рабочая",
+      "timePoint": "08:02D"
+    },
+    {
+      "stopName": "пл 1 Мая",
+      "timePoint": "08:03D"
+    },
+    {
+      "stopName": "Горгаз",
+      "timePoint": "08:05D"
+    },
+    {
+      "stopName": "Рынок",
+      "timePoint": "08:08D"
+    },
+    {
+      "stopName": "Поликлиника",
+      "timePoint": "08:10D"
+    },
+    {
+      "stopName": "школа №3",
+      "timePoint": "08:11D"
+    },
+    {
+      "stopName": "Дом Культуры",
+      "timePoint": "08:13D"
+    },
+    {
+      "stopName": "АТС",
+      "timePoint": "08:15D"
+    },
+    {
+      "stopName": "Гастроном",
+      "timePoint": "07:39C"
+    },
+    {
+      "stopName": "Больница",
+      "timePoint": "07:41C"
+    },
+    {
+      "stopName": "кафе \"Теремок\"",
+      "timePoint": "08:21D"
+    },
+    {
+      "stopName": "Магазин \"Волга\"",
+      "timePoint": "08:23D"
+    },
+    {
+      "stopName": "Хлебозавод",
+      "timePoint": "08:25D"
+    },
+    {
+      "stopName": "Овощная база(ул Грунина)",
+      "timePoint": "08:28D"
+    },
+    {
+      "stopName": "ул Рождественская",
+      "timePoint": "08:30D"
+    }
+  ],
+  "coordinates": {
+    "ул Рождественская": {
+      "x": 43.406518,
+      "y": 56.621646,
+      "is_approximate": false
+    },
+    "Овощная база(ул Грунина)": {
+      "x": 43.412433,
+      "y": 56.623636,
+      "is_approximate": false
+    },
+    "Хлебозавод": {
+      "x": 43.414991,
+      "y": 56.62809,
+      "is_approximate": false
+    },
+    "Магазин \"Волга\"": {
+      "x": 43.411006,
+      "y": 56.631516,
+      "is_approximate": false
+    },
+    "Гастроном": {
+      "x": 43.396457,
+      "y": 56.633509,
+      "is_approximate": false
+    },
+    "Больница": {
+      "x": 43.396661,
+      "y": 56.62989,
+      "is_approximate": false
+    },
+    "АТС": {
+      "x": 43.396021,
+      "y": 56.637458,
+      "is_approximate": false
+    },
+    "Дом Культуры": {
+      "x": 43.390323,
+      "y": 56.636643,
+      "is_approximate": false
+    },
+    "Школа №3": {
+      "x": 43.384358,
+      "y": 56.637979,
+      "is_approximate": false
+    },
+    "Поликлиника": {
+      "x": 43.382122,
+      "y": 56.640879,
+      "is_approximate": false
+    },
+    "Рынок": {
+      "x": 43.383556,
+      "y": 56.643406,
+      "is_approximate": false
+    },
+    "Горгаз": {
+      "x": 43.371153,
+      "y": 56.643731,
+      "is_approximate": false
+    },
+    "пл 1 Мая": {
+      "x": 43.364362,
+      "y": 56.640958,
+      "is_approximate": false
+    },
+    "ул Рабочая": {
+      "x": 43.356648,
+      "y": 56.641065,
+      "is_approximate": false
+    },
+    "ул Возрождения": {
+      "x": 43.348274,
+      "y": 56.644087,
+      "is_approximate": false
+    },
+    "Сады Юбилейный": {
+      "x": 43.343143,
+      "y": 56.64171,
+      "is_approximate": false
+    },
+    "Сады Мечта": {
+      "x": 43.315319,
+      "y": 56.635241,
+      "is_approximate": false
+    },
+    "Сады Победа": {
+      "x": 43.315441,
+      "y": 56.63031,
+      "is_approximate": false
+    },
+    "кафе \"Теремок\"": {
+      "x": 43.404866,
+      "y": 56.633369,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T19:12:50.136792"
+}

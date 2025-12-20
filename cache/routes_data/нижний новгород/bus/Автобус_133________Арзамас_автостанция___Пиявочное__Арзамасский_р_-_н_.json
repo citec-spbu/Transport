@@ -1,0 +1,358 @@
+{
+  "routeNumber": "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)",
+  "routeUrl": "/nnov/bus/133",
+  "nodes": {
+    "Автостанция": {
+      "name": "Автостанция",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.816475,
+      "yCoordinate": 55.383474,
+      "isCoordinateApproximate": false
+    },
+    "ул Угодникова": {
+      "name": "ул Угодникова",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.813816,
+      "yCoordinate": 55.382953,
+      "isCoordinateApproximate": false
+    },
+    "пл Ленина": {
+      "name": "пл Ленина",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.794143,
+      "yCoordinate": 55.383708,
+      "isCoordinateApproximate": false
+    },
+    "Районная больница": {
+      "name": "Районная больница",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.775035,
+      "yCoordinate": 55.3856,
+      "isCoordinateApproximate": false
+    },
+    "ФОК Чемпион": {
+      "name": "ФОК Чемпион",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.771468,
+      "yCoordinate": 55.387353,
+      "isCoordinateApproximate": false
+    },
+    "Школа": {
+      "name": "Школа",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.74408,
+      "yCoordinate": 55.396184,
+      "isCoordinateApproximate": false
+    },
+    "ул Медицинская(с Абрамово)": {
+      "name": "ул Медицинская(с Абрамово)",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.669302,
+      "yCoordinate": 55.4029,
+      "isCoordinateApproximate": false
+    },
+    "Поселковая администрация (с Абрамово)": {
+      "name": "Поселковая администрация (с Абрамово)",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.665319,
+      "yCoordinate": 55.410351,
+      "isCoordinateApproximate": false
+    },
+    "Марьевка": {
+      "name": "Марьевка",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.672473,
+      "yCoordinate": 55.433303,
+      "isCoordinateApproximate": false
+    },
+    "Поворот на ГВУ ОСРЦН Золотой колос": {
+      "name": "Поворот на ГВУ ОСРЦН Золотой колос",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.655905,
+      "yCoordinate": 55.440248,
+      "isCoordinateApproximate": false
+    },
+    "Ж/д переезд 393 км ГЖД": {
+      "name": "Ж/д переезд 393 км ГЖД",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.599702,
+      "yCoordinate": 55.472269,
+      "isCoordinateApproximate": false
+    },
+    "Костылиха": {
+      "name": "Костылиха",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.596185,
+      "yCoordinate": 55.481702,
+      "isCoordinateApproximate": false
+    },
+    "Ковакса": {
+      "name": "Ковакса",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.502748,
+      "yCoordinate": 55.519147,
+      "isCoordinateApproximate": false
+    },
+    "Пиявочное": {
+      "name": "Пиявочное",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.516025,
+      "yCoordinate": 55.544448,
+      "isCoordinateApproximate": false
+    },
+    "Арзамасская районная больница": {
+      "name": "Арзамасская районная больница",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.775443,
+      "yCoordinate": 55.385147,
+      "isCoordinateApproximate": false
+    },
+    "Автостанция (Арзамас)": {
+      "name": "Автостанция (Арзамас)",
+      "routeList": [
+        "Автобус 133        Арзамас автостанция – Пиявочное (Арзамасский р - н)"
+      ],
+      "xCoordinate": 43.816998,
+      "yCoordinate": 55.383606,
+      "isCoordinateApproximate": false
+    }
+  },
+  "relationships": [],
+  "timetable": [
+    {
+      "stopName": "Автостанция",
+      "timePoint": "05:05E"
+    },
+    {
+      "stopName": "ул Угодникова",
+      "timePoint": "05:05E"
+    },
+    {
+      "stopName": "пл Ленина",
+      "timePoint": "05:08E"
+    },
+    {
+      "stopName": "Районная больница",
+      "timePoint": "05:11E"
+    },
+    {
+      "stopName": "ФОК Чемпион",
+      "timePoint": "05:12E"
+    },
+    {
+      "stopName": "Школа",
+      "timePoint": "05:16E"
+    },
+    {
+      "stopName": "ул Медицинская(с Абрамово)",
+      "timePoint": "05:26E"
+    },
+    {
+      "stopName": "Поселковая администрация (с Абрамово)",
+      "timePoint": "05:28E"
+    },
+    {
+      "stopName": "Марьевка",
+      "timePoint": "05:34E"
+    },
+    {
+      "stopName": "Поворот на ГВУ ОСРЦН Золотой колос",
+      "timePoint": "05:37E"
+    },
+    {
+      "stopName": "Ж/д переезд 393 км ГЖД",
+      "timePoint": "05:48E"
+    },
+    {
+      "stopName": "Костылиха",
+      "timePoint": "05:50E"
+    },
+    {
+      "stopName": "Ковакса",
+      "timePoint": "06:07E"
+    },
+    {
+      "stopName": "Пиявочное",
+      "timePoint": "08:25"
+    },
+    {
+      "stopName": "Пиявочное",
+      "timePoint": "08:30"
+    },
+    {
+      "stopName": "Ковакса",
+      "timePoint": "06:10F"
+    },
+    {
+      "stopName": "Костылиха",
+      "timePoint": "06:26F"
+    },
+    {
+      "stopName": "Ж/д переезд 393 км ГЖД",
+      "timePoint": "06:28F"
+    },
+    {
+      "stopName": "Поворот на ГВУ ОСРЦН Золотой колос",
+      "timePoint": "06:39F"
+    },
+    {
+      "stopName": "Марьевка",
+      "timePoint": "06:42F"
+    },
+    {
+      "stopName": "Поселковая администрация (с Абрамово)",
+      "timePoint": "06:48F"
+    },
+    {
+      "stopName": "ул Медицинская(с Абрамово)",
+      "timePoint": "06:50F"
+    },
+    {
+      "stopName": "Школа",
+      "timePoint": "07:00F"
+    },
+    {
+      "stopName": "ФОК Чемпион",
+      "timePoint": "07:04F"
+    },
+    {
+      "stopName": "Арзамасская районная больница",
+      "timePoint": "07:05F"
+    },
+    {
+      "stopName": "пл Ленина",
+      "timePoint": "07:08F"
+    },
+    {
+      "stopName": "ул Угодникова",
+      "timePoint": "07:11F"
+    },
+    {
+      "stopName": "Автостанция (Арзамас)",
+      "timePoint": "07:12F"
+    }
+  ],
+  "coordinates": {
+    "Автостанция": {
+      "x": 43.816475,
+      "y": 55.383474,
+      "is_approximate": false
+    },
+    "ул Угодникова": {
+      "x": 43.813816,
+      "y": 55.382953,
+      "is_approximate": false
+    },
+    "пл Ленина": {
+      "x": 43.794143,
+      "y": 55.383708,
+      "is_approximate": false
+    },
+    "Районная больница": {
+      "x": 43.775035,
+      "y": 55.3856,
+      "is_approximate": false
+    },
+    "ФОК Чемпион": {
+      "x": 43.771468,
+      "y": 55.387353,
+      "is_approximate": false
+    },
+    "Школа": {
+      "x": 43.74408,
+      "y": 55.396184,
+      "is_approximate": false
+    },
+    "ул Медицинская(с Абрамово)": {
+      "x": 43.669302,
+      "y": 55.4029,
+      "is_approximate": false
+    },
+    "Поселковая администрация (с Абрамово)": {
+      "x": 43.665319,
+      "y": 55.410351,
+      "is_approximate": false
+    },
+    "Марьевка": {
+      "x": 43.672473,
+      "y": 55.433303,
+      "is_approximate": false
+    },
+    "Поворот на ГВУ ОСРЦН Золотой колос": {
+      "x": 43.655905,
+      "y": 55.440248,
+      "is_approximate": false
+    },
+    "Ж/д переезд 393 км ГЖД": {
+      "x": 43.599702,
+      "y": 55.472269,
+      "is_approximate": false
+    },
+    "Костылиха": {
+      "x": 43.596185,
+      "y": 55.481702,
+      "is_approximate": false
+    },
+    "Ковакса": {
+      "x": 43.502748,
+      "y": 55.519147,
+      "is_approximate": false
+    },
+    "Пиявочное": {
+      "x": 43.516025,
+      "y": 55.544448,
+      "is_approximate": false
+    },
+    "Фок Чемпион": {
+      "x": 43.772444,
+      "y": 55.386608,
+      "is_approximate": false
+    },
+    "Арзамасская районная больница": {
+      "x": 43.775443,
+      "y": 55.385147,
+      "is_approximate": false
+    },
+    "Автостанция (Арзамас)": {
+      "x": 43.816998,
+      "y": 55.383606,
+      "is_approximate": false
+    },
+    "Каменка": {
+      "x": 43.705394,
+      "y": 55.436372,
+      "is_approximate": false
+    }
+  },
+  "timestamp": "2025-11-22T19:32:27.867238"
+}
