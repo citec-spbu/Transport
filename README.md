@@ -167,7 +167,7 @@ API — основные эндпоинты
 - `POST /v1/datasets` — создание/загрузка датасета (`{ "transport_type": "bus|tram|...", "city": "Город" }`). Возвращает `dataset_id`.
 - `DELETE /v1/datasets/{dataset_id}` — удалить датасет и связанный граф.
 - `POST /v1/analysis/cluster` — запустить кластеризацию (`{ "dataset_id": "...", "method": "leiden|louvain" }`).
-- `POST /v1/analysis/metric` — рассчитать метрику (`{ "dataset_id": "...", "metric": "pagerank|betweenness" }`).
+- `POST /v1/analysis/metric` — рассчитать метрику (`{ "dataset_id": "...", "metric_type": "pagerank|betweenness" }`).
 
 Примеры использования (curl)
 ---
@@ -193,6 +193,7 @@ curl -s -X POST "http://127.0.0.1:8050/v1/analysis/cluster" \
 ```bash
 curl -s -X POST "http://127.0.0.1:8050/v1/analysis/metric" \
   -H "Content-Type: application/json" \
-  -d '{"dataset_id":"<DATASET_ID>","metric":"pagerank"}' | jq
+  -d '{"dataset_id":"<DATASET_ID>","metric_type":"pagerank"}' | jq
 ```
+
 
