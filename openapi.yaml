@@ -1,24 +1,23 @@
----
 openapi: 3.1.0
 info:
   title: Graph Analysis API
-  description: API для загрузки, анализа и визуализации графов маршрутов. Поддерживает
-    гостевой вход, вход по email-коду, загрузку наборов данных, кластеризацию и вычисление
-    метрик (PageRank, Betweenness).
+  description: >-
+    API для загрузки, анализа и визуализации графов маршрутов. Поддерживает
+    гостевой вход, вход по email-коду, загрузку наборов данных, кластеризацию и
+    вычисление метрик (PageRank, Betweenness).
   version: 1.0.0
 paths:
-  "/v1/auth/request_code":
+  /v1/auth/request_code:
     post:
       tags:
-      - auth
+        - auth
       summary: Request Code
-      description: Отправить код подтверждения на email
       operationId: request_code_v1_auth_request_code_post
       requestBody:
         content:
           application/json:
             schema:
-              "$ref": "#/components/schemas/RequestCodeRequest"
+              $ref: '#/components/schemas/RequestCodeRequest'
         required: true
       responses:
         '200':
@@ -26,25 +25,24 @@ paths:
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/RequestCodeResponse"
+                $ref: '#/components/schemas/RequestCodeResponse'
         '422':
           description: Validation Error
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/HTTPValidationError"
-  "/v1/auth/verify_code":
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/auth/verify_code:
     post:
       tags:
-      - auth
+        - auth
       summary: Verify Code
-      description: Проверить код подтверждения и получить токен
       operationId: verify_code_v1_auth_verify_code_post
       requestBody:
         content:
           application/json:
             schema:
-              "$ref": "#/components/schemas/VerifyCodeRequest"
+              $ref: '#/components/schemas/VerifyCodeRequest'
         required: true
       responses:
         '200':
@@ -52,19 +50,18 @@ paths:
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/VerifyCodeResponse"
+                $ref: '#/components/schemas/VerifyCodeResponse'
         '422':
           description: Validation Error
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/HTTPValidationError"
-  "/v1/auth/guest":
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/auth/guest:
     post:
       tags:
-      - auth
+        - auth
       summary: Guest
-      description: Гостевой вход без регистрации
       operationId: guest_v1_auth_guest_post
       responses:
         '200':
@@ -72,45 +69,95 @@ paths:
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/GuestTokenResponse"
-  "/v1/datasets/":
+                $ref: '#/components/schemas/GuestTokenResponse'
+  /v1/datasets/:
     post:
       tags:
-      - datasets
+        - datasets
       summary: Upload Dataset
+      description: |-
+        Загружает новый датасет маршрутов для города.
+
+        Строит граф в Neo4j/GDS на основе выбранного типа
+        транспорта и возвращает идентификатор полученного датасета.
       operationId: upload_dataset_v1_datasets__post
+      parameters:
+        - name: authorization
+          in: header
+          required: false
+          schema:
+            anyOf:
+              - type: string
+              - type: 'null'
+            title: Authorization
       requestBody:
+        required: true
         content:
           application/json:
             schema:
-              "$ref": "#/components/schemas/DatasetUploadRequest"
-        required: true
+              $ref: '#/components/schemas/DatasetUploadRequest'
       responses:
         '200':
           description: Successful Response
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/DatasetUploadResponse"
+                $ref: '#/components/schemas/DatasetUploadResponse'
         '422':
           description: Validation Error
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/HTTPValidationError"
-  "/v1/datasets/{dataset_id}":
+                $ref: '#/components/schemas/HTTPValidationError'
+    get:
+      tags:
+        - datasets
+      summary: List Datasets
+      operationId: list_datasets_v1_datasets__get
+      parameters:
+        - name: authorization
+          in: header
+          required: false
+          schema:
+            anyOf:
+              - type: string
+              - type: 'null'
+            title: Authorization
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DatasetListResponse'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/datasets/{dataset_id}:
     delete:
       tags:
-      - datasets
+        - datasets
       summary: Delete Dataset
       operationId: delete_dataset_v1_datasets__dataset_id__delete
       parameters:
-      - name: dataset_id
-        in: path
-        required: true
-        schema:
-          type: string
-          title: Dataset Id
+        - name: dataset_id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+            title: Dataset Id
+        - name: authorization
+          in: header
+          required: false
+          schema:
+            anyOf:
+              - type: string
+              - type: 'null'
+            title: Authorization
       responses:
         '200':
           description: Successful Response
@@ -122,18 +169,23 @@ paths:
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/HTTPValidationError"
-  "/v1/analysis/cluster":
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/analysis/cluster:
     post:
       tags:
-      - analysis
+        - analysis
       summary: Cluster Analysis
+      description: |-
+        Выполняет кластеризацию графа для датасета.
+
+        Принимает параметры метода кластеризации и возвращает узлы
+        с метками кластеров и статистику по кластерам.
       operationId: cluster_analysis_v1_analysis_cluster_post
       requestBody:
         content:
           application/json:
             schema:
-              "$ref": "#/components/schemas/ClusterRequest"
+              $ref: '#/components/schemas/ClusterRequest'
         required: true
       responses:
         '200':
@@ -141,24 +193,29 @@ paths:
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/ClusterResponse"
+                $ref: '#/components/schemas/ClusterResponse'
         '422':
           description: Validation Error
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/HTTPValidationError"
-  "/v1/analysis/metric":
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/analysis/metric:
     post:
       tags:
-      - analysis
+        - analysis
       summary: Metric Analysis
+      description: |-
+        Рассчитывает выбранную метрику графа для датасета.
+
+        Поддерживает метрики PageRank и Betweenness, возвращает список
+        узлов с значениями метрик.
       operationId: metric_analysis_v1_analysis_metric_post
       requestBody:
         content:
           application/json:
             schema:
-              "$ref": "#/components/schemas/MetricAnalysisRequest"
+              $ref: '#/components/schemas/MetricAnalysisRequest'
         required: true
       responses:
         '200':
@@ -166,13 +223,13 @@ paths:
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/MetricAnalysisResponse"
+                $ref: '#/components/schemas/MetricAnalysisResponse'
         '422':
           description: Validation Error
           content:
             application/json:
               schema:
-                "$ref": "#/components/schemas/HTTPValidationError"
+                $ref: '#/components/schemas/HTTPValidationError'
 components:
   schemas:
     ClusterNode:
@@ -194,87 +251,117 @@ components:
           maxItems: 2
           minItems: 2
           title: Coordinates
-          description: "[longitude, latitude]"
+          description: '[longitude, latitude]'
           example:
-          - 30.33
-          - 59.93
+            - 30.33
+            - 59.93
       type: object
       required:
-      - id
-      - name
-      - cluster_id
-      - coordinates
+        - id
+        - name
+        - cluster_id
+        - coordinates
       title: ClusterNode
     ClusterRequest:
       properties:
         dataset_id:
           type: string
+          format: uuid
           title: Dataset Id
-          example: abc123
+          example: b361e37f-a5bc-436d-ac58-dfe573c29aac
         method:
-          "$ref": "#/components/schemas/ClusteringMethod"
+          $ref: '#/components/schemas/ClusteringMethod'
           description: Метод кластеризации
       type: object
       required:
-      - dataset_id
-      - method
+        - dataset_id
+        - method
       title: ClusterRequest
     ClusterResponse:
       properties:
         dataset_id:
           type: string
+          format: uuid
           title: Dataset Id
-        method:
-          "$ref": "#/components/schemas/ClusteringMethod"
+        type:
+          $ref: '#/components/schemas/ClusteringMethod'
+          default: cluster
+          example: cluster
         nodes:
           items:
-            "$ref": "#/components/schemas/ClusterNode"
+            $ref: '#/components/schemas/ClusterNode'
           type: array
           title: Nodes
         statistics:
-          "$ref": "#/components/schemas/ClusterStatistics"
+          $ref: '#/components/schemas/ClusterStatistics'
       type: object
       required:
-      - dataset_id
-      - method
-      - nodes
-      - statistics
+        - dataset_id
+        - nodes
+        - statistics
       title: ClusterResponse
     ClusterStatistics:
       properties:
         modularity:
-          anyOf:
-          - type: number
-          - type: 'null'
+          type: number
           title: Modularity
           description: Модулярность (0-1, выше лучше)
           example: 0.45
         conductance:
-          anyOf:
-          - type: number
-          - type: 'null'
+          type: number
           title: Conductance
           description: Проводимость (0-1, ниже лучше)
           example: 0.12
         coverage:
-          anyOf:
-          - type: number
-          - type: 'null'
+          type: number
           title: Coverage
           description: Покрытие (0-1, выше лучше)
           example: 0.78
       type: object
+      required:
+        - modularity
+        - conductance
+        - coverage
       title: ClusterStatistics
     ClusteringMethod:
       type: string
       enum:
-      - leiden
-      - louvain
+        - leiden
+        - louvain
       title: ClusteringMethod
+    DatasetInfo:
+      properties:
+        dataset_id:
+          type: string
+          format: uuid
+          title: Dataset Id
+        city:
+          type: string
+          title: City
+          example: Saint Petersburg
+        transport_type:
+          $ref: '#/components/schemas/TransportType'
+      type: object
+      required:
+        - dataset_id
+        - city
+        - transport_type
+      title: DatasetInfo
+    DatasetListResponse:
+      properties:
+        datasets:
+          items:
+            $ref: '#/components/schemas/DatasetInfo'
+          type: array
+          title: Datasets
+      type: object
+      required:
+        - datasets
+      title: DatasetListResponse
     DatasetUploadRequest:
       properties:
         transport_type:
-          "$ref": "#/components/schemas/TransportType"
+          $ref: '#/components/schemas/TransportType'
           description: Тип транспорта
           example: bus
         city:
@@ -284,23 +371,19 @@ components:
           example: Бирск
       type: object
       required:
-      - transport_type
-      - city
+        - transport_type
+        - city
       title: DatasetUploadRequest
     DatasetUploadResponse:
       properties:
         dataset_id:
           type: string
+          format: uuid
           title: Dataset Id
-          example: abc123
-        name:
-          type: string
-          title: Name
-          example: Bus routes — Saint Petersburg
+          example: b361e37f-a5bc-436d-ac58-dfe573c29aac
       type: object
       required:
-      - dataset_id
-      - name
+        - dataset_id
       title: DatasetUploadResponse
     GuestTokenResponse:
       properties:
@@ -310,13 +393,13 @@ components:
           example: guest-token
       type: object
       required:
-      - token
+        - token
       title: GuestTokenResponse
     HTTPValidationError:
       properties:
         detail:
           items:
-            "$ref": "#/components/schemas/ValidationError"
+            $ref: '#/components/schemas/ValidationError'
           type: array
           title: Detail
       type: object
@@ -325,32 +408,35 @@ components:
       properties:
         dataset_id:
           type: string
+          format: uuid
           title: Dataset Id
-          example: abc123
+          example: b361e37f-a5bc-436d-ac58-dfe573c29aac
         metric_type:
-          "$ref": "#/components/schemas/MetricType"
+          $ref: '#/components/schemas/MetricType'
       type: object
       required:
-      - dataset_id
-      - metric_type
+        - dataset_id
+        - metric_type
       title: MetricAnalysisRequest
     MetricAnalysisResponse:
       properties:
         dataset_id:
           type: string
+          format: uuid
           title: Dataset Id
         metric_type:
-          "$ref": "#/components/schemas/MetricType"
+          $ref: '#/components/schemas/MetricType'
+          default: metric
+          example: metric
         nodes:
           items:
-            "$ref": "#/components/schemas/MetricNode"
+            $ref: '#/components/schemas/MetricNode'
           type: array
           title: Nodes
       type: object
       required:
-      - dataset_id
-      - metric_type
-      - nodes
+        - dataset_id
+        - nodes
       title: MetricAnalysisResponse
     MetricNode:
       properties:
@@ -371,32 +457,33 @@ components:
           maxItems: 2
           minItems: 2
           title: Coordinates
-          description: "[longitude, latitude]"
+          description: '[longitude, latitude]'
           example:
-          - 30.33
-          - 59.93
+            - 30.33
+            - 59.93
       type: object
       required:
-      - id
-      - name
-      - metric
-      - coordinates
+        - id
+        - name
+        - metric
+        - coordinates
       title: MetricNode
     MetricType:
       type: string
       enum:
-      - pagerank
-      - betweenness
+        - pagerank
+        - betweenness
       title: MetricType
     RequestCodeRequest:
       properties:
         email:
           type: string
+          format: email
           title: Email
           example: user@example.com
       type: object
       required:
-      - email
+        - email
       title: RequestCodeRequest
     RequestCodeResponse:
       properties:
@@ -404,25 +491,30 @@ components:
           type: string
           title: Message
           example: Verification code sent
+        token:
+          anyOf:
+            - type: string
+            - type: 'null'
+          title: Token
       type: object
       required:
-      - message
+        - message
       title: RequestCodeResponse
     TransportType:
       type: string
       enum:
-      - bus
-      - tram
-      - trolleybus
-      - minibus
+        - bus
+        - tram
+        - trolleybus
+        - minibus
       title: TransportType
     ValidationError:
       properties:
         loc:
           items:
             anyOf:
-            - type: string
-            - type: integer
+              - type: string
+              - type: integer
           type: array
           title: Location
         msg:
@@ -433,9 +525,9 @@ components:
           title: Error Type
       type: object
       required:
-      - loc
-      - msg
-      - type
+        - loc
+        - msg
+        - type
       title: ValidationError
     VerifyCodeRequest:
       properties:
@@ -449,20 +541,20 @@ components:
           example: '123456'
       type: object
       required:
-      - email
-      - code
+        - email
+        - code
       title: VerifyCodeRequest
     VerifyCodeResponse:
       properties:
         token:
           anyOf:
-          - type: string
-          - type: 'null'
+            - type: string
+            - type: 'null'
           title: Token
         email:
           type: string
           title: Email
       type: object
       required:
-      - email
+        - email
       title: VerifyCodeResponse
