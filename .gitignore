@@ -1,0 +1,70 @@
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Тестирование
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Окружение
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# Сертификаты (ВАЖНО: не коммитить приватные ключи!)
+certs/*.key
+certs/*.pem
+certs/*.pfx
+certs/*.p12
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
